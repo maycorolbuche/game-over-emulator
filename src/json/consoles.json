@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Mega Drive",
+        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl85.png",
+        "id": "gens"
+    },
+    {
+        "name": "Nintendo",
+        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6c.png",
+        "id": "nes"
+    },
+    {
+        "name": "Super Nintendo",
+        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7k.png",
+        "id": "snes"
+    },
+    {
+        "name": "Sega CD",
+        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7w.png",
+        "id": "scd"
+    }
+]
