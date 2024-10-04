@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="100 200 300 200" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 100 300 L 200 300 L 200 200 L 300 200 L 300 300 L 400 300 L 400 400 L 100 400 L 100 300 Z" style="fill: rgb(245, 222, 104);"/>
+</svg>
