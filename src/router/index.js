@@ -8,8 +8,20 @@ const routes = [
   },
   {
     path: '/games',
+    name: 'Consoles',
+    component: () => import('../views/Consoles.vue'),
+  },
+  {
+    path: '/games/:console_id',
     name: 'Games',
     component: () => import('../views/Games.vue'),
+    props: true
+  },
+  {
+    path: '/games/:console_id/:game_id',
+    name: 'Game',
+    component: () => import('../views/Games.vue'),
+    props: true
   },
   {
     path: '/about',

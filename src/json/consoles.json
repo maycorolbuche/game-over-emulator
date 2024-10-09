@@ -1,22 +1,28 @@
 [
-    {
-        "name": "Mega Drive",
-        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl85.png",
-        "id": "gens"
-    },
-    {
-        "name": "Nintendo",
-        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6c.png",
-        "id": "nes"
-    },
-    {
-        "name": "Super Nintendo",
-        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7k.png",
-        "id": "snes"
-    },
-    {
-        "name": "Sega CD",
-        "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7w.png",
-        "id": "scd"
-    }
+  {
+    "name": "Mega Drive",
+    "image": "/images/consoles/gens.png",
+    "id": "gens",
+    "core": "genesis_plus_gx",
+    "active": true
+  },
+  {
+    "name": "Nintendo",
+    "image": "/images/consoles/nes.png",
+    "id": "nes",
+    "active": false
+  },
+  {
+    "name": "Sega CD",
+    "image": "/images/consoles/scd.png",
+    "id": "scd",
+    "active": false
+  },
+  {
+    "name": "Super Nintendo",
+    "image": "/images/consoles/snes.png",
+    "id": "snes",
+    "core": "snes9x",
+    "active": true
+  }
 ]

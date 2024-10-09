@@ -1,0 +1,154 @@
+[
+  {
+    "name": "2020 Super Baseball",
+    "filename": "2020 Super Baseball (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "2020_super_baseball",
+    "active": true
+  },
+  {
+    "name": "90 Minutes - European Prime Goal",
+    "filename": "90 Minutes - European Prime Goal (E) [!].smc",
+    "image": "",
+    "console": "snes",
+    "id": "90_minutes_european_prime_goal",
+    "active": true
+  },
+  {
+    "name": "A.S.P. Air Strike Patrol",
+    "filename": "A.S.P. Air Strike Patrol (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "a_s_p",
+    "active": true
+  },
+  {
+    "name": "AAAHH! Real Monsters",
+    "filename": "AAAHH! Real Monsters (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "aaahh_real_monsters",
+    "active": true
+  },
+  {
+    "name": "AAAHH!!! Real Monsters",
+    "filename": "AAAHH!!! Real Monsters (U) [!].smc",
+    "image": "",
+    "console": "snes",
+    "id": "aaahh_real_monsters",
+    "active": true
+  },
+  {
+    "name": "ABC Monday Night Football",
+    "filename": "ABC Monday Night Football (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "abc_monday_night_football",
+    "active": true
+  },
+  {
+    "name": "ACME Animation Factory",
+    "filename": "ACME Animation Factory (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "acme_animation_factory",
+    "active": true
+  },
+  {
+    "name": "AD&D - Eye of the Beholder",
+    "filename": "AD&D - Eye of the Beholder (U) [!].smc",
+    "image": "",
+    "console": "snes",
+    "id": "ad_d_eye_of_the_beholder",
+    "active": true
+  },
+  {
+    "name": "AD&D - Eye of the Beholder",
+    "filename": "AD&D - Eye of the Beholder (U) [!].srm",
+    "image": "",
+    "console": "snes",
+    "id": "ad_d_eye_of_the_beholder",
+    "active": true
+  },
+  {
+    "name": "Aaahh!!! Real Monsters",
+    "filename": "Aaahh!!! Real Monsters (4) [!].smd",
+    "image": "",
+    "console": "gens",
+    "id": "aaahh_real_monsters",
+    "active": true
+  },
+  {
+    "name": "Aah! Harimanada",
+    "filename": "Aah! Harimanada (J).smd",
+    "image": "",
+    "console": "gens",
+    "id": "aah_harimanada",
+    "active": true
+  },
+  {
+    "name": "Act Raiser",
+    "filename": "Act Raiser (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "act_raiser",
+    "active": true
+  },
+  {
+    "name": "Act Raiser 2",
+    "filename": "Act Raiser 2 (U).smc",
+    "image": "",
+    "console": "snes",
+    "id": "act_raiser_2",
+    "active": true
+  },
+  {
+    "name": "Action 52-in-1",
+    "filename": "Action 52-in-1 (UJE) [c][!].smd",
+    "image": "",
+    "console": "gens",
+    "id": "action_52_in_1",
+    "active": true
+  },
+  {
+    "name": "Addams Family Values",
+    "filename": "Addams Family Values (8) [!].smd",
+    "image": "",
+    "console": "gens",
+    "id": "addams_family_values",
+    "active": true
+  },
+  {
+    "name": "Addams Family Values",
+    "filename": "Addams Family Values (E).smc",
+    "image": "",
+    "console": "snes",
+    "id": "addams_family_values",
+    "active": true
+  },
+  {
+    "name": "Addams Family, The",
+    "filename": "Addams Family, The (UE) [!].smd",
+    "image": "",
+    "console": "gens",
+    "id": "addams_family_the",
+    "active": true
+  },
+  {
+    "name": "Sonic the Hedgehog",
+    "filename": "Sonic the Hedgehog (JUE) [!].smd",
+    "image": "",
+    "console": "gens",
+    "id": "sonic_the_hedgehog",
+    "active": true
+  },
+  {
+    "name": "Super Mario World",
+    "filename": "Super Mario World (U) [!].smc",
+    "image": "",
+    "console": "snes",
+    "id": "super_mario_world",
+    "active": true
+  }
+]

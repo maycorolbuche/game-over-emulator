@@ -13,8 +13,8 @@
     </router-link>
     <router-link
       class="menu"
-      :to="{ name: 'Games' }"
-      :class="{ active: $route.name === 'Games' }"
+      :to="{ name: 'Consoles' }"
+      :class="{ active: $route.name === 'Consoles' || $route.name === 'Games' }"
     >
       Jogos
     </router-link>
