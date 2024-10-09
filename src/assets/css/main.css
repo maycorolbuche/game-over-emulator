@@ -97,6 +97,14 @@ body {
     display: table-cell !important;
 }
 
+.flex-auto {
+    flex: auto !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
 .flex-row {
     flex-direction: row !important;
 }
