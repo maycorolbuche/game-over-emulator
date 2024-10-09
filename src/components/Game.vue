@@ -1,9 +1,27 @@
 <template>
   <div id="emulator" class="d-flex align-stretch" style="height: 100%">
-    <div id="emulator-container" style="overflow: hidden">
-      <div v-if="interact" class="loading">CLIQUE PARA INICIAR</div>
+    <div
+      id="emulator-container"
+      ref="emulatorContainer"
+      style="overflow: hidden"
+    >
+      <div v-if="is_paused && !interact && !loading" class="message">
+        PAUSADO
+      </div>
+
+      <div v-if="interact" class="loading" style="cursor: pointer">
+        CLIQUE PARA INICIAR
+      </div>
       <div v-else-if="loading" class="loading">CARREGANDO</div>
-      <canvas id="emulator-canvas" style="width: 100%; height: 100%" />
+
+      <canvas
+        id="emulator-canvas"
+        :style="{
+          width: '100%',
+          height: '100%',
+          opacity: this.is_paused ? 0.2 : 1,
+        }"
+      />
     </div>
     <div>
       <a href="javascript:" @click="close()">FECHAR</a>
@@ -19,6 +37,8 @@
       {{ image }} <br />
       {{ console }}
       ----{{ interact }} [{{ core }}]
+      <br />
+      PAUSADO? {{ is_paused }}
     </div>
   </div>
 </template>
@@ -41,6 +61,7 @@ export default {
       loading: false,
       nostalgist: null,
       interact: true,
+      is_paused: false,
     };
   },
   methods: {
@@ -73,16 +94,15 @@ export default {
       */
     },
     pause() {
-      console.log("PAUSE!!");
       if (this.nostalgist) {
-        console.log("PAUSE");
         this.nostalgist.pause();
+        this.is_paused = true;
       }
     },
     play() {
       if (this.nostalgist) {
-        console.log("PLAY");
         this.nostalgist.resume();
+        this.is_paused = false;
       }
     },
     close() {
@@ -100,6 +120,13 @@ export default {
     handleResize() {
       document.getElementById("emulator-container").style.width =
         document.getElementById("emulator").clientWidth - 150 + "px";
+
+      if (this.nostalgist) {
+        this.nostalgist.resize({
+          width: this.$refs.emulatorContainer.getBoundingClientRect().width,
+          height: this.$refs.emulatorContainer.getBoundingClientRect().height,
+        });
+      }
     },
   },
   mounted() {
@@ -129,6 +156,7 @@ export default {
 #emulator-container {
   background: #000;
 }
+
 .loading {
   font-family: "Press Start 2P", cursive;
   width: 100%;
@@ -137,5 +165,14 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.message {
+  color: #fff;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  background: #000;
+  font-family: "Press Start 2P", cursive;
+  z-index: 300;
 }
 </style>

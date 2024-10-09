@@ -21,7 +21,12 @@
     </div>
 
     <modal v-if="game" @close="closeGame()">
-      <game v-bind="game" :core="consol.core" @close="closeGame()" />
+      <game
+        v-bind="game"
+        :console="consol.id"
+        :core="consol.core"
+        @close="closeGame()"
+      />
     </modal>
 
     {{ console_id }}|{{ game_id }}|{{ game }}
@@ -107,7 +112,9 @@ export default {
   },
   mounted() {
     if (this.game_id) {
-      const game = this.json_roms.find((rom) => rom.id === this.game_id);
+      const game = this.json_roms.find(
+        (rom) => rom.id === this.game_id && rom.console === this.console_id
+      );
       if (game) {
         this.openGame(game);
       }
