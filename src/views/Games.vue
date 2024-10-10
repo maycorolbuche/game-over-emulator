@@ -25,6 +25,7 @@
         v-bind="game"
         :console="consol.id"
         :core="consol.core"
+        :console_image="consol.image"
         @close="closeGame()"
       />
     </modal>
@@ -85,8 +86,28 @@ export default {
         });
     },
   },
+  watch: {
+    $route(to) {
+      if (to.params.game_id) {
+        this.openGame(
+          this.json_roms.find(
+            (rom) =>
+              rom.id === to.params.game_id &&
+              rom.console === to.params.console_id
+          )
+        );
+      } else {
+        this.closeGame();
+      }
+    },
+  },
   methods: {
     openGame(game) {
+      if (!game || game == undefined) {
+        this.closeGame();
+        return;
+      }
+
       this.$router.push({
         name: "Game",
         params: {
@@ -103,7 +124,7 @@ export default {
       this.$router.push({
         name: "Games",
         params: {
-          console_id: this.game.console,
+          console_id: this.console_id,
         },
       });
 
@@ -112,12 +133,11 @@ export default {
   },
   mounted() {
     if (this.game_id) {
-      const game = this.json_roms.find(
-        (rom) => rom.id === this.game_id && rom.console === this.console_id
+      this.openGame(
+        this.json_roms.find(
+          (rom) => rom.id === this.game_id && rom.console === this.console_id
+        )
       );
-      if (game) {
-        this.openGame(game);
-      }
     }
   },
 };
