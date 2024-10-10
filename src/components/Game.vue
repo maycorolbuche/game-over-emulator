@@ -111,6 +111,7 @@
 
 <script>
 import { Nostalgist } from "nostalgist";
+import Swal from "sweetalert2";
 
 export default {
   name: "GameComponent",
@@ -173,7 +174,19 @@ export default {
       }
     },
     close() {
-      this.$emit("close");
+      this.pause();
+      Swal.fire({
+        title: "Deseja fechar este jogo?",
+        showCancelButton: true,
+        confirmButtonText: "Sim",
+        cancelButtonText: `Não`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+          this.$emit("close");
+        } else {
+          this.play();
+        }
+      });
     },
 
     handleUserInteraction() {
@@ -263,7 +276,7 @@ a.disabled {
     color: #fff;
   }
   to {
-    color: #ffff00;
+    color: #faa914;
   }
 }
 </style>

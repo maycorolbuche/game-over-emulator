@@ -1,0 +1,26 @@
+.swal2-title {
+    font-family: "Press Start 2P", cursive;
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.swal2-popup {
+    background: #000;
+    border: 3px solid #FFF;
+    border-radius: 0;
+    box-shadow: 10px 10px 0px #faa914;
+}
+
+button.swal2-styled {
+    font-family: "Press Start 2P", cursive;
+    border-radius: 0;
+    border: 3px solid #FFF;
+    background: #000;
+}
+
+button.swal2-confirm {
+    background: #faa914;
+    color: #000;
+    border-color: #faa914;
+}

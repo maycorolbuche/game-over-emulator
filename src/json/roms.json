@@ -138,7 +138,7 @@
   {
     "name": "Sonic the Hedgehog",
     "filename": "Sonic the Hedgehog (JUE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/sonic_the_hedgehog.webp",
     "console": "gens",
     "id": "sonic_the_hedgehog",
     "active": true
