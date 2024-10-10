@@ -1,5 +1,10 @@
 <template>
-  <div id="emulator" class="d-flex align-stretch" style="height: 100%">
+  <div
+    id="emulator"
+    ref="emulator"
+    class="d-flex align-stretch"
+    style="height: 100%"
+  >
     <div
       id="emulator-container"
       ref="emulatorContainer"
@@ -17,6 +22,7 @@
 
       <canvas
         id="emulator-canvas"
+        ref="emulatorCanvas"
         :style="{
           width: '100%',
           height: '100%',
@@ -25,6 +31,7 @@
       />
     </div>
     <div
+      v-if="!fullscreen"
       class="d-flex flex-column align-center"
       style="width: 180px; color: #fff"
     >
@@ -58,54 +65,37 @@
         <a
           :class="{ link: true, disabled: loading || interact }"
           href="javascript:"
-          @click="close()"
+          @click="saveState(0)"
         >
           SALVAR
         </a>
         <a
           :class="{ link: true, disabled: loading || interact }"
           href="javascript:"
-          @click="close()"
+          @click="loadState(0)"
         >
           CARREGAR
         </a>
         <a
           :class="{ link: true, disabled: loading || interact }"
           href="javascript:"
-          @click="close()"
+          @click="toggleFullscreen()"
         >
           TELA CHEIA</a
         >
         <a
           :class="{ link: true, disabled: loading || interact }"
           href="javascript:"
-          @click="close()"
+          @click="restartGame()"
         >
           REINICIAR
         </a>
         <a :class="{ link: true }" href="javascript:" @click="close()">
           FECHAR
         </a>
+        {{ slot }}
       </div>
-      <!--
-      <div style="overflow: scroll">
-        <a class="link" href="javascript:" @click="close()">FECHAR</a>
-        COL1
-        <button @click="launchGame">Iniciar Jogo</button>
-        <button @click="pause">PAUSE</button>
-        <button @click="play">PLAY</button>
-        <p>
-          {{ loading }}
-        </p>
-        {{ name }} <br />
-        {{ filename }} <br />
-        {{ image }} <br />
-        {{ console }}
-        ----{{ interact }} [{{ core }}]
-        <br />
-        PAUSADO? {{ is_paused }} |{{ console_image }}
-      </div>
-    --></div>
+    </div>
   </div>
 </template>
 
@@ -130,15 +120,34 @@ export default {
       nostalgist: null,
       interact: true,
       is_paused: false,
+      fullscreen: false,
+      slot: {
+        1: null,
+        2: null,
+        3: null,
+        4: null,
+        5: null,
+        6: null,
+        7: null,
+        8: null,
+        9: null,
+        0: null,
+      },
     };
+  },
+  watch: {
+    fullscreen(val) {
+      this.handleResize();
+      if (val) {
+        this.play();
+      }
+    },
   },
   methods: {
     async launchGame() {
-      console.log("LAUNCH");
       if (this.interact) {
         return;
       }
-      console.log("LAUNCH OK");
 
       let file = `/roms/${this.console}/${this.filename}`;
 
@@ -173,6 +182,27 @@ export default {
         this.is_paused = false;
       }
     },
+    restart() {
+      if (this.nostalgist) {
+        this.nostalgist.restart();
+      }
+    },
+    restartGame() {
+      this.pause();
+      Swal.fire({
+        title: "Deseja reinicar este jogo?",
+        showCancelButton: true,
+        confirmButtonText: "Sim",
+        cancelButtonText: `Não`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+          if (this.nostalgist) {
+            this.restart();
+          }
+        }
+        this.play();
+      });
+    },
     close() {
       this.pause();
       Swal.fire({
@@ -188,18 +218,71 @@ export default {
         }
       });
     },
-
+    async saveState(slot) {
+      if (this.nostalgist) {
+        const { state } = await this.nostalgist.saveState();
+        this.slot[slot] = state;
+        console.log(`Estado salvo no slot ${slot}`, state);
+      }
+    },
+    async loadState(slot) {
+      if (this.nostalgist) {
+        const state = this.slot[slot];
+        if (state) {
+          await this.nostalgist.loadState(state);
+          console.log(`Estado carregado do slot ${slot}`);
+        } else {
+          console.log(`Nenhum estado salvo no slot ${slot}`);
+        }
+      }
+    },
+    toggleFullscreen() {
+      let elem = this.$refs.emulatorCanvas;
+      if (!this.fullscreen) {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+          elem.mozRequestFullScreen(); // Firefox
+        } else if (elem.webkitRequestFullscreen) {
+          elem.webkitRequestFullscreen(); // Chrome, Safari, Opera
+        } else if (elem.msRequestFullscreen) {
+          elem.msRequestFullscreen(); // IE/Edge
+        }
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen(); // Firefox
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen(); // Chrome, Safari, Opera
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen(); // IE/Edge
+        }
+      }
+    },
+    onFullscreenChange() {
+      this.fullscreen = !!(
+        document.fullscreenElement ||
+        document.mozFullScreenElement ||
+        document.webkitFullscreenElement ||
+        document.msFullscreenElement
+      );
+    },
     handleUserInteraction() {
       if (this.interact) {
         this.play();
         this.interact = false;
         this.launchGame();
-        console.log("Interação detectada!");
       }
     },
     handleResize() {
-      document.getElementById("emulator-container").style.width =
-        document.getElementById("emulator").clientWidth - 180 + "px";
+      if (this.fullscreen) {
+        this.$refs.emulatorContainer.style.width =
+          this.$refs.emulator.clientWidth + "px";
+      } else {
+        this.$refs.emulatorContainer.style.width =
+          this.$refs.emulator.clientWidth - 180 + "px";
+      }
 
       if (this.nostalgist) {
         this.nostalgist.resize({
@@ -214,12 +297,20 @@ export default {
     window.addEventListener("keydown", this.handleUserInteraction);
     window.addEventListener("scroll", this.handleUserInteraction);
     window.addEventListener("resize", this.handleResize);
+
+    document.addEventListener("fullscreenchange", this.onFullscreenChange);
+    document.addEventListener(
+      "webkitfullscreenchange",
+      this.onFullscreenChange
+    );
+    document.addEventListener("mozfullscreenchange", this.onFullscreenChange);
+    document.addEventListener("msfullscreenchange", this.onFullscreenChange);
+
     this.handleResize();
 
     this.launchGame();
   },
   beforeUnmount() {
-    console.log("DESTRUIR");
     if (this.nostalgist) {
       this.nostalgist.exit();
     }
@@ -228,6 +319,17 @@ export default {
     window.removeEventListener("keydown", this.handleUserInteraction);
     window.removeEventListener("scroll", this.handleUserInteraction);
     window.removeEventListener("resize", this.handleResize);
+
+    document.removeEventListener("fullscreenchange", this.onFullscreenChange);
+    document.removeEventListener(
+      "webkitfullscreenchange",
+      this.onFullscreenChange
+    );
+    document.removeEventListener(
+      "mozfullscreenchange",
+      this.onFullscreenChange
+    );
+    document.removeEventListener("msfullscreenchange", this.onFullscreenChange);
   },
 };
 </script>
