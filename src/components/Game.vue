@@ -100,6 +100,9 @@
 </template>
 
 <script>
+const Storage = require("@/helpers/Storage.js");
+const Conversions = require("@/helpers/Conversions.js");
+
 import { Nostalgist } from "nostalgist";
 import Swal from "sweetalert2";
 
@@ -107,6 +110,7 @@ export default {
   name: "GameComponent",
   inheritAttrs: false,
   props: {
+    id: String,
     name: String,
     filename: String,
     image: String,
@@ -221,15 +225,18 @@ export default {
     async saveState(slot) {
       if (this.nostalgist) {
         const { state } = await this.nostalgist.saveState();
-        this.slot[slot] = state;
+        this.slot[slot] = await Conversions.blobToBase64(state);
         console.log(`Estado salvo no slot ${slot}`, state);
+        Storage.set(this.console + "." + this.id, this.slot);
       }
     },
+
     async loadState(slot) {
       if (this.nostalgist) {
-        const state = this.slot[slot];
-        if (state) {
+        if (this.slot[slot]) {
+          const state = Conversions.base64ToBlob(this.slot[slot]);
           await this.nostalgist.loadState(state);
+          this.play();
           console.log(`Estado carregado do slot ${slot}`);
         } else {
           console.log(`Nenhum estado salvo no slot ${slot}`);
@@ -307,6 +314,19 @@ export default {
     document.addEventListener("msfullscreenchange", this.onFullscreenChange);
 
     this.handleResize();
+
+    this.slot = Storage.get(this.console + "." + this.id, {
+      1: null,
+      2: null,
+      3: null,
+      4: null,
+      5: null,
+      6: null,
+      7: null,
+      8: null,
+      9: null,
+      0: null,
+    });
 
     this.launchGame();
   },
