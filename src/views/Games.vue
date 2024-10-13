@@ -16,6 +16,7 @@
         @click="openGame(rom)"
       >
         <img v-if="rom.image" :src="rom.image" />
+        <img v-else-if="consol.image" :src="consol.image" />
         <span>{{ rom.name }}</span>
       </a>
     </div>
@@ -143,3 +144,25 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.rom-card {
+  margin: 15px;
+  text-decoration: none;
+  width: 180px;
+}
+.rom-card img {
+  box-shadow: 5px 5px #faa914, 10px 10px #ea004f;
+  background: #000;
+  width: 100%;
+}
+.rom-card:hover img {
+  box-shadow: 5px 5px #41f7fb, 10px 10px #f004fe;
+}
+.rom-card span {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 12px;
+  text-align: center;
+}
+</style>

@@ -235,7 +235,7 @@ export default {
             },
           ],
         },
-        ...this.controls,
+        ...(this.controls || []),
       ];
     },
   },
@@ -283,6 +283,8 @@ export default {
             input_player1_x: "a",
             input_player1_y: "s",
             input_player1_z: "d",
+            input_player1_l: "d",
+            input_player1_r: "c",
 
             input_player1_up: "up",
             input_player1_left: "left",
@@ -298,6 +300,8 @@ export default {
             input_player2_x: "h",
             input_player2_y: "j",
             input_player2_z: "k",
+            input_player2_l: "k",
+            input_player2_r: "m",
 
             input_player2_up: "keypad5",
             input_player2_left: "keypad1",

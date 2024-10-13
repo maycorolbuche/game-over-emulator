@@ -133,6 +133,116 @@
     "image": "/images/consoles/snes.png",
     "id": "snes",
     "core": "snes9x",
+    "controls": [
+      {
+        "player": 1,
+        "name": "Player 1",
+        "controls": [
+          {
+            "key": "ENTER",
+            "ref": "Start"
+          },
+          {
+            "key": "ESPAÇO",
+            "ref": "Select"
+          },
+          {
+            "key": "Z",
+            "ref": "A"
+          },
+          {
+            "key": "X",
+            "ref": "B"
+          },
+          {
+            "key": "A",
+            "ref": "X"
+          },
+          {
+            "key": "S",
+            "ref": "Y"
+          },
+          {
+            "key": "D",
+            "ref": "L"
+          },
+          {
+            "key": "C",
+            "ref": "R"
+          },
+          {
+            "key": "⬆",
+            "ref": "Cima"
+          },
+          {
+            "key": "⬇",
+            "ref": "Baixo"
+          },
+          {
+            "key": "⬅",
+            "ref": "Esquerda"
+          },
+          {
+            "key": "⮕",
+            "ref": "Direita"
+          }
+        ]
+      },
+      {
+        "player": 2,
+        "name": "Player 2",
+        "controls": [
+          {
+            "key": "0",
+            "ref": "Start"
+          },
+          {
+            "key": ",",
+            "ref": "Select"
+          },
+          {
+            "key": "B",
+            "ref": "A"
+          },
+          {
+            "key": "N",
+            "ref": "B"
+          },
+          {
+            "key": "H",
+            "ref": "X"
+          },
+          {
+            "key": "J",
+            "ref": "Y"
+          },
+          {
+            "key": "K",
+            "ref": "L"
+          },
+          {
+            "key": "M",
+            "ref": "R"
+          },
+          {
+            "key": "5",
+            "ref": "Cima"
+          },
+          {
+            "key": "2",
+            "ref": "Baixo"
+          },
+          {
+            "key": "1",
+            "ref": "Esquerda"
+          },
+          {
+            "key": "3",
+            "ref": "Direita"
+          }
+        ]
+      }
+    ],
     "active": true
   }
 ]
