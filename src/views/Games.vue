@@ -26,6 +26,7 @@
         :console="consol.id"
         :core="consol.core"
         :console_image="consol.image"
+        :controls="consol.controls"
         @close="closeGame()"
       />
     </modal>

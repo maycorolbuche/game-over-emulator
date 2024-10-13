@@ -4,6 +4,116 @@
     "image": "/images/consoles/gens.png",
     "id": "gens",
     "core": "genesis_plus_gx",
+    "controls": [
+      {
+        "player": 1,
+        "name": "Player 1",
+        "controls": [
+          {
+            "key": "ENTER",
+            "ref": "Start"
+          },
+          {
+            "key": "ESPAÇO",
+            "ref": "Select"
+          },
+          {
+            "key": "Z",
+            "ref": "A"
+          },
+          {
+            "key": "X",
+            "ref": "B"
+          },
+          {
+            "key": "C",
+            "ref": "C"
+          },
+          {
+            "key": "A",
+            "ref": "X"
+          },
+          {
+            "key": "S",
+            "ref": "Y"
+          },
+          {
+            "key": "D",
+            "ref": "Z"
+          },
+          {
+            "key": "⬆",
+            "ref": "Cima"
+          },
+          {
+            "key": "⬇",
+            "ref": "Baixo"
+          },
+          {
+            "key": "⬅",
+            "ref": "Esquerda"
+          },
+          {
+            "key": "⮕",
+            "ref": "Direita"
+          }
+        ]
+      },
+      {
+        "player": 2,
+        "name": "Player 2",
+        "controls": [
+          {
+            "key": "0",
+            "ref": "Start"
+          },
+          {
+            "key": ",",
+            "ref": "Select"
+          },
+          {
+            "key": "B",
+            "ref": "A"
+          },
+          {
+            "key": "N",
+            "ref": "B"
+          },
+          {
+            "key": "M",
+            "ref": "C"
+          },
+          {
+            "key": "H",
+            "ref": "X"
+          },
+          {
+            "key": "J",
+            "ref": "Y"
+          },
+          {
+            "key": "K",
+            "ref": "Z"
+          },
+          {
+            "key": "5",
+            "ref": "Cima"
+          },
+          {
+            "key": "2",
+            "ref": "Baixo"
+          },
+          {
+            "key": "1",
+            "ref": "Esquerda"
+          },
+          {
+            "key": "3",
+            "ref": "Direita"
+          }
+        ]
+      }
+    ],
     "active": true
   },
   {
