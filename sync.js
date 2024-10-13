@@ -113,9 +113,9 @@ function update_roms(json, list, consol) {
         name = name.trim(); // Remove espaços em branco ao redor
 
         let id = name.replace(/\.[^/.]+$/, ''); // Remove a extensão
-        id = id.replace(/[^a-zA-Z0-9]+/g, '_');
+        id = id.replace(/[^a-zA-Z0-9]+/g, '-');
         id = id.trim().toLowerCase();
-        id = id.replace(/_{2,}/g, '_');
+        id = id.replace(/_{2,}/g, '-');
 
         if (item) {
             item.active = true;
