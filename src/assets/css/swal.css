@@ -17,6 +17,7 @@ button.swal2-styled {
     border-radius: 0;
     border: 3px solid #FFF;
     background: #000;
+    text-transform: uppercase;
 }
 
 button.swal2-confirm {

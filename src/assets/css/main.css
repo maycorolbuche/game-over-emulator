@@ -342,3 +342,7 @@ body {
     overflow: hidden;
     pointer-events: none;
 }
+
+.overflow-auto {
+    overflow: auto;
+}

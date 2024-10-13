@@ -11,8 +11,13 @@
       style="overflow: hidden"
       @click="play()"
     >
-      <div v-if="is_paused && !interact && !loading" class="message">
-        PAUSADO
+      <div
+        v-if="(is_paused || message) && !interact && !loading"
+        class="message"
+      >
+        {{ is_paused ? "EMULADOR PAUSADO" : "" }}
+        {{ is_paused && message ? " | " : "" }}
+        {{ message }}
       </div>
 
       <a v-if="interact" class="link loading" href="javascript:">
@@ -31,69 +36,122 @@
       />
     </div>
     <div
-      v-if="!fullscreen"
-      class="d-flex flex-column align-center"
+      v-show="!fullscreen"
+      class="d-flex flex-column align-stretch"
       style="width: 180px; color: #fff"
     >
       <div v-if="image" class="text-center" style="width: 100%">
         <img :src="image" style="width: 100%" />
       </div>
-      <div v-if="console_image" class="text-center" style="width: 100%">
+      <div
+        v-show="!show_controls"
+        v-if="console_image"
+        class="text-center"
+        style="width: 100%"
+      >
         <img :src="console_image" style="calc(100% - 20px)" />
       </div>
       <div class="flex-auto" />
-      <div class="d-flex flex-column align-center" style="padding-bottom: 10px">
-        <a :class="{ link: true }" href="javascript:" @click="close()">
-          CONTROLES
-        </a>
-        <a
-          v-if="!is_paused"
-          :class="{ link: true, disabled: loading || interact }"
-          href="javascript:"
-          @click="pause()"
+      <div v-show="!show_controls" class="overflow-auto">
+        <div
+          class="d-flex flex-column align-center"
+          style="padding-bottom: 10px"
         >
-          PAUSAR
-        </a>
-        <a
-          v-if="is_paused"
-          :class="{ link: true, disabled: loading || interact }"
-          href="javascript:"
-          @click="play()"
-        >
-          CONTINUAR
-        </a>
-        <a
-          :class="{ link: true, disabled: loading || interact }"
-          href="javascript:"
-          @click="saveState(0)"
-        >
-          SALVAR
-        </a>
-        <a
-          :class="{ link: true, disabled: loading || interact }"
-          href="javascript:"
-          @click="loadState(0)"
-        >
-          CARREGAR
-        </a>
-        <a
-          :class="{ link: true, disabled: loading || interact }"
-          href="javascript:"
-          @click="toggleFullscreen()"
-        >
-          TELA CHEIA</a
-        >
-        <a
-          :class="{ link: true, disabled: loading || interact }"
-          href="javascript:"
-          @click="restartGame()"
-        >
-          REINICIAR
-        </a>
-        <a :class="{ link: true }" href="javascript:" @click="close()">
-          FECHAR
-        </a>
-        {{ slot }}
+          <a
+            :class="{ link: true }"
+            href="javascript:"
+            @click="show_controls = true"
+          >
+            CONTROLES
+          </a>
+          <a
+            v-if="!is_paused"
+            :class="{ link: true, disabled: loading || interact }"
+            href="javascript:"
+            v-shortkey="['ctrl', 'enter']"
+            @click="pause()"
+            @shortkey="pause()"
+          >
+            PAUSAR
+          </a>
+          <a
+            v-if="is_paused"
+            :class="{ link: true, disabled: loading || interact }"
+            href="javascript:"
+            v-shortkey="['ctrl', 'enter']"
+            @click="play()"
+            @shortkey="play()"
+          >
+            CONTINUAR
+          </a>
+          <a
+            :class="{ link: true, disabled: loading || interact }"
+            href="javascript:"
+            v-shortkey="['shift', '+']"
+            @click="saveState(0)"
+            @shortkey="saveState(0)"
+          >
+            SALVAR
+          </a>
+          <a
+            :class="{ link: true, disabled: loading || interact }"
+            href="javascript:"
+            v-shortkey="['=']"
+            @click="loadState(0)"
+            @shortkey="loadState(0)"
+          >
+            CARREGAR
+          </a>
+          <a
+            :class="{ link: true, disabled: loading || interact }"
+            href="javascript:"
+            v-shortkey="['f11']"
+            @click="toggleFullscreen()"
+            @shortkey="toggleFullscreen()"
+          >
+            TELA CHEIA
+          </a>
+          <a
+            :class="{ link: true, disabled: loading || interact }"
+            href="javascript:"
+            v-shortkey="['tab']"
+            @click="restartGame()"
+            @shortkey="restartGame()"
+          >
+            REINICIAR
+          </a>
+          <a
+            :class="{ link: true, sticky: true }"
+            href="javascript:"
+            @click="close()"
+          >
+            FECHAR
+          </a>
+        </div>
+      </div>
+      <div v-show="show_controls" class="overflow-auto">
+        <div class="d-flex flex-column" style="padding: 5px 5px 10px 10px">
+          <div
+            v-for="player in game_controls"
+            :key="player.player"
+            style="margin-bottom: 10px"
+          >
+            <div>{{ player.name }}</div>
+            <key
+              v-for="key in player.controls"
+              :key="key.key"
+              :info_key="key.key"
+              :info_ref="key.ref"
+            />
+          </div>
+          <a
+            :class="{ link: true, sticky: true }"
+            href="javascript:"
+            @click="show_controls = false"
+          >
+            VOLTAR
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -102,12 +160,18 @@
 <script>
 const Storage = require("@/helpers/Storage.js");
 const Conversions = require("@/helpers/Conversions.js");
+const Screen = require("@/helpers/Screen.js");
+
+import Key from "@/components/Key.vue";
 
 import { Nostalgist } from "nostalgist";
 import Swal from "sweetalert2";
 
 export default {
   name: "GameComponent",
+  components: {
+    Key,
+  },
   inheritAttrs: false,
   props: {
     id: String,
@@ -117,14 +181,17 @@ export default {
     console: String,
     console_image: String,
     core: String,
+    controls: Array,
   },
   data() {
     return {
+      message: null,
       loading: false,
       nostalgist: null,
       interact: true,
       is_paused: false,
       fullscreen: false,
+      show_controls: false,
       slot: {
         1: null,
         2: null,
@@ -139,11 +206,54 @@ export default {
       },
     };
   },
+  computed: {
+    game_controls() {
+      return [
+        {
+          player: "-",
+          name: "Emulador",
+          controls: [
+            {
+              key: ["CTRL", "ENTER"],
+              ref: "Pausar",
+            },
+            {
+              key: ["SHIFT", "="],
+              ref: "Salvar",
+            },
+            {
+              key: "=",
+              ref: "Carregar",
+            },
+            {
+              key: "F11",
+              ref: "Tela Cheia",
+            },
+            {
+              key: "TAB",
+              ref: "Reiniciar",
+            },
+          ],
+        },
+        ...this.controls,
+      ];
+    },
+  },
   watch: {
     fullscreen(val) {
       this.handleResize();
+      setTimeout(() => {
+        this.handleResize();
+      }, 100);
       if (val) {
         this.play();
+      }
+    },
+    message(text) {
+      if (text) {
+        setTimeout(() => {
+          this.message = null;
+        }, 2500);
       }
     },
   },
@@ -163,7 +273,43 @@ export default {
           rom: file,
           core: this.core,
           //core: "fceumm",
+          retroarchConfig: {
+            input_player1_start: "enter",
+            input_player1_select: "shift",
+
+            input_player1_a: "z",
+            input_player1_b: "x",
+            input_player1_c: "c",
+            input_player1_x: "a",
+            input_player1_y: "s",
+            input_player1_z: "d",
+
+            input_player1_up: "up",
+            input_player1_left: "left",
+            input_player1_down: "down",
+            input_player1_right: "right",
+
+            input_player2_start: "0",
+            input_player2_select: ",",
+
+            input_player2_a: "b",
+            input_player2_b: "n",
+            input_player2_c: "m",
+            input_player2_x: "h",
+            input_player2_y: "j",
+            input_player2_z: "k",
+
+            input_player2_up: "keypad5",
+            input_player2_left: "keypad1",
+            input_player2_down: "keypad2",
+            input_player2_right: "keypad3",
+          },
         });
+        let self = this;
+        setTimeout(function () {
+          console.log("nostalgist", self.nostalgist);
+        }, 5000);
+        //console.log(this.nostalgist.getCurrentRetroarchConfig());
 
         this.loading = false;
       } catch (error) {
@@ -175,13 +321,13 @@ export default {
       */
     },
     pause() {
-      if (this.nostalgist) {
+      if (this.nostalgist && !this.is_paused) {
         this.nostalgist.pause();
         this.is_paused = true;
       }
     },
     play() {
-      if (this.nostalgist) {
+      if (this.nostalgist && this.is_paused) {
         this.nostalgist.resume();
         this.is_paused = false;
       }
@@ -192,20 +338,25 @@ export default {
       }
     },
     restartGame() {
-      this.pause();
-      Swal.fire({
-        title: "Deseja reinicar este jogo?",
-        showCancelButton: true,
-        confirmButtonText: "Sim",
-        cancelButtonText: `Não`,
-      }).then((result) => {
-        if (result.isConfirmed) {
-          if (this.nostalgist) {
-            this.restart();
-          }
+      if (this.nostalgist) {
+        if (this.fullscreen) {
+          this.toggleFullscreen();
         }
-        this.play();
-      });
+        this.pause();
+        Swal.fire({
+          title: "Deseja reinicar este jogo?",
+          showCancelButton: true,
+          confirmButtonText: "Sim",
+          cancelButtonText: `Não`,
+        }).then((result) => {
+          if (result.isConfirmed) {
+            if (this.nostalgist) {
+              this.restart();
+            }
+          }
+          this.play();
+        });
+      }
     },
     close() {
       this.pause();
@@ -227,6 +378,7 @@ export default {
         const { state } = await this.nostalgist.saveState();
         this.slot[slot] = await Conversions.blobToBase64(state);
         console.log(`Estado salvo no slot ${slot}`, state);
+        this.message = "Salvo";
         Storage.set(this.console + "." + this.id, this.slot);
       }
     },
@@ -237,43 +389,23 @@ export default {
           const state = Conversions.base64ToBlob(this.slot[slot]);
           await this.nostalgist.loadState(state);
           this.play();
+          this.message = "Carregado";
           console.log(`Estado carregado do slot ${slot}`);
         } else {
+          this.message = "Nada a ser carregado";
           console.log(`Nenhum estado salvo no slot ${slot}`);
         }
       }
     },
     toggleFullscreen() {
-      let elem = this.$refs.emulatorCanvas;
       if (!this.fullscreen) {
-        if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-        } else if (elem.mozRequestFullScreen) {
-          elem.mozRequestFullScreen(); // Firefox
-        } else if (elem.webkitRequestFullscreen) {
-          elem.webkitRequestFullscreen(); // Chrome, Safari, Opera
-        } else if (elem.msRequestFullscreen) {
-          elem.msRequestFullscreen(); // IE/Edge
-        }
+        Screen.fullscreen(this.$refs.emulatorContainer);
       } else {
-        if (document.exitFullscreen) {
-          document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) {
-          document.mozCancelFullScreen(); // Firefox
-        } else if (document.webkitExitFullscreen) {
-          document.webkitExitFullscreen(); // Chrome, Safari, Opera
-        } else if (document.msExitFullscreen) {
-          document.msExitFullscreen(); // IE/Edge
-        }
+        Screen.exitFullscreen();
       }
     },
     onFullscreenChange() {
-      this.fullscreen = !!(
-        document.fullscreenElement ||
-        document.mozFullScreenElement ||
-        document.webkitFullscreenElement ||
-        document.msFullscreenElement
-      );
+      this.fullscreen = Screen.isFullscreen();
     },
     handleUserInteraction() {
       if (this.interact) {
@@ -375,6 +507,7 @@ export default {
   padding: 10px;
   background: #000;
   font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
   z-index: 300;
 }
 a.link {
@@ -400,5 +533,27 @@ a.disabled {
   to {
     color: #faa914;
   }
+}
+
+a.sticky {
+  position: sticky;
+  bottom: 0;
+  background: #000;
+  padding: 7px 10px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
 }
 </style>
