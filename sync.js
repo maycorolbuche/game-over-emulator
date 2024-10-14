@@ -252,7 +252,7 @@ async function download_image(json, type) {
             const newImagePath = oldImagePath.replace(/--[^.]+(\.[a-zA-Z0-9]+)$/, '$1');
 
             try {
-                await fs.rename(path.join(__dirname, oldImagePath), path.join(__dirname, newImagePath));
+                await fs.rename(path.join(__dirname, '/public', oldImagePath), path.join(__dirname, '/public', newImagePath));
                 item.image = newImagePath;
             } catch (error) {
                 console.error('Erro ao renomear a imagem:', error);
@@ -398,7 +398,7 @@ async function main() {
     for (const consol of consoles) {
         let roms = await get_files(path.join(dir, consol));
         let json = await open(path.join(dir_json, 'roms.json'));
-        json = await update_roms(json, roms, consol, path.join(dir_json, 'roms.json'));
+        //json = await update_roms(json, roms, consol, path.join(dir_json, 'roms.json'));
         let dup = find_duplicate_ids(json);
         if (dup.length > 0) {
             dupicates.push(...dup);
