@@ -17,7 +17,7 @@
       >
         <img v-if="rom.image" :src="rom.image" />
         <img v-else-if="consol.image" :src="consol.image" />
-        <span>{{ rom.name }}</span>
+        <span>{{ rom.name }}|{{ rom.filename }}</span>
       </a>
     </div>
 
@@ -25,14 +25,11 @@
       <game
         v-bind="game"
         :console="consol.id"
-        :core="consol.core"
         :console_image="consol.image"
         :controls="consol.controls"
         @close="closeGame()"
       />
     </modal>
-
-    {{ console_id }}|{{ game_id }}|{{ game }}
 
     <tetris />
   </div>

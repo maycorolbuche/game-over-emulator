@@ -326,7 +326,7 @@
   {
     "name": "Aero Fighters",
     "filename": "Aero Fighters (US).smc",
-    "image": "/images/roms/snes/aero-fighters--1.jpg",
+    "image": "/images/roms/snes/aero-fighters.jpg",
     "console": "snes",
     "id": "aero-fighters",
     "id_igdb": 306980,
@@ -604,15 +604,6 @@
   },
   {
     "name": "Alisia Dragoon",
-    "filename": "Alisia Dragoon (E) [!].pat",
-    "image": "/images/roms/gens/alisia-dragoon.jpg",
-    "console": "gens",
-    "id": "alisia-dragoon",
-    "id_igdb": 19508,
-    "active": true
-  },
-  {
-    "name": "Alisia Dragoon",
     "filename": "Alisia Dragoon (E) [!].smd",
     "image": "/images/roms/gens/alisia-dragoon.jpg",
     "console": "gens",
@@ -731,15 +722,6 @@
   {
     "name": "Animaniacs",
     "filename": "Animaniacs (E).smc",
-    "image": "/images/roms/snes/animaniacs.jpg",
-    "console": "snes",
-    "id": "animaniacs",
-    "id_igdb": 7756,
-    "active": true
-  },
-  {
-    "name": "Animaniacs",
-    "filename": "Animaniacs (U) [!].fig",
     "image": "/images/roms/snes/animaniacs.jpg",
     "console": "snes",
     "id": "animaniacs",
@@ -963,6 +945,15 @@
     "active": true
   },
   {
+    "name": "Asterix",
+    "filename": "Asterix (E) [!].smc",
+    "image": "/images/roms/snes/asterix.jpg",
+    "console": "snes",
+    "id": "asterix",
+    "id_igdb": 7757,
+    "active": true
+  },
+  {
     "name": "Asterix & Obelix",
     "filename": "Asterix & Obelix (E).smc",
     "image": "",
@@ -987,15 +978,6 @@
     "console": "gens",
     "id": "asterix-and-the-power-of-the-gods",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Astérix",
-    "filename": "Asterix (E) [!].smc",
-    "image": "/images/roms/snes/asterix.jpg",
-    "console": "snes",
-    "id": "asterix",
-    "id_igdb": 7757,
     "active": true
   },
   {
@@ -3196,15 +3178,6 @@
   },
   {
     "name": "Comix Zone",
-    "filename": "Comix Zone (4) [!].gs0",
-    "image": "/images/roms/gens/comix-zone.jpg",
-    "console": "gens",
-    "id": "comix-zone",
-    "id_igdb": 3071,
-    "active": true
-  },
-  {
-    "name": "Comix Zone",
     "filename": "Comix Zone (4) [!].smd",
     "image": "/images/roms/gens/comix-zone.jpg",
     "console": "gens",
@@ -3367,42 +3340,6 @@
   },
   {
     "name": "Crusader of Centy",
-    "filename": "Crusader of Centy (pt-BR).gs0",
-    "image": "/images/roms/gens/crusader-of-centy.jpg",
-    "console": "gens",
-    "id": "crusader-of-centy",
-    "id_igdb": 4552,
-    "active": true
-  },
-  {
-    "name": "Crusader of Centy",
-    "filename": "Crusader of Centy (pt-BR).gs8",
-    "image": "/images/roms/gens/crusader-of-centy.jpg",
-    "console": "gens",
-    "id": "crusader-of-centy",
-    "id_igdb": 4552,
-    "active": true
-  },
-  {
-    "name": "Crusader of Centy",
-    "filename": "Crusader of Centy (pt-BR).gs9",
-    "image": "/images/roms/gens/crusader-of-centy.jpg",
-    "console": "gens",
-    "id": "crusader-of-centy",
-    "id_igdb": 4552,
-    "active": true
-  },
-  {
-    "name": "Crusader of Centy",
-    "filename": "Crusader of Centy (pt-BR).md",
-    "image": "/images/roms/gens/crusader-of-centy.jpg",
-    "console": "gens",
-    "id": "crusader-of-centy",
-    "id_igdb": 4552,
-    "active": true
-  },
-  {
-    "name": "Crusader of Centy",
     "filename": "Crusader of Centy (pt-BR).srm",
     "image": "/images/roms/gens/crusader-of-centy.jpg",
     "console": "gens",
@@ -3492,7 +3429,7 @@
     "active": true
   },
   {
-    "name": "Cyberball",
+    "name": "CyberBall",
     "filename": "CyberBall (JU) [!].smd",
     "image": "/images/roms/gens/cyberball.jpg",
     "console": "gens",
@@ -4527,7 +4464,7 @@
     "active": true
   },
   {
-    "name": "EarthBound",
+    "name": "Earthbound",
     "filename": "Earthbound (U) [!].smc",
     "image": "/images/roms/snes/earthbound.jpg",
     "console": "snes",
@@ -4538,15 +4475,6 @@
   {
     "name": "Earthworm Jim",
     "filename": "Earthworm Jim (E) [!].bin",
-    "image": "/images/roms/gens/earthworm-jim.jpg",
-    "console": "gens",
-    "id": "earthworm-jim",
-    "id_igdb": 3480,
-    "active": true
-  },
-  {
-    "name": "Earthworm Jim",
-    "filename": "Earthworm Jim (E) [!].pat",
     "image": "/images/roms/gens/earthworm-jim.jpg",
     "console": "gens",
     "id": "earthworm-jim",
@@ -4806,7 +4734,7 @@
     "active": true
   },
   {
-    "name": "F-Zero",
+    "name": "F-ZERO",
     "filename": "F-ZERO (E).smc",
     "image": "/images/roms/snes/f-zero.jpg",
     "console": "snes",
@@ -4815,7 +4743,7 @@
     "active": true
   },
   {
-    "name": "F-Zero",
+    "name": "F-ZERO",
     "filename": "F-ZERO (E).srm",
     "image": "/images/roms/snes/f-zero.jpg",
     "console": "snes",
@@ -4901,15 +4829,6 @@
     "image": "",
     "console": "gens",
     "id": "f1-world-championship",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "F1 World Championship Edition",
-    "filename": "F1 World Championship Edition (94) (U) [x].bin",
-    "image": "",
-    "console": "gens",
-    "id": "f1-world-championship-edition",
     "id_igdb": "",
     "active": true
   },
@@ -5455,15 +5374,6 @@
   },
   {
     "name": "Flintstones, The",
-    "filename": "Flintstones, The (U) [c][!].gs0",
-    "image": "",
-    "console": "gens",
-    "id": "flintstones-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Flintstones, The",
     "filename": "Flintstones, The (U).smc",
     "image": "",
     "console": "snes",
@@ -5778,7 +5688,7 @@
     "active": true
   },
   {
-    "name": "Gemfire",
+    "name": "GemFire",
     "filename": "GemFire (U) [!].bin",
     "image": "/images/roms/gens/gemfire.jpg",
     "console": "gens",
@@ -5846,15 +5756,6 @@
     "image": "",
     "console": "snes",
     "id": "genocide-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Gens",
-    "filename": "Gens.cfg",
-    "image": "",
-    "console": "gens",
-    "id": "gens",
     "id_igdb": "",
     "active": true
   },
@@ -5941,38 +5842,11 @@
   },
   {
     "name": "Golden Axe",
-    "filename": "Golden Axe (REV 01) (JU) [!].gs0",
+    "filename": "Golden Axe (REV 01) (JU) [!].smd",
     "image": "/images/roms/gens/golden-axe.jpg",
     "console": "gens",
     "id": "golden-axe",
     "id_igdb": 305873,
-    "active": true
-  },
-  {
-    "name": "Golden Axe",
-    "filename": "Golden Axe (REV 01) (JU) [!].pat",
-    "image": "/images/roms/gens/golden-axe--4.jpg",
-    "console": "gens",
-    "id": "golden-axe",
-    "id_igdb": 305873,
-    "active": true
-  },
-  {
-    "name": "Golden Axe",
-    "filename": "Golden Axe (REV 01) (JU) [!].smd",
-    "image": "/images/roms/gens/golden-axe--4.jpg",
-    "console": "gens",
-    "id": "golden-axe",
-    "id_igdb": 305873,
-    "active": true
-  },
-  {
-    "name": "Golden Axe 2",
-    "filename": "Golden Axe 2 (JUE) [!].pat",
-    "image": "",
-    "console": "gens",
-    "id": "golden-axe-2",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -5987,15 +5861,6 @@
   {
     "name": "Golden Axe 3",
     "filename": "Golden Axe 3 (J) [p1][!].bin",
-    "image": "",
-    "console": "gens",
-    "id": "golden-axe-3",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Golden Axe 3",
-    "filename": "Golden Axe 3 (J) [p1][!].pat",
     "image": "",
     "console": "gens",
     "id": "golden-axe-3",
@@ -6102,15 +5967,6 @@
     "active": true
   },
   {
-    "name": "Growl",
-    "filename": "Growl (JUE) [!].gs0",
-    "image": "/images/roms/gens/growl--1.jpg",
-    "console": "gens",
-    "id": "growl",
-    "id_igdb": 310353,
-    "active": true
-  },
-  {
     "name": "Gunforce - Battle Fire Engulfed Terror Island",
     "filename": "Gunforce - Battle Fire Engulfed Terror Island (U).smc",
     "image": "",
@@ -6192,6 +6048,15 @@
     "active": true
   },
   {
+    "name": "HardBall",
+    "filename": "HardBall (U) [!].smd",
+    "image": "/images/roms/gens/hardball.jpg",
+    "console": "gens",
+    "id": "hardball",
+    "id_igdb": 12136,
+    "active": true
+  },
+  {
     "name": "HardBall 3",
     "filename": "HardBall 3 (JUE).smd",
     "image": "",
@@ -6216,15 +6081,6 @@
     "console": "gens",
     "id": "hardball-95",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "HardBall!",
-    "filename": "HardBall (U) [!].smd",
-    "image": "/images/roms/gens/hardball.jpg",
-    "console": "gens",
-    "id": "hardball",
-    "id_igdb": 12136,
     "active": true
   },
   {
@@ -7408,15 +7264,6 @@
   },
   {
     "name": "Jurassic Park 2 - The Lost World",
-    "filename": "Jurassic Park 2 - The Lost World (F) [!].pat",
-    "image": "",
-    "console": "gens",
-    "id": "jurassic-park-2-the-lost-world",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Jurassic Park 2 - The Lost World",
     "filename": "Jurassic Park 2 - The Lost World (F) [!].smd",
     "image": "",
     "console": "gens",
@@ -7894,42 +7741,6 @@
   },
   {
     "name": "Landstalker",
-    "filename": "Landstalker (pt-BR).gs0",
-    "image": "",
-    "console": "gens",
-    "id": "landstalker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Landstalker",
-    "filename": "Landstalker (pt-BR).gs8",
-    "image": "",
-    "console": "gens",
-    "id": "landstalker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Landstalker",
-    "filename": "Landstalker (pt-BR).gs9",
-    "image": "",
-    "console": "gens",
-    "id": "landstalker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Landstalker",
-    "filename": "Landstalker (pt-BR).pat",
-    "image": "",
-    "console": "gens",
-    "id": "landstalker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Landstalker",
     "filename": "Landstalker (pt-BR).srm",
     "image": "",
     "console": "gens",
@@ -8228,15 +8039,6 @@
   {
     "name": "Lion King, The",
     "filename": "Lion King, The (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "lion-king-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lion King, The",
-    "filename": "Lion King, The (U).zst",
     "image": "",
     "console": "snes",
     "id": "lion-king-the",
@@ -8866,15 +8668,6 @@
   },
   {
     "name": "Mega Bomberman",
-    "filename": "Mega Bomberman (JUE) [!].gs0",
-    "image": "/images/roms/gens/mega-bomberman.jpg",
-    "console": "gens",
-    "id": "mega-bomberman",
-    "id_igdb": 4513,
-    "active": true
-  },
-  {
-    "name": "Mega Bomberman",
     "filename": "Mega Bomberman (JUE) [!].smd",
     "image": "/images/roms/gens/mega-bomberman.jpg",
     "console": "gens",
@@ -9046,15 +8839,6 @@
   },
   {
     "name": "Megaman - The Wily Wars",
-    "filename": "Megaman - The Wily Wars (E).gs0",
-    "image": "",
-    "console": "gens",
-    "id": "megaman-the-wily-wars",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Megaman - The Wily Wars",
     "filename": "Megaman - The Wily Wars (E).smd",
     "image": "",
     "console": "gens",
@@ -9141,15 +8925,6 @@
     "console": "snes",
     "id": "metal-warriors",
     "id_igdb": 14386,
-    "active": true
-  },
-  {
-    "name": "MiG-29 Fulcrum",
-    "filename": "Mig-29 Fulcrum (UEJ) [!].smd",
-    "image": "/images/roms/gens/mig-29-fulcrum.jpg",
-    "console": "gens",
-    "id": "mig-29-fulcrum",
-    "id_igdb": 12682,
     "active": true
   },
   {
@@ -9280,17 +9055,8 @@
   },
   {
     "name": "Micro Machines",
-    "filename": "Micro Machines (E) [c][!].gs0",
-    "image": "/images/roms/gens/micro-machines.jpg",
-    "console": "gens",
-    "id": "micro-machines",
-    "id_igdb": 250469,
-    "active": true
-  },
-  {
-    "name": "Micro Machines",
     "filename": "Micro Machines (E) [c][!].smd",
-    "image": "/images/roms/gens/micro-machines--3.jpg",
+    "image": "/images/roms/gens/micro-machines.jpg",
     "console": "gens",
     "id": "micro-machines",
     "id_igdb": 250469,
@@ -9348,6 +9114,15 @@
     "console": "gens",
     "id": "midnight-resistance",
     "id_igdb": 4401,
+    "active": true
+  },
+  {
+    "name": "Mig-29 Fulcrum",
+    "filename": "Mig-29 Fulcrum (UEJ) [!].smd",
+    "image": "/images/roms/gens/mig-29-fulcrum.jpg",
+    "console": "gens",
+    "id": "mig-29-fulcrum",
+    "id_igdb": 12682,
     "active": true
   },
   {
@@ -11169,7 +10944,7 @@
     "active": true
   },
   {
-    "name": "Pit-Fighter",
+    "name": "Pit Fighter",
     "filename": "Pit Fighter (Oct 1991) (UJE) [!].smd",
     "image": "/images/roms/gens/pit-fighter.jpg",
     "console": "gens",
@@ -11178,7 +10953,7 @@
     "active": true
   },
   {
-    "name": "Pit-Fighter",
+    "name": "Pit Fighter",
     "filename": "Pit Fighter (E) [!].smc",
     "image": "/images/roms/snes/pit-fighter.jpg",
     "console": "snes",
@@ -11754,15 +11529,6 @@
     "active": true
   },
   {
-    "name": "ROMS",
-    "filename": "ROMS.LST",
-    "image": "",
-    "console": "snes",
-    "id": "roms",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "RPM Racing",
     "filename": "RPM Racing (U).smc",
     "image": "/images/roms/snes/rpm-racing.jpg",
@@ -11862,7 +11628,7 @@
     "active": true
   },
   {
-    "name": "Ranger X",
+    "name": "Ranger-X",
     "filename": "Ranger-X (E) [!].smd",
     "image": "/images/roms/gens/ranger-x.jpg",
     "console": "gens",
@@ -12286,34 +12052,7 @@
   },
   {
     "name": "Rock N' Roll Racing",
-    "filename": "Rock N' Roll Racing (E).000",
-    "image": "",
-    "console": "snes",
-    "id": "rock-n-roll-racing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Rock N' Roll Racing",
     "filename": "Rock N' Roll Racing (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "rock-n-roll-racing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Rock N' Roll Racing",
-    "filename": "Rock N' Roll Racing (E).zm4",
-    "image": "",
-    "console": "snes",
-    "id": "rock-n-roll-racing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Rock N' Roll Racing",
-    "filename": "Rock N' Roll Racing (E).zmv",
     "image": "",
     "console": "snes",
     "id": "rock-n-roll-racing",
@@ -12897,7 +12636,7 @@
     "active": true
   },
   {
-    "name": "Shi-Kin-Joh",
+    "name": "Shi Kin Joh",
     "filename": "Shi Kin Joh (J).smd",
     "image": "/images/roms/gens/shi-kin-joh.jpg",
     "console": "gens",
@@ -13140,7 +12879,7 @@
     "active": true
   },
   {
-    "name": "Skitchin'",
+    "name": "Skitchin",
     "filename": "Skitchin (UEJ) [!].smd",
     "image": "/images/roms/gens/skitchin.jpg",
     "console": "gens",
@@ -13402,15 +13141,6 @@
   },
   {
     "name": "Sonic and Knuckles",
-    "filename": "Sonic and Knuckles (JUE) [!].pat",
-    "image": "",
-    "console": "gens",
-    "id": "sonic-and-knuckles",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sonic and Knuckles",
     "filename": "Sonic and Knuckles (JUE) [!].smd",
     "image": "",
     "console": "gens",
@@ -13434,24 +13164,6 @@
     "console": "gens",
     "id": "sonic-and-knuckles-sonic-3",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sonic the Hedgehog",
-    "filename": "Sonic the Hedgehog (JUE) [!].gs0",
-    "image": "/images/roms/gens/sonic-the-hedgehog.jpg",
-    "console": "gens",
-    "id": "sonic-the-hedgehog",
-    "id_igdb": 3192,
-    "active": true
-  },
-  {
-    "name": "Sonic the Hedgehog",
-    "filename": "Sonic the Hedgehog (JUE) [!].pat",
-    "image": "/images/roms/gens/sonic-the-hedgehog.jpg",
-    "console": "gens",
-    "id": "sonic-the-hedgehog",
-    "id_igdb": 3192,
     "active": true
   },
   {
@@ -13484,15 +13196,6 @@
   {
     "name": "Sonic the Hedgehog 3",
     "filename": "Sonic the Hedgehog 3 (U) [!].bin",
-    "image": "/images/roms/gens/sonic-the-hedgehog-3.jpg",
-    "console": "gens",
-    "id": "sonic-the-hedgehog-3",
-    "id_igdb": 6797,
-    "active": true
-  },
-  {
-    "name": "Sonic the Hedgehog 3",
-    "filename": "Sonic the Hedgehog 3 (U) [!].pat",
     "image": "/images/roms/gens/sonic-the-hedgehog-3.jpg",
     "console": "gens",
     "id": "sonic-the-hedgehog-3",
@@ -14203,15 +13906,6 @@
   },
   {
     "name": "Streets of Rage",
-    "filename": "Streets of Rage (JUE) [!].pat",
-    "image": "/images/roms/gens/streets-of-rage.jpg",
-    "console": "gens",
-    "id": "streets-of-rage",
-    "id_igdb": 1652,
-    "active": true
-  },
-  {
-    "name": "Streets of Rage",
     "filename": "Streets of Rage (JUE) [!].smd",
     "image": "/images/roms/gens/streets-of-rage.jpg",
     "console": "gens",
@@ -14226,42 +13920,6 @@
     "console": "gens",
     "id": "streets-of-rage-2",
     "id_igdb": 1653,
-    "active": true
-  },
-  {
-    "name": "Streets of Rage 2",
-    "filename": "Streets of Rage 2 (U) [!].gs0",
-    "image": "/images/roms/gens/streets-of-rage-2.jpg",
-    "console": "gens",
-    "id": "streets-of-rage-2",
-    "id_igdb": 1653,
-    "active": true
-  },
-  {
-    "name": "Streets of Rage 2",
-    "filename": "Streets of Rage 2 (U) [!].pat",
-    "image": "/images/roms/gens/streets-of-rage-2.jpg",
-    "console": "gens",
-    "id": "streets-of-rage-2",
-    "id_igdb": 1653,
-    "active": true
-  },
-  {
-    "name": "Streets of Rage 3",
-    "filename": "Streets of Rage 3 (U) [!].gs0",
-    "image": "/images/roms/gens/streets-of-rage-3.jpg",
-    "console": "gens",
-    "id": "streets-of-rage-3",
-    "id_igdb": 1654,
-    "active": true
-  },
-  {
-    "name": "Streets of Rage 3",
-    "filename": "Streets of Rage 3 (U) [!].pat",
-    "image": "/images/roms/gens/streets-of-rage-3.jpg",
-    "console": "gens",
-    "id": "streets-of-rage-3",
-    "id_igdb": 1654,
     "active": true
   },
   {
@@ -14328,7 +13986,7 @@
     "active": true
   },
   {
-    "name": "Sub Terrania",
+    "name": "Sub-Terrania",
     "filename": "Sub-Terrania (E) [!].smd",
     "image": "/images/roms/gens/sub-terrania.jpg",
     "console": "gens",
@@ -14976,24 +14634,6 @@
     "active": true
   },
   {
-    "name": "Super Mario World 3 - Islands of Mistery",
-    "filename": "Super Mario World 3 - Islands of Mistery [h1].zst",
-    "image": "",
-    "console": "snes",
-    "id": "super-mario-world-3-islands-of-mistery",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super Mario World 3 - Islands of Mistery_00000",
-    "filename": "Super Mario World 3 - Islands of Mistery [h1]_00000.bmp",
-    "image": "",
-    "console": "snes",
-    "id": "super-mario-world-3-islands-of-mistery-00000",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Mario World A Super Mario Adventure",
     "filename": "Super Mario World A Super Mario Adventure (V3.0).smc",
     "image": "",
@@ -15216,15 +14856,6 @@
     "console": "snes",
     "id": "super-r-type",
     "id_igdb": 42574,
-    "active": true
-  },
-  {
-    "name": "Super R.B.I. Baseball",
-    "filename": "Super R.B.I. Baseball (U).fig",
-    "image": "/images/roms/snes/super-r-b-i-baseball.jpg",
-    "console": "snes",
-    "id": "super-r-b-i-baseball",
-    "id_igdb": 5332,
     "active": true
   },
   {
@@ -15624,6 +15255,15 @@
     "active": true
   },
   {
+    "name": "TAZ Mania",
+    "filename": "TAZ Mania (U) [!].bin",
+    "image": "/images/roms/gens/taz-mania.jpg",
+    "console": "gens",
+    "id": "taz-mania",
+    "id_igdb": 8066,
+    "active": true
+  },
+  {
     "name": "TKO Super Championship Boxing",
     "filename": "TKO Super Championship Boxing (U).smc",
     "image": "/images/roms/snes/tko-super-championship-boxing.jpg",
@@ -15729,15 +15369,6 @@
     "console": "gens",
     "id": "task-force-harrier-ex",
     "id_igdb": 46599,
-    "active": true
-  },
-  {
-    "name": "Taz-Mania",
-    "filename": "TAZ Mania (U) [!].bin",
-    "image": "/images/roms/gens/taz-mania.jpg",
-    "console": "gens",
-    "id": "taz-mania",
-    "id_igdb": 8066,
     "active": true
   },
   {
@@ -15971,15 +15602,6 @@
     "image": "",
     "console": "gens",
     "id": "tel-tel-stadium",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Terminator 2 - Judgement Day",
-    "filename": "Terminator 2 - Judgement Day (JUE) [!].gs0",
-    "image": "",
-    "console": "gens",
-    "id": "terminator-2-judgement-day",
     "id_igdb": "",
     "active": true
   },
@@ -16408,15 +16030,6 @@
   },
   {
     "name": "Top Gear 2",
-    "filename": "Top Gear 2 (U) [!].gs0",
-    "image": "/images/roms/gens/top-gear-2.jpg",
-    "console": "gens",
-    "id": "top-gear-2",
-    "id_igdb": 13057,
-    "active": true
-  },
-  {
-    "name": "Top Gear 2",
     "filename": "Top Gear 2 (U) [!].smd",
     "image": "/images/roms/gens/top-gear-2.jpg",
     "console": "gens",
@@ -16494,24 +16107,6 @@
     "console": "gens",
     "id": "toxic-crusaders",
     "id_igdb": 8022,
-    "active": true
-  },
-  {
-    "name": "Toy Story",
-    "filename": "Toy Story (4) [!].gs0",
-    "image": "",
-    "console": "gens",
-    "id": "toy-story",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Toy Story",
-    "filename": "Toy Story (4) [!].pat",
-    "image": "",
-    "console": "gens",
-    "id": "toy-story",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -17019,15 +16614,6 @@
     "active": true
   },
   {
-    "name": "Valid",
-    "filename": "Valid.Ext",
-    "image": "",
-    "console": "snes",
-    "id": "valid",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Valis - The Fantasm Soldier",
     "filename": "Valis - The Fantasm Soldier (U) [!].bin",
     "image": "",
@@ -17073,7 +16659,7 @@
     "active": true
   },
   {
-    "name": "VectorMan",
+    "name": "Vectorman",
     "filename": "Vectorman (F) [!].bin",
     "image": "/images/roms/gens/vectorman.jpg",
     "console": "gens",
@@ -17380,18 +16966,18 @@
   },
   {
     "name": "WarpSpeed",
-    "filename": "Warpspeed (JUE) [!].bin",
-    "image": "/images/roms/gens/warpspeed.jpg",
-    "console": "gens",
+    "filename": "WarpSpeed (E).smc",
+    "image": "/images/roms/snes/warpspeed.jpg",
+    "console": "snes",
     "id": "warpspeed",
     "id_igdb": 4494,
     "active": true
   },
   {
-    "name": "WarpSpeed",
-    "filename": "WarpSpeed (E).smc",
-    "image": "/images/roms/snes/warpspeed.jpg",
-    "console": "snes",
+    "name": "Warpspeed",
+    "filename": "Warpspeed (JUE) [!].bin",
+    "image": "/images/roms/gens/warpspeed.jpg",
+    "console": "gens",
     "id": "warpspeed",
     "id_igdb": 4494,
     "active": true
@@ -17505,7 +17091,7 @@
     "active": true
   },
   {
-    "name": "WeaponLord",
+    "name": "Weaponlord",
     "filename": "Weaponlord (4) [!].bin",
     "image": "/images/roms/gens/weaponlord.jpg",
     "console": "gens",
@@ -18135,6 +17721,15 @@
     "active": true
   },
   {
+    "name": "X Zone",
+    "filename": "X Zone (U).smc",
+    "image": "/images/roms/snes/x-zone.jpg",
+    "console": "snes",
+    "id": "x-zone",
+    "id_igdb": 42647,
+    "active": true
+  },
+  {
     "name": "X-Kaliber 2097",
     "filename": "X-Kaliber 2097 (U).smc",
     "image": "/images/roms/snes/x-kaliber-2097.jpg",
@@ -18171,21 +17766,12 @@
     "active": true
   },
   {
-    "name": "X-Perts",
+    "name": "X-perts",
     "filename": "X-perts (C) [!].bin",
     "image": "/images/roms/gens/x-perts.jpg",
     "console": "gens",
     "id": "x-perts",
     "id_igdb": 46684,
-    "active": true
-  },
-  {
-    "name": "X-Zone",
-    "filename": "X Zone (U).smc",
-    "image": "/images/roms/snes/x-zone.jpg",
-    "console": "snes",
-    "id": "x-zone",
-    "id_igdb": 42647,
     "active": true
   },
   {
@@ -18351,15 +17937,6 @@
     "active": true
   },
   {
-    "name": "ZSNESW",
-    "filename": "ZSNESW.CFG",
-    "image": "",
-    "console": "snes",
-    "id": "zsnesw",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Zan Yasha Enbuden",
     "filename": "Zan Yasha Enbuden (J).bin",
     "image": "",
@@ -18442,25 +18019,7 @@
   },
   {
     "name": "Zombies Ate My Neighbors",
-    "filename": "Zombies Ate My Neighbors (U) [!].cht",
-    "image": "/images/roms/snes/zombies-ate-my-neighbors.jpg",
-    "console": "snes",
-    "id": "zombies-ate-my-neighbors",
-    "id_igdb": 2162,
-    "active": true
-  },
-  {
-    "name": "Zombies Ate My Neighbors",
     "filename": "Zombies Ate My Neighbors (U) [!].smc",
-    "image": "/images/roms/snes/zombies-ate-my-neighbors.jpg",
-    "console": "snes",
-    "id": "zombies-ate-my-neighbors",
-    "id_igdb": 2162,
-    "active": true
-  },
-  {
-    "name": "Zombies Ate My Neighbors",
-    "filename": "Zombies Ate My Neighbors (U) [!].zst",
     "image": "/images/roms/snes/zombies-ate-my-neighbors.jpg",
     "console": "snes",
     "id": "zombies-ate-my-neighbors",
@@ -18486,7 +18045,7 @@
     "active": true
   },
   {
-    "name": "Zoom!",
+    "name": "Zoom",
     "filename": "Zoom (JU) [!].smd",
     "image": "/images/roms/gens/zoom.jpg",
     "console": "gens",
@@ -18510,33 +18069,6 @@
     "console": "snes",
     "id": "zoop",
     "id_igdb": 20615,
-    "active": true
-  },
-  {
-    "name": "language",
-    "filename": "language.dat",
-    "image": "",
-    "console": "gens",
-    "id": "language",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "sfa2dat",
-    "filename": "sfa2dat.dat",
-    "image": "",
-    "console": "snes",
-    "id": "sfa2dat",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "zguicfgw",
-    "filename": "zguicfgw.dat",
-    "image": "",
-    "console": "snes",
-    "id": "zguicfgw",
-    "id_igdb": "",
     "active": true
   }
 ]
