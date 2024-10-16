@@ -131,7 +131,6 @@
     "name": "Super Nintendo",
     "image": "/images/consoles/snes.png",
     "id": "snes",
-    "core": "snes9x",
     "controls": [
       {
         "player": 1,
