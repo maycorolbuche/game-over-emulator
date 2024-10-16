@@ -5,6 +5,7 @@
     class="d-flex align-stretch"
     style="height: 100%"
   >
+    <button v-show="false" v-shortkey.push="['\'']" @shortkey="speed" />
     <div
       id="emulator-container"
       ref="emulatorContainer"
@@ -68,7 +69,7 @@
             v-if="!is_paused"
             :class="{ link: true, disabled: loading || interact }"
             href="javascript:"
-            v-shortkey="['ctrl', 'enter']"
+            v-shortkey.once="['ctrl', 'enter']"
             @click="pause()"
             @shortkey="pause()"
           >
@@ -78,7 +79,7 @@
             v-if="is_paused"
             :class="{ link: true, disabled: loading || interact }"
             href="javascript:"
-            v-shortkey="['ctrl', 'enter']"
+            v-shortkey.once="['ctrl', 'enter']"
             @click="play()"
             @shortkey="play()"
           >
@@ -87,7 +88,7 @@
           <a
             :class="{ link: true, disabled: loading || interact }"
             href="javascript:"
-            v-shortkey="['shift', '+']"
+            v-shortkey.once="['shift', '+']"
             @click="saveState(0)"
             @shortkey="saveState(0)"
           >
@@ -96,7 +97,7 @@
           <a
             :class="{ link: true, disabled: loading || interact }"
             href="javascript:"
-            v-shortkey="['=']"
+            v-shortkey.once="['=']"
             @click="loadState(0)"
             @shortkey="loadState(0)"
           >
@@ -105,7 +106,7 @@
           <a
             :class="{ link: true, disabled: loading || interact }"
             href="javascript:"
-            v-shortkey="['f11']"
+            v-shortkey.once="['f11']"
             @click="toggleFullscreen()"
             @shortkey="toggleFullscreen()"
           >
@@ -114,7 +115,7 @@
           <a
             :class="{ link: true, disabled: loading || interact }"
             href="javascript:"
-            v-shortkey="['tab']"
+            v-shortkey.once="['tab']"
             @click="restartGame()"
             @shortkey="restartGame()"
           >
@@ -231,6 +232,10 @@ export default {
             {
               key: "TAB",
               ref: "Reiniciar",
+            },
+            {
+              key: "'",
+              ref: "Acelerar",
             },
           ],
         },
@@ -355,6 +360,12 @@ export default {
     restart() {
       if (this.nostalgist) {
         this.nostalgist.restart();
+      }
+    },
+    speed() {
+      if (this.nostalgist) {
+        console.log("FAST_FORWARD");
+        this.nostalgist.sendCommand("FAST_FORWARD");
       }
     },
     restartGame() {
