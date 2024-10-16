@@ -3,7 +3,6 @@
     "name": "Mega Drive",
     "image": "/images/consoles/gens.png",
     "id": "gens",
-    "core": "genesis_plus_gx",
     "controls": [
       {
         "player": 1,

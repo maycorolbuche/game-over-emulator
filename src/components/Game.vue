@@ -180,7 +180,6 @@ export default {
     image: String,
     console: String,
     console_image: String,
-    core: String,
     controls: Array,
   },
   data() {
@@ -268,11 +267,31 @@ export default {
       try {
         this.loading = true;
 
-        this.nostalgist = await Nostalgist.launch({
+        let config = {
           element: "#emulator-canvas",
           rom: file,
-          core: this.core,
-          //core: "fceumm",
+          core: (() => {
+            switch (this.filename.split(".").pop().toLowerCase()) {
+              case "nes":
+                return "fceumm";
+              case "sfc":
+              case "smc":
+                return "snes9x";
+              case "gba":
+                return "mgba";
+              case "gb":
+              case "gbc":
+                return "gambatte";
+              case "gen":
+              case "smd":
+              case "srm":
+              case "bin":
+              case "md":
+                return "genesis_plus_gx";
+              default:
+                return "";
+            }
+          })(),
           retroarchConfig: {
             input_player1_start: "enter",
             input_player1_select: "shift",
@@ -308,12 +327,9 @@ export default {
             input_player2_down: "keypad2",
             input_player2_right: "keypad3",
           },
-        });
-        let self = this;
-        setTimeout(function () {
-          console.log("nostalgist", self.nostalgist);
-        }, 5000);
-        //console.log(this.nostalgist.getCurrentRetroarchConfig());
+        };
+        console.log("Iniciando....", config);
+        this.nostalgist = await Nostalgist.launch(config);
 
         this.loading = false;
       } catch (error) {
@@ -381,7 +397,6 @@ export default {
       if (this.nostalgist) {
         const { state } = await this.nostalgist.saveState();
         this.slot[slot] = await Conversions.blobToBase64(state);
-        console.log(`Estado salvo no slot ${slot}`, state);
         this.message = "Salvo";
         Storage.set(this.console + "." + this.id, this.slot);
       }
@@ -394,10 +409,8 @@ export default {
           await this.nostalgist.loadState(state);
           this.play();
           this.message = "Carregado";
-          console.log(`Estado carregado do slot ${slot}`);
         } else {
           this.message = "Nada a ser carregado";
-          console.log(`Nenhum estado salvo no slot ${slot}`);
         }
       }
     },

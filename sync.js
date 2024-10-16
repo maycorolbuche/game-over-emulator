@@ -129,34 +129,34 @@ async function update_roms(json, list, consol, dir_json) {
         let id_igdb = item ? item.id_igdb ?? "" : "";
 
         console.log("Processando...", { id, name, consol, image })
-
-        if (image === "") {
-            try {
-                const accessToken = await getAccessToken(clientId, clientSecret);
-                let gameImage = await getGameData(id, consol, clientId, accessToken);
-                if (gameImage && gameImage.cover_url) {
-                    if (gameImage.cover_url) {
-                        image = gameImage.cover_url;
-                        slug = gameImage.slug;
-                        name = gameImage.name;
-                        id_igdb = gameImage.id;
-                        console.log("Imagem encontrada:", { id, name, consol, image, gameImage })
-                    }
-                } else {
-                    gameImage = await getGameData(name, consol, clientId, accessToken);
-                    if (gameImage && gameImage.cover_url) {
-                        image = gameImage.cover_url;
-                        slug = gameImage.slug;
-                        name = gameImage.name;
-                        id_igdb = gameImage.id;
-                        console.log("Imagem encontrada na 2ª análise:", { id, name, consol, image, gameImage })
+        /*
+                if (image === "") {
+                    try {
+                        const accessToken = await getAccessToken(clientId, clientSecret);
+                        let gameImage = await getGameData(id, consol, clientId, accessToken);
+                        if (gameImage && gameImage.cover_url) {
+                            if (gameImage.cover_url) {
+                                image = gameImage.cover_url;
+                                slug = gameImage.slug;
+                                name = gameImage.name;
+                                id_igdb = gameImage.id;
+                                console.log("Imagem encontrada:", { id, name, consol, image, gameImage })
+                            }
+                        } else {
+                            gameImage = await getGameData(name, consol, clientId, accessToken);
+                            if (gameImage && gameImage.cover_url) {
+                                image = gameImage.cover_url;
+                                slug = gameImage.slug;
+                                name = gameImage.name;
+                                id_igdb = gameImage.id;
+                                console.log("Imagem encontrada na 2ª análise:", { id, name, consol, image, gameImage })
+                            }
+                        }
+                    } catch (error) {
+                        console.error("Erro ao buscar a imagem:", error);
                     }
                 }
-            } catch (error) {
-                console.error("Erro ao buscar a imagem:", error);
-            }
-        }
-
+        */
         id = slug;
 
         if (item) {
@@ -177,7 +177,7 @@ async function update_roms(json, list, consol, dir_json) {
             });
         }
 
-        await save(dir_json, json);
+        //await save(dir_json, json);
     }
 
     // Ordena o JSON pelo nome dos itens
@@ -398,7 +398,7 @@ async function main() {
     for (const consol of consoles) {
         let roms = await get_files(path.join(dir, consol));
         let json = await open(path.join(dir_json, 'roms.json'));
-        //json = await update_roms(json, roms, consol, path.join(dir_json, 'roms.json'));
+        json = await update_roms(json, roms, consol, path.join(dir_json, 'roms.json'));
         let dup = find_duplicate_ids(json);
         if (dup.length > 0) {
             dupicates.push(...dup);
