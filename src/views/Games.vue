@@ -73,11 +73,9 @@ export default {
       return this.json_roms
         .filter((rom) => rom.active && rom.console === this.console_id)
         .slice()
-        .sort((a, b) => {
-          if (a.name < b.name) return -1;
-          if (a.name > b.name) return 1;
-          return 0;
-        });
+        .sort((a, b) =>
+          a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+        );
     },
   },
   watch: {
