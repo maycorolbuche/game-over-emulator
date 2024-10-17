@@ -287,11 +287,7 @@ export default {
               case "gb":
               case "gbc":
                 return "gambatte";
-              case "gen":
               case "smd":
-              case "srm":
-              case "bin":
-              case "md":
                 return "genesis_plus_gx";
               default:
                 return "";

@@ -11,13 +11,13 @@
       <a
         v-for="rom in roms"
         :key="rom.id"
-        class="rom-card d-flex flex-column align-center justify-center"
+        class="rom-card d-flex flex-column align-center"
         href="javascript:"
         @click="openGame(rom)"
       >
         <img v-if="rom.image" :src="rom.image" />
         <img v-else-if="consol.image" :src="consol.image" />
-        <span>{{ rom.name }}|{{ rom.filename }}</span>
+        <span>{{ rom.name }}</span>
       </a>
     </div>
 
@@ -30,14 +30,10 @@
         @close="closeGame()"
       />
     </modal>
-
-    <tetris />
   </div>
 </template>
 
 <script>
-import Tetris from "@/components/bg/Tetris.vue";
-
 import Modal from "@/components/Modal.vue";
 import Game from "@/components/Game.vue";
 
@@ -47,7 +43,6 @@ import roms from "@/json/roms.json";
 export default {
   name: "GamesPage",
   components: {
-    Tetris,
     Modal,
     Game,
   },
