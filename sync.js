@@ -219,7 +219,7 @@ async function update_roms(json, list, consol, action, dir_json) {
             change = true;
         }
 
-        if (change || check_image) {
+        if (change || check_image || check_name) {
             await save(dir_json, json);
         }
     }
@@ -435,8 +435,8 @@ async function main() {
     console.log(qOption(4, 'Localizar imagens dos jogos'));
     console.log(qOption(5, 'Resetar checagem de imagens dos jogos'));
     console.log(qOption(6, 'Baixar imagens dos jogos'));
-    console.log(qOption(7, 'Resetar checagem de nomes dos jogos'));
-    console.log(qOption(8, 'Atualizar nomes dos jogos'));
+    console.log(qOption(7, 'Atualizar nomes dos jogos'));
+    console.log(qOption(8, 'Resetar checagem de nomes dos jogos'));
     console.log(qOption(0, 'Sair'));
 
     const option = await readlineSync.question('> ');
@@ -493,6 +493,14 @@ async function main() {
                     case '6':
                         json = await download_image(json, "rom");
                         break;
+                    case '7':
+                        json = await update_roms(json, roms, consol, 'find_name', path.join(dir_json, 'roms.json'));
+                        break;
+                    case '8':
+                        json.forEach(item => {
+                            delete item.check_name;
+                        });
+                        break;
                 }
 
                 await save(path.join(dir_json, 'roms.json'), json);
@@ -505,36 +513,6 @@ async function main() {
         default:
             return;
     }
-
-
-
-    //Atualiza Consoles
-    /*const consoles = await get_files(dir);
-    let json = await open(path.join(dir_json, 'consoles.json'));
-    json = update_consoles(json, consoles);
-    json = await download_image(json, "console");
-    await save(path.join(dir_json, 'consoles.json'), json);
-
-    //Atualiza Jogos
-    let dupicates = [];
-    for (const consol of consoles) {
-        let roms = await get_files(path.join(dir, consol));
-        let json = await open(path.join(dir_json, 'roms.json'));
-        json = await update_roms(json, roms, consol, path.join(dir_json, 'roms.json'));
-        let dup = find_duplicate_ids(json);
-        if (dup.length > 0) {
-            dupicates.push(...dup);
-        }
-        json = await download_image(json, "rom");
-        await save(path.join(dir_json, 'roms.json'), json);
-    }
-
-    if (dupicates.length > 0) {
-        console.log(`Existem ${dupicates.length} itens duplicados!!!`, dupicates, "FIM DOS ITENS DUPLICADOS");
-    } else {
-        console.log("Não há itens duplicados!!!",);
-
-    }*/
 }
 
 main();
