@@ -23,17 +23,17 @@ async function get_files(dir) {
 
 async function open(dir) {
     try {
-        console.log('JSON aberto com sucesso!');
+        console.log(`JSON ${dir} aberto com sucesso!`);
         const data = await fs.readFile(dir, 'utf8');
 
         if (data.trim() === '') {
-            console.error('O arquivo JSON está vazio.');
+            console.error(`O arquivo JSON ${dir} está vazio.`);
             return [];
         }
 
         return JSON.parse(data);
     } catch (err) {
-        console.error('Erro ao abrir o arquivo JSON:', err);
+        console.error(`Erro ao abrir o arquivo JSON ${dir}:`, err);
         return [];
     }
 }
@@ -41,9 +41,9 @@ async function open(dir) {
 async function save(dir, data) {
     try {
         await fs.writeFile(dir, JSON.stringify(data, null, 2), 'utf8');
-        console.log('JSON atualizado com sucesso!');
+        console.log(`JSON ${dir} atualizado com sucesso!`);
     } catch (err) {
-        console.error('Erro ao salvar o arquivo JSON:', err);
+        console.error(`Erro ao salvar o arquivo JSON ${dir}:`, err);
     }
 }
 
@@ -103,13 +103,15 @@ function update_consoles(json, list) {
     return json;
 }
 
-async function update_roms(json, list, consol, dir_json) {
+async function update_roms(json, list, consol, action, dir_json) {
     // Desativa todos os itens com o console correspondente
-    /*json
-    .filter((item) => item.console === consol)
-    .forEach((item) => {
-        item.active = false;
-        });*/
+    if (action == 'sync') {
+        json
+            .filter((item) => item.console === consol)
+            .forEach((item) => {
+                item.active = false;
+            });
+    }
 
     // Usa for...of para garantir que await funcione corretamente
     for (const filename of list) {
@@ -117,76 +119,88 @@ async function update_roms(json, list, consol, dir_json) {
 
         const item = json.find((item) => item.filename === filename && item.console === consol);
 
-        let name = filename.replace(/\s*\(.*?\)|\s*\[.*?\]/g, ''); // Remove conteúdo entre () e []
-        name = name.replace(/\.[^/.]+$/, ''); // Remove a extensão
-        name = name.trim(); // Remove espaços em branco ao redor
+        let name = item ? item.name : "";
+        if (name == "") {
+            name = filename.replace(/\s*\(.*?\)|\s*\[.*?\]/g, ''); // Remove conteúdo entre () e []
+            name = name.replace(/\.[^/.]+$/, ''); // Remove a extensão
+            name = name.trim(); // Remove espaços em branco ao redor
+        }
 
-        let id = name.replace(/\.[^/.]+$/, ''); // Remove a extensão
-        id = id.replace(/[^a-zA-Z0-9]+/g, '-');
-        id = id.trim().toLowerCase();
-        id = id.replace(/_{2,}/g, '-');
+        let id = item ? item.id : "";
+        if (id == "") {
+            id = name.replace(/\.[^/.]+$/, ''); // Remove a extensão
+            id = id.replace(/[^a-zA-Z0-9]+/g, '-');
+            id = id.trim().toLowerCase();
+            id = id.replace(/_{2,}/g, '-');
+        }
 
         let image = item ? item.image : "";
-        let slug = item ? item.id : id;
-        let check = item ? item.check ?? false : false;
+        let check_image = item ? item.check_image ?? false : false;
+        let check_name = item ? item.check_name ?? false : false;
         let id_igdb = item ? item.id_igdb ?? "" : "";
 
         console.log("Processando...", { id, name, consol, image })
 
-        if (image === "" && !check) {
-            try {
-                const accessToken = await getAccessToken(clientId, clientSecret);
-                let gameImage = await getGameData(id, consol, clientId, accessToken);
-                if (gameImage && gameImage.cover_url) {
-                    if (gameImage.cover_url) {
-                        image = gameImage.cover_url;
-                        slug = gameImage.slug;
-                        name = gameImage.name;
-                        id_igdb = gameImage.id;
-                        console.log("Imagem encontrada:", { id, name, consol, image, gameImage })
-                        change = true;
-                    }
-                } else {
-                    gameImage = await getGameData(name, consol, clientId, accessToken);
-                    if (gameImage && gameImage.cover_url) {
-                        image = gameImage.cover_url;
-                        slug = gameImage.slug;
-                        name = gameImage.name;
-                        id_igdb = gameImage.id;
-                        console.log("Imagem encontrada na 2ª análise:", { id, name, consol, image, gameImage })
-                        change = true;
-                    }
-                }
-            } catch (error) {
-                console.error("Erro ao buscar a imagem:", error);
-            }
-            check = true;
-        }
-        /*
-                if (id_igdb != "") {
+        if (action == 'find_image') {
+            if (image === "" && !check_image) {
+                try {
                     const accessToken = await getAccessToken(clientId, clientSecret);
-                    const response = await axios.post('https://api.igdb.com/v4/games', `where id = ${id_igdb}; fields name,slug,cover.url,platforms;`, {
-                        headers: {
-                            'Client-ID': clientId,
-                            'Authorization': `Bearer ${accessToken}`
+                    let gameImage = await getGameData(id, consol, clientId, accessToken);
+                    if (gameImage && gameImage.cover_url) {
+                        if (gameImage.cover_url) {
+                            image = gameImage.cover_url;
+                            id = gameImage.slug;
+                            name = gameImage.name;
+                            id_igdb = gameImage.id;
+                            console.log("Imagem encontrada:", { id, name, consol, image, gameImage })
+                            change = true;
                         }
-                    });
-        
-                    if (response.data.length > 0) {
-                        if (name != response.data[0].name) {
-                            console.log("Name alterado", name, response.data[0].name)
-                            name = response.data[0].name;
+                    } else {
+                        gameImage = await getGameData(name, consol, clientId, accessToken);
+                        if (gameImage && gameImage.cover_url) {
+                            image = gameImage.cover_url;
+                            id = gameImage.slug;
+                            name = gameImage.name;
+                            id_igdb = gameImage.id;
+                            console.log("Imagem encontrada na 2ª análise:", { id, name, consol, image, gameImage })
                             change = true;
                         }
                     }
+                } catch (error) {
+                    console.error("Erro ao buscar a imagem:", error);
                 }
-        */
-        id = slug;
+                check_image = true;
+            }
+        }
+
+        if (action == 'find_name') {
+            if (id_igdb != "") {
+                const accessToken = await getAccessToken(clientId, clientSecret);
+                const response = await axios.post('https://api.igdb.com/v4/games', `where id = ${id_igdb}; fields name,slug,cover.url,platforms;`, {
+                    headers: {
+                        'Client-ID': clientId,
+                        'Authorization': `Bearer ${accessToken}`
+                    }
+                });
+
+                if (response.data.length > 0) {
+                    if (name != response.data[0].name) {
+                        console.log("Nome alterado", name, response.data[0].name)
+                        name = response.data[0].name;
+                        change = true;
+                    }
+                }
+                check_name = true;
+            }
+        }
 
         if (item) {
             item.active = true;
-            if (check) {
-                item.check = check;
+            if (check_image) {
+                item.check_image = check_image;
+            }
+            if (check_name) {
+                item.check_name = check_name;
             }
             item.image = image;
             item.name = name;
@@ -205,7 +219,7 @@ async function update_roms(json, list, consol, dir_json) {
             change = true;
         }
 
-        if (change || check) {
+        if (change || check_image) {
             await save(dir_json, json);
         }
     }
@@ -380,13 +394,13 @@ async function getGameData(gameName, gameConsole, clientId, accessToken) {
                 /* if (response.data.length >= 2) {
                      return null;
                  }*/
-                console.log(`Digite o numero do jogo (ou '0' pra nenhum):`);
-                console.log(`0 - ${gameName} (original)`);
+                console.log(qQuestion(`Digite o numero do jogo (ou '0' pra nenhum):`));
+                console.log(qOption(0, `${gameName} (original)`));
                 for (let i = 0; i < response.data.length; i++) {
                     if (response.data[i].cover && response.data[i].cover.url) {
-                        console.log(`${i + 1} - ${response.data[i].name} | https:${response.data[i].cover.url.replace('/t_thumb/', '/t_cover_big/')}`);
+                        console.log(qOption(i + 1, `${response.data[i].name} | https:${response.data[i].cover.url.replace('/t_thumb/', '/t_cover_big/')}`));
                     } else {
-                        console.log(`${i + 1} - ${response.data[i].name} | IMAGEM NÃO ENCONTRADA`);
+                        console.log(qOption(i + 1, `${response.data[i].name} | IMAGEM NÃO ENCONTRADA`));
                     }
                 }
                 const chosenGame = await readlineSync.question('> ');
@@ -402,23 +416,100 @@ async function getGameData(gameName, gameConsole, clientId, accessToken) {
     }
 }
 
+function qQuestion(value) {
+    return `${value}`;
+}
+function qOption(key, value) {
+    return `[${key}] ${value}`;
+}
+
 async function main() {
-    /*  let id = 'aladdin';
-      let consol = 'snes';
-      const accessToken = await getAccessToken(clientId, clientSecret);
-      const gameImage = await getGameData(id, consol, clientId, accessToken);
-      if (gameImage) {
-          if (gameImage.cover_url) {
-              image = gameImage.cover_url;
-              console.log("Imagem encontrada:", { id })
-          }
-      }
-  
-      return;
-  */
+    let json;
+    let consoles;
+    let dupicates;
+
+    console.log(qQuestion('Escolha uma opção:'));
+    console.log(qOption(1, 'Atualizar consoles'));
+    console.log(qOption(2, 'Atualizar jogos'));
+    console.log(qOption(3, 'Verificar jogos em duplicidade'));
+    console.log(qOption(4, 'Localizar imagens dos jogos'));
+    console.log(qOption(5, 'Resetar checagem de imagens dos jogos'));
+    console.log(qOption(6, 'Baixar imagens dos jogos'));
+    console.log(qOption(7, 'Resetar checagem de nomes dos jogos'));
+    console.log(qOption(8, 'Atualizar nomes dos jogos'));
+    console.log(qOption(0, 'Sair'));
+
+    const option = await readlineSync.question('> ');
+
+    switch (option) {
+        case '1':
+            consoles = await get_files(dir);
+            json = await open(path.join(dir_json, 'consoles.json'));
+            json = update_consoles(json, consoles);
+            json = await download_image(json, "console");
+            await save(path.join(dir_json, 'consoles.json'), json);
+            main();
+            break;
+        case '2':
+        case '3':
+        case '4':
+        case '5':
+        case '6':
+        case '7':
+        case '8':
+            consoles = await get_files(dir);
+
+            dupicates = [];
+            for (const consol of consoles) {
+                let roms = await get_files(path.join(dir, consol));
+                let json = await open(path.join(dir_json, 'roms.json'));
+                let dup;
+
+                switch (option) {
+                    case '2':
+                        json = await update_roms(json, roms, consol, 'sync', path.join(dir_json, 'roms.json'));
+                        break;
+                    case '3':
+                        dup = find_duplicate_ids(json);
+                        if (dup.length > 0) {
+                            dupicates.push(...dup);
+                        }
+
+                        if (dupicates.length > 0) {
+                            console.log(`Existem ${dupicates.length} itens duplicados!!!`, dupicates, "FIM DOS ITENS DUPLICADOS");
+                        } else {
+                            console.log("Não há itens duplicados!!!",);
+
+                        }
+                        break;
+                    case '4':
+                        json = await update_roms(json, roms, consol, 'find_image', path.join(dir_json, 'roms.json'));
+                        break;
+                    case '5':
+                        json.forEach(item => {
+                            delete item.check_image;
+                        });
+                        break;
+                    case '6':
+                        json = await download_image(json, "rom");
+                        break;
+                }
+
+                await save(path.join(dir_json, 'roms.json'), json);
+            }
+
+
+
+            main();
+            break;
+        default:
+            return;
+    }
+
+
 
     //Atualiza Consoles
-    const consoles = await get_files(dir);
+    /*const consoles = await get_files(dir);
     let json = await open(path.join(dir_json, 'consoles.json'));
     json = update_consoles(json, consoles);
     json = await download_image(json, "console");
@@ -443,7 +534,7 @@ async function main() {
     } else {
         console.log("Não há itens duplicados!!!",);
 
-    }
+    }*/
 }
 
 main();
