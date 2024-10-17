@@ -59,14 +59,15 @@ function find_duplicate_ids(data) {
         if (countMap[key]) {
             countMap[key].count++;
         } else {
-            countMap[key] = { count: 1, item };
+            countMap[key] = { count: 1, items: [] };
         }
+        countMap[key].items.push(item)
     });
 
     // Filtrar os ids que aparecem mais de uma vez com o mesmo console
     for (const entry of Object.values(countMap)) {
         if (entry.count > 1) {
-            duplicateEntries.push(entry.item);
+            duplicateEntries.push(entry.items);
         }
     }
 
@@ -442,6 +443,7 @@ async function main() {
     console.log(qOption(6, 'Baixar imagens dos jogos'));
     console.log(qOption(7, 'Atualizar nomes dos jogos'));
     console.log(qOption(8, 'Resetar checagem de nomes dos jogos'));
+    console.log(qOption(9, 'Apagar jogos desativados'));
     console.log(qOption(0, 'Sair'));
 
     const option = await readlineSync.question('> ');
@@ -462,6 +464,7 @@ async function main() {
         case '6':
         case '7':
         case '8':
+        case '9':
             consoles = await get_files(dir);
 
             dupicates = [];
@@ -505,6 +508,9 @@ async function main() {
                         json.forEach(item => {
                             delete item.check_name;
                         });
+                        break;
+                    case '9':
+                        json = json.filter(item => item.active);
                         break;
                 }
 
