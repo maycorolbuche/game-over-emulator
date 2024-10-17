@@ -116,6 +116,8 @@ async function update_roms(json, list, consol, action, dir_json) {
     // Usa for...of para garantir que await funcione corretamente
     for (const filename of list) {
         let change = false;
+        let change_image = false;
+        let change_name = false;
 
         const item = json.find((item) => item.filename === filename && item.console === consol);
 
@@ -138,10 +140,11 @@ async function update_roms(json, list, consol, action, dir_json) {
         let check_image = item ? item.check_image ?? false : false;
         let check_name = item ? item.check_name ?? false : false;
         let id_igdb = item ? item.id_igdb ?? "" : "";
+        let block_change = item ? item.block_change ?? false : false;
 
         console.log("Processando...", { id, name, consol, image })
 
-        if (action == 'find_image') {
+        if (!block_change && action == 'find_image') {
             if (image === "" && !check_image) {
                 try {
                     const accessToken = await getAccessToken(clientId, clientSecret);
@@ -170,11 +173,12 @@ async function update_roms(json, list, consol, action, dir_json) {
                     console.error("Erro ao buscar a imagem:", error);
                 }
                 check_image = true;
+                change_image = true;
             }
         }
 
-        if (action == 'find_name') {
-            if (id_igdb != "") {
+        if (!block_change && action == 'find_name') {
+            if (id_igdb != "" && !check_name) {
                 const accessToken = await getAccessToken(clientId, clientSecret);
                 const response = await axios.post('https://api.igdb.com/v4/games', `where id = ${id_igdb}; fields name,slug,cover.url,platforms;`, {
                     headers: {
@@ -191,6 +195,7 @@ async function update_roms(json, list, consol, action, dir_json) {
                     }
                 }
                 check_name = true;
+                change_name = true;
             }
         }
 
@@ -219,7 +224,7 @@ async function update_roms(json, list, consol, action, dir_json) {
             change = true;
         }
 
-        if (change || check_image || check_name) {
+        if (change || change_image || change_name) {
             await save(dir_json, json);
         }
     }
