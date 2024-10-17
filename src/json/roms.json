@@ -661,16 +661,6 @@
     "check_name": true
   },
   {
-    "name": "Another World",
-    "filename": "Out of This World (U) [!].smc",
-    "image": "/images/roms/snes/another-world.jpg",
-    "console": "snes",
-    "id": "another-world",
-    "id_igdb": 4348,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Aoki Gentyouhishi",
     "filename": "Aoki Gentyouhishi (J) [!].smd",
     "image": "",
@@ -1477,16 +1467,6 @@
     "console": "snes",
     "id": "beethoven-s-2nd",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Best of the Best: Championship Karate",
-    "filename": "Best of the Best (U).smc",
-    "image": "/images/roms/snes/best-of-the-best-championship-karate.jpg",
-    "console": "snes",
-    "id": "best-of-the-best-championship-karate",
-    "id_igdb": 7783,
     "active": true,
     "check_image": true
   },
@@ -2303,16 +2283,6 @@
   },
   {
     "name": "California Games II",
-    "filename": "California Games 2 (U).smc",
-    "image": "/images/roms/snes/california-games-ii.jpg",
-    "console": "snes",
-    "id": "california-games-ii",
-    "id_igdb": 263904,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "California Games II",
     "filename": "California Games II (U).smc",
     "image": "/images/roms/snes/california-games-ii.jpg",
     "console": "snes",
@@ -2362,16 +2332,6 @@
     "check_image": true
   },
   {
-    "name": "Capcom's MVP Football",
-    "filename": "Capcom's MVP Football (U).smc",
-    "image": "/images/roms/snes/capcoms-mvp-football.jpg",
-    "console": "snes",
-    "id": "capcoms-mvp-football",
-    "id_igdb": 42597,
-    "active": true,
-    "check_name": true
-  },
-  {
     "name": "Capcom's Soccer Shootout",
     "filename": "Capcom's Soccer Shootout (U).smc",
     "image": "/images/roms/snes/capcoms-soccer-shootout.jpg",
@@ -2382,16 +2342,6 @@
     "check_name": true
   },
   {
-    "name": "Capcom's Soccer Shootout",
-    "filename": "Soccer Shootout (E).smc",
-    "image": "/images/roms/snes/capcoms-soccer-shootout.jpg",
-    "console": "snes",
-    "id": "capcoms-soccer-shootout",
-    "id_igdb": 42598,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Capt'n Havoc",
     "filename": "Capt'n Havoc (E) [!].smd",
     "image": "",
@@ -2400,16 +2350,6 @@
     "id_igdb": "",
     "active": true,
     "check": true,
-    "check_image": true
-  },
-  {
-    "name": "Captain America and the Avengers",
-    "filename": "Captain America & the Avengers (U).smc",
-    "image": "/images/roms/snes/captain-america-and-the-avengers.jpg",
-    "console": "snes",
-    "id": "captain-america-and-the-avengers",
-    "id_igdb": 7816,
-    "active": true,
     "check_image": true
   },
   {
@@ -3651,16 +3591,6 @@
     "id_igdb": 131726,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Dennis the Menace",
-    "filename": "Dennis (E) [!].smc",
-    "image": "/images/roms/snes/dennis-the-menace.jpg",
-    "console": "snes",
-    "id": "dennis-the-menace",
-    "id_igdb": 14640,
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Dennis the Menace",
@@ -5435,16 +5365,6 @@
     "id_igdb": 71214,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Flashback: The Quest for Identity",
-    "filename": "Flashback (E) (M2).smc",
-    "image": "/images/roms/snes/flashback-the-quest-for-identity.jpg",
-    "console": "snes",
-    "id": "flashback-the-quest-for-identity",
-    "id_igdb": 4275,
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Flashback: The Quest for Identity",
@@ -10548,16 +10468,6 @@
     "check_name": true
   },
   {
-    "name": "Operation Logic Bomb",
-    "filename": "Operation_Logic_Bomb_(E)_[!].smc",
-    "image": "/images/roms/snes/operation-logic-bomb.jpg",
-    "console": "snes",
-    "id": "operation-logic-bomb",
-    "id_igdb": 42653,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Operation Thunderbolt",
     "filename": "Operation Thunderbolt (U).smc",
     "image": "/images/roms/snes/operation-thunderbolt.jpg",
@@ -12889,16 +12799,6 @@
   },
   {
     "name": "Shining in the Darkness",
-    "filename": "Shining and the Darkness (J).smd",
-    "image": "/images/roms/gens/shining-in-the-darkness.jpg",
-    "console": "gens",
-    "id": "shining-in-the-darkness",
-    "id_igdb": 9406,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Shining in the Darkness",
     "filename": "Shining in the Darkness (U) [!].smd",
     "image": "/images/roms/gens/shining-in-the-darkness.jpg",
     "console": "gens",
@@ -13394,16 +13294,6 @@
     "console": "gens",
     "id": "sonic-the-hedgehog-spinball",
     "id_igdb": 16036,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Sorcerer's Kingdom",
-    "filename": "Sorcer Kingdom (J) [c][!].smd",
-    "image": "/images/roms/gens/sorcerers-kingdom.jpg",
-    "console": "gens",
-    "id": "sorcerers-kingdom",
-    "id_igdb": 46197,
     "active": true,
     "check_image": true
   },
@@ -13919,17 +13809,6 @@
   },
   {
     "name": "Steel Empire",
-    "filename": "Empire of Steel (UE).smd",
-    "image": "/images/roms/gens/steel-empire.jpg",
-    "console": "gens",
-    "id": "steel-empire",
-    "id_igdb": 45536,
-    "active": true,
-    "check": true,
-    "check_name": true
-  },
-  {
-    "name": "Steel Empire",
     "filename": "Steel Empire, The (UE) [!].smd",
     "image": "/images/roms/gens/steel-empire.jpg",
     "console": "gens",
@@ -14071,16 +13950,6 @@
   {
     "name": "Street Fighter II: The World Warrior",
     "filename": "Street Fighter II - The World Warrior (U) [!].smc",
-    "image": "/images/roms/snes/street-fighter-ii-the-world-warrior.jpg",
-    "console": "snes",
-    "id": "street-fighter-ii-the-world-warrior",
-    "id_igdb": 39306,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Street Fighter II: The World Warrior",
-    "filename": "SF2.SMC",
     "image": "/images/roms/snes/street-fighter-ii-the-world-warrior.jpg",
     "console": "snes",
     "id": "street-fighter-ii-the-world-warrior",
@@ -15211,16 +15080,6 @@
   },
   {
     "name": "Super Street Fighter II: The New Challengers",
-    "filename": "Street Fighter II - The New.smc",
-    "image": "/images/roms/snes/super-street-fighter-ii-the-new-challengers.jpg",
-    "console": "snes",
-    "id": "super-street-fighter-ii-the-new-challengers",
-    "id_igdb": 12860,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Super Street Fighter II: The New Challengers",
     "filename": "Super Street Fighter II - The New Challengers (U).smc",
     "image": "/images/roms/snes/super-street-fighter-ii-the-new-challengers.jpg",
     "console": "snes",
@@ -16327,16 +16186,6 @@
     "console": "snes",
     "id": "the-irem-skins-game",
     "id_igdb": 44452,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "The Itchy & Scratchy Game",
-    "filename": "Itchy & Scratchy Game.smc",
-    "image": "/images/roms/snes/the-itchy-scratchy-game.jpg",
-    "console": "snes",
-    "id": "the-itchy-scratchy-game",
-    "id_igdb": 2834,
     "active": true,
     "check_image": true
   },
