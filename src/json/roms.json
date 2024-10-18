@@ -1128,7 +1128,8 @@
     "id": "bass-masters-classics",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bassin's Black Bass",
@@ -1278,17 +1279,19 @@
     "id": "battle-mania",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
-    "name": "Battle Mania 2 - TS Vintage",
+    "name": "Battle Mania Daiginjou",
     "filename": "Battle Mania 2 - TS Vintage (J) [c][!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ahf.jpg",
     "console": "gens",
-    "id": "battle-mania-2-ts-vintage",
-    "id_igdb": "",
+    "id": "battle-mania-daiginjou",
+    "id_igdb": 45734,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Battle Squadron",
@@ -1311,14 +1314,15 @@
     "check_name": true
   },
   {
-    "name": "Battletech",
+    "name": "MechWarrior 3050",
     "filename": "Battletech (U) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gi7.jpg",
     "console": "gens",
-    "id": "battletech",
-    "id_igdb": "",
+    "id": "mechwarrior-3050",
+    "id_igdb": 19186,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Battletoads",
@@ -1377,7 +1381,8 @@
     "id": "beast-warrior",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Beast Wrestler",
@@ -1390,14 +1395,15 @@
     "check_name": true
   },
   {
-    "name": "Beavis and Butthead",
+    "name": "MTV's Beavis and Butt-Head",
     "filename": "Beavis and Butthead (U) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zkk.jpg",
     "console": "gens",
-    "id": "beavis-and-butthead",
-    "id_igdb": "",
+    "id": "mtvs-beavis-and-butt-head",
+    "id_igdb": 7777,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bebe's Kids",
@@ -1615,14 +1621,15 @@
     "check_name": true
   },
   {
-    "name": "Blades of Vengence",
+    "name": "Blades of Vengeance",
     "filename": "Blades of Vengence (EJU) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5k26.jpg",
     "console": "gens",
-    "id": "blades-of-vengence",
-    "id_igdb": "",
+    "id": "blades-of-vengeance",
+    "id_igdb": 45565,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Blaster Master 2",
