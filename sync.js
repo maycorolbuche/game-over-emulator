@@ -149,7 +149,7 @@ async function update_roms(json, list, consol, action, dir_json) {
             if (image === "" && !check_image) {
                 try {
                     const accessToken = await getAccessToken(clientId, clientSecret);
-                    let gameImage = await getGameData(id, consol, clientId, accessToken);
+                    let gameImage = await getGameData(name, consol, clientId, accessToken);
                     if (gameImage && gameImage.cover_url) {
                         if (gameImage.cover_url) {
                             image = gameImage.cover_url;
@@ -159,8 +159,8 @@ async function update_roms(json, list, consol, action, dir_json) {
                             console.log("Imagem encontrada:", { id, name, consol, image, gameImage })
                             change = true;
                         }
-                    } else {
-                        gameImage = await getGameData(name, consol, clientId, accessToken);
+                    } /*else {
+                        gameImage = await getGameData(id, consol, clientId, accessToken);
                         if (gameImage && gameImage.cover_url) {
                             image = gameImage.cover_url;
                             id = gameImage.slug;
@@ -169,7 +169,7 @@ async function update_roms(json, list, consol, action, dir_json) {
                             console.log("Imagem encontrada na 2ª análise:", { id, name, consol, image, gameImage })
                             change = true;
                         }
-                    }
+                    }*/
                 } catch (error) {
                     console.error("Erro ao buscar a imagem:", error);
                 }
@@ -337,7 +337,7 @@ function gameDataImage(game) {
     return game;
 }
 
-async function getGameData(gameName, gameConsole, clientId, accessToken) {
+async function getGameData(gameName, gameConsole, clientId, accessToken, gameSearch) {
     let platform = null;
     switch (gameConsole) {
         case "gens":
@@ -380,8 +380,11 @@ async function getGameData(gameName, gameConsole, clientId, accessToken) {
     console.log("Plataformas:", responsePlatforms.data);
     return;
 */
+    if (gameSearch == undefined) {
+        gameSearch = gameName;
+    }
 
-    const response = await axios.post('https://api.igdb.com/v4/games', `search "${gameName}"; fields name,slug,cover.url,platforms; where platforms = (${platform});`, {
+    const response = await axios.post('https://api.igdb.com/v4/games', `search "${gameSearch}"; fields name,slug,cover.url,platforms; where platforms = (${platform});`, {
         headers: {
             'Client-ID': clientId,
             'Authorization': `Bearer ${accessToken}`
@@ -389,19 +392,20 @@ async function getGameData(gameName, gameConsole, clientId, accessToken) {
     });
 
     if (response.data.length > 0) {
-        let game = response.data.find(g => g.slug === gameName);
+        let game = response.data.find(g => g.slug === gameName && g.cover && g.cover.url);
         if (game) {
             return gameDataImage(game);
         } else {
-            let game = response.data.find(g => g.name === gameName);
+            let game = response.data.find(g => g.name === gameName && g.cover && g.cover.url);
             if (game) {
                 return gameDataImage(game);
             } else {
                 /* if (response.data.length >= 2) {
                      return null;
                  }*/
-                console.log(qQuestion(`Digite o numero do jogo (ou '0' pra nenhum):`));
-                console.log(qOption(0, `${gameName} (original)`));
+                console.log(qQuestion(`Buscando por: "${gameSearch}"`));
+                console.log(qQuestion(`Digite o numero do jogo ('0' pra nenhum):`));
+                console.log(qOption(0, `${gameName} | original`));
                 for (let i = 0; i < response.data.length; i++) {
                     if (response.data[i].cover && response.data[i].cover.url) {
                         console.log(qOption(i + 1, `${response.data[i].name} | https:${response.data[i].cover.url.replace('/t_thumb/', '/t_cover_big/')}`));
@@ -409,16 +413,27 @@ async function getGameData(gameName, gameConsole, clientId, accessToken) {
                         console.log(qOption(i + 1, `${response.data[i].name} | IMAGEM NÃO ENCONTRADA`));
                     }
                 }
+                console.log(qOption('*', `Se preferir, digite o valor que deseja buscar...`));
                 const chosenGame = await readlineSync.question('> ');
                 if (chosenGame > 0 && chosenGame <= response.data.length) {
                     game = response.data[chosenGame - 1];
                     return gameDataImage(game);
+                } else if (chosenGame == 0) {
+                    return null;
+                } else {
+                    return getGameData(gameName, gameConsole, clientId, accessToken, chosenGame);
                 }
             }
         }
-        return null;
     } else {
-        return null;
+        console.log(qQuestion(`Buscando por: "${gameSearch}"`));
+        console.log(qQuestion(`Nada encontrado! Digite algo para buscar, ou '0' para ignorar.`));
+        const chosenGame = await readlineSync.question('> ');
+        if (chosenGame == 0) {
+            return null;
+        } else {
+            return getGameData(gameName, gameConsole, clientId, accessToken, chosenGame);
+        }
     }
 }
 
