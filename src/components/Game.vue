@@ -242,6 +242,68 @@ export default {
         ...(this.controls || []),
       ];
     },
+    retroarch_controls() {
+      let result = {};
+      this.controls.forEach((player) => {
+        const playerNumber = player.player;
+        player.controls.forEach((control) => {
+          let key = control.key.toLowerCase();
+          switch (key) {
+            case "espaço":
+              key = "space";
+              break;
+            case "⬆":
+              key = "up";
+              break;
+            case "⬇":
+              key = "down";
+              break;
+            case "⬅":
+              key = "left";
+              break;
+            case "⮕":
+              key = "right";
+              break;
+            case "0":
+            case "1":
+            case "2":
+            case "3":
+            case "4":
+            case "5":
+            case "6":
+            case "7":
+            case "8":
+            case "9":
+              key = "keypad" + key;
+              break;
+            default:
+              break;
+          }
+
+          let ref = control.ref.toLowerCase();
+          switch (ref) {
+            case "cima":
+              ref = "up";
+              break;
+            case "baixo":
+              ref = "down";
+              break;
+            case "esquerda":
+              ref = "left";
+              break;
+            case "direita":
+              ref = "right";
+              break;
+            default:
+              break;
+          }
+          if (ref) {
+            result[`input_player${playerNumber}_${ref}`] = key;
+          }
+        });
+      });
+      return result;
+    },
   },
   watch: {
     fullscreen(val) {
@@ -294,39 +356,7 @@ export default {
             }
           })(),
           retroarchConfig: {
-            input_player1_start: "enter",
-            input_player1_select: "shift",
-
-            input_player1_a: "z",
-            input_player1_b: "x",
-            input_player1_c: "c",
-            input_player1_x: "a",
-            input_player1_y: "s",
-            input_player1_z: "d",
-            input_player1_l: "d",
-            input_player1_r: "c",
-
-            input_player1_up: "up",
-            input_player1_left: "left",
-            input_player1_down: "down",
-            input_player1_right: "right",
-
-            input_player2_start: "0",
-            input_player2_select: ",",
-
-            input_player2_a: "b",
-            input_player2_b: "n",
-            input_player2_c: "m",
-            input_player2_x: "h",
-            input_player2_y: "j",
-            input_player2_z: "k",
-            input_player2_l: "k",
-            input_player2_r: "m",
-
-            input_player2_up: "keypad5",
-            input_player2_left: "keypad1",
-            input_player2_down: "keypad2",
-            input_player2_right: "keypad3",
+            ...this.retroarch_controls,
           },
         };
         console.log("Iniciando....", config);

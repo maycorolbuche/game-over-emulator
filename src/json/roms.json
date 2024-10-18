@@ -1652,14 +1652,15 @@
     "check_name": true
   },
   {
-    "name": "Blockbuster Competition 2",
+    "name": "Blockbuster World Video Game Championship II",
     "filename": "Blockbuster Competition 2 (NBA Jam-Judge Dredd) (JUE).smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50d1.jpg",
     "console": "gens",
-    "id": "blockbuster-competition-2",
-    "id_igdb": "",
+    "id": "blockbuster-world-video-game-championship-ii",
+    "id_igdb": 210600,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Blockout",
