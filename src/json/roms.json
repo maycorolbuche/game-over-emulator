@@ -339,7 +339,7 @@
   {
     "name": "After Burner II",
     "filename": "Afterburner II (U) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y6.jpg",
+    "image": "/images/roms/gens/after-burner-ii.jpg",
     "console": "gens",
     "id": "after-burner-ii",
     "id_igdb": 5352,
@@ -523,6 +523,17 @@
     "id": "all-american-championship-football",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Allan Border's Cricket",
+    "filename": "Brian Lara Cricket (June 1995) (E) [c][!].smd",
+    "image": "/images/roms/gens/allan-borders-cricket.jpg",
+    "console": "gens",
+    "id": "allan-borders-cricket",
+    "id_igdb": 77392,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Altered Beast",
@@ -972,7 +983,7 @@
   {
     "name": "Bahamut Senki",
     "filename": "Bahamut Bahant Senki (J) [x].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28sx.jpg",
+    "image": "/images/roms/gens/bahamut-senki.jpg",
     "console": "gens",
     "id": "bahamut-senki",
     "id_igdb": 45646,
@@ -1285,7 +1296,7 @@
   {
     "name": "Battle Mania Daiginjou",
     "filename": "Battle Mania 2 - TS Vintage (J) [c][!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ahf.jpg",
+    "image": "/images/roms/gens/battle-mania-daiginjou.jpg",
     "console": "gens",
     "id": "battle-mania-daiginjou",
     "id_igdb": 45734,
@@ -1312,17 +1323,6 @@
     "id_igdb": 11947,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "MechWarrior 3050",
-    "filename": "Battletech (U) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gi7.jpg",
-    "console": "gens",
-    "id": "mechwarrior-3050",
-    "id_igdb": 19186,
-    "active": true,
-    "check": true,
-    "check_image": true
   },
   {
     "name": "Battletoads",
@@ -1393,17 +1393,6 @@
     "id_igdb": 46239,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "MTV's Beavis and Butt-Head",
-    "filename": "Beavis and Butthead (U) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zkk.jpg",
-    "console": "gens",
-    "id": "mtvs-beavis-and-butt-head",
-    "id_igdb": 7777,
-    "active": true,
-    "check": true,
-    "check_image": true
   },
   {
     "name": "Bebe's Kids",
@@ -1623,7 +1612,7 @@
   {
     "name": "Blades of Vengeance",
     "filename": "Blades of Vengence (EJU) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5k26.jpg",
+    "image": "/images/roms/gens/blades-of-vengeance.jpg",
     "console": "gens",
     "id": "blades-of-vengeance",
     "id_igdb": 45565,
@@ -1654,7 +1643,7 @@
   {
     "name": "Blockbuster World Video Game Championship II",
     "filename": "Blockbuster Competition 2 (NBA Jam-Judge Dredd) (JUE).smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50d1.jpg",
+    "image": "/images/roms/gens/blockbuster-world-video-game-championship-ii.jpg",
     "console": "gens",
     "id": "blockbuster-world-video-game-championship-ii",
     "id_igdb": 210600,
@@ -1673,14 +1662,15 @@
     "check_name": true
   },
   {
-    "name": "Blood Shot",
+    "name": "Bloodshot",
     "filename": "Blood Shot (UE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/bloodshot.jpg",
     "console": "gens",
-    "id": "blood-shot",
-    "id_igdb": "",
+    "id": "bloodshot",
+    "id_igdb": 46399,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Blue Almanac",
@@ -1722,14 +1712,15 @@
     "check_name": true
   },
   {
-    "name": "Bonanza Brothers",
+    "name": "Bonanza Bros.",
     "filename": "Bonanza Brothers (G-4046) (REV 00) (JUE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/bonanza-bros.jpg",
     "console": "gens",
-    "id": "bonanza-brothers",
-    "id_igdb": "",
+    "id": "bonanza-bros",
+    "id_igdb": 4511,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bonkers",
@@ -1769,7 +1760,8 @@
     "id": "boogie-woogie-bowling",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Boxing Legends of the Ring",
@@ -1839,7 +1831,8 @@
     "id": "braver-battle-saga-the-space-fighter",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Brawl Brothers",
@@ -1879,7 +1872,8 @@
     "id": "breath-of-fire-3",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Breath of Fire II",
@@ -1920,16 +1914,6 @@
     "id_igdb": 46231,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Brian Lara Cricket",
-    "filename": "Brian Lara Cricket (June 1995) (E) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "brian-lara-cricket",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Brian Lara Cricket '96",
@@ -2007,7 +1991,8 @@
     "id": "bubble-and-squeek",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bubsy II",
@@ -2050,14 +2035,15 @@
     "check_name": true
   },
   {
-    "name": "Buck Rodgers - Countdown to Doomsday",
+    "name": "Buck Rogers: Countdown to Doomsday",
     "filename": "Buck Rodgers - Countdown to Doomsday (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/buck-rogers-countdown-to-doomsday.jpg",
     "console": "gens",
-    "id": "buck-rodgers-countdown-to-doomsday",
-    "id_igdb": "",
+    "id": "buck-rogers-countdown-to-doomsday",
+    "id_igdb": 2436,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bugs Bunny Rabbit Rampage",
@@ -2168,16 +2154,6 @@
     "check_name": true
   },
   {
-    "name": "Caesars Palace",
-    "filename": "Caesars Palace (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "caesars-palace",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Cal Ripken Jr. Baseball",
     "filename": "Cal Ripken Jr. Baseball (U) [c][!].smd",
     "image": "/images/roms/gens/cal-ripken-jr-baseball.jpg",
@@ -2285,7 +2261,8 @@
     "id": "capt-n-havoc",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Captain America and the Avengers",
@@ -2366,16 +2343,6 @@
     "id_igdb": 8122,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Castlevania - The New Generation",
-    "filename": "Castlevania - The New Generation (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "castlevania-the-new-generation",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Castlevania - Vampire's Kiss",
@@ -2518,7 +2485,8 @@
     "id": "chaos-engine-2-the",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Chase H.Q. II",
@@ -2548,7 +2516,8 @@
     "id": "chavez-2",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Chavez II",
@@ -2560,16 +2529,6 @@
     "active": true
   },
   {
-    "name": "Chelnov",
-    "filename": "Chelnov (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "chelnov",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Chess Master",
     "filename": "Chess Master.smc",
     "image": "",
@@ -2577,16 +2536,6 @@
     "id": "chess-master",
     "id_igdb": "",
     "active": true
-  },
-  {
-    "name": "Chester Cheetah 2 - Wild Wild Quest",
-    "filename": "Chester Cheetah 2 - Wild Wild Quest (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "chester-cheetah-2-wild-wild-quest",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Chester Cheetah: Too Cool to Fool",
@@ -2610,6 +2559,17 @@
     "check_name": true
   },
   {
+    "name": "Chester Cheetah: Wild Wild Quest",
+    "filename": "Chester Cheetah 2 - Wild Wild Quest (U) [!].smd",
+    "image": "/images/roms/gens/chester-cheetah-wild-wild-quest.jpg",
+    "console": "gens",
+    "id": "chester-cheetah-wild-wild-quest",
+    "id_igdb": 46283,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
     "name": "Chi Chi's Pro Challenge Golf",
     "filename": "Chi Chi's Pro Challenge (U) [!].smd",
     "image": "/images/roms/gens/chi-chi-s-pro-challenge-golf.jpg",
@@ -2621,24 +2581,15 @@
     "check_name": true
   },
   {
-    "name": "Chibi Maruko Chan Wakuwaku Shopping",
+    "name": "Chibi Maruko-chan: Waku-waku Shopping",
     "filename": "Chibi Maruko Chan Wakuwaku Shopping (J) [x].smd",
-    "image": "",
+    "image": "/images/roms/gens/chibi-maruko-chan-waku-waku-shopping.jpg",
     "console": "gens",
-    "id": "chibi-maruko-chan-wakuwaku-shopping",
-    "id_igdb": "",
+    "id": "chibi-maruko-chan-waku-waku-shopping",
+    "id_igdb": 45644,
     "active": true,
-    "check": true
-  },
-  {
-    "name": "Chiki Chiki Boys",
-    "filename": "Chiki Chiki Boys (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "chiki-chiki-boys",
-    "id_igdb": "",
-    "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Chinese Chess",
@@ -2648,7 +2599,8 @@
     "id": "chinese-chess",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Choplifter III",
@@ -2661,14 +2613,15 @@
     "check_name": true
   },
   {
-    "name": "Chou Yakkyou Miracle Nine",
+    "name": "Chou Kyuukai Miracle Nine",
     "filename": "Chou Yakkyou Miracle Nine (1) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/chou-kyuukai-miracle-nine.jpg",
     "console": "gens",
-    "id": "chou-yakkyou-miracle-nine",
-    "id_igdb": "",
+    "id": "chou-kyuukai-miracle-nine",
+    "id_igdb": 45733,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Chrono Trigger",
@@ -2710,16 +2663,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Chuck's Excellent Art Tool Animator",
-    "filename": "Chuck's Excellent Art Tool Animator (JUE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "chuck-s-excellent-art-tool-animator",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Clay Fighter 2 - Judgment Clay",
@@ -2901,14 +2844,15 @@
     "check_name": true
   },
   {
-    "name": "Columns 3 - Revenge of Columns",
+    "name": "Columns III",
     "filename": "Columns 3 - Revenge of Columns (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/columns-iii.jpg",
     "console": "gens",
-    "id": "columns-3-revenge-of-columns",
-    "id_igdb": "",
+    "id": "columns-iii",
+    "id_igdb": 14971,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Combat Aces",
@@ -2918,7 +2862,8 @@
     "id": "combat-aces",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Combat Cars",
@@ -2958,7 +2903,8 @@
     "id": "conquering-the-world-3",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Contra III: The Alien Wars",
@@ -3002,14 +2948,15 @@
     "check_name": true
   },
   {
-    "name": "Cool Spot - Spot Goes To Hollywood",
+    "name": "Spot Goes to Hollywood",
     "filename": "Cool Spot (2) - Spot Goes To Hollywood (4) (REV 01) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/spot-goes-to-hollywood.jpg",
     "console": "gens",
-    "id": "cool-spot-spot-goes-to-hollywood",
-    "id_igdb": "",
+    "id": "spot-goes-to-hollywood",
+    "id_igdb": 4454,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Cool World",
@@ -7971,6 +7918,17 @@
   },
   {
     "name": "MTV's Beavis and Butt-Head",
+    "filename": "Beavis and Butthead (U) [!].smd",
+    "image": "/images/roms/gens/mtvs-beavis-and-butt-head.jpg",
+    "console": "gens",
+    "id": "mtvs-beavis-and-butt-head",
+    "id_igdb": 7777,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
+    "name": "MTV's Beavis and Butt-Head",
     "filename": "Beavis and Butt-head (U) [!].smc",
     "image": "/images/roms/snes/mtvs-beavis-and-butt-head.jpg",
     "console": "snes",
@@ -8452,6 +8410,17 @@
   },
   {
     "name": "MechWarrior 3050",
+    "filename": "Battletech (U) [!].smd",
+    "image": "/images/roms/gens/mechwarrior-3050.jpg",
+    "console": "gens",
+    "id": "mechwarrior-3050",
+    "id_igdb": 19186,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
+    "name": "MechWarrior 3050",
     "filename": "Mechwarrior 3050 (E).smc",
     "image": "/images/roms/snes/mechwarrior-3050.jpg",
     "console": "snes",
@@ -8572,6 +8541,17 @@
     "id_igdb": 85286,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Mega Twins",
+    "filename": "Chiki Chiki Boys (U) [!].smd",
+    "image": "/images/roms/gens/mega-twins.jpg",
+    "console": "gens",
+    "id": "mega-twins",
+    "id_igdb": 12184,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Mega lo Mania",
@@ -14029,6 +14009,17 @@
     "id_igdb": 38423,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Super Caesars Palace",
+    "filename": "Caesars Palace (U) [!].smd",
+    "image": "/images/roms/gens/super-caesars-palace.jpg",
+    "console": "gens",
+    "id": "super-caesars-palace",
+    "id_igdb": 9622,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Super Caesars Palace",
