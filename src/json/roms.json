@@ -57,7 +57,6 @@
     "id": "90-minutes-european-prime-goal",
     "id_igdb": 42663,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -68,7 +67,6 @@
     "id": "asp-air-strike-patrol",
     "id_igdb": 42662,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -98,8 +96,7 @@
     "console": "snes",
     "id": "ad-d-eye-of-the-beholder",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ATP Tour Championship Tennis",
@@ -139,7 +136,6 @@
     "id": "aaahh-real-monsters",
     "id_igdb": 5339,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -159,8 +155,7 @@
     "console": "snes",
     "id": "act-raiser",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Act Raiser 2",
@@ -169,8 +164,7 @@
     "console": "snes",
     "id": "act-raiser-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Action 52-in-1",
@@ -230,8 +224,7 @@
     "console": "snes",
     "id": "adventures-of-kid-kleets",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Adventures of Yogi Bear",
@@ -241,7 +234,6 @@
     "id": "adventures-of-yogi-bear",
     "id_igdb": 8010,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -345,12 +337,12 @@
     "check_name": true
   },
   {
-    "name": "Afterburner II",
+    "name": "After Burner II",
     "filename": "Afterburner II (U) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y6.jpg",
     "console": "gens",
-    "id": "afterburner-ii",
-    "id_igdb": "",
+    "id": "after-burner-ii",
+    "id_igdb": 5352,
     "active": true,
     "check_image": true
   },
@@ -432,7 +424,6 @@
     "id": "al-unser-jr-dot-s-road-to-the-top",
     "id_igdb": 42631,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -462,8 +453,7 @@
     "console": "snes",
     "id": "alfred-chicken",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Alien 3",
@@ -532,8 +522,7 @@
     "console": "snes",
     "id": "all-american-championship-football",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Altered Beast",
@@ -593,7 +582,6 @@
     "id": "an-american-tail-fievel-goes-west",
     "id_igdb": 2308,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -603,8 +591,7 @@
     "console": "snes",
     "id": "an-american-tale-fievel-goes-west",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Andre Agassi Tennis",
@@ -694,7 +681,6 @@
     "id": "arcades-greatest-hits-the-atari-collection-1",
     "id_igdb": 46045,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -724,8 +710,7 @@
     "console": "snes",
     "id": "archer-maclean-s-dropzone",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Arcus Odyssey",
@@ -744,8 +729,7 @@
     "console": "snes",
     "id": "arcus-spirits",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ardy Lightfoot",
@@ -764,8 +748,7 @@
     "console": "snes",
     "id": "aretha-ii-ariel-no-fushigi-na-tabi",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Arkanoid: Doh It Again",
@@ -775,7 +758,6 @@
     "id": "arkanoid-doh-it-again",
     "id_igdb": 42636,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -876,7 +858,6 @@
     "id": "asterix-and-obelix",
     "id_igdb": 14452,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -966,8 +947,7 @@
     "console": "snes",
     "id": "baby-t-rex",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Baby's Day Out",
@@ -990,23 +970,12 @@
     "check_name": true
   },
   {
-    "name": "Bad Omen",
-    "filename": "Bad Omen (J) [p1].smd",
-    "image": "",
-    "console": "gens",
-    "id": "bad-omen",
-    "id_igdb": "",
-    "active": true,
-    "check": true,
-    "check_image": true
-  },
-  {
-    "name": "Bahamut Bahant Senki",
+    "name": "Bahamut Senki",
     "filename": "Bahamut Bahant Senki (J) [x].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28sx.jpg",
     "console": "gens",
-    "id": "bahamut-bahant-senki",
-    "id_igdb": "",
+    "id": "bahamut-senki",
+    "id_igdb": 45646,
     "active": true,
     "check": true,
     "check_image": true
@@ -1050,7 +1019,6 @@
     "id": "barbie-super-model",
     "id_igdb": 3317,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1071,7 +1039,6 @@
     "id": "barbie-vacation-adventure",
     "id_igdb": 3318,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1081,27 +1048,6 @@
     "console": "gens",
     "id": "barbie-vacation-adventure",
     "id_igdb": 3318,
-    "active": true,
-    "check_name": true
-  },
-  {
-    "name": "Bare Knuckle 2",
-    "filename": "Bare Knuckle 2 (beta).smd",
-    "image": "",
-    "console": "gens",
-    "id": "bare-knuckle-2",
-    "id_igdb": "",
-    "active": true,
-    "check": true,
-    "check_image": true
-  },
-  {
-    "name": "Bare Knuckle III",
-    "filename": "Bare Knuckle 3 (J) [!].smd",
-    "image": "/images/roms/gens/bare-knuckle-iii.jpg",
-    "console": "gens",
-    "id": "bare-knuckle-iii",
-    "id_igdb": 151541,
     "active": true,
     "check_name": true
   },
@@ -1123,7 +1069,6 @@
     "id": "barkley-shut-up-and-jam",
     "id_igdb": 4520,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1153,8 +1098,7 @@
     "console": "snes",
     "id": "bass-masters-classic",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Bass Masters Classic: Pro Edition",
@@ -1164,7 +1108,6 @@
     "id": "bass-masters-classic-pro-edition",
     "id_igdb": 46285,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1185,8 +1128,7 @@
     "id": "bass-masters-classics",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Bassin's Black Bass",
@@ -1256,7 +1198,6 @@
     "id": "batman-revenge-of-the-joker",
     "id_igdb": 45204,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1337,8 +1278,7 @@
     "id": "battle-mania",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Battle Mania 2 - TS Vintage",
@@ -1348,8 +1288,7 @@
     "id": "battle-mania-2-ts-vintage",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Battle Squadron",
@@ -1379,8 +1318,7 @@
     "id": "battletech",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Battletoads",
@@ -1399,8 +1337,7 @@
     "console": "snes",
     "id": "battletoads-double-dragon-the-ultimate-team",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Battletoads / Double Dragon",
@@ -1420,7 +1357,6 @@
     "id": "battletoads-in-battlemaniacs",
     "id_igdb": 18577,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1441,8 +1377,7 @@
     "id": "beast-warrior",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Beast Wrestler",
@@ -1462,8 +1397,7 @@
     "id": "beavis-and-butthead",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Bebe's Kids",
@@ -1482,8 +1416,7 @@
     "console": "snes",
     "id": "beethoven-s-2nd",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Best of the Best: Championship Karate",
@@ -1493,7 +1426,6 @@
     "id": "best-of-the-best-championship-karate",
     "id_igdb": 7783,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1524,7 +1456,6 @@
     "id": "beyond-zero-tolerance",
     "id_igdb": 45762,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1614,8 +1545,7 @@
     "console": "snes",
     "id": "bio-metal",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Bio-Hazard Battle",
@@ -1645,7 +1575,6 @@
     "id": "blazeon-the-bio-cyborg-challenge",
     "id_igdb": 42625,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1655,8 +1584,7 @@
     "console": "snes",
     "id": "black-hawk",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Black Thorne",
@@ -1665,8 +1593,7 @@
     "console": "snes",
     "id": "black-thorne",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Blackhawk",
@@ -1675,8 +1602,7 @@
     "console": "snes",
     "id": "blackhawk",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Blackthorne",
@@ -1696,8 +1622,7 @@
     "id": "blades-of-vengence",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Blaster Master 2",
@@ -1727,8 +1652,7 @@
     "id": "blockbuster-competition-2",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Blockout",
@@ -1748,8 +1672,7 @@
     "id": "blood-shot",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Blue Almanac",
@@ -1768,8 +1691,7 @@
     "console": "snes",
     "id": "blues-brothers-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Bobby's World",
@@ -1799,8 +1721,7 @@
     "id": "bonanza-brothers",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Bonkers",
@@ -1820,7 +1741,6 @@
     "id": "boogerman-a-pick-and-flick-adventure",
     "id_igdb": 19614,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -1841,8 +1761,7 @@
     "id": "boogie-woogie-bowling",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Boxing Legends of the Ring",
@@ -1912,8 +1831,7 @@
     "id": "braver-battle-saga-the-space-fighter",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Brawl Brothers",
@@ -1953,8 +1871,7 @@
     "id": "breath-of-fire-3",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Breath of Fire II",
@@ -1984,7 +1901,6 @@
     "id": "brett-hull-hockey-95",
     "id_igdb": 46231,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2005,8 +1921,7 @@
     "id": "brian-lara-cricket",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Brian Lara Cricket '96",
@@ -2025,8 +1940,7 @@
     "console": "snes",
     "id": "bronkie-health-hero",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Brunswick Bowling",
@@ -2035,8 +1949,7 @@
     "console": "snes",
     "id": "brunswick-bowling",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Brunswick World: Tournament of Champions",
@@ -2046,7 +1959,6 @@
     "id": "brunswick-world-tournament-of-champions",
     "id_igdb": 42596,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2057,7 +1969,6 @@
     "id": "brutal-paws-of-fury",
     "id_igdb": 4449,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2088,8 +1999,7 @@
     "id": "bubble-and-squeek",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Bubsy II",
@@ -2139,8 +2049,7 @@
     "id": "buck-rodgers-countdown-to-doomsday",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Bugs Bunny Rabbit Rampage",
@@ -2150,7 +2059,6 @@
     "id": "bugs-bunny-rabbit-rampage",
     "id_igdb": 3054,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2190,8 +2098,7 @@
     "console": "snes",
     "id": "bulls-vs-blazers",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Bulls vs Lakers and the NBA Playoffs",
@@ -2230,8 +2137,7 @@
     "console": "snes",
     "id": "cacoma-knight",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Cacoma Knight in Bizyland",
@@ -2261,8 +2167,7 @@
     "id": "caesars-palace",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Cal Ripken Jr. Baseball",
@@ -2352,7 +2257,6 @@
     "id": "capcoms-mvp-football",
     "id_igdb": 42597,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2373,8 +2277,7 @@
     "id": "capt-n-havoc",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Captain America and the Avengers",
@@ -2384,7 +2287,6 @@
     "id": "captain-america-and-the-avengers",
     "id_igdb": 7816,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2455,7 +2357,6 @@
     "id": "castle-of-illusion-starring-mickey-mouse",
     "id_igdb": 8122,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2466,8 +2367,7 @@
     "id": "castlevania-the-new-generation",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Castlevania - Vampire's Kiss",
@@ -2476,8 +2376,7 @@
     "console": "snes",
     "id": "castlevania-vampire-s-kiss",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Castlevania: Bloodlines",
@@ -2498,7 +2397,6 @@
     "id": "castlevania-dracula-x",
     "id_igdb": 16476,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2509,7 +2407,6 @@
     "id": "caveman-ninja",
     "id_igdb": 12834,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2613,8 +2510,7 @@
     "id": "chaos-engine-2-the",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chase H.Q. II",
@@ -2634,8 +2530,7 @@
     "console": "snes",
     "id": "chavez",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Chavez 2",
@@ -2645,8 +2540,7 @@
     "id": "chavez-2",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chavez II",
@@ -2655,8 +2549,7 @@
     "console": "snes",
     "id": "chavez-ii",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Chelnov",
@@ -2666,8 +2559,7 @@
     "id": "chelnov",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chess Master",
@@ -2676,8 +2568,7 @@
     "console": "snes",
     "id": "chess-master",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Chester Cheetah 2 - Wild Wild Quest",
@@ -2687,8 +2578,7 @@
     "id": "chester-cheetah-2-wild-wild-quest",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chester Cheetah: Too Cool to Fool",
@@ -2698,7 +2588,6 @@
     "id": "chester-cheetah-too-cool-to-fool",
     "id_igdb": 46255,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2731,8 +2620,7 @@
     "id": "chibi-maruko-chan-wakuwaku-shopping",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chiki Chiki Boys",
@@ -2742,8 +2630,7 @@
     "id": "chiki-chiki-boys",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chinese Chess",
@@ -2753,8 +2640,7 @@
     "id": "chinese-chess",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Choplifter III",
@@ -2774,8 +2660,7 @@
     "id": "chou-yakkyou-miracle-nine",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Chrono Trigger",
@@ -2826,8 +2711,7 @@
     "id": "chuck-s-excellent-art-tool-animator",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Clay Fighter 2 - Judgment Clay",
@@ -2836,8 +2720,7 @@
     "console": "snes",
     "id": "clay-fighter-2-judgment-clay",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ClayFighter",
@@ -2847,7 +2730,6 @@
     "id": "clayfighter",
     "id_igdb": 46687,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2869,7 +2751,6 @@
     "id": "clayfighter-tournament-edition",
     "id_igdb": 42616,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -2939,8 +2820,7 @@
     "console": "snes",
     "id": "college-football-usa-97-the-road-to-new-orleans",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "College Football USA 96",
@@ -3000,8 +2880,7 @@
     "console": "snes",
     "id": "college-slam-basketball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Columns",
@@ -3021,8 +2900,7 @@
     "id": "columns-3-revenge-of-columns",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Combat Aces",
@@ -3032,8 +2910,7 @@
     "id": "combat-aces",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Combat Cars",
@@ -3073,8 +2950,7 @@
     "id": "conquering-the-world-3",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Contra III: The Alien Wars",
@@ -3084,7 +2960,6 @@
     "id": "contra-iii-the-alien-wars",
     "id_igdb": 6351,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3126,8 +3001,7 @@
     "id": "cool-spot-spot-goes-to-hollywood",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Cool World",
@@ -3157,8 +3031,7 @@
     "id": "corporation",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Cosmic Spacehead",
@@ -3209,8 +3082,7 @@
     "id": "crude-busters",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Crusader of Centy",
@@ -3230,8 +3102,7 @@
     "id": "crying",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Crystal's Pony Tale",
@@ -3272,7 +3143,6 @@
     "id": "cutie-suzuki-no-ringside-angel",
     "id_igdb": 45732,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3342,8 +3212,7 @@
     "console": "snes",
     "id": "cyborg-009",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Cyborg Justice",
@@ -3363,8 +3232,7 @@
     "id": "d-d-warriors-of-the-eternal-sun",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "D-Force",
@@ -3404,7 +3272,6 @@
     "id": "daffy-duck-the-marvin-missions",
     "id_igdb": 8132,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3415,8 +3282,7 @@
     "id": "dahna-megami-tanjyo",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Dai Makaimura",
@@ -3426,8 +3292,7 @@
     "id": "dai-makaimura",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Daikoukai Jidai",
@@ -3437,8 +3302,7 @@
     "id": "daikoukai-jidai",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Daikoukai Jidai II",
@@ -3448,8 +3312,7 @@
     "id": "daikoukai-jidai-ii",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Dangerous Seed",
@@ -3540,8 +3403,7 @@
     "id": "david-robinson-s-basketball",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "David Robinson's Supreme Court",
@@ -3653,8 +3515,7 @@
     "console": "snes",
     "id": "desert-fighter",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Desert Strike: Return to the Gulf",
@@ -3664,7 +3525,6 @@
     "id": "desert-strike-return-to-the-gulf",
     "id_igdb": 6798,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3686,8 +3546,7 @@
     "id": "devil-crash-md",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Devil Hunter Yohko - The Seven Bells",
@@ -3697,8 +3556,7 @@
     "id": "devil-hunter-yohko-the-seven-bells",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Devil's Course 3-D Golf",
@@ -3708,8 +3566,7 @@
     "id": "devil-s-course-3-d-golf",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Devilish Mahjong Tower",
@@ -3831,7 +3688,6 @@
     "id": "disney-s-aladdin",
     "id_igdb": 2473,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3862,7 +3718,6 @@
     "id": "disneys-beauty-and-the-beast",
     "id_igdb": 83783,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3903,7 +3758,6 @@
     "id": "disneys-goof-troop",
     "id_igdb": 8163,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3914,7 +3768,6 @@
     "id": "disneys-pinocchio",
     "id_igdb": 38844,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3925,7 +3778,6 @@
     "id": "disneys-pinocchio",
     "id_igdb": 38844,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3936,7 +3788,6 @@
     "id": "disneys-pocahontas",
     "id_igdb": 24979,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3947,7 +3798,6 @@
     "id": "disneys-the-jungle-book",
     "id_igdb": 6480,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3958,7 +3808,6 @@
     "id": "disneys-the-jungle-book",
     "id_igdb": 204616,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3969,7 +3818,6 @@
     "id": "disneys-timon-and-pumbaas-jungle-games",
     "id_igdb": 72032,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3980,7 +3828,6 @@
     "id": "disneys-toy-story",
     "id_igdb": 289027,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -3991,7 +3838,6 @@
     "id": "disneys-toy-story",
     "id_igdb": 8020,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4012,8 +3858,7 @@
     "id": "dodge-ball-kuy-kid",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Dominus",
@@ -4043,7 +3888,6 @@
     "id": "donkey-kong-country-2-diddy-s-kong-quest",
     "id_igdb": 1092,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4054,7 +3898,6 @@
     "id": "donkey-kong-country-3-dixie-kong-s-double-trouble",
     "id_igdb": 1094,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4086,7 +3929,6 @@
     "id": "doom-troopers-mutant-chronicles",
     "id_igdb": 4544,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4107,8 +3949,7 @@
     "id": "doraemon-yume-dorobouto-7-nin-no-gozansu",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Double Clutch",
@@ -4160,7 +4001,6 @@
     "id": "double-dragon-v-the-shadow-falls",
     "id_igdb": 4475,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4203,8 +4043,7 @@
     "id": "dragon-ball-z-bu-yu-retsuden",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Dragon Slayer: The Legend of Heroes",
@@ -4246,8 +4085,7 @@
     "id": "dragon-s-eye-shanghai-3",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Dragon's Fury",
@@ -4287,7 +4125,6 @@
     "id": "dragon-the-bruce-lee-story",
     "id_igdb": 18617,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4319,8 +4156,7 @@
     "id": "draxos",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Dream TV",
@@ -4422,7 +4258,6 @@
     "id": "e-v-o-search-for-eden",
     "id_igdb": 6979,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4433,8 +4268,7 @@
     "id": "ea-sports-2-in-1-pack",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "ESPN Baseball Tonight",
@@ -4474,8 +4308,7 @@
     "id": "espn-national-league-hockey-night",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "ESPN SpeedWorld",
@@ -4485,8 +4318,7 @@
     "id": "espn-speedworld",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "ESPN Speedworld",
@@ -4495,8 +4327,7 @@
     "console": "snes",
     "id": "espn-speedworld",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ESPN Sunday Night Football",
@@ -4506,8 +4337,7 @@
     "id": "espn-sunday-night-football",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "ESPN Sunday Night NFL",
@@ -4527,8 +4357,7 @@
     "id": "eswat-cyber-police-city-under-siege",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Earnest Evans",
@@ -4711,8 +4540,7 @@
     "id": "escape-from-mars-starring-taz",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Eternal Champions",
@@ -4731,8 +4559,7 @@
     "console": "snes",
     "id": "euro-football-champ",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "European Club Soccer",
@@ -4742,8 +4569,7 @@
     "id": "european-club-soccer",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Evander Holyfield's Real Deal Boxing",
@@ -4773,8 +4599,7 @@
     "id": "ex-ranza",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Exhaust Heat",
@@ -4783,8 +4608,7 @@
     "console": "snes",
     "id": "exhaust-heat",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Exile",
@@ -4845,8 +4669,7 @@
     "id": "f-117-stealth-operation-night-storm",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "F-15 Strike Eagle II",
@@ -4896,8 +4719,7 @@
     "id": "f1-hero-md",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "F1 Pole Position",
@@ -4927,7 +4749,6 @@
     "id": "f1-roc-ii-race-of-champions",
     "id_igdb": 42572,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4938,7 +4759,6 @@
     "id": "f1-roc-race-of-champions",
     "id_igdb": 42571,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4949,8 +4769,7 @@
     "id": "f1-world-championship",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "F1: World Championship Edition",
@@ -4960,7 +4779,6 @@
     "id": "f1-world-championship-edition",
     "id_igdb": 12083,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -4981,8 +4799,7 @@
     "console": "snes",
     "id": "fifa-97-gold-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA International Soccer",
@@ -5042,8 +4859,7 @@
     "id": "fifa-soccer-97-gold-edition",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "FIFA Soccer 98 - Road to the World Cup",
@@ -5053,8 +4869,7 @@
     "id": "fifa-soccer-98-road-to-the-world-cup",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "FIFA: Road to World Cup 98",
@@ -5064,7 +4879,6 @@
     "id": "fifa-road-to-world-cup-98",
     "id_igdb": 228796,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5185,8 +4999,7 @@
     "id": "fatal-rewind",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Fengshen Yingjiechuan",
@@ -5196,8 +5009,7 @@
     "id": "fengshen-yingjiechuan",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Ferias Frustradas do Pica-Pau",
@@ -5207,8 +5019,7 @@
     "id": "ferias-frustradas-do-pica-pau",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Ferrari Grand Prix Challenge",
@@ -5227,8 +5038,7 @@
     "console": "snes",
     "id": "fever-pitch-soccer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fido Dido",
@@ -5297,8 +5107,7 @@
     "console": "snes",
     "id": "final-fantasy-vi-gold",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Fantasy: Mystic Quest",
@@ -5308,7 +5117,6 @@
     "id": "final-fantasy-mystic-quest",
     "id_igdb": 415,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5409,7 +5217,6 @@
     "id": "firestriker",
     "id_igdb": 42553,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5430,7 +5237,6 @@
     "id": "flashback-the-quest-for-identity",
     "id_igdb": 4275,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5461,8 +5267,7 @@
     "console": "snes",
     "id": "flintstones-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Flux Mega CD",
@@ -5472,8 +5277,7 @@
     "id": "flux-mega-cd",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Football Fury",
@@ -5493,7 +5297,6 @@
     "id": "foreman-for-real",
     "id_igdb": 19741,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5535,7 +5338,6 @@
     "id": "frank-thomas-big-hurt-baseball",
     "id_igdb": 20405,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5606,8 +5408,7 @@
     "id": "fun-n-games",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Funnyworld-Balloon Boy",
@@ -5617,8 +5418,7 @@
     "id": "funnyworld-balloon-boy",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Fushigi no Umi no Nadia",
@@ -5718,8 +5518,7 @@
     "id": "gambler-jiko-chushinha",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Game Genie BIOS",
@@ -5728,8 +5527,7 @@
     "console": "snes",
     "id": "game-genie-bios",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Game Genie BIOS V2.0",
@@ -5738,8 +5536,7 @@
     "console": "snes",
     "id": "game-genie-bios-v2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Garfield: Caught in the Act",
@@ -5770,8 +5567,7 @@
     "id": "garou-densetsu",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Garry Kitchen's Super Battletank: War in the Gulf",
@@ -5781,7 +5577,6 @@
     "id": "garry-kitchens-super-battletank-war-in-the-gulf",
     "id_igdb": 46681,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5792,8 +5587,7 @@
     "id": "gauntlet-arcade-version",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Gauntlet IV",
@@ -5834,8 +5628,7 @@
     "id": "gemu-no-kanzume-o-tokuyou",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "General Chaos",
@@ -5865,7 +5658,6 @@
     "id": "genghis-khan-ii-clan-of-the-gray-wolf",
     "id_igdb": 273031,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -5886,8 +5678,7 @@
     "console": "snes",
     "id": "genocide-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "George Foreman's KO Boxing",
@@ -5907,8 +5698,7 @@
     "id": "george-foreman-s-knock-out-boxing",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Ghost Hunter",
@@ -5918,8 +5708,7 @@
     "id": "ghost-hunter",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Ghostbusters",
@@ -5960,7 +5749,6 @@
     "id": "global-gladiators",
     "id_igdb": 6828,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6053,8 +5841,7 @@
     "id": "grand-slam-tennis",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Greatest Heavyweights of the Ring",
@@ -6064,8 +5851,7 @@
     "id": "greatest-heavyweights-of-the-ring",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Greendog: The Beached Surfer Dude!",
@@ -6106,8 +5892,7 @@
     "console": "snes",
     "id": "gunforce-battle-fire-engulfed-terror-island",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gunship",
@@ -6137,8 +5922,7 @@
     "id": "gynoug",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "HAL's Hole in One Golf",
@@ -6158,7 +5942,6 @@
     "id": "hagane-the-final-conflict",
     "id_igdb": 42611,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6210,8 +5993,7 @@
     "id": "hardball-94",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "HardBall III",
@@ -6232,7 +6014,6 @@
     "id": "hardball-iii",
     "id_igdb": 12466,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6345,8 +6126,7 @@
     "id": "hercules",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Herzog Zwei",
@@ -6366,8 +6146,7 @@
     "id": "high-school-soccer-kunio-kun",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "High Seas Havoc",
@@ -6387,7 +6166,6 @@
     "id": "hit-the-ice-the-video-hockey-league",
     "id_igdb": 46208,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6409,8 +6187,7 @@
     "id": "hokuto-no-ken-2",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Home Alone",
@@ -6440,7 +6217,6 @@
     "id": "home-alone-2-lost-in-new-york",
     "id_igdb": 14502,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6462,7 +6238,6 @@
     "id": "home-improvement-power-tool-pursuit",
     "id_igdb": 11541,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6513,7 +6288,6 @@
     "id": "hurricanes",
     "id_igdb": 46347,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6535,8 +6309,7 @@
     "id": "hyper-dunk-the-playoff-edition",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "Hyper V-Ball",
@@ -6585,8 +6358,7 @@
     "console": "snes",
     "id": "illusion-of-time",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Imperium",
@@ -6637,7 +6409,6 @@
     "id": "inindo-way-of-the-ninja",
     "id_igdb": 47498,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6668,7 +6439,6 @@
     "id": "instruments-of-chaos-starring-young-indiana-jones",
     "id_igdb": 73006,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6728,8 +6498,7 @@
     "console": "snes",
     "id": "irem-major-title-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Iron Commando",
@@ -6780,8 +6549,7 @@
     "id": "j-league-champion-soccer",
     "id_igdb": "",
     "active": true,
-    "check": true,
-    "check_image": true
+    "check": true
   },
   {
     "name": "J. League Pro Striker",
@@ -6790,8 +6558,7 @@
     "console": "gens",
     "id": "j-league-pro-striker",
     "active": true,
-    "id_igdb": "",
-    "check_image": true
+    "id_igdb": ""
   },
   {
     "name": "J. League Pro Striker 2",
@@ -6800,8 +6567,7 @@
     "console": "gens",
     "id": "j-league-pro-striker-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "J. League Pro Striker Final Stage",
@@ -6820,8 +6586,7 @@
     "console": "snes",
     "id": "jrr-tolkien-s-the-lord-of-the-rings-volume-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jack Nicklaus Golf",
@@ -6830,8 +6595,7 @@
     "console": "snes",
     "id": "jack-nicklaus-golf",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jack Nicklaus' Power Challenge Golf",
@@ -6851,7 +6615,6 @@
     "id": "james-buster-douglas-knock-out-boxing",
     "id_igdb": 46530,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6862,7 +6625,6 @@
     "id": "james-bond-007-the-duel",
     "id_igdb": 1637,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6873,7 +6635,6 @@
     "id": "james-bond-jr",
     "id_igdb": 11249,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6884,7 +6645,6 @@
     "id": "james-pond-2-codename-robocod",
     "id_igdb": 4443,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6895,7 +6655,6 @@
     "id": "james-pond-2-codename-robocod",
     "id_igdb": 4443,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6906,7 +6665,6 @@
     "id": "james-pond-3-operation-starfish",
     "id_igdb": 5926,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6917,7 +6675,6 @@
     "id": "james-pond-3-operation-starfish",
     "id_igdb": 5926,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6927,8 +6684,7 @@
     "console": "snes",
     "id": "james-pond-s-crazy-sports",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "James Pond: Underwater Agent",
@@ -6938,7 +6694,6 @@
     "id": "james-pond-underwater-agent",
     "id_igdb": 4274,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -6968,8 +6723,7 @@
     "console": "gens",
     "id": "janou-touryumon",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jantei Monogatari",
@@ -6988,8 +6742,7 @@
     "console": "snes",
     "id": "jazz411-s-super-mario-world",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jelly Boy",
@@ -7018,8 +6771,7 @@
     "console": "snes",
     "id": "jelly-boy-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jennifer Capriati Tennis",
@@ -7038,8 +6790,7 @@
     "console": "gens",
     "id": "jeopardy",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jeopardy!",
@@ -7048,8 +6799,7 @@
     "console": "snes",
     "id": "jeopardy-",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jeopardy! Deluxe Edition",
@@ -7059,7 +6809,6 @@
     "id": "jeopardy-deluxe-edition",
     "id_igdb": 42512,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7089,8 +6838,7 @@
     "console": "gens",
     "id": "jeopordy-sports-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jerry Glanville's Pigskin Footbrawl",
@@ -7100,7 +6848,6 @@
     "id": "jerry-glanvilles-pigskin-footbrawl",
     "id_igdb": 46188,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7120,8 +6867,7 @@
     "console": "gens",
     "id": "jiang-qi-zhi-xing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jim Lee's WildC.A.T.S",
@@ -7130,8 +6876,7 @@
     "console": "snes",
     "id": "jim-lee-s-wildc-a-t",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jim Power",
@@ -7140,8 +6885,7 @@
     "console": "gens",
     "id": "jim-power",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jim Power: The Lost Dimension in 3D",
@@ -7151,7 +6895,6 @@
     "id": "jim-power-the-lost-dimension-in-3d",
     "id_igdb": 42606,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7182,7 +6925,6 @@
     "id": "jimmy-whites-whirlwind-snooker",
     "id_igdb": 12159,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7203,7 +6945,6 @@
     "id": "joe-and-mac-2-lost-in-the-tropics",
     "id_igdb": 42604,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7224,7 +6965,6 @@
     "id": "joe-montana-ii-sports-talk-football",
     "id_igdb": 19491,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7234,8 +6974,7 @@
     "console": "gens",
     "id": "joe-montana-nfl-95",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "John Madden Football",
@@ -7244,8 +6983,7 @@
     "console": "snes",
     "id": "john-madden-football",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "John Madden Football '92",
@@ -7255,7 +6993,6 @@
     "id": "john-madden-football-92",
     "id_igdb": 4588,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7266,7 +7003,6 @@
     "id": "john-madden-football-93",
     "id_igdb": 4245,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7277,7 +7013,6 @@
     "id": "john-madden-football-93-championship-edition",
     "id_igdb": 4482,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7287,8 +7022,7 @@
     "console": "gens",
     "id": "john-madden-football-91",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jordan vs Bird - Super One-on-One",
@@ -7297,8 +7031,7 @@
     "console": "gens",
     "id": "jordan-vs-bird-super-one-on-one",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Joshua & The Battle of Jericho",
@@ -7308,7 +7041,6 @@
     "id": "joshua-and-the-battle-of-jericho",
     "id_igdb": 46186,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7328,8 +7060,7 @@
     "console": "gens",
     "id": "judge-dredd-the-movie",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Junction",
@@ -7388,8 +7119,7 @@
     "console": "gens",
     "id": "jurassic-park-2-the-lost-world",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jurassic Park Part 2: The Chaos Continues",
@@ -7399,7 +7129,6 @@
     "id": "jurassic-park-part-2-the-chaos-continues",
     "id_igdb": 10677,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7410,7 +7139,6 @@
     "id": "jurassic-park-rampage-edition",
     "id_igdb": 10678,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7441,7 +7169,6 @@
     "id": "ka-ge-ki-fists-of-steel-9c4ff322-1aae-46eb-9ac3-a84da415894b",
     "id_igdb": 4529,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7451,8 +7178,7 @@
     "console": "snes",
     "id": "kablooey",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kawasaki Caribbean Challenge",
@@ -7532,7 +7258,6 @@
     "id": "kick-off-3-european-challenge",
     "id_igdb": 45708,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7543,7 +7268,6 @@
     "id": "kick-off-3-european-challenge",
     "id_igdb": 45708,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7583,8 +7307,7 @@
     "console": "gens",
     "id": "killing-game-show-1993-remix",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "King Arthur & the Knights of Justice",
@@ -7594,7 +7317,6 @@
     "id": "king-arthur-and-the-knights-of-justice",
     "id_igdb": 8142,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7625,7 +7347,6 @@
     "id": "king-salmon-the-big-catch",
     "id_igdb": 4480,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7635,8 +7356,7 @@
     "console": "gens",
     "id": "king-of-fighters-98-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "King of the Monsters",
@@ -7735,8 +7455,7 @@
     "console": "snes",
     "id": "kirby-s-fun-pak",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kirby's Ghost Trap",
@@ -7745,8 +7464,7 @@
     "console": "snes",
     "id": "kirby-s-ghost-trap",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Klax",
@@ -7776,7 +7494,6 @@
     "id": "knuckles-the-echidna-in-sonic-the-hedgehog-2",
     "id_igdb": 135370,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7786,8 +7503,7 @@
     "console": "gens",
     "id": "koutetsu-teikoku",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Krusty's Fun House",
@@ -7797,7 +7513,6 @@
     "id": "krusty-s-fun-house",
     "id_igdb": 2740,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7807,8 +7522,7 @@
     "console": "gens",
     "id": "kujaku-oh-2-peacock-king",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kyle Petty's No Fear Racing",
@@ -7827,8 +7541,7 @@
     "console": "gens",
     "id": "kyukai-dotyuuki-baseball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kyuukyou Tiger",
@@ -7837,8 +7550,7 @@
     "console": "gens",
     "id": "kyuukyou-tiger",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LHX Attack Helicopter",
@@ -7847,8 +7559,7 @@
     "console": "gens",
     "id": "lhx-attack-helicopter",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lagoon",
@@ -7868,7 +7579,6 @@
     "id": "lakers-versus-celtics-and-the-nba-playoffs",
     "id_igdb": 73962,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7879,7 +7589,6 @@
     "id": "lamborghini-american-challenge",
     "id_igdb": 27525,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7890,7 +7599,6 @@
     "id": "landstalker-the-treasures-of-king-nole",
     "id_igdb": 15072,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -7901,7 +7609,6 @@
     "id": "landstalker-the-treasures-of-king-nole-ptbr",
     "id_igdb": 15072,
     "active": true,
-    "check_image": true,
     "block_change": true
   },
   {
@@ -7911,8 +7618,7 @@
     "console": "gens",
     "id": "langrisser-hikari",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Langrisser Hikari 2",
@@ -7921,8 +7627,7 @@
     "console": "gens",
     "id": "langrisser-hikari-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Last Action Hero",
@@ -7971,8 +7676,7 @@
     "console": "gens",
     "id": "legend-of-galahad-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Legend of Toki - Going Ape Spit, The",
@@ -7981,8 +7685,7 @@
     "console": "gens",
     "id": "legend-of-toki-going-ape-spit-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lemmings",
@@ -8012,7 +7715,6 @@
     "id": "lemmings-2-the-tribes",
     "id_igdb": 243988,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8023,7 +7725,6 @@
     "id": "lemmings-2-the-tribes",
     "id_igdb": 243941,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8064,7 +7765,6 @@
     "id": "lethal-enforcers-ii-gun-fighters",
     "id_igdb": 5398,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8104,8 +7804,7 @@
     "console": "snes",
     "id": "life-fitness-mega-cart",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Light Crusader",
@@ -8124,8 +7823,7 @@
     "console": "gens",
     "id": "lightning-force",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Link Dragon",
@@ -8134,8 +7832,7 @@
     "console": "gens",
     "id": "link-dragon",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lock On",
@@ -8174,8 +7871,7 @@
     "console": "gens",
     "id": "lotus-2-recs",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lotus Turbo Challenge",
@@ -8205,7 +7901,6 @@
     "id": "lufia-the-fortress-of-doom",
     "id_igdb": 1177,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8216,7 +7911,6 @@
     "id": "lufia-ii-rise-of-the-sinistrals",
     "id_igdb": 1178,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8227,7 +7921,6 @@
     "id": "m-u-s-h-a",
     "id_igdb": 4445,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8237,8 +7930,7 @@
     "console": "gens",
     "id": "m1-abrams-battle-tank",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MLBPA Baseball",
@@ -8267,8 +7959,7 @@
     "console": "gens",
     "id": "mlbpa-sports-talk-baseball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MTV's Beavis and Butt-Head",
@@ -8278,7 +7969,6 @@
     "id": "mtvs-beavis-and-butt-head",
     "id_igdb": 7777,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8289,7 +7979,6 @@
     "id": "madden-nfl-94",
     "id_igdb": 4381,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8310,7 +7999,6 @@
     "id": "madden-nfl-95",
     "id_igdb": 4506,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8331,7 +8019,6 @@
     "id": "madden-nfl-96",
     "id_igdb": 4542,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8352,7 +8039,6 @@
     "id": "madden-nfl-97",
     "id_igdb": 243264,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8373,7 +8059,6 @@
     "id": "madden-nfl-98",
     "id_igdb": 4590,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8393,8 +8078,7 @@
     "console": "gens",
     "id": "madouh-monogatari",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Magic Boy",
@@ -8414,7 +8098,6 @@
     "id": "magic-girl-featuring-ling-ling-the-little-witch",
     "id_igdb": 45675,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8434,8 +8117,7 @@
     "console": "gens",
     "id": "magical-taluluto-adventure",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mahjong Club",
@@ -8444,8 +8126,7 @@
     "console": "gens",
     "id": "mahjong-club",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mahjong Cop Ryu",
@@ -8454,8 +8135,7 @@
     "console": "gens",
     "id": "mahjong-cop-ryu",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Majikaru Hashito no Butsutobi Turbo! Daibouken",
@@ -8464,8 +8144,7 @@
     "console": "gens",
     "id": "majikaru-hashito-no-butsutobi-turbo-daibouken",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Manchester United Championship Soccer",
@@ -8484,8 +8163,7 @@
     "console": "gens",
     "id": "maou-renjitsu",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Marble Madness",
@@ -8515,7 +8193,6 @@
     "id": "mario-is-missing",
     "id_igdb": 210223,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8546,7 +8223,6 @@
     "id": "marios-early-years-fun-with-letters",
     "id_igdb": 42502,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8557,7 +8233,6 @@
     "id": "marios-early-years-fun-with-numbers",
     "id_igdb": 42501,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8568,7 +8243,6 @@
     "id": "marios-early-years-preschool-fun",
     "id_igdb": 42500,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8589,7 +8263,6 @@
     "id": "mark-davis-the-fishing-master",
     "id_igdb": 42499,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8599,8 +8272,7 @@
     "console": "gens",
     "id": "marko-s-magic-football",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Marko's Magic Football",
@@ -8609,8 +8281,7 @@
     "console": "snes",
     "id": "marko-s-magic-football",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Marsupilami",
@@ -8640,7 +8311,6 @@
     "id": "marvel-super-heroes-in-war-of-the-gems",
     "id_igdb": 42656,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8690,8 +8360,7 @@
     "console": "gens",
     "id": "maten-densetsu",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Math Blaster: Episode One - In Search of Spot",
@@ -8701,7 +8370,6 @@
     "id": "math-blaster-episode-one-in-search-of-spot",
     "id_igdb": 4419,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8712,7 +8380,6 @@
     "id": "maui-mallard-in-cold-shadow",
     "id_igdb": 8448,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8734,7 +8401,6 @@
     "id": "mazin-saga-mutant-fighter",
     "id_igdb": 36947,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8744,8 +8410,7 @@
     "console": "gens",
     "id": "mazin-wars",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "McDonald's Treasure Land Adventure",
@@ -8775,7 +8440,6 @@
     "id": "mechwarrior",
     "id_igdb": 19188,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8786,7 +8450,6 @@
     "id": "mechwarrior-3050",
     "id_igdb": 19186,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8796,8 +8459,7 @@
     "console": "gens",
     "id": "mega-anser",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Bomberman",
@@ -8816,8 +8478,7 @@
     "console": "gens",
     "id": "mega-games-10-in-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Lo Mania",
@@ -8826,8 +8487,7 @@
     "console": "gens",
     "id": "mega-lo-mania",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man 7",
@@ -8837,7 +8497,6 @@
     "id": "mega-man-7",
     "id_igdb": 1720,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8848,7 +8507,6 @@
     "id": "mega-man-soccer",
     "id_igdb": 1730,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -8868,8 +8526,7 @@
     "console": "snes",
     "id": "mega-man-x-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man X 3",
@@ -8878,8 +8535,7 @@
     "console": "snes",
     "id": "mega-man-x-3",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Q - The Party Quiz Game",
@@ -8888,8 +8544,7 @@
     "console": "gens",
     "id": "mega-q-the-party-quiz-game",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega SWIV",
@@ -8898,8 +8553,7 @@
     "console": "gens",
     "id": "mega-swiv",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Turrican",
@@ -8918,8 +8572,7 @@
     "console": "snes",
     "id": "mega-lo-mania",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaGames 3in1 Vol 1",
@@ -8928,8 +8581,7 @@
     "console": "gens",
     "id": "megagames-3in1-vol-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaGames 3in1 Vol 2",
@@ -8938,8 +8590,7 @@
     "console": "gens",
     "id": "megagames-3in1-vol-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaGames 4in1",
@@ -8948,8 +8599,7 @@
     "console": "gens",
     "id": "megagames-4in1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaGames 6in1 US",
@@ -8958,8 +8608,7 @@
     "console": "gens",
     "id": "megagames-6in1-us",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaGames 6in1 Vol 1",
@@ -8968,8 +8617,7 @@
     "console": "gens",
     "id": "megagames-6in1-vol-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaGames 6in1 Vol 3",
@@ -8978,8 +8626,7 @@
     "console": "gens",
     "id": "megagames-6in1-vol-3",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MegaTraX",
@@ -8988,8 +8635,7 @@
     "console": "gens",
     "id": "megatrax",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Megaman - The Wily Wars",
@@ -8998,8 +8644,7 @@
     "console": "gens",
     "id": "megaman-the-wily-wars",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Megapanel",
@@ -9018,8 +8663,7 @@
     "console": "gens",
     "id": "menacer-6-in-1-game-pack",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mercs",
@@ -9039,7 +8683,6 @@
     "id": "metal-combat-falcons-revenge",
     "id_igdb": 44461,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9120,7 +8763,6 @@
     "id": "michael-jordan-chaos-in-the-windy-city",
     "id_igdb": 42490,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9131,7 +8773,6 @@
     "id": "mickey-mania-the-timeless-adventures-of-mickey-mouse",
     "id_igdb": 5404,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9142,7 +8783,6 @@
     "id": "mickey-mania-the-timeless-adventures-of-mickey-mouse",
     "id_igdb": 256366,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9152,8 +8792,7 @@
     "console": "gens",
     "id": "mickey-mouse-fantasia",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mickey Mouse - Great Circus Mystery",
@@ -9162,8 +8801,7 @@
     "console": "gens",
     "id": "mickey-mouse-great-circus-mystery",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mickey Mouse - Minnie's Magical Adventure 2",
@@ -9172,8 +8810,7 @@
     "console": "gens",
     "id": "mickey-mouse-minnie-s-magical-adventure-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mickey Mouse - World of Illusion",
@@ -9192,7 +8829,6 @@
     "id": "mickeys-playtown-adventure-a-day-of-discovery",
     "id_igdb": 42488,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9243,7 +8879,6 @@
     "id": "micro-machines-2-turbo-tournament",
     "id_igdb": 8775,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9254,7 +8889,6 @@
     "id": "micro-machines-2-turbo-tournament",
     "id_igdb": 8775,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9264,8 +8898,7 @@
     "console": "gens",
     "id": "micro-machines-military-it-s-a-blast-",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Micro Machines: Turbo Tournament 96",
@@ -9275,7 +8908,6 @@
     "id": "micro-machines-turbo-tournament-96",
     "id_igdb": 4545,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9295,8 +8927,7 @@
     "console": "gens",
     "id": "might-and-magic-3-isles-of-terror",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Might and Magic II: Gates to Another World",
@@ -9306,7 +8937,6 @@
     "id": "might-and-magic-ii-gates-to-another-world",
     "id_igdb": 7734,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9317,7 +8947,6 @@
     "id": "might-and-magic-ii-gates-to-another-world",
     "id_igdb": 7734,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9328,7 +8957,6 @@
     "id": "might-and-magic-iii-isles-of-terra",
     "id_igdb": 7735,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9338,8 +8966,7 @@
     "console": "gens",
     "id": "mighty-max",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mighty Max",
@@ -9348,8 +8975,7 @@
     "console": "snes",
     "id": "mighty-max",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mighty Morphin Power Rangers",
@@ -9379,7 +9005,6 @@
     "id": "mighty-morphin-power-rangers-the-fighting-edition",
     "id_igdb": 3287,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9390,7 +9015,6 @@
     "id": "mighty-morphin-power-rangers-the-movie",
     "id_igdb": 3288,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9401,7 +9025,6 @@
     "id": "mighty-morphin-power-rangers-the-movie",
     "id_igdb": 75980,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9421,8 +9044,7 @@
     "console": "gens",
     "id": "minato-no-toreijia",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Minnesota Fats: Pool Legend",
@@ -9432,7 +9054,6 @@
     "id": "minnesota-fats-pool-legend",
     "id_igdb": 4465,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9442,8 +9063,7 @@
     "console": "gens",
     "id": "misadventures-of-flink-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mohawk & Headphone Jack",
@@ -9453,7 +9073,6 @@
     "id": "mohawk-and-headphone-jack",
     "id_igdb": 42487,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9524,7 +9143,6 @@
     "id": "mortal-kombat-ii",
     "id_igdb": 1619,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9555,7 +9173,6 @@
     "id": "mr-do",
     "id_igdb": 9554,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9606,7 +9223,6 @@
     "id": "ms-pac-man",
     "id_igdb": 131815,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9616,8 +9232,7 @@
     "console": "gens",
     "id": "muhammed-ali-heavyweight-boxing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mulan",
@@ -9637,7 +9252,6 @@
     "id": "musya-the-classic-japanese-tale-of-horror",
     "id_igdb": 36740,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9677,8 +9291,7 @@
     "console": "snes",
     "id": "mystic-quest-legend",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mystical Fighter",
@@ -9697,8 +9310,7 @@
     "console": "gens",
     "id": "nba-action",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NBA Action '95 starring David Robinson",
@@ -9708,7 +9320,6 @@
     "id": "nba-action-95-starring-david-robinson",
     "id_igdb": 4551,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9728,8 +9339,7 @@
     "console": "gens",
     "id": "nba-allstar-challenge",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NBA Give 'n Go",
@@ -9739,7 +9349,6 @@
     "id": "nba-give-n-go",
     "id_igdb": 42482,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9750,7 +9359,6 @@
     "id": "nba-hangtime",
     "id_igdb": 3550,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9761,7 +9369,6 @@
     "id": "nba-hangtime",
     "id_igdb": 3550,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9792,7 +9399,6 @@
     "id": "nba-jam-tournament-edition",
     "id_igdb": 19712,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9813,7 +9419,6 @@
     "id": "nba-live-95",
     "id_igdb": 37285,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9834,7 +9439,6 @@
     "id": "nba-live-96",
     "id_igdb": 809,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9855,7 +9459,6 @@
     "id": "nba-live-97",
     "id_igdb": 20134,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9876,7 +9479,6 @@
     "id": "nba-live-98",
     "id_igdb": 26013,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -9896,8 +9498,7 @@
     "console": "gens",
     "id": "nba-pro-basketball-94",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NBA Showdown",
@@ -9916,8 +9517,7 @@
     "console": "gens",
     "id": "nba-showdown-94",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NCAA Basketball",
@@ -9936,8 +9536,7 @@
     "console": "gens",
     "id": "ncaa-college-football",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NCAA Final Four Basketball",
@@ -9956,8 +9555,7 @@
     "console": "gens",
     "id": "ncaa-final-four-college-basketball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NCAA Football",
@@ -9976,8 +9574,7 @@
     "console": "gens",
     "id": "nfl-98",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NFL Football",
@@ -9997,7 +9594,6 @@
     "id": "nfl-football-94-starring-joe-montana",
     "id_igdb": 46268,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10028,7 +9624,6 @@
     "id": "nfl-quarterback-club-96",
     "id_igdb": 25080,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10059,7 +9654,6 @@
     "id": "nhl-94",
     "id_igdb": 5405,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10069,8 +9663,7 @@
     "console": "gens",
     "id": "nhl-93",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NHL 95",
@@ -10080,7 +9673,6 @@
     "id": "nhl-95",
     "id_igdb": 4509,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10100,8 +9692,7 @@
     "console": "gens",
     "id": "nhl-95-elitserien",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NHL 96",
@@ -10111,7 +9702,6 @@
     "id": "nhl-96",
     "id_igdb": 11650,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10131,8 +9721,7 @@
     "console": "gens",
     "id": "nhl-96-elitserien",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NHL 97",
@@ -10142,7 +9731,6 @@
     "id": "nhl-97",
     "id_igdb": 242264,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10163,7 +9751,6 @@
     "id": "nhl-98",
     "id_igdb": 818,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10184,7 +9771,6 @@
     "id": "nhl-all-star-hockey-95",
     "id_igdb": 19559,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10194,8 +9780,7 @@
     "console": "gens",
     "id": "nhl-hockey-91",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NHL Hockey 92",
@@ -10204,8 +9789,7 @@
     "console": "gens",
     "id": "nhl-hockey-92",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NHL Stanley Cup",
@@ -10225,7 +9809,6 @@
     "id": "nhlpa-hockey-93",
     "id_igdb": 42479,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10267,8 +9850,7 @@
     "console": "gens",
     "id": "new-zealand-story-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Newman-Haas Indy Car Racing",
@@ -10277,8 +9859,7 @@
     "console": "gens",
     "id": "newman-haas-indy-car-racing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Newman-Hass Indy Car Featuring Nigel Mansell",
@@ -10287,8 +9868,7 @@
     "console": "snes",
     "id": "newman-hass-indy-car-featuring-nigel-mansell",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nickelodeon Guts",
@@ -10298,7 +9878,6 @@
     "id": "nickelodeon-guts",
     "id_igdb": 42478,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10318,8 +9897,7 @@
     "console": "snes",
     "id": "nigel-mansell-s-world-championship-racing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nightmare Circus",
@@ -10338,8 +9916,7 @@
     "console": "gens",
     "id": "nikkan-sports-pro-yakyuu-van",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ninja Burai Densetsu",
@@ -10379,7 +9956,6 @@
     "id": "ninja-warriors",
     "id_igdb": 42654,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10409,8 +9985,7 @@
     "console": "gens",
     "id": "nobunaga-no-yabou-haouden-lord-of-darkness",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nobunaga no Yabou Zenkokuban",
@@ -10419,8 +9994,7 @@
     "console": "gens",
     "id": "nobunaga-no-yabou-zenkokuban",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nobunaga no Yabou: Haouden",
@@ -10430,7 +10004,6 @@
     "id": "nobunaga-no-yabou-haouden",
     "id_igdb": 37901,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10460,8 +10033,7 @@
     "console": "snes",
     "id": "nobunaga-s-ambition-lord-of-darkness",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nolan Ryan's Baseball",
@@ -10511,7 +10083,6 @@
     "id": "ogre-battle-the-march-of-the-black-queen",
     "id_igdb": 9805,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10522,7 +10093,6 @@
     "id": "olympic-gold-barcelona-92",
     "id_igdb": 46266,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10532,8 +10102,7 @@
     "console": "snes",
     "id": "olympic-summer-games-96",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Olympic Summer Games Atlanta 96",
@@ -10542,8 +10111,7 @@
     "console": "gens",
     "id": "olympic-summer-games-atlanta-96",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Olympic Winter Games - Lillehammer 94",
@@ -10552,8 +10120,7 @@
     "console": "gens",
     "id": "olympic-winter-games-lillehammer-94",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Omega Race",
@@ -10562,8 +10129,7 @@
     "console": "gens",
     "id": "omega-race",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "On the Ball",
@@ -10592,8 +10158,7 @@
     "console": "gens",
     "id": "operation-europe-path-to-victory-1939-1945",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Operation Europe: Path to Victory 1939-45",
@@ -10603,7 +10168,6 @@
     "id": "operation-europe-path-to-victory-1939-45",
     "id_igdb": 4417,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10643,8 +10207,7 @@
     "console": "gens",
     "id": "otsomatsu-kun-hachamecha-gekiio-mr",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "OutRun",
@@ -10653,8 +10216,7 @@
     "console": "gens",
     "id": "outrun",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "OutRun 2019",
@@ -10704,7 +10266,6 @@
     "id": "pto-ii-pacific-theater-of-operations",
     "id_igdb": 45527,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10715,7 +10276,6 @@
     "id": "p-dot-t-o-dot-pacific-theater-of-operations",
     "id_igdb": 71695,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10726,7 +10286,6 @@
     "id": "p-dot-t-o-dot-pacific-theater-of-operations",
     "id_igdb": 71695,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10797,7 +10356,6 @@
     "id": "pga-tour-golf-ii",
     "id_igdb": 46343,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10808,7 +10366,6 @@
     "id": "pga-tour-golf-iii",
     "id_igdb": 45781,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10839,7 +10396,6 @@
     "id": "pac-in-time",
     "id_igdb": 242407,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10850,7 +10406,6 @@
     "id": "pac-man-2-the-new-adventures",
     "id_igdb": 11603,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10861,7 +10416,6 @@
     "id": "pac-man-2-the-new-adventures",
     "id_igdb": 11603,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -10881,8 +10435,7 @@
     "console": "gens",
     "id": "pachinko-canyon",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Packy & Marlon",
@@ -10921,8 +10474,7 @@
     "console": "gens",
     "id": "panzer-commander",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Paperboy",
@@ -10961,8 +10513,7 @@
     "console": "snes",
     "id": "parodius-non-sense-fantasy",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pat Riley Basketball",
@@ -10981,8 +10532,7 @@
     "console": "gens",
     "id": "patlabor",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pelé II: World Tournament Soccer",
@@ -10992,7 +10542,6 @@
     "id": "pele-ii-world-tournament-soccer",
     "id_igdb": 4421,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11003,7 +10552,6 @@
     "id": "pele",
     "id_igdb": 78098,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11014,7 +10562,6 @@
     "id": "pepenga-pengo",
     "id_igdb": 4503,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11044,8 +10591,7 @@
     "console": "snes",
     "id": "phalanx-the-enforce-fighter-a-144",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Phantasy Star 4 - The End of The Millenium",
@@ -11054,8 +10600,7 @@
     "console": "gens",
     "id": "phantasy-star-4-the-end-of-the-millenium",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Phantasy Star II",
@@ -11065,7 +10610,6 @@
     "id": "phantasy-star-ii",
     "id_igdb": 1232,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11076,7 +10620,6 @@
     "id": "phantasy-star-iii-generations-of-doom",
     "id_igdb": 1231,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11117,7 +10660,6 @@
     "id": "pierre-le-chef-is-dot-dot-dot-out-to-lunch",
     "id_igdb": 39042,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11168,7 +10710,6 @@
     "id": "pink-goes-to-hollywood",
     "id_igdb": 42474,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11179,7 +10720,6 @@
     "id": "pirates-gold",
     "id_igdb": 9232,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11210,7 +10750,6 @@
     "id": "pitfall-the-mayan-adventure",
     "id_igdb": 5410,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11221,7 +10760,6 @@
     "id": "pitfall-the-mayan-adventure",
     "id_igdb": 5410,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11232,7 +10770,6 @@
     "id": "plok",
     "id_igdb": 28389,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11243,7 +10780,6 @@
     "id": "pocket-monster",
     "id_igdb": 45692,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11254,7 +10790,6 @@
     "id": "pocket-monster-ii",
     "id_igdb": 45691,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11285,7 +10820,6 @@
     "id": "popn-twinbee",
     "id_igdb": 51948,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11296,7 +10830,6 @@
     "id": "popn-twinbee-rainbow-bell-adventures",
     "id_igdb": 42473,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11316,8 +10849,7 @@
     "console": "gens",
     "id": "populous-2-wrath-of-the-gods",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Populous II: Trials of the Olympian Gods",
@@ -11327,7 +10859,6 @@
     "id": "populous-ii-trials-of-the-olympian-gods",
     "id_igdb": 8895,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11347,8 +10878,7 @@
     "console": "gens",
     "id": "power-athlete",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Drive",
@@ -11397,8 +10927,7 @@
     "console": "snes",
     "id": "power-moves",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Piggs of the Dark Age",
@@ -11418,7 +10947,6 @@
     "id": "power-rangers-zeo-battle-racers",
     "id_igdb": 3295,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11429,7 +10957,6 @@
     "id": "powermonger",
     "id_igdb": 5423,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11440,7 +10967,6 @@
     "id": "powermonger",
     "id_igdb": 5423,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11500,8 +11026,7 @@
     "console": "gens",
     "id": "pretty-girl-mahjongg",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Primal Rage",
@@ -11531,7 +11056,6 @@
     "id": "prime-time-nfl-starring-deion-sanders",
     "id_igdb": 45770,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11562,7 +11086,6 @@
     "id": "prince-of-persia-2-the-shadow-and-the-flame",
     "id_igdb": 3164,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11572,8 +11095,7 @@
     "console": "gens",
     "id": "pro-action-replay",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pro Quarterback",
@@ -11622,8 +11144,7 @@
     "console": "gens",
     "id": "psy-o-blade-moving-adventure",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Psycho Pinball",
@@ -11662,8 +11183,7 @@
     "console": "snes",
     "id": "push-over",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Putty Squad",
@@ -11702,8 +11222,7 @@
     "console": "snes",
     "id": "puzzle-bobble",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Puzzle and Action",
@@ -11712,8 +11231,7 @@
     "console": "gens",
     "id": "puzzle-and-action",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Q-bert 3",
@@ -11722,8 +11240,7 @@
     "console": "snes",
     "id": "q-bert-3",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Quack Shot Starring Donald Duck",
@@ -11732,8 +11249,7 @@
     "console": "gens",
     "id": "quack-shot-starring-donald-duck",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Quad Challenge",
@@ -11753,7 +11269,6 @@
     "id": "r-type-iii-the-third-lightning",
     "id_igdb": 6550,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11764,7 +11279,6 @@
     "id": "rbi-baseball-93",
     "id_igdb": 46203,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11775,7 +11289,6 @@
     "id": "rbi-baseball-94",
     "id_igdb": 92260,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11786,7 +11299,6 @@
     "id": "rbi-baseball-3",
     "id_igdb": 93414,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11797,7 +11309,6 @@
     "id": "rbi-baseball-4",
     "id_igdb": 46264,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11837,8 +11348,7 @@
     "console": "snes",
     "id": "race-drivin-",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Radical Rex",
@@ -11888,7 +11398,6 @@
     "id": "rainbow-islands-the-story-of-bubble-bobble-2",
     "id_igdb": 4405,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11938,8 +11447,7 @@
     "console": "snes",
     "id": "ranma-nibunnoichi",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ransei no Hasha",
@@ -11959,7 +11467,6 @@
     "id": "rap-jam-volume-one",
     "id_igdb": 44458,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -11970,7 +11477,6 @@
     "id": "rastan-saga-ii",
     "id_igdb": 4466,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12021,7 +11527,6 @@
     "id": "rent-a-hero",
     "id_igdb": 145509,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12031,8 +11536,7 @@
     "console": "gens",
     "id": "resq",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Revenge of Fu Manchu, The",
@@ -12041,8 +11545,7 @@
     "console": "gens",
     "id": "revenge-of-fu-manchu-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Revolution X",
@@ -12072,7 +11575,6 @@
     "id": "rex-ronan-experimental-surgeon",
     "id_igdb": 42651,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12172,8 +11674,7 @@
     "console": "gens",
     "id": "ristar-the-shooting-star",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rival Turf!",
@@ -12183,7 +11684,6 @@
     "id": "rival-turf",
     "id_igdb": 42467,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12193,8 +11693,7 @@
     "console": "snes",
     "id": "riverse-kids",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Road Blasters",
@@ -12203,8 +11702,7 @@
     "console": "gens",
     "id": "road-blasters",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Road Rash",
@@ -12234,7 +11732,6 @@
     "id": "road-rash-ii",
     "id_igdb": 4429,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12254,8 +11751,7 @@
     "console": "snes",
     "id": "road-runner",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Road Runner's Death Valley Rally",
@@ -12275,7 +11771,6 @@
     "id": "robocop-3",
     "id_igdb": 19695,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12286,7 +11781,6 @@
     "id": "robocop-3",
     "id_igdb": 19695,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12297,7 +11791,6 @@
     "id": "robocop-versus-the-terminator",
     "id_igdb": 44464,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12307,8 +11800,7 @@
     "console": "gens",
     "id": "robocop-vs-the-terminator",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robot Wreckage",
@@ -12317,8 +11809,7 @@
     "console": "gens",
     "id": "robot-wreckage",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robotrek",
@@ -12338,7 +11829,6 @@
     "id": "rock-n-roll-racing",
     "id_igdb": 6564,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12369,7 +11859,6 @@
     "id": "rocko-s-modern-life-spunky-s-dangerous-day",
     "id_igdb": 7562,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12399,8 +11888,7 @@
     "console": "gens",
     "id": "roger-clements-mvp-baseball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rolling Thunder 2",
@@ -12460,7 +11948,6 @@
     "id": "romance-of-the-three-kingdoms-iii-dragon-of-destiny",
     "id_igdb": 5431,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12471,7 +11958,6 @@
     "id": "romance-of-the-three-kingdoms-iii-dragon-of-destiny",
     "id_igdb": 5431,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12482,7 +11968,6 @@
     "id": "romance-of-the-three-kingdoms-iv-wall-of-fire",
     "id_igdb": 7040,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12492,8 +11977,7 @@
     "console": "gens",
     "id": "romance-of-the-three-kingdoms-part-5",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ronaldinho 98",
@@ -12502,8 +11986,7 @@
     "console": "gens",
     "id": "ronaldinho-98",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ronaldinho Soccer 97",
@@ -12522,8 +12005,7 @@
     "console": "gens",
     "id": "royal-blood",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rugby World Cup 95",
@@ -12552,8 +12034,7 @@
     "console": "gens",
     "id": "runark",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "S.T.G: Strike Gunner",
@@ -12563,7 +12044,6 @@
     "id": "s-dot-t-g-strike-gunner",
     "id_igdb": 39692,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12583,8 +12063,7 @@
     "console": "gens",
     "id": "ss-lucifer-man-overboard-",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SWAT Kats: The Radical Squadron",
@@ -12594,7 +12073,6 @@
     "id": "swat-kats-the-radical-squadron",
     "id_igdb": 8068,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12604,8 +12082,7 @@
     "console": "gens",
     "id": "sagaia",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sailor Moon",
@@ -12654,8 +12131,7 @@
     "console": "gens",
     "id": "samurai-spirits",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sangokushi Retsuden: Ransei no Eiyuu-tachi",
@@ -12665,7 +12141,6 @@
     "id": "sangokushi-retsuden-ransei-no-eiyuu-tachi",
     "id_igdb": 45610,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12696,7 +12171,6 @@
     "id": "scholastics-the-magic-school-bus-space-exploration-game",
     "id_igdb": 46280,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12706,8 +12180,7 @@
     "console": "snes",
     "id": "scooby-doo",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scooby-Doo Mystery",
@@ -12717,7 +12190,6 @@
     "id": "scooby-doo-mystery",
     "id_igdb": 137094,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12738,7 +12210,6 @@
     "id": "seaquest-dsv",
     "id_igdb": 45591,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12749,7 +12220,6 @@
     "id": "seaquest-dsv",
     "id_igdb": 45591,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12760,7 +12230,6 @@
     "id": "second-samurai",
     "id_igdb": 4422,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12790,8 +12259,7 @@
     "console": "gens",
     "id": "sega-arcade-classics",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sega Channel",
@@ -12800,8 +12268,7 @@
     "console": "gens",
     "id": "sega-channel",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sega Sports 1",
@@ -12820,8 +12287,7 @@
     "console": "gens",
     "id": "sensible-soccer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sensible Soccer",
@@ -12830,8 +12296,7 @@
     "console": "snes",
     "id": "sensible-soccer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sensible Soccer - International Edition",
@@ -12840,8 +12305,7 @@
     "console": "gens",
     "id": "sensible-soccer-international-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sensible Soccer - International Edition",
@@ -12850,8 +12314,7 @@
     "console": "snes",
     "id": "sensible-soccer-international-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sesame Street Counting Cafe",
@@ -12881,7 +12344,6 @@
     "id": "shadow-dancer-the-secret-of-shinobi",
     "id_igdb": 10217,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12891,8 +12353,7 @@
     "console": "gens",
     "id": "shadow-run",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shadow of the Beast",
@@ -12912,7 +12373,6 @@
     "id": "shadow-of-the-beast-ii",
     "id_igdb": 5879,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12933,7 +12393,6 @@
     "id": "shanghai-ii-dragon-s-eye",
     "id_igdb": 4450,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12944,7 +12403,6 @@
     "id": "shanghai-ii-dragon-s-eye",
     "id_igdb": 4450,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12955,7 +12413,6 @@
     "id": "shaq-fu",
     "id_igdb": 8536,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -12966,7 +12423,6 @@
     "id": "shaq-fu",
     "id_igdb": 8536,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13007,7 +12463,6 @@
     "id": "shining-force-ii",
     "id_igdb": 3197,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13028,7 +12483,6 @@
     "id": "shinobi-iii-return-of-the-ninja-master",
     "id_igdb": 2623,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13038,8 +12492,7 @@
     "console": "gens",
     "id": "shiten-myooh",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shougino",
@@ -13048,8 +12501,7 @@
     "console": "gens",
     "id": "shougino",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shove It! The Warehouse Game",
@@ -13059,7 +12511,6 @@
     "id": "shove-it-the-warehouse-game",
     "id_igdb": 4375,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13070,7 +12521,6 @@
     "id": "sid-meiers-civilization",
     "id_igdb": 902,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13100,8 +12550,7 @@
     "console": "snes",
     "id": "sim-city",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sim City 2000",
@@ -13110,8 +12559,7 @@
     "console": "snes",
     "id": "sim-city-2000",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SimAnt",
@@ -13121,7 +12569,6 @@
     "id": "simant",
     "id_igdb": 9520,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13132,7 +12579,6 @@
     "id": "simearth-the-living-planet",
     "id_igdb": 44456,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13142,8 +12588,7 @@
     "console": "snes",
     "id": "simpsons-itchy-scratchy",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Simpsons - Krusty's Super Fun House",
@@ -13152,8 +12597,7 @@
     "console": "snes",
     "id": "simpsons-krusty-s-super-fun-house",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Simpsons, The - Krusty's Super Funhouse",
@@ -13162,8 +12606,7 @@
     "console": "gens",
     "id": "simpsons-the-krusty-s-super-funhouse",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Simpsons, The - The Itchy and Scratchy Game",
@@ -13172,8 +12615,7 @@
     "console": "gens",
     "id": "simpsons-the-the-itchy-and-scratchy-game",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Simpsons, The - Virtual Bart",
@@ -13182,8 +12624,7 @@
     "console": "gens",
     "id": "simpsons-the-virtual-bart",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sink or Swim",
@@ -13192,8 +12633,7 @@
     "console": "snes",
     "id": "sink-or-swim",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Skeleton Krew",
@@ -13223,7 +12663,6 @@
     "id": "skuljagger-revolt-of-the-westicans",
     "id_igdb": 42664,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13233,8 +12672,7 @@
     "console": "snes",
     "id": "sky-blazer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Slam Dunk - Shikyou Gekitotsu!",
@@ -13243,8 +12681,7 @@
     "console": "gens",
     "id": "slam-dunk-shikyou-gekitotsu-",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Slap Fight MD",
@@ -13254,7 +12691,6 @@
     "id": "slap-fight-md",
     "id_igdb": 4521,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13264,8 +12700,7 @@
     "console": "gens",
     "id": "slaughter-sport",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Smart Ball",
@@ -13284,8 +12719,7 @@
     "console": "gens",
     "id": "smart-mouse",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Smash TV",
@@ -13294,8 +12728,7 @@
     "console": "gens",
     "id": "smash-tv",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Smash Tennis",
@@ -13314,8 +12747,7 @@
     "console": "gens",
     "id": "smurfs-2-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Smurfs 2, The",
@@ -13324,8 +12756,7 @@
     "console": "snes",
     "id": "smurfs-2-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Snake Rattle 'n' Roll",
@@ -13344,8 +12775,7 @@
     "console": "gens",
     "id": "snow-brothers",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Snow White in Happily Ever After",
@@ -13384,8 +12814,7 @@
     "console": "gens",
     "id": "sokoban",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sol-Deace",
@@ -13394,8 +12823,7 @@
     "console": "gens",
     "id": "sol-deace",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Soldiers of Fortune",
@@ -13425,7 +12853,6 @@
     "id": "sonic-and-knuckles",
     "id_igdb": 9475,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13506,7 +12933,6 @@
     "id": "sonic-the-hedgehog-3-and-knuckles",
     "id_igdb": 11219,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13517,7 +12943,6 @@
     "id": "sonic-the-hedgehog-spinball",
     "id_igdb": 16036,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13568,7 +12993,6 @@
     "id": "space-football-one-on-one",
     "id_igdb": 42458,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13579,7 +13003,6 @@
     "id": "space-harrier-ii",
     "id_igdb": 4498,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13600,7 +13023,6 @@
     "id": "space-invaders-91",
     "id_igdb": 46262,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13610,8 +13032,7 @@
     "console": "gens",
     "id": "space-invaders-90",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Space Megaforce",
@@ -13651,7 +13072,6 @@
     "id": "sparkster-rocket-knight-adventures-2",
     "id_igdb": 1264,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13671,8 +13091,7 @@
     "console": "gens",
     "id": "speed-ball-2-brutal-deluxe",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Speed Racer in My Most Dangerous Adventures",
@@ -13691,8 +13110,7 @@
     "console": "gens",
     "id": "speedy-gonzales-cheeze-cat-astrophe",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Speedy Gonzales: Los Gatos Bandidos",
@@ -13702,7 +13120,6 @@
     "id": "speedy-gonzales-los-gatos-bandidos",
     "id_igdb": 8076,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13712,8 +13129,7 @@
     "console": "snes",
     "id": "spell-craft",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spider-Man",
@@ -13732,8 +13148,7 @@
     "console": "snes",
     "id": "spider-man-venom-separation",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spider-Man and Venom: Maximum Carnage",
@@ -13743,7 +13158,6 @@
     "id": "spider-man-and-venom-maximum-carnage",
     "id_igdb": 18125,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13763,8 +13177,7 @@
     "console": "gens",
     "id": "spiderman-the-animated-series",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spiderman and Venom - Maximum Carnage",
@@ -13773,8 +13186,7 @@
     "console": "gens",
     "id": "spiderman-and-venom-maximum-carnage",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spiderman and Venom in Separation Anxiety",
@@ -13783,8 +13195,7 @@
     "console": "gens",
     "id": "spiderman-and-venom-in-separation-anxiety",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spiderman and X-Men - Arcade's Revenge",
@@ -13793,8 +13204,7 @@
     "console": "gens",
     "id": "spiderman-and-x-men-arcade-s-revenge",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spiderman vs Kingpin",
@@ -13803,8 +13213,7 @@
     "console": "gens",
     "id": "spiderman-vs-kingpin",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spindizzy Worlds",
@@ -13853,8 +13262,7 @@
     "console": "gens",
     "id": "splatter-house-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Splatter House 3",
@@ -13863,8 +13271,7 @@
     "console": "gens",
     "id": "splatter-house-3",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sporting News Power Baseball, The",
@@ -13873,8 +13280,7 @@
     "console": "snes",
     "id": "sporting-news-power-baseball-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sports Illustrated Championship Football & Baseball",
@@ -13933,8 +13339,7 @@
     "console": "snes",
     "id": "star-fox-super-weekend-competition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Trek - Deep Space 9 - Crossroads of Time",
@@ -13943,8 +13348,7 @@
     "console": "gens",
     "id": "star-trek-deep-space-9-crossroads-of-time",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Trek - The Next Generation - Future's Past",
@@ -13953,8 +13357,7 @@
     "console": "snes",
     "id": "star-trek-the-next-generation-future-s-past",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Trek: Deep Space Nine - Crossroads of Time",
@@ -13964,7 +13367,6 @@
     "id": "star-trek-deep-space-nine-crossroads-of-time",
     "id_igdb": 3280,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13975,7 +13377,6 @@
     "id": "star-trek-starfleet-academy-starship-bridge-simulator",
     "id_igdb": 45878,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13986,7 +13387,6 @@
     "id": "star-trek-the-next-generation-echoes-from-the-past",
     "id_igdb": 46195,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -13996,8 +13396,7 @@
     "console": "snes",
     "id": "starwing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "StarWing Super Weekend Competition",
@@ -14006,8 +13405,7 @@
     "console": "snes",
     "id": "starwing-super-weekend-competition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Starflight",
@@ -14047,7 +13445,6 @@
     "id": "steel-empire",
     "id_igdb": 45536,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14078,7 +13475,6 @@
     "id": "sterling-sharpe-end-2-end",
     "id_igdb": 38434,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14108,8 +13504,7 @@
     "console": "gens",
     "id": "story-of-thor-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Combat",
@@ -14128,8 +13523,7 @@
     "console": "gens",
     "id": "street-fighter-2-plus-champion-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter 2 Turbo",
@@ -14138,8 +13532,7 @@
     "console": "gens",
     "id": "street-fighter-2-turbo",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter Alpha 2",
@@ -14158,8 +13551,7 @@
     "console": "snes",
     "id": "street-fighter-ii-fight-again",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter II Turbo - Hyper Fighting",
@@ -14168,8 +13560,7 @@
     "console": "snes",
     "id": "street-fighter-ii-turbo-hyper-fighting",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter II: Special Champion Edition",
@@ -14179,7 +13570,6 @@
     "id": "street-fighter-ii-special-champion-edition-c6119b36-b741-4f18-b839-ef685f020f7f",
     "id_igdb": 4367,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14190,7 +13580,6 @@
     "id": "street-fighter-ii-the-world-warrior",
     "id_igdb": 39306,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14280,8 +13669,7 @@
     "console": "gens",
     "id": "strider-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Strider Returns",
@@ -14350,8 +13738,7 @@
     "console": "gens",
     "id": "super-15-in-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super 1998 Sonic 6",
@@ -14360,8 +13747,7 @@
     "console": "gens",
     "id": "super-1998-sonic-6",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Adventure Island",
@@ -14400,8 +13786,7 @@
     "console": "snes",
     "id": "super-aleste",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Alfred Chicken",
@@ -14420,8 +13805,7 @@
     "console": "snes",
     "id": "super-bc-kid",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Baseball 2020",
@@ -14431,7 +13815,6 @@
     "id": "super-baseball-2020",
     "id_igdb": 46193,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14482,7 +13865,6 @@
     "id": "super-bases-loaded-3-license-to-steal",
     "id_igdb": 38428,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14502,8 +13884,7 @@
     "console": "gens",
     "id": "super-battle-tank-war-in-the-gulf",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Battleship",
@@ -14532,8 +13913,7 @@
     "console": "snes",
     "id": "super-battletank",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Battletank 2",
@@ -14552,8 +13932,7 @@
     "console": "snes",
     "id": "super-black-bass",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Bomberman",
@@ -14592,8 +13971,7 @@
     "console": "snes",
     "id": "super-bomberman-4",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Bomberman 5",
@@ -14602,8 +13980,7 @@
     "console": "snes",
     "id": "super-bomberman-5",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Bonk",
@@ -14633,7 +14010,6 @@
     "id": "super-bubble-bobble-md",
     "id_igdb": 46290,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14684,7 +14060,6 @@
     "id": "super-conflict-the-mideast",
     "id_igdb": 38421,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14724,8 +14099,7 @@
     "console": "snes",
     "id": "super-earth-defense-force",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Fantasy Zone",
@@ -14755,7 +14129,6 @@
     "id": "super-ghoulsn-ghosts",
     "id_igdb": 6621,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14795,8 +14168,7 @@
     "console": "gens",
     "id": "super-hq",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Hang-On",
@@ -14835,8 +14207,7 @@
     "console": "snes",
     "id": "super-hockey",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Hydlide",
@@ -14875,8 +14246,7 @@
     "console": "snes",
     "id": "super-james-pond",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Kick-Off",
@@ -14886,7 +14256,6 @@
     "id": "super-kick-off",
     "id_igdb": 45797,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14896,8 +14265,7 @@
     "console": "gens",
     "id": "super-king-kong-99",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super League",
@@ -14906,8 +14274,7 @@
     "console": "gens",
     "id": "super-league",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super League 91",
@@ -14916,8 +14283,7 @@
     "console": "gens",
     "id": "super-league-91",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Mario All-Stars",
@@ -14947,7 +14313,6 @@
     "id": "super-mario-rpg-legend-of-the-seven-stars",
     "id_igdb": 5418,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14968,7 +14333,6 @@
     "id": "super-mario-world-2-yoshi-s-island",
     "id_igdb": 1073,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14978,8 +14342,7 @@
     "console": "snes",
     "id": "super-mario-world-3-islands-of-mistery",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Mario World: A Super Mario Adventure",
@@ -14989,7 +14352,6 @@
     "id": "super-mario-world-a-super-mario-adventure",
     "id_igdb": 268102,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -14999,8 +14361,7 @@
     "console": "gens",
     "id": "super-masters-golf",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Metroid",
@@ -15030,8 +14391,7 @@
     "console": "gens",
     "id": "super-monaco-grand-prix",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Morph",
@@ -15080,8 +14440,7 @@
     "console": "snes",
     "id": "super-off-road",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Off Road: The Baja",
@@ -15091,7 +14450,6 @@
     "id": "super-off-road-the-baja",
     "id_igdb": 42575,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15101,8 +14459,7 @@
     "console": "gens",
     "id": "super-offroad",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Pang",
@@ -15111,8 +14468,7 @@
     "console": "snes",
     "id": "super-pang",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Pinball: Behind the Mask",
@@ -15122,7 +14478,6 @@
     "id": "super-pinball-behind-the-mask",
     "id_igdb": 42455,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15153,7 +14508,6 @@
     "id": "super-probotector-alien-rebels",
     "id_igdb": 186205,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15203,8 +14557,7 @@
     "console": "snes",
     "id": "super-swiv",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Shadow of the Beast",
@@ -15223,8 +14576,7 @@
     "console": "gens",
     "id": "super-shinobi-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Skidmarks",
@@ -15244,7 +14596,6 @@
     "id": "super-slam-dunk",
     "id_igdb": 42452,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15294,8 +14645,7 @@
     "console": "snes",
     "id": "super-star-force",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Star Wars",
@@ -15315,7 +14665,6 @@
     "id": "super-star-wars-return-of-the-jedi",
     "id_igdb": 48939,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15326,7 +14675,6 @@
     "id": "super-star-wars-the-empire-strikes-back",
     "id_igdb": 44463,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15337,7 +14685,6 @@
     "id": "super-street-fighter-ii-the-new-challengers",
     "id_igdb": 12860,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15348,7 +14695,6 @@
     "id": "super-street-fighter-ii-the-new-challengers",
     "id_igdb": 12860,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15358,8 +14704,7 @@
     "console": "snes",
     "id": "super-stress-faijter-ii-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Strike Eagle",
@@ -15438,8 +14783,7 @@
     "console": "gens",
     "id": "super-volleyball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Widget",
@@ -15509,7 +14853,6 @@
     "id": "sylvester-and-tweety-in-cagey-capers",
     "id_igdb": 46190,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15539,8 +14882,7 @@
     "console": "gens",
     "id": "syura-no-mon",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Syvalion",
@@ -15560,7 +14902,6 @@
     "id": "t2-the-arcade-game",
     "id_igdb": 12861,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15601,7 +14942,6 @@
     "id": "tnn-outdoors-bass-tournament-96",
     "id_igdb": 46244,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15611,8 +14951,7 @@
     "console": "gens",
     "id": "taiga-drama-taiheiki",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Taiko Rissi Den",
@@ -15621,8 +14960,7 @@
     "console": "gens",
     "id": "taiko-rissi-den",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Taiwan Tycoon",
@@ -15631,8 +14969,7 @@
     "console": "gens",
     "id": "taiwan-tycoon",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Take the 'A' Train",
@@ -15641,8 +14978,7 @@
     "console": "gens",
     "id": "take-the-a-train",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tale Spin",
@@ -15651,8 +14987,7 @@
     "console": "gens",
     "id": "tale-spin",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Talmit's Adventure",
@@ -15712,7 +15047,6 @@
     "id": "techno-cop",
     "id_igdb": 22746,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15723,7 +15057,6 @@
     "id": "technoclash",
     "id_igdb": 4535,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15734,7 +15067,6 @@
     "id": "tecmo-cup-football-game",
     "id_igdb": 46166,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15745,7 +15077,6 @@
     "id": "tecmo-secret-of-the-stars",
     "id_igdb": 15893,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15795,8 +15126,7 @@
     "console": "gens",
     "id": "tecmo-super-bowl-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tecmo Super Bowl II: Special Edition",
@@ -15806,7 +15136,6 @@
     "id": "tecmo-super-bowl-ii-special-edition",
     "id_igdb": 46598,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15817,7 +15146,6 @@
     "id": "tecmo-super-bowl-iii-final-edition",
     "id_igdb": 42445,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15828,7 +15156,6 @@
     "id": "tecmo-super-bowl-iii-final-edition",
     "id_igdb": 42445,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15868,8 +15195,7 @@
     "console": "gens",
     "id": "tecmo-world-cup-92",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Teenage Mutant Ninja Turtles - Return of the Shredder",
@@ -15878,8 +15204,7 @@
     "console": "gens",
     "id": "teenage-mutant-ninja-turtles-return-of-the-shredder",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
@@ -15889,7 +15214,6 @@
     "id": "teenage-mutant-ninja-turtles-iv-turtles-in-time",
     "id_igdb": 14697,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15900,7 +15224,6 @@
     "id": "teenage-mutant-ninja-turtles-the-hyperstone-heist",
     "id_igdb": 4404,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15911,7 +15234,6 @@
     "id": "teenage-mutant-ninja-turtles-tournament-fighters",
     "id_igdb": 134079,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15922,7 +15244,6 @@
     "id": "teenage-mutant-ninja-turtles-tournament-fighters",
     "id_igdb": 134080,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15932,8 +15253,7 @@
     "console": "gens",
     "id": "teitoku-no-ketsudan",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tel Tel Stadium",
@@ -15942,8 +15262,7 @@
     "console": "gens",
     "id": "tel-tel-stadium",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tel-Tel Mahjong",
@@ -15953,7 +15272,6 @@
     "id": "tel-tel-mahjong",
     "id_igdb": 4485,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -15963,8 +15281,7 @@
     "console": "gens",
     "id": "terminator-2-judgement-day",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Terminator 2 - The Arcade Game",
@@ -15973,8 +15290,7 @@
     "console": "gens",
     "id": "terminator-2-the-arcade-game",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Terminator 2: Judgment Day",
@@ -15984,7 +15300,6 @@
     "id": "terminator-2-judgment-day",
     "id_igdb": 12793,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16035,7 +15350,6 @@
     "id": "the-7th-saga",
     "id_igdb": 15846,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16046,7 +15360,6 @@
     "id": "the-addams-family",
     "id_igdb": 5342,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16067,7 +15380,6 @@
     "id": "the-addams-family-pugsley-s-scavenger-hunt",
     "id_igdb": 5344,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16078,7 +15390,6 @@
     "id": "the-adventures-of-batman-robin",
     "id_igdb": 5346,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16099,7 +15410,6 @@
     "id": "the-adventures-of-dr-franken",
     "id_igdb": 48617,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16110,7 +15420,6 @@
     "id": "the-adventures-of-rocky-and-bullwinkle-and-friends",
     "id_igdb": 5347,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16121,7 +15430,6 @@
     "id": "the-adventures-of-rocky-and-bullwinkle-and-friends",
     "id_igdb": 5347,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16132,7 +15440,6 @@
     "id": "the-adventures-of-tintin-prisoners-of-the-sun",
     "id_igdb": 42588,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16143,7 +15450,6 @@
     "id": "the-aquatic-games-starring-james-pond-and-the-aquabats",
     "id_igdb": 4554,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16174,7 +15480,6 @@
     "id": "the-brainies",
     "id_igdb": 42634,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16185,7 +15490,6 @@
     "id": "the-chaos-engine",
     "id_igdb": 256304,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16207,7 +15511,6 @@
     "id": "the-chessmaster",
     "id_igdb": 12909,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16218,7 +15521,6 @@
     "id": "the-combatribes",
     "id_igdb": 39639,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16229,7 +15531,6 @@
     "id": "the-death-and-return-of-superman",
     "id_igdb": 453,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16262,7 +15563,6 @@
     "id": "the-duel-test-drive-ii",
     "id_igdb": 2201,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16273,7 +15573,6 @@
     "id": "the-duel-test-drive-ii",
     "id_igdb": 2201,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16295,7 +15594,6 @@
     "id": "the-firemen",
     "id_igdb": 42621,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16317,7 +15615,6 @@
     "id": "the-flintstones-the-treasure-of-sierra-madrock",
     "id_igdb": 8450,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16328,7 +15625,6 @@
     "id": "the-games-summer-challenge",
     "id_igdb": 4510,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16339,7 +15635,6 @@
     "id": "the-great-circus-mystery-starring-mickey-and-minnie",
     "id_igdb": 4407,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16350,7 +15645,6 @@
     "id": "the-great-waldo-search",
     "id_igdb": 48158,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16372,7 +15666,6 @@
     "id": "the-humans",
     "id_igdb": 37273,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16394,7 +15687,6 @@
     "id": "the-hunt-for-red-october",
     "id_igdb": 45118,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16416,7 +15708,6 @@
     "id": "the-ignition-factor",
     "id_igdb": 42607,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16438,7 +15729,6 @@
     "id": "the-incredible-crash-dummies",
     "id_igdb": 2160,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16460,7 +15750,6 @@
     "id": "the-incredible-hulk",
     "id_igdb": 94829,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16482,7 +15771,6 @@
     "id": "the-irem-skins-game",
     "id_igdb": 44452,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16493,7 +15781,6 @@
     "id": "the-itchy-scratchy-game",
     "id_igdb": 2834,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16504,7 +15791,6 @@
     "id": "the-jetsons-invasion-of-the-planet-pirates",
     "id_igdb": 42511,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16515,7 +15801,6 @@
     "id": "the-killing-game-show",
     "id_igdb": 12164,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16526,7 +15811,6 @@
     "id": "the-king-of-dragons",
     "id_igdb": 6814,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16537,7 +15821,6 @@
     "id": "the-lawnmower-man",
     "id_igdb": 5397,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16548,7 +15831,6 @@
     "id": "the-lawnmower-man",
     "id_igdb": 5397,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16559,7 +15841,6 @@
     "id": "the-legend-of-zelda-a-link-to-the-past",
     "id_igdb": 1026,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16570,7 +15851,6 @@
     "id": "the-legend-of-the-mystical-ninja",
     "id_igdb": 28386,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16581,7 +15861,6 @@
     "id": "the-lion-king",
     "id_igdb": 3166,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16592,7 +15871,6 @@
     "id": "the-lion-king",
     "id_igdb": 3166,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16603,7 +15881,6 @@
     "id": "the-lost-vikings",
     "id_igdb": 454,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16614,7 +15891,6 @@
     "id": "the-lost-vikings",
     "id_igdb": 144423,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16625,7 +15901,6 @@
     "id": "the-lost-vikings-2",
     "id_igdb": 1253,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16636,7 +15911,6 @@
     "id": "the-magical-quest-starring-mickey-mouse",
     "id_igdb": 6379,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16647,7 +15921,6 @@
     "id": "the-mask",
     "id_igdb": 42730,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16658,7 +15931,6 @@
     "id": "the-miracle-piano-teaching-system",
     "id_igdb": 274059,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16669,7 +15941,6 @@
     "id": "the-ooze",
     "id_igdb": 46251,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16680,7 +15951,6 @@
     "id": "the-ottifants",
     "id_igdb": 46355,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16691,7 +15961,6 @@
     "id": "the-pagemaster",
     "id_igdb": 49032,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16702,7 +15971,6 @@
     "id": "the-pagemaster",
     "id_igdb": 49032,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16713,7 +15981,6 @@
     "id": "the-peace-keepers",
     "id_igdb": 44465,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16724,7 +15991,6 @@
     "id": "the-pirates-of-dark-water",
     "id_igdb": 8104,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16735,7 +16001,6 @@
     "id": "the-pirates-of-dark-water",
     "id_igdb": 8104,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16746,7 +16011,6 @@
     "id": "the-punisher",
     "id_igdb": 19768,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16757,7 +16021,6 @@
     "id": "the-ren-and-stimpy-show-presents-stimpys-invention",
     "id_igdb": 46257,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16768,7 +16031,6 @@
     "id": "the-ren-and-stimpy-show-buckeroo$",
     "id_igdb": 7987,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16779,7 +16041,6 @@
     "id": "the-ren-and-stimpy-show-fire-dogs",
     "id_igdb": 7985,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16790,7 +16051,6 @@
     "id": "the-ren-and-stimpy-show-time-warp",
     "id_igdb": 8102,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16801,7 +16061,6 @@
     "id": "the-ren-and-stimpy-show-veediots",
     "id_igdb": 7989,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16812,7 +16071,6 @@
     "id": "the-revenge-of-shinobi",
     "id_igdb": 3327,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16823,7 +16081,6 @@
     "id": "the-rocketeer",
     "id_igdb": 136871,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16834,7 +16091,6 @@
     "id": "the-shadow",
     "id_igdb": 42465,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16845,7 +16101,6 @@
     "id": "the-simpsons-bart-vs-the-space-mutants",
     "id_igdb": 2827,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16856,7 +16111,6 @@
     "id": "the-simpsons-bart-s-nightmare",
     "id_igdb": 2833,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16867,7 +16121,6 @@
     "id": "the-simpsons-bart-s-nightmare",
     "id_igdb": 2833,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16878,7 +16131,6 @@
     "id": "the-smurfs",
     "id_igdb": 8083,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16889,7 +16141,6 @@
     "id": "the-smurfs",
     "id_igdb": 8083,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16900,7 +16151,6 @@
     "id": "the-terminator",
     "id_igdb": 96395,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16911,7 +16161,6 @@
     "id": "the-terminator",
     "id_igdb": 4372,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16922,7 +16171,6 @@
     "id": "the-tick",
     "id_igdb": 46594,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16933,7 +16181,6 @@
     "id": "the-tick",
     "id_igdb": 46594,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16944,7 +16191,6 @@
     "id": "the-twisted-tales-of-spike-mcfang",
     "id_igdb": 16295,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16955,7 +16201,6 @@
     "id": "the-untouchables",
     "id_igdb": 213865,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16966,7 +16211,6 @@
     "id": "the-wizard-of-oz",
     "id_igdb": 77026,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -16997,7 +16241,6 @@
     "id": "thomas-the-tank-engine-and-friends",
     "id_igdb": 128845,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17008,7 +16251,6 @@
     "id": "thomas-the-tank-engine-and-friends",
     "id_igdb": 137268,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17018,8 +16260,7 @@
     "console": "gens",
     "id": "thunder-force-4",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Thunder Force II",
@@ -17029,7 +16270,6 @@
     "id": "thunder-force-ii",
     "id_igdb": 6033,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17040,7 +16280,6 @@
     "id": "thunder-force-iii",
     "id_igdb": 4423,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17070,8 +16309,7 @@
     "console": "gens",
     "id": "tiger-hunter-hero-novel",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Time Dominator 1st",
@@ -17080,8 +16318,7 @@
     "console": "gens",
     "id": "time-dominator-1st",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Time Killers",
@@ -17101,7 +16338,6 @@
     "id": "time-slip",
     "id_igdb": 42442,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17152,7 +16388,6 @@
     "id": "tintin-in-tibet",
     "id_igdb": 46493,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17163,7 +16398,6 @@
     "id": "tiny-toon-adventures-acme-all-stars",
     "id_igdb": 8052,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17174,7 +16408,6 @@
     "id": "tiny-toon-adventures-buster-busts-loose",
     "id_igdb": 8050,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17185,7 +16418,6 @@
     "id": "tiny-toon-adventures-busters-hidden-treasure",
     "id_igdb": 8049,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17196,7 +16428,6 @@
     "id": "tiny-toon-adventures-wacky-sports-challenge",
     "id_igdb": 8051,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17207,7 +16438,6 @@
     "id": "todd-mcfarlanes-spawn-the-video-game",
     "id_igdb": 42580,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17228,7 +16458,6 @@
     "id": "toejam-and-earl",
     "id_igdb": 8389,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17238,8 +16467,7 @@
     "console": "gens",
     "id": "toejam-earl-in-panic-on-funcotron",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tom Mason's Dinosaurs for Hire",
@@ -17260,7 +16488,6 @@
     "id": "tom-and-jerry",
     "id_igdb": 317063,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17271,7 +16498,6 @@
     "id": "tom-and-jerry-frantic-antics",
     "id_igdb": 8028,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17292,7 +16518,6 @@
     "id": "tommy-moes-winter-extreme-skiing-and-snowboarding",
     "id_igdb": 42429,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17324,7 +16549,6 @@
     "id": "tony-la-russa-baseball-95",
     "id_igdb": 95378,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17495,7 +16719,6 @@
     "id": "triple-play-gold-edition",
     "id_igdb": 4488,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17546,7 +16769,6 @@
     "id": "true-golf-classics-pebble-beach-golf-links",
     "id_igdb": 4533,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17557,7 +16779,6 @@
     "id": "true-golf-classics-pebble-beach-golf-links",
     "id_igdb": 4533,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17568,7 +16789,6 @@
     "id": "true-golf-classics-waialae-country-club",
     "id_igdb": 4284,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17579,7 +16799,6 @@
     "id": "true-golf-classics-waialae-country-club",
     "id_igdb": 4284,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17590,7 +16809,6 @@
     "id": "true-golf-classics-wicked-18",
     "id_igdb": 38401,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17641,7 +16859,6 @@
     "id": "turbo-outrun",
     "id_igdb": 2053,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17652,7 +16869,6 @@
     "id": "turma-da-monica-na-terra-dos-monstros",
     "id_igdb": 98931,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17663,7 +16879,6 @@
     "id": "turn-and-burn-no-fly-zone",
     "id_igdb": 42438,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17713,8 +16928,7 @@
     "console": "gens",
     "id": "twisted-flipper",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Two Crude Dudes",
@@ -17734,7 +16948,6 @@
     "id": "two-tribes-populous-ii",
     "id_igdb": 45704,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17745,7 +16958,6 @@
     "id": "tyrants-fight-through-time",
     "id_igdb": 12183,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17766,7 +16978,6 @@
     "id": "ultima-vi-the-false-prophet",
     "id_igdb": 12230,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17776,8 +16987,7 @@
     "console": "snes",
     "id": "ultima-vii-the-black-gate",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ultima: Runes of Virtue II",
@@ -17787,7 +16997,6 @@
     "id": "ultima-runes-of-virtue-ii",
     "id_igdb": 38414,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17827,8 +17036,7 @@
     "console": "gens",
     "id": "ultimate-qix",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ultimate Soccer",
@@ -17847,8 +17055,7 @@
     "console": "gens",
     "id": "ultraman",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ultraman: Towards the Future",
@@ -17858,7 +17065,6 @@
     "id": "ultraman-towards-the-future",
     "id_igdb": 42579,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17889,7 +17095,6 @@
     "id": "uncharted-waters-new-horizons",
     "id_igdb": 38412,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17900,7 +17105,6 @@
     "id": "uncharted-waters-new-horizons",
     "id_igdb": 38412,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17930,8 +17134,7 @@
     "console": "snes",
     "id": "unirally",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Universal Solder",
@@ -17940,8 +17143,7 @@
     "console": "gens",
     "id": "universal-solder",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Universal Soldier",
@@ -17971,7 +17173,6 @@
     "id": "urban-strike-the-sequel-to-jungle-strike",
     "id_igdb": 4492,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17982,7 +17183,6 @@
     "id": "urban-strike-the-sequel-to-jungle-strike",
     "id_igdb": 4492,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -17993,7 +17193,6 @@
     "id": "utopia-the-creation-of-a-nation",
     "id_igdb": 12231,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18003,8 +17202,7 @@
     "console": "gens",
     "id": "v-five",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "V.R Fighter vs Taken2",
@@ -18013,8 +17211,7 @@
     "console": "gens",
     "id": "v",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "VR Troopers",
@@ -18033,8 +17230,7 @@
     "console": "snes",
     "id": "val-d-isere-championship",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Valis - The Fantasm Soldier",
@@ -18043,8 +17239,7 @@
     "console": "gens",
     "id": "valis-the-fantasm-soldier",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Valis III",
@@ -18054,7 +17249,6 @@
     "id": "valis-iii",
     "id_igdb": 278313,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18064,8 +17258,7 @@
     "console": "gens",
     "id": "valis-sd",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Valis Syd",
@@ -18074,8 +17267,7 @@
     "console": "gens",
     "id": "valis-syd",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Vapor Trail",
@@ -18105,7 +17297,6 @@
     "id": "vectorman-2",
     "id_igdb": 4391,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18126,7 +17317,6 @@
     "id": "venom-slash-spider-man-separation-anxiety",
     "id_igdb": 46182,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18216,8 +17406,7 @@
     "console": "gens",
     "id": "volfide",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Vortex",
@@ -18237,7 +17426,6 @@
     "id": "wcw-superbrawl-wrestling",
     "id_igdb": 38404,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18248,7 +17436,6 @@
     "id": "wwf-raw",
     "id_igdb": 19771,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18289,7 +17476,6 @@
     "id": "wwf-wrestlemania-the-arcade-game",
     "id_igdb": 4546,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18300,7 +17486,6 @@
     "id": "wwf-wrestlemania-the-arcade-game",
     "id_igdb": 4546,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18311,7 +17496,6 @@
     "id": "wwf-super-wrestlemania",
     "id_igdb": 45566,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18322,7 +17506,6 @@
     "id": "wwf-super-wrestlemania",
     "id_igdb": 45566,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18343,7 +17526,6 @@
     "id": "wacky-worlds-creativity-studio",
     "id_igdb": 47056,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18374,7 +17556,6 @@
     "id": "war-3010-the-revolution",
     "id_igdb": 38397,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18394,8 +17575,7 @@
     "console": "gens",
     "id": "wardner-special",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wario's Woods",
@@ -18465,7 +17645,6 @@
     "id": "warrior-of-rome-ii",
     "id_igdb": 5934,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18485,8 +17664,7 @@
     "console": "gens",
     "id": "waterworld",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Waterworld",
@@ -18515,8 +17693,7 @@
     "console": "gens",
     "id": "wayne-gretzsky-nhlpa-all-stars",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wayne's World",
@@ -18545,8 +17722,7 @@
     "console": "gens",
     "id": "we-re-back-a-dinosaur-s-tale",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "We're Back!: A Dinosaur's Story",
@@ -18556,7 +17732,6 @@
     "id": "were-back-a-dinosaurs-story",
     "id_igdb": 19685,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18567,7 +17742,6 @@
     "id": "weaponlord",
     "id_igdb": 38403,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18598,7 +17772,6 @@
     "id": "wheel-of-fortune-deluxe-edition",
     "id_igdb": 42424,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18609,7 +17782,6 @@
     "id": "where-in-time-is-carmen-sandiego",
     "id_igdb": 4376,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18620,7 +17792,6 @@
     "id": "where-in-time-is-carmen-sandiego",
     "id_igdb": 4376,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18631,7 +17802,6 @@
     "id": "where-in-the-world-is-carmen-sandiego",
     "id_igdb": 251,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18642,7 +17812,6 @@
     "id": "where-in-the-world-is-carmen-sandiego",
     "id_igdb": 251,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18652,8 +17821,7 @@
     "console": "gens",
     "id": "whip-rush-2222-ad",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Whirlo",
@@ -18712,8 +17880,7 @@
     "console": "snes",
     "id": "wile-e-coyotes-revenge",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Williams Arcade's Greatest Hits",
@@ -18723,7 +17890,6 @@
     "id": "williams-arcades-greatest-hits",
     "id_igdb": 20713,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18764,7 +17930,6 @@
     "id": "wing-commander-the-secret-missions",
     "id_igdb": 38399,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18775,7 +17940,6 @@
     "id": "wings-2-aces-high",
     "id_igdb": 42577,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18815,8 +17979,7 @@
     "console": "snes",
     "id": "winter-olympic-games-lillehammer-94",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wiz 'n' Liz",
@@ -18836,7 +17999,6 @@
     "id": "wizardry-v-heart-of-the-maelstrom",
     "id_igdb": 10495,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18846,8 +18008,7 @@
     "console": "gens",
     "id": "wolf-child",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wolf Child",
@@ -18856,8 +18017,7 @@
     "console": "snes",
     "id": "wolf-child",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wolfenstein 3D",
@@ -18866,8 +18026,7 @@
     "console": "snes",
     "id": "wolfenstein-3d",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wolverine: Adamantium Rage",
@@ -18877,7 +18036,6 @@
     "id": "wolverine-adamantium-rage",
     "id_igdb": 46250,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18888,7 +18046,6 @@
     "id": "wolverine-adamantium-rage",
     "id_igdb": 207235,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18898,8 +18055,7 @@
     "console": "gens",
     "id": "wonder-library",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wonderboy 3 - Monster Lair",
@@ -18908,8 +18064,7 @@
     "console": "gens",
     "id": "wonderboy-3-monster-lair",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wonderboy 5",
@@ -18918,8 +18073,7 @@
     "console": "gens",
     "id": "wonderboy-5",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wonderboy 6",
@@ -18928,8 +18082,7 @@
     "console": "gens",
     "id": "wonderboy-6",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wordtris",
@@ -18959,7 +18112,6 @@
     "id": "world-championship-soccer-ii",
     "id_igdb": 46686,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -18990,7 +18142,6 @@
     "id": "world-cup-italia-90",
     "id_igdb": 263351,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19000,8 +18151,7 @@
     "console": "gens",
     "id": "world-cup-soccer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "World Cup Striker",
@@ -19010,8 +18160,7 @@
     "console": "snes",
     "id": "world-cup-striker",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "World Cup USA '94",
@@ -19021,7 +18170,6 @@
     "id": "world-cup-usa-94",
     "id_igdb": 5464,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19071,8 +18219,7 @@
     "console": "snes",
     "id": "world-league-basketball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "World League Soccer",
@@ -19101,8 +18248,7 @@
     "console": "gens",
     "id": "world-pro-baseball-94",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "World Series Baseball",
@@ -19122,7 +18268,6 @@
     "id": "world-series-baseball-95",
     "id_igdb": 46327,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19133,7 +18278,6 @@
     "id": "world-series-baseball-96",
     "id_igdb": 46685,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19153,8 +18297,7 @@
     "console": "snes",
     "id": "world-soccer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "World Soccer 94: Road to Glory",
@@ -19164,7 +18307,6 @@
     "id": "world-soccer-94-road-to-glory",
     "id_igdb": 42428,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19184,8 +18326,7 @@
     "console": "gens",
     "id": "world-war-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Worms",
@@ -19224,8 +18365,7 @@
     "console": "gens",
     "id": "wrestleball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "X-Kaliber 2097",
@@ -19255,7 +18395,6 @@
     "id": "x-men-2-clone-wars",
     "id_igdb": 9161,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19266,7 +18405,6 @@
     "id": "x-men-mutant-apocalypse",
     "id_igdb": 42576,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19297,7 +18435,6 @@
     "id": "xdr-x-dazedly-ray",
     "id_igdb": 59760,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19307,8 +18444,7 @@
     "console": "gens",
     "id": "xzr",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Xardion",
@@ -19328,7 +18464,6 @@
     "id": "xenon-2-megablast",
     "id_igdb": 12236,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19338,8 +18473,7 @@
     "console": "gens",
     "id": "ya-se-chuan-shuo",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yang Warrior Family, The",
@@ -19348,8 +18482,7 @@
     "console": "gens",
     "id": "yang-warrior-family-the",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yogi Bear's Cartoon Capers",
@@ -19358,8 +18491,7 @@
     "console": "gens",
     "id": "yogi-bear-s-cartoon-capers",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yoshi's Cookie",
@@ -19388,8 +18520,7 @@
     "console": "gens",
     "id": "young-indiana-jones-chronicles",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Young Merlin",
@@ -19409,7 +18540,6 @@
     "id": "ys-iii-wanderers-from-ys",
     "id_igdb": 15450,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19420,7 +18550,6 @@
     "id": "ys-iii-wanderers-from-ys",
     "id_igdb": 206522,
     "active": true,
-    "check_image": true,
     "check_name": true
   },
   {
@@ -19430,8 +18559,7 @@
     "console": "gens",
     "id": "yu-yu-hakusho-makyoutohissen",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zan Yasha Enbuden",
@@ -19440,8 +18568,7 @@
     "console": "gens",
     "id": "zan-yasha-enbuden",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zany Golf",
