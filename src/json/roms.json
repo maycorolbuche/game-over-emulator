@@ -2948,17 +2948,6 @@
     "check_name": true
   },
   {
-    "name": "Spot Goes to Hollywood",
-    "filename": "Cool Spot (2) - Spot Goes To Hollywood (4) (REV 01) [!].smd",
-    "image": "/images/roms/gens/spot-goes-to-hollywood.jpg",
-    "console": "gens",
-    "id": "spot-goes-to-hollywood",
-    "id_igdb": 4454,
-    "active": true,
-    "check": true,
-    "check_image": true
-  },
-  {
     "name": "Cool World",
     "filename": "Cool World (U) [!].smc",
     "image": "/images/roms/snes/cool-world.jpg",
@@ -2977,16 +2966,6 @@
     "id_igdb": 42565,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Corporation",
-    "filename": "Corporation (E) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "corporation",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Cosmic Spacehead",
@@ -3030,16 +3009,6 @@
     "check_name": true
   },
   {
-    "name": "Crude Busters",
-    "filename": "Crude Busters (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "crude-busters",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Crusader of Centy",
     "filename": "Crusader of Centy (U) [!].smd",
     "image": "/images/roms/gens/crusader-of-centy.jpg",
@@ -3057,7 +3026,8 @@
     "id": "crying",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Crystal's Pony Tale",
@@ -3180,16 +3150,6 @@
     "check_name": true
   },
   {
-    "name": "D&D - Warriors of the Eternal Sun",
-    "filename": "D&D - Warriors of the Eternal Sun (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "d-d-warriors-of-the-eternal-sun",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "D-Force",
     "filename": "D-Force (U).smc",
     "image": "/images/roms/snes/d-force.jpg",
@@ -3230,44 +3190,15 @@
     "check_name": true
   },
   {
-    "name": "Dahna Megami Tanjyo",
+    "name": "Dahna: Megami Tanjou",
     "filename": "Dahna Megami Tanjyo (J) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/dahna-megami-tanjou.jpg",
     "console": "gens",
-    "id": "dahna-megami-tanjyo",
-    "id_igdb": "",
+    "id": "dahna-megami-tanjou",
+    "id_igdb": 46185,
     "active": true,
-    "check": true
-  },
-  {
-    "name": "Dai Makaimura",
-    "filename": "Dai Makaimura (REV 00) (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "dai-makaimura",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
-    "name": "Daikoukai Jidai",
-    "filename": "Daikoukai Jidai (J) [x].smd",
-    "image": "",
-    "console": "gens",
-    "id": "daikoukai-jidai",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
-    "name": "Daikoukai Jidai II",
-    "filename": "Daikoukai Jidai II (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "daikoukai-jidai-ii",
-    "id_igdb": "",
-    "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Dangerous Seed",
@@ -3349,16 +3280,6 @@
     "id_igdb": 46534,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "David Robinson's Basketball",
-    "filename": "David Robinson's Basketball (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "david-robinson-s-basketball",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "David Robinson's Supreme Court",
@@ -3494,26 +3415,6 @@
     "check_name": true
   },
   {
-    "name": "Devil Crash MD",
-    "filename": "Devil Crash MD (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "devil-crash-md",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
-    "name": "Devil Hunter Yohko - The Seven Bells",
-    "filename": "Devil Hunter Yohko - The Seven Bells (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "devil-hunter-yohko-the-seven-bells",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Devil's Course 3-D Golf",
     "filename": "Devil's Course 3-D Golf (J) [!].smd",
     "image": "",
@@ -3521,7 +3422,8 @@
     "id": "devil-s-course-3-d-golf",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Devilish Mahjong Tower",
@@ -3806,16 +3708,6 @@
     "check_name": true
   },
   {
-    "name": "Dodge Ball - Kuy Kid",
-    "filename": "Dodge Ball - Kuy Kid (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "dodge-ball-kuy-kid",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Dominus",
     "filename": "Dominus (JUE) [x].smd",
     "image": "/images/roms/gens/dominus.jpg",
@@ -3897,14 +3789,15 @@
     "check_name": true
   },
   {
-    "name": "Doraemon Yume Dorobouto 7 Nin No Gozansu",
+    "name": "Doraemon: Yume Dorobou to 7-nin no Gozans",
     "filename": "Doraemon Yume Dorobouto 7 Nin No Gozansu (J) [x].smd",
-    "image": "",
+    "image": "/images/roms/gens/doraemon-yume-dorobou-to-7-nin-no-gozans.jpg",
     "console": "gens",
-    "id": "doraemon-yume-dorobouto-7-nin-no-gozansu",
-    "id_igdb": "",
+    "id": "doraemon-yume-dorobou-to-7-nin-no-gozans",
+    "id_igdb": 45730,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Double Clutch",
@@ -3991,14 +3884,15 @@
     "check_name": true
   },
   {
-    "name": "Dragon Ball Z - Bu Yu Retsuden",
+    "name": "Dragon Ball Z: Buyuu Retsuden",
     "filename": "Dragon Ball Z - Bu Yu Retsuden (J) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/dragon-ball-z-buyuu-retsuden.jpg",
     "console": "gens",
-    "id": "dragon-ball-z-bu-yu-retsuden",
-    "id_igdb": "",
+    "id": "dragon-ball-z-buyuu-retsuden",
+    "id_igdb": 2548,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Dragon Slayer: The Legend of Heroes",
@@ -4040,7 +3934,8 @@
     "id": "dragon-s-eye-shanghai-3",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Dragon's Fury",
@@ -4104,16 +3999,6 @@
     "check_name": true
   },
   {
-    "name": "Draxos",
-    "filename": "Draxos (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "draxos",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Dream TV",
     "filename": "Dream TV (U).smc",
     "image": "/images/roms/snes/dream-tv.jpg",
@@ -4166,6 +4051,17 @@
     "check_name": true
   },
   {
+    "name": "Dungeons & Dragons: Warriors of the Eternal Sun",
+    "filename": "D&D - Warriors of the Eternal Sun (U) [!].smd",
+    "image": "/images/roms/gens/dungeons-dragons-warriors-of-the-eternal-sun.jpg",
+    "console": "gens",
+    "id": "dungeons-dragons-warriors-of-the-eternal-sun",
+    "id_igdb": 4486,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
     "name": "Dyna Brothers",
     "filename": "Dyna Brothers (J).smd",
     "image": "/images/roms/gens/dyna-brothers.jpg",
@@ -4216,14 +4112,15 @@
     "check_name": true
   },
   {
-    "name": "EA Sports 2-in-1 Pack",
+    "name": "EA Sports Double Header",
     "filename": "EA Sports 2-in-1 Pack (E) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/ea-sports-double-header.jpg",
     "console": "gens",
-    "id": "ea-sports-2-in-1-pack",
-    "id_igdb": "",
+    "id": "ea-sports-double-header",
+    "id_igdb": 78074,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "ESPN Baseball Tonight",
@@ -4256,24 +4153,26 @@
     "check_name": true
   },
   {
-    "name": "ESPN National League Hockey Night",
+    "name": "ESPN National Hockey Night",
     "filename": "ESPN National League Hockey Night (U) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/espn-national-hockey-night.jpg",
     "console": "gens",
-    "id": "espn-national-league-hockey-night",
-    "id_igdb": "",
+    "id": "espn-national-hockey-night",
+    "id_igdb": 5381,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
-    "name": "ESPN SpeedWorld",
+    "name": "ESPN Speed World",
     "filename": "ESPN SpeedWorld (U) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/espn-speed-world.jpg",
     "console": "gens",
-    "id": "espn-speedworld",
-    "id_igdb": "",
+    "id": "espn-speed-world",
+    "id_igdb": 46217,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "ESPN Speedworld",
@@ -4285,14 +4184,15 @@
     "active": true
   },
   {
-    "name": "ESPN Sunday Night Football",
+    "name": "ESPN Sunday Night NFL",
     "filename": "ESPN Sunday Night Football (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/espn-sunday-night-nfl.jpg",
     "console": "gens",
-    "id": "espn-sunday-night-football",
-    "id_igdb": "",
+    "id": "espn-sunday-night-nfl",
+    "id_igdb": 5382,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "ESPN Sunday Night NFL",
@@ -4305,14 +4205,15 @@
     "check_name": true
   },
   {
-    "name": "ESWAT Cyber Police - City Under Siege",
+    "name": "ESWAT: City Under Siege",
     "filename": "ESWAT Cyber Police - City Under Siege (JUE) [R-USA][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/eswat-city-under-siege.jpg",
     "console": "gens",
-    "id": "eswat-cyber-police-city-under-siege",
-    "id_igdb": "",
+    "id": "eswat-city-under-siege",
+    "id_igdb": 6670,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Earnest Evans",
@@ -4488,16 +4389,6 @@
     "check_name": true
   },
   {
-    "name": "Escape From Mars Starring Taz",
-    "filename": "Escape From Mars Starring Taz (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "escape-from-mars-starring-taz",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Eternal Champions",
     "filename": "Eternal Champions (E) [!].smd",
     "image": "/images/roms/gens/eternal-champions.jpg",
@@ -4515,16 +4406,6 @@
     "id": "euro-football-champ",
     "id_igdb": "",
     "active": true
-  },
-  {
-    "name": "European Club Soccer",
-    "filename": "European Club Soccer (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "european-club-soccer",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Evander Holyfield's Real Deal Boxing",
@@ -4545,16 +4426,6 @@
     "id_igdb": 36738,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Ex-Ranza",
-    "filename": "Ex-Ranza (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "ex-ranza",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Exhaust Heat",
@@ -4617,16 +4488,6 @@
     "check_name": true
   },
   {
-    "name": "F-117 Stealth Operation Night Storm",
-    "filename": "F-117 Stealth Operation Night Storm (UEJ).smd",
-    "image": "",
-    "console": "gens",
-    "id": "f-117-stealth-operation-night-storm",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "F-15 Strike Eagle II",
     "filename": "F-15 Strike Eagle II (U) [!].smd",
     "image": "/images/roms/gens/f-15-strike-eagle-ii.jpg",
@@ -4674,7 +4535,8 @@
     "id": "f1-hero-md",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "F1 Pole Position",
@@ -4715,16 +4577,6 @@
     "id_igdb": 42571,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "F1 World Championship",
-    "filename": "F1 World Championship (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "f1-world-championship",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "F1: World Championship Edition",
@@ -4807,24 +4659,26 @@
     "check_name": true
   },
   {
-    "name": "FIFA Soccer 97 Gold Edition",
+    "name": "FIFA Soccer 97",
     "filename": "FIFA Soccer 97 Gold Edition (C) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/fifa-soccer-97.jpg",
     "console": "gens",
-    "id": "fifa-soccer-97-gold-edition",
-    "id_igdb": "",
+    "id": "fifa-soccer-97",
+    "id_igdb": 240217,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
-    "name": "FIFA Soccer 98 - Road to the World Cup",
+    "name": "FIFA: Road to World Cup 98",
     "filename": "FIFA Soccer 98 - Road to the World Cup (8) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/fifa-road-to-world-cup-98.jpg",
     "console": "gens",
-    "id": "fifa-soccer-98-road-to-the-world-cup",
-    "id_igdb": "",
+    "id": "fifa-road-to-world-cup-98",
+    "id_igdb": 228796,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "FIFA: Road to World Cup 98",
@@ -4947,16 +4801,6 @@
     "check_name": true
   },
   {
-    "name": "Fatal Rewind",
-    "filename": "Fatal Rewind (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "fatal-rewind",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Fengshen Yingjiechuan",
     "filename": "Fengshen Yingjiechuan (Heroic Legend of Sealing Gods) (Unl).smd",
     "image": "",
@@ -4964,17 +4808,8 @@
     "id": "fengshen-yingjiechuan",
     "id_igdb": "",
     "active": true,
-    "check": true
-  },
-  {
-    "name": "Ferias Frustradas do Pica-Pau",
-    "filename": "Ferias Frustradas do Pica-Pau (Unl).smd",
-    "image": "",
-    "console": "gens",
-    "id": "ferias-frustradas-do-pica-pau",
-    "id_igdb": "",
-    "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Ferrari Grand Prix Challenge",
@@ -5225,16 +5060,6 @@
     "active": true
   },
   {
-    "name": "Flux Mega CD",
-    "filename": "Flux Mega CD (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "flux-mega-cd",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Football Fury",
     "filename": "Football Fury (U).smc",
     "image": "/images/roms/snes/football-fury.jpg",
@@ -5346,6 +5171,17 @@
     "check_name": true
   },
   {
+    "name": "Fun 'N Games",
+    "filename": "Fun-N-Games (U) [c][!].smd",
+    "image": "/images/roms/gens/fun-n-games.jpg",
+    "console": "gens",
+    "id": "fun-n-games",
+    "id_igdb": 4241,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
     "name": "Fun Car Rally",
     "filename": "Fun Car Rally (JUE).smd",
     "image": "/images/roms/gens/fun-car-rally.jpg",
@@ -5356,24 +5192,15 @@
     "check_name": true
   },
   {
-    "name": "Fun-N-Games",
-    "filename": "Fun-N-Games (U) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "fun-n-games",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
-    "name": "Funnyworld-Balloon Boy",
+    "name": "Funny World & Balloon Boy",
     "filename": "Funnyworld-Balloon Boy (Unl) [c].smd",
-    "image": "",
+    "image": "/images/roms/gens/funny-world-and-balloon-boy.jpg",
     "console": "gens",
-    "id": "funnyworld-balloon-boy",
-    "id_igdb": "",
+    "id": "funny-world-and-balloon-boy",
+    "id_igdb": 46275,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Fushigi no Umi no Nadia",
@@ -5394,6 +5221,17 @@
     "id_igdb": 145765,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Férias Frustradas do Pica-Pau",
+    "filename": "Ferias Frustradas do Pica-Pau (Unl).smd",
+    "image": "/images/roms/gens/ferias-frustradas-do-pica-pau.jpg",
+    "console": "gens",
+    "id": "ferias-frustradas-do-pica-pau",
+    "id_igdb": 8011,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "G-Loc Air Battle",
@@ -5466,14 +5304,15 @@
     "check_name": true
   },
   {
-    "name": "Gambler Jiko Chushinha",
+    "name": "Gambler Jiko Chuushinha: Katayama Masayuki no Mahjong Dojo",
     "filename": "Gambler Jiko Chushinha (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/gambler-jiko-chuushinha-katayama-masayuki-no-mahjong-dojo.jpg",
     "console": "gens",
-    "id": "gambler-jiko-chushinha",
-    "id_igdb": "",
+    "id": "gambler-jiko-chuushinha-katayama-masayuki-no-mahjong-dojo",
+    "id_igdb": 4411,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Game Genie BIOS",
@@ -5515,16 +5354,6 @@
     "check_name": true
   },
   {
-    "name": "Garou Densetsu",
-    "filename": "Garou Densetsu (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "garou-densetsu",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Garry Kitchen's Super Battletank: War in the Gulf",
     "filename": "Super Battletank - War in the Gulf (U) (V1.1) [!].smc",
     "image": "/images/roms/snes/garry-kitchens-super-battletank-war-in-the-gulf.jpg",
@@ -5542,7 +5371,8 @@
     "id": "gauntlet-arcade-version",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Gauntlet IV",
@@ -5583,7 +5413,8 @@
     "id": "gemu-no-kanzume-o-tokuyou",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "General Chaos",
@@ -5646,14 +5477,15 @@
     "check_name": true
   },
   {
-    "name": "George Foreman's Knock-out Boxing",
+    "name": "George Foreman's KO Boxing",
     "filename": "George Foreman's Knock-out Boxing (E) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/george-foremans-ko-boxing.jpg",
     "console": "gens",
-    "id": "george-foreman-s-knock-out-boxing",
-    "id_igdb": "",
+    "id": "george-foremans-ko-boxing",
+    "id_igdb": 48164,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Ghost Hunter",
@@ -5663,7 +5495,8 @@
     "id": "ghost-hunter",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Ghostbusters",
@@ -5789,24 +5622,15 @@
     "check_name": true
   },
   {
-    "name": "Grand Slam Tennis",
-    "filename": "Grand Slam Tennis (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "grand-slam-tennis",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
-    "name": "Greatest Heavyweights of the Ring",
+    "name": "Greatest Heavyweights",
     "filename": "Greatest Heavyweights of the Ring (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/greatest-heavyweights.jpg",
     "console": "gens",
-    "id": "greatest-heavyweights-of-the-ring",
-    "id_igdb": "",
+    "id": "greatest-heavyweights",
+    "id_igdb": 45783,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Greendog: The Beached Surfer Dude!",
@@ -5870,16 +5694,6 @@
     "check_name": true
   },
   {
-    "name": "Gynoug",
-    "filename": "Gynoug (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "gynoug",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "HAL's Hole in One Golf",
     "filename": "HAL's Hole in One Golf (E).smc",
     "image": "/images/roms/snes/hal-s-hole-in-one-golf.jpg",
@@ -5941,14 +5755,15 @@
     "check_name": true
   },
   {
-    "name": "HardBall 94",
+    "name": "HardBall 4",
     "filename": "HardBall 94 (JUE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/hardball-4.jpg",
     "console": "gens",
-    "id": "hardball-94",
-    "id_igdb": "",
+    "id": "hardball-4",
+    "id_igdb": 12468,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "HardBall III",
@@ -6081,7 +5896,8 @@
     "id": "hercules",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Herzog Zwei",
@@ -6101,7 +5917,8 @@
     "id": "high-school-soccer-kunio-kun",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "High Seas Havoc",
@@ -6135,14 +5952,15 @@
     "check_name": true
   },
   {
-    "name": "Hokuto no Ken 2",
+    "name": "Hokuto no Ken: Shin Seikimatsu Kyuuseishu Densetsu",
     "filename": "Hokuto no Ken 2 (J) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/hokuto-no-ken-shin-seikimatsu-kyuuseishu-densetsu.jpg",
     "console": "gens",
-    "id": "hokuto-no-ken-2",
-    "id_igdb": "",
+    "id": "hokuto-no-ken-shin-seikimatsu-kyuuseishu-densetsu",
+    "id_igdb": 313283,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Home Alone",
@@ -6194,6 +6012,17 @@
     "id_igdb": 11541,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Honoo no Toukyuuji: Dodge Danpei",
+    "filename": "Dodge Ball - Kuy Kid (J).smd",
+    "image": "/images/roms/gens/honoo-no-toukyuuji-dodge-danpei.jpg",
+    "console": "gens",
+    "id": "honoo-no-toukyuuji-dodge-danpei",
+    "id_igdb": 45621,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Hook",
@@ -6255,16 +6084,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Hyper Dunk - The Playoff Edition",
-    "filename": "Hyper Dunk - The Playoff Edition (U).smd",
-    "image": "",
-    "console": "gens",
-    "id": "hyper-dunk-the-playoff-edition",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Hyper V-Ball",
@@ -8111,6 +7930,17 @@
     "id": "majikaru-hashito-no-butsutobi-turbo-daibouken",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Mamono Hunter Youko: Dai 7 no Keishou",
+    "filename": "Devil Hunter Yohko - The Seven Bells (J).smd",
+    "image": "/images/roms/gens/mamono-hunter-youko-dai-7-no-keishou.jpg",
+    "console": "gens",
+    "id": "mamono-hunter-youko-dai-7-no-keishou",
+    "id_igdb": 45722,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Manchester United Championship Soccer",
@@ -13281,6 +13111,17 @@
     "check_name": true
   },
   {
+    "name": "Spot Goes to Hollywood",
+    "filename": "Cool Spot (2) - Spot Goes To Hollywood (4) (REV 01) [!].smd",
+    "image": "/images/roms/gens/spot-goes-to-hollywood.jpg",
+    "console": "gens",
+    "id": "spot-goes-to-hollywood",
+    "id_igdb": 4454,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
     "name": "Star Control",
     "filename": "Star Control (U) [x].smd",
     "image": "/images/roms/gens/star-control.jpg",
@@ -15007,6 +14848,17 @@
     "id_igdb": 46599,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Taz in Escape From Mars",
+    "filename": "Escape From Mars Starring Taz (U) [!].smd",
+    "image": "/images/roms/gens/taz-in-escape-from-mars.jpg",
+    "console": "gens",
+    "id": "taz-in-escape-from-mars",
+    "id_igdb": 8065,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Taz-Mania",
@@ -16928,6 +16780,17 @@
     "id": "twisted-flipper",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Two Crude Dudes",
+    "filename": "Crude Busters (J).smd",
+    "image": "/images/roms/gens/two-crude-dudes.jpg",
+    "console": "gens",
+    "id": "two-crude-dudes",
+    "id_igdb": 27798,
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Two Crude Dudes",
