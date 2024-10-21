@@ -4721,6 +4721,16 @@
     "check_name": true
   },
   {
+    "name": "Fantasia",
+    "filename": "Mickey Mouse - Fantasia (REV 01) (U) [!].smd",
+    "image": "/images/roms/gens/fantasia.jpg",
+    "console": "gens",
+    "id": "fantasia",
+    "id_igdb": 45587,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Fantastic Dizzy",
     "filename": "Fantastic Dizzy (E) [c][!].smd",
     "image": "/images/roms/gens/fantastic-dizzy.jpg",
@@ -5000,6 +5010,16 @@
     "check_name": true
   },
   {
+    "name": "Firepower 2000",
+    "filename": "Mega SWIV (E).smd",
+    "image": "/images/roms/gens/firepower-2000.jpg",
+    "console": "gens",
+    "id": "firepower-2000",
+    "id_igdb": 19778,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Firestriker",
     "filename": "Fire Striker (U).smc",
     "image": "/images/roms/snes/firestriker.jpg",
@@ -5049,6 +5069,16 @@
     "id_igdb": 275674,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Flink",
+    "filename": "Misadventures of Flink, The (E) [!].smd",
+    "image": "/images/roms/gens/flink.jpg",
+    "console": "gens",
+    "id": "flink",
+    "id_igdb": 5387,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Flintstones, The",
@@ -5292,6 +5322,16 @@
     "id_igdb": 3129,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Galahad",
+    "filename": "Legend of Galahad, The (U) [!].smd",
+    "image": "/images/roms/gens/galahad.jpg",
+    "console": "gens",
+    "id": "galahad",
+    "id_igdb": 46595,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Galaxy Force II",
@@ -6316,34 +6356,6 @@
     "check_name": true
   },
   {
-    "name": "J. League Champion Soccer",
-    "filename": "J. League Champion Soccer (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "j-league-champion-soccer",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
-    "name": "J. League Pro Striker",
-    "filename": "J. League Pro Striker (REV 03) (JE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "j-league-pro-striker",
-    "active": true,
-    "id_igdb": ""
-  },
-  {
-    "name": "J. League Pro Striker 2",
-    "filename": "J. League Pro Striker 2 (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "j-league-pro-striker-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "J. League Pro Striker Final Stage",
     "filename": "J. League Pro Striker Final Stage (95) (1) [c][!].smd",
     "image": "/images/roms/gens/j-league-pro-striker-final-stage.jpg",
@@ -6352,6 +6364,37 @@
     "id_igdb": 45726,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "J.League Champion Soccer",
+    "filename": "J. League Champion Soccer (J).smd",
+    "image": "/images/roms/gens/jleague-champion-soccer.jpg",
+    "console": "gens",
+    "id": "jleague-champion-soccer",
+    "id_igdb": 46170,
+    "active": true,
+    "check": true,
+    "check_image": true
+  },
+  {
+    "name": "J.League Pro Striker",
+    "filename": "J. League Pro Striker (REV 03) (JE) [c][!].smd",
+    "image": "/images/roms/gens/jleague-pro-striker.jpg",
+    "console": "gens",
+    "id": "jleague-pro-striker",
+    "active": true,
+    "id_igdb": 45745,
+    "check_image": true
+  },
+  {
+    "name": "J.League Pro Striker 2",
+    "filename": "J. League Pro Striker 2 (J) [!].smd",
+    "image": "/images/roms/gens/jleague-pro-striker-2.jpg",
+    "console": "gens",
+    "id": "jleague-pro-striker-2",
+    "id_igdb": 45727,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "JRR Tolkien's The Lord of the Rings - Volume 1",
@@ -6491,15 +6534,6 @@
     "check_name": true
   },
   {
-    "name": "Janou Touryumon",
-    "filename": "Janou Touryumon (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "janou-touryumon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jantei Monogatari",
     "filename": "Jantei Monogatari (Clock Tower) (J).smd",
     "image": "/images/roms/gens/jantei-monogatari.jpg",
@@ -6558,15 +6592,6 @@
     "check_name": true
   },
   {
-    "name": "Jeopardy",
-    "filename": "Jeopardy (92) (U) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "jeopardy",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jeopardy!",
     "filename": "Jeopardy! (U).smc",
     "image": "",
@@ -6606,13 +6631,14 @@
     "check_name": true
   },
   {
-    "name": "Jeopordy Sports Edition",
+    "name": "Jeopardy! Sports Edition",
     "filename": "Jeopordy Sports Edition (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/jeopardy-sports-edition.jpg",
     "console": "gens",
-    "id": "jeopordy-sports-edition",
-    "id_igdb": "",
-    "active": true
+    "id": "jeopardy-sports-edition",
+    "id_igdb": 48977,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jerry Glanville's Pigskin Footbrawl",
@@ -6641,7 +6667,8 @@
     "console": "gens",
     "id": "jiang-qi-zhi-xing",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jim Lee's WildC.A.T.S",
@@ -6653,13 +6680,14 @@
     "active": true
   },
   {
-    "name": "Jim Power",
+    "name": "Jim Power: The Arcade Game",
     "filename": "Jim Power (JU).smd",
-    "image": "",
+    "image": "/images/roms/gens/jim-power-the-arcade-game.jpg",
     "console": "gens",
-    "id": "jim-power",
-    "id_igdb": "",
-    "active": true
+    "id": "jim-power-the-arcade-game",
+    "id_igdb": 45763,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jim Power: The Lost Dimension in 3D",
@@ -6748,7 +6776,8 @@
     "console": "gens",
     "id": "joe-montana-nfl-95",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "John Madden Football",
@@ -6758,6 +6787,16 @@
     "id": "john-madden-football",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "John Madden Football",
+    "filename": "John Madden Football 91 (U) [!].smd",
+    "image": "/images/roms/gens/john-madden-football.jpg",
+    "console": "gens",
+    "id": "john-madden-football",
+    "id_igdb": 4400,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "John Madden Football '92",
@@ -6790,22 +6829,14 @@
     "check_name": true
   },
   {
-    "name": "John Madden Football 91",
-    "filename": "John Madden Football 91 (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "john-madden-football-91",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Jordan vs Bird - Super One-on-One",
+    "name": "Jordan vs. Bird: One on One",
     "filename": "Jordan vs Bird - Super One-on-One (REV 01) (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/jordan-vs-bird-one-on-one.jpg",
     "console": "gens",
-    "id": "jordan-vs-bird-super-one-on-one",
-    "id_igdb": "",
-    "active": true
+    "id": "jordan-vs-bird-one-on-one",
+    "id_igdb": 18837,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Joshua & The Battle of Jericho",
@@ -6828,13 +6859,14 @@
     "check_name": true
   },
   {
-    "name": "Judge Dredd - The Movie",
+    "name": "Judge Dredd",
     "filename": "Judge Dredd - The Movie (F) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/judge-dredd.jpg",
     "console": "gens",
-    "id": "judge-dredd-the-movie",
-    "id_igdb": "",
-    "active": true
+    "id": "judge-dredd",
+    "id_igdb": 4387,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Junction",
@@ -6885,15 +6917,6 @@
     "id_igdb": 11067,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jurassic Park 2 - The Lost World",
-    "filename": "Jurassic Park 2 - The Lost World (F) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "jurassic-park-2-the-lost-world",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Jurassic Park Part 2: The Chaos Continues",
@@ -7075,15 +7098,6 @@
     "check_name": true
   },
   {
-    "name": "Killing Game Show - 1993 Remix",
-    "filename": "Killing Game Show - 1993 Remix (JUE).smd",
-    "image": "",
-    "console": "gens",
-    "id": "killing-game-show-1993-remix",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "King Arthur & the Knights of Justice",
     "filename": "King Arthur & The Knights of Justice (U) [!].smc",
     "image": "/images/roms/snes/king-arthur-and-the-knights-of-justice.jpg",
@@ -7130,7 +7144,8 @@
     "console": "gens",
     "id": "king-of-fighters-98-the",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "King of the Monsters",
@@ -7271,15 +7286,6 @@
     "check_name": true
   },
   {
-    "name": "Koutetsu Teikoku",
-    "filename": "Koutetsu Teikoku (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "koutetsu-teikoku",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Krusty's Fun House",
     "filename": "Krusty's Super Fun House (U) (V1.1).smc",
     "image": "/images/roms/snes/krusty-s-fun-house.jpg",
@@ -7296,7 +7302,8 @@
     "console": "gens",
     "id": "kujaku-oh-2-peacock-king",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kyle Petty's No Fear Racing",
@@ -7315,7 +7322,8 @@
     "console": "gens",
     "id": "kyukai-dotyuuki-baseball",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kyuukyou Tiger",
@@ -7324,7 +7332,8 @@
     "console": "gens",
     "id": "kyuukyou-tiger",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LHX Attack Helicopter",
@@ -7333,7 +7342,8 @@
     "console": "gens",
     "id": "lhx-attack-helicopter",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lagoon",
@@ -7392,7 +7402,8 @@
     "console": "gens",
     "id": "langrisser-hikari",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Langrisser Hikari 2",
@@ -7401,7 +7412,8 @@
     "console": "gens",
     "id": "langrisser-hikari-2",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Last Action Hero",
@@ -7442,24 +7454,6 @@
     "id_igdb": 15247,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Legend of Galahad, The",
-    "filename": "Legend of Galahad, The (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "legend-of-galahad-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Legend of Toki - Going Ape Spit, The",
-    "filename": "Legend of Toki - Going Ape Spit, The (UE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "legend-of-toki-going-ape-spit-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Lemmings",
@@ -7597,7 +7591,8 @@
     "console": "gens",
     "id": "lightning-force",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Link Dragon",
@@ -7606,7 +7601,8 @@
     "console": "gens",
     "id": "link-dragon",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lock On",
@@ -7645,7 +7641,8 @@
     "console": "gens",
     "id": "lotus-2-recs",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lotus Turbo Challenge",
@@ -7688,6 +7685,16 @@
     "check_name": true
   },
   {
+    "name": "M-1 Abrams Battle Tank",
+    "filename": "M1 Abrams Battle Tank (REV 01) (JUE) [!].smd",
+    "image": "/images/roms/gens/m-1-abrams-battle-tank.jpg",
+    "console": "gens",
+    "id": "m-1-abrams-battle-tank",
+    "id_igdb": 45775,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "M.U.S.H.A.",
     "filename": "M.U.S.H.A (U) [!].smd",
     "image": "/images/roms/gens/m-u-s-h-a.jpg",
@@ -7696,15 +7703,6 @@
     "id_igdb": 4445,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "M1 Abrams Battle Tank",
-    "filename": "M1 Abrams Battle Tank (REV 01) (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "m1-abrams-battle-tank",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "MLBPA Baseball",
@@ -7725,15 +7723,6 @@
     "id_igdb": 46345,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "MLBPA Sports Talk Baseball",
-    "filename": "MLBPA Sports Talk Baseball (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "mlbpa-sports-talk-baseball",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "MTV's Beavis and Butt-Head",
@@ -7857,13 +7846,14 @@
     "check_name": true
   },
   {
-    "name": "Madouh Monogatari",
+    "name": "Madou Monogatari I",
     "filename": "Madouh Monogatari (J) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/madou-monogatari-i.jpg",
     "console": "gens",
-    "id": "madouh-monogatari",
-    "id_igdb": "",
-    "active": true
+    "id": "madou-monogatari-i",
+    "id_igdb": 73644,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Magic Boy",
@@ -7896,13 +7886,24 @@
     "check_name": true
   },
   {
-    "name": "Magical Taluluto Adventure",
-    "filename": "Magical Taluluto Adventure (J) [!].smd",
-    "image": "",
+    "name": "Magical Hat no Buttobi Turbo! Daibouken",
+    "filename": "Majikaru Hashito no Butsutobi Turbo! Daibouken (JU) [!].smd",
+    "image": "/images/roms/gens/magical-hat-no-buttobi-turbo-daibouken.jpg",
     "console": "gens",
-    "id": "magical-taluluto-adventure",
-    "id_igdb": "",
-    "active": true
+    "id": "magical-hat-no-buttobi-turbo-daibouken",
+    "id_igdb": 4472,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Magical Taluluto-kun",
+    "filename": "Magical Taluluto Adventure (J) [!].smd",
+    "image": "/images/roms/gens/magical-taluluto-kun.jpg",
+    "console": "gens",
+    "id": "magical-taluluto-kun",
+    "id_igdb": 45616,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mahjong Club",
@@ -7911,25 +7912,18 @@
     "console": "gens",
     "id": "mahjong-club",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Mahjong Cop Ryu",
+    "name": "Mahjong Cop Ryuu: Hakurou no Yabou",
     "filename": "Mahjong Cop Ryu (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/mahjong-cop-ryuu-hakurou-no-yabou.jpg",
     "console": "gens",
-    "id": "mahjong-cop-ryu",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Majikaru Hashito no Butsutobi Turbo! Daibouken",
-    "filename": "Majikaru Hashito no Butsutobi Turbo! Daibouken (JU) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "majikaru-hashito-no-butsutobi-turbo-daibouken",
-    "id_igdb": "",
-    "active": true
+    "id": "mahjong-cop-ryuu-hakurou-no-yabou",
+    "id_igdb": 27990,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mamono Hunter Youko: Dai 7 no Keishou",
@@ -7951,15 +7945,6 @@
     "id_igdb": 42503,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Maou Renjitsu",
-    "filename": "Maou Renjitsu (J) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "maou-renjitsu",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Marble Madness",
@@ -8062,13 +8047,14 @@
     "check_name": true
   },
   {
-    "name": "Marko's Magic Football",
+    "name": "Marko",
     "filename": "Marko's Magic Football (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/marko.jpg",
     "console": "gens",
-    "id": "marko-s-magic-football",
-    "id_igdb": "",
-    "active": true
+    "id": "marko",
+    "id_igdb": 19774,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Marko's Magic Football",
@@ -8150,13 +8136,14 @@
     "check_name": true
   },
   {
-    "name": "Maten Densetsu",
+    "name": "Maten no Soumetsu",
     "filename": "Maten Densetsu (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/maten-no-soumetsu.jpg",
     "console": "gens",
-    "id": "maten-densetsu",
-    "id_igdb": "",
-    "active": true
+    "id": "maten-no-soumetsu",
+    "id_igdb": 46073,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Math Blaster: Episode One - In Search of Spot",
@@ -8198,15 +8185,6 @@
     "id_igdb": 36947,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Mazin Wars",
-    "filename": "Mazin Wars (E).smd",
-    "image": "",
-    "console": "gens",
-    "id": "mazin-wars",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "McDonald's Treasure Land Adventure",
@@ -8266,7 +8244,8 @@
     "console": "gens",
     "id": "mega-anser",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mega Bomberman",
@@ -8285,16 +8264,38 @@
     "console": "gens",
     "id": "mega-games-10-in-1",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Mega Lo Mania",
-    "filename": "Mega Lo Mania (E) [c][!].smd",
-    "image": "",
+    "name": "Mega Games 2",
+    "filename": "MegaGames 3in1 Vol 2 (G-Axe SofR Rev-Shinobi) (E).smd",
+    "image": "/images/roms/gens/mega-games-2.jpg",
     "console": "gens",
-    "id": "mega-lo-mania",
-    "id_igdb": "",
-    "active": true
+    "id": "mega-games-2",
+    "id_igdb": 27074,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Mega Games 6",
+    "filename": "MegaGames 6in1 Vol 1 (S-HangOn WC-Italia) (F) [!].smd",
+    "image": "/images/roms/gens/mega-games-6.jpg",
+    "console": "gens",
+    "id": "mega-games-6",
+    "id_igdb": 56847,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Mega Games 6 Vol. 3",
+    "filename": "MegaGames 6in1 Vol 3 (Soccer S-Monaco) (F).smd",
+    "image": "/images/roms/gens/mega-games-6-vol-3.jpg",
+    "console": "gens",
+    "id": "mega-games-6-vol-3",
+    "id_igdb": 4456,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mega Man 7",
@@ -8345,22 +8346,14 @@
     "active": true
   },
   {
-    "name": "Mega Q - The Party Quiz Game",
-    "filename": "Mega Q - The Party Quiz Game (J).smd",
-    "image": "",
+    "name": "Mega Man: The Wily Wars",
+    "filename": "Megaman - The Wily Wars (E).smd",
+    "image": "/images/roms/gens/mega-man-the-wily-wars.jpg",
     "console": "gens",
-    "id": "mega-q-the-party-quiz-game",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mega SWIV",
-    "filename": "Mega SWIV (E).smd",
-    "image": "",
-    "console": "gens",
-    "id": "mega-swiv",
-    "id_igdb": "",
-    "active": true
+    "id": "mega-man-the-wily-wars",
+    "id_igdb": 1727,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mega Turrican",
@@ -8399,16 +8392,8 @@
     "console": "gens",
     "id": "megagames-3in1-vol-1",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "MegaGames 3in1 Vol 2",
-    "filename": "MegaGames 3in1 Vol 2 (G-Axe SofR Rev-Shinobi) (E).smd",
-    "image": "",
-    "console": "gens",
-    "id": "megagames-3in1-vol-2",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "MegaGames 4in1",
@@ -8417,7 +8402,8 @@
     "console": "gens",
     "id": "megagames-4in1",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "MegaGames 6in1 US",
@@ -8426,43 +8412,8 @@
     "console": "gens",
     "id": "megagames-6in1-us",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "MegaGames 6in1 Vol 1",
-    "filename": "MegaGames 6in1 Vol 1 (S-HangOn WC-Italia) (F) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "megagames-6in1-vol-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "MegaGames 6in1 Vol 3",
-    "filename": "MegaGames 6in1 Vol 3 (Soccer S-Monaco) (F).smd",
-    "image": "",
-    "console": "gens",
-    "id": "megagames-6in1-vol-3",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "MegaTraX",
-    "filename": "MegaTraX (J) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "megatrax",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Megaman - The Wily Wars",
-    "filename": "Megaman - The Wily Wars (E).smd",
-    "image": "",
-    "console": "gens",
-    "id": "megaman-the-wily-wars",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Megapanel",
@@ -8475,13 +8426,14 @@
     "check_name": true
   },
   {
-    "name": "Menacer 6-in-1 Game Pack",
+    "name": "Menacer",
     "filename": "Menacer 6-in-1 Game Pack (UJE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/menacer.jpg",
     "console": "gens",
-    "id": "menacer-6-in-1-game-pack",
-    "id_igdb": "",
-    "active": true
+    "id": "menacer",
+    "id_igdb": 45599,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mercs",
@@ -8604,33 +8556,6 @@
     "check_name": true
   },
   {
-    "name": "Mickey Mouse - Fantasia",
-    "filename": "Mickey Mouse - Fantasia (REV 01) (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "mickey-mouse-fantasia",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mickey Mouse - Great Circus Mystery",
-    "filename": "Mickey Mouse - Great Circus Mystery (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "mickey-mouse-great-circus-mystery",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mickey Mouse - Minnie's Magical Adventure 2",
-    "filename": "Mickey Mouse - Minnie's Magical Adventure 2 (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "mickey-mouse-minnie-s-magical-adventure-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mickey Mouse - World of Illusion",
     "filename": "Mickey Mouse - World of Illusion (E) [!].smd",
     "image": "/images/roms/gens/world-of-illusion.jpg",
@@ -8710,13 +8635,14 @@
     "check_name": true
   },
   {
-    "name": "Micro Machines Military - It's a Blast!",
+    "name": "Micro Machines Military",
     "filename": "Micro Machines Military - It's a Blast! (E) (J-Cart) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/micro-machines-military.jpg",
     "console": "gens",
-    "id": "micro-machines-military-it-s-a-blast-",
-    "id_igdb": "",
-    "active": true
+    "id": "micro-machines-military",
+    "id_igdb": 8513,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Micro Machines: Turbo Tournament 96",
@@ -8745,7 +8671,8 @@
     "console": "gens",
     "id": "might-and-magic-3-isles-of-terror",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Might and Magic II: Gates to Another World",
@@ -8776,15 +8703,6 @@
     "id_igdb": 7735,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Mighty Max",
-    "filename": "Mighty Max (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "mighty-max",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mighty Max",
@@ -8856,15 +8774,6 @@
     "check_name": true
   },
   {
-    "name": "Minato no Toreijia",
-    "filename": "Minato no Toreijia (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "minato-no-toreijia",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Minnesota Fats: Pool Legend",
     "filename": "Minnesota Fats Pool Legend (4) [!].smd",
     "image": "/images/roms/gens/minnesota-fats-pool-legend.jpg",
@@ -8873,15 +8782,6 @@
     "id_igdb": 4465,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Misadventures of Flink, The",
-    "filename": "Misadventures of Flink, The (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "misadventures-of-flink-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mohawk & Headphone Jack",
@@ -9044,13 +8944,14 @@
     "check_name": true
   },
   {
-    "name": "Muhammed Ali Heavyweight Boxing",
+    "name": "Muhammad Ali Heavyweight Boxing",
     "filename": "Muhammed Ali Heavyweight Boxing (U) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/muhammad-ali-heavyweight-boxing.jpg",
     "console": "gens",
-    "id": "muhammed-ali-heavyweight-boxing",
-    "id_igdb": "",
-    "active": true
+    "id": "muhammad-ali-heavyweight-boxing",
+    "id_igdb": 46269,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mulan",
@@ -9113,22 +9014,23 @@
   },
   {
     "name": "Mystical Fighter",
-    "filename": "Mystical Fighter (U) [c][!].smd",
+    "filename": "Maou Renjitsu (J) [c][!].smd",
     "image": "/images/roms/gens/mystical-fighter.jpg",
     "console": "gens",
     "id": "mystical-fighter",
     "id_igdb": 45772,
     "active": true,
-    "check_name": true
+    "check_image": true
   },
   {
-    "name": "NBA Action",
+    "name": "NBA Action '94",
     "filename": "NBA Action (94) (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/nba-action-94.jpg",
     "console": "gens",
-    "id": "nba-action",
-    "id_igdb": "",
-    "active": true
+    "id": "nba-action-94",
+    "id_igdb": 45552,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NBA Action '95 starring David Robinson",
@@ -9157,7 +9059,8 @@
     "console": "gens",
     "id": "nba-allstar-challenge",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NBA Give 'n Go",
@@ -9310,15 +9213,6 @@
     "check_name": true
   },
   {
-    "name": "NBA Pro Basketball '94",
-    "filename": "NBA Pro Basketball '94 (EUJ) [R-Jap].smd",
-    "image": "",
-    "console": "gens",
-    "id": "nba-pro-basketball-94",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "NBA Showdown",
     "filename": "NBA Showdown (U).smc",
     "image": "/images/roms/snes/nba-showdown.jpg",
@@ -9329,13 +9223,14 @@
     "check_name": true
   },
   {
-    "name": "NBA Showdown 94",
+    "name": "NBA Showdown",
     "filename": "NBA Showdown 94 (UE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/nba-showdown.jpg",
     "console": "gens",
-    "id": "nba-showdown-94",
-    "id_igdb": "",
-    "active": true
+    "id": "nba-showdown",
+    "id_igdb": 45573,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NCAA Basketball",
@@ -9348,15 +9243,6 @@
     "check_name": true
   },
   {
-    "name": "NCAA College Football",
-    "filename": "NCAA College Football (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "ncaa-college-football",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "NCAA Final Four Basketball",
     "filename": "NCAA Final Four Basketball (U) [!].smc",
     "image": "/images/roms/snes/ncaa-final-four-basketball.jpg",
@@ -9367,13 +9253,24 @@
     "check_name": true
   },
   {
-    "name": "NCAA Final Four College Basketball",
+    "name": "NCAA Final Four Basketball",
     "filename": "NCAA Final Four College Basketball (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/ncaa-final-four-basketball.jpg",
     "console": "gens",
-    "id": "ncaa-final-four-college-basketball",
-    "id_igdb": "",
-    "active": true
+    "id": "ncaa-final-four-basketball",
+    "id_igdb": 4385,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "NCAA Football",
+    "filename": "NCAA College Football (U) [!].smd",
+    "image": "/images/roms/gens/ncaa-football.jpg",
+    "console": "gens",
+    "id": "ncaa-football",
+    "id_igdb": 46680,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NCAA Football",
@@ -9384,15 +9281,6 @@
     "id_igdb": 46680,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "NFL 98",
-    "filename": "NFL (Prime Time) 98 (F) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "nfl-98",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "NFL Football",
@@ -9481,7 +9369,8 @@
     "console": "gens",
     "id": "nhl-93",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NHL 95",
@@ -9504,15 +9393,6 @@
     "check_name": true
   },
   {
-    "name": "NHL 95 Elitserien",
-    "filename": "NHL 95 Elitserien (E) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "nhl-95-elitserien",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "NHL 96",
     "filename": "NHL '96 (E).smc",
     "image": "/images/roms/snes/nhl-96.jpg",
@@ -9531,15 +9411,6 @@
     "id_igdb": 11650,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "NHL 96 Elitserien",
-    "filename": "NHL 96 Elitserien (8).smd",
-    "image": "",
-    "console": "gens",
-    "id": "nhl-96-elitserien",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "NHL 97",
@@ -9592,13 +9463,14 @@
     "check_name": true
   },
   {
-    "name": "NHL Hockey 91",
+    "name": "NHL Hockey",
     "filename": "NHL Hockey 91 (U).smd",
-    "image": "",
+    "image": "/images/roms/gens/nhl-hockey.jpg",
     "console": "gens",
-    "id": "nhl-hockey-91",
-    "id_igdb": "",
-    "active": true
+    "id": "nhl-hockey",
+    "id_igdb": 27062,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NHL Hockey 92",
@@ -9607,7 +9479,8 @@
     "console": "gens",
     "id": "nhl-hockey-92",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "NHL Stanley Cup",
@@ -9662,24 +9535,6 @@
     "check_name": true
   },
   {
-    "name": "New Zealand Story, The",
-    "filename": "New Zealand Story, The (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "new-zealand-story-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Newman-Haas Indy Car Racing",
-    "filename": "Newman-Haas Indy Car Racing (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "newman-haas-indy-car-racing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Newman-Hass Indy Car Featuring Nigel Mansell",
     "filename": "Newman-Hass Indy Car Featuring Nigel Mansell (U).smc",
     "image": "",
@@ -9687,6 +9542,16 @@
     "id": "newman-hass-indy-car-featuring-nigel-mansell",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Newman/Haas IndyCar featuring Nigel Mansell",
+    "filename": "Newman-Haas Indy Car Racing (JUE) [!].smd",
+    "image": "/images/roms/gens/newman-slash-haas-indycar-featuring-nigel-mansell.jpg",
+    "console": "gens",
+    "id": "newman-slash-haas-indycar-featuring-nigel-mansell",
+    "id_igdb": 22841,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Nickelodeon Guts",
@@ -9734,7 +9599,8 @@
     "console": "gens",
     "id": "nikkan-sports-pro-yakyuu-van",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ninja Burai Densetsu",
@@ -9795,24 +9661,6 @@
     "id_igdb": 45769,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Nobunaga no Yabou Haouden - Lord of Darkness",
-    "filename": "Nobunaga no Yabou Haouden - Lord of Darkness (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "nobunaga-no-yabou-haouden-lord-of-darkness",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Nobunaga no Yabou Zenkokuban",
-    "filename": "Nobunaga no Yabou Zenkokuban (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "nobunaga-no-yabou-zenkokuban",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Nobunaga no Yabou: Haouden",
@@ -9914,29 +9762,21 @@
     "check_name": true
   },
   {
+    "name": "Olympic Summer Games",
+    "filename": "Olympic Summer Games Atlanta 96 (F) [!].smd",
+    "image": "/images/roms/gens/olympic-summer-games.jpg",
+    "console": "gens",
+    "id": "olympic-summer-games",
+    "id_igdb": 4493,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Olympic Summer Games 96",
     "filename": "Olympic Summer Games 96 (U).smc",
     "image": "",
     "console": "snes",
     "id": "olympic-summer-games-96",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Olympic Summer Games Atlanta 96",
-    "filename": "Olympic Summer Games Atlanta 96 (F) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "olympic-summer-games-atlanta-96",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Olympic Winter Games - Lillehammer 94",
-    "filename": "Olympic Winter Games - Lillehammer 94 (JE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "olympic-winter-games-lillehammer-94",
     "id_igdb": "",
     "active": true
   },
@@ -9947,7 +9787,8 @@
     "console": "gens",
     "id": "omega-race",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "On the Ball",
@@ -9970,13 +9811,14 @@
     "check_name": true
   },
   {
-    "name": "Operation Europe - Path to Victory 1939-1945",
+    "name": "Operation Europe: Path to Victory 1939-45",
     "filename": "Operation Europe - Path to Victory 1939-1945 (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/operation-europe-path-to-victory-1939-45.jpg",
     "console": "gens",
-    "id": "operation-europe-path-to-victory-1939-1945",
-    "id_igdb": "",
-    "active": true
+    "id": "operation-europe-path-to-victory-1939-45",
+    "id_igdb": 4417,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Operation Europe: Path to Victory 1939-45",
@@ -10019,13 +9861,14 @@
     "check_name": true
   },
   {
-    "name": "Otsomatsu Kun Hachamecha Gekiio - Mr. Chunga",
+    "name": "Osomatsu-kun Hachamecha Gekijou",
     "filename": "Otsomatsu Kun Hachamecha Gekiio - Mr. Chunga (J) [b1].smd",
-    "image": "",
+    "image": "/images/roms/gens/osomatsu-kun-hachamecha-gekijou.jpg",
     "console": "gens",
-    "id": "otsomatsu-kun-hachamecha-gekiio-mr",
-    "id_igdb": "",
-    "active": true
+    "id": "osomatsu-kun-hachamecha-gekijou",
+    "id_igdb": 4432,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "OutRun",
@@ -10034,7 +9877,8 @@
     "console": "gens",
     "id": "outrun",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "OutRun 2019",
@@ -10332,6 +10176,16 @@
     "id": "parodius-non-sense-fantasy",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Party Quiz Mega Q",
+    "filename": "Mega Q - The Party Quiz Game (J).smd",
+    "image": "/images/roms/gens/party-quiz-mega-q.jpg",
+    "console": "gens",
+    "id": "party-quiz-mega-q",
+    "id_igdb": 45611,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Pat Riley Basketball",
@@ -12097,6 +11951,16 @@
     "id_igdb": 47061,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Sega Sports NFL 98",
+    "filename": "NFL (Prime Time) 98 (F) [!].smd",
+    "image": "/images/roms/gens/sega-sports-nfl-98.jpg",
+    "console": "gens",
+    "id": "sega-sports-nfl-98",
+    "id_igdb": 45771,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sensible Soccer",
@@ -15264,6 +15128,16 @@
     "check_name": true
   },
   {
+    "name": "The Adventures of Mighty Max",
+    "filename": "Mighty Max (U) [!].smd",
+    "image": "/images/roms/gens/the-adventures-of-mighty-max.jpg",
+    "console": "gens",
+    "id": "the-adventures-of-mighty-max",
+    "id_igdb": 8121,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Adventures of Rocky and Bullwinkle and Friends",
     "filename": "Adventures of Rocky & Bullwinkle (U).smc",
     "image": "/images/roms/snes/the-adventures-of-rocky-and-bullwinkle-and-friends.jpg",
@@ -15477,6 +15351,16 @@
     "id_igdb": 4510,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Great Circus Mystery Starring Mickey & Minnie",
+    "filename": "Mickey Mouse - Great Circus Mystery (U) [!].smd",
+    "image": "/images/roms/gens/the-great-circus-mystery-starring-mickey-and-minnie.jpg",
+    "console": "gens",
+    "id": "the-great-circus-mystery-starring-mickey-and-minnie",
+    "id_igdb": 4407,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Great Circus Mystery Starring Mickey & Minnie",
@@ -15755,6 +15639,16 @@
     "check_name": true
   },
   {
+    "name": "The Lost World: Jurassic Park",
+    "filename": "Jurassic Park 2 - The Lost World (F) [!].smd",
+    "image": "/images/roms/gens/the-lost-world-jurassic-park.jpg",
+    "console": "gens",
+    "id": "the-lost-world-jurassic-park",
+    "id_igdb": 8075,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Magical Quest Starring Mickey Mouse",
     "filename": "Magical Quest Starring Mickey Mouse, The (E).smc",
     "image": "/images/roms/snes/the-magical-quest-starring-mickey-mouse.jpg",
@@ -15783,6 +15677,16 @@
     "id_igdb": 274059,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The NewZealand Story",
+    "filename": "New Zealand Story, The (J).smd",
+    "image": "/images/roms/gens/the-newzealand-story.jpg",
+    "console": "gens",
+    "id": "the-newzealand-story",
+    "id_igdb": 274070,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Ooze",
@@ -16321,6 +16225,16 @@
     "active": true
   },
   {
+    "name": "Toki: Going Ape Spit",
+    "filename": "Legend of Toki - Going Ape Spit, The (UE) [c][!].smd",
+    "image": "/images/roms/gens/toki-going-ape-spit.jpg",
+    "console": "gens",
+    "id": "toki-going-ape-spit",
+    "id_igdb": 46279,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Tom Mason's Dinosaurs for Hire",
     "filename": "Dinosaurs for Hire (U) [!].smd",
     "image": "/images/roms/gens/tom-masons-dinosaurs-for-hire.jpg",
@@ -16780,17 +16694,6 @@
     "id": "twisted-flipper",
     "id_igdb": "",
     "active": true
-  },
-  {
-    "name": "Two Crude Dudes",
-    "filename": "Crude Busters (J).smd",
-    "image": "/images/roms/gens/two-crude-dudes.jpg",
-    "console": "gens",
-    "id": "two-crude-dudes",
-    "id_igdb": 27798,
-    "active": true,
-    "check": true,
-    "check_image": true
   },
   {
     "name": "Two Crude Dudes",
@@ -17842,6 +17745,16 @@
     "id": "winter-olympic-games-lillehammer-94",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Winter Olympics: Lillehammer '94",
+    "filename": "Olympic Winter Games - Lillehammer 94 (JE) [c][!].smd",
+    "image": "/images/roms/gens/winter-olympics-lillehammer-94.jpg",
+    "console": "gens",
+    "id": "winter-olympics-lillehammer-94",
+    "id_igdb": 4507,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wiz 'n' Liz",
