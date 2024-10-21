@@ -11700,15 +11700,6 @@
     "check_name": true
   },
   {
-    "name": "Runark",
-    "filename": "Runark (JUE) [p1][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "runark",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "S.T.G: Strike Gunner",
     "filename": "Strike Gunner (E).smc",
     "image": "/images/roms/snes/s-dot-t-g-strike-gunner.jpg",
