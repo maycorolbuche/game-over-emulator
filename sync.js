@@ -339,9 +339,13 @@ function gameDataImage(game) {
 
 async function getGameData(gameName, gameConsole, clientId, accessToken, gameSearch) {
     let platform = null;
-    if (gameSearch != undefined && gameSearch[0] === "*") {
+    if (gameSearch != undefined) {
+        gameSearch = gameSearch.replace(/["']/g, '');
+    }
+
+    if (gameSearch != undefined && (gameSearch[0] === "*" || gameSearch[0] === ":")) {
         gameSearch = gameSearch.slice(1);
-        console.log("SEARCH", gameSearch)
+        console.log("Buscando por", gameSearch)
     } else {
         switch (gameConsole) {
             case "gens":
@@ -389,7 +393,8 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
         gameSearch = gameName;
     }
 
-    const response = await axios.post('https://api.igdb.com/v4/games', `search "${gameSearch}"; fields name,slug,cover.url,platforms; where platforms = (${platform});`, {
+    const query = `search "${gameSearch}"; fields name,slug,cover.url,platforms;${platform ? ` where platforms = (${platform});` : ''}`;
+    const response = await axios.post('https://api.igdb.com/v4/games', query, {
         headers: {
             'Client-ID': clientId,
             'Authorization': `Bearer ${accessToken}`

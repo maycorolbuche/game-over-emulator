@@ -685,6 +685,16 @@
     "check_image": true
   },
   {
+    "name": "Arcade Classics",
+    "filename": "Sega Arcade Classics (F) [!].smd",
+    "image": "/images/roms/gens/arcade-classics.jpg",
+    "console": "gens",
+    "id": "arcade-classics",
+    "id_igdb": 4502,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Arcade's Greatest Hits: The Atari Collection 1",
     "filename": "Arcade's Greatest Hits - The Atari Collection 1 (U).smc",
     "image": "/images/roms/snes/arcades-greatest-hits-the-atari-collection-1.jpg",
@@ -2527,6 +2537,16 @@
     "id": "chavez-ii",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Cheese Cat-Astrophe starring Speedy Gonzales",
+    "filename": "Speedy Gonzales - Cheeze Cat-astrophe (A).smd",
+    "image": "/images/roms/gens/cheese-cat-astrophe-starring-speedy-gonzales.jpg",
+    "console": "gens",
+    "id": "cheese-cat-astrophe-starring-speedy-gonzales",
+    "id_igdb": 4460,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Chess Master",
@@ -7090,7 +7110,7 @@
   {
     "name": "Kidou Keisatsu Patlabor: 98-Shiki Kidou Seyo!",
     "filename": "Patlabor (JU) [x].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/xfkrc4tlowd54njbkaip.jpg",
+    "image": "/images/roms/gens/kidou-keisatsu-patlabor-98-shiki-kidou-seyo.jpg",
     "console": "gens",
     "id": "kidou-keisatsu-patlabor-98-shiki-kidou-seyo",
     "id_igdb": 46075,
@@ -7304,6 +7324,16 @@
     "id_igdb": 2740,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Krusty's Fun House",
+    "filename": "Simpsons, The - Krusty's Super Funhouse (REV 01) (JUE) [R-Eur][!].smd",
+    "image": "/images/roms/gens/krusty-s-fun-house.jpg",
+    "console": "gens",
+    "id": "krusty-s-fun-house",
+    "id_igdb": 2740,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kujaku-Oh 2 - Peacock King",
@@ -7944,6 +7974,16 @@
     "id_igdb": 45722,
     "active": true,
     "check": true,
+    "check_image": true
+  },
+  {
+    "name": "Man Overboard!",
+    "filename": "SS Lucifer - Man Overboard! (JUE) [c][!].smd",
+    "image": "/images/roms/gens/man-overboard.jpg",
+    "console": "gens",
+    "id": "man-overboard",
+    "id_igdb": 45707,
+    "active": true,
     "check_image": true
   },
   {
@@ -10291,7 +10331,7 @@
   {
     "name": "Phantasy Star IV: The End of the Millennium",
     "filename": "Phantasy Star 4 - The End of The Millenium (4) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g92.jpg",
+    "image": "/images/roms/gens/phantasy-star-iv-the-end-of-the-millennium.jpg",
     "console": "gens",
     "id": "phantasy-star-iv-the-end-of-the-millennium",
     "id_igdb": 1230,
@@ -10521,7 +10561,7 @@
   {
     "name": "Populous II: Trials of the Olympian Gods",
     "filename": "Populous 2 - Wrath of the Gods (U).smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2by5.jpg",
+    "image": "/images/roms/gens/populous-ii-trials-of-the-olympian-gods.jpg",
     "console": "gens",
     "id": "populous-ii-trials-of-the-olympian-gods",
     "id_igdb": 8895,
@@ -10768,16 +10808,6 @@
     "check_name": true
   },
   {
-    "name": "Pro Action Replay",
-    "filename": "Pro Action Replay (JUE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "pro-action-replay",
-    "id_igdb": "",
-    "active": false,
-    "check_image": true
-  },
-  {
     "name": "Pro Quarterback",
     "filename": "Pro Quarterback (U) [c][!].smd",
     "image": "/images/roms/gens/pro-quarterback.jpg",
@@ -10820,7 +10850,7 @@
   {
     "name": "Psy-O-Blade",
     "filename": "Psy-O-Blade Moving Adventure (J) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/z8qrdegsbtbxgcogouqo.jpg",
+    "image": "/images/roms/gens/psy-o-blade.jpg",
     "console": "gens",
     "id": "psy-o-blade",
     "id_igdb": 28023,
@@ -10899,7 +10929,7 @@
   {
     "name": "Puzzle & Action: Ichidant-R",
     "filename": "Puzzle and Action (Ichidant) (1) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ug8.jpg",
+    "image": "/images/roms/gens/puzzle-and-action-ichidant-r.jpg",
     "console": "gens",
     "id": "puzzle-and-action-ichidant-r",
     "id_igdb": 39980,
@@ -10927,7 +10957,7 @@
   {
     "name": "QuackShot Starring Donald Duck",
     "filename": "Quack Shot Starring Donald Duck (REV 00) (JUE) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y89.jpg",
+    "image": "/images/roms/gens/quackshot-starring-donald-duck.jpg",
     "console": "gens",
     "id": "quackshot-starring-donald-duck",
     "id_igdb": 8446,
@@ -11353,16 +11383,6 @@
     "check_name": true
   },
   {
-    "name": "Ristar - The Shooting Star",
-    "filename": "Ristar - The Shooting Star (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "ristar-the-shooting-star",
-    "id_igdb": "",
-    "active": false,
-    "check_image": true
-  },
-  {
     "name": "Rival Turf!",
     "filename": "Rival Turf (U).smc",
     "image": "/images/roms/snes/rival-turf.jpg",
@@ -11443,7 +11463,7 @@
   {
     "name": "RoadBlasters",
     "filename": "Road Blasters (July 1991) (UJE) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3z7x.jpg",
+    "image": "/images/roms/gens/roadblasters.jpg",
     "console": "gens",
     "id": "roadblasters",
     "id_igdb": 12367,
@@ -11483,7 +11503,7 @@
   {
     "name": "RoboCop Versus the Terminator",
     "filename": "Robocop vs The Terminator (REV 670) (U) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r6d.jpg",
+    "image": "/images/roms/gens/robocop-versus-the-terminator.jpg",
     "console": "gens",
     "id": "robocop-versus-the-terminator",
     "id_igdb": 8195,
@@ -11573,7 +11593,7 @@
   {
     "name": "Roger Clemens' MVP Baseball",
     "filename": "Roger Clements MVP Baseball (U) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3c32.jpg",
+    "image": "/images/roms/gens/roger-clemens-mvp-baseball.jpg",
     "console": "gens",
     "id": "roger-clemens-mvp-baseball",
     "id_igdb": 48710,
@@ -11691,15 +11711,6 @@
     "check_name": true
   },
   {
-    "name": "Royal Blood",
-    "filename": "Royal Blood (AKA Gemfire) (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "royal-blood",
-    "id_igdb": "",
-    "active": false
-  },
-  {
     "name": "Rugby World Cup 95",
     "filename": "Rugby World Cup 95 (UJE) [!].smd",
     "image": "/images/roms/gens/rugby-world-cup-95.jpg",
@@ -11740,15 +11751,6 @@
     "check_name": true
   },
   {
-    "name": "SS Lucifer - Man Overboard!",
-    "filename": "SS Lucifer - Man Overboard! (JUE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "ss-lucifer-man-overboard-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "SWAT Kats: The Radical Squadron",
     "filename": "SWAT Kats - The Radical Squadron (U) [!].smc",
     "image": "/images/roms/snes/swat-kats-the-radical-squadron.jpg",
@@ -11757,16 +11759,6 @@
     "id_igdb": 8068,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Sagaia",
-    "filename": "Sagaia (Darius 2) (U) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "sagaia",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Sailor Moon",
@@ -11938,26 +11930,6 @@
     "check_name": true
   },
   {
-    "name": "Arcade Classics",
-    "filename": "Sega Arcade Classics (F) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5k1j.jpg",
-    "console": "gens",
-    "id": "arcade-classics",
-    "id_igdb": 4502,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Sega Channel",
-    "filename": "Sega Channel (JUE).smd",
-    "image": "",
-    "console": "gens",
-    "id": "sega-channel",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Sega Sports 1",
     "filename": "Sega Sports 1 (Wimbledon, Ult. Soccer, Super Monaco) (E) [!].smd",
     "image": "/images/roms/gens/sega-sports-1.jpg",
@@ -12046,16 +12018,6 @@
     "check_name": true
   },
   {
-    "name": "Shadowrun",
-    "filename": "Shadow Run (U) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tp6.jpg",
-    "console": "gens",
-    "id": "shadowrun",
-    "id_igdb": 3000,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Shadow of the Beast",
     "filename": "Shadow of the Beast (U) [!].smd",
     "image": "/images/roms/gens/shadow-of-the-beast.jpg",
@@ -12074,6 +12036,16 @@
     "id_igdb": 5879,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Shadowrun",
+    "filename": "Shadow Run (U) [!].smd",
+    "image": "/images/roms/gens/shadowrun.jpg",
+    "console": "gens",
+    "id": "shadowrun",
+    "id_igdb": 3000,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Shadowrun",
@@ -12302,35 +12274,6 @@
     "active": true
   },
   {
-    "name": "Krusty's Fun House",
-    "filename": "Simpsons, The - Krusty's Super Funhouse (REV 01) (JUE) [R-Eur][!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qve.jpg",
-    "console": "gens",
-    "id": "krusty-s-fun-house",
-    "id_igdb": 2740,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Simpsons, The - The Itchy and Scratchy Game",
-    "filename": "Simpsons, The - The Itchy and Scratchy Game (JEU).smd",
-    "image": "",
-    "console": "gens",
-    "id": "simpsons-the-the-itchy-and-scratchy-game",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Simpsons, The - Virtual Bart",
-    "filename": "Simpsons, The - Virtual Bart (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "simpsons-the-virtual-bart",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Sink or Swim",
     "filename": "Sink or Swim (U).smc",
     "image": "",
@@ -12379,13 +12322,14 @@
     "active": true
   },
   {
-    "name": "Slam Dunk - Shikyou Gekitotsu!",
+    "name": "Slam Dunk: Kyougou Makkou Taiketsu!",
     "filename": "Slam Dunk - Shikyou Gekitotsu! (1).smd",
-    "image": "",
+    "image": "/images/roms/gens/slam-dunk-kyougou-makkou-taiketsu.jpg",
     "console": "gens",
-    "id": "slam-dunk-shikyou-gekitotsu-",
-    "id_igdb": "",
-    "active": true
+    "id": "slam-dunk-kyougou-makkou-taiketsu",
+    "id_igdb": 78307,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Slap Fight MD",
@@ -12396,15 +12340,6 @@
     "id_igdb": 4521,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Slaughter Sport",
-    "filename": "Slaughter Sport (UE) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "slaughter-sport",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Smart Ball",
@@ -12423,7 +12358,8 @@
     "console": "gens",
     "id": "smart-mouse",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Smash TV",
@@ -12432,7 +12368,8 @@
     "console": "gens",
     "id": "smash-tv",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Smash Tennis",
@@ -12443,15 +12380,6 @@
     "id_igdb": 44106,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Smurfs 2, The",
-    "filename": "Smurfs 2, The (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "smurfs-2-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Smurfs 2, The",
@@ -12473,13 +12401,14 @@
     "check_name": true
   },
   {
-    "name": "Snow Brothers",
+    "name": "Snow Bros.: Nick & Tom",
     "filename": "Snow Brothers (JUE) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/snow-bros-dot-nick-and-tom.jpg",
     "console": "gens",
-    "id": "snow-brothers",
-    "id_igdb": "",
-    "active": true
+    "id": "snow-bros-dot-nick-and-tom",
+    "id_igdb": 46173,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Snow White in Happily Ever After",
@@ -12512,22 +12441,14 @@
     "check_name": true
   },
   {
-    "name": "Sokoban",
-    "filename": "Sokoban (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "sokoban",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sol-Deace",
+    "name": "Sol-Feace",
     "filename": "Sol-Deace (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/sol-feace.jpg",
     "console": "gens",
-    "id": "sol-deace",
-    "id_igdb": "",
-    "active": true
+    "id": "sol-feace",
+    "id_igdb": 4388,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Soldiers of Fortune",
@@ -12730,15 +12651,6 @@
     "check_name": true
   },
   {
-    "name": "Space Invaders 90",
-    "filename": "Space Invaders 90 (J) [h1].smd",
-    "image": "",
-    "console": "gens",
-    "id": "space-invaders-90",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Space Megaforce",
     "filename": "Space Megaforce (U) [!].smc",
     "image": "/images/roms/snes/space-megaforce.jpg",
@@ -12795,7 +12707,8 @@
     "console": "gens",
     "id": "speed-ball-2-brutal-deluxe",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Speed Racer in My Most Dangerous Adventures",
@@ -12806,15 +12719,6 @@
     "id_igdb": 42457,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Speedy Gonzales - Cheeze Cat-astrophe",
-    "filename": "Speedy Gonzales - Cheeze Cat-astrophe (A).smd",
-    "image": "",
-    "console": "gens",
-    "id": "speedy-gonzales-cheeze-cat-astrophe",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Speedy Gonzales: Los Gatos Bandidos",
@@ -12846,6 +12750,16 @@
     "check_name": true
   },
   {
+    "name": "Spider-Man",
+    "filename": "Spiderman - The Animated Series (JUE) [!].smd",
+    "image": "/images/roms/gens/spider-man.jpg",
+    "console": "gens",
+    "id": "spider-man",
+    "id_igdb": 4500,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Spider-Man & Venom - Separation",
     "filename": "Spider-Man & Venom - Separation.smc",
     "image": "",
@@ -12865,6 +12779,16 @@
     "check_name": true
   },
   {
+    "name": "Spider-Man and Venom: Maximum Carnage",
+    "filename": "Spiderman and Venom - Maximum Carnage (JUE) [!].smd",
+    "image": "/images/roms/gens/spider-man-and-venom-maximum-carnage.jpg",
+    "console": "gens",
+    "id": "spider-man-and-venom-maximum-carnage",
+    "id_igdb": 18125,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Spider-Man and the X-Men in Arcade's Revenge",
     "filename": "Spider-Man and the X-Men in Arcade's Revenge (U).smc",
     "image": "/images/roms/snes/spider-man-and-the-x-men-in-arcade-s-revenge.jpg",
@@ -12875,40 +12799,14 @@
     "check_name": true
   },
   {
-    "name": "Spiderman - The Animated Series",
-    "filename": "Spiderman - The Animated Series (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "spiderman-the-animated-series",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Spiderman and Venom - Maximum Carnage",
-    "filename": "Spiderman and Venom - Maximum Carnage (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "spiderman-and-venom-maximum-carnage",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Spiderman and Venom in Separation Anxiety",
-    "filename": "Spiderman and Venom in Separation Anxiety (F) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "spiderman-and-venom-in-separation-anxiety",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Spiderman and X-Men - Arcade's Revenge",
+    "name": "Spider-Man and the X-Men in Arcade's Revenge",
     "filename": "Spiderman and X-Men - Arcade's Revenge (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/spider-man-and-the-x-men-in-arcade-s-revenge.jpg",
     "console": "gens",
-    "id": "spiderman-and-x-men-arcade-s-revenge",
-    "id_igdb": "",
-    "active": true
+    "id": "spider-man-and-the-x-men-in-arcade-s-revenge",
+    "id_igdb": 4389,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Spiderman vs Kingpin",
@@ -12917,7 +12815,8 @@
     "console": "gens",
     "id": "spiderman-vs-kingpin",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Spindizzy Worlds",
@@ -12960,22 +12859,24 @@
     "check_name": true
   },
   {
-    "name": "Splatter House 2",
+    "name": "Splatterhouse 2",
     "filename": "Splatter House 2 (U) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/splatterhouse-2.jpg",
     "console": "gens",
-    "id": "splatter-house-2",
-    "id_igdb": "",
-    "active": true
+    "id": "splatterhouse-2",
+    "id_igdb": 46248,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Splatter House 3",
+    "name": "Splatterhouse 3",
     "filename": "Splatter House 3 (U) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/splatterhouse-3.jpg",
     "console": "gens",
-    "id": "splatter-house-3",
-    "id_igdb": "",
-    "active": true
+    "id": "splatterhouse-3",
+    "id_igdb": 46194,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sporting News Power Baseball, The",
@@ -13057,15 +12958,6 @@
     "active": true
   },
   {
-    "name": "Star Trek - Deep Space 9 - Crossroads of Time",
-    "filename": "Star Trek - Deep Space 9 - Crossroads of Time (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "star-trek-deep-space-9-crossroads-of-time",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Star Trek - The Next Generation - Future's Past",
     "filename": "Star Trek - The Next Generation - Future's Past (E).smc",
     "image": "",
@@ -13073,6 +12965,16 @@
     "id": "star-trek-the-next-generation-future-s-past",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Star Trek: Deep Space Nine - Crossroads of Time",
+    "filename": "Star Trek - Deep Space 9 - Crossroads of Time (U) [!].smd",
+    "image": "/images/roms/gens/star-trek-deep-space-nine-crossroads-of-time.jpg",
+    "console": "gens",
+    "id": "star-trek-deep-space-nine-crossroads-of-time",
+    "id_igdb": 3280,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Star Trek: Deep Space Nine - Crossroads of Time",
@@ -13219,7 +13121,8 @@
     "console": "gens",
     "id": "story-of-thor-the",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Combat",
@@ -13238,7 +13141,8 @@
     "console": "gens",
     "id": "street-fighter-2-plus-champion-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter 2 Turbo",
@@ -13247,7 +13151,8 @@
     "console": "gens",
     "id": "street-fighter-2-turbo",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter Alpha 2",
@@ -15532,6 +15437,16 @@
   },
   {
     "name": "The Itchy & Scratchy Game",
+    "filename": "Simpsons, The - The Itchy and Scratchy Game (JEU).smd",
+    "image": "/images/roms/gens/the-itchy-scratchy-game.jpg",
+    "console": "gens",
+    "id": "the-itchy-scratchy-game",
+    "id_igdb": 2834,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Itchy & Scratchy Game",
     "filename": "Itchy & Scratchy Game, The (U).smc",
     "image": "/images/roms/snes/the-itchy-scratchy-game.jpg",
     "console": "snes",
@@ -15919,6 +15834,16 @@
     "id_igdb": 8083,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Smurfs Travel the World",
+    "filename": "Smurfs 2, The (E) [!].smd",
+    "image": "/images/roms/gens/the-smurfs-travel-the-world.jpg",
+    "console": "gens",
+    "id": "the-smurfs-travel-the-world",
+    "id_igdb": 4402,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Terminator",
@@ -17098,6 +17023,16 @@
   },
   {
     "name": "Venom/Spider-Man: Separation Anxiety",
+    "filename": "Spiderman and Venom in Separation Anxiety (F) [!].smd",
+    "image": "/images/roms/gens/venom-slash-spider-man-separation-anxiety.jpg",
+    "console": "gens",
+    "id": "venom-slash-spider-man-separation-anxiety",
+    "id_igdb": 46182,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Venom/Spider-Man: Separation Anxiety",
     "filename": "Spider-Man & Venom - Separation Anxiety (U).smc",
     "image": "/images/roms/snes/venom-slash-spider-man-separation-anxiety.jpg",
     "console": "snes",
@@ -17145,6 +17080,16 @@
     "id_igdb": 8172,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Virtual Bart",
+    "filename": "Simpsons, The - Virtual Bart (JUE) [!].smd",
+    "image": "/images/roms/gens/virtual-bart.jpg",
+    "console": "gens",
+    "id": "virtual-bart",
+    "id_igdb": 2835,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Virtual Bart",
