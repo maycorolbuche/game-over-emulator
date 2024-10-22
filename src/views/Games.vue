@@ -15,7 +15,7 @@
         href="javascript:"
         @click="openGame(rom)"
       >
-        <img v-if="rom.image" :src="rom.image" />
+        <img v-if="rom.image" :src="rom.image" style="height: 240px" />
         <div
           v-else
           style="

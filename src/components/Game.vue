@@ -520,6 +520,7 @@ export default {
     if (this.nostalgist) {
       this.nostalgist.exit();
     }
+    this.nostalgist=null;
 
     window.removeEventListener("click", this.handleUserInteraction);
     window.removeEventListener("keydown", this.handleUserInteraction);
