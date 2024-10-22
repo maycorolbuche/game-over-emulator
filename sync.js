@@ -339,13 +339,18 @@ function gameDataImage(game) {
 
 async function getGameData(gameName, gameConsole, clientId, accessToken, gameSearch) {
     let platform = null;
-    switch (gameConsole) {
-        case "gens":
-            platform = 29;
-            break;
-        case "snes":
-            platform = 19;
-            break;
+    if (gameSearch != undefined && gameSearch[0] === "*") {
+        gameSearch = gameSearch.slice(1);
+        console.log("SEARCH", gameSearch)
+    } else {
+        switch (gameConsole) {
+            case "gens":
+                platform = 29;
+                break;
+            case "snes":
+                platform = 19;
+                break;
+        }
     }
     /*
      {

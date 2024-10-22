@@ -7088,6 +7088,16 @@
     "check_name": true
   },
   {
+    "name": "Kidou Keisatsu Patlabor: 98-Shiki Kidou Seyo!",
+    "filename": "Patlabor (JU) [x].smd",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/xfkrc4tlowd54njbkaip.jpg",
+    "console": "gens",
+    "id": "kidou-keisatsu-patlabor-98-shiki-kidou-seyo",
+    "id_igdb": 46075,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Killer Instinct",
     "filename": "Killer Instinct (U) (V1.1) [!].smc",
     "image": "/images/roms/snes/killer-instinct.jpg",
@@ -10097,7 +10107,8 @@
     "console": "gens",
     "id": "pachinko-canyon",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Packy & Marlon",
@@ -10136,7 +10147,8 @@
     "console": "gens",
     "id": "panzer-commander",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Paperboy",
@@ -10198,15 +10210,6 @@
     "check_name": true
   },
   {
-    "name": "Patlabor",
-    "filename": "Patlabor (JU) [x].smd",
-    "image": "",
-    "console": "gens",
-    "id": "patlabor",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Pelé II: World Tournament Soccer",
     "filename": "Pele's World Tournament Soccer (JUE) [!].smd",
     "image": "/images/roms/gens/pele-ii-world-tournament-soccer.jpg",
@@ -10266,15 +10269,6 @@
     "active": true
   },
   {
-    "name": "Phantasy Star 4 - The End of The Millenium",
-    "filename": "Phantasy Star 4 - The End of The Millenium (4) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "phantasy-star-4-the-end-of-the-millenium",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Phantasy Star II",
     "filename": "Phantasy Star 2 (REV 02) (UE) [!].smd",
     "image": "/images/roms/gens/phantasy-star-ii.jpg",
@@ -10293,6 +10287,16 @@
     "id_igdb": 1231,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Phantasy Star IV: The End of the Millennium",
+    "filename": "Phantasy Star 4 - The End of The Millenium (4) [!].smd",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g92.jpg",
+    "console": "gens",
+    "id": "phantasy-star-iv-the-end-of-the-millennium",
+    "id_igdb": 1230,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Phantom 2040",
@@ -10515,13 +10519,14 @@
     "check_name": true
   },
   {
-    "name": "Populous 2 - Wrath of the Gods",
+    "name": "Populous II: Trials of the Olympian Gods",
     "filename": "Populous 2 - Wrath of the Gods (U).smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2by5.jpg",
     "console": "gens",
-    "id": "populous-2-wrath-of-the-gods",
-    "id_igdb": "",
-    "active": true
+    "id": "populous-ii-trials-of-the-olympian-gods",
+    "id_igdb": 8895,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Populous II: Trials of the Olympian Gods",
@@ -10550,7 +10555,8 @@
     "console": "gens",
     "id": "power-athlete",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Power Drive",
@@ -10698,7 +10704,8 @@
     "console": "gens",
     "id": "pretty-girl-mahjongg",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Primal Rage",
@@ -10767,7 +10774,8 @@
     "console": "gens",
     "id": "pro-action-replay",
     "id_igdb": "",
-    "active": true
+    "active": false,
+    "check_image": true
   },
   {
     "name": "Pro Quarterback",
@@ -10810,13 +10818,14 @@
     "check_name": true
   },
   {
-    "name": "Psy-O-Blade Moving Adventure",
+    "name": "Psy-O-Blade",
     "filename": "Psy-O-Blade Moving Adventure (J) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/z8qrdegsbtbxgcogouqo.jpg",
     "console": "gens",
-    "id": "psy-o-blade-moving-adventure",
-    "id_igdb": "",
-    "active": true
+    "id": "psy-o-blade",
+    "id_igdb": 28023,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Psycho Pinball",
@@ -10888,20 +10897,21 @@
     "check_name": true
   },
   {
+    "name": "Puzzle & Action: Ichidant-R",
+    "filename": "Puzzle and Action (Ichidant) (1) [!].smd",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ug8.jpg",
+    "console": "gens",
+    "id": "puzzle-and-action-ichidant-r",
+    "id_igdb": 39980,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Puzzle Bobble",
     "filename": "Puzzle Bobble (E).smc",
     "image": "",
     "console": "snes",
     "id": "puzzle-bobble",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Puzzle and Action",
-    "filename": "Puzzle and Action (Ichidant) (1) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "puzzle-and-action",
     "id_igdb": "",
     "active": true
   },
@@ -10915,13 +10925,14 @@
     "active": true
   },
   {
-    "name": "Quack Shot Starring Donald Duck",
+    "name": "QuackShot Starring Donald Duck",
     "filename": "Quack Shot Starring Donald Duck (REV 00) (JUE) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y89.jpg",
     "console": "gens",
-    "id": "quack-shot-starring-donald-duck",
-    "id_igdb": "",
-    "active": true
+    "id": "quackshot-starring-donald-duck",
+    "id_igdb": 8446,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Quad Challenge",
@@ -11208,7 +11219,8 @@
     "console": "gens",
     "id": "resq",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Revenge of Fu Manchu, The",
@@ -11217,7 +11229,8 @@
     "console": "gens",
     "id": "revenge-of-fu-manchu-the",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Revolution X",
@@ -11346,7 +11359,8 @@
     "console": "gens",
     "id": "ristar-the-shooting-star",
     "id_igdb": "",
-    "active": true
+    "active": false,
+    "check_image": true
   },
   {
     "name": "Rival Turf!",
@@ -11364,15 +11378,6 @@
     "image": "",
     "console": "snes",
     "id": "riverse-kids",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Road Blasters",
-    "filename": "Road Blasters (July 1991) (UJE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "road-blasters",
     "id_igdb": "",
     "active": true
   },
@@ -11436,6 +11441,16 @@
     "check_name": true
   },
   {
+    "name": "RoadBlasters",
+    "filename": "Road Blasters (July 1991) (UJE) [!].smd",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3z7x.jpg",
+    "console": "gens",
+    "id": "roadblasters",
+    "id_igdb": 12367,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "RoboCop 3",
     "filename": "Robocop 3 (UE) [!].smd",
     "image": "/images/roms/gens/robocop-3.jpg",
@@ -11466,13 +11481,14 @@
     "check_name": true
   },
   {
-    "name": "Robocop vs The Terminator",
+    "name": "RoboCop Versus the Terminator",
     "filename": "Robocop vs The Terminator (REV 670) (U) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r6d.jpg",
     "console": "gens",
-    "id": "robocop-vs-the-terminator",
-    "id_igdb": "",
-    "active": true
+    "id": "robocop-versus-the-terminator",
+    "id_igdb": 8195,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Robot Wreckage",
@@ -11481,7 +11497,8 @@
     "console": "gens",
     "id": "robot-wreckage",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Robotrek",
@@ -11554,13 +11571,14 @@
     "check_name": true
   },
   {
-    "name": "Roger Clements MVP Baseball",
+    "name": "Roger Clemens' MVP Baseball",
     "filename": "Roger Clements MVP Baseball (U) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3c32.jpg",
     "console": "gens",
-    "id": "roger-clements-mvp-baseball",
-    "id_igdb": "",
-    "active": true
+    "id": "roger-clemens-mvp-baseball",
+    "id_igdb": 48710,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Rolling Thunder 2",
@@ -11649,7 +11667,8 @@
     "console": "gens",
     "id": "romance-of-the-three-kingdoms-part-5",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ronaldinho 98",
@@ -11658,7 +11677,8 @@
     "console": "gens",
     "id": "ronaldinho-98",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ronaldinho Soccer 97",
@@ -11677,7 +11697,7 @@
     "console": "gens",
     "id": "royal-blood",
     "id_igdb": "",
-    "active": true
+    "active": false
   },
   {
     "name": "Rugby World Cup 95",
@@ -11745,7 +11765,8 @@
     "console": "gens",
     "id": "sagaia",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sailor Moon",
@@ -11794,7 +11815,8 @@
     "console": "gens",
     "id": "samurai-spirits",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sangokushi Retsuden: Ransei no Eiyuu-tachi",
@@ -11916,13 +11938,14 @@
     "check_name": true
   },
   {
-    "name": "Sega Arcade Classics",
+    "name": "Arcade Classics",
     "filename": "Sega Arcade Classics (F) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5k1j.jpg",
     "console": "gens",
-    "id": "sega-arcade-classics",
-    "id_igdb": "",
-    "active": true
+    "id": "arcade-classics",
+    "id_igdb": 4502,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sega Channel",
@@ -11931,7 +11954,8 @@
     "console": "gens",
     "id": "sega-channel",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sega Sports 1",
@@ -11960,7 +11984,8 @@
     "console": "gens",
     "id": "sensible-soccer",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sensible Soccer",
@@ -11978,7 +12003,8 @@
     "console": "gens",
     "id": "sensible-soccer-international-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sensible Soccer - International Edition",
@@ -12020,13 +12046,14 @@
     "check_name": true
   },
   {
-    "name": "Shadow Run",
+    "name": "Shadowrun",
     "filename": "Shadow Run (U) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tp6.jpg",
     "console": "gens",
-    "id": "shadow-run",
-    "id_igdb": "",
-    "active": true
+    "id": "shadowrun",
+    "id_igdb": 3000,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Shadow of the Beast",
@@ -12165,7 +12192,8 @@
     "console": "gens",
     "id": "shiten-myooh",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Shougino",
@@ -12174,7 +12202,8 @@
     "console": "gens",
     "id": "shougino",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Shove It! The Warehouse Game",
@@ -12273,13 +12302,14 @@
     "active": true
   },
   {
-    "name": "Simpsons, The - Krusty's Super Funhouse",
+    "name": "Krusty's Fun House",
     "filename": "Simpsons, The - Krusty's Super Funhouse (REV 01) (JUE) [R-Eur][!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qve.jpg",
     "console": "gens",
-    "id": "simpsons-the-krusty-s-super-funhouse",
-    "id_igdb": "",
-    "active": true
+    "id": "krusty-s-fun-house",
+    "id_igdb": 2740,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Simpsons, The - The Itchy and Scratchy Game",
@@ -12288,7 +12318,8 @@
     "console": "gens",
     "id": "simpsons-the-the-itchy-and-scratchy-game",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Simpsons, The - Virtual Bart",
