@@ -60,6 +60,16 @@
     "check_name": true
   },
   {
+    "name": "A Dinosaur's Tale",
+    "filename": "We're Back! - A Dinosaur's Tale (U) [!].smd",
+    "image": "/images/roms/gens/a-dinosaurs-tale.jpg",
+    "console": "gens",
+    "id": "a-dinosaurs-tale",
+    "id_igdb": 14696,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "A-Ressha de Ikou MD",
     "filename": "Take the 'A' Train (J).smd",
     "image": "/images/roms/gens/a-ressha-de-ikou-md.jpg",
@@ -245,6 +255,16 @@
     "id_igdb": 8010,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Adventures of Yogi Bear",
+    "filename": "Yogi Bear's Cartoon Capers (E) [!].smd",
+    "image": "/images/roms/gens/adventures-of-yogi-bear.jpg",
+    "console": "gens",
+    "id": "adventures-of-yogi-bear",
+    "id_igdb": 8010,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Aero Blasters",
@@ -8904,6 +8924,16 @@
     "check_name": true
   },
   {
+    "name": "Monster World IV",
+    "filename": "Wonderboy 6 (MonsterWorld 4) (J) [!].smd",
+    "image": "/images/roms/gens/monster-world-iv.jpg",
+    "console": "gens",
+    "id": "monster-world-iv",
+    "id_igdb": 18282,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Mortal Kombat",
     "filename": "Mortal Kombat (REV 00) (JUE) [!].smd",
     "image": "/images/roms/gens/mortal-kombat.jpg",
@@ -14460,6 +14490,16 @@
     "check_name": true
   },
   {
+    "name": "Syd of Valis",
+    "filename": "Valis Syd (U) [!].smd",
+    "image": "/images/roms/gens/syd-of-valis.jpg",
+    "console": "gens",
+    "id": "syd-of-valis",
+    "id_igdb": 46191,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Sylvester & Tweety in Cagey Capers",
     "filename": "Sylvester and Tweety in Cagey Capers (UEJ) [!].smd",
     "image": "/images/roms/gens/sylvester-and-tweety-in-cagey-capers.jpg",
@@ -16705,11 +16745,12 @@
   {
     "name": "Ultraman",
     "filename": "Ultraman (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/ultraman.jpg",
     "console": "gens",
     "id": "ultraman",
     "active": true,
-    "id_igdb": ""
+    "id_igdb": 46875,
+    "check_image": true
   },
   {
     "name": "Ultraman: Towards the Future",
@@ -16791,13 +16832,14 @@
     "active": true
   },
   {
-    "name": "Universal Solder",
+    "name": "Universal Soldier",
     "filename": "Universal Solder (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/universal-soldier.jpg",
     "console": "gens",
-    "id": "universal-solder",
-    "id_igdb": "",
-    "active": true
+    "id": "universal-soldier",
+    "id_igdb": 270243,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Universal Soldier",
@@ -16850,24 +16892,6 @@
     "check_name": true
   },
   {
-    "name": "V Five",
-    "filename": "V Five (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "v-five",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "V.R Fighter vs Taken2",
-    "filename": "V.R Fighter vs Taken2 (Unl).smd",
-    "image": "",
-    "console": "gens",
-    "id": "v",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "VR Troopers",
     "filename": "VR Troopers (C) [!].smd",
     "image": "/images/roms/gens/vr-troopers.jpg",
@@ -16887,13 +16911,14 @@
     "active": true
   },
   {
-    "name": "Valis - The Fantasm Soldier",
+    "name": "Valis",
     "filename": "Valis - The Fantasm Soldier (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/valis.jpg",
     "console": "gens",
-    "id": "valis-the-fantasm-soldier",
-    "id_igdb": "",
-    "active": true
+    "id": "valis",
+    "id_igdb": 278225,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Valis III",
@@ -16904,24 +16929,6 @@
     "id_igdb": 278313,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Valis SD",
-    "filename": "Valis SD (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "valis-sd",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Valis Syd",
-    "filename": "Valis Syd (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "valis-syd",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Vapor Trail",
@@ -17014,6 +17021,16 @@
     "check_name": true
   },
   {
+    "name": "Virtua Fighter 2 vs. Tekken 2",
+    "filename": "V.R Fighter vs Taken2 (Unl).smd",
+    "image": "/images/roms/gens/virtua-fighter-2-vs-tekken-2.jpg",
+    "console": "gens",
+    "id": "virtua-fighter-2-vs-tekken-2",
+    "id_igdb": 143507,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Virtua Racing",
     "filename": "Virtua Racing (U).smd",
     "image": "/images/roms/gens/virtua-racing.jpg",
@@ -17074,13 +17091,14 @@
     "check_name": true
   },
   {
-    "name": "Volfide",
+    "name": "Volfied",
     "filename": "Volfide (JUE).smd",
-    "image": "",
+    "image": "/images/roms/gens/volfied.jpg",
     "console": "gens",
-    "id": "volfide",
-    "id_igdb": "",
-    "active": true
+    "id": "volfied",
+    "id_igdb": 4469,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Vortex",
@@ -17243,15 +17261,6 @@
     "check_name": true
   },
   {
-    "name": "Wardner Special",
-    "filename": "Wardner Special (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "wardner-special",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Wario's Woods",
     "filename": "Wario's Woods (E).smc",
     "image": "/images/roms/snes/warios-woods.jpg",
@@ -17338,7 +17347,8 @@
     "console": "gens",
     "id": "waterworld",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Waterworld",
@@ -17361,13 +17371,14 @@
     "check_name": true
   },
   {
-    "name": "Wayne Gretzsky NHLPA All-Stars",
+    "name": "Wayne Gretzky and the NHLPA All-Stars",
     "filename": "Wayne Gretzsky NHLPA All-Stars (C) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/wayne-gretzky-and-the-nhlpa-all-stars.jpg",
     "console": "gens",
-    "id": "wayne-gretzsky-nhlpa-all-stars",
-    "id_igdb": "",
-    "active": true
+    "id": "wayne-gretzky-and-the-nhlpa-all-stars",
+    "id_igdb": 19759,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wayne's World",
@@ -17388,15 +17399,6 @@
     "id_igdb": 7646,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "We're Back! - A Dinosaur's Tale",
-    "filename": "We're Back! - A Dinosaur's Tale (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "we-re-back-a-dinosaur-s-tale",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "We're Back!: A Dinosaur's Story",
@@ -17489,13 +17491,14 @@
     "check_name": true
   },
   {
-    "name": "Whip Rush 2222 AD",
+    "name": "Whip Rush",
     "filename": "Whip Rush 2222 AD (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/whip-rush.jpg",
     "console": "gens",
-    "id": "whip-rush-2222-ad",
-    "id_igdb": "",
-    "active": true
+    "id": "whip-rush",
+    "id_igdb": 28039,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Whirlo",
@@ -17687,21 +17690,22 @@
   },
   {
     "name": "Wolf Child",
-    "filename": "Wolf Child (U) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "wolf-child",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wolf Child",
     "filename": "Wolf Child (U) [!].smc",
     "image": "",
     "console": "snes",
     "id": "wolf-child",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Wolfchild",
+    "filename": "Wolf Child (U) [c][!].smd",
+    "image": "/images/roms/gens/wolfchild.jpg",
+    "console": "gens",
+    "id": "wolfchild",
+    "id_igdb": 4403,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wolfenstein 3D",
@@ -17733,40 +17737,24 @@
     "check_name": true
   },
   {
-    "name": "Wonder Library",
-    "filename": "Wonder Library (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "wonder-library",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wonderboy 3 - Monster Lair",
+    "name": "Wonder Boy III: Monster Lair",
     "filename": "Wonderboy 3 - Monster Lair (JUE) [c][!].smd",
-    "image": "",
+    "image": "/images/roms/gens/wonder-boy-iii-monster-lair.jpg",
     "console": "gens",
-    "id": "wonderboy-3-monster-lair",
-    "id_igdb": "",
-    "active": true
+    "id": "wonder-boy-iii-monster-lair",
+    "id_igdb": 4481,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Wonderboy 5",
+    "name": "Wonder Boy in Monster World",
     "filename": "Wonderboy 5 (MonsterWorld 3) (UE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/wonder-boy-in-monster-world.jpg",
     "console": "gens",
-    "id": "wonderboy-5",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wonderboy 6",
-    "filename": "Wonderboy 6 (MonsterWorld 4) (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "wonderboy-6",
-    "id_igdb": "",
-    "active": true
+    "id": "wonder-boy-in-monster-world",
+    "id_igdb": 9540,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wordtris",
@@ -17827,15 +17815,6 @@
     "id_igdb": 263351,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "World Cup Soccer",
-    "filename": "World Cup Soccer (JU) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "world-cup-soccer",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "World Cup Striker",
@@ -17932,7 +17911,8 @@
     "console": "gens",
     "id": "world-pro-baseball-94",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "World Series Baseball",
@@ -18010,7 +17990,8 @@
     "console": "gens",
     "id": "world-war-2",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Worms",
@@ -18041,15 +18022,6 @@
     "id_igdb": 27076,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Wrestleball",
-    "filename": "Wrestleball (J) [p1].smd",
-    "image": "",
-    "console": "gens",
-    "id": "wrestleball",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "X-Kaliber 2097",
@@ -18122,15 +18094,6 @@
     "check_name": true
   },
   {
-    "name": "XZR",
-    "filename": "XZR (Exile) (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "xzr",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Xardion",
     "filename": "Xardion (U) [!].smc",
     "image": "/images/roms/snes/xardion.jpg",
@@ -18157,7 +18120,8 @@
     "console": "gens",
     "id": "ya-se-chuan-shuo",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Yang Warrior Family, The",
@@ -18166,16 +18130,8 @@
     "console": "gens",
     "id": "yang-warrior-family-the",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Yogi Bear's Cartoon Capers",
-    "filename": "Yogi Bear's Cartoon Capers (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "yogi-bear-s-cartoon-capers",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Yoshi's Cookie",
@@ -18204,7 +18160,8 @@
     "console": "gens",
     "id": "young-indiana-jones-chronicles",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Young Merlin",
@@ -18243,7 +18200,8 @@
     "console": "gens",
     "id": "yu-yu-hakusho-makyoutohissen",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Zan Yasha Enbuden",
@@ -18252,7 +18210,8 @@
     "console": "gens",
     "id": "zan-yasha-enbuden",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Zany Golf",

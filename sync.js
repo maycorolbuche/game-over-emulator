@@ -339,8 +339,10 @@ function gameDataImage(game) {
 
 async function getGameData(gameName, gameConsole, clientId, accessToken, gameSearch) {
     let platform = null;
+    let select = true;
     if (gameSearch != undefined) {
         gameSearch = gameSearch.replace(/["']/g, '');
+        select = false;
     }
 
     if (gameSearch != undefined && (gameSearch[0] === "*" || gameSearch[0] === ":")) {
@@ -403,11 +405,11 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
 
     if (response.data.length > 0) {
         let game = response.data.find(g => g.slug === gameName && g.cover && g.cover.url);
-        if (game) {
+        if (game && select) {
             return gameDataImage(game);
         } else {
             let game = response.data.find(g => g.name === gameName && g.cover && g.cover.url);
-            if (game) {
+            if (game && select) {
                 return gameDataImage(game);
             } else {
                 /* if (response.data.length >= 2) {
