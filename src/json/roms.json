@@ -60,6 +60,16 @@
     "check_name": true
   },
   {
+    "name": "A-Ressha de Ikou MD",
+    "filename": "Take the 'A' Train (J).smd",
+    "image": "/images/roms/gens/a-ressha-de-ikou-md.jpg",
+    "console": "gens",
+    "id": "a-ressha-de-ikou-md",
+    "id_igdb": 92583,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "A.S.P.: Air Strike Patrol",
     "filename": "A.S.P. Air Strike Patrol (U).smc",
     "image": "/images/roms/snes/a-dot-s-p-dot-air-strike-patrol.jpg",
@@ -3668,6 +3678,16 @@
     "check_name": true
   },
   {
+    "name": "Disney's TaleSpin",
+    "filename": "Tale Spin (U) [!].smd",
+    "image": "/images/roms/gens/disneys-talespin.jpg",
+    "console": "gens",
+    "id": "disneys-talespin",
+    "id_igdb": 138106,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Disney's The Jungle Book",
     "filename": "Jungle Book, The (E) [!].smd",
     "image": "/images/roms/gens/disneys-the-jungle-book.jpg",
@@ -5422,6 +5442,16 @@
     "id_igdb": 46681,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Garry Kitchen's Super Battletank: War in the Gulf",
+    "filename": "Super Battle Tank - War in the Gulf (U) [!].smd",
+    "image": "/images/roms/gens/garry-kitchens-super-battletank-war-in-the-gulf.jpg",
+    "console": "gens",
+    "id": "garry-kitchens-super-battletank-war-in-the-gulf",
+    "id_igdb": 46681,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gauntlet Arcade Version",
@@ -7623,6 +7653,16 @@
     "id_igdb": 15073,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Lightening Force: Quest for the Darkstar",
+    "filename": "Thunder Force 4 (E) [c][!].smd",
+    "image": "/images/roms/gens/lightening-force-quest-for-the-darkstar.jpg",
+    "console": "gens",
+    "id": "lightening-force-quest-for-the-darkstar",
+    "id_igdb": 46273,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lightning Force",
@@ -13283,15 +13323,6 @@
     "check_name": true
   },
   {
-    "name": "Strider 2",
-    "filename": "Strider 2 (JUE) [R-Eur][t1].smd",
-    "image": "",
-    "console": "gens",
-    "id": "strider-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Strider Returns",
     "filename": "Strider Returns (JUE) [c][!].smd",
     "image": "/images/roms/gens/strider-returns.jpg",
@@ -13358,16 +13389,8 @@
     "console": "gens",
     "id": "super-15-in-1",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super 1998 Sonic 6",
-    "filename": "Super 1998 Sonic 6 (Unl) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-1998-sonic-6",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Adventure Island",
@@ -13496,15 +13519,6 @@
     "id_igdb": 38427,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Battle Tank - War in the Gulf",
-    "filename": "Super Battle Tank - War in the Gulf (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-battle-tank-war-in-the-gulf",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Battleship",
@@ -13793,15 +13807,6 @@
     "check_name": true
   },
   {
-    "name": "Super HQ",
-    "filename": "Super HQ (JUE).smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-hq",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Hang-On",
     "filename": "Super Hang-On (REV 01) (JUE) [!].smd",
     "image": "/images/roms/gens/super-hang-on.jpg",
@@ -13890,22 +13895,14 @@
     "check_name": true
   },
   {
-    "name": "Super King Kong 99",
-    "filename": "Super King Kong 99 (Unl) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-king-kong-99",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super League",
     "filename": "Super League (Feb 1989) (J) [!].smd",
     "image": "",
     "console": "gens",
     "id": "super-league",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super League 91",
@@ -13914,7 +13911,8 @@
     "console": "gens",
     "id": "super-league-91",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Mario All-Stars",
@@ -13986,15 +13984,6 @@
     "check_name": true
   },
   {
-    "name": "Super Masters Golf",
-    "filename": "Super Masters Golf (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-masters-golf",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Metroid",
     "filename": "Super Metroid (E) [!].smc",
     "image": "/images/roms/snes/super-metroid.jpg",
@@ -14016,13 +14005,14 @@
     "block_change": true
   },
   {
-    "name": "Super Monaco Grand Prix",
+    "name": "Super Monaco GP",
     "filename": "Super Monaco Grand Prix (REV 03) (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/super-monaco-gp.jpg",
     "console": "gens",
-    "id": "super-monaco-grand-prix",
-    "id_igdb": "",
-    "active": true
+    "id": "super-monaco-gp",
+    "id_igdb": 4528,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Morph",
@@ -14090,7 +14080,8 @@
     "console": "gens",
     "id": "super-offroad",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Pang",
@@ -14199,15 +14190,6 @@
     "id_igdb": 42453,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Shinobi 2",
-    "filename": "Super Shinobi 2 (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-shinobi-2",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Skidmarks",
@@ -14408,13 +14390,14 @@
     "check_name": true
   },
   {
-    "name": "Super Volleyball",
+    "name": "Super Volley Ball",
     "filename": "Super Volleyball (U).smd",
-    "image": "",
+    "image": "/images/roms/gens/super-volley-ball.jpg",
     "console": "gens",
-    "id": "super-volleyball",
-    "id_igdb": "",
-    "active": true
+    "id": "super-volley-ball",
+    "id_igdb": 4440,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Widget",
@@ -14513,7 +14496,8 @@
     "console": "gens",
     "id": "syura-no-mon",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Syvalion",
@@ -14534,6 +14518,16 @@
     "id_igdb": 12861,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "T2: The Arcade Game",
+    "filename": "Terminator 2 - The Arcade Game (JUE) [!].smd",
+    "image": "/images/roms/gens/t2-the-arcade-game.jpg",
+    "console": "gens",
+    "id": "t2-the-arcade-game",
+    "id_igdb": 12861,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "TKO Super Championship Boxing",
@@ -14576,13 +14570,14 @@
     "check_name": true
   },
   {
-    "name": "Taiga Drama Taiheiki",
+    "name": "Taiheiki",
     "filename": "Taiga Drama Taiheiki (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/taiheiki.jpg",
     "console": "gens",
-    "id": "taiga-drama-taiheiki",
-    "id_igdb": "",
-    "active": true
+    "id": "taiheiki",
+    "id_igdb": 4397,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Taiko Rissi Den",
@@ -14591,7 +14586,8 @@
     "console": "gens",
     "id": "taiko-rissi-den",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Taiwan Tycoon",
@@ -14600,25 +14596,8 @@
     "console": "gens",
     "id": "taiwan-tycoon",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Take the 'A' Train",
-    "filename": "Take the 'A' Train (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "take-the-a-train",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tale Spin",
-    "filename": "Tale Spin (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "tale-spin",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Talmit's Adventure",
@@ -14762,13 +14741,14 @@
     "check_name": true
   },
   {
-    "name": "Tecmo Super Bowl 2",
+    "name": "Tecmo Super Bowl II: Special Edition",
     "filename": "Tecmo Super Bowl 2 (F) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/tecmo-super-bowl-ii-special-edition.jpg",
     "console": "gens",
-    "id": "tecmo-super-bowl-2",
-    "id_igdb": "",
-    "active": true
+    "id": "tecmo-super-bowl-ii-special-edition",
+    "id_igdb": 46598,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Tecmo Super Bowl II: Special Edition",
@@ -14837,16 +14817,8 @@
     "console": "gens",
     "id": "tecmo-world-cup-92",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Teenage Mutant Ninja Turtles - Return of the Shredder",
-    "filename": "Teenage Mutant Ninja Turtles - Return of the Shredder (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "teenage-mutant-ninja-turtles-return-of-the-shredder",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
@@ -14889,22 +14861,14 @@
     "check_name": true
   },
   {
-    "name": "Teitoku no Ketsudan",
-    "filename": "Teitoku no Ketsudan (J) [x].smd",
-    "image": "",
-    "console": "gens",
-    "id": "teitoku-no-ketsudan",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tel Tel Stadium",
     "filename": "Tel Tel Stadium (J) [!].smd",
     "image": "",
     "console": "gens",
     "id": "tel-tel-stadium",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Tel-Tel Mahjong",
@@ -14917,22 +14881,14 @@
     "check_name": true
   },
   {
-    "name": "Terminator 2 - Judgement Day",
+    "name": "Terminator 2: Judgment Day",
     "filename": "Terminator 2 - Judgement Day (JUE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/terminator-2-judgment-day.jpg",
     "console": "gens",
-    "id": "terminator-2-judgement-day",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Terminator 2 - The Arcade Game",
-    "filename": "Terminator 2 - The Arcade Game (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "terminator-2-the-arcade-game",
-    "id_igdb": "",
-    "active": true
+    "id": "terminator-2-judgment-day",
+    "id_igdb": 12793,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Terminator 2: Judgment Day",
@@ -15956,15 +15912,6 @@
     "check_name": true
   },
   {
-    "name": "Thunder Force 4",
-    "filename": "Thunder Force 4 (E) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "thunder-force-4",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Thunder Force II",
     "filename": "Thunder Force 2 (U) [!].smd",
     "image": "/images/roms/gens/thunder-force-ii.jpg",
@@ -16011,7 +15958,8 @@
     "console": "gens",
     "id": "tiger-hunter-hero-novel",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Time Dominator 1st",
@@ -16020,7 +15968,8 @@
     "console": "gens",
     "id": "time-dominator-1st",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Time Killers",
@@ -16163,13 +16112,14 @@
     "check_name": true
   },
   {
-    "name": "Toejam & Earl in Panic on Funcotron",
+    "name": "ToeJam & Earl in Panic on Funkotron",
     "filename": "Toejam & Earl in Panic on Funcotron (E) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/toejam-and-earl-in-panic-on-funkotron.jpg",
     "console": "gens",
-    "id": "toejam-earl-in-panic-on-funcotron",
-    "id_igdb": "",
-    "active": true
+    "id": "toejam-and-earl-in-panic-on-funkotron",
+    "id_igdb": 11123,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Toki: Going Ape Spit",
@@ -16634,15 +16584,6 @@
     "check_name": true
   },
   {
-    "name": "Twisted Flipper",
-    "filename": "Twisted Flipper (beta).smd",
-    "image": "",
-    "console": "gens",
-    "id": "twisted-flipper",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Two Crude Dudes",
     "filename": "Two Crude Dudes (T-13026) (J) [R-USA][!].smd",
     "image": "/images/roms/gens/two-crude-dudes.jpg",
@@ -16748,7 +16689,8 @@
     "console": "gens",
     "id": "ultimate-qix",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ultimate Soccer",
@@ -16766,8 +16708,8 @@
     "image": "",
     "console": "gens",
     "id": "ultraman",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "id_igdb": ""
   },
   {
     "name": "Ultraman: Towards the Future",
