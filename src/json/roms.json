@@ -3295,6 +3295,16 @@
     "check_name": true
   },
   {
+    "name": "Deadly Moves",
+    "filename": "Power Moves (U).smc",
+    "image": "/images/roms/snes/deadly-moves.jpg",
+    "console": "snes",
+    "id": "deadly-moves",
+    "id_igdb": 46225,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Death Duel",
     "filename": "Death Duel (EU) [!].smd",
     "image": "/images/roms/gens/death-duel.jpg",
@@ -4187,6 +4197,16 @@
     "id_igdb": 5377,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Earth Defense Force",
+    "filename": "Super Earth Defense Force (E).smc",
+    "image": "/images/roms/snes/earth-defense-force.jpg",
+    "console": "snes",
+    "id": "earth-defense-force",
+    "id_igdb": 84918,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "EarthBound",
@@ -5657,13 +5677,14 @@
     "check_name": true
   },
   {
-    "name": "Gunforce - Battle Fire Engulfed Terror Island",
+    "name": "Gunforce",
     "filename": "Gunforce - Battle Fire Engulfed Terror Island (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/gunforce.jpg",
     "console": "snes",
-    "id": "gunforce-battle-fire-engulfed-terror-island",
-    "id_igdb": "",
-    "active": true
+    "id": "gunforce",
+    "id_igdb": 10449,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gunship",
@@ -6118,15 +6139,6 @@
     "check_name": true
   },
   {
-    "name": "Illusion of Time",
-    "filename": "Illusion of Time (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "illusion-of-time",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Imperium",
     "filename": "Imperium (U).smc",
     "image": "/images/roms/snes/imperium.jpg",
@@ -6258,15 +6270,6 @@
     "check_name": true
   },
   {
-    "name": "Irem Major Title, The",
-    "filename": "Irem Major Title, The (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "irem-major-title-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Iron Commando",
     "filename": "Iron Commando (E) (NG-Dump Known).smc",
     "image": "/images/roms/snes/iron-commando.jpg",
@@ -6349,13 +6352,14 @@
     "check_image": true
   },
   {
-    "name": "JRR Tolkien's The Lord of the Rings - Volume 1",
+    "name": "J.R.R. Tolkien's Lord of the Rings: Volume One",
     "filename": "JRR Tolkien's The Lord of the Rings - Volume 1 (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/jrr-tolkiens-lord-of-the-rings-volume-one.jpg",
     "console": "snes",
-    "id": "jrr-tolkien-s-the-lord-of-the-rings-volume-1",
-    "id_igdb": "",
-    "active": true
+    "id": "jrr-tolkiens-lord-of-the-rings-volume-one",
+    "id_igdb": 81467,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jack Nicklaus Golf",
@@ -6364,7 +6368,8 @@
     "console": "snes",
     "id": "jack-nicklaus-golf",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jack Nicklaus' Power Challenge Golf",
@@ -6447,15 +6452,6 @@
     "check_name": true
   },
   {
-    "name": "James Pond's Crazy Sports",
-    "filename": "James Pond's Crazy Sports (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "james-pond-s-crazy-sports",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "James Pond: Underwater Agent",
     "filename": "James Pond (U) [!].smd",
     "image": "/images/roms/gens/james-pond-underwater-agent.jpg",
@@ -6496,15 +6492,6 @@
     "check_name": true
   },
   {
-    "name": "Jazz411's Super Mario World",
-    "filename": "Jazz411's Super Mario World [h1].smc",
-    "image": "",
-    "console": "snes",
-    "id": "jazz411-s-super-mario-world",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jelly Boy",
     "filename": "Jelly Boy (JUE) [b1].smd",
     "image": "/images/roms/gens/jelly-boy.jpg",
@@ -6527,11 +6514,12 @@
   {
     "name": "Jelly Boy 2",
     "filename": "Jelly Boy 2 (Beta).smc",
-    "image": "",
+    "image": "/images/roms/snes/jelly-boy-2.jpg",
     "console": "snes",
     "id": "jelly-boy-2",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 38364,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jennifer Capriati Tennis",
@@ -6550,7 +6538,8 @@
     "console": "snes",
     "id": "jeopardy-",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jeopardy! Deluxe Edition",
@@ -6623,13 +6612,14 @@
     "check_image": true
   },
   {
-    "name": "Jim Lee's WildC.A.T.S",
+    "name": "Jim Lee's Wild C.A.T.S: Covert Action Teams",
     "filename": "Jim Lee's WildC.A.T.S (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/jim-lees-wild-c-dot-a-t-dot-s-covert-action-teams.jpg",
     "console": "snes",
-    "id": "jim-lee-s-wildc-a-t",
-    "id_igdb": "",
-    "active": true
+    "id": "jim-lees-wild-c-dot-a-t-dot-s-covert-action-teams",
+    "id_igdb": 42510,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jim Power: The Arcade Game",
@@ -6734,11 +6724,12 @@
   {
     "name": "John Madden Football",
     "filename": "John Madden Football (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/john-madden-football.jpg",
     "console": "snes",
     "id": "john-madden-football",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 4400,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "John Madden Football",
@@ -6927,7 +6918,8 @@
     "console": "snes",
     "id": "kablooey",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kawasaki Caribbean Challenge",
@@ -7198,24 +7190,6 @@
     "id_igdb": 3720,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Kirby's Fun Pak",
-    "filename": "Kirby's Fun Pak (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "kirby-s-fun-pak",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Kirby's Ghost Trap",
-    "filename": "Kirby's Ghost Trap (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "kirby-s-ghost-trap",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Klax",
@@ -7536,15 +7510,6 @@
     "id_igdb": 45776,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Life Fitness Mega Cart",
-    "filename": "Life Fitness Mega Cart (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "life-fitness-mega-cart",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Light Crusader",
@@ -7929,6 +7894,16 @@
     "check_image": true
   },
   {
+    "name": "Man Overboard!",
+    "filename": "Sink or Swim (U).smc",
+    "image": "/images/roms/snes/man-overboard.jpg",
+    "console": "snes",
+    "id": "man-overboard",
+    "id_igdb": 45707,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Manchester United Championship Soccer",
     "filename": "Manchester United Championship Soccer (E).smc",
     "image": "/images/roms/snes/manchester-united-championship-soccer.jpg",
@@ -8049,13 +8024,14 @@
     "check_image": true
   },
   {
-    "name": "Marko's Magic Football",
+    "name": "Marko",
     "filename": "Marko's Magic Football (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/marko.jpg",
     "console": "snes",
-    "id": "marko-s-magic-football",
-    "id_igdb": "",
-    "active": true
+    "id": "marko",
+    "id_igdb": 19774,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Marsupilami",
@@ -8320,22 +8296,24 @@
     "check_name": true
   },
   {
-    "name": "Mega Man X 2",
+    "name": "Mega Man X2",
     "filename": "Mega Man X 2 (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/mega-man-x2.jpg",
     "console": "snes",
-    "id": "mega-man-x-2",
-    "id_igdb": "",
-    "active": true
+    "id": "mega-man-x2",
+    "id_igdb": 1742,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Mega Man X 3",
+    "name": "Mega Man X3",
     "filename": "Mega Man X 3 (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/mega-man-x3.jpg",
     "console": "snes",
-    "id": "mega-man-x-3",
-    "id_igdb": "",
-    "active": true
+    "id": "mega-man-x3",
+    "id_igdb": 1743,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mega Man: The Wily Wars",
@@ -8375,7 +8353,8 @@
     "console": "snes",
     "id": "mega-lo-mania",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "MegaGames 3in1 Vol 1",
@@ -8697,15 +8676,6 @@
     "check_name": true
   },
   {
-    "name": "Mighty Max",
-    "filename": "Mighty Max (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "mighty-max",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mighty Morphin Power Rangers",
     "filename": "Mighty Morphin Power Rangers (U) [!].smd",
     "image": "/images/roms/gens/mighty-morphin-power-rangers.jpg",
@@ -9004,15 +8974,6 @@
     "id_igdb": 27989,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Mystic Quest Legend",
-    "filename": "Mystic Quest Legend (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "mystic-quest-legend",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mystical Fighter",
@@ -9537,13 +9498,14 @@
     "check_name": true
   },
   {
-    "name": "Newman-Hass Indy Car Featuring Nigel Mansell",
+    "name": "Newman/Haas IndyCar featuring Nigel Mansell",
     "filename": "Newman-Hass Indy Car Featuring Nigel Mansell (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/newman-slash-haas-indycar-featuring-nigel-mansell.jpg",
     "console": "snes",
-    "id": "newman-hass-indy-car-featuring-nigel-mansell",
-    "id_igdb": "",
-    "active": true
+    "id": "newman-slash-haas-indycar-featuring-nigel-mansell",
+    "id_igdb": 22841,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Newman/Haas IndyCar featuring Nigel Mansell",
@@ -9576,13 +9538,14 @@
     "check_name": true
   },
   {
-    "name": "Nigel Mansell's World Championship Racing",
+    "name": "Nigel Mansell's World Championship",
     "filename": "Nigel Mansell's World Championship Racing (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/nigel-mansells-world-championship.jpg",
     "console": "snes",
-    "id": "nigel-mansell-s-world-championship-racing",
-    "id_igdb": "",
-    "active": true
+    "id": "nigel-mansells-world-championship",
+    "id_igdb": 12702,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Nightmare Circus",
@@ -9701,7 +9664,8 @@
     "console": "snes",
     "id": "nobunaga-s-ambition-lord-of-darkness",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Nolan Ryan's Baseball",
@@ -9774,13 +9738,14 @@
     "check_image": true
   },
   {
-    "name": "Olympic Summer Games 96",
+    "name": "Olympic Summer Games",
     "filename": "Olympic Summer Games 96 (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/olympic-summer-games.jpg",
     "console": "snes",
-    "id": "olympic-summer-games-96",
-    "id_igdb": "",
-    "active": true
+    "id": "olympic-summer-games",
+    "id_igdb": 4493,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Omega Race",
@@ -10173,13 +10138,14 @@
     "check_name": true
   },
   {
-    "name": "Parodius - Non-Sense Fantasy",
+    "name": "Parodius",
     "filename": "Parodius - Non-Sense Fantasy (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/parodius.jpg",
     "console": "snes",
-    "id": "parodius-non-sense-fantasy",
-    "id_igdb": "",
-    "active": true
+    "id": "parodius",
+    "id_igdb": 174910,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Party Quiz Mega Q",
@@ -10252,13 +10218,14 @@
     "check_name": true
   },
   {
-    "name": "Phalanx - The Enforce Fighter A-144",
+    "name": "Phalanx",
     "filename": "Phalanx - The Enforce Fighter A-144 (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/phalanx.jpg",
     "console": "snes",
-    "id": "phalanx-the-enforce-fighter-a-144",
-    "id_igdb": "",
-    "active": true
+    "id": "phalanx",
+    "id_igdb": 6532,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Phantasy Star II",
@@ -10591,15 +10558,6 @@
     "check_name": true
   },
   {
-    "name": "Power Moves",
-    "filename": "Power Moves (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "power-moves",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Power Piggs of the Dark Age",
     "filename": "Power Piggs of the Dark Age (U) [!].smc",
     "image": "/images/roms/snes/power-piggs-of-the-dark-age.jpg",
@@ -10840,13 +10798,14 @@
     "check_name": true
   },
   {
-    "name": "Push-Over",
+    "name": "Pushover",
     "filename": "Push-Over (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/pushover.jpg",
     "console": "snes",
-    "id": "push-over",
-    "id_igdb": "",
-    "active": true
+    "id": "pushover",
+    "id_igdb": 11627,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Putty Squad",
@@ -10895,16 +10854,18 @@
     "console": "snes",
     "id": "puzzle-bobble",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Q-bert 3",
+    "name": "Q*bert 3",
     "filename": "Q-bert 3 (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/q-star-bert-3.jpg",
     "console": "snes",
-    "id": "q-bert-3",
-    "id_igdb": "",
-    "active": true
+    "id": "q-star-bert-3",
+    "id_igdb": 42469,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "QuackShot Starring Donald Duck",
@@ -11013,7 +10974,8 @@
     "console": "snes",
     "id": "race-drivin-",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Radical Rex",
@@ -11112,7 +11074,8 @@
     "console": "snes",
     "id": "ranma-nibunnoichi",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ransei no Hasha",
@@ -11351,7 +11314,8 @@
     "console": "snes",
     "id": "riverse-kids",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Road Rash",
@@ -11392,15 +11356,6 @@
     "id_igdb": 39946,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Road Runner",
-    "filename": "Road Runner (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "road-runner",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Road Runner's Death Valley Rally",
@@ -11803,13 +11758,14 @@
     "check_name": true
   },
   {
-    "name": "Scooby-Doo",
+    "name": "Scooby-Doo Mystery",
     "filename": "Scooby-Doo (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/scooby-doo-mystery.jpg",
     "console": "snes",
-    "id": "scooby-doo",
-    "id_igdb": "",
-    "active": true
+    "id": "scooby-doo-mystery",
+    "id_igdb": 2855,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Scooby-Doo Mystery",
@@ -11918,7 +11874,8 @@
     "console": "snes",
     "id": "sensible-soccer",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sensible Soccer - International Edition",
@@ -11937,7 +11894,8 @@
     "console": "snes",
     "id": "sensible-soccer-international-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sesame Street Counting Cafe",
@@ -12170,24 +12128,6 @@
     "check_name": true
   },
   {
-    "name": "Sim City",
-    "filename": "Sim City (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "sim-city",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sim City 2000",
-    "filename": "Sim City 2000 (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "sim-city-2000",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "SimAnt",
     "filename": "Sim Ant (U) (49046).smc",
     "image": "/images/roms/snes/simant.jpg",
@@ -12198,6 +12138,26 @@
     "check_name": true
   },
   {
+    "name": "SimCity",
+    "filename": "Sim City (U) [!].smc",
+    "image": "/images/roms/snes/simcity.jpg",
+    "console": "snes",
+    "id": "simcity",
+    "id_igdb": 180001,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "SimCity 2000",
+    "filename": "Sim City 2000 (U).smc",
+    "image": "/images/roms/snes/simcity-2000.jpg",
+    "console": "snes",
+    "id": "simcity-2000",
+    "id_igdb": 330,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "SimEarth: The Living Planet",
     "filename": "Sim Earth - The Living Planet (U) [!].smc",
     "image": "/images/roms/snes/simearth-the-living-planet.jpg",
@@ -12206,33 +12166,6 @@
     "id_igdb": 44456,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Simpsons - Itchy & Scratchy",
-    "filename": "Simpsons - Itchy & Scratchy.smc",
-    "image": "",
-    "console": "snes",
-    "id": "simpsons-itchy-scratchy",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Simpsons - Krusty's Super Fun House",
-    "filename": "Simpsons - Krusty's Super Fun House.smc",
-    "image": "",
-    "console": "snes",
-    "id": "simpsons-krusty-s-super-fun-house",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sink or Swim",
-    "filename": "Sink or Swim (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "sink-or-swim",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Skeleton Krew",
@@ -12265,13 +12198,14 @@
     "check_name": true
   },
   {
-    "name": "Sky Blazer",
+    "name": "Skyblazer",
     "filename": "Sky Blazer (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/skyblazer.jpg",
     "console": "snes",
-    "id": "sky-blazer",
-    "id_igdb": "",
-    "active": true
+    "id": "skyblazer",
+    "id_igdb": 42581,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Slam Dunk: Kyougou Makkou Taiketsu!",
@@ -12332,15 +12266,6 @@
     "id_igdb": 44106,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Smurfs 2, The",
-    "filename": "Smurfs 2, The (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "smurfs-2-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Snake Rattle 'n' Roll",
@@ -12469,16 +12394,6 @@
     "console": "gens",
     "id": "sonic-the-hedgehog",
     "id_igdb": 3192,
-    "active": true,
-    "check_name": true
-  },
-  {
-    "name": "Sonic the Hedgehog",
-    "filename": "Sonic the Hedgehog (Unl).smc",
-    "image": "/images/roms/snes/sonic-the-hedgehog.jpg",
-    "console": "snes",
-    "id": "sonic-the-hedgehog",
-    "id_igdb": 150029,
     "active": true,
     "check_name": true
   },
@@ -12683,13 +12598,14 @@
     "check_name": true
   },
   {
-    "name": "Spell Craft",
+    "name": "Spellcraft: Aspects of Valor",
     "filename": "Spell Craft (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/spellcraft-aspects-of-valor.jpg",
     "console": "snes",
-    "id": "spell-craft",
-    "id_igdb": "",
-    "active": true
+    "id": "spellcraft-aspects-of-valor",
+    "id_igdb": 38438,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Spider-Man",
@@ -12710,15 +12626,6 @@
     "id_igdb": 4500,
     "active": true,
     "check_image": true
-  },
-  {
-    "name": "Spider-Man & Venom - Separation",
-    "filename": "Spider-Man & Venom - Separation.smc",
-    "image": "",
-    "console": "snes",
-    "id": "spider-man-venom-separation",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Spider-Man and Venom: Maximum Carnage",
@@ -12831,15 +12738,6 @@
     "check_image": true
   },
   {
-    "name": "Sporting News Power Baseball, The",
-    "filename": "Sporting News Power Baseball, The (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "sporting-news-power-baseball-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Sports Illustrated Championship Football & Baseball",
     "filename": "Sports Illustrated Championship Football & Baseball (U) [!].smc",
     "image": "/images/roms/snes/sports-illustrated-championship-football-and-baseball.jpg",
@@ -12901,22 +12799,14 @@
     "check_name": true
   },
   {
-    "name": "Star Fox Super Weekend Competition",
+    "name": "Star Fox: Super Weekend",
     "filename": "Star Fox Super Weekend Competition (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/star-fox-super-weekend.jpg",
     "console": "snes",
-    "id": "star-fox-super-weekend-competition",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Star Trek - The Next Generation - Future's Past",
-    "filename": "Star Trek - The Next Generation - Future's Past (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "star-trek-the-next-generation-future-s-past",
-    "id_igdb": "",
-    "active": true
+    "id": "star-fox-super-weekend",
+    "id_igdb": 42365,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Star Trek: Deep Space Nine - Crossroads of Time",
@@ -12950,6 +12840,16 @@
   },
   {
     "name": "Star Trek: The Next Generation - Echoes from the Past",
+    "filename": "Star Trek - The Next Generation - Future's Past (E).smc",
+    "image": "/images/roms/snes/star-trek-the-next-generation-echoes-from-the-past.jpg",
+    "console": "snes",
+    "id": "star-trek-the-next-generation-echoes-from-the-past",
+    "id_igdb": 46195,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Star Trek: The Next Generation - Echoes from the Past",
     "filename": "Star Trek - The Next Generation (REV 01) (U) [!].smd",
     "image": "/images/roms/gens/star-trek-the-next-generation-echoes-from-the-past.jpg",
     "console": "gens",
@@ -12957,24 +12857,6 @@
     "id_igdb": 46195,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "StarWing",
-    "filename": "StarWing (E) (V1.1) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "starwing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "StarWing Super Weekend Competition",
-    "filename": "StarWing Super Weekend Competition (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "starwing-super-weekend-competition",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Starflight",
@@ -13123,7 +13005,8 @@
     "console": "snes",
     "id": "street-fighter-ii-fight-again",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter II Turbo - Hyper Fighting",
@@ -13132,7 +13015,8 @@
     "console": "snes",
     "id": "street-fighter-ii-turbo-hyper-fighting",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter II: Special Champion Edition",
@@ -13335,15 +13219,6 @@
     "check_name": true
   },
   {
-    "name": "Super Aleste",
-    "filename": "Super Aleste (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-aleste",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Alfred Chicken",
     "filename": "Super Alfred Chicken (U) [!].smc",
     "image": "/images/roms/snes/super-alfred-chicken.jpg",
@@ -13352,15 +13227,6 @@
     "id_igdb": 44455,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super BC Kid",
-    "filename": "Super BC Kid (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-bc-kid",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Baseball 2020",
@@ -13453,15 +13319,6 @@
     "check_name": true
   },
   {
-    "name": "Super Battletank",
-    "filename": "Super Battletank (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-battletank",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Battletank 2",
     "filename": "Super Battletank 2 (U).smc",
     "image": "/images/roms/snes/super-battletank-2.jpg",
@@ -13478,7 +13335,8 @@
     "console": "snes",
     "id": "super-black-bass",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Bomberman",
@@ -13513,20 +13371,22 @@
   {
     "name": "Super Bomberman 4",
     "filename": "Super Bomberman 4 (Japan).sfc",
-    "image": "",
+    "image": "/images/roms/snes/super-bomberman-4.jpg",
     "console": "snes",
     "id": "super-bomberman-4",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 80539,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Bomberman 5",
     "filename": "Super Bomberman 5 (Japan).sfc",
-    "image": "",
+    "image": "/images/roms/snes/super-bomberman-5.jpg",
     "console": "snes",
     "id": "super-bomberman-5",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 38387,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Bonk",
@@ -13650,15 +13510,6 @@
     "check_name": true
   },
   {
-    "name": "Super Earth Defense Force",
-    "filename": "Super Earth Defense Force (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-earth-defense-force",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Fantasy Zone",
     "filename": "Super Fantasy Zone (E) [!].smd",
     "image": "/images/roms/gens/super-fantasy-zone.jpg",
@@ -13749,13 +13600,14 @@
     "check_name": true
   },
   {
-    "name": "Super Hockey",
+    "name": "Super Hockey '94",
     "filename": "Super Hockey (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/super-hockey-94.jpg",
     "console": "snes",
-    "id": "super-hockey",
-    "id_igdb": "",
-    "active": true
+    "id": "super-hockey-94",
+    "id_igdb": 38193,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Hydlide",
@@ -13786,15 +13638,6 @@
     "id_igdb": 42456,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super James Pond",
-    "filename": "Super James Pond (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-james-pond",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Kick-Off",
@@ -13877,25 +13720,6 @@
     "check_name": true
   },
   {
-    "name": "Super Mario World 3 - Islands of Mistery",
-    "filename": "Super Mario World 3 - Islands of Mistery [h1].smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-mario-world-3-islands-of-mistery",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super Mario World: A Super Mario Adventure",
-    "filename": "Super Mario World A Super Mario Adventure (V3.0).smc",
-    "image": "/images/roms/snes/super-mario-world-a-super-mario-adventure.jpg",
-    "console": "snes",
-    "id": "super-mario-world-a-super-mario-adventure",
-    "id_igdb": 268102,
-    "active": true,
-    "check_name": true
-  },
-  {
     "name": "Super Metroid",
     "filename": "Super Metroid (E) [!].smc",
     "image": "/images/roms/snes/super-metroid.jpg",
@@ -13962,18 +13786,20 @@
     "image": "/images/roms/snes/super-nova.jpg",
     "console": "snes",
     "id": "super-nova",
-    "id_igdb": 267624,
     "active": true,
-    "check_name": true
+    "check_name": true,
+    "id_igdb": 42446,
+    "check_image": true
   },
   {
     "name": "Super Off Road",
     "filename": "Super Off Road (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/super-off-road.jpg",
     "console": "snes",
     "id": "super-off-road",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 245295,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Off Road: The Baja",
@@ -13994,15 +13820,6 @@
     "id_igdb": "",
     "active": true,
     "check_image": true
-  },
-  {
-    "name": "Super Pang",
-    "filename": "Super Pang (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-pang",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Pinball: Behind the Mask",
@@ -14085,15 +13902,6 @@
     "check_name": true
   },
   {
-    "name": "Super SWIV",
-    "filename": "Super SWIV (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-swiv",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Shadow of the Beast",
     "filename": "Super Shadow of the Beast (U).smc",
     "image": "/images/roms/snes/super-shadow-of-the-beast.jpg",
@@ -14164,15 +13972,6 @@
     "check_name": true
   },
   {
-    "name": "Super Star Force",
-    "filename": "Super Star Force (U) [t1S].smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-star-force",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Star Wars",
     "filename": "Super Star Wars (U) (V1.1) [!].smc",
     "image": "/images/roms/snes/super-star-wars.jpg",
@@ -14221,15 +14020,6 @@
     "id_igdb": 12860,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Stress Faijter II 1.0",
-    "filename": "Super Stress Faijter II 1.0 (SSF2 Spanish Hack by Charnego) [h1].smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-stress-faijter-ii-1",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Strike Eagle",
@@ -14931,6 +14721,16 @@
     "id_igdb": 48617,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Adventures of Mighty Max",
+    "filename": "Mighty Max (U).smc",
+    "image": "/images/roms/snes/the-adventures-of-mighty-max.jpg",
+    "console": "snes",
+    "id": "the-adventures-of-mighty-max",
+    "id_igdb": 8121,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Adventures of Mighty Max",
@@ -15725,11 +15525,31 @@
   },
   {
     "name": "The Smurfs Travel the World",
+    "filename": "Smurfs 2, The (E) [!].smc",
+    "image": "/images/roms/snes/the-smurfs-travel-the-world.jpg",
+    "console": "snes",
+    "id": "the-smurfs-travel-the-world",
+    "id_igdb": 4402,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Smurfs Travel the World",
     "filename": "Smurfs 2, The (E) [!].smd",
     "image": "/images/roms/gens/the-smurfs-travel-the-world.jpg",
     "console": "gens",
     "id": "the-smurfs-travel-the-world",
     "id_igdb": 4402,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Sporting News Baseball",
+    "filename": "Sporting News Power Baseball, The (U).smc",
+    "image": "/images/roms/snes/the-sporting-news-baseball.jpg",
+    "console": "snes",
+    "id": "the-sporting-news-baseball",
+    "id_igdb": 42443,
     "active": true,
     "check_image": true
   },
@@ -16566,13 +16386,14 @@
     "check_name": true
   },
   {
-    "name": "Ultima VII - The Black Gate",
+    "name": "Ultima VII: The Black Gate",
     "filename": "Ultima VII - The Black Gate (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/ultima-vii-the-black-gate.jpg",
     "console": "snes",
     "id": "ultima-vii-the-black-gate",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6165,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ultima: Runes of Virtue II",
@@ -16715,15 +16536,6 @@
     "check_name": true
   },
   {
-    "name": "Unirally",
-    "filename": "Unirally (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "unirally",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Universal Soldier",
     "filename": "Universal Solder (U) [!].smd",
     "image": "/images/roms/gens/universal-soldier.jpg",
@@ -16800,7 +16612,8 @@
     "console": "snes",
     "id": "val-d-isere-championship",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Valis",
@@ -17449,7 +17262,8 @@
     "console": "snes",
     "id": "wile-e-coyotes-revenge",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Williams Arcade's Greatest Hits",
@@ -17542,13 +17356,14 @@
     "check_name": true
   },
   {
-    "name": "Winter Olympic Games - Lillehammer '94",
+    "name": "Winter Olympics: Lillehammer '94",
     "filename": "Winter Olympic Games - Lillehammer '94 (U) (M8).smc",
-    "image": "",
+    "image": "/images/roms/snes/winter-olympics-lillehammer-94.jpg",
     "console": "snes",
-    "id": "winter-olympic-games-lillehammer-94",
-    "id_igdb": "",
-    "active": true
+    "id": "winter-olympics-lillehammer-94",
+    "id_igdb": 4507,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Winter Olympics: Lillehammer '94",
@@ -17581,13 +17396,14 @@
     "check_name": true
   },
   {
-    "name": "Wolf Child",
+    "name": "Wolfchild",
     "filename": "Wolf Child (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/wolfchild.jpg",
     "console": "snes",
-    "id": "wolf-child",
-    "id_igdb": "",
-    "active": true
+    "id": "wolfchild",
+    "id_igdb": 4403,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wolfchild",
@@ -17606,7 +17422,8 @@
     "console": "snes",
     "id": "wolfenstein-3d",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wolverine: Adamantium Rage",
@@ -17715,7 +17532,8 @@
     "console": "snes",
     "id": "world-cup-striker",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "World Cup USA '94",
@@ -17774,7 +17592,8 @@
     "console": "snes",
     "id": "world-league-basketball",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "World League Soccer",
@@ -17853,7 +17672,8 @@
     "console": "snes",
     "id": "world-soccer",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "World Soccer 94: Road to Glory",
