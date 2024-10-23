@@ -110,15 +110,6 @@
     "check_name": true
   },
   {
-    "name": "AD&D - Eye of the Beholder",
-    "filename": "AD&D - Eye of the Beholder (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "ad-d-eye-of-the-beholder",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "ATP Tour Championship Tennis",
     "filename": "ATP Tour Championship Tennis (U) [!].smd",
     "image": "/images/roms/gens/atp-tour-championship-tennis.jpg",
@@ -169,22 +160,24 @@
     "check_name": true
   },
   {
-    "name": "Act Raiser",
+    "name": "ActRaiser",
     "filename": "Act Raiser (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/actraiser.jpg",
     "console": "snes",
-    "id": "act-raiser",
-    "id_igdb": "",
-    "active": true
+    "id": "actraiser",
+    "id_igdb": 6468,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Act Raiser 2",
+    "name": "ActRaiser 2",
     "filename": "Act Raiser 2 (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/actraiser-2.jpg",
     "console": "snes",
-    "id": "act-raiser-2",
-    "id_igdb": "",
-    "active": true
+    "id": "actraiser-2",
+    "id_igdb": 7704,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Action 52-in-1",
@@ -236,15 +229,6 @@
     "active": true,
     "name": "Advanced Daisenryaku: Deutsch Dengeki Sakusen",
     "check_name": true
-  },
-  {
-    "name": "Adventures of Kid Kleets",
-    "filename": "Adventures of Kid Kleets (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "adventures-of-kid-kleets",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Adventures of Yogi Bear",
@@ -477,15 +461,6 @@
     "check_name": true
   },
   {
-    "name": "Alfred Chicken",
-    "filename": "Alfred Chicken (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "alfred-chicken",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Alien 3",
     "filename": "Alien 3 (JUE) [!].smd",
     "image": "/images/roms/gens/alien-3.jpg",
@@ -544,15 +519,6 @@
     "id_igdb": 19508,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "All-American Championship Football",
-    "filename": "All-American Championship Football (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "all-american-championship-football",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Allan Border's Cricket",
@@ -624,15 +590,6 @@
     "id_igdb": 2308,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "An American Tale - Fievel Goes West",
-    "filename": "An American Tale - Fievel Goes West (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "an-american-tale-fievel-goes-west",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Andre Agassi Tennis",
@@ -755,13 +712,14 @@
     "check_name": true
   },
   {
-    "name": "Archer MacLean's Dropzone",
+    "name": "Archer Maclean's Super Dropzone",
     "filename": "Archer MacLean's Dropzone (E) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/archer-macleans-super-dropzone.jpg",
     "console": "snes",
-    "id": "archer-maclean-s-dropzone",
-    "id_igdb": "",
-    "active": true
+    "id": "archer-macleans-super-dropzone",
+    "id_igdb": 42637,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Arcus Odyssey",
@@ -774,13 +732,14 @@
     "check_name": true
   },
   {
-    "name": "Arcus Spirits",
+    "name": "Arcus Odyssey",
     "filename": "Arcus Spirits (Beta).smc",
-    "image": "",
+    "image": "/images/roms/snes/arcus-odyssey.jpg",
     "console": "snes",
-    "id": "arcus-spirits",
-    "id_igdb": "",
-    "active": true
+    "id": "arcus-odyssey",
+    "id_igdb": 16138,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ardy Lightfoot",
@@ -793,13 +752,14 @@
     "check_name": true
   },
   {
-    "name": "Aretha II - Ariel no Fushigi na Tabi",
+    "name": "Aretha II: Ariel no Fushigi na Tabi",
     "filename": "Aretha II - Ariel no Fushigi na Tabi (Beta).smc",
-    "image": "",
+    "image": "/images/roms/snes/aretha-ii-ariel-no-fushigi-na-tabi.jpg",
     "console": "snes",
     "id": "aretha-ii-ariel-no-fushigi-na-tabi",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 15896,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Arkanoid: Doh It Again",
@@ -994,11 +954,12 @@
   {
     "name": "Baby T-Rex",
     "filename": "Baby T-Rex (Beta).smc",
-    "image": "",
+    "image": "/images/roms/snes/baby-t-rex.jpg",
     "console": "snes",
     "id": "baby-t-rex",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49071,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Baby's Day Out",
@@ -1145,11 +1106,12 @@
   {
     "name": "Bass Masters Classic",
     "filename": "Bass Masters Classic (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/bass-masters-classic.jpg",
     "console": "snes",
     "id": "bass-masters-classic",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49867,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bass Masters Classic: Pro Edition",
@@ -1375,13 +1337,14 @@
     "check_name": true
   },
   {
-    "name": "Battletoads & Double Dragon - The Ultimate Team",
+    "name": "Battletoads / Double Dragon",
     "filename": "Battletoads & Double Dragon - The Ultimate Team (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/battletoads-slash-double-dragon.jpg",
     "console": "snes",
-    "id": "battletoads-double-dragon-the-ultimate-team",
-    "id_igdb": "",
-    "active": true
+    "id": "battletoads-slash-double-dragon",
+    "id_igdb": 242267,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Battletoads / Double Dragon",
@@ -1445,13 +1408,14 @@
     "check_name": true
   },
   {
-    "name": "Beethoven's 2nd",
+    "name": "Beethoven: The Ultimate Canine Caper!",
     "filename": "Beethoven's 2nd (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/beethoven-the-ultimate-canine-caper.jpg",
     "console": "snes",
-    "id": "beethoven-s-2nd",
-    "id_igdb": "",
-    "active": true
+    "id": "beethoven-the-ultimate-canine-caper",
+    "id_igdb": 19684,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Best of the Best: Championship Karate",
@@ -1574,15 +1538,6 @@
     "check_name": true
   },
   {
-    "name": "Bio Metal",
-    "filename": "Bio Metal (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "bio-metal",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Bio-Hazard Battle",
     "filename": "Bio-Hazard Battle (Sept 1992) (UE) [!].smd",
     "image": "/images/roms/gens/bio-hazard-battle.jpg",
@@ -1603,6 +1558,16 @@
     "check_name": true
   },
   {
+    "name": "BioMetal",
+    "filename": "Bio Metal (U) [!].smc",
+    "image": "/images/roms/snes/biometal.jpg",
+    "console": "snes",
+    "id": "biometal",
+    "id_igdb": 10685,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "BlaZeon: The Bio-Cyborg Challenge",
     "filename": "Blazeon (U).smc",
     "image": "/images/roms/snes/blazeon-the-bio-cyborg-challenge.jpg",
@@ -1619,16 +1584,8 @@
     "console": "snes",
     "id": "black-hawk",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Black Thorne",
-    "filename": "Black Thorne (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "black-thorne",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Blackhawk",
@@ -1637,7 +1594,8 @@
     "console": "snes",
     "id": "blackhawk",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Blackthorne",
@@ -1729,7 +1687,8 @@
     "console": "snes",
     "id": "blues-brothers-the",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bobby's World",
@@ -1966,13 +1925,14 @@
     "check_name": true
   },
   {
-    "name": "Bronkie Health Hero",
+    "name": "Bronkie the Bronchiasaurus",
     "filename": "Bronkie Health Hero (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/bronkie-the-bronchiasaurus.jpg",
     "console": "snes",
-    "id": "bronkie-health-hero",
-    "id_igdb": "",
-    "active": true
+    "id": "bronkie-the-bronchiasaurus",
+    "id_igdb": 42624,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Brunswick Bowling",
@@ -1981,7 +1941,8 @@
     "console": "snes",
     "id": "brunswick-bowling",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Brunswick World: Tournament of Champions",
@@ -2126,15 +2087,6 @@
     "check_name": true
   },
   {
-    "name": "Bulls Vs. Blazers",
-    "filename": "Bulls Vs. Blazers (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "bulls-vs-blazers",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Bulls vs Lakers and the NBA Playoffs",
     "filename": "Bulls vs Lakers (U) [!].smd",
     "image": "/images/roms/gens/bulls-vs-lakers-and-the-nba-playoffs.jpg",
@@ -2163,15 +2115,6 @@
     "id_igdb": 28391,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Cacoma Knight",
-    "filename": "Cacoma Knight (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "cacoma-knight",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Cacoma Knight in Bizyland",
@@ -2385,15 +2328,6 @@
     "check_name": true
   },
   {
-    "name": "Castlevania - Vampire's Kiss",
-    "filename": "Castlevania - Vampire's Kiss (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "castlevania-vampire-s-kiss",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Castlevania: Bloodlines",
     "filename": "Castlevania - Bloodlines (U) [!].smd",
     "image": "/images/roms/gens/castlevania-bloodlines.jpg",
@@ -2540,15 +2474,6 @@
     "check_name": true
   },
   {
-    "name": "Chavez",
-    "filename": "Chavez (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "chavez",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Chavez 2",
     "filename": "Chavez 2 (U).smd",
     "image": "",
@@ -2560,15 +2485,6 @@
     "check_image": true
   },
   {
-    "name": "Chavez II",
-    "filename": "Chavez II (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "chavez-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Cheese Cat-Astrophe starring Speedy Gonzales",
     "filename": "Speedy Gonzales - Cheeze Cat-astrophe (A).smd",
     "image": "/images/roms/gens/cheese-cat-astrophe-starring-speedy-gonzales.jpg",
@@ -2577,15 +2493,6 @@
     "id_igdb": 4460,
     "active": true,
     "check_image": true
-  },
-  {
-    "name": "Chess Master",
-    "filename": "Chess Master.smc",
-    "image": "",
-    "console": "snes",
-    "id": "chess-master",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Chester Cheetah: Too Cool to Fool",
@@ -2715,15 +2622,6 @@
     "check_name": true
   },
   {
-    "name": "Clay Fighter 2 - Judgment Clay",
-    "filename": "Clay Fighter 2 - Judgment Clay (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "clay-fighter-2-judgment-clay",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "ClayFighter",
     "filename": "Clay Fighter (US).smc",
     "image": "/images/roms/snes/clayfighter.jpg",
@@ -2743,6 +2641,16 @@
     "active": true,
     "check": true,
     "check_name": true
+  },
+  {
+    "name": "ClayFighter 2: Judgment Clay",
+    "filename": "Clay Fighter 2 - Judgment Clay (E).smc",
+    "image": "/images/roms/snes/clayfighter-2-judgment-clay.jpg",
+    "console": "snes",
+    "id": "clayfighter-2-judgment-clay",
+    "id_igdb": 73298,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "ClayFighter: Tournament Edition",
@@ -2815,15 +2723,6 @@
     "check_name": true
   },
   {
-    "name": "College Football USA '97 - The Road to New Orleans",
-    "filename": "College Football USA '97 - The Road to New Orleans (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "college-football-usa-97-the-road-to-new-orleans",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "College Football USA 96",
     "filename": "College Football USA 96 (4) [!].smd",
     "image": "/images/roms/gens/college-football-usa-96.jpg",
@@ -2832,6 +2731,16 @@
     "id_igdb": 46536,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "College Football USA 97",
+    "filename": "College Football USA '97 - The Road to New Orleans (U) [!].smc",
+    "image": "/images/roms/snes/college-football-usa-97.jpg",
+    "console": "snes",
+    "id": "college-football-usa-97",
+    "id_igdb": 46537,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "College Football USA 97",
@@ -2875,13 +2784,14 @@
     "check_name": true
   },
   {
-    "name": "College Slam Basketball",
+    "name": "College Slam",
     "filename": "College Slam Basketball (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/college-slam.jpg",
     "console": "snes",
-    "id": "college-slam-basketball",
-    "id_igdb": "",
-    "active": true
+    "id": "college-slam",
+    "id_igdb": 4541,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Columns",
@@ -3187,7 +3097,8 @@
     "console": "snes",
     "id": "cyborg-009",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Cyborg Justice",
@@ -3433,15 +3344,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Desert Fighter",
-    "filename": "Desert Fighter (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "desert-fighter",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Desert Strike: Return to the Gulf",
@@ -4235,13 +4137,14 @@
     "check_image": true
   },
   {
-    "name": "ESPN Speedworld",
+    "name": "ESPN Speed World",
     "filename": "ESPN Speedworld (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/espn-speed-world.jpg",
     "console": "snes",
-    "id": "espn-speedworld",
-    "id_igdb": "",
-    "active": true
+    "id": "espn-speed-world",
+    "id_igdb": 46217,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "ESPN Sunday Night NFL",
@@ -4465,7 +4368,8 @@
     "console": "snes",
     "id": "euro-football-champ",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Evander Holyfield's Real Deal Boxing",
@@ -4494,7 +4398,8 @@
     "console": "snes",
     "id": "exhaust-heat",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Exile",
@@ -4536,6 +4441,16 @@
     "id_igdb": 42558,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Eye of the Beholder",
+    "filename": "AD&D - Eye of the Beholder (U) [!].smc",
+    "image": "/images/roms/snes/eye-of-the-beholder.jpg",
+    "console": "snes",
+    "id": "eye-of-the-beholder",
+    "id_igdb": 5384,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "F-117 Night Storm",
@@ -4666,7 +4581,8 @@
     "console": "snes",
     "id": "fifa-97-gold-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "FIFA International Soccer",
@@ -4898,7 +4814,8 @@
     "console": "snes",
     "id": "fever-pitch-soccer",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Fido Dido",
@@ -4959,15 +4876,6 @@
     "id_igdb": 146170,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Final Fantasy VI Gold",
-    "filename": "Final Fantasy VI Gold (U) (V1.1) [T+Fre100_Terminus].smc",
-    "image": "",
-    "console": "snes",
-    "id": "final-fantasy-vi-gold",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Final Fantasy: Mystic Quest",
@@ -5139,15 +5047,6 @@
     "id_igdb": 5387,
     "active": true,
     "check_image": true
-  },
-  {
-    "name": "Flintstones, The",
-    "filename": "Flintstones, The (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "flintstones-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Football Fury",
@@ -5415,24 +5314,6 @@
     "check_image": true
   },
   {
-    "name": "Game Genie BIOS",
-    "filename": "Game Genie BIOS.smc",
-    "image": "",
-    "console": "snes",
-    "id": "game-genie-bios",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Game Genie BIOS V2.0",
-    "filename": "Game Genie BIOS V2.0 [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "game-genie-bios-v2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Garfield: Caught in the Act",
     "filename": "Garfield - Caught in the Act (C) [!].smd",
     "image": "/images/roms/gens/garfield-caught-in-the-act.jpg",
@@ -5574,7 +5455,8 @@
     "console": "snes",
     "id": "genocide-2",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "George Foreman's KO Boxing",
@@ -15153,13 +15035,13 @@
   },
   {
     "name": "The Chessmaster",
-    "filename": "Chessmaster, The (E).smc",
+    "filename": "Chess Master.smc",
     "image": "/images/roms/snes/the-chessmaster.jpg",
     "console": "snes",
     "id": "the-chessmaster",
     "id_igdb": 12909,
     "active": true,
-    "check_name": true
+    "check_image": true
   },
   {
     "name": "The Combatribes",
@@ -15243,6 +15125,16 @@
     "id_igdb": 42621,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Flintstones",
+    "filename": "Flintstones, The (U).smc",
+    "image": "/images/roms/snes/the-flintstones.jpg",
+    "console": "snes",
+    "id": "the-flintstones",
+    "id_igdb": 59872,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Flintstones",
