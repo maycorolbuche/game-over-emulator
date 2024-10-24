@@ -588,7 +588,8 @@
     "console": "gens",
     "id": "aoki-gentyouhishi",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Aq Renkan Awa",

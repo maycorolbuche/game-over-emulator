@@ -150,15 +150,21 @@ async function update_roms(json, list, consol, action, dir_json) {
                 try {
                     const accessToken = await getAccessToken(clientId, clientSecret);
                     let gameImage = await getGameData(name, consol, clientId, accessToken);
-                    if (gameImage && gameImage.cover_url) {
+                    if (gameImage) {
                         if (gameImage.cover_url) {
                             image = gameImage.cover_url;
-                            id = gameImage.slug;
-                            name = gameImage.name;
-                            id_igdb = gameImage.id;
-                            console.log("Imagem encontrada:", { id, name, consol, image, gameImage })
-                            change = true;
                         }
+                        if (gameImage.slug) {
+                            id = gameImage.slug;
+                        }
+                        if (gameImage.name) {
+                            name = gameImage.name;
+                        }
+                        if (gameImage.id) {
+                            id_igdb = gameImage.id;
+                        }
+                        console.log("Dados encontrados:", { id, name, consol, image, gameImage })
+                        change = true;
                     } /*else {
                         gameImage = await getGameData(id, consol, clientId, accessToken);
                         if (gameImage && gameImage.cover_url) {
@@ -430,6 +436,8 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
                 if (chosenGame > 0 && chosenGame <= response.data.length) {
                     game = response.data[chosenGame - 1];
                     return gameDataImage(game);
+                } else if (chosenGame.startsWith('http') || chosenGame.startsWith('https')) {
+                    return { cover: { cover_url: chosenGame } };
                 } else if (chosenGame == 0) {
                     return null;
                 } else {
@@ -440,9 +448,12 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
     } else {
         console.log(qQuestion(`Buscando por: "${gameSearch}"`));
         console.log(qQuestion(`Nada encontrado! Digite algo para buscar, ou '0' para ignorar.`));
+        console.log(qOption(0, `${gameName} | original`));
         const chosenGame = await readlineSync.question('> ');
         if (chosenGame == 0) {
             return null;
+        } else if (chosenGame.startsWith('http') || chosenGame.startsWith('https')) {
+            return { cover: { cover_url: chosenGame } };
         } else {
             return getGameData(gameName, gameConsole, clientId, accessToken, chosenGame);
         }
