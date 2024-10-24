@@ -437,7 +437,7 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
                     game = response.data[chosenGame - 1];
                     return gameDataImage(game);
                 } else if (chosenGame.startsWith('http') || chosenGame.startsWith('https')) {
-                    return { cover: { cover_url: chosenGame } };
+                    return { cover_url: chosenGame };
                 } else if (chosenGame == 0) {
                     return null;
                 } else {
@@ -453,7 +453,7 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
         if (chosenGame == 0) {
             return null;
         } else if (chosenGame.startsWith('http') || chosenGame.startsWith('https')) {
-            return { cover: { cover_url: chosenGame } };
+            return { cover_url: chosenGame };
         } else {
             return getGameData(gameName, gameConsole, clientId, accessToken, chosenGame);
         }

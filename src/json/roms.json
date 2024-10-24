@@ -582,23 +582,14 @@
     "check_name": true
   },
   {
-    "name": "Aoki Gentyouhishi",
-    "filename": "Aoki Gentyouhishi (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "aoki-gentyouhishi",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Aq Renkan Awa",
     "filename": "Aq Renkan Awa (Unl) [c].smd",
-    "image": "",
+    "image": "/images/roms/gens/aq-renkan-awa.png",
     "console": "gens",
     "id": "aq-renkan-awa",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Arcade Classics",
