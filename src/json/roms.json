@@ -98,15 +98,6 @@
     "check_name": true
   },
   {
-    "name": "AWS Pro Moves Soccer",
-    "filename": "AWS Pro Moves Soccer (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "aws-pro-moves-soccer",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "filename": "Aah! Harimanada (J).smd",
     "image": "/images/roms/gens/aa-harimanada.jpg",
     "console": "gens",
@@ -738,13 +729,14 @@
     "check_name": true
   },
   {
-    "name": "Assault Suits Leynoss",
+    "name": "Assault Suits Leynos",
     "filename": "Assault Suits Leynoss (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/assault-suits-leynoss.jpg",
     "console": "gens",
     "id": "assault-suits-leynoss",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Asterix and the Great Rescue",
@@ -906,14 +898,15 @@
     "check": true
   },
   {
-    "name": "Ballz",
+    "name": "Ballz 3D",
     "filename": "Ballz (JUE) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/ballz-3d.jpg",
     "console": "gens",
-    "id": "ballz",
-    "id_igdb": "",
+    "id": "ballz-3d",
+    "id_igdb": 42568,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Ballz 3D",
@@ -1047,12 +1040,13 @@
   {
     "name": "Bass Masters Classics",
     "filename": "Bass Masters Classics (4) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/bass-masters-classics.jpg",
     "console": "gens",
     "id": "bass-masters-classics",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bassin's Black Bass",
@@ -10464,6 +10458,16 @@
     "id_igdb": 3164,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Pro Moves Soccer",
+    "filename": "AWS Pro Moves Soccer (U) [!].smd",
+    "image": "/images/roms/gens/pro-moves-soccer.jpg",
+    "console": "gens",
+    "id": "pro-moves-soccer",
+    "id_igdb": 222830,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Pro Quarterback",
