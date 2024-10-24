@@ -1189,16 +1189,6 @@
     "check_name": true
   },
   {
-    "name": "Battle Mania",
-    "filename": "Battle Mania (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "battle-mania",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Battle Mania Daiginjou",
     "filename": "Battle Mania 2 - TS Vintage (J) [c][!].smd",
     "image": "/images/roms/gens/battle-mania-daiginjou.jpg",
@@ -1276,16 +1266,6 @@
     "id_igdb": 42627,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Beast Warrior",
-    "filename": "Beast Warrior (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "beast-warrior",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Beast Wrestler",
@@ -1645,12 +1625,13 @@
   {
     "name": "Boogie Woogie Bowling",
     "filename": "Boogie Woogie Bowling (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/boogie-woogie-bowling.jpg",
     "console": "gens",
     "id": "boogie-woogie-bowling",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Boxing Legends of the Ring",
@@ -1713,14 +1694,15 @@
     "check_name": true
   },
   {
-    "name": "Braver Battle Saga - The Space Fighter",
+    "name": "Braver Battle Saga - Legend of the Magic Warrior",
     "filename": "Braver Battle Saga - The Space Fighter (Chinese).smd",
-    "image": "",
+    "image": "/images/roms/gens/braver-battle-saga-the-space-fighter.jpg",
     "console": "gens",
     "id": "braver-battle-saga-the-space-fighter",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Brawl Brothers",
@@ -1760,7 +1742,8 @@
     "id": "breath-of-fire-3",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Breath of Fire II",
@@ -1873,12 +1856,13 @@
   {
     "name": "Bubble and Squeek",
     "filename": "Bubble and Squeek (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/bubble-and-squeek.jpg",
     "console": "gens",
     "id": "bubble-and-squeek",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Bubsy II",
@@ -2123,12 +2107,13 @@
   {
     "name": "Capt'n Havoc",
     "filename": "Capt'n Havoc (E) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/capt-n-havoc.jpg",
     "console": "gens",
     "id": "capt-n-havoc",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Captain America and the Avengers",
@@ -2335,16 +2320,6 @@
     "check_name": true
   },
   {
-    "name": "Chaos Engine 2, The",
-    "filename": "Chaos Engine 2, The (E) [x].smd",
-    "image": "",
-    "console": "gens",
-    "id": "chaos-engine-2-the",
-    "id_igdb": "",
-    "active": true,
-    "check": true
-  },
-  {
     "name": "Chase H.Q. II",
     "filename": "Chase HQ 2 (JUE) [!].smd",
     "image": "/images/roms/gens/chase-hq-ii.jpg",
@@ -2354,16 +2329,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Chavez 2",
-    "filename": "Chavez 2 (U).smd",
-    "image": "",
-    "console": "gens",
-    "id": "chavez-2",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Cheese Cat-Astrophe starring Speedy Gonzales",
@@ -2429,12 +2394,13 @@
   {
     "name": "Chinese Chess",
     "filename": "Chinese Chess (Chinese).smd",
-    "image": "",
+    "image": "/images/roms/gens/chinese-chess.jpg",
     "console": "gens",
     "id": "chinese-chess",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Choplifter III",
@@ -2694,7 +2660,8 @@
     "id": "combat-aces",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Combat Cars",
@@ -2729,12 +2696,13 @@
   {
     "name": "Conquering the World 3",
     "filename": "Conquering the World 3 (Chinese).smd",
-    "image": "",
+    "image": "/images/roms/gens/conquering-the-world-3.png",
     "console": "gens",
     "id": "conquering-the-world-3",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Contra III: The Alien Wars",
@@ -2847,16 +2815,6 @@
     "id_igdb": 4552,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Crying",
-    "filename": "Crying (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "crying",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Crystal's Pony Tale",
@@ -3245,12 +3203,13 @@
   {
     "name": "Devil's Course 3-D Golf",
     "filename": "Devil's Course 3-D Golf (J) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/devil-s-course-3-d-golf.jpg",
     "console": "gens",
     "id": "devil-s-course-3-d-golf",
     "id_igdb": "",
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Devilish Mahjong Tower",
@@ -3759,16 +3718,6 @@
     "id_igdb": 42635,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Dragon's Eye - Shanghai 3",
-    "filename": "Dragon's Eye - Shanghai 3 (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "dragon-s-eye-shanghai-3",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Dragon's Fury",
@@ -4365,22 +4314,12 @@
   {
     "name": "F1 Circus MD",
     "filename": "F1 Circus MD (J) [!].smd",
-    "image": "/images/roms/gens/f1-circus-md.jpg",
+    "image": "/images/roms/gens/f1-circus-md.png",
     "console": "gens",
     "id": "f1-circus-md",
     "id_igdb": 125458,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "F1 Hero MD",
-    "filename": "F1 Hero MD (J) [c][!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "f1-hero-md",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "F1 Pole Position",
@@ -4652,14 +4591,15 @@
     "check_name": true
   },
   {
-    "name": "Fengshen Yingjiechuan",
+    "name": "Feng Shen Ying Jie Chuan",
     "filename": "Fengshen Yingjiechuan (Heroic Legend of Sealing Gods) (Unl).smd",
-    "image": "",
+    "image": "/images/roms/gens/feng-shen-ying-jie-chuan.jpg",
     "console": "gens",
-    "id": "fengshen-yingjiechuan",
-    "id_igdb": "",
+    "id": "feng-shen-ying-jie-chuan",
+    "id_igdb": 93061,
     "active": true,
-    "check": true
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Ferrari Grand Prix Challenge",
@@ -5208,16 +5148,6 @@
     "id": "garry-kitchens-super-battletank-war-in-the-gulf",
     "id_igdb": 46681,
     "active": true
-  },
-  {
-    "name": "Gauntlet Arcade Version",
-    "filename": "Gauntlet Arcade Version (JUE) [R-Jap].smd",
-    "image": "",
-    "console": "gens",
-    "id": "gauntlet-arcade-version",
-    "id_igdb": "",
-    "active": true,
-    "check": true
   },
   {
     "name": "Gauntlet IV",
@@ -9239,6 +9169,16 @@
     "check_name": true
   },
   {
+    "name": "Nakajima Satoru Kanshuu: F1 Hero MD",
+    "filename": "F1 Hero MD (J) [c][!].smd",
+    "image": "/images/roms/gens/nakajima-satoru-kanshuu-f1-hero-md.jpg",
+    "console": "gens",
+    "id": "nakajima-satoru-kanshuu-f1-hero-md",
+    "id_igdb": "",
+    "active": true,
+    "check": true
+  },
+  {
     "name": "Nakajima Satoru Kanshuu: F1 Super License",
     "filename": "F1 Super License (Nakajima Satoru) (J).smd",
     "image": "/images/roms/gens/nakajima-satoru-kanshuu-f1-super-license.jpg",
@@ -11713,6 +11653,17 @@
     "id_igdb": 4450,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Shanghai III: Dragon's Eye",
+    "filename": "Dragon's Eye - Shanghai 3 (J).smd",
+    "image": "/images/roms/gens/dragon-s-eye-shanghai-3.jpg",
+    "console": "gens",
+    "id": "dragon-s-eye-shanghai-3",
+    "id_igdb": "",
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "Shaq-Fu",
@@ -14506,6 +14457,17 @@
     "active": true,
     "check": true,
     "check_name": true
+  },
+  {
+    "name": "The Chaos Engine 2",
+    "filename": "Chaos Engine 2, The (E) [x].smd",
+    "image": "/images/roms/gens/chaos-engine-2-the.webp",
+    "console": "gens",
+    "id": "chaos-engine-2-the",
+    "id_igdb": "",
+    "active": true,
+    "check": true,
+    "check_image": true
   },
   {
     "name": "The Chessmaster",
