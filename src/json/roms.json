@@ -11039,11 +11039,12 @@
   {
     "name": "Ronaldinho 98",
     "filename": "Ronaldinho 98 (C) [c][!].smd",
-    "image": "",
+    "image": "https://cdn.thegamesdb.net/images/original/boxart/front/52499-1.png",
     "console": "gens",
     "id": "ronaldinho-98",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ronaldinho Soccer 97",
@@ -11152,7 +11153,8 @@
     "console": "gens",
     "id": "samurai-spirits",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sangokushi Retsuden: Ransei no Eiyuu-tachi",
@@ -11299,7 +11301,8 @@
     "console": "gens",
     "id": "sensible-soccer",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sensible Soccer",
@@ -11317,7 +11320,8 @@
     "console": "gens",
     "id": "sensible-soccer-international-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Sensible Soccer - International Edition",
@@ -11514,7 +11518,8 @@
     "console": "gens",
     "id": "shiten-myooh",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Shougino",
@@ -11523,7 +11528,8 @@
     "console": "gens",
     "id": "shougino",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Shove It! The Warehouse Game",
@@ -11674,20 +11680,22 @@
   {
     "name": "Smart Mouse",
     "filename": "Smart Mouse (Unl) [c].smd",
-    "image": "",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6B3DmU0g_S8zwckHs4OcrKzlGO7L5EkwBsQcGDioWR5CvfMBIx63dB9nvKvZWOPV2R8&usqp=CAU&.png",
     "console": "gens",
     "id": "smart-mouse",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Smash TV",
+    "name": "Smash T.V.",
     "filename": "Smash TV (JUE) [!].smd",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j51.jpg",
     "console": "gens",
     "id": "smash-tv",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 20504,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Smash Tennis",
