@@ -11039,7 +11039,7 @@
   {
     "name": "Ronaldinho 98",
     "filename": "Ronaldinho 98 (C) [c][!].smd",
-    "image": "https://cdn.thegamesdb.net/images/original/boxart/front/52499-1.png",
+    "image": "/images/roms/gens/ronaldinho-98.png",
     "console": "gens",
     "id": "ronaldinho-98",
     "id_igdb": "",
@@ -11680,7 +11680,7 @@
   {
     "name": "Smart Mouse",
     "filename": "Smart Mouse (Unl) [c].smd",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT6B3DmU0g_S8zwckHs4OcrKzlGO7L5EkwBsQcGDioWR5CvfMBIx63dB9nvKvZWOPV2R8&usqp=CAU&.png",
+    "image": "/images/roms/gens/smart-mouse.png",
     "console": "gens",
     "id": "smart-mouse",
     "id_igdb": "",
@@ -11690,7 +11690,7 @@
   {
     "name": "Smash T.V.",
     "filename": "Smash TV (JUE) [!].smd",
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j51.jpg",
+    "image": "/images/roms/gens/smash-tv.jpg",
     "console": "gens",
     "id": "smash-tv",
     "id_igdb": 20504,
@@ -12006,13 +12006,14 @@
     "check_name": true
   },
   {
-    "name": "Speed Ball 2 - Brutal Deluxe",
+    "name": "Speedball 2: Brutal Deluxe",
     "filename": "Speed Ball 2 - Brutal Deluxe (E) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/speedball-2-brutal-deluxe.jpg",
     "console": "gens",
-    "id": "speed-ball-2-brutal-deluxe",
-    "id_igdb": "",
-    "active": true
+    "id": "speedball-2-brutal-deluxe",
+    "id_igdb": 10152,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Speed Racer in My Most Dangerous Adventures",
@@ -12101,13 +12102,14 @@
     "active": true
   },
   {
-    "name": "Spiderman vs Kingpin",
+    "name": "The Amazing Spider-Man vs. The Kingpin",
     "filename": "Spiderman vs Kingpin (U) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/the-amazing-spider-man-vs-the-kingpin.jpg",
     "console": "gens",
-    "id": "spiderman-vs-kingpin",
-    "id_igdb": "",
-    "active": true
+    "id": "the-amazing-spider-man-vs-the-kingpin",
+    "id_igdb": 5357,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Spindizzy Worlds",
@@ -12381,7 +12383,8 @@
     "console": "gens",
     "id": "story-of-thor-the",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Combat",
@@ -12394,22 +12397,24 @@
     "check_name": true
   },
   {
-    "name": "Street Fighter 2 Plus Champion Edition",
+    "name": "Street Fighter II: Plus Champion Edition",
     "filename": "Street Fighter 2 Plus Champion Edition (J) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/street-fighter-ii-plus-champion-edition.jpg",
     "console": "gens",
-    "id": "street-fighter-2-plus-champion-edition",
+    "id": "street-fighter-ii-plus-champion-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Street Fighter 2 Turbo",
+    "name": "Street Fighter II Turbo",
     "filename": "Street Fighter 2 Turbo (U) [h1].smd",
-    "image": "",
+    "image": "/images/roms/gens/street-fighter-ii-turbo.png",
     "console": "gens",
-    "id": "street-fighter-2-turbo",
+    "id": "street-fighter-ii-turbo",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter Alpha 2",
