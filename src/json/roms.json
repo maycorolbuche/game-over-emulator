@@ -12535,15 +12535,6 @@
     "check_name": true
   },
   {
-    "name": "Super 15-in-1",
-    "filename": "Super 15-in-1 (U) [p1].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-15-in-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Adventure Island",
     "filename": "Super Adventure Island (E).smc",
     "image": "/images/roms/snes/super-adventure-island.jpg",
