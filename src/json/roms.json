@@ -11043,8 +11043,7 @@
     "console": "gens",
     "id": "ronaldinho-98",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ronaldinho Soccer 97",
@@ -11492,6 +11491,15 @@
     "check_name": true
   },
   {
+    "name": "Shura no Mon",
+    "filename": "Syura no Mon (J).smd",
+    "image": "/images/roms/gens/shura-no-mon.jpg",
+    "console": "gens",
+    "id": "shura-no-mon",
+    "id_igdb": 46258,
+    "active": true
+  },
+  {
     "name": "Sid Meier's Civilization",
     "filename": "Civilization (U) [!].smc",
     "image": "/images/roms/snes/sid-meiers-civilization.jpg",
@@ -11634,8 +11642,7 @@
     "console": "gens",
     "id": "smart-mouse",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Smash T.V.",
@@ -11644,8 +11651,7 @@
     "console": "gens",
     "id": "smash-tv",
     "id_igdb": 20504,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Smash Tennis",
@@ -11972,8 +11978,7 @@
     "console": "gens",
     "id": "speedball-2-brutal-deluxe",
     "id_igdb": 10152,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Speedy Gonzales: Los Gatos Bandidos",
@@ -12352,8 +12357,7 @@
     "console": "gens",
     "id": "street-fighter-ii-turbo",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter II Turbo - Hyper Fighting",
@@ -12371,8 +12375,7 @@
     "console": "gens",
     "id": "street-fighter-ii-plus-champion-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter II: Special Champion Edition",
@@ -12991,24 +12994,6 @@
     "check_name": true
   },
   {
-    "name": "Super League",
-    "filename": "Super League (Feb 1989) (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-league",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super League 91",
-    "filename": "Super League 91 (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-league-91",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Mario All-Stars",
     "filename": "Super Mario All-Stars (U) [!].smc",
     "image": "/images/roms/snes/super-mario-all-stars.jpg",
@@ -13146,15 +13131,6 @@
     "id_igdb": 42575,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Offroad",
-    "filename": "Super Offroad (U) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "super-offroad",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Pinball: Behind the Mask",
@@ -13535,15 +13511,6 @@
     "check_name": true
   },
   {
-    "name": "Syura no Mon",
-    "filename": "Syura no Mon (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "syura-no-mon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Syvalion",
     "filename": "Syvalion (E).smc",
     "image": "/images/roms/snes/syvalion.jpg",
@@ -13552,25 +13519,6 @@
     "id_igdb": 40249,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "T2: The Arcade Game",
-    "filename": "T2 - The Arcade Game (U).smc",
-    "image": "/images/roms/snes/t2-the-arcade-game.jpg",
-    "console": "snes",
-    "id": "t2-the-arcade-game",
-    "id_igdb": 12861,
-    "active": true,
-    "check_name": true
-  },
-  {
-    "name": "T2: The Arcade Game",
-    "filename": "Terminator 2 - The Arcade Game (JUE) [!].smd",
-    "image": "/images/roms/gens/t2-the-arcade-game.jpg",
-    "console": "gens",
-    "id": "t2-the-arcade-game",
-    "id_igdb": 12861,
-    "active": true
   },
   {
     "name": "TKO Super Championship Boxing",
@@ -13619,24 +13567,6 @@
     "console": "gens",
     "id": "taiheiki",
     "id_igdb": 4397,
-    "active": true
-  },
-  {
-    "name": "Taiko Rissi Den",
-    "filename": "Taiko Rissi Den (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "taiko-rissi-den",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Taiwan Tycoon",
-    "filename": "Taiwan Tycoon (J) [x].smd",
-    "image": "",
-    "console": "gens",
-    "id": "taiwan-tycoon",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -13851,7 +13781,7 @@
   {
     "name": "Tecmo World Cup 92",
     "filename": "Tecmo World Cup 92 (JU) [!].smd",
-    "image": "",
+    "image": "/images/roms/gens/tecmo-world-cup-92.jpg",
     "console": "gens",
     "id": "tecmo-world-cup-92",
     "id_igdb": "",
@@ -13898,15 +13828,6 @@
     "check_name": true
   },
   {
-    "name": "Tel Tel Stadium",
-    "filename": "Tel Tel Stadium (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "tel-tel-stadium",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tel-Tel Mahjong",
     "filename": "Tel Tel Mahjong (J) [h1].smd",
     "image": "/images/roms/gens/tel-tel-mahjong.jpg",
@@ -13934,6 +13855,25 @@
     "id_igdb": 12793,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Terminator 2: The Arcade Game",
+    "filename": "T2 - The Arcade Game (U).smc",
+    "image": "/images/roms/snes/t2-the-arcade-game.jpg",
+    "console": "snes",
+    "id": "t2-the-arcade-game",
+    "id_igdb": 12861,
+    "active": true,
+    "check_name": true
+  },
+  {
+    "name": "Terminator 2: The Arcade Game",
+    "filename": "Terminator 2 - The Arcade Game (JUE) [!].smd",
+    "image": "/images/roms/gens/t2-the-arcade-game.jpg",
+    "console": "gens",
+    "id": "t2-the-arcade-game",
+    "id_igdb": 12861,
+    "active": true
   },
   {
     "name": "Terranigma",
@@ -14100,8 +14040,7 @@
     "console": "gens",
     "id": "the-amazing-spider-man-vs-the-kingpin",
     "id_igdb": 5357,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Aquatic Games: Starring James Pond and the Aquabats",
@@ -15045,24 +14984,6 @@
     "check_name": true
   },
   {
-    "name": "Tiger Hunter Hero Novel",
-    "filename": "Tiger Hunter Hero Novel (Chinese).smd",
-    "image": "",
-    "console": "gens",
-    "id": "tiger-hunter-hero-novel",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Time Dominator 1st",
-    "filename": "Time Dominator 1st (JUE).smd",
-    "image": "",
-    "console": "gens",
-    "id": "time-dominator-1st",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Time Killers",
     "filename": "Time Killers (E) [!].smd",
     "image": "/images/roms/gens/time-killers.jpg",
@@ -15772,15 +15693,6 @@
     "check_name": true
   },
   {
-    "name": "Ultimate Qix",
-    "filename": "Ultimate Qix (JUE) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "ultimate-qix",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Ultimate Soccer",
     "filename": "Ultimate Soccer (E) [!].smd",
     "image": "/images/roms/gens/ultimate-soccer.jpg",
@@ -16375,7 +16287,7 @@
   {
     "name": "Waterworld",
     "filename": "Waterworld (E).smd",
-    "image": "",
+    "image": "/images/roms/gens/waterworld.jpg",
     "console": "gens",
     "id": "waterworld",
     "id_igdb": "",
@@ -16930,15 +16842,6 @@
     "check_name": true
   },
   {
-    "name": "World Pro Baseball 94",
-    "filename": "World Pro Baseball 94 (Unl) [c].smd",
-    "image": "",
-    "console": "gens",
-    "id": "world-pro-baseball-94",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "World Series Baseball",
     "filename": "World Series Baseball (U) [!].smd",
     "image": "/images/roms/gens/world-series-baseball.jpg",
@@ -17006,15 +16909,6 @@
     "id_igdb": 4390,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "World War 2",
-    "filename": "World War 2 (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "world-war-2",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Worms",
@@ -17137,21 +17031,12 @@
     "check_name": true
   },
   {
-    "name": "Ya-Se Chuan Shuo",
+    "name": "Yase Chuan Shuo",
     "filename": "Ya-Se Chuan Shuo (Chinese).smd",
-    "image": "",
+    "image": "/images/roms/gens/yase-chuan-shuo.jpg",
     "console": "gens",
-    "id": "ya-se-chuan-shuo",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Yang Warrior Family, The",
-    "filename": "Yang Warrior Family, The (Chinese).smd",
-    "image": "",
-    "console": "gens",
-    "id": "yang-warrior-family-the",
-    "id_igdb": "",
+    "id": "yase-chuan-shuo",
+    "id_igdb": 78437,
     "active": true
   },
   {
@@ -17173,15 +17058,6 @@
     "id_igdb": 11604,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Young Indiana Jones Chronicles",
-    "filename": "Young Indiana Jones Chronicles (U) [x].smd",
-    "image": "",
-    "console": "gens",
-    "id": "young-indiana-jones-chronicles",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Young Merlin",
@@ -17214,21 +17090,12 @@
     "check_name": true
   },
   {
-    "name": "Yu Yu Hakusho - Makyoutohissen",
+    "name": "YuYu Hakusho: Sunset Fighters",
     "filename": "Yu Yu Hakusho - Makyoutohissen (J).smd",
-    "image": "",
+    "image": "/images/roms/gens/yuyu-hakusho-sunset-fighters.jpg",
     "console": "gens",
-    "id": "yu-yu-hakusho-makyoutohissen",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Zan Yasha Enbuden",
-    "filename": "Zan Yasha Enbuden (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "zan-yasha-enbuden",
-    "id_igdb": "",
+    "id": "yuyu-hakusho-sunset-fighters",
+    "id_igdb": 45607,
     "active": true
   },
   {
