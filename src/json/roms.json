@@ -11147,16 +11147,6 @@
     "check_name": true
   },
   {
-    "name": "Samurai Spirits",
-    "filename": "Samurai Spirits (J) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "samurai-spirits",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Sangokushi Retsuden: Ransei no Eiyuu-tachi",
     "filename": "Sangokushi Retsuden (J) [!].smd",
     "image": "/images/roms/gens/sangokushi-retsuden-ransei-no-eiyuu-tachi.jpg",
@@ -11296,32 +11286,12 @@
   },
   {
     "name": "Sensible Soccer",
-    "filename": "Sensible Soccer (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "sensible-soccer",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Sensible Soccer",
     "filename": "Sensible Soccer (E) (37362).smc",
     "image": "",
     "console": "snes",
     "id": "sensible-soccer",
     "id_igdb": "",
     "active": true
-  },
-  {
-    "name": "Sensible Soccer - International Edition",
-    "filename": "Sensible Soccer - International Edition (E) [!].smd",
-    "image": "",
-    "console": "gens",
-    "id": "sensible-soccer-international-edition",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Sensible Soccer - International Edition",
@@ -11510,26 +11480,6 @@
     "id_igdb": 2623,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Shiten Myooh",
-    "filename": "Shiten Myooh (J) [c].smd",
-    "image": "",
-    "console": "gens",
-    "id": "shiten-myooh",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Shougino",
-    "filename": "Shougino (J).smd",
-    "image": "",
-    "console": "gens",
-    "id": "shougino",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Shove It! The Warehouse Game",
@@ -12006,16 +11956,6 @@
     "check_name": true
   },
   {
-    "name": "Speedball 2: Brutal Deluxe",
-    "filename": "Speed Ball 2 - Brutal Deluxe (E) [!].smd",
-    "image": "/images/roms/gens/speedball-2-brutal-deluxe.jpg",
-    "console": "gens",
-    "id": "speedball-2-brutal-deluxe",
-    "id_igdb": 10152,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Speed Racer in My Most Dangerous Adventures",
     "filename": "Speed Racer in My Most Dangerous Adventures (U).smc",
     "image": "/images/roms/snes/speed-racer-in-my-most-dangerous-adventures.jpg",
@@ -12024,6 +11964,16 @@
     "id_igdb": 42457,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Speedball 2: Brutal Deluxe",
+    "filename": "Speed Ball 2 - Brutal Deluxe (E) [!].smd",
+    "image": "/images/roms/gens/speedball-2-brutal-deluxe.jpg",
+    "console": "gens",
+    "id": "speedball-2-brutal-deluxe",
+    "id_igdb": 10152,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Speedy Gonzales: Los Gatos Bandidos",
@@ -12100,16 +12050,6 @@
     "id": "spider-man-and-the-x-men-in-arcade-s-revenge",
     "id_igdb": 4389,
     "active": true
-  },
-  {
-    "name": "The Amazing Spider-Man vs. The Kingpin",
-    "filename": "Spiderman vs Kingpin (U) [!].smd",
-    "image": "/images/roms/gens/the-amazing-spider-man-vs-the-kingpin.jpg",
-    "console": "gens",
-    "id": "the-amazing-spider-man-vs-the-kingpin",
-    "id_igdb": 5357,
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Spindizzy Worlds",
@@ -12377,16 +12317,6 @@
     "check_name": true
   },
   {
-    "name": "Story of Thor, The",
-    "filename": "Story of Thor, The (8) (Spanish).smd",
-    "image": "",
-    "console": "gens",
-    "id": "story-of-thor-the",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Street Combat",
     "filename": "Street Combat (E).smc",
     "image": "/images/roms/snes/street-combat.jpg",
@@ -12395,26 +12325,6 @@
     "id_igdb": 38432,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Street Fighter II: Plus Champion Edition",
-    "filename": "Street Fighter 2 Plus Champion Edition (J) [!].smd",
-    "image": "/images/roms/gens/street-fighter-ii-plus-champion-edition.jpg",
-    "console": "gens",
-    "id": "street-fighter-ii-plus-champion-edition",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Street Fighter II Turbo",
-    "filename": "Street Fighter 2 Turbo (U) [h1].smd",
-    "image": "/images/roms/gens/street-fighter-ii-turbo.png",
-    "console": "gens",
-    "id": "street-fighter-ii-turbo",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Street Fighter Alpha 2",
@@ -12436,6 +12346,16 @@
     "active": true
   },
   {
+    "name": "Street Fighter II Turbo",
+    "filename": "Street Fighter 2 Turbo (U) [h1].smd",
+    "image": "/images/roms/gens/street-fighter-ii-turbo.png",
+    "console": "gens",
+    "id": "street-fighter-ii-turbo",
+    "id_igdb": "",
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Street Fighter II Turbo - Hyper Fighting",
     "filename": "Street Fighter II Turbo - Hyper Fighting (U) [!].smc",
     "image": "",
@@ -12443,6 +12363,16 @@
     "id": "street-fighter-ii-turbo-hyper-fighting",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Street Fighter II: Plus Champion Edition",
+    "filename": "Street Fighter 2 Plus Champion Edition (J) [!].smd",
+    "image": "/images/roms/gens/street-fighter-ii-plus-champion-edition.jpg",
+    "console": "gens",
+    "id": "street-fighter-ii-plus-champion-edition",
+    "id_igdb": "",
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter II: Special Champion Edition",
@@ -14171,6 +14101,16 @@
     "id_igdb": 42588,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Amazing Spider-Man vs. The Kingpin",
+    "filename": "Spiderman vs Kingpin (U) [!].smd",
+    "image": "/images/roms/gens/the-amazing-spider-man-vs-the-kingpin.jpg",
+    "console": "gens",
+    "id": "the-amazing-spider-man-vs-the-kingpin",
+    "id_igdb": 5357,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Aquatic Games: Starring James Pond and the Aquabats",
