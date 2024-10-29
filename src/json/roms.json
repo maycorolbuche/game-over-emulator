@@ -1451,24 +1451,6 @@
     "check_name": true
   },
   {
-    "name": "Black Hawk",
-    "filename": "Black Hawk (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "black-hawk",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Blackhawk",
-    "filename": "Blackhawk (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "blackhawk",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Blackthorne",
     "filename": "Blackthorne (U) [!].smc",
     "image": "/images/roms/snes/blackthorne.jpg",
@@ -1547,15 +1529,6 @@
     "id_igdb": 45645,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Blues Brothers, The",
-    "filename": "Blues Brothers, The (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "blues-brothers-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Bobby's World",
@@ -1784,15 +1757,6 @@
     "console": "snes",
     "id": "bronkie-the-bronchiasaurus",
     "id_igdb": 42624,
-    "active": true
-  },
-  {
-    "name": "Brunswick Bowling",
-    "filename": "Brunswick Bowling (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "brunswick-bowling",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -2887,11 +2851,12 @@
   {
     "name": "Cyborg 009",
     "filename": "Cyborg 009 (Beta).smc",
-    "image": "",
+    "image": "/images/roms/snes/cyborg-009.jpg",
     "console": "snes",
     "id": "cyborg-009",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 84111,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Cyborg Justice",
@@ -4150,15 +4115,6 @@
     "check_name": true
   },
   {
-    "name": "Euro Football Champ",
-    "filename": "Euro Football Champ (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "euro-football-champ",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Evander Holyfield's Real Deal Boxing",
     "filename": "Evander Holyfield's Real Deal Boxing (U) [!].smd",
     "image": "/images/roms/gens/evander-holyfields-real-deal-boxing.jpg",
@@ -4177,15 +4133,6 @@
     "id_igdb": 36738,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Exhaust Heat",
-    "filename": "Exhaust Heat (E) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "exhaust-heat",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Exile",
@@ -4347,15 +4294,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "FIFA 97 - Gold Edition",
-    "filename": "FIFA 97 - Gold Edition (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "fifa-97-gold-edition",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "FIFA International Soccer",
@@ -4575,15 +4513,6 @@
     "id_igdb": 48290,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Fever Pitch Soccer",
-    "filename": "Fever Pitch Soccer (E) (M5) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "fever-pitch-soccer",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Fido Dido",
@@ -5195,15 +5124,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Genocide 2",
-    "filename": "Genocide 2 (Beta).smc",
-    "image": "",
-    "console": "snes",
-    "id": "genocide-2",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "George Foreman's KO Boxing",
@@ -6056,15 +5976,6 @@
     "active": true
   },
   {
-    "name": "Jack Nicklaus Golf",
-    "filename": "Jack Nicklaus Golf (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "jack-nicklaus-golf",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jack Nicklaus' Power Challenge Golf",
     "filename": "Jack Nicklaus' Power Challenge Golf (JUE) [!].smd",
     "image": "/images/roms/gens/jack-nicklaus-power-challenge-golf.jpg",
@@ -6222,15 +6133,6 @@
     "id_igdb": 46205,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jeopardy!",
-    "filename": "Jeopardy! (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "jeopardy-",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Jeopardy! Deluxe Edition",
@@ -6583,15 +6485,6 @@
     "id_igdb": 4529,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Kablooey",
-    "filename": "Kablooey (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "kablooey",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Kawasaki Caribbean Challenge",
@@ -7902,15 +7795,6 @@
     "check": true
   },
   {
-    "name": "Mega lo Mania",
-    "filename": "Mega lo Mania (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "mega-lo-mania",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Megapanel",
     "filename": "Megapanel (J) [c][!].smd",
     "image": "/images/roms/gens/megapanel.jpg",
@@ -9156,15 +9040,6 @@
     "check_name": true
   },
   {
-    "name": "Nobunaga's Ambition - Lord of Darkness",
-    "filename": "Nobunaga's Ambition - Lord of Darkness (U).smc",
-    "image": "",
-    "console": "snes",
-    "id": "nobunaga-s-ambition-lord-of-darkness",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Nolan Ryan's Baseball",
     "filename": "Nolan Ryan's Baseball (U) [!].smc",
     "image": "/images/roms/snes/nolan-ryans-baseball.jpg",
@@ -10320,11 +10195,12 @@
   {
     "name": "Puzzle Bobble",
     "filename": "Puzzle Bobble (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/puzzle-bobble.jpg",
     "console": "snes",
     "id": "puzzle-bobble",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Q*bert 3",
@@ -10437,11 +10313,12 @@
   {
     "name": "Race Drivin'",
     "filename": "Race Drivin' (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/race-drivin.jpg",
     "console": "snes",
-    "id": "race-drivin-",
-    "id_igdb": "",
-    "active": true
+    "id": "race-drivin",
+    "id_igdb": 12840,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Radical Rex",
@@ -10536,11 +10413,12 @@
   {
     "name": "Ranma Nibunnoichi",
     "filename": "Ranma Nibunnoichi (E).smc",
-    "image": "",
+    "image": "/images/roms/snes/ranma-nibunnoichi.jpg",
     "console": "snes",
     "id": "ranma-nibunnoichi",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ransei no Hasha",
@@ -10760,15 +10638,6 @@
     "id_igdb": 42467,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Riverse Kids",
-    "filename": "Riverse Kids (Unl).smc",
-    "image": "",
-    "console": "snes",
-    "id": "riverse-kids",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Road Rash",
@@ -11281,24 +11150,6 @@
     "console": "gens",
     "id": "sega-sports-nfl-98",
     "id_igdb": 45771,
-    "active": true
-  },
-  {
-    "name": "Sensible Soccer",
-    "filename": "Sensible Soccer (E) (37362).smc",
-    "image": "",
-    "console": "snes",
-    "id": "sensible-soccer",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sensible Soccer - International Edition",
-    "filename": "Sensible Soccer - International Edition (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "sensible-soccer-international-edition",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12342,15 +12193,6 @@
     "check_name": true
   },
   {
-    "name": "Street Fighter II - Fight Again",
-    "filename": "Street Fighter II - Fight Again .smc",
-    "image": "",
-    "console": "snes",
-    "id": "street-fighter-ii-fight-again",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Street Fighter II Turbo",
     "filename": "Street Fighter 2 Turbo (U) [h1].smd",
     "image": "/images/roms/gens/street-fighter-ii-turbo.png",
@@ -12360,13 +12202,14 @@
     "active": true
   },
   {
-    "name": "Street Fighter II Turbo - Hyper Fighting",
+    "name": "Street Fighter II Turbo: Hyper Fighting",
     "filename": "Street Fighter II Turbo - Hyper Fighting (U) [!].smc",
-    "image": "",
+    "image": "/images/roms/snes/street-fighter-ii-turbo-hyper-fighting.jpg",
     "console": "snes",
     "id": "street-fighter-ii-turbo-hyper-fighting",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 20878,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Street Fighter II: Plus Champion Edition",
@@ -12676,15 +12519,6 @@
     "id_igdb": 38425,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Black Bass",
-    "filename": "Super Black Bass (U) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "super-black-bass",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Bomberman",
@@ -14071,6 +13905,16 @@
     "id_igdb": 46539,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Blues Brothers: Jukebox Adventure",
+    "filename": "Blues Brothers, The (E) [!].smc",
+    "image": "/images/roms/snes/the-blues-brothers-jukebox-adventure.jpg",
+    "console": "snes",
+    "id": "the-blues-brothers-jukebox-adventure",
+    "id_igdb": 47007,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Brainies",
@@ -15851,15 +15695,6 @@
     "check_name": true
   },
   {
-    "name": "Val d'Isere Championship",
-    "filename": "Val d'Isere Championship (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "val-d-isere-championship",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Valis",
     "filename": "Valis - The Fantasm Soldier (U) [!].smd",
     "image": "/images/roms/gens/valis.jpg",
@@ -16492,13 +16327,14 @@
     "check_name": true
   },
   {
-    "name": "Wile E Coyotes Revenge",
+    "name": "Wile E. Coyote's Revenge",
     "filename": "Wile E Coyotes Revenge (E) (NG-Dump Known).smc",
-    "image": "",
+    "image": "/images/roms/snes/wile-e-coyotes-revenge.jpg",
     "console": "snes",
     "id": "wile-e-coyotes-revenge",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Williams Arcade's Greatest Hits",
@@ -16649,11 +16485,12 @@
   {
     "name": "Wolfenstein 3D",
     "filename": "Wolfenstein 3D (U).smc",
-    "image": "",
+    "image": "/images/roms/snes/wolfenstein-3d.jpg",
     "console": "snes",
     "id": "wolfenstein-3d",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 262516,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Wolverine: Adamantium Rage",
@@ -16754,15 +16591,6 @@
     "check_name": true
   },
   {
-    "name": "World Cup Striker",
-    "filename": "World Cup Striker (E) (M3) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "world-cup-striker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "World Cup USA '94",
     "filename": "World Cup USA 94 (UE) [!].smd",
     "image": "/images/roms/gens/world-cup-usa-94.jpg",
@@ -16811,15 +16639,6 @@
     "id_igdb": 37251,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "World League Basketball",
-    "filename": "World League Basketball (UE) [!].smc",
-    "image": "",
-    "console": "snes",
-    "id": "world-league-basketball",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "World League Soccer",
@@ -16880,15 +16699,6 @@
     "id_igdb": 4473,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "World Soccer",
-    "filename": "World Soccer (E).smc",
-    "image": "",
-    "console": "snes",
-    "id": "world-soccer",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "World Soccer 94: Road to Glory",
