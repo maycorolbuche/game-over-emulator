@@ -2855,8 +2855,7 @@
     "console": "snes",
     "id": "cyborg-009",
     "id_igdb": 84111,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Cyborg Justice",
@@ -10199,8 +10198,7 @@
     "console": "snes",
     "id": "puzzle-bobble",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Q*bert 3",
@@ -10317,8 +10315,7 @@
     "console": "snes",
     "id": "race-drivin",
     "id_igdb": 12840,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Radical Rex",
@@ -10417,8 +10414,7 @@
     "console": "snes",
     "id": "ranma-nibunnoichi",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ransei no Hasha",
@@ -12208,8 +12204,7 @@
     "console": "snes",
     "id": "street-fighter-ii-turbo-hyper-fighting",
     "id_igdb": 20878,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Fighter II: Plus Champion Edition",
@@ -13913,8 +13908,7 @@
     "console": "snes",
     "id": "the-blues-brothers-jukebox-adventure",
     "id_igdb": 47007,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Brainies",
@@ -16333,8 +16327,7 @@
     "console": "snes",
     "id": "wile-e-coyotes-revenge",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Williams Arcade's Greatest Hits",
@@ -16489,8 +16482,7 @@
     "console": "snes",
     "id": "wolfenstein-3d",
     "id_igdb": 262516,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wolverine: Adamantium Rage",
