@@ -94,7 +94,16 @@ export default {
         .filter((rom) => rom.active && rom.console === this.console_id)
         .slice()
         .sort((a, b) =>
-          a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+          a.name
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .localeCompare(
+              b.name
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+            )
         );
     },
   },
