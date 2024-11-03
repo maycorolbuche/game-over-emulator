@@ -10,6 +10,9 @@
         possibilitar que as pessoas sejam felizes, jogando os clássicos de
         sempre.
       </div>
+      <div class="text-center font-weight-bold p-3">
+        Quer entrar em contato? Chama no whatsapp (11) 96260-2751.
+      </div>
     </div>
 
     <div style="z-index: -10">
