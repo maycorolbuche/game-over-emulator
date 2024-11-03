@@ -1,14 +1,18 @@
 <template>
-  <div class="d-flex flex-wrap align-stretch justify-center">
-    <router-link
-      v-for="console in consoles"
-      :key="console.id"
-      class="console-card d-flex flex-column align-center justify-center"
-      :to="{ name: 'Games', params: { console_id: console.id } }"
-    >
-      <img v-if="console.image" :src="console.image" />
-      <span>{{ console.name }}</span>
-    </router-link>
+  <div>
+    <div class="d-flex flex-wrap align-stretch justify-center">
+      <router-link
+        v-for="console in consoles"
+        :key="console.id"
+        class="console-card d-flex flex-column align-center justify-center"
+        :to="{ name: 'Games', params: { console_id: console.id } }"
+      >
+        <img v-if="console.image" :src="console.image" />
+        <span>{{ console.name }}</span>
+      </router-link>
+    </div>
+
+    <div class="text-center">Mais consoles em breve!</div>
 
     <tetris />
     <star />
