@@ -74,13 +74,32 @@ export default {
   },
   methods: {
     filterItems() {
-      const value = this.search.toLowerCase();
+      const value = this.search
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
       this.items = this.json_roms
-        .filter((item) => item.name.toLowerCase().includes(value))
+        .filter((item) =>
+          item.name
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .includes(value)
+        )
         .slice()
         .sort((a, b) =>
-          a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+          a.name
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .localeCompare(
+              b.name
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+            )
         );
+
       this.showItems();
     },
     selectItem(item) {
