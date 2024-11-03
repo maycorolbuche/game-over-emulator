@@ -190,6 +190,9 @@ export default {
 .item-result .img-console {
   width: 60px;
 }
+.item-result .img-console {
+  padding-right: 5px;
+}
 .item-result .info {
   flex: 1;
   padding: 8px;
