@@ -53,6 +53,7 @@
         <img :src="console_image" style="calc(100% - 20px)" />
       </div>
       <div class="flex-auto" />
+
       <div v-show="!show_controls" class="overflow-auto">
         <div
           class="d-flex flex-column align-center"
@@ -133,16 +134,16 @@
       <div v-show="show_controls" class="overflow-auto">
         <div class="d-flex flex-column" style="padding: 5px 5px 10px 10px">
           <div
-            v-for="player in game_controls"
-            :key="player.player"
+            v-for="(controls, player) in game_controls"
+            :key="player"
             style="margin-bottom: 10px"
           >
-            <div>{{ player.name }}</div>
+            <div>{{ info_player(player) }}</div>
             <key
-              v-for="key in player.controls"
-              :key="key.key"
-              :info_key="key.key"
-              :info_ref="key.ref"
+              v-for="(key, button) in controls"
+              :key="button"
+              :kkey="key"
+              :button="button"
             />
           </div>
           <a
@@ -181,7 +182,7 @@ export default {
     image: String,
     console: String,
     console_image: String,
-    controls: Array,
+    controls: Object,
   },
   data() {
     return {
@@ -208,98 +209,38 @@ export default {
   },
   computed: {
     game_controls() {
-      return [
-        {
-          player: "-",
-          name: "Emulador",
-          controls: [
-            {
-              key: ["CTRL", "ENTER"],
-              ref: "Pausar",
-            },
-            {
-              key: ["SHIFT", "="],
-              ref: "Salvar",
-            },
-            {
-              key: "=",
-              ref: "Carregar",
-            },
-            {
-              key: "F11",
-              ref: "Tela Cheia",
-            },
-            {
-              key: "TAB",
-              ref: "Reiniciar",
-            },
-            {
-              key: "'",
-              ref: "Acelerar",
-            },
-          ],
+      return {
+        emulator: {
+          pause: ["CTRL", "ENTER"],
+          save: ["SHIFT", "="],
+          load: "=",
+          fullscreen: "F11",
+          restart: "TAB",
+          accelerate: "'",
         },
-        ...(this.controls || []),
-      ];
+        ...(this.controls || {}),
+      };
     },
     retroarch_controls() {
       let result = {};
-      this.controls.forEach((player) => {
-        const playerNumber = player.player;
-        player.controls.forEach((control) => {
-          let key = control.key.toLowerCase();
-          switch (key) {
-            case "espaço":
-              key = "space";
-              break;
-            case "⬆":
-              key = "up";
-              break;
-            case "⬇":
-              key = "down";
-              break;
-            case "⬅":
-              key = "left";
-              break;
-            case "⮕":
-              key = "right";
-              break;
-            case "0":
-            case "1":
-            case "2":
-            case "3":
-            case "4":
-            case "5":
-            case "6":
-            case "7":
-            case "8":
-            case "9":
-              key = "keypad" + key;
-              break;
-            default:
-              break;
-          }
 
-          let ref = control.ref.toLowerCase();
-          switch (ref) {
-            case "cima":
-              ref = "up";
-              break;
-            case "baixo":
-              ref = "down";
-              break;
-            case "esquerda":
-              ref = "left";
-              break;
-            case "direita":
-              ref = "right";
-              break;
-            default:
-              break;
+      Object.keys(this.controls).map((player) => {
+        Object.keys(this.controls[player]).map((button) => {
+          const key = this.controls[player][button];
+          if (this.console == "gens") {
+            switch (button) {
+              case "a":
+                button = "y";
+                break;
+              case "y":
+                button = "c";
+                break;
+              case "c":
+                button = "a";
+                break;
+            }
           }
-          if (ref) {
-            result[`input_player${playerNumber}_${ref}`] = key;
-          }
+          result[`input_${player}_${button}`] = key;
         });
       });
       return result;
@@ -360,6 +301,7 @@ export default {
           },
         };
         console.log("Iniciando....", config);
+        console.log("Controles....", this.retroarch_controls);
         this.nostalgist = await Nostalgist.launch(config);
 
         this.loading = false;
@@ -438,7 +380,6 @@ export default {
         Storage.set(this.console + "." + this.id, this.slot);
       }
     },
-
     async loadState(slot) {
       if (this.nostalgist) {
         if (this.slot[slot]) {
@@ -484,6 +425,15 @@ export default {
         });
       }
     },
+    info_player(info) {
+      if (info.startsWith("player")) {
+        const playerNumber = info.replace("player", "");
+        return `Player ${playerNumber}`;
+      } else if (info === "emulator") {
+        return "Emulador";
+      }
+      return info;
+    },
   },
   mounted() {
     window.addEventListener("click", this.handleUserInteraction);
@@ -520,7 +470,7 @@ export default {
     if (this.nostalgist) {
       this.nostalgist.exit();
     }
-    this.nostalgist=null;
+    this.nostalgist = null;
 
     window.removeEventListener("click", this.handleUserInteraction);
     window.removeEventListener("keydown", this.handleUserInteraction);

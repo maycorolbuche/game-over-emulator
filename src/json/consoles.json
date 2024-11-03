@@ -3,116 +3,36 @@
     "name": "Mega Drive",
     "image": "/images/consoles/gens.png",
     "id": "gens",
-    "controls": [
-      {
-        "player": 1,
-        "name": "Player 1",
-        "controls": [
-          {
-            "key": "ENTER",
-            "ref": "Start"
-          },
-          {
-            "key": "ESPAÇO",
-            "ref": "Select"
-          },
-          {
-            "key": "Z",
-            "ref": "A"
-          },
-          {
-            "key": "X",
-            "ref": "B"
-          },
-          {
-            "key": "C",
-            "ref": "C"
-          },
-          {
-            "key": "A",
-            "ref": "X"
-          },
-          {
-            "key": "S",
-            "ref": "Y"
-          },
-          {
-            "key": "D",
-            "ref": "Z"
-          },
-          {
-            "key": "⬆",
-            "ref": "Cima"
-          },
-          {
-            "key": "⬇",
-            "ref": "Baixo"
-          },
-          {
-            "key": "⬅",
-            "ref": "Esquerda"
-          },
-          {
-            "key": "⮕",
-            "ref": "Direita"
-          }
-        ]
+    "controls": {
+      "player1": {
+        "start": "enter",
+        "select": "space",
+        "a": "z",
+        "b": "x",
+        "c": "c",
+        "x": "a",
+        "y": "s",
+        "z": "d",
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right"
       },
-      {
-        "player": 2,
-        "name": "Player 2",
-        "controls": [
-          {
-            "key": "0",
-            "ref": "Start"
-          },
-          {
-            "key": ",",
-            "ref": "Select"
-          },
-          {
-            "key": "B",
-            "ref": "A"
-          },
-          {
-            "key": "N",
-            "ref": "B"
-          },
-          {
-            "key": "M",
-            "ref": "C"
-          },
-          {
-            "key": "H",
-            "ref": "X"
-          },
-          {
-            "key": "J",
-            "ref": "Y"
-          },
-          {
-            "key": "K",
-            "ref": "Z"
-          },
-          {
-            "key": "5",
-            "ref": "Cima"
-          },
-          {
-            "key": "2",
-            "ref": "Baixo"
-          },
-          {
-            "key": "1",
-            "ref": "Esquerda"
-          },
-          {
-            "key": "3",
-            "ref": "Direita"
-          }
-        ]
+      "player2": {
+        "start": "keypad0",
+        "select": ",",
+        "a": "b",
+        "b": "n",
+        "c": "m",
+        "x": "h",
+        "y": "j",
+        "z": "k",
+        "up": "keypad5",
+        "down": "keypad2",
+        "left": "keypad1",
+        "right": "keypad3"
       }
-    ],
+    },
     "active": true
   },
   {
@@ -131,116 +51,36 @@
     "name": "Super Nintendo",
     "image": "/images/consoles/snes.png",
     "id": "snes",
-    "controls": [
-      {
-        "player": 1,
-        "name": "Player 1",
-        "controls": [
-          {
-            "key": "ENTER",
-            "ref": "Start"
-          },
-          {
-            "key": "ESPAÇO",
-            "ref": "Select"
-          },
-          {
-            "key": "Z",
-            "ref": "A"
-          },
-          {
-            "key": "X",
-            "ref": "B"
-          },
-          {
-            "key": "A",
-            "ref": "X"
-          },
-          {
-            "key": "S",
-            "ref": "Y"
-          },
-          {
-            "key": "D",
-            "ref": "L"
-          },
-          {
-            "key": "C",
-            "ref": "R"
-          },
-          {
-            "key": "⬆",
-            "ref": "Cima"
-          },
-          {
-            "key": "⬇",
-            "ref": "Baixo"
-          },
-          {
-            "key": "⬅",
-            "ref": "Esquerda"
-          },
-          {
-            "key": "⮕",
-            "ref": "Direita"
-          }
-        ]
+    "controls": {
+      "player1": {
+        "start": "enter",
+        "select": "space",
+        "a": "z",
+        "b": "c",
+        "l": "a",
+        "x": "s",
+        "y": "x",
+        "r": "d",
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right"
       },
-      {
-        "player": 2,
-        "name": "Player 2",
-        "controls": [
-          {
-            "key": "0",
-            "ref": "Start"
-          },
-          {
-            "key": ",",
-            "ref": "Select"
-          },
-          {
-            "key": "B",
-            "ref": "A"
-          },
-          {
-            "key": "N",
-            "ref": "B"
-          },
-          {
-            "key": "H",
-            "ref": "X"
-          },
-          {
-            "key": "J",
-            "ref": "Y"
-          },
-          {
-            "key": "K",
-            "ref": "L"
-          },
-          {
-            "key": "M",
-            "ref": "R"
-          },
-          {
-            "key": "5",
-            "ref": "Cima"
-          },
-          {
-            "key": "2",
-            "ref": "Baixo"
-          },
-          {
-            "key": "1",
-            "ref": "Esquerda"
-          },
-          {
-            "key": "3",
-            "ref": "Direita"
-          }
-        ]
+      "player2": {
+        "start": "keypad0",
+        "select": ",",
+        "a": "b",
+        "b": "n",
+        "c": "m",
+        "x": "h",
+        "y": "j",
+        "z": "k",
+        "up": "keypad5",
+        "down": "keypad2",
+        "left": "keypad1",
+        "right": "keypad3"
       }
-    ],
+    },
     "active": true
   }
 ]
