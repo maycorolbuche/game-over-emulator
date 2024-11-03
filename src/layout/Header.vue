@@ -26,16 +26,21 @@
       Sobre
     </router-link>
   </div>
+  <div class="d-flex justify-end">
+    <search-input />
+  </div>
 </template>
 
 <script>
 import Logo from "@/components/Logo.vue";
+import SearchInput from "@/components/SearchInput.vue";
 
 export default {
   name: "HeaderLayout",
   inheritAttrs: false,
   components: {
     Logo,
+    SearchInput,
   },
 };
 </script>
