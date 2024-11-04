@@ -15,6 +15,7 @@
     "readline-sync": "^1.4.10",
     "sweetalert2": "^11.14.2",
     "vue": "^3.2.13",
+    "vue-gtag": "^2.0.1",
     "vue-router": "^4.4.5",
     "vue3-shortkey": "^4.0.0"
   },
