@@ -34,7 +34,7 @@
               <input
                 v-model="search"
                 type="text"
-                placeholder="Buscar nessa seção..."
+                placeholder="Buscar nesta seção..."
               />
             </div>
           </div>
