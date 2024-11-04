@@ -26,7 +26,7 @@
       Sobre
     </router-link>
   </div>
-  <div class="d-flex justify-end">
+  <div ref="searchBar" class="d-flex justify-end search-bar">
     <search-input />
   </div>
 </template>
@@ -41,6 +41,27 @@ export default {
   components: {
     Logo,
     SearchInput,
+  },
+  data() {
+    return {
+      observer: null,
+    };
+  },
+  methods: {
+    handleScroll() {
+      const searchBar = this.$refs.searchBar;
+      if (searchBar.getBoundingClientRect().top === 0) {
+        searchBar.classList.add("sticky");
+      } else {
+        searchBar.classList.remove("sticky");
+      }
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
   },
 };
 </script>
@@ -73,5 +94,14 @@ a.menu:hover {
   #main-menu {
     flex-direction: column !important;
   }
+}
+
+.search-bar {
+  position: sticky;
+  top: 0;
+}
+.search-bar.sticky {
+  background: #0e0049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 </style>

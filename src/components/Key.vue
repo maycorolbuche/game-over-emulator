@@ -3,13 +3,13 @@
     <div class="d-flex align-center">
       <template v-for="key in keys" :key="key">
         <div class="key">
-          {{ info_key(key) }}
+          <div v-html="info_key(key)" />
         </div>
         <div v-if="key !== keys[keys.length - 1]">+</div>
       </template>
     </div>
     <div :class="{ ref: true, button: isButton(button) }">
-      {{ info(button) }}
+      <div v-html="info(button)" />
     </div>
   </div>
 </template>
@@ -50,13 +50,13 @@ export default {
         case "select":
           return "Select";
         case "up":
-          return "⬆";
+          return "&#11205;";
         case "down":
-          return "⬇";
+          return "&#11206;";
         case "left":
-          return "⬅";
+          return "&#11207;";
         case "right":
-          return "⮕";
+          return "&#11208;";
         default:
           return key.toUpperCase();
       }
@@ -68,13 +68,13 @@ export default {
         case "SPACE":
           return "ESPAÇO";
         case "UP":
-          return "⬆";
+          return "&#11105;";
         case "DOWN":
-          return "⬇";
+          return "&#11107;";
         case "LEFT":
-          return "⬅";
+          return "&#11104;";
         case "RIGHT":
-          return "⮕";
+          return "&#11106;";
         default:
           return key;
       }
