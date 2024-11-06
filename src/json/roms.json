@@ -1443,11 +1443,12 @@
   {
     "name": "BB Car",
     "filename": "BB Car.zip",
-    "image": "",
+    "image": "/images/roms/nes/bb-car.jpg",
     "console": "nes",
     "id": "bb-car",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Baby Boomer",
@@ -1576,20 +1577,12 @@
   {
     "name": "Baltron",
     "filename": "Baltron.zip",
-    "image": "",
+    "image": "/images/roms/nes/baltron.jpg",
     "console": "nes",
     "id": "baltron",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Banana",
-    "filename": "Banana.zip",
-    "image": "",
-    "console": "nes",
-    "id": "banana",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48588,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Banana Prince",
@@ -1611,13 +1604,14 @@
     "check_name": true
   },
   {
-    "name": "Bandai Golf - Challenge Pebble Beach",
+    "name": "Bandai Golf: Challenge Pebble Beach",
     "filename": "Bandai Golf - Challenge Pebble Beach.zip",
-    "image": "",
+    "image": "/images/roms/nes/bandai-golf-challenge-pebble-beach.jpg",
     "console": "nes",
     "id": "bandai-golf-challenge-pebble-beach",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 9285,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bandit Kings of Ancient China",
@@ -1678,15 +1672,6 @@
     "check_name": true
   },
   {
-    "name": "Bard's Tale",
-    "filename": "Bard's Tale.zip",
-    "image": "",
-    "console": "nes",
-    "id": "bard-s-tale",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Barker Bill's Trick Shooting",
     "filename": "Barker Bill's Trick Shooting.zip",
     "image": "/images/roms/nes/barker-bills-trick-shooting.jpg",
@@ -1736,15 +1721,6 @@
     "check_name": true
   },
   {
-    "name": "Base Wars",
-    "filename": "Base Wars.zip",
-    "image": "",
-    "console": "nes",
-    "id": "base-wars",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Baseball",
     "filename": "Baseball.zip",
     "image": "/images/roms/nes/baseball.jpg",
@@ -1754,22 +1730,24 @@
     "active": true
   },
   {
-    "name": "Baseball Simulator 1000",
+    "name": "Baseball Simulator 1.000",
     "filename": "Baseball Simulator 1000.zip",
-    "image": "",
+    "image": "/images/roms/nes/baseball-simulator-1-dot-000.jpg",
     "console": "nes",
-    "id": "baseball-simulator-1000",
-    "id_igdb": "",
-    "active": true
+    "id": "baseball-simulator-1-dot-000",
+    "id_igdb": 9897,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Baseball Stars I",
+    "name": "Baseball Stars",
     "filename": "Baseball Stars I.zip",
-    "image": "",
+    "image": "/images/roms/nes/baseball-stars.jpg",
     "console": "nes",
-    "id": "baseball-stars-i",
-    "id_igdb": "",
-    "active": true
+    "id": "baseball-stars",
+    "id_igdb": 9903,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Baseball Stars II",
@@ -1781,49 +1759,44 @@
     "active": true
   },
   {
-    "name": "Bases Loaded I",
+    "name": "Bases Loaded",
     "filename": "Bases Loaded I.zip",
-    "image": "",
+    "image": "/images/roms/nes/bases-loaded.jpg",
     "console": "nes",
-    "id": "bases-loaded-i",
-    "id_igdb": "",
-    "active": true
+    "id": "bases-loaded",
+    "id_igdb": 7764,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Bases Loaded II",
-    "filename": "Bases Loaded II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "bases-loaded-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Bases Loaded III",
+    "name": "Bases Loaded 3",
     "filename": "Bases Loaded III.zip",
-    "image": "",
+    "image": "/images/roms/nes/bases-loaded-3.jpg",
     "console": "nes",
-    "id": "bases-loaded-iii",
-    "id_igdb": "",
-    "active": true
+    "id": "bases-loaded-3",
+    "id_igdb": 10124,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Bases Loaded IV",
+    "name": "Bases Loaded 4",
     "filename": "Bases Loaded IV.zip",
-    "image": "",
+    "image": "/images/roms/nes/bases-loaded-4.jpg",
     "console": "nes",
-    "id": "bases-loaded-iv",
-    "id_igdb": "",
-    "active": true
+    "id": "bases-loaded-4",
+    "id_igdb": 10257,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Bashi Bazook - Morphoid Masher",
-    "filename": "Bashi Bazook - Morphoid Masher.zip",
-    "image": "",
+    "name": "Bases Loaded II: Second Season",
+    "filename": "Bases Loaded II.zip",
+    "image": "/images/roms/nes/bases-loaded-ii-second-season.jpg",
     "console": "nes",
-    "id": "bashi-bazook-morphoid-masher",
-    "id_igdb": "",
-    "active": true
+    "id": "bases-loaded-ii-second-season",
+    "id_igdb": 10122,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bass Masters Classic",
@@ -1885,24 +1858,6 @@
     "check_name": true
   },
   {
-    "name": "Batman",
-    "filename": "Batman.zip",
-    "image": "",
-    "console": "nes",
-    "id": "batman",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Batman - Return of the Joker",
-    "filename": "Batman - Return of the Joker.zip",
-    "image": "",
-    "console": "nes",
-    "id": "batman-return-of-the-joker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Batman Forever",
     "filename": "Batman Forever (F) [!].smd",
     "image": "/images/roms/gens/batman-forever.jpg",
@@ -1921,15 +1876,6 @@
     "id_igdb": 7769,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Batman III",
-    "filename": "Batman III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "batman-iii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Batman Returns",
@@ -1959,6 +1905,16 @@
     "id": "batman-returns",
     "id_igdb": 121244,
     "active": true
+  },
+  {
+    "name": "Batman: Return of the Joker",
+    "filename": "Batman - Return of the Joker.zip",
+    "image": "/images/roms/nes/batman-return-of-the-joker.jpg",
+    "console": "nes",
+    "id": "batman-return-of-the-joker",
+    "id_igdb": 4489,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Batman: Revenge of the Joker",
@@ -1993,11 +1949,12 @@
   {
     "name": "Bats & Terry",
     "filename": "Bats & Terry.zip",
-    "image": "",
+    "image": "/images/roms/nes/bats-terry.jpg",
     "console": "nes",
     "id": "bats-terry",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Battle Blaze",
@@ -2068,22 +2025,24 @@
     "check_name": true
   },
   {
-    "name": "Battle Kid I - Fortress of Peril",
-    "filename": "Battle Kid I - Fortress of Peril.zip",
-    "image": "",
+    "name": "Battle Kid 2: Mountain of Torment",
+    "filename": "Battle Kid II - Mountain of Torment.zip",
+    "image": "/images/roms/nes/battle-kid-2-mountain-of-torment.jpg",
     "console": "nes",
-    "id": "battle-kid-i-fortress-of-peril",
-    "id_igdb": "",
-    "active": true
+    "id": "battle-kid-2-mountain-of-torment",
+    "id_igdb": 48370,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Battle Kid II - Mountain of Torment",
-    "filename": "Battle Kid II - Mountain of Torment.zip",
-    "image": "",
+    "name": "Battle Kid: Fortress of Peril",
+    "filename": "Battle Kid I - Fortress of Peril.zip",
+    "image": "/images/roms/nes/battle-kid-fortress-of-peril.jpg",
     "console": "nes",
-    "id": "battle-kid-ii-mountain-of-torment",
-    "id_igdb": "",
-    "active": true
+    "id": "battle-kid-fortress-of-peril",
+    "id_igdb": 11145,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Battle Mania Daiginjou",
@@ -2106,15 +2065,6 @@
     "check_name": true
   },
   {
-    "name": "Battle Tank",
-    "filename": "Battle Tank.zip",
-    "image": "",
-    "console": "nes",
-    "id": "battle-tank",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Battle Wings",
     "filename": "B-Wings.zip",
     "image": "/images/roms/nes/battle-wings.jpg",
@@ -2123,15 +2073,6 @@
     "id_igdb": 4608,
     "active": true,
     "check_image": true
-  },
-  {
-    "name": "Battle of Olympus",
-    "filename": "Battle of Olympus.zip",
-    "image": "",
-    "console": "nes",
-    "id": "battle-of-olympus",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Battlemaster",
@@ -2172,13 +2113,14 @@
     "active": true
   },
   {
-    "name": "Battletoads & Double Dragon",
+    "name": "Battletoads / Double Dragon",
     "filename": "Battletoads & Double Dragon.zip",
-    "image": "",
+    "image": "/images/roms/nes/battletoads-slash-double-dragon.jpg",
     "console": "nes",
-    "id": "battletoads-double-dragon",
-    "id_igdb": "",
-    "active": true
+    "id": "battletoads-slash-double-dragon",
+    "id_igdb": 7776,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Battletoads / Double Dragon",
@@ -2230,24 +2172,6 @@
     "check_name": true
   },
   {
-    "name": "Beat'en & Eat'em",
-    "filename": "Beat'en & Eat'em.zip",
-    "image": "",
-    "console": "nes",
-    "id": "beat-en-eat-em",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Beauty and the Beast",
-    "filename": "Beauty and the Beast.zip",
-    "image": "",
-    "console": "nes",
-    "id": "beauty-and-the-beast",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Bebe's Kids",
     "filename": "Bebe's Kids (U) [!].smc",
     "image": "/images/roms/snes/bebes-kids.jpg",
@@ -2285,13 +2209,14 @@
     "active": true
   },
   {
-    "name": "Best of the Best - Championship Karate",
+    "name": "Best of the Best: Championship Karate",
     "filename": "Best of the Best - Championship Karate.zip",
-    "image": "",
+    "image": "/images/roms/nes/best-of-the-best-championship-karate.jpg",
     "console": "nes",
     "id": "best-of-the-best-championship-karate",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 7783,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Best of the Best: Championship Karate",
@@ -2362,22 +2287,14 @@
     "active": true
   },
   {
-    "name": "Big Bird's Hide And Speak",
-    "filename": "Big Bird's Hide And Speak.zip",
-    "image": "",
-    "console": "nes",
-    "id": "big-bird-s-hide-and-speak",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Big City Sliding Blaster",
     "filename": "Big City Sliding Blaster.zip",
-    "image": "",
+    "image": "/images/roms/nes/big-city-sliding-blaster.webp",
     "console": "nes",
     "id": "big-city-sliding-blaster",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Big Nose Freaks Out",
@@ -2497,20 +2414,32 @@
   {
     "name": "Binary Land",
     "filename": "Binary Land.zip",
-    "image": "",
+    "image": "/images/roms/nes/binary-land.jpg",
     "console": "nes",
     "id": "binary-land",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 4556,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Bio Miracle Baby Upa",
+    "name": "Bio Miracle Bokutte Upa",
     "filename": "Bio Miracle Baby Upa.zip",
-    "image": "",
+    "image": "/images/roms/nes/bio-miracle-bokutte-upa.jpg",
     "console": "nes",
-    "id": "bio-miracle-baby-upa",
-    "id_igdb": "",
-    "active": true
+    "id": "bio-miracle-bokutte-upa",
+    "id_igdb": 41245,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Bio Senshi Dan: Increaser to no Tatakai",
+    "filename": "Bashi Bazook - Morphoid Masher.zip",
+    "image": "/images/roms/nes/bio-senshi-dan-increaser-to-no-tatakai.jpg",
+    "console": "nes",
+    "id": "bio-senshi-dan-increaser-to-no-tatakai",
+    "id_igdb": 48647,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bio-Hazard Battle",
@@ -2533,15 +2462,6 @@
     "check_name": true
   },
   {
-    "name": "Bio-Warrior Dan - The Inkliezar Battle",
-    "filename": "Bio-Warrior Dan - The Inkliezar Battle.zip",
-    "image": "",
-    "console": "nes",
-    "id": "bio-warrior-dan-the-inkliezar-battle",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "BioMetal",
     "filename": "Bio Metal (U) [!].smc",
     "image": "/images/roms/snes/biometal.jpg",
@@ -2562,11 +2482,12 @@
   {
     "name": "Bird Week",
     "filename": "Bird Week.zip",
-    "image": "",
+    "image": "/images/roms/nes/bird-week.jpg",
     "console": "nes",
     "id": "bird-week",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48543,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "BlaZeon: The Bio-Cyborg Challenge",
@@ -2577,15 +2498,6 @@
     "id_igdb": 42625,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Black Bass USA",
-    "filename": "Black Bass USA.zip",
-    "image": "",
-    "console": "nes",
-    "id": "black-bass-usa",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Blackjack",
@@ -2684,13 +2596,14 @@
     "check_name": true
   },
   {
-    "name": "Blodia Land - Puzzle Quest",
+    "name": "Blodia Land",
     "filename": "Blodia Land - Puzzle Quest.zip",
-    "image": "",
+    "image": "/images/roms/nes/blodia-land.jpg",
     "console": "nes",
-    "id": "blodia-land-puzzle-quest",
-    "id_igdb": "",
-    "active": true
+    "id": "blodia-land",
+    "id_igdb": 48542,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bloodshot",
@@ -2711,24 +2624,6 @@
     "id_igdb": 45645,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Blue Marlin",
-    "filename": "Blue Marlin.zip",
-    "image": "",
-    "console": "nes",
-    "id": "blue-marlin",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Blues Brothers",
-    "filename": "Blues Brothers.zip",
-    "image": "",
-    "console": "nes",
-    "id": "blues-brothers",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Bo Jackson Baseball",
@@ -2762,29 +2657,32 @@
   {
     "name": "Bokosuka Wars",
     "filename": "Bokosuka Wars.zip",
-    "image": "",
+    "image": "/images/roms/nes/bokosuka-wars.jpg",
     "console": "nes",
     "id": "bokosuka-wars",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 280818,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "BombSweeper",
+    "name": "Bomb Sweeper",
     "filename": "BombSweeper.zip",
-    "image": "",
+    "image": "/images/roms/nes/bomb-sweeper.jpg",
     "console": "nes",
-    "id": "bombsweeper",
-    "id_igdb": "",
-    "active": true
+    "id": "bomb-sweeper",
+    "id_igdb": 48377,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Bomberman I",
+    "name": "Bomberman",
     "filename": "Bomberman I.zip",
-    "image": "",
+    "image": "/images/roms/nes/bomberman.jpg",
     "console": "nes",
-    "id": "bomberman-i",
-    "id_igdb": "",
-    "active": true
+    "id": "bomberman",
+    "id_igdb": 3445,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bomberman II",
@@ -2827,20 +2725,12 @@
   {
     "name": "Booby Kids",
     "filename": "Booby Kids.zip",
-    "image": "",
+    "image": "/images/roms/nes/booby-kids.jpg",
     "console": "nes",
     "id": "booby-kids",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Boogerman",
-    "filename": "Boogerman.zip",
-    "image": "",
-    "console": "nes",
-    "id": "boogerman",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 7796,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Boogerman: A Pick and Flick Adventure",
@@ -2971,13 +2861,24 @@
     "check_name": true
   },
   {
-    "name": "Break Time - The National Pool Tour",
+    "name": "Break Time: The National Pool Tour",
     "filename": "Break Time - The National Pool Tour.zip",
-    "image": "",
+    "image": "/images/roms/nes/break-time-the-national-pool-tour.jpg",
     "console": "nes",
     "id": "break-time-the-national-pool-tour",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48103,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "BreakThru",
+    "filename": "Breakthru.zip",
+    "image": "/images/roms/nes/breakthru.jpg",
+    "console": "nes",
+    "id": "breakthru",
+    "id_igdb": 288105,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "BreakThru!",
@@ -2988,15 +2889,6 @@
     "id_igdb": 7800,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Breakthru",
-    "filename": "Breakthru.zip",
-    "image": "",
-    "console": "nes",
-    "id": "breakthru",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Breath of Fire",
@@ -3117,22 +3009,24 @@
     "check_name": true
   },
   {
-    "name": "Bubble Bobble I",
+    "name": "Bubble Bobble",
     "filename": "Bubble Bobble I.zip",
-    "image": "",
+    "image": "/images/roms/nes/bubble-bobble.jpg",
     "console": "nes",
-    "id": "bubble-bobble-i",
-    "id_igdb": "",
-    "active": true
+    "id": "bubble-bobble",
+    "id_igdb": 194444,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Bubble Bobble Part II",
+    "name": "Bubble Bobble Part 2",
     "filename": "Bubble Bobble Part II.zip",
-    "image": "",
+    "image": "/images/roms/nes/bubble-bobble-part-2.jpg",
     "console": "nes",
-    "id": "bubble-bobble-part-ii",
-    "id_igdb": "",
-    "active": true
+    "id": "bubble-bobble-part-2",
+    "id_igdb": 7801,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Bubble and Squeek",
@@ -3204,24 +3098,6 @@
     "active": true
   },
   {
-    "name": "Bugs Bunny Birthday Blowout",
-    "filename": "Bugs Bunny Birthday Blowout.zip",
-    "image": "",
-    "console": "nes",
-    "id": "bugs-bunny-birthday-blowout",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Bugs Bunny Crazy Castle",
-    "filename": "Bugs Bunny Crazy Castle.zip",
-    "image": "",
-    "console": "nes",
-    "id": "bugs-bunny-crazy-castle",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Bugs Bunny Rabbit Rampage",
     "filename": "Bugs Bunny - Rabbit Rampage (E).smc",
     "image": "/images/roms/snes/bugs-bunny-rabbit-rampage.jpg",
@@ -3272,13 +3148,14 @@
     "check_name": true
   },
   {
-    "name": "Bump'n'Jump",
+    "name": "Bump 'n' Jump",
     "filename": "Bump'n'Jump.zip",
-    "image": "",
+    "image": "/images/roms/nes/bump-n-jump.jpg",
     "console": "nes",
     "id": "bump-n-jump",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 290271,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Burai Fighter",
@@ -3292,11 +3169,12 @@
   {
     "name": "Burger Time",
     "filename": "Burger Time.zip",
-    "image": "",
+    "image": "/images/roms/nes/burger-time.jpg",
     "console": "nes",
     "id": "burger-time",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 292985,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Burning Force",
@@ -3321,11 +3199,12 @@
   {
     "name": "Buzz and Waldog",
     "filename": "Buzz and Waldog.zip",
-    "image": "",
+    "image": "/images/roms/nes/buzz-and-waldog.jpg",
     "console": "nes",
     "id": "buzz-and-waldog",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Cabal",
@@ -3363,7 +3242,8 @@
     "console": "nes",
     "id": "cadillac",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Caesar's Palace",
@@ -4980,6 +4860,16 @@
     "id_igdb": 42615,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Cyber Stadium Series: Base Wars",
+    "filename": "Base Wars.zip",
+    "image": "/images/roms/nes/cyber-stadium-series-base-wars.jpg",
+    "console": "nes",
+    "id": "cyber-stadium-series-base-wars",
+    "id_igdb": 9876,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Cyber-Cop",
@@ -19974,6 +19864,16 @@
     "check_name": true
   },
   {
+    "name": "Sesame Street: Big Bird's Hide & Speak",
+    "filename": "Big Bird's Hide And Speak.zip",
+    "image": "/images/roms/nes/sesame-street-big-birds-hide-and-speak.jpg",
+    "console": "nes",
+    "id": "sesame-street-big-birds-hide-and-speak",
+    "id_igdb": 48249,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Seven Islands Adventure",
     "filename": "Seven Islands Adventure.zip",
     "image": "",
@@ -24372,6 +24272,26 @@
     "check_name": true
   },
   {
+    "name": "The Bard's Tale",
+    "filename": "Bard's Tale.zip",
+    "image": "/images/roms/nes/the-bards-tale.jpg",
+    "console": "nes",
+    "id": "the-bards-tale",
+    "id_igdb": 273089,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Battle of Olympus",
+    "filename": "Battle of Olympus.zip",
+    "image": "/images/roms/nes/the-battle-of-olympus.jpg",
+    "console": "nes",
+    "id": "the-battle-of-olympus",
+    "id_igdb": 7773,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Berenstain Bears: Camping Adventure",
     "filename": "Berenstain Bears', The Camping Adventure (U) [!].smd",
     "image": "/images/roms/gens/the-berenstain-bears-camping-adventure.jpg",
@@ -24380,6 +24300,36 @@
     "id_igdb": 46539,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Black Bass",
+    "filename": "Black Bass USA.zip",
+    "image": "/images/roms/nes/the-black-bass.jpg",
+    "console": "nes",
+    "id": "the-black-bass",
+    "id_igdb": 17458,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Blue Marlin",
+    "filename": "Blue Marlin.zip",
+    "image": "/images/roms/nes/the-blue-marlin.jpg",
+    "console": "nes",
+    "id": "the-blue-marlin",
+    "id_igdb": 48104,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Blues Brothers",
+    "filename": "Blues Brothers.zip",
+    "image": "/images/roms/nes/the-blues-brothers.jpg",
+    "console": "nes",
+    "id": "the-blues-brothers",
+    "id_igdb": 265033,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Blues Brothers: Jukebox Adventure",
@@ -24399,6 +24349,26 @@
     "id_igdb": 42634,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Bugs Bunny Birthday Blowout",
+    "filename": "Bugs Bunny Birthday Blowout.zip",
+    "image": "/images/roms/nes/the-bugs-bunny-birthday-blowout.jpg",
+    "console": "nes",
+    "id": "the-bugs-bunny-birthday-blowout",
+    "id_igdb": 2719,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Bugs Bunny Crazy Castle",
+    "filename": "Bugs Bunny Crazy Castle.zip",
+    "image": "/images/roms/nes/the-bugs-bunny-crazy-castle.jpg",
+    "console": "nes",
+    "id": "the-bugs-bunny-crazy-castle",
+    "id_igdb": 3051,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Chaos Engine",
