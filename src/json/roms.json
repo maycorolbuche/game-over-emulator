@@ -861,16 +861,6 @@
     "active": true
   },
   {
-    "name": "Ambushed",
-    "filename": "Ambushed.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ambushed",
-    "id_igdb": "",
-    "active": false,
-    "check_image": true
-  },
-  {
     "name": "American Dream",
     "filename": "American Dream.zip",
     "image": "/images/roms/nes/american-dream.jpg",
@@ -1286,16 +1276,6 @@
     "check_image": true
   },
   {
-    "name": "Astroid",
-    "filename": "Astroid.zip",
-    "image": "",
-    "console": "nes",
-    "id": "astroid",
-    "id_igdb": "",
-    "active": false,
-    "check_image": true
-  },
-  {
     "name": "Astyanax",
     "filename": "Astyanax.zip",
     "image": "/images/roms/nes/astyanax.jpg",
@@ -1441,15 +1421,6 @@
     "check_name": true
   },
   {
-    "name": "B-Wings",
-    "filename": "B-Wings.zip",
-    "image": "",
-    "console": "nes",
-    "id": "b-wings",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "B.O.B.",
     "filename": "B.O.B (UEJ) [!].smd",
     "image": "/images/roms/gens/bob.jpg",
@@ -1507,22 +1478,24 @@
     "check_name": true
   },
   {
-    "name": "Back to the Future I",
+    "name": "Back to the Future",
     "filename": "Back to the Future I.zip",
-    "image": "",
+    "image": "/images/roms/nes/back-to-the-future.jpg",
     "console": "nes",
-    "id": "back-to-the-future-i",
-    "id_igdb": "",
-    "active": true
+    "id": "back-to-the-future",
+    "id_igdb": 8516,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Back to the Future II & III",
+    "name": "Back to the Future Part II & III",
     "filename": "Back to the Future II & III.zip",
-    "image": "",
+    "image": "/images/roms/nes/back-to-the-future-part-ii-and-iii.jpg",
     "console": "nes",
-    "id": "back-to-the-future-ii-iii",
-    "id_igdb": "",
-    "active": true
+    "id": "back-to-the-future-part-ii-and-iii",
+    "id_igdb": 8517,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Back to the Future Part III",
@@ -1570,33 +1543,6 @@
     "id_igdb": 45646,
     "active": true,
     "check": true
-  },
-  {
-    "name": "Ball 'n Flag",
-    "filename": "Ball 'n Flag.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ball-n-flag",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ball Story",
-    "filename": "Ball Story.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ball-story",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ballblazer",
-    "filename": "Ballblazer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ballblazer",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Balloon Fight",
@@ -2167,6 +2113,16 @@
     "id": "battle-tank",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Battle Wings",
+    "filename": "B-Wings.zip",
+    "image": "/images/roms/nes/battle-wings.jpg",
+    "console": "nes",
+    "id": "battle-wings",
+    "id_igdb": 4608,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Battle of Olympus",
