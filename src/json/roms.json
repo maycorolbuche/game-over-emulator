@@ -2217,16 +2217,6 @@
     "check_image": true
   },
   {
-    "name": "Batman Flash",
-    "filename": "Batman Flash.zip",
-    "image": "",
-    "console": "nes",
-    "id": "batman-flash",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Batman Forever",
     "filename": "Batman Forever (F) [!].smd",
     "image": "/images/roms/gens/batman-forever.jpg",
@@ -22052,16 +22042,6 @@
     "check_image": true
   },
   {
-    "name": "Somari",
-    "filename": "Somari.zip",
-    "image": "",
-    "console": "nes",
-    "id": "somari",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Son Son",
     "filename": "Son Son.zip",
     "image": "/images/roms/nes/son-son.jpg",
@@ -22090,16 +22070,6 @@
     "id_igdb": 9476,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Sonic 3D Blast",
-    "filename": "Sonic 3D Blast.zip",
-    "image": "",
-    "console": "nes",
-    "id": "sonic-3d-blast",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Sonic Blast Man",
