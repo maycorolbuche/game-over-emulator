@@ -23,15 +23,16 @@
       </div>
 
       <input
+        ref="searchInput"
         v-model="search"
         @input="filterItems"
         @focus="showItems"
-        @blur="hideItems"
+        _blur="hideItems"
         type="text"
         class="search-input"
       />
     </div>
-    <div v-if="showList" class="search-results">
+    <div ref="searchResults" v-show="showList" class="search-results">
       <div class="not-found-items" v-if="items.length <= 0">
         Nenhum resultado para: {{ search }}
       </div>
@@ -69,16 +70,19 @@ export default {
 
       search: "",
       showList: false,
+      search_items: [],
       items: [],
+      qtd_items: 0,
     };
   },
   methods: {
     filterItems() {
+      this.qtd_items = 0;
       const value = this.search
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
-      this.items = this.json_roms
+      this.search_items = this.json_roms
         .filter((item) =>
           item.name
             .toLowerCase()
@@ -100,7 +104,32 @@ export default {
             )
         );
 
+      this.moreItems();
       this.showItems();
+    },
+    moreItems() {
+      this.qtd_items += 10;
+      this.items = this.search_items.slice(0, this.qtd_items);
+
+      this.showItems();
+
+      const self = this;
+      const element = self.$refs.searchResults;
+      if (
+        element &&
+        element.scrollHeight <= element.clientHeight &&
+        self.items.length < self.search_items.length
+      ) {
+        setTimeout(function () {
+          if (
+            element &&
+            element.scrollHeight <= element.clientHeight &&
+            self.items.length < self.search_items.length
+          ) {
+            self.moreItems();
+          }
+        }, 100);
+      }
     },
     selectItem(item) {
       this.search = item;
@@ -114,12 +143,39 @@ export default {
         this.showList = false;
       }, 200);
     },
+    onScroll() {
+      if (this.items.length < this.search_items.length) {
+        const element = this.$refs.searchResults;
+        if (element.scrollTop + element.clientHeight >= element.scrollHeight) {
+          this.moreItems();
+        }
+      }
+    },
+    handleClickOutside(event) {
+      const searchResults = this.$refs.searchResults;
+      const searchInput = this.$refs.searchInput;
+
+      if (
+        searchResults &&
+        !searchResults.contains(event.target) &&
+        searchInput &&
+        !searchInput.contains(event.target)
+      ) {
+        this.hideItems();
+      }
+    },
   },
   mounted() {
     this.json_consoles = consoles.slice().reduce((acc, console) => {
       acc[console.id] = console;
       return acc;
     }, {});
+    this.$refs.searchResults.addEventListener("scroll", this.onScroll);
+    document.addEventListener("click", this.handleClickOutside);
+  },
+  beforeUnmount() {
+    this.$refs.searchResults.removeEventListener("scroll", this.onScroll);
+    document.removeEventListener("click", this.handleClickOutside);
   },
 };
 </script>
@@ -172,7 +228,7 @@ export default {
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: white;
-  z-index: 1000;
+  z-index: 10000;
   max-height: 400px;
   overflow-y: auto;
 }
