@@ -27,7 +27,6 @@
         v-model="search"
         @input="filterItems"
         @focus="showItems"
-        _blur="hideItems"
         type="text"
         class="search-input"
       />
@@ -228,7 +227,7 @@ export default {
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: white;
-  z-index: 10000;
+  z-index: 100;
   max-height: 400px;
   overflow-y: auto;
 }

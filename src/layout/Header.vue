@@ -26,7 +26,11 @@
       Sobre
     </router-link>
   </div>
-  <div ref="searchBar" class="d-flex justify-end search-bar">
+  <div
+    ref="searchBar"
+    class="d-flex justify-end search-bar"
+    style="z-index: 10"
+  >
     <search-input />
   </div>
 </template>
