@@ -39,7 +39,38 @@
     "name": "Nintendo",
     "image": "/images/consoles/nes.png",
     "id": "nes",
-    "active": false
+    "core": "fceumm",
+    "controls": {
+      "player1": {
+        "start": "enter",
+        "select": "space",
+        "a": "z",
+        "b": "c",
+        "x": "s",
+        "y": "x",
+        "l": "a",
+        "r": "d",
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right"
+      },
+      "player2": {
+        "start": "keypad0",
+        "select": ",",
+        "a": "b",
+        "b": "m",
+        "x": "j",
+        "y": "n",
+        "l": "h",
+        "r": "k",
+        "up": "keypad5",
+        "down": "keypad2",
+        "left": "keypad1",
+        "right": "keypad3"
+      }
+    },
+    "active": true
   },
   {
     "name": "Sega CD",

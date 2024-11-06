@@ -179,6 +179,7 @@ export default {
     id: String,
     name: String,
     filename: String,
+    core: String,
     image: String,
     console: String,
     console_image: String,
@@ -278,30 +279,31 @@ export default {
         let config = {
           element: "#emulator-canvas",
           rom: file,
-          core: (() => {
-            switch (this.filename.split(".").pop().toLowerCase()) {
-              case "nes":
-                return "fceumm";
-              case "sfc":
-              case "smc":
-                return "snes9x";
-              case "gba":
-                return "mgba";
-              case "gb":
-              case "gbc":
-                return "gambatte";
-              case "smd":
-                return "genesis_plus_gx";
-              default:
-                return "";
-            }
-          })(),
+          core:
+            this.core ||
+            (() => {
+              switch (this.filename.split(".").pop().toLowerCase()) {
+                case "nes":
+                  return "fceumm";
+                case "sfc":
+                case "smc":
+                  return "snes9x";
+                case "gba":
+                  return "mgba";
+                case "gb":
+                case "gbc":
+                  return "gambatte";
+                case "smd":
+                  return "genesis_plus_gx";
+                default:
+                  return "";
+              }
+            })(),
           retroarchConfig: {
             ...this.retroarch_controls,
           },
         };
         console.log("Iniciando....", config);
-        console.log("Controles....", this.retroarch_controls);
         this.nostalgist = await Nostalgist.launch(config);
 
         this.loading = false;

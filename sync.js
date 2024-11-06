@@ -104,7 +104,7 @@ function update_consoles(json, list) {
     return json;
 }
 
-async function update_roms(json, list, consol, action, dir_json) {
+async function update_roms(json, list, consol, action, dir_json, params) {
     // Desativa todos os itens com o console correspondente
     if (action == 'sync') {
         json
@@ -114,7 +114,6 @@ async function update_roms(json, list, consol, action, dir_json) {
             });
     }
 
-    // Usa for...of para garantir que await funcione corretamente
     for (const filename of list) {
         let change = false;
         let change_image = false;
@@ -149,7 +148,7 @@ async function update_roms(json, list, consol, action, dir_json) {
             if (image === "" && !check_image) {
                 try {
                     const accessToken = await getAccessToken(clientId, clientSecret);
-                    let gameImage = await getGameData(name, consol, clientId, accessToken);
+                    let gameImage = await getGameData(name, consol, clientId, accessToken, null, params);
                     if (gameImage) {
                         if (gameImage.cover_url) {
                             image = gameImage.cover_url;
@@ -166,7 +165,7 @@ async function update_roms(json, list, consol, action, dir_json) {
                         console.log("Dados encontrados:", { id, name, consol, image, gameImage })
                         change = true;
                     } /*else {
-                        gameImage = await getGameData(id, consol, clientId, accessToken);
+                        gameImage = await getGameData(id, consol, clientId, accessToken,null,params);
                         if (gameImage && gameImage.cover_url) {
                             image = gameImage.cover_url;
                             id = gameImage.slug;
@@ -343,9 +342,14 @@ function gameDataImage(game) {
     return game;
 }
 
-async function getGameData(gameName, gameConsole, clientId, accessToken, gameSearch) {
+async function getGameData(gameName, gameConsole, clientId, accessToken, gameSearch, params) {
     let platform = null;
     let select = true;
+
+    if (params == undefined) {
+        params = {};
+    }
+
     if (gameSearch != undefined) {
         gameSearch = gameSearch.replace(/["']/g, '');
         select = false;
@@ -362,41 +366,12 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
             case "snes":
                 platform = 19;
                 break;
+            case "nes":
+                platform = 18;
+                break;
         }
     }
-    /*
-     {
-    id: 29,
-    abbreviation: 'Genesis/MegaDrive',
-    alternative_name: 'Sega Genesis',
-    name: 'Sega Mega Drive/Genesis',
-    slug: 'genesis-slash-megadrive'
-  },
-  {
-    id: 78,
-    abbreviation: 'segacd',
-    alternative_name: 'Mega CD',
-    name: 'Sega CD',
-    slug: 'segacd'
-  },
-    {
-    id: 19,
-    abbreviation: 'SNES',
-    alternative_name: 'SNES, Super Nintendo',
-    name: 'Super Nintendo Entertainment System',
-    slug: 'snes'
-  },
-     */
-    /*
-    const responsePlatforms = await axios.post('https://api.igdb.com/v4/platforms', `search "nintendo"; fields id,slug,name,abbreviation,alternative_name;`, {
-        headers: {
-            'Client-ID': clientId,
-            'Authorization': `Bearer ${accessToken}`
-        }
-    });
-    console.log("Plataformas:", responsePlatforms.data);
-    return;
-*/
+
     if (gameSearch == undefined) {
         gameSearch = gameName;
     }
@@ -418,6 +393,9 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
             if (game && select) {
                 return gameDataImage(game);
             } else {
+                if (params.mode && params.mode == "auto") {
+                    return null;
+                }
                 /* if (response.data.length >= 2) {
                      return null;
                  }*/
@@ -446,6 +424,10 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
             }
         }
     } else {
+        if (params.mode && params.mode == "auto") {
+            return null;
+        }
+
         console.log(qQuestion(`Buscando por: "${gameSearch}"`));
         console.log(qQuestion(`Nada encontrado! Digite algo para buscar, ou '0' para ignorar.`));
         console.log(qOption(0, `${gameName} | original`));
@@ -457,6 +439,24 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
         } else {
             return getGameData(gameName, gameConsole, clientId, accessToken, chosenGame);
         }
+    }
+}
+
+async function list_platforms() {
+    console.log(qQuestion(`Digite algo para buscar, ou deixe em branco para retornar.`));
+    const chosenGame = await readlineSync.question('> ');
+    if (chosenGame == "") {
+        return;
+    } else {
+        const accessToken = await getAccessToken(clientId, clientSecret);
+        const responsePlatforms = await axios.post('https://api.igdb.com/v4/platforms', `search "nintendo"; fields id,slug,name,abbreviation,alternative_name;`, {
+            headers: {
+                'Client-ID': clientId,
+                'Authorization': `Bearer ${accessToken}`
+            }
+        });
+        console.log("Plataformas:", responsePlatforms.data);
+        list_platforms();
     }
 }
 
@@ -482,9 +482,11 @@ async function main() {
     console.log(qOption(7, 'Atualizar nomes dos jogos'));
     console.log(qOption(8, 'Resetar checagem de nomes dos jogos'));
     console.log(qOption(9, 'Apagar jogos desativados'));
+    console.log(qOption(10, 'Listar plataformas'));
     console.log(qOption(0, 'Sair'));
 
     const option = await readlineSync.question('> ');
+    let params = {};
 
     switch (option) {
         case '1':
@@ -503,6 +505,23 @@ async function main() {
         case '7':
         case '8':
         case '9':
+
+            if (option == '4') {
+                console.log(qQuestion(`Deseja fazer a busca no modo automático?`));
+                console.log(qOption('S', `Sim (se não encontrar o jogo, ignora)`));
+                console.log(qOption('N', `Não (se não encontrar o jogo, abre a busca manual)`));
+                let opt = await readlineSync.question('> ');
+                switch (opt.toUpperCase()) {
+                    case 'S':
+                        console.log('Modo AUTOMÁTICO selecionado');
+                        params.mode = "auto";
+                        break;
+                    default:
+                        console.log('Modo MANUAL selecionado');
+                        break;
+                }
+            }
+
             consoles = await get_files(dir);
 
             dupicates = [];
@@ -513,7 +532,7 @@ async function main() {
 
                 switch (option) {
                     case '2':
-                        json = await update_roms(json, roms, consol, 'sync', path.join(dir_json, 'roms.json'));
+                        json = await update_roms(json, roms, consol, 'sync', path.join(dir_json, 'roms.json'), params);
                         break;
                     case '3':
                         dup = find_duplicate_ids(json);
@@ -529,7 +548,7 @@ async function main() {
                         }
                         break;
                     case '4':
-                        json = await update_roms(json, roms, consol, 'find_image', path.join(dir_json, 'roms.json'));
+                        json = await update_roms(json, roms, consol, 'find_image', path.join(dir_json, 'roms.json'), params);
                         break;
                     case '5':
                         json.forEach(item => {
@@ -540,7 +559,7 @@ async function main() {
                         json = await download_image(json, "rom");
                         break;
                     case '7':
-                        json = await update_roms(json, roms, consol, 'find_name', path.join(dir_json, 'roms.json'));
+                        json = await update_roms(json, roms, consol, 'find_name', path.join(dir_json, 'roms.json'), params);
                         break;
                     case '8':
                         json.forEach(item => {
@@ -557,6 +576,10 @@ async function main() {
 
 
 
+            main();
+            break;
+        case '10':
+            await list_platforms();
             main();
             break;
         default:
