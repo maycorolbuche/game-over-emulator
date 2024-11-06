@@ -47,8 +47,8 @@
         Nenhum resultado para: {{ search }}
       </div>
       <a
-        v-for="rom in roms"
-        :key="rom.id"
+        v-for="(rom, key) in roms"
+        :key="key"
         class="rom-card d-flex flex-column align-center"
         href="javascript:"
         @click="openGame(rom)"
@@ -85,6 +85,7 @@
         :console="consol.id"
         :console_image="consol.image"
         :controls="consol.controls"
+        :core="consol.core"
         @close="closeGame()"
       />
     </modal>
