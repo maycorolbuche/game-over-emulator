@@ -4862,66 +4862,12 @@
     "check": true
   },
   {
-    "name": "Daiku no Gen San II",
-    "filename": "Daiku no Gen San II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "daiku-no-gen-san-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Daisenryaku",
-    "filename": "Daisenryaku.zip",
-    "image": "",
-    "console": "nes",
-    "id": "daisenryaku",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dan's Dodgeball I",
-    "filename": "Dan's Dodgeball I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dan-s-dodgeball-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dan's Dodgeball II",
-    "filename": "Dan's Dodgeball II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dan-s-dodgeball-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Dance Aerobics",
     "filename": "Dance Aerobics.zip",
     "image": "/images/roms/nes/dance-aerobics.jpg",
     "console": "nes",
     "id": "dance-aerobics",
     "id_igdb": 48176,
-    "active": true
-  },
-  {
-    "name": "Dance Xtreme - Prima",
-    "filename": "Dance Xtreme - Prima.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dance-xtreme-prima",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dancing Blocks",
-    "filename": "Dancing Blocks.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dancing-blocks",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -4975,30 +4921,12 @@
     "check_name": true
   },
   {
-    "name": "Dark Lord",
-    "filename": "Dark Lord.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dark-lord",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Darkman",
     "filename": "Darkman.zip",
     "image": "/images/roms/nes/darkman.jpg",
     "console": "nes",
     "id": "darkman",
     "id_igdb": 12037,
-    "active": true
-  },
-  {
-    "name": "Darkwing Duck II",
-    "filename": "Darkwing Duck II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "darkwing-duck-ii",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -5113,11 +5041,12 @@
   {
     "name": "De-Block",
     "filename": "De-Block.zip",
-    "image": "",
+    "image": "/images/roms/nes/de-block.jpg",
     "console": "nes",
     "id": "de-block",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48515,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Deadly Moves",
@@ -5188,20 +5117,22 @@
   {
     "name": "Decathlon",
     "filename": "Decathlon.zip",
-    "image": "",
+    "image": "/images/roms/nes/decathlon.jpg",
     "console": "nes",
     "id": "decathlon",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 242097,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Deep Dungeon IV",
+    "name": "Deep Dungeon IV: Kuro no Youjutsushi",
     "filename": "Deep Dungeon IV.zip",
-    "image": "",
+    "image": "/images/roms/nes/deep-dungeon-iv-kuro-no-youjutsushi.jpg",
     "console": "nes",
-    "id": "deep-dungeon-iv",
-    "id_igdb": "",
-    "active": true
+    "id": "deep-dungeon-iv-kuro-no-youjutsushi",
+    "id_igdb": 48513,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Defender II",
@@ -5241,13 +5172,14 @@
     "check_name": true
   },
   {
-    "name": "Demon Sword - Release the Power",
+    "name": "Demon Sword",
     "filename": "Demon Sword - Release the Power.zip",
-    "image": "",
+    "image": "/images/roms/nes/demon-sword.jpg",
     "console": "nes",
-    "id": "demon-sword-release-the-power",
-    "id_igdb": "",
-    "active": true
+    "id": "demon-sword",
+    "id_igdb": 48065,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dennis the Menace",
@@ -5258,15 +5190,6 @@
     "id_igdb": 14640,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Derecive Solbrain",
-    "filename": "Derecive Solbrain.zip",
-    "image": "",
-    "console": "nes",
-    "id": "derecive-solbrain",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Desert Commander",
@@ -5330,20 +5253,12 @@
   {
     "name": "Destiny of an Emperor II",
     "filename": "Destiny of an Emperor II.zip",
-    "image": "",
+    "image": "/images/roms/nes/destiny-of-an-emperor-ii.jpg",
     "console": "nes",
     "id": "destiny-of-an-emperor-ii",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Devil Man",
-    "filename": "Devil Man.zip",
-    "image": "",
-    "console": "nes",
-    "id": "devil-man",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Devil World",
@@ -5384,24 +5299,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Dezaemon",
-    "filename": "Dezaemon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dezaemon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dian Shi Ma Li",
-    "filename": "Dian Shi Ma Li (Mario Lottery).zip",
-    "image": "",
-    "console": "nes",
-    "id": "dian-shi-ma-li",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Dick Tracy",
@@ -5455,11 +5352,12 @@
   {
     "name": "Dig Dug I",
     "filename": "Dig Dug I.zip",
-    "image": "",
+    "image": "/images/roms/nes/dig-dug-i.jpg",
     "console": "nes",
     "id": "dig-dug-i",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dig Dug II: Trouble in Paradise",
@@ -5477,15 +5375,6 @@
     "console": "nes",
     "id": "digger-t-rock-the-legend-of-the-lost-city",
     "id_igdb": 12932,
-    "active": true
-  },
-  {
-    "name": "Dikki Paingun in - TKO For The Third Reich",
-    "filename": "Dikki Paingun in - TKO For The Third Reich.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dikki-paingun-in-tko-for-the-third-reich",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -5783,40 +5672,44 @@
     "check_name": true
   },
   {
-    "name": "Don Doko Don I",
+    "name": "Don Doko Don",
     "filename": "Don Doko Don I.zip",
-    "image": "",
+    "image": "/images/roms/nes/don-doko-don.jpg",
     "console": "nes",
-    "id": "don-doko-don-i",
-    "id_igdb": "",
-    "active": true
+    "id": "don-doko-don",
+    "id_igdb": 39360,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Don Doko Don II",
+    "name": "Don Doko Don 2",
     "filename": "Don Doko Don II.zip",
-    "image": "",
+    "image": "/images/roms/nes/don-doko-don-2.jpg",
     "console": "nes",
-    "id": "don-doko-don-ii",
-    "id_igdb": "",
-    "active": true
+    "id": "don-doko-don-2",
+    "id_igdb": 48696,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Donald Land",
     "filename": "Donald Land.zip",
-    "image": "",
+    "image": "/images/roms/nes/donald-land.jpg",
     "console": "nes",
     "id": "donald-land",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48524,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Donald Magic",
-    "filename": "Donald Magic (Burger Time).zip",
-    "image": "",
+    "name": "Donkey Kong",
+    "filename": "Donkey Kong I.zip",
+    "image": "/images/roms/nes/donkey-kong.jpg",
     "console": "nes",
-    "id": "donald-magic",
-    "id_igdb": "",
-    "active": true
+    "id": "donkey-kong",
+    "id_igdb": 141959,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Donkey Kong 3",
@@ -5867,31 +5760,14 @@
     "check_name": true
   },
   {
-    "name": "Donkey Kong Country IV",
-    "filename": "Donkey Kong Country IV.zip",
-    "image": "",
-    "console": "nes",
-    "id": "donkey-kong-country-iv",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Donkey Kong I",
-    "filename": "Donkey Kong I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "donkey-kong-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Donkey Kong II - Donkey Kong Jr",
+    "name": "Donkey Kong Jr.",
     "filename": "Donkey Kong II - Donkey Kong Jr.zip",
-    "image": "",
+    "image": "/images/roms/nes/donkey-kong-jr.jpg",
     "console": "nes",
-    "id": "donkey-kong-ii-donkey-kong-jr",
-    "id_igdb": "",
-    "active": true
+    "id": "donkey-kong-jr",
+    "id_igdb": 178166,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Donkey Kong Jr. Math",
@@ -5946,29 +5822,22 @@
   {
     "name": "Door Door",
     "filename": "Door Door.zip",
-    "image": "",
+    "image": "/images/roms/nes/door-door.jpg",
     "console": "nes",
     "id": "door-door",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 92904,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Doraemon",
-    "filename": "Doraemon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "doraemon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Doraemon - The Revenge of Giga Zombie",
+    "name": "Doraemon: Giga Zombie no Gyakushuu",
     "filename": "Doraemon - The Revenge of Giga Zombie.zip",
-    "image": "",
+    "image": "/images/roms/nes/doraemon-giga-zombie-no-gyakushuu.jpg",
     "console": "nes",
-    "id": "doraemon-the-revenge-of-giga-zombie",
-    "id_igdb": "",
-    "active": true
+    "id": "doraemon-giga-zombie-no-gyakushuu",
+    "id_igdb": 48523,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Doraemon: Yume Dorobou to 7-nin no Gozans",
@@ -6010,6 +5879,16 @@
     "check_name": true
   },
   {
+    "name": "Double Dragon",
+    "filename": "Double Dragon I.zip",
+    "image": "/images/roms/nes/double-dragon.jpg",
+    "console": "nes",
+    "id": "double-dragon",
+    "id_igdb": 201319,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Double Dragon 3: The Arcade Game",
     "filename": "Double Dragon 3 (U) [!].smd",
     "image": "/images/roms/gens/double-dragon-3-the-arcade-game.jpg",
@@ -6019,15 +5898,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Double Dragon I",
-    "filename": "Double Dragon I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "double-dragon-i",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Double Dragon II: The Revenge",
@@ -6061,11 +5931,12 @@
   {
     "name": "Double Dragon IV",
     "filename": "Double Dragon IV.zip",
-    "image": "",
+    "image": "/images/roms/nes/double-dragon-iv.jpg",
     "console": "nes",
     "id": "double-dragon-iv",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 26621,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Double Dragon V: The Shadow Falls",
@@ -6109,31 +5980,14 @@
     "check_name": true
   },
   {
-    "name": "Double Strike - Aerial Attack Force",
-    "filename": "Double Strike - Aerial Attack Force.zip",
-    "image": "",
-    "console": "nes",
-    "id": "double-strike-aerial-attack-force",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Dough Boy",
     "filename": "Dough Boy.zip",
-    "image": "",
+    "image": "/images/roms/nes/dough-boy.jpg",
     "console": "nes",
     "id": "dough-boy",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Downtown",
-    "filename": "Downtown.zip",
-    "image": "",
-    "console": "nes",
-    "id": "downtown",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 40956,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dr. Chaos",
@@ -6182,49 +6036,24 @@
     "active": true
   },
   {
-    "name": "Dragon",
-    "filename": "Dragon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dragon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dragon Ball - Dragon Mystery",
-    "filename": "Dragon Ball - Dragon Mystery.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dragon-ball-dragon-mystery",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dragon Ball Z - Assault of the Saiyans",
-    "filename": "Dragon Ball Z - Assault of the Saiyans.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dragon-ball-z-assault-of-the-saiyans",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dragon Ball Z Gaiden",
+    "name": "Dragon Ball Z Gaiden: Saiya-jin Zetsumetsu Keikaku",
     "filename": "Dragon Ball Z Gaiden.zip",
-    "image": "",
+    "image": "/images/roms/nes/dragon-ball-z-gaiden-saiya-jin-zetsumetsu-keikaku.jpg",
     "console": "nes",
-    "id": "dragon-ball-z-gaiden",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-gaiden-saiya-jin-zetsumetsu-keikaku",
+    "id_igdb": 48681,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragon Ball Z III - Killer Androids",
+    "name": "Dragon Ball Z III: Ressen Jinzou Ningen",
     "filename": "Dragon Ball Z III - Killer Androids.zip",
-    "image": "",
+    "image": "/images/roms/nes/dragon-ball-z-iii-ressen-jinzou-ningen.jpg",
     "console": "nes",
-    "id": "dragon-ball-z-iii-killer-androids",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-iii-ressen-jinzou-ningen",
+    "id_igdb": 48680,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dragon Ball Z: Buyuu Retsuden",
@@ -6237,22 +6066,24 @@
     "check": true
   },
   {
-    "name": "Dragon Buster I",
+    "name": "Dragon Buster",
     "filename": "Dragon Buster I.zip",
-    "image": "",
+    "image": "/images/roms/nes/dragon-buster.jpg",
     "console": "nes",
-    "id": "dragon-buster-i",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-buster",
+    "id_igdb": 38035,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragon Buster II - Seal of Darkness",
+    "name": "Dragon Buster II: Yami no Fuuin",
     "filename": "Dragon Buster II - Seal of Darkness.zip",
-    "image": "",
+    "image": "/images/roms/nes/dragon-buster-ii-yami-no-fuuin.jpg",
     "console": "nes",
-    "id": "dragon-buster-ii-seal-of-darkness",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-buster-ii-yami-no-fuuin",
+    "id_igdb": 48521,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dragon Fighter",
@@ -6270,24 +6101,6 @@
     "console": "nes",
     "id": "dragon-power",
     "id_igdb": 48697,
-    "active": true
-  },
-  {
-    "name": "Dragon Scroll - Resurrection of Demon",
-    "filename": "Dragon Scroll - Resurrection of Demon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dragon-scroll-resurrection-of-demon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Dragon Slayer Jr - Romancia",
-    "filename": "Dragon Slayer Jr - Romancia.zip",
-    "image": "",
-    "console": "nes",
-    "id": "dragon-slayer-jr-romancia",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -6332,13 +6145,14 @@
     "check_name": true
   },
   {
-    "name": "Dragon Warrior I",
+    "name": "Dragon Warrior",
     "filename": "Dragon Warrior I.zip",
-    "image": "",
+    "image": "/images/roms/nes/dragon-warrior.jpg",
     "console": "nes",
-    "id": "dragon-warrior-i",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-warrior",
+    "id_igdb": 205229,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dragon Warrior II",
@@ -6449,11 +6263,12 @@
   {
     "name": "Dream Penguin Adventure",
     "filename": "Dream Penguin Adventure.zip",
-    "image": "",
+    "image": "/images/roms/nes/dream-penguin-adventure.jpg",
     "console": "nes",
     "id": "dream-penguin-adventure",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dream TV",
@@ -6495,20 +6310,22 @@
   {
     "name": "Duck Tales I",
     "filename": "Duck Tales I.zip",
-    "image": "",
+    "image": "/images/roms/nes/duck-tales-i.jpg",
     "console": "nes",
     "id": "duck-tales-i",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Duck Tales II",
     "filename": "Duck Tales II.zip",
-    "image": "",
+    "image": "/images/roms/nes/duck-tales-ii.png",
     "console": "nes",
     "id": "duck-tales-ii",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dudes with Attitude",
