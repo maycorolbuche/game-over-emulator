@@ -449,14 +449,14 @@ async function list_platforms() {
         return;
     } else {
         const accessToken = await getAccessToken(clientId, clientSecret);
-        const responsePlatforms = await axios.post('https://api.igdb.com/v4/platforms', `search "nintendo"; fields id,slug,name,abbreviation,alternative_name;`, {
+        const responsePlatforms = await axios.post('https://api.igdb.com/v4/platforms', `search "${chosenGame}"; fields id,slug,name,abbreviation,alternative_name;`, {
             headers: {
                 'Client-ID': clientId,
                 'Authorization': `Bearer ${accessToken}`
             }
         });
         console.log("Plataformas:", responsePlatforms.data);
-        list_platforms();
+        await list_platforms();
     }
 }
 
