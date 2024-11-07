@@ -22008,24 +22008,6 @@
     "active": true
   },
   {
-    "name": "Super Donkey Kong I",
-    "filename": "Super Donkey Kong I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-donkey-kong-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super Donkey Kong II",
-    "filename": "Super Donkey Kong II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-donkey-kong-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Double Dragon",
     "filename": "Super Double Dragon (U).smc",
     "image": "/images/roms/snes/super-double-dragon.jpg",
