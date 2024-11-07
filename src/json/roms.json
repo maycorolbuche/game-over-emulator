@@ -3194,10 +3194,10 @@
   {
     "name": "Cadillac",
     "filename": "Cadillac.zip",
-    "image": "",
+    "image": "/images/roms/nes/cadillac.jpg",
     "console": "nes",
     "id": "cadillac",
-    "id_igdb": "",
+    "id_igdb": 94896,
     "active": true
   },
   {
@@ -3269,12 +3269,12 @@
     "check_name": true
   },
   {
-    "name": "Caltron 6 in 1",
+    "name": "Caltron 6-in-1",
     "filename": "Caltron 6 in 1.zip",
-    "image": "",
+    "image": "/images/roms/nes/caltron-6-in-1.jpg",
     "console": "nes",
     "id": "caltron-6-in-1",
-    "id_igdb": "",
+    "id_igdb": 81250,
     "active": true
   },
   {
@@ -3306,6 +3306,15 @@
     "id_igdb": 42600,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Capcom's Gold Medal Challenge '92",
+    "filename": "Gold Medal Challenge '92.zip",
+    "image": "/images/roms/nes/capcoms-gold-medal-challenge-92.jpg",
+    "console": "nes",
+    "id": "capcoms-gold-medal-challenge-92",
+    "id_igdb": 48159,
+    "active": true
   },
   {
     "name": "Capcom's MVP Football",
@@ -3388,10 +3397,10 @@
   {
     "name": "Captain Ed",
     "filename": "Captain Ed.zip",
-    "image": "",
+    "image": "/images/roms/nes/captain-ed.jpg",
     "console": "nes",
     "id": "captain-ed",
-    "id_igdb": "",
+    "id_igdb": 48539,
     "active": true
   },
   {
@@ -3433,21 +3442,21 @@
     "active": true
   },
   {
-    "name": "Captain Sky Hawk",
+    "name": "Captain Skyhawk",
     "filename": "Captain Sky Hawk.zip",
-    "image": "",
+    "image": "/images/roms/nes/captain-skyhawk.jpg",
     "console": "nes",
-    "id": "captain-sky-hawk",
-    "id_igdb": "",
+    "id": "captain-skyhawk",
+    "id_igdb": 48071,
     "active": true
   },
   {
-    "name": "Captain Tsubasa Vol II - Super Striker",
+    "name": "Captain Tsubasa Vol. II: Super Striker",
     "filename": "Captain Tsubasa Vol II - Super Striker.zip",
-    "image": "",
+    "image": "/images/roms/nes/captain-tsubasa-vol-ii-super-striker.jpg",
     "console": "nes",
     "id": "captain-tsubasa-vol-ii-super-striker",
-    "id_igdb": "",
+    "id_igdb": 102254,
     "active": true
   },
   {
@@ -3461,12 +3470,12 @@
     "check_name": true
   },
   {
-    "name": "Casino Kid I",
+    "name": "Casino Kid",
     "filename": "Casino Kid I.zip",
-    "image": "",
+    "image": "/images/roms/nes/casino-kid.jpg",
     "console": "nes",
-    "id": "casino-kid-i",
-    "id_igdb": "",
+    "id": "casino-kid",
+    "id_igdb": 48102,
     "active": true
   },
   {
@@ -3535,12 +3544,12 @@
     "active": true
   },
   {
-    "name": "Castlevania I",
+    "name": "Castlevania",
     "filename": "Castlevania I.zip",
-    "image": "",
+    "image": "/images/roms/nes/castlevania.jpg",
     "console": "nes",
-    "id": "castlevania-i",
-    "id_igdb": "",
+    "id": "castlevania",
+    "id_igdb": 1114,
     "active": true
   },
   {
@@ -3559,15 +3568,6 @@
     "console": "nes",
     "id": "castlevania-iii-dracula-s-curse",
     "id_igdb": 1119,
-    "active": true
-  },
-  {
-    "name": "Castlevania III - Legend Demon Castle",
-    "filename": "Castlevania III - Legend Demon Castle.zip",
-    "image": "",
-    "console": "nes",
-    "id": "castlevania-iii-legend-demon-castle",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -3622,12 +3622,12 @@
     "check_name": true
   },
   {
-    "name": "Chack 'n Pop",
+    "name": "Chack'n Pop",
     "filename": "Chack 'n Pop.zip",
-    "image": "",
+    "image": "/images/roms/nes/chack-n-pop.jpg",
     "console": "nes",
     "id": "chack-n-pop",
-    "id_igdb": "",
+    "id_igdb": 6103,
     "active": true
   },
   {
@@ -3653,10 +3653,10 @@
   {
     "name": "Challenger",
     "filename": "Challenger.zip",
-    "image": "",
+    "image": "/images/roms/nes/challenger.jpg",
     "console": "nes",
     "id": "challenger",
-    "id_igdb": "",
+    "id_igdb": 136979,
     "active": true
   },
   {
@@ -3701,10 +3701,10 @@
   {
     "name": "Championship Lode Runner",
     "filename": "Championship Lode Runner.zip",
-    "image": "",
+    "image": "/images/roms/nes/championship-lode-runner.jpg",
     "console": "nes",
     "id": "championship-lode-runner",
-    "id_igdb": "",
+    "id_igdb": 6091,
     "active": true
   },
   {
@@ -3796,24 +3796,6 @@
     "active": true
   },
   {
-    "name": "Chess Academy",
-    "filename": "Chess Academy.zip",
-    "image": "",
-    "console": "nes",
-    "id": "chess-academy",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "The Chessmaster",
-    "filename": "Chessmaster.zip",
-    "image": "/images/roms/nes/the-chessmaster.jpg",
-    "console": "nes",
-    "id": "the-chessmaster",
-    "id_igdb": 12909,
-    "active": true
-  },
-  {
     "name": "Chester Cheetah: Too Cool to Fool",
     "filename": "Chester Cheetah - Too Cool to Fool (U) [!].smc",
     "image": "/images/roms/snes/chester-cheetah-too-cool-to-fool.jpg",
@@ -3845,12 +3827,12 @@
     "check": true
   },
   {
-    "name": "Chester Field",
+    "name": "Chester Field: Ankoku Shin he no Chousen",
     "filename": "Chester Field.zip",
-    "image": "",
+    "image": "/images/roms/nes/chester-field-ankoku-shin-he-no-chousen.jpg",
     "console": "nes",
-    "id": "chester-field",
-    "id_igdb": "",
+    "id": "chester-field-ankoku-shin-he-no-chousen",
+    "id_igdb": 48538,
     "active": true
   },
   {
@@ -3884,21 +3866,12 @@
     "active": true
   },
   {
-    "name": "China Rabbit Baby",
-    "filename": "China Rabbit Baby.zip",
-    "image": "",
-    "console": "nes",
-    "id": "china-rabbit-baby",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Chinese Checkers",
     "filename": "Chinese Checkers.zip",
-    "image": "",
+    "image": "/images/roms/nes/chinese-checkers.jpg",
     "console": "nes",
     "id": "chinese-checkers",
-    "id_igdb": "",
+    "id_igdb": 71190,
     "active": true
   },
   {
@@ -3910,24 +3883,6 @@
     "id_igdb": "",
     "active": true,
     "check": true
-  },
-  {
-    "name": "Chip 'n Dale Rescue Rangers I",
-    "filename": "Chip 'n Dale Rescue Rangers I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "chip-n-dale-rescue-rangers-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Disney's Chip 'n Dale Rescue Rangers 2",
-    "filename": "Chip 'n Dale Rescue Rangers II.zip",
-    "image": "/images/roms/nes/disneys-chip-n-dale-rescue-rangers-2.jpg",
-    "console": "nes",
-    "id": "disneys-chip-n-dale-rescue-rangers-2",
-    "id_igdb": 6518,
-    "active": true
   },
   {
     "name": "Choplifter",
@@ -3949,15 +3904,6 @@
     "check_name": true
   },
   {
-    "name": "Chou Jikuu Yousai - Macross",
-    "filename": "Chou Jikuu Yousai - Macross.zip",
-    "image": "",
-    "console": "nes",
-    "id": "chou-jikuu-yousai-macross",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Chou Kyuukai Miracle Nine",
     "filename": "Chou Yakkyou Miracle Nine (1) [!].smd",
     "image": "/images/roms/gens/chou-kyuukai-miracle-nine.jpg",
@@ -3968,18 +3914,36 @@
     "check": true
   },
   {
+    "name": "Choujikuu Yousai Macross",
+    "filename": "Chou Jikuu Yousai - Macross.zip",
+    "image": "/images/roms/nes/choujikuu-yousai-macross.jpg",
+    "console": "nes",
+    "id": "choujikuu-yousai-macross",
+    "id_igdb": 48673,
+    "active": true
+  },
+  {
     "name": "Choujin Sentai - Jetman",
     "filename": "Choujin Sentai - Jetman.zip",
-    "image": "",
+    "image": "/images/roms/nes/choujin-sentai-jetman.png",
     "console": "nes",
     "id": "choujin-sentai-jetman",
     "id_igdb": "",
     "active": true
   },
   {
+    "name": "Chris Evert & Ivan Lendl in Top Players' Tennis",
+    "filename": "Evert & Lendl Top Player's Tennis.zip",
+    "image": "/images/roms/nes/chris-evert-and-ivan-lendl-in-top-players-tennis.jpg",
+    "console": "nes",
+    "id": "chris-evert-and-ivan-lendl-in-top-players-tennis",
+    "id_igdb": 48911,
+    "active": true
+  },
+  {
     "name": "Chronicle of the Radia War",
     "filename": "Chronicle of the Radia War.zip",
-    "image": "",
+    "image": "/images/roms/nes/chronicle-of-the-radia-war.jpg",
     "console": "nes",
     "id": "chronicle-of-the-radia-war",
     "id_igdb": "",
@@ -4038,7 +4002,7 @@
   {
     "name": "Chuuka Taisen",
     "filename": "Chuuka Taisen.zip",
-    "image": "",
+    "image": "/images/roms/nes/chuuka-taisen.jpg",
     "console": "nes",
     "id": "chuuka-taisen",
     "id_igdb": "",
@@ -4063,12 +4027,12 @@
     "active": true
   },
   {
-    "name": "City Adventure Touch",
+    "name": "City Adventure Touch: Mystery of Triangle",
     "filename": "City Adventure Touch.zip",
-    "image": "",
+    "image": "/images/roms/nes/city-adventure-touch-mystery-of-triangle.jpg",
     "console": "nes",
-    "id": "city-adventure-touch",
-    "id_igdb": "",
+    "id": "city-adventure-touch-mystery-of-triangle",
+    "id_igdb": 48315,
     "active": true
   },
   {
@@ -4237,10 +4201,10 @@
   {
     "name": "Cocoron",
     "filename": "Cocoron.zip",
-    "image": "",
+    "image": "/images/roms/nes/cocoron.jpg",
     "console": "nes",
     "id": "cocoron",
-    "id_igdb": "",
+    "id_igdb": 48644,
     "active": true
   },
   {
@@ -4333,7 +4297,7 @@
   {
     "name": "Columbus - Golden Dawn",
     "filename": "Columbus - Golden Dawn.zip",
-    "image": "",
+    "image": "/images/roms/nes/columbus-golden-dawn.jpg",
     "console": "nes",
     "id": "columbus-golden-dawn",
     "id_igdb": "",
@@ -4445,39 +4409,12 @@
     "active": true
   },
   {
-    "name": "Contra Fighter",
-    "filename": "Contra Fighter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "contra-fighter",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Contra Force",
     "filename": "Contra Force.zip",
     "image": "/images/roms/nes/contra-force.jpg",
     "console": "nes",
     "id": "contra-force",
     "id_igdb": 24978,
-    "active": true
-  },
-  {
-    "name": "Contra",
-    "filename": "Contra I.zip",
-    "image": "/images/roms/nes/contra.jpg",
-    "console": "nes",
-    "id": "contra",
-    "id_igdb": 186207,
-    "active": true
-  },
-  {
-    "name": "Super C",
-    "filename": "Contra II - Super C.zip",
-    "image": "/images/roms/nes/super-c.jpg",
-    "console": "nes",
-    "id": "super-c",
-    "id_igdb": 84919,
     "active": true
   },
   {
@@ -4489,15 +4426,6 @@
     "id_igdb": 6351,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Contra Spirits",
-    "filename": "Contra Spirits.zip",
-    "image": "",
-    "console": "nes",
-    "id": "contra-spirits",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Contra: Hard Corps",
@@ -4562,10 +4490,10 @@
   {
     "name": "Cosmic Epsilon",
     "filename": "Cosmic Epsilon.zip",
-    "image": "",
+    "image": "/images/roms/nes/cosmic-epsilon.jpg",
     "console": "nes",
     "id": "cosmic-epsilon",
-    "id_igdb": "",
+    "id_igdb": 48689,
     "active": true
   },
   {
@@ -4581,25 +4509,25 @@
   {
     "name": "Cosmic Wars",
     "filename": "Cosmic Wars.zip",
-    "image": "",
+    "image": "/images/roms/nes/cosmic-wars.jpg",
     "console": "nes",
     "id": "cosmic-wars",
-    "id_igdb": "",
+    "id_igdb": 48646,
     "active": true
   },
   {
     "name": "Cosmo Police Galivan",
     "filename": "Cosmo Police Galivan.zip",
-    "image": "",
+    "image": "/images/roms/nes/cosmo-police-galivan.jpg",
     "console": "nes",
     "id": "cosmo-police-galivan",
-    "id_igdb": "",
+    "id_igdb": 28825,
     "active": true
   },
   {
     "name": "Cosmos Cop",
     "filename": "Cosmos Cop.zip",
-    "image": "",
+    "image": "/images/roms/nes/cosmos-cop.jpg",
     "console": "nes",
     "id": "cosmos-cop",
     "id_igdb": "",
@@ -4643,12 +4571,12 @@
     "active": true
   },
   {
-    "name": "Crayon Shin-Chan - Ora to Poi Poi",
+    "name": "Crayon Shin-Chan: Ora to Poi Poi",
     "filename": "Crayon Shin-Chan - Ora to Poi Poi.zip",
-    "image": "",
+    "image": "/images/roms/nes/crayon-shin-chan-ora-to-poi-poi.jpg",
     "console": "nes",
     "id": "crayon-shin-chan-ora-to-poi-poi",
-    "id_igdb": "",
+    "id_igdb": 48533,
     "active": true
   },
   {
@@ -4663,36 +4591,18 @@
     "check_name": true
   },
   {
-    "name": "Crazy Climber",
-    "filename": "Crazy Climber.zip",
-    "image": "",
-    "console": "nes",
-    "id": "crazy-climber",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Creatom",
-    "filename": "Creatom.zip",
-    "image": "",
-    "console": "nes",
-    "id": "creatom",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Crisis Force",
     "filename": "Crisis Force.zip",
-    "image": "",
+    "image": "/images/roms/nes/crisis-force.jpg",
     "console": "nes",
     "id": "crisis-force",
-    "id_igdb": "",
+    "id_igdb": 48652,
     "active": true
   },
   {
     "name": "Cross Fire",
     "filename": "Cross Fire.zip",
-    "image": "",
+    "image": "/images/roms/nes/cross-fire.jpg",
     "console": "nes",
     "id": "cross-fire",
     "id_igdb": "",
@@ -4884,12 +4794,12 @@
     "check_name": true
   },
   {
-    "name": "Cycle Race - Road Man",
+    "name": "Cycle Race: Road Man",
     "filename": "Cycle Race - Road Man.zip",
-    "image": "",
+    "image": "/images/roms/nes/cycle-race-road-man.jpg",
     "console": "nes",
     "id": "cycle-race-road-man",
-    "id_igdb": "",
+    "id_igdb": 48532,
     "active": true
   },
   {
@@ -5080,15 +4990,6 @@
     "console": "nes",
     "id": "darkman",
     "id_igdb": 12037,
-    "active": true
-  },
-  {
-    "name": "Disney's Darkwing Duck",
-    "filename": "Darkwing Duck.zip",
-    "image": "/images/roms/nes/disneys-darkwing-duck.jpg",
-    "console": "nes",
-    "id": "disneys-darkwing-duck",
-    "id_igdb": 8452,
     "active": true
   },
   {
@@ -5327,15 +5228,6 @@
     "console": "nes",
     "id": "defenders-of-dynatron-city",
     "id_igdb": 48066,
-    "active": true
-  },
-  {
-    "name": "Déjà Vu: A Nightmare Comes True!!",
-    "filename": "Deja Vu.zip",
-    "image": "/images/roms/nes/deja-vu-a-nightmare-comes-true.jpg",
-    "console": "nes",
-    "id": "deja-vu-a-nightmare-comes-true",
-    "id_igdb": 12043,
     "active": true
   },
   {
@@ -5736,6 +5628,33 @@
     "check_name": true
   },
   {
+    "name": "Disney's Chip 'n Dale Rescue Rangers",
+    "filename": "Chip 'n Dale Rescue Rangers I.zip",
+    "image": "/images/roms/nes/disneys-chip-n-dale-rescue-rangers.jpg",
+    "console": "nes",
+    "id": "disneys-chip-n-dale-rescue-rangers",
+    "id_igdb": 6490,
+    "active": true
+  },
+  {
+    "name": "Disney's Chip 'n Dale Rescue Rangers 2",
+    "filename": "Chip 'n Dale Rescue Rangers II.zip",
+    "image": "/images/roms/nes/disneys-chip-n-dale-rescue-rangers-2.jpg",
+    "console": "nes",
+    "id": "disneys-chip-n-dale-rescue-rangers-2",
+    "id_igdb": 6518,
+    "active": true
+  },
+  {
+    "name": "Disney's Darkwing Duck",
+    "filename": "Darkwing Duck.zip",
+    "image": "/images/roms/nes/disneys-darkwing-duck.jpg",
+    "console": "nes",
+    "id": "disneys-darkwing-duck",
+    "id_igdb": 8452,
+    "active": true
+  },
+  {
     "name": "Disney's Goof Troop",
     "filename": "Goof Troop (E).smc",
     "image": "/images/roms/snes/disneys-goof-troop.jpg",
@@ -5900,6 +5819,15 @@
     "active": true
   },
   {
+    "name": "Donkey Kong 3",
+    "filename": "Donkey Kong III.zip",
+    "image": "/images/roms/nes/donkey-kong-3.jpg",
+    "console": "nes",
+    "id": "donkey-kong-3",
+    "id_igdb": 178167,
+    "active": true
+  },
+  {
     "name": "Donkey Kong Classics",
     "filename": "Donkey Kong Classics.zip",
     "image": "/images/roms/nes/donkey-kong-classics.jpg",
@@ -5963,15 +5891,6 @@
     "console": "nes",
     "id": "donkey-kong-ii-donkey-kong-jr",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Donkey Kong 3",
-    "filename": "Donkey Kong III.zip",
-    "image": "/images/roms/nes/donkey-kong-3.jpg",
-    "console": "nes",
-    "id": "donkey-kong-3",
-    "id_igdb": 178167,
     "active": true
   },
   {
@@ -6729,6 +6648,15 @@
     "active": true
   },
   {
+    "name": "Déjà Vu: A Nightmare Comes True!!",
+    "filename": "Deja Vu.zip",
+    "image": "/images/roms/nes/deja-vu-a-nightmare-comes-true.jpg",
+    "console": "nes",
+    "id": "deja-vu-a-nightmare-comes-true",
+    "id_igdb": 12043,
+    "active": true
+  },
+  {
     "name": "E.V.O. : Search for Eden",
     "filename": "E.V.O. Search for Eden (U).smc",
     "image": "/images/roms/snes/e-v-o-search-for-eden.jpg",
@@ -6848,15 +6776,6 @@
     "check_name": true
   },
   {
-    "name": "EarthBound Beginnings",
-    "filename": "Earth Bound.zip",
-    "image": "/images/roms/nes/earthbound-beginnings.jpg",
-    "console": "nes",
-    "id": "earthbound-beginnings",
-    "id_igdb": 11191,
-    "active": true
-  },
-  {
     "name": "Earth Defense Force",
     "filename": "Super Earth Defense Force (E).smc",
     "image": "/images/roms/snes/earth-defense-force.jpg",
@@ -6874,6 +6793,15 @@
     "id_igdb": 2899,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "EarthBound Beginnings",
+    "filename": "Earth Bound.zip",
+    "image": "/images/roms/nes/earthbound-beginnings.jpg",
+    "console": "nes",
+    "id": "earthbound-beginnings",
+    "id_igdb": 11191,
+    "active": true
   },
   {
     "name": "EarthWorm Jim II",
@@ -7110,15 +7038,6 @@
     "active": true
   },
   {
-    "name": "The Escape From Atlantis",
-    "filename": "Escape From Atlantis.zip",
-    "image": "/images/roms/nes/the-escape-from-atlantis.jpg",
-    "console": "nes",
-    "id": "the-escape-from-atlantis",
-    "id_igdb": 48312,
-    "active": true
-  },
-  {
     "name": "Esper Bouken Tai",
     "filename": "Esper Bouken Tai.zip",
     "image": "",
@@ -7155,15 +7074,6 @@
     "id_igdb": 45557,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Chris Evert & Ivan Lendl in Top Players' Tennis",
-    "filename": "Evert & Lendl Top Player's Tennis.zip",
-    "image": "/images/roms/nes/chris-evert-and-ivan-lendl-in-top-players-tennis.jpg",
-    "console": "nes",
-    "id": "chris-evert-and-ivan-lendl-in-top-players-tennis",
-    "id_igdb": 48911,
-    "active": true
   },
   {
     "name": "Ex-Mutants",
@@ -8141,21 +8051,21 @@
     "check_name": true
   },
   {
-    "name": "Fisher-Price: Firehouse Rescue",
-    "filename": "Fisher Price - Firehouse Rescue.zip",
-    "image": "/images/roms/nes/fisher-price-firehouse-rescue.jpg",
-    "console": "nes",
-    "id": "fisher-price-firehouse-rescue",
-    "id_igdb": 48250,
-    "active": true
-  },
-  {
     "name": "Fisher Price: I Can Remember",
     "filename": "Fisher Price - I Can Remember.zip",
     "image": "/images/roms/nes/fisher-price-i-can-remember.jpg",
     "console": "nes",
     "id": "fisher-price-i-can-remember",
     "id_igdb": 26659,
+    "active": true
+  },
+  {
+    "name": "Fisher-Price: Firehouse Rescue",
+    "filename": "Fisher Price - Firehouse Rescue.zip",
+    "image": "/images/roms/nes/fisher-price-firehouse-rescue.jpg",
+    "console": "nes",
+    "id": "fisher-price-firehouse-rescue",
+    "id_igdb": 48250,
     "active": true
   },
   {
@@ -8339,21 +8249,21 @@
     "active": true
   },
   {
-    "name": "Formula One: Built to Win",
-    "filename": "Formula One Built To Win.zip",
-    "image": "/images/roms/nes/formula-one-built-to-win.jpg",
-    "console": "nes",
-    "id": "formula-one-built-to-win",
-    "id_igdb": 48297,
-    "active": true
-  },
-  {
     "name": "Formula One Sensation",
     "filename": "Formula One Sensation.zip",
     "image": "",
     "console": "nes",
     "id": "formula-one-sensation",
     "id_igdb": "",
+    "active": true
+  },
+  {
+    "name": "Formula One: Built to Win",
+    "filename": "Formula One Built To Win.zip",
+    "image": "/images/roms/nes/formula-one-built-to-win.jpg",
+    "console": "nes",
+    "id": "formula-one-built-to-win",
+    "id_igdb": 48297,
     "active": true
   },
   {
@@ -8578,21 +8488,21 @@
     "check_name": true
   },
   {
-    "name": "GI Joe",
-    "filename": "GI Joe.zip",
-    "image": "",
-    "console": "nes",
-    "id": "gi-joe",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "G.I. Joe: The Atlantis Factor",
     "filename": "GI Joe - The Atlantis Factor.zip",
     "image": "/images/roms/nes/gi-joe-the-atlantis-factor.jpg",
     "console": "nes",
     "id": "gi-joe-the-atlantis-factor",
     "id_igdb": 8166,
+    "active": true
+  },
+  {
+    "name": "GI Joe",
+    "filename": "GI Joe.zip",
+    "image": "",
+    "console": "nes",
+    "id": "gi-joe",
+    "id_igdb": "",
     "active": true
   },
   {
@@ -9100,15 +9010,6 @@
     "check_name": true
   },
   {
-    "name": "The Adventures of Gilligan's Island",
-    "filename": "Gilligan's Island.zip",
-    "image": "/images/roms/nes/the-adventures-of-gilligans-island.jpg",
-    "console": "nes",
-    "id": "the-adventures-of-gilligans-island",
-    "id_igdb": 8742,
-    "active": true
-  },
-  {
     "name": "Global Gladiators",
     "filename": "Mick & Mack as the Global Gladiators (E) [!].smd",
     "image": "/images/roms/gens/global-gladiators.jpg",
@@ -9175,15 +9076,6 @@
     "check_name": true
   },
   {
-    "name": "Godzilla I - Monster of Monsters!",
-    "filename": "Godzilla I - Monster of Monsters!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "godzilla-i-monster-of-monsters-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Godzilla 2: War of the Monsters",
     "filename": "Godzilla II - War of the Monsters.zip",
     "image": "/images/roms/nes/godzilla-2-war-of-the-monsters.jpg",
@@ -9193,12 +9085,12 @@
     "active": true
   },
   {
-    "name": "Capcom's Gold Medal Challenge '92",
-    "filename": "Gold Medal Challenge '92.zip",
-    "image": "/images/roms/nes/capcoms-gold-medal-challenge-92.jpg",
+    "name": "Godzilla I - Monster of Monsters!",
+    "filename": "Godzilla I - Monster of Monsters!.zip",
+    "image": "",
     "console": "nes",
-    "id": "capcoms-gold-medal-challenge-92",
-    "id_igdb": 48159,
+    "id": "godzilla-i-monster-of-monsters-",
+    "id_igdb": "",
     "active": true
   },
   {
@@ -9287,24 +9179,6 @@
     "id_igdb": 46210,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "The Goonies",
-    "filename": "Goonies.zip",
-    "image": "/images/roms/nes/the-goonies.jpg",
-    "console": "nes",
-    "id": "the-goonies",
-    "id_igdb": 4615,
-    "active": true
-  },
-  {
-    "name": "The Goonies II",
-    "filename": "Goonies II.zip",
-    "image": "/images/roms/nes/the-goonies-ii.jpg",
-    "console": "nes",
-    "id": "the-goonies-ii",
-    "id_igdb": 18916,
-    "active": true
   },
   {
     "name": "Gorby's Pipeline - Great Millitary Op",
@@ -9417,15 +9291,6 @@
     "active": true
   },
   {
-    "name": "The Great Waldo Search",
-    "filename": "Great Waldo Search.zip",
-    "image": "/images/roms/nes/the-great-waldo-search.jpg",
-    "console": "nes",
-    "id": "the-great-waldo-search",
-    "id_igdb": 275020,
-    "active": true
-  },
-  {
     "name": "Great Wall",
     "filename": "Great Wall.zip",
     "image": "",
@@ -9493,15 +9358,6 @@
     "id_igdb": 310353,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "The Guardian Legend",
-    "filename": "Guardian Legend.zip",
-    "image": "/images/roms/nes/the-guardian-legend.jpg",
-    "console": "nes",
-    "id": "the-guardian-legend",
-    "id_igdb": 48058,
-    "active": true
   },
   {
     "name": "Guerrilla War",
@@ -22234,6 +22090,15 @@
     "check_name": true
   },
   {
+    "name": "Super C",
+    "filename": "Contra II - Super C.zip",
+    "image": "/images/roms/nes/super-c.jpg",
+    "console": "nes",
+    "id": "super-c",
+    "id_igdb": 84919,
+    "active": true
+  },
+  {
     "name": "Super Caesars Palace",
     "filename": "Caesars Palace (U) [!].smd",
     "image": "/images/roms/gens/super-caesars-palace.jpg",
@@ -24120,6 +23985,15 @@
     "check_name": true
   },
   {
+    "name": "The Adventures of Gilligan's Island",
+    "filename": "Gilligan's Island.zip",
+    "image": "/images/roms/nes/the-adventures-of-gilligans-island.jpg",
+    "console": "nes",
+    "id": "the-adventures-of-gilligans-island",
+    "id_igdb": 8742,
+    "active": true
+  },
+  {
     "name": "The Adventures of Mighty Max",
     "filename": "Mighty Max (U).smc",
     "image": "/images/roms/snes/the-adventures-of-mighty-max.jpg",
@@ -24348,6 +24222,15 @@
   },
   {
     "name": "The Chessmaster",
+    "filename": "Chessmaster.zip",
+    "image": "/images/roms/nes/the-chessmaster.jpg",
+    "console": "nes",
+    "id": "the-chessmaster",
+    "id_igdb": 12909,
+    "active": true
+  },
+  {
+    "name": "The Chessmaster",
     "filename": "Chess Master.smc",
     "image": "/images/roms/snes/the-chessmaster.jpg",
     "console": "snes",
@@ -24418,6 +24301,15 @@
     "check_name": true
   },
   {
+    "name": "The Escape From Atlantis",
+    "filename": "Escape From Atlantis.zip",
+    "image": "/images/roms/nes/the-escape-from-atlantis.jpg",
+    "console": "nes",
+    "id": "the-escape-from-atlantis",
+    "id_igdb": 48312,
+    "active": true
+  },
+  {
     "name": "The Faery Tale Adventure",
     "filename": "Faery Tale Adventure, The (U) [!].smd",
     "image": "/images/roms/gens/the-faery-tale-adventure.jpg",
@@ -24479,6 +24371,24 @@
     "check_name": true
   },
   {
+    "name": "The Goonies",
+    "filename": "Goonies.zip",
+    "image": "/images/roms/nes/the-goonies.jpg",
+    "console": "nes",
+    "id": "the-goonies",
+    "id_igdb": 4615,
+    "active": true
+  },
+  {
+    "name": "The Goonies II",
+    "filename": "Goonies II.zip",
+    "image": "/images/roms/nes/the-goonies-ii.jpg",
+    "console": "nes",
+    "id": "the-goonies-ii",
+    "id_igdb": 18916,
+    "active": true
+  },
+  {
     "name": "The Great Circus Mystery Starring Mickey & Minnie",
     "filename": "Mickey Mouse - Great Circus Mystery (U) [!].smd",
     "image": "/images/roms/gens/the-great-circus-mystery-starring-mickey-and-minnie.jpg",
@@ -24496,6 +24406,15 @@
     "id_igdb": 4407,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Great Waldo Search",
+    "filename": "Great Waldo Search.zip",
+    "image": "/images/roms/nes/the-great-waldo-search.jpg",
+    "console": "nes",
+    "id": "the-great-waldo-search",
+    "id_igdb": 275020,
+    "active": true
   },
   {
     "name": "The Great Waldo Search",
@@ -24517,6 +24436,15 @@
     "active": true,
     "check": true,
     "check_name": true
+  },
+  {
+    "name": "The Guardian Legend",
+    "filename": "Guardian Legend.zip",
+    "image": "/images/roms/nes/the-guardian-legend.jpg",
+    "console": "nes",
+    "id": "the-guardian-legend",
+    "id_igdb": 48058,
+    "active": true
   },
   {
     "name": "The Humans",
