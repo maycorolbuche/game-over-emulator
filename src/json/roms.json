@@ -5045,8 +5045,7 @@
     "console": "nes",
     "id": "de-block",
     "id_igdb": 48515,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Deadly Moves",
@@ -5121,8 +5120,7 @@
     "console": "nes",
     "id": "decathlon",
     "id_igdb": 242097,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Deep Dungeon IV: Kuro no Youjutsushi",
@@ -5131,8 +5129,7 @@
     "console": "nes",
     "id": "deep-dungeon-iv-kuro-no-youjutsushi",
     "id_igdb": 48513,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Defender II",
@@ -5178,8 +5175,7 @@
     "console": "nes",
     "id": "demon-sword",
     "id_igdb": 48065,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dennis the Menace",
@@ -5257,8 +5253,7 @@
     "console": "nes",
     "id": "destiny-of-an-emperor-ii",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Devil World",
@@ -5356,8 +5351,7 @@
     "console": "nes",
     "id": "dig-dug-i",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dig Dug II: Trouble in Paradise",
@@ -5678,8 +5672,7 @@
     "console": "nes",
     "id": "don-doko-don",
     "id_igdb": 39360,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Don Doko Don 2",
@@ -5688,8 +5681,7 @@
     "console": "nes",
     "id": "don-doko-don-2",
     "id_igdb": 48696,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Donald Land",
@@ -5698,8 +5690,7 @@
     "console": "nes",
     "id": "donald-land",
     "id_igdb": 48524,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Donkey Kong",
@@ -5708,8 +5699,7 @@
     "console": "nes",
     "id": "donkey-kong",
     "id_igdb": 141959,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Donkey Kong 3",
@@ -5766,8 +5756,7 @@
     "console": "nes",
     "id": "donkey-kong-jr",
     "id_igdb": 178166,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Donkey Kong Jr. Math",
@@ -5826,8 +5815,7 @@
     "console": "nes",
     "id": "door-door",
     "id_igdb": 92904,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Doraemon: Giga Zombie no Gyakushuu",
@@ -5836,8 +5824,7 @@
     "console": "nes",
     "id": "doraemon-giga-zombie-no-gyakushuu",
     "id_igdb": 48523,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Doraemon: Yume Dorobou to 7-nin no Gozans",
@@ -5885,8 +5872,7 @@
     "console": "nes",
     "id": "double-dragon",
     "id_igdb": 201319,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Double Dragon 3: The Arcade Game",
@@ -5935,8 +5921,7 @@
     "console": "nes",
     "id": "double-dragon-iv",
     "id_igdb": 26621,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Double Dragon V: The Shadow Falls",
@@ -5986,8 +5971,7 @@
     "console": "nes",
     "id": "dough-boy",
     "id_igdb": 40956,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dr. Chaos",
@@ -6042,8 +6026,7 @@
     "console": "nes",
     "id": "dragon-ball-z-gaiden-saiya-jin-zetsumetsu-keikaku",
     "id_igdb": 48681,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z III: Ressen Jinzou Ningen",
@@ -6052,8 +6035,7 @@
     "console": "nes",
     "id": "dragon-ball-z-iii-ressen-jinzou-ningen",
     "id_igdb": 48680,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z: Buyuu Retsuden",
@@ -6072,8 +6054,7 @@
     "console": "nes",
     "id": "dragon-buster",
     "id_igdb": 38035,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Buster II: Yami no Fuuin",
@@ -6082,8 +6063,7 @@
     "console": "nes",
     "id": "dragon-buster-ii-yami-no-fuuin",
     "id_igdb": 48521,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Fighter",
@@ -6151,8 +6131,7 @@
     "console": "nes",
     "id": "dragon-warrior",
     "id_igdb": 205229,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Warrior II",
@@ -6267,8 +6246,7 @@
     "console": "nes",
     "id": "dream-penguin-adventure",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dream TV",
@@ -6314,8 +6292,7 @@
     "console": "nes",
     "id": "duck-tales-i",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Duck Tales II",
@@ -6324,8 +6301,7 @@
     "console": "nes",
     "id": "duck-tales-ii",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dudes with Attitude",
@@ -6621,24 +6597,6 @@
     "active": true
   },
   {
-    "name": "EarthWorm Jim II",
-    "filename": "EarthWorm Jim II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "earthworm-jim-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "EarthWorm Jim III",
-    "filename": "EarthWorm Jim III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "earthworm-jim-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Earthworm Jim",
     "filename": "Earthworm Jim (E) [!].smd",
     "image": "/images/roms/gens/earthworm-jim.jpg",
@@ -6724,20 +6682,22 @@
   {
     "name": "Eggerland - Revival of the Labyrinth",
     "filename": "Eggerland - Revival of the Labyrinth.zip",
-    "image": "",
+    "image": "/images/roms/nes/eggerland-revival-of-the-labyrinth.png",
     "console": "nes",
     "id": "eggerland-revival-of-the-labyrinth",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Egypt",
     "filename": "Egypt.zip",
-    "image": "",
+    "image": "/images/roms/nes/egypt.jpg",
     "console": "nes",
     "id": "egypt",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 94952,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "El Viento",
@@ -6807,13 +6767,24 @@
     "check_name": true
   },
   {
+    "name": "Elnark no Zaihou",
+    "filename": "Erunaaku no Zaihou.zip",
+    "image": "/images/roms/nes/elnark-no-zaihou.jpg",
+    "console": "nes",
+    "id": "elnark-no-zaihou",
+    "id_igdb": 48507,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Elysion",
     "filename": "Elysion.zip",
-    "image": "",
+    "image": "/images/roms/nes/elysion.jpg",
     "console": "nes",
     "id": "elysion",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48509,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Emmitt Smith Football",
@@ -6846,31 +6817,24 @@
     "check_name": true
   },
   {
-    "name": "Erunaaku no Zaihou",
-    "filename": "Erunaaku no Zaihou.zip",
-    "image": "",
-    "console": "nes",
-    "id": "erunaaku-no-zaihou",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Esper Bouken Tai",
+    "name": "Esper Boukentai",
     "filename": "Esper Bouken Tai.zip",
-    "image": "",
+    "image": "/images/roms/nes/esper-boukentai.jpg",
     "console": "nes",
-    "id": "esper-bouken-tai",
-    "id_igdb": "",
-    "active": true
+    "id": "esper-boukentai",
+    "id_igdb": 48506,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Esper Dream II",
+    "name": "Esper Dream 2: Aratanaru Tatakai",
     "filename": "Esper Dream II.zip",
-    "image": "",
+    "image": "/images/roms/nes/esper-dream-2-aratanaru-tatakai.jpg",
     "console": "nes",
-    "id": "esper-dream-ii",
-    "id_igdb": "",
-    "active": true
+    "id": "esper-dream-2-aratanaru-tatakai",
+    "id_igdb": 48505,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Eternal Champions",
@@ -6912,40 +6876,34 @@
     "active": true
   },
   {
-    "name": "Exciting Boxing",
-    "filename": "Exciting Boxing.zip",
-    "image": "",
-    "console": "nes",
-    "id": "exciting-boxing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Exed Exes",
     "filename": "Exed Exes.zip",
-    "image": "",
+    "image": "/images/roms/nes/exed-exes.jpg",
     "console": "nes",
     "id": "exed-exes",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6671,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Exerion",
     "filename": "Exerion.zip",
-    "image": "",
+    "image": "/images/roms/nes/exerion.jpg",
     "console": "nes",
     "id": "exerion",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6104,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Exerion II: Zorni",
     "filename": "Exerion II.zip",
-    "image": "",
+    "image": "/images/roms/nes/exerion-ii-zorni.jpg",
     "console": "nes",
     "id": "exerion-ii-zorni",
-    "id_igdb": 250671,
-    "active": true
+    "id_igdb": 37189,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Exile",
@@ -6968,13 +6926,14 @@
     "check_name": true
   },
   {
-    "name": "Exodus",
+    "name": "Exodus: Journey to the Promised Land",
     "filename": "Exodus.zip",
-    "image": "",
+    "image": "/images/roms/nes/exodus-journey-to-the-promised-land.jpg",
     "console": "nes",
-    "id": "exodus",
-    "id_igdb": "",
-    "active": true
+    "id": "exodus-journey-to-the-promised-land",
+    "id_igdb": 11164,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Exodus: Journey to the Promised Land",
