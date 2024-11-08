@@ -369,6 +369,9 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
             case "nes":
                 platform = 18;
                 break;
+            case "atari2600":
+                platform = 59;
+                break;
         }
     }
 
@@ -471,6 +474,7 @@ async function main() {
     let json;
     let consoles;
     let dupicates;
+    let json_consoles;
 
     console.log(qQuestion('Escolha uma opção:'));
     console.log(qOption(1, 'Atualizar consoles'));
@@ -522,7 +526,10 @@ async function main() {
                 }
             }
 
-            consoles = await get_files(dir);
+            json_consoles = await open(path.join(dir_json, 'consoles.json'));
+
+            //consoles = await get_files(dir);
+            consoles = json_consoles.filter(c => c.active).map(c => c.id);
 
             dupicates = [];
             for (const consol of consoles) {

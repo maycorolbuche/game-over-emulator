@@ -179,7 +179,6 @@ export default {
     id: String,
     name: String,
     filename: String,
-    core: String,
     image: String,
     console: String,
     console_image: String,
@@ -279,26 +278,23 @@ export default {
         let config = {
           element: "#emulator-canvas",
           rom: file,
-          core:
-            this.core ||
-            (() => {
-              switch (this.filename.split(".").pop().toLowerCase()) {
-                case "nes":
-                  return "fceumm";
-                case "sfc":
-                case "smc":
-                  return "snes9x";
-                case "gba":
+          core: (() => {
+            switch (this.console) {
+              case "nes":
+                return "fceumm";
+              case "snes":
+                return "snes9x";
+              /*case "gba":
                   return "mgba";
                 case "gb":
                 case "gbc":
-                  return "gambatte";
-                case "smd":
-                  return "genesis_plus_gx";
-                default:
-                  return "";
-              }
-            })(),
+                  return "gambatte";*/
+              case "gens":
+                return "genesis_plus_gx";
+              default:
+                return "";
+            }
+          })(),
           retroarchConfig: {
             ...this.retroarch_controls,
           },
