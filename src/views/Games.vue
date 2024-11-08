@@ -85,7 +85,6 @@
         :console="consol.id"
         :console_image="consol.image"
         :controls="consol.controls"
-        :core="consol.core"
         @close="closeGame()"
       />
     </modal>
