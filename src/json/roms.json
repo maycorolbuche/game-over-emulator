@@ -6686,8 +6686,7 @@
     "console": "nes",
     "id": "eggerland-revival-of-the-labyrinth",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Egypt",
@@ -6696,8 +6695,7 @@
     "console": "nes",
     "id": "egypt",
     "id_igdb": 94952,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "El Viento",
@@ -6773,8 +6771,7 @@
     "console": "nes",
     "id": "elnark-no-zaihou",
     "id_igdb": 48507,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Elysion",
@@ -6783,8 +6780,7 @@
     "console": "nes",
     "id": "elysion",
     "id_igdb": 48509,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Emmitt Smith Football",
@@ -6823,8 +6819,7 @@
     "console": "nes",
     "id": "esper-boukentai",
     "id_igdb": 48506,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Esper Dream 2: Aratanaru Tatakai",
@@ -6833,8 +6828,7 @@
     "console": "nes",
     "id": "esper-dream-2-aratanaru-tatakai",
     "id_igdb": 48505,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Eternal Champions",
@@ -6882,8 +6876,7 @@
     "console": "nes",
     "id": "exed-exes",
     "id_igdb": 6671,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Exerion",
@@ -6892,8 +6885,7 @@
     "console": "nes",
     "id": "exerion",
     "id_igdb": 6104,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Exerion II: Zorni",
@@ -6902,8 +6894,7 @@
     "console": "nes",
     "id": "exerion-ii-zorni",
     "id_igdb": 37189,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Exile",
@@ -6932,8 +6923,7 @@
     "console": "nes",
     "id": "exodus-journey-to-the-promised-land",
     "id_igdb": 11164,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Exodus: Journey to the Promised Land",
@@ -6976,12 +6966,12 @@
     "check_name": true
   },
   {
-    "name": "F-117a Stealth Fighter",
+    "name": "F-117A Stealth Fighter",
     "filename": "F-117a Stealth Fighter.zip",
-    "image": "",
+    "image": "/images/roms/nes/f-117a-stealth-fighter.jpg",
     "console": "nes",
     "id": "f-117a-stealth-fighter",
-    "id_igdb": "",
+    "id_igdb": 69582,
     "active": true
   },
   {
@@ -7035,10 +7025,10 @@
   {
     "name": "F1 Circus",
     "filename": "F1 Circus.zip",
-    "image": "",
+    "image": "/images/roms/nes/f1-circus.jpg",
     "console": "nes",
     "id": "f1-circus",
-    "id_igdb": "",
+    "id_igdb": 37715,
     "active": true
   },
   {
@@ -7094,10 +7084,10 @@
   {
     "name": "F1 Race",
     "filename": "F1 Race.zip",
-    "image": "",
+    "image": "/images/roms/nes/f1-race.jpg",
     "console": "nes",
     "id": "f1-race",
-    "id_igdb": "",
+    "id_igdb": 11689,
     "active": true
   },
   {
@@ -7120,24 +7110,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "FIFA '97 International Soccer",
-    "filename": "FIFA '97 International Soccer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fifa-97-international-soccer",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "FIFA 96 International Soccer",
-    "filename": "FIFA 96 International Soccer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fifa-96-international-soccer",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "FIFA International Soccer",
@@ -7230,39 +7202,21 @@
     "check_name": true
   },
   {
-    "name": "Facemaker",
-    "filename": "Facemaker (Dr PC Jr).zip",
-    "image": "",
-    "console": "nes",
-    "id": "facemaker",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Famicom Shougi - Ryuuousen",
-    "filename": "Famicom Shougi - Ryuuousen.zip",
-    "image": "",
-    "console": "nes",
-    "id": "famicom-shougi-ryuuousen",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Famicom Wars",
     "filename": "Famicom Wars.zip",
-    "image": "",
+    "image": "/images/roms/nes/famicom-wars.jpg",
     "console": "nes",
     "id": "famicom-wars",
-    "id_igdb": "",
+    "id_igdb": 72131,
     "active": true
   },
   {
     "name": "Family Circuit '91",
     "filename": "Family Circuit '91.zip",
-    "image": "",
+    "image": "/images/roms/nes/family-circuit-91.jpg",
     "console": "nes",
     "id": "family-circuit-91",
-    "id_igdb": "",
+    "id_igdb": 48497,
     "active": true
   },
   {
@@ -7304,12 +7258,12 @@
     "active": true
   },
   {
-    "name": "Fantastic Adventures of Dizzy",
+    "name": "Fantastic Dizzy",
     "filename": "Fantastic Adventures of Dizzy.zip",
-    "image": "",
+    "image": "/images/roms/nes/fantastic-dizzy.jpg",
     "console": "nes",
-    "id": "fantastic-adventures-of-dizzy",
-    "id_igdb": "",
+    "id": "fantastic-dizzy",
+    "id_igdb": 12089,
     "active": true
   },
   {
@@ -7332,21 +7286,12 @@
     "active": true
   },
   {
-    "name": "Fantasy Zone I",
-    "filename": "Fantasy Zone I (Japan).zip",
-    "image": "",
-    "console": "nes",
-    "id": "fantasy-zone-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Fantasy Zone II - Teardrop of Opa-Opa",
+    "name": "Fantasy Zone II: Opa-Opa no Namida",
     "filename": "Fantasy Zone II - Teardrop of Opa-Opa.zip",
-    "image": "",
+    "image": "/images/roms/nes/fantasy-zone-ii-opa-opa-no-namida.jpg",
     "console": "nes",
-    "id": "fantasy-zone-ii-teardrop-of-opa-opa",
-    "id_igdb": "",
+    "id": "fantasy-zone-ii-opa-opa-no-namida",
+    "id_igdb": 48627,
     "active": true
   },
   {
@@ -7409,15 +7354,6 @@
     "check_name": true
   },
   {
-    "name": "Fatal Fury II",
-    "filename": "Fatal Fury II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fatal-fury-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Fatal Fury Special",
     "filename": "Fatal Fury Special (U).smc",
     "image": "/images/roms/snes/fatal-fury-special.jpg",
@@ -7453,15 +7389,6 @@
     "console": "nes",
     "id": "felix-the-cat",
     "id_igdb": 8449,
-    "active": true
-  },
-  {
-    "name": "Felix vs Jerry",
-    "filename": "Felix vs Jerry.zip",
-    "image": "",
-    "console": "nes",
-    "id": "felix-vs-jerry",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -7515,10 +7442,10 @@
   {
     "name": "Field Combat",
     "filename": "Field Combat.zip",
-    "image": "",
+    "image": "/images/roms/nes/field-combat.jpg",
     "console": "nes",
     "id": "field-combat",
-    "id_igdb": "",
+    "id_igdb": 206086,
     "active": true
   },
   {
@@ -7532,15 +7459,6 @@
     "check_name": true
   },
   {
-    "name": "Fighting Hero",
-    "filename": "Fighting Hero.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fighting-hero",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Fighting Masters",
     "filename": "Fighting Masters (USA 92 Treco-Sega) (U) [!].smd",
     "image": "/images/roms/gens/fighting-masters.jpg",
@@ -7549,15 +7467,6 @@
     "id_igdb": 46215,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Fighting Road",
-    "filename": "Fighting Road.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fighting-road",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Final Blow",
@@ -7588,15 +7497,6 @@
     "active": true
   },
   {
-    "name": "Final Fantasy I & II",
-    "filename": "Final Fantasy I & II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "final-fantasy-i-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Final Fantasy II",
     "filename": "Final Fantasy II (U) (V1.1).smc",
     "image": "/images/roms/snes/final-fantasy-ii.jpg",
@@ -7607,15 +7507,6 @@
     "check_name": true
   },
   {
-    "name": "Final Fantasy II",
-    "filename": "Final Fantasy II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "final-fantasy-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Final Fantasy III",
     "filename": "Final Fantasy III (U) (V1.1) [!].smc",
     "image": "/images/roms/snes/final-fantasy-iii.jpg",
@@ -7624,15 +7515,6 @@
     "id_igdb": 146170,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Final Fantasy III",
-    "filename": "Final Fantasy III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "final-fantasy-iii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Final Fantasy: Mystic Quest",
@@ -7685,30 +7567,12 @@
     "check_name": true
   },
   {
-    "name": "Final Fight III",
-    "filename": "Final Fight III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "final-fight-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Final Lap",
     "filename": "Final Lap.zip",
     "image": "/images/roms/nes/final-lap.jpg",
     "console": "nes",
     "id": "final-lap",
     "id_igdb": 46830,
-    "active": true
-  },
-  {
-    "name": "Final Mission",
-    "filename": "Final Mission.zip",
-    "image": "",
-    "console": "nes",
-    "id": "final-mission",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -7728,33 +7592,6 @@
     "console": "nes",
     "id": "fire-n-ice",
     "id_igdb": 48671,
-    "active": true
-  },
-  {
-    "name": "Fire Dragon",
-    "filename": "Fire Dragon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fire-dragon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Fire Emblem Gaiden",
-    "filename": "Fire Emblem Gaiden.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fire-emblem-gaiden",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Fire Hawk",
-    "filename": "Fire Hawk.zip",
-    "image": "",
-    "console": "nes",
-    "id": "fire-hawk",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -7786,6 +7623,15 @@
     "id_igdb": 39647,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "FireHawk",
+    "filename": "Fire Hawk.zip",
+    "image": "/images/roms/nes/firehawk.jpg",
+    "console": "nes",
+    "id": "firehawk",
+    "id_igdb": 48252,
+    "active": true
   },
   {
     "name": "Firepower 2000",
@@ -7865,10 +7711,10 @@
   {
     "name": "Flappy",
     "filename": "Flappy.zip",
-    "image": "",
+    "image": "/images/roms/nes/flappy.jpg",
     "console": "nes",
     "id": "flappy",
-    "id_igdb": "",
+    "id_igdb": 78238,
     "active": true
   },
   {
@@ -7921,30 +7767,12 @@
     "active": true
   },
   {
-    "name": "Flintstones I",
-    "filename": "Flintstones I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "flintstones-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Flintstones II",
-    "filename": "Flintstones II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "flintstones-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Flipull - Cube Game",
+    "name": "Flipull: An Exciting Cube Game",
     "filename": "Flipull - Cube Game.zip",
-    "image": "",
+    "image": "/images/roms/nes/flipull-an-exciting-cube-game.jpg",
     "console": "nes",
-    "id": "flipull-cube-game",
-    "id_igdb": "",
+    "id": "flipull-an-exciting-cube-game",
+    "id_igdb": 79386,
     "active": true
   },
   {
@@ -7959,10 +7787,10 @@
   {
     "name": "Flying Hero",
     "filename": "Flying Hero.zip",
-    "image": "",
+    "image": "/images/roms/nes/flying-hero.jpg",
     "console": "nes",
     "id": "flying-hero",
-    "id_igdb": "",
+    "id_igdb": 64265,
     "active": true
   },
   {
@@ -8025,12 +7853,12 @@
     "active": true
   },
   {
-    "name": "Formula One Sensation",
+    "name": "Formula 1 Sensation",
     "filename": "Formula One Sensation.zip",
-    "image": "",
+    "image": "/images/roms/nes/formula-1-sensation.jpg",
     "console": "nes",
-    "id": "formula-one-sensation",
-    "id_igdb": "",
+    "id": "formula-1-sensation",
+    "id_igdb": 48125,
     "active": true
   },
   {
@@ -8131,10 +7959,10 @@
   {
     "name": "Front Line",
     "filename": "Front Line.zip",
-    "image": "",
+    "image": "/images/roms/nes/front-line.jpg",
     "console": "nes",
     "id": "front-line",
-    "id_igdb": "",
+    "id_igdb": 276438,
     "active": true
   },
   {
@@ -8226,21 +8054,12 @@
     "check_name": true
   },
   {
-    "name": "Future Soldier - Lios",
-    "filename": "Future Soldier - Lios.zip",
-    "image": "",
-    "console": "nes",
-    "id": "future-soldier-lios",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Fuzzical Fighter",
     "filename": "Fuzzical Fighter.zip",
-    "image": "",
+    "image": "/images/roms/nes/fuzzical-fighter.jpg",
     "console": "nes",
     "id": "fuzzical-fighter",
-    "id_igdb": "",
+    "id_igdb": 48489,
     "active": true
   },
   {
@@ -24107,6 +23926,24 @@
     "active": true,
     "check": true,
     "check_name": true
+  },
+  {
+    "name": "The Flintstones: The Rescue of Dino & Hoppy",
+    "filename": "Flintstones I.zip",
+    "image": "/images/roms/nes/the-flintstones-the-rescue-of-dino-and-hoppy.jpg",
+    "console": "nes",
+    "id": "the-flintstones-the-rescue-of-dino-and-hoppy",
+    "id_igdb": 18810,
+    "active": true
+  },
+  {
+    "name": "The Flintstones: The Surprise at Dinosaur Peak!",
+    "filename": "Flintstones II.zip",
+    "image": "/images/roms/nes/the-flintstones-the-surprise-at-dinosaur-peak.jpg",
+    "console": "nes",
+    "id": "the-flintstones-the-surprise-at-dinosaur-peak",
+    "id_igdb": 48288,
+    "active": true
   },
   {
     "name": "The Flintstones: The Treasure of Sierra Madrock",
