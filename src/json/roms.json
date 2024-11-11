@@ -8133,11 +8133,12 @@
   {
     "name": "Gaiapolis",
     "filename": "Gaiapolis.zip",
-    "image": "",
+    "image": "/images/roms/nes/gaiapolis.jpg",
     "console": "nes",
     "id": "gaiapolis",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 39823,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gaiares",
@@ -8189,11 +8190,12 @@
   {
     "name": "Galaxian",
     "filename": "Galaxian.zip",
-    "image": "",
+    "image": "/images/roms/nes/galaxian.png",
     "console": "nes",
     "id": "galaxian",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Galaxy 5000",
@@ -8221,16 +8223,18 @@
     "console": "nes",
     "id": "galaxy-nes",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Galaxy Patrol Enhanced",
     "filename": "Galaxy Patrol Enhanced.zip",
-    "image": "",
+    "image": "/images/roms/nes/galaxy-patrol-enhanced.jpg",
     "console": "nes",
     "id": "galaxy-patrol-enhanced",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gambler Jiko Chuushinha: Katayama Masayuki no Mahjong Dojo",
@@ -8249,16 +8253,18 @@
     "console": "nes",
     "id": "game",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Game Party",
     "filename": "Game Party.zip",
-    "image": "",
+    "image": "/images/roms/nes/game-party.jpg",
     "console": "nes",
     "id": "game-party",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 208265,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Game no Kanzume Otokuyou",
@@ -8280,31 +8286,34 @@
     "active": true
   },
   {
-    "name": "Ganbare Goemon II",
+    "name": "Ganbare Goemon 2",
     "filename": "Ganbare Goemon II.zip",
-    "image": "",
+    "image": "/images/roms/nes/ganbare-goemon-2.jpg",
     "console": "nes",
-    "id": "ganbare-goemon-ii",
-    "id_igdb": "",
-    "active": true
+    "id": "ganbare-goemon-2",
+    "id_igdb": 74284,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Ganbare Goemon!",
+    "name": "Ganbare Goemon!: Karakuri Douchuu",
     "filename": "Ganbare Goemon!.zip",
-    "image": "",
+    "image": "/images/roms/nes/ganbare-goemon-karakuri-douchuu.jpg",
     "console": "nes",
-    "id": "ganbare-goemon-",
-    "id_igdb": "",
-    "active": true
+    "id": "ganbare-goemon-karakuri-douchuu",
+    "id_igdb": 41718,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Garfield - A Week of Garfield",
+    "name": "A Week of Garfield: Garfield no Isshukan",
     "filename": "Garfield - A Week of Garfield.zip",
-    "image": "",
+    "image": "/images/roms/nes/a-week-of-garfield-garfield-no-isshukan.jpg",
     "console": "nes",
-    "id": "garfield-a-week-of-garfield",
-    "id_igdb": "",
-    "active": true
+    "id": "a-week-of-garfield-garfield-no-isshukan",
+    "id_igdb": 69023,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Garfield: Caught in the Act",
@@ -8343,7 +8352,8 @@
     "console": "nes",
     "id": "garou-densetsu-special",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Garry Kitchen's Super Battletank: War in the Gulf",
@@ -8365,13 +8375,14 @@
     "active": true
   },
   {
-    "name": "Gauntlet I",
+    "name": "Gauntlet",
     "filename": "Gauntlet I.zip",
-    "image": "",
+    "image": "/images/roms/nes/gauntlet.jpg",
     "console": "nes",
-    "id": "gauntlet-i",
-    "id_igdb": "",
-    "active": true
+    "id": "gauntlet",
+    "id_igdb": 7294,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gauntlet II",
@@ -8405,11 +8416,12 @@
   {
     "name": "Gekitotsu Yonku Battle",
     "filename": "Gekitotsu Yonku Battle.zip",
-    "image": "",
+    "image": "/images/roms/nes/gekitotsu-yonku-battle.jpg",
     "console": "nes",
     "id": "gekitotsu-yonku-battle",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48484,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gemfire",
@@ -8522,11 +8534,12 @@
   {
     "name": "Getsufuu Maden",
     "filename": "Getsufuu Maden.zip",
-    "image": "",
+    "image": "/images/roms/nes/getsufuu-maden.png",
     "console": "nes",
     "id": "getsufuu-maden",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ghost Hunter",
