@@ -8093,21 +8093,22 @@
     "check_name": true
   },
   {
+    "name": "G.I. Joe: A Real American Hero",
+    "filename": "GI Joe.zip",
+    "image": "/images/roms/nes/gi-joe-a-real-american-hero.jpg",
+    "console": "nes",
+    "id": "gi-joe-a-real-american-hero",
+    "id_igdb": 8165,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "G.I. Joe: The Atlantis Factor",
     "filename": "GI Joe - The Atlantis Factor.zip",
     "image": "/images/roms/nes/gi-joe-the-atlantis-factor.jpg",
     "console": "nes",
     "id": "gi-joe-the-atlantis-factor",
     "id_igdb": 8166,
-    "active": true
-  },
-  {
-    "name": "GI Joe",
-    "filename": "GI Joe.zip",
-    "image": "",
-    "console": "nes",
-    "id": "gi-joe",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -8503,15 +8504,6 @@
     "check_image": true
   },
   {
-    "name": "Ghost Hunter",
-    "filename": "Ghost Hunter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ghost-hunter",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Ghostbusters",
     "filename": "Ghostbusters (REV 01) (JUE) [!].smd",
     "image": "/images/roms/gens/ghostbusters.jpg",
@@ -8522,13 +8514,14 @@
     "check_name": true
   },
   {
-    "name": "Ghostbusters I",
+    "name": "Ghostbusters",
     "filename": "Ghostbusters I.zip",
-    "image": "",
+    "image": "/images/roms/nes/ghostbusters.jpg",
     "console": "nes",
-    "id": "ghostbusters-i",
-    "id_igdb": "",
-    "active": true
+    "id": "ghostbusters",
+    "id_igdb": 290056,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ghostbusters II",
@@ -8589,15 +8582,6 @@
     "check_name": true
   },
   {
-    "name": "Glory of Heracles II - Titans Downfall",
-    "filename": "Glory of Heracles II - Titans Downfall.zip",
-    "image": "",
-    "console": "nes",
-    "id": "glory-of-heracles-ii-titans-downfall",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Go! Benny!",
     "filename": "Go! Benny!.zip",
     "image": "/images/roms/nes/go-benny.jpg",
@@ -8607,22 +8591,24 @@
     "active": true
   },
   {
-    "name": "Goal! I",
+    "name": "Goal!",
     "filename": "Goal! I.zip",
-    "image": "",
+    "image": "/images/roms/nes/goal.jpg",
     "console": "nes",
-    "id": "goal-i",
-    "id_igdb": "",
-    "active": true
+    "id": "goal",
+    "id_igdb": 268132,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Goal! II",
+    "name": "Goal! Two",
     "filename": "Goal! II.zip",
-    "image": "",
+    "image": "/images/roms/nes/goal-two.jpg",
     "console": "nes",
-    "id": "goal-ii",
-    "id_igdb": "",
-    "active": true
+    "id": "goal-two",
+    "id_igdb": 48162,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gods",
@@ -8654,13 +8640,14 @@
     "active": true
   },
   {
-    "name": "Godzilla I - Monster of Monsters!",
+    "name": "Godzilla: Monster of Monsters",
     "filename": "Godzilla I - Monster of Monsters!.zip",
-    "image": "",
+    "image": "/images/roms/nes/godzilla-monster-of-monsters.jpg",
     "console": "nes",
-    "id": "godzilla-i-monster-of-monsters-",
-    "id_igdb": "",
-    "active": true
+    "id": "godzilla-monster-of-monsters",
+    "id_igdb": 48161,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Golden Axe",
@@ -8704,24 +8691,6 @@
     "active": true
   },
   {
-    "name": "Golf '92",
-    "filename": "Golf '92.zip",
-    "image": "",
-    "console": "nes",
-    "id": "golf-92",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Golf Club - Birdy Rush",
-    "filename": "Golf Club - Birdy Rush.zip",
-    "image": "",
-    "console": "nes",
-    "id": "golf-club-birdy-rush",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Golf Grand Slam",
     "filename": "Golf Grand Slam.zip",
     "image": "/images/roms/nes/golf-grand-slam.jpg",
@@ -8752,11 +8721,12 @@
   {
     "name": "Gorby's Pipeline - Great Millitary Op",
     "filename": "Gorby's Pipeline - Great Millitary Op.zip",
-    "image": "",
+    "image": "/images/roms/nes/gorby-s-pipeline-great-millitary-op.jpg",
     "console": "nes",
     "id": "gorby-s-pipeline-great-millitary-op",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gotcha! The Sport!",
@@ -8765,15 +8735,6 @@
     "console": "nes",
     "id": "gotcha-the-sport",
     "id_igdb": 5848,
-    "active": true
-  },
-  {
-    "name": "Gourmet",
-    "filename": "Gourmet.zip",
-    "image": "",
-    "console": "nes",
-    "id": "gourmet",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -8788,11 +8749,12 @@
   {
     "name": "Gradius II",
     "filename": "Gradius II.zip",
-    "image": "",
+    "image": "/images/roms/nes/gradius-ii.jpg",
     "console": "nes",
     "id": "gradius-ii",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 213190,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gradius III",
@@ -8817,56 +8779,52 @@
   {
     "name": "Grand Master",
     "filename": "Grand Master.zip",
-    "image": "",
+    "image": "/images/roms/nes/grand-master.jpg",
     "console": "nes",
     "id": "grand-master",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48695,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gravity Armor Metal Storm",
     "filename": "Gravity Armor Metal Storm.zip",
-    "image": "",
+    "image": "/images/roms/nes/gravity-armor-metal-storm.jpg",
     "console": "nes",
     "id": "gravity-armor-metal-storm",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 17271,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Great Battle Cyber",
     "filename": "Great Battle Cyber.zip",
-    "image": "",
+    "image": "/images/roms/nes/great-battle-cyber.jpg",
     "console": "nes",
     "id": "great-battle-cyber",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48479,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Great Deal",
     "filename": "Great Deal.zip",
-    "image": "",
+    "image": "/images/roms/nes/great-deal.jpg",
     "console": "nes",
     "id": "great-deal",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Great Maze - Master of the Maze",
-    "filename": "Great Maze - Master of the Maze.zip",
-    "image": "",
-    "console": "nes",
-    "id": "great-maze-master-of-the-maze",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 267653,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Great Wall",
     "filename": "Great Wall.zip",
-    "image": "",
+    "image": "/images/roms/nes/great-wall.jpg",
     "console": "nes",
     "id": "great-wall",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Greatest Heavyweights",
@@ -8996,11 +8954,12 @@
   {
     "name": "Gyrodine",
     "filename": "Gyrodine.zip",
-    "image": "",
+    "image": "/images/roms/nes/gyrodine.jpg",
     "console": "nes",
     "id": "gyrodine",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 39682,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gyromite",
@@ -9029,15 +8988,6 @@
     "id_igdb": 3653,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Hacker",
-    "filename": "Hacker.zip",
-    "image": "",
-    "console": "nes",
-    "id": "hacker",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Hagane: The Final Conflict",
