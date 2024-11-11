@@ -145,8 +145,7 @@
     "console": "nes",
     "id": "a-week-of-garfield-garfield-no-isshukan",
     "id_igdb": 69023,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "A-Ressha de Ikou MD",
@@ -8099,8 +8098,7 @@
     "console": "nes",
     "id": "gi-joe-a-real-american-hero",
     "id_igdb": 8165,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "G.I. Joe: The Atlantis Factor",
@@ -8148,8 +8146,7 @@
     "console": "nes",
     "id": "gaiapolis",
     "id_igdb": 39823,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gaiares",
@@ -8205,8 +8202,7 @@
     "console": "nes",
     "id": "galaxian",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Galaxy 5000",
@@ -8234,8 +8230,7 @@
     "console": "nes",
     "id": "galaxy-patrol-enhanced",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gambler Jiko Chuushinha: Katayama Masayuki no Mahjong Dojo",
@@ -8254,8 +8249,7 @@
     "console": "nes",
     "id": "game-party",
     "id_igdb": 208265,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Game no Kanzume Otokuyou",
@@ -8274,8 +8268,7 @@
     "console": "nes",
     "id": "ganbare-goemon-2",
     "id_igdb": 74284,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ganbare Goemon!: Karakuri Douchuu",
@@ -8284,8 +8277,7 @@
     "console": "nes",
     "id": "ganbare-goemon-karakuri-douchuu",
     "id_igdb": 41718,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Garfield: Caught in the Act",
@@ -8343,8 +8335,7 @@
     "console": "nes",
     "id": "gauntlet",
     "id_igdb": 7294,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gauntlet II",
@@ -8382,8 +8373,7 @@
     "console": "nes",
     "id": "gekitotsu-yonku-battle",
     "id_igdb": 48484,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gemfire",
@@ -8500,8 +8490,7 @@
     "console": "nes",
     "id": "getsufuu-maden",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ghostbusters",
@@ -8520,8 +8509,7 @@
     "console": "nes",
     "id": "ghostbusters",
     "id_igdb": 290056,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ghostbusters II",
@@ -8597,8 +8585,7 @@
     "console": "nes",
     "id": "goal",
     "id_igdb": 268132,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Goal! Two",
@@ -8607,8 +8594,7 @@
     "console": "nes",
     "id": "goal-two",
     "id_igdb": 48162,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gods",
@@ -8646,8 +8632,7 @@
     "console": "nes",
     "id": "godzilla-monster-of-monsters",
     "id_igdb": 48161,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Golden Axe",
@@ -8725,8 +8710,7 @@
     "console": "nes",
     "id": "gorby-s-pipeline-great-millitary-op",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gotcha! The Sport!",
@@ -8753,8 +8737,7 @@
     "console": "nes",
     "id": "gradius-ii",
     "id_igdb": 213190,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gradius III",
@@ -8783,8 +8766,7 @@
     "console": "nes",
     "id": "grand-master",
     "id_igdb": 48695,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gravity Armor Metal Storm",
@@ -8793,8 +8775,7 @@
     "console": "nes",
     "id": "gravity-armor-metal-storm",
     "id_igdb": 17271,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Great Battle Cyber",
@@ -8803,8 +8784,7 @@
     "console": "nes",
     "id": "great-battle-cyber",
     "id_igdb": 48479,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Great Deal",
@@ -8813,8 +8793,7 @@
     "console": "nes",
     "id": "great-deal",
     "id_igdb": 267653,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Great Wall",
@@ -8823,8 +8802,7 @@
     "console": "nes",
     "id": "great-wall",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Greatest Heavyweights",
@@ -8958,8 +8936,7 @@
     "console": "nes",
     "id": "gyrodine",
     "id_igdb": 39682,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gyromite",
@@ -9112,20 +9089,22 @@
   {
     "name": "Harry Story",
     "filename": "Harry Story.zip",
-    "image": "",
+    "image": "/images/roms/nes/harry-story.png",
     "console": "nes",
     "id": "harry-story",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Harry's Legend",
     "filename": "Harry's Legend.zip",
-    "image": "",
+    "image": "/images/roms/nes/harry-s-legend.jpg",
     "console": "nes",
     "id": "harry-s-legend",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Harvest Moon",
@@ -9229,20 +9208,22 @@
   {
     "name": "Heisei Tensai Bakabon",
     "filename": "Heisei Tensai Bakabon.zip",
-    "image": "",
+    "image": "/images/roms/nes/heisei-tensai-bakabon.jpg",
     "console": "nes",
     "id": "heisei-tensai-bakabon",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 249763,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hell Fighter",
     "filename": "Hell Fighter.zip",
-    "image": "",
+    "image": "/images/roms/nes/hell-fighter.jpg",
     "console": "nes",
     "id": "hell-fighter",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hellfire",
@@ -9257,38 +9238,32 @@
   {
     "name": "Hello Kitty World",
     "filename": "Hello Kitty World.zip",
-    "image": "",
+    "image": "/images/roms/nes/hello-kitty-world.jpg",
     "console": "nes",
     "id": "hello-kitty-world",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48626,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hello Kitty's Flower Shop",
     "filename": "Hello Kitty's Flower Shop.zip",
-    "image": "",
+    "image": "/images/roms/nes/hello-kitty-s-flower-shop.webp",
     "console": "nes",
     "id": "hello-kitty-s-flower-shop",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hero Quest",
-    "filename": "Hero Quest.zip",
-    "image": "",
-    "console": "nes",
-    "id": "hero-quest",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hero of the Sun - Fire Bird",
     "filename": "Hero of the Sun - Fire Bird.zip",
-    "image": "",
+    "image": "/images/roms/nes/hero-of-the-sun-fire-bird.jpg",
     "console": "nes",
     "id": "hero-of-the-sun-fire-bird",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Herzog Zwei",
@@ -9332,29 +9307,32 @@
   {
     "name": "Hirake! Ponkikki",
     "filename": "Hirake! Ponkikki.zip",
-    "image": "",
+    "image": "/images/roms/nes/hirake-ponkikki.jpg",
     "console": "nes",
     "id": "hirake-ponkikki",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48472,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hit Marmot",
     "filename": "Hit Marmot.zip",
-    "image": "",
+    "image": "/images/roms/nes/hit-marmot.jpg",
     "console": "nes",
     "id": "hit-marmot",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48897,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hit the Ice",
     "filename": "Hit the Ice.zip",
-    "image": "",
+    "image": "/images/roms/nes/hit-the-ice.png",
     "console": "nes",
     "id": "hit-the-ice",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hit the Ice: The Video Hockey League",
@@ -9389,11 +9367,12 @@
   {
     "name": "Hokuto no Ken",
     "filename": "Hokuto no Ken.zip",
-    "image": "",
+    "image": "/images/roms/nes/hokuto-no-ken.jpg",
     "console": "nes",
     "id": "hokuto-no-ken",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 46115,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hokuto no Ken: Shin Seikimatsu Kyuuseishu Densetsu",
@@ -9417,11 +9396,12 @@
   {
     "name": "Holy Diver",
     "filename": "Holy Diver.zip",
-    "image": "",
+    "image": "/images/roms/nes/holy-diver.jpg",
     "console": "nes",
     "id": "holy-diver",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 19110,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Home Alone",
@@ -9442,6 +9422,16 @@
     "id_igdb": 4523,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Home Alone",
+    "filename": "Home Alone I.zip",
+    "image": "/images/roms/nes/home-alone.jpg",
+    "console": "nes",
+    "id": "home-alone",
+    "id_igdb": 243887,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Home Alone 2: Lost in New York",
@@ -9465,22 +9455,14 @@
     "check_name": true
   },
   {
-    "name": "Home Alone I",
-    "filename": "Home Alone I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "home-alone-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Home Alone II - Lost In New York",
+    "name": "Home Alone 2: Lost in New York",
     "filename": "Home Alone II - Lost In New York.zip",
-    "image": "",
+    "image": "/images/roms/nes/home-alone-2-lost-in-new-york.jpg",
     "console": "nes",
-    "id": "home-alone-ii-lost-in-new-york",
-    "id_igdb": "",
-    "active": true
+    "id": "home-alone-2-lost-in-new-york",
+    "id_igdb": 243884,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Home Improvement: Power Tool Pursuit!",
@@ -9541,31 +9523,24 @@
     "active": true
   },
   {
-    "name": "Hoppin' Mad",
-    "filename": "Hoppin' Mad.zip",
-    "image": "",
-    "console": "nes",
-    "id": "hoppin-mad",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Hotman",
     "filename": "Hotman.zip",
-    "image": "",
+    "image": "/images/roms/nes/hotman.jpg",
     "console": "nes",
     "id": "hotman",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Huang Di",
     "filename": "Huang Di.zip",
-    "image": "",
+    "image": "/images/roms/nes/huang-di.jpg",
     "console": "nes",
     "id": "huang-di",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hudson Hawk",
@@ -9579,11 +9554,12 @@
   {
     "name": "Huge Insect",
     "filename": "Huge Insect.zip",
-    "image": "",
+    "image": "/images/roms/nes/huge-insect.jpg",
     "console": "nes",
     "id": "huge-insect",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 64901,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hungry Dinosaurs",
@@ -9594,15 +9570,6 @@
     "id_igdb": 42587,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Hunt For Red October",
-    "filename": "Hunt For Red October.zip",
-    "image": "",
-    "console": "nes",
-    "id": "hunt-for-red-october",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Hurricanes",
@@ -9634,15 +9601,6 @@
     "active": true
   },
   {
-    "name": "Hydlide Special",
-    "filename": "Hydlide Special.zip",
-    "image": "",
-    "console": "nes",
-    "id": "hydlide-special",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Hyokkori Hyoutanjima: Daitouryou wo Mezase!",
     "filename": "Hyokkori Hyoutanjima (The Great Voyage of) (J) [x].smd",
     "image": "/images/roms/gens/hyokkori-hyoutanjima-daitouryou-wo-mezase.jpg",
@@ -9652,15 +9610,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Hyper Sports",
-    "filename": "Hyper Sports.zip",
-    "image": "",
-    "console": "nes",
-    "id": "hyper-sports",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Hyper V-Ball",
@@ -23985,6 +23934,16 @@
     "active": true,
     "check": true,
     "check_name": true
+  },
+  {
+    "name": "The Hunt for Red October",
+    "filename": "Hunt For Red October.zip",
+    "image": "/images/roms/nes/the-hunt-for-red-october.jpg",
+    "console": "nes",
+    "id": "the-hunt-for-red-october",
+    "id_igdb": 76577,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Hunt for Red October",
