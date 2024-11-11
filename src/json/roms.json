@@ -139,6 +139,16 @@
     "active": true
   },
   {
+    "name": "A Week of Garfield: Garfield no Isshukan",
+    "filename": "Garfield - A Week of Garfield.zip",
+    "image": "/images/roms/nes/a-week-of-garfield-garfield-no-isshukan.jpg",
+    "console": "nes",
+    "id": "a-week-of-garfield-garfield-no-isshukan",
+    "id_igdb": 69023,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "A-Ressha de Ikou MD",
     "filename": "Take the 'A' Train (J).smd",
     "image": "/images/roms/gens/a-ressha-de-ikou-md.jpg",
@@ -8217,16 +8227,6 @@
     "check_name": true
   },
   {
-    "name": "Galaxy NES",
-    "filename": "Galaxy NES.zip",
-    "image": "",
-    "console": "nes",
-    "id": "galaxy-nes",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Galaxy Patrol Enhanced",
     "filename": "Galaxy Patrol Enhanced.zip",
     "image": "/images/roms/nes/galaxy-patrol-enhanced.jpg",
@@ -8245,16 +8245,6 @@
     "id_igdb": 4411,
     "active": true,
     "check": true
-  },
-  {
-    "name": "Game",
-    "filename": "Game.zip",
-    "image": "",
-    "console": "nes",
-    "id": "game",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Game Party",
@@ -8277,15 +8267,6 @@
     "check": true
   },
   {
-    "name": "Game of Life",
-    "filename": "Game of Life.zip",
-    "image": "",
-    "console": "nes",
-    "id": "game-of-life",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Ganbare Goemon 2",
     "filename": "Ganbare Goemon II.zip",
     "image": "/images/roms/nes/ganbare-goemon-2.jpg",
@@ -8302,16 +8283,6 @@
     "console": "nes",
     "id": "ganbare-goemon-karakuri-douchuu",
     "id_igdb": 41718,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "A Week of Garfield: Garfield no Isshukan",
-    "filename": "Garfield - A Week of Garfield.zip",
-    "image": "/images/roms/nes/a-week-of-garfield-garfield-no-isshukan.jpg",
-    "console": "nes",
-    "id": "a-week-of-garfield-garfield-no-isshukan",
-    "id_igdb": 69023,
     "active": true,
     "check_image": true
   },
@@ -8344,16 +8315,6 @@
     "id_igdb": 4530,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Garou Densetsu Special",
-    "filename": "Garou Densetsu Special.zip",
-    "image": "",
-    "console": "nes",
-    "id": "garou-densetsu-special",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Garry Kitchen's Super Battletank: War in the Gulf",
