@@ -5622,8 +5622,25 @@
     "console": "nes",
     "id": "disneys-the-jungle-book",
     "id_igdb": 204575,
-    "active": true,
-    "check_image": true
+    "active": true
+  },
+  {
+    "name": "Disney's The Lion King",
+    "filename": "Lion King.zip",
+    "image": "/images/roms/nes/disneys-the-lion-king.jpg",
+    "console": "nes",
+    "id": "disneys-the-lion-king",
+    "id_igdb": 204571,
+    "active": true
+  },
+  {
+    "name": "Disney's The Little Mermaid",
+    "filename": "Little Mermaid.zip",
+    "image": "/images/roms/nes/disneys-the-little-mermaid.jpg",
+    "console": "nes",
+    "id": "disneys-the-little-mermaid",
+    "id_igdb": 19900,
+    "active": true
   },
   {
     "name": "Disney's Timon & Pumbaa's Jungle Games",
@@ -9103,8 +9120,7 @@
     "console": "nes",
     "id": "harry-story",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Harry's Legend",
@@ -9113,8 +9129,7 @@
     "console": "nes",
     "id": "harry-s-legend",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Harvest Moon",
@@ -9222,8 +9237,7 @@
     "console": "nes",
     "id": "heisei-tensai-bakabon",
     "id_igdb": 249763,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hell Fighter",
@@ -9232,8 +9246,7 @@
     "console": "nes",
     "id": "hell-fighter",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hellfire",
@@ -9252,8 +9265,7 @@
     "console": "nes",
     "id": "hello-kitty-world",
     "id_igdb": 48626,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hello Kitty's Flower Shop",
@@ -9262,8 +9274,7 @@
     "console": "nes",
     "id": "hello-kitty-s-flower-shop",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hero of the Sun - Fire Bird",
@@ -9272,8 +9283,7 @@
     "console": "nes",
     "id": "hero-of-the-sun-fire-bird",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Herzog Zwei",
@@ -9321,8 +9331,7 @@
     "console": "nes",
     "id": "hirake-ponkikki",
     "id_igdb": 48472,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hit Marmot",
@@ -9331,8 +9340,7 @@
     "console": "nes",
     "id": "hit-marmot",
     "id_igdb": 48897,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hit the Ice",
@@ -9341,8 +9349,7 @@
     "console": "nes",
     "id": "hit-the-ice",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hit the Ice: The Video Hockey League",
@@ -9381,8 +9388,7 @@
     "console": "nes",
     "id": "hokuto-no-ken",
     "id_igdb": 46115,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hokuto no Ken: Shin Seikimatsu Kyuuseishu Densetsu",
@@ -9410,8 +9416,7 @@
     "console": "nes",
     "id": "holy-diver",
     "id_igdb": 19110,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Home Alone",
@@ -9440,8 +9445,7 @@
     "console": "nes",
     "id": "home-alone",
     "id_igdb": 243887,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Home Alone 2: Lost in New York",
@@ -9471,8 +9475,7 @@
     "console": "nes",
     "id": "home-alone-2-lost-in-new-york",
     "id_igdb": 243884,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Home Improvement: Power Tool Pursuit!",
@@ -9539,8 +9542,7 @@
     "console": "nes",
     "id": "hotman",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Huang Di",
@@ -9549,8 +9551,7 @@
     "console": "nes",
     "id": "huang-di",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hudson Hawk",
@@ -9568,8 +9569,7 @@
     "console": "nes",
     "id": "huge-insect",
     "id_igdb": 64901,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hungry Dinosaurs",
@@ -9676,8 +9676,7 @@
     "console": "nes",
     "id": "ikari-iii-the-rescue",
     "id_igdb": 274104,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ikari Warriors",
@@ -9686,8 +9685,7 @@
     "console": "nes",
     "id": "ikari-warriors",
     "id_igdb": 274081,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ikari Warriors II: Victory Road",
@@ -9696,8 +9694,7 @@
     "console": "nes",
     "id": "ikari-warriors-ii-victory-road",
     "id_igdb": 274095,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ikinari Musician",
@@ -9706,8 +9703,7 @@
     "console": "nes",
     "id": "ikinari-musician",
     "id_igdb": 48462,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ikki",
@@ -9716,8 +9712,7 @@
     "console": "nes",
     "id": "ikki",
     "id_igdb": 12915,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Illusion of Gaia",
@@ -9833,8 +9828,7 @@
     "console": "nes",
     "id": "insector-x",
     "id_igdb": 70757,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Inspector Gadget",
@@ -9932,8 +9926,7 @@
     "console": "nes",
     "id": "iron-tank-the-invasion-of-normandy",
     "id_igdb": 19956,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Isolated Warrior",
@@ -9962,8 +9955,7 @@
     "console": "nes",
     "id": "ivan-ironman-stewarts-super-off-road",
     "id_igdb": 12735,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Izzy's Quest for the Olympic Rings",
@@ -9992,8 +9984,7 @@
     "console": "nes",
     "id": "j-league-fighting-soccer-the-king-of-ace-strikers",
     "id_igdb": 48460,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "J. League Pro Striker Final Stage",
@@ -10040,8 +10031,7 @@
     "console": "nes",
     "id": "jleague-super-top-players",
     "id_igdb": 48519,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "J.League Winning Goal",
@@ -10050,8 +10040,7 @@
     "console": "nes",
     "id": "jleague-winning-goal",
     "id_igdb": 48459,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "J.R.R. Tolkien's Lord of the Rings: Volume One",
@@ -10069,8 +10058,7 @@
     "console": "nes",
     "id": "jesus-kyoufu-no-bio-monster",
     "id_igdb": 48452,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jack Nicklaus' Greatest 18 Holes of Major Championship Golf",
@@ -10079,8 +10067,7 @@
     "console": "nes",
     "id": "jack-nicklaus-greatest-18-holes-of-major-championship-golf",
     "id_igdb": 18101,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jack Nicklaus' Power Challenge Golf",
@@ -10137,8 +10124,7 @@
     "console": "nes",
     "id": "james-bond-jr",
     "id_igdb": 290180,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "James Bond Jr.",
@@ -10333,8 +10319,7 @@
     "console": "nes",
     "id": "jeopardy-25th-anniversary-edition",
     "id_igdb": 48694,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jeopardy!: Junior Edition",
@@ -10343,8 +10328,7 @@
     "console": "nes",
     "id": "jeopardy-junior-edition",
     "id_igdb": 48709,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jerry Glanville's Pigskin Footbrawl",
@@ -10411,8 +10395,7 @@
     "console": "nes",
     "id": "jimmy-connors-tennis",
     "id_igdb": 40845,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jimmy Houston's Bass Tournament U.S.A.",
@@ -10556,8 +10539,7 @@
     "console": "nes",
     "id": "jordan-vs-bird-one-on-one",
     "id_igdb": 18837,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jordan vs. Bird: One on One",
@@ -10575,8 +10557,7 @@
     "console": "nes",
     "id": "joshua-and-the-battle-of-jericho",
     "id_igdb": 46186,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Joshua & The Battle of Jericho",
@@ -10613,8 +10594,7 @@
     "console": "nes",
     "id": "joy-mech-fight",
     "id_igdb": 48123,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Judge Dredd",
@@ -10642,8 +10622,7 @@
     "console": "nes",
     "id": "jumbo-ozaki-no-hole-in-one-professional",
     "id_igdb": 48340,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jumpin' Kid: Jack to Mame no Ki Monogatari",
@@ -10652,8 +10631,7 @@
     "console": "nes",
     "id": "jumpin-kid-jack-to-mame-no-ki-monogatari",
     "id_igdb": 48450,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Junction",
@@ -10741,8 +10719,7 @@
     "console": "nes",
     "id": "just-breed",
     "id_igdb": 70173,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Justice League Task Force",
@@ -10781,8 +10758,7 @@
     "console": "nes",
     "id": "kabuki-quantum-fighter",
     "id_igdb": 27623,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kamen no Ninja Akakage",
@@ -10791,8 +10767,7 @@
     "console": "nes",
     "id": "kamen-no-ninja-akakage",
     "id_igdb": 48444,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kamen no Ninja Hanamaru",
@@ -10801,8 +10776,7 @@
     "console": "nes",
     "id": "kamen-no-ninja-hanamaru",
     "id_igdb": 154805,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Karate Champ",
@@ -10965,8 +10939,7 @@
     "console": "nes",
     "id": "kid-dracula",
     "id_igdb": 1120,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kid Icarus",
@@ -10994,8 +10967,7 @@
     "console": "nes",
     "id": "kid-klown-in-night-mayor-world",
     "id_igdb": 48115,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kid Kool and the Quest for the Seven Wonder Herbs",
@@ -11004,8 +10976,7 @@
     "console": "nes",
     "id": "kid-kool-and-the-quest-for-the-seven-wonder-herbs",
     "id_igdb": 48150,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kid Niki II - Karakuri Land",
@@ -11014,8 +10985,7 @@
     "console": "nes",
     "id": "kid-niki-ii-karakuri-land",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kid Niki III",
@@ -11024,8 +10994,7 @@
     "console": "nes",
     "id": "kid-niki-iii",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kid Niki: Radical Ninja",
@@ -11034,8 +11003,7 @@
     "console": "nes",
     "id": "kid-niki-radical-ninja",
     "id_igdb": 39465,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kidou Keisatsu Patlabor: 98-Shiki Kidou Seyo!",
@@ -11112,8 +11080,7 @@
     "console": "nes",
     "id": "king-of-kings-the-early-years",
     "id_igdb": 48148,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "King of the Monsters",
@@ -11181,8 +11148,7 @@
     "console": "nes",
     "id": "king-s-quest-v-absence-makes-the-heart-go-yonder",
     "id_igdb": 2238,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kings of the Beach",
@@ -11249,8 +11215,7 @@
     "console": "nes",
     "id": "kiteretsu-daihyakka",
     "id_igdb": 48746,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kiwi Kraze: A Bird-Brained Adventure!",
@@ -11259,8 +11224,7 @@
     "console": "nes",
     "id": "kiwi-kraze-a-bird-brained-adventure",
     "id_igdb": 48147,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Klash Ball",
@@ -11399,8 +11363,7 @@
     "console": "nes",
     "id": "kunio-kuns-nekketsu-soccer-league",
     "id_igdb": 16603,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kyatto Ninden Teyandee",
@@ -11409,8 +11372,7 @@
     "console": "nes",
     "id": "kyatto-ninden-teyandee",
     "id_igdb": 24480,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kyle Petty's No Fear Racing",
@@ -11448,16 +11410,6 @@
     "id": "lhx-attack-chopper",
     "id_igdb": 2166,
     "active": true
-  },
-  {
-    "name": "Labyrinth",
-    "filename": "Labyrinth.zip",
-    "image": "",
-    "console": "nes",
-    "id": "labyrinth",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Lagoon",
@@ -11576,30 +11528,12 @@
     "check_name": true
   },
   {
-    "name": "Last Ninja",
-    "filename": "Last Ninja.zip",
-    "image": "",
-    "console": "nes",
-    "id": "last-ninja",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Last Starfighter",
-    "filename": "Last Starfighter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "last-starfighter",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Layla",
     "filename": "Layla.zip",
-    "image": "",
+    "image": "/images/roms/nes/layla.jpg",
     "console": "nes",
     "id": "layla",
-    "id_igdb": "",
+    "id_igdb": 19112,
     "active": true
   },
   {
@@ -11629,42 +11563,6 @@
     "id_igdb": 15247,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Legend of Kage",
-    "filename": "Legend of Kage.zip",
-    "image": "",
-    "console": "nes",
-    "id": "legend-of-kage",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Legend of Prince Valiant",
-    "filename": "Legend of Prince Valiant.zip",
-    "image": "",
-    "console": "nes",
-    "id": "legend-of-prince-valiant",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Legend of Robin Hood",
-    "filename": "Legend of Robin Hood.zip",
-    "image": "",
-    "console": "nes",
-    "id": "legend-of-robin-hood",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Legend of Zelda",
-    "filename": "Legend of Zelda.zip",
-    "image": "",
-    "console": "nes",
-    "id": "legend-of-zelda",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Legend of the Ghost Lion",
@@ -11824,7 +11722,7 @@
   {
     "name": "Lifeforce",
     "filename": "Lifeforce.zip",
-    "image": "",
+    "image": "/images/roms/nes/lifeforce.jpg",
     "console": "nes",
     "id": "lifeforce",
     "id_igdb": "",
@@ -11868,57 +11766,21 @@
     "active": true
   },
   {
-    "name": "Lion King",
-    "filename": "Lion King.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lion-king",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lion King III - Timon and Pumbaa",
-    "filename": "Lion King III - Timon and Pumbaa.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lion-king-iii-timon-and-pumbaa",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Little Ghosts",
-    "filename": "Little Ghosts.zip",
-    "image": "",
-    "console": "nes",
-    "id": "little-ghosts",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Little League Baseball Championship",
+    "name": "Little League Baseball: Championship Series",
     "filename": "Little League Baseball Championship.zip",
-    "image": "",
+    "image": "/images/roms/nes/little-league-baseball-championship-series.jpg",
     "console": "nes",
-    "id": "little-league-baseball-championship",
-    "id_igdb": "",
+    "id": "little-league-baseball-championship-series",
+    "id_igdb": 48283,
     "active": true
   },
   {
-    "name": "Little Mermaid",
-    "filename": "Little Mermaid.zip",
-    "image": "",
-    "console": "nes",
-    "id": "little-mermaid",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Little Nemo - The Dream Master",
+    "name": "Little Nemo: The Dream Master",
     "filename": "Little Nemo - The Dream Master.zip",
-    "image": "",
+    "image": "/images/roms/nes/little-nemo-the-dream-master.jpg",
     "console": "nes",
     "id": "little-nemo-the-dream-master",
-    "id_igdb": "",
+    "id_igdb": 9160,
     "active": true
   },
   {
@@ -11977,15 +11839,6 @@
     "active": true
   },
   {
-    "name": "Lone Ranger",
-    "filename": "Lone Ranger.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lone-ranger",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Looney Tunes B-Ball",
     "filename": "Looney Tunes B-Ball (U).smc",
     "image": "/images/roms/snes/looney-tunes-b-ball.jpg",
@@ -12015,21 +11868,12 @@
     "check_name": true
   },
   {
-    "name": "Lost Word of Jenny",
+    "name": "Lost Word of Jenny: Ushinawareta Message",
     "filename": "Lost Word of Jenny.zip",
-    "image": "",
+    "image": "/images/roms/nes/lost-word-of-jenny-ushinawareta-message.jpg",
     "console": "nes",
-    "id": "lost-word-of-jenny",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lot Lot",
-    "filename": "Lot Lot.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lot-lot",
-    "id_igdb": "",
+    "id": "lost-word-of-jenny-ushinawareta-message",
+    "id_igdb": 48434,
     "active": true
   },
   {
@@ -12052,21 +11896,12 @@
     "check_name": true
   },
   {
-    "name": "Low G Man",
+    "name": "Low G Man: The Low Gravity Man",
     "filename": "Low G Man.zip",
-    "image": "",
+    "image": "/images/roms/nes/low-g-man-the-low-gravity-man.jpg",
     "console": "nes",
-    "id": "low-g-man",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lu Ye Xian Zong",
-    "filename": "Lu Ye Xian Zong.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lu-ye-xian-zong",
-    "id_igdb": "",
+    "id": "low-g-man-the-low-gravity-man",
+    "id_igdb": 48028,
     "active": true
   },
   {
@@ -12115,15 +11950,6 @@
     "console": "nes",
     "id": "lunar-pool",
     "id_igdb": 7550,
-    "active": true
-  },
-  {
-    "name": "Lupin the 3rd - Pandora's Legacy",
-    "filename": "Lupin the 3rd - Pandora's Legacy.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lupin-the-3rd-pandora-s-legacy",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -23775,8 +23601,7 @@
     "console": "nes",
     "id": "the-hunt-for-red-october",
     "id_igdb": 76577,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Hunt for Red October",
@@ -23816,8 +23641,7 @@
     "console": "nes",
     "id": "the-immortal",
     "id_igdb": 4444,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Immortal",
@@ -23837,8 +23661,7 @@
     "console": "nes",
     "id": "the-incredible-crash-dummies",
     "id_igdb": 2160,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Incredible Crash Dummies",
@@ -23918,8 +23741,7 @@
     "console": "nes",
     "id": "the-jetsons-cogswells-caper",
     "id_igdb": 48153,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Jetsons: Invasion of the Planet Pirates",
@@ -23938,8 +23760,7 @@
     "console": "nes",
     "id": "the-karate-kid",
     "id_igdb": 68386,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Killing Game Show",
@@ -23968,8 +23789,7 @@
     "console": "nes",
     "id": "the-king-of-fighters-96",
     "id_igdb": 261014,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The King of Fighters '98",
@@ -23987,8 +23807,25 @@
     "console": "nes",
     "id": "the-krion-conquest",
     "id_igdb": 48173,
-    "active": true,
-    "check_image": true
+    "active": true
+  },
+  {
+    "name": "The Last Ninja",
+    "filename": "Last Ninja.zip",
+    "image": "/images/roms/nes/the-last-ninja.jpg",
+    "console": "nes",
+    "id": "the-last-ninja",
+    "id_igdb": 308996,
+    "active": true
+  },
+  {
+    "name": "The Last Starfighter",
+    "filename": "Last Starfighter.zip",
+    "image": "/images/roms/nes/the-last-starfighter.jpg",
+    "console": "nes",
+    "id": "the-last-starfighter",
+    "id_igdb": 71759,
+    "active": true
   },
   {
     "name": "The Lawnmower Man",
@@ -24009,6 +23846,42 @@
     "id_igdb": 5397,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Legend of Kage",
+    "filename": "Legend of Kage.zip",
+    "image": "/images/roms/nes/the-legend-of-kage.jpg",
+    "console": "nes",
+    "id": "the-legend-of-kage",
+    "id_igdb": 39152,
+    "active": true
+  },
+  {
+    "name": "The Legend of Prince Valiant",
+    "filename": "Legend of Prince Valiant.zip",
+    "image": "/images/roms/nes/the-legend-of-prince-valiant.jpg",
+    "console": "nes",
+    "id": "the-legend-of-prince-valiant",
+    "id_igdb": 48187,
+    "active": true
+  },
+  {
+    "name": "The Legend of Robin Hood",
+    "filename": "Legend of Robin Hood.zip",
+    "image": "/images/roms/nes/the-legend-of-robin-hood.jpg",
+    "console": "nes",
+    "id": "the-legend-of-robin-hood",
+    "id_igdb": 267953,
+    "active": true
+  },
+  {
+    "name": "The Legend of Zelda",
+    "filename": "Legend of Zelda.zip",
+    "image": "/images/roms/nes/the-legend-of-zelda.jpg",
+    "console": "nes",
+    "id": "the-legend-of-zelda",
+    "id_igdb": 1022,
+    "active": true
   },
   {
     "name": "The Legend of Zelda: A Link to the Past",
@@ -24049,6 +23922,15 @@
     "id_igdb": 3166,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Lone Ranger",
+    "filename": "Lone Ranger.zip",
+    "image": "/images/roms/nes/the-lone-ranger.jpg",
+    "console": "nes",
+    "id": "the-lone-ranger",
+    "id_igdb": 48183,
+    "active": true
   },
   {
     "name": "The Lost Vikings",
