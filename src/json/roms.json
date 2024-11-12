@@ -10785,31 +10785,24 @@
     "check_image": true
   },
   {
-    "name": "Kamen no Ninja - Akakage",
+    "name": "Kamen no Ninja Akakage",
     "filename": "Kamen no Ninja - Akakage.zip",
-    "image": "",
+    "image": "/images/roms/nes/kamen-no-ninja-akakage.jpg",
     "console": "nes",
     "id": "kamen-no-ninja-akakage",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48444,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Kamen no Ninja - Hanamaru",
+    "name": "Kamen no Ninja Hanamaru",
     "filename": "Kamen no Ninja - Hanamaru.zip",
-    "image": "",
+    "image": "/images/roms/nes/kamen-no-ninja-hanamaru.jpg",
     "console": "nes",
     "id": "kamen-no-ninja-hanamaru",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Kantaro the Pyro's Journey",
-    "filename": "Kantaro the Pyro's Journey.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kantaro-the-pyro-s-journey",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 154805,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Karate Champ",
@@ -10818,15 +10811,6 @@
     "console": "nes",
     "id": "karate-champ",
     "id_igdb": 285600,
-    "active": true
-  },
-  {
-    "name": "Karate Kid",
-    "filename": "Karate Kid.zip",
-    "image": "",
-    "console": "nes",
-    "id": "karate-kid",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -10845,15 +10829,6 @@
     "console": "nes",
     "id": "karnov",
     "id_igdb": 288188,
-    "active": true
-  },
-  {
-    "name": "Kart Fighter",
-    "filename": "Kart Fighter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kart-fighter",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -10915,33 +10890,6 @@
     "id_igdb": 15845,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Kero Kero's Great Big Adventure I",
-    "filename": "Kero Kero's Great Big Adventure I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kero-kero-s-great-big-adventure-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Kero Kero's Great Big Adventure II",
-    "filename": "Kero Kero's Great Big Adventure II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kero-kero-s-great-big-adventure-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Keroppi & Keroleen's Splash Bomb!",
-    "filename": "Keroppi & Keroleen's Splash Bomb!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "keroppi-keroleen-s-splash-bomb-",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Kick Master",
@@ -11030,15 +10978,6 @@
     "active": true
   },
   {
-    "name": "Kid Klown",
-    "filename": "Kid Klown.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kid-klown",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Kid Klown in Crazy Chase",
     "filename": "Kid Klown in Crazy Chase (E).smc",
     "image": "/images/roms/snes/kid-klown-in-crazy-chase.jpg",
@@ -11049,40 +10988,54 @@
     "check_name": true
   },
   {
-    "name": "Kid Kool",
+    "name": "Kid Klown in Night Mayor World",
+    "filename": "Kid Klown.zip",
+    "image": "/images/roms/nes/kid-klown-in-night-mayor-world.jpg",
+    "console": "nes",
+    "id": "kid-klown-in-night-mayor-world",
+    "id_igdb": 48115,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Kid Kool and the Quest for the Seven Wonder Herbs",
     "filename": "Kid Kool.zip",
-    "image": "",
+    "image": "/images/roms/nes/kid-kool-and-the-quest-for-the-seven-wonder-herbs.jpg",
     "console": "nes",
-    "id": "kid-kool",
-    "id_igdb": "",
-    "active": true
+    "id": "kid-kool-and-the-quest-for-the-seven-wonder-herbs",
+    "id_igdb": 48150,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Kid Niki I - Radical Ninja",
-    "filename": "Kid Niki I - Radical Ninja.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kid-niki-i-radical-ninja",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Kid Nikki II - Karakuri Land",
+    "name": "Kid Niki II - Karakuri Land",
     "filename": "Kid Nikki II - Karakuri Land.zip",
-    "image": "",
+    "image": "/images/roms/nes/kid-niki-ii-karakuri-land.jpg",
     "console": "nes",
-    "id": "kid-nikki-ii-karakuri-land",
+    "id": "kid-niki-ii-karakuri-land",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Kid Nikki III",
+    "name": "Kid Niki III",
     "filename": "Kid Nikki III.zip",
-    "image": "",
+    "image": "/images/roms/nes/kid-niki-iii.jpg",
     "console": "nes",
-    "id": "kid-nikki-iii",
+    "id": "kid-niki-iii",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Kid Niki: Radical Ninja",
+    "filename": "Kid Niki I - Radical Ninja.zip",
+    "image": "/images/roms/nes/kid-niki-radical-ninja.jpg",
+    "console": "nes",
+    "id": "kid-niki-radical-ninja",
+    "id_igdb": 39465,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kidou Keisatsu Patlabor: 98-Shiki Kidou Seyo!",
@@ -11134,15 +11087,6 @@
     "check_name": true
   },
   {
-    "name": "King Kong Lives",
-    "filename": "King Kong Lives.zip",
-    "image": "",
-    "console": "nes",
-    "id": "king-kong-lives",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "King Neptune's Adventure",
     "filename": "King Neptune's Adventure.zip",
     "image": "/images/roms/nes/king-neptunes-adventure.jpg",
@@ -11162,40 +11106,14 @@
     "check_name": true
   },
   {
-    "name": "King of Fighters '96",
-    "filename": "King of Fighters '96.zip",
-    "image": "",
-    "console": "nes",
-    "id": "king-of-fighters-96",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "King of Fighters '97",
-    "filename": "King of Fighters '97.zip",
-    "image": "",
-    "console": "nes",
-    "id": "king-of-fighters-97",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "King of Fighters '99",
-    "filename": "King of Fighters '99.zip",
-    "image": "",
-    "console": "nes",
-    "id": "king-of-fighters-99",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "King of Kings",
+    "name": "King of Kings: The Early Years",
     "filename": "King of Kings.zip",
-    "image": "",
+    "image": "/images/roms/nes/king-of-kings-the-early-years.jpg",
     "console": "nes",
-    "id": "king-of-kings",
-    "id_igdb": "",
-    "active": true
+    "id": "king-of-kings-the-early-years",
+    "id_igdb": 48148,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "King of the Monsters",
@@ -11257,13 +11175,14 @@
     "active": true
   },
   {
-    "name": "King's Quest V",
+    "name": "King's Quest V: Absence Makes the Heart Go Yonder!",
     "filename": "King's Quest V.zip",
-    "image": "",
+    "image": "/images/roms/nes/king-s-quest-v-absence-makes-the-heart-go-yonder.jpg",
     "console": "nes",
-    "id": "king-s-quest-v",
-    "id_igdb": "",
-    "active": true
+    "id": "king-s-quest-v-absence-makes-the-heart-go-yonder",
+    "id_igdb": 2238,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kings of the Beach",
@@ -11326,20 +11245,22 @@
   {
     "name": "Kiteretsu Daihyakka",
     "filename": "Kiteretsu Daihyakka.zip",
-    "image": "",
+    "image": "/images/roms/nes/kiteretsu-daihyakka.jpg",
     "console": "nes",
     "id": "kiteretsu-daihyakka",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48746,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Kiwi Kraze",
+    "name": "Kiwi Kraze: A Bird-Brained Adventure!",
     "filename": "Kiwi Kraze.zip",
-    "image": "",
+    "image": "/images/roms/nes/kiwi-kraze-a-bird-brained-adventure.jpg",
     "console": "nes",
-    "id": "kiwi-kraze",
-    "id_igdb": "",
-    "active": true
+    "id": "kiwi-kraze-a-bird-brained-adventure",
+    "id_igdb": 48147,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Klash Ball",
@@ -11379,15 +11300,6 @@
     "active": true
   },
   {
-    "name": "Knights Of The Zodiac - Final Chapter",
-    "filename": "Knights Of The Zodiac - Final Chapter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "knights-of-the-zodiac-final-chapter",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Knights of the Round",
     "filename": "Knights of the Round (U).smc",
     "image": "/images/roms/snes/knights-of-the-round.jpg",
@@ -11396,15 +11308,6 @@
     "id_igdb": 6816,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Knights of the Zodiac",
-    "filename": "Knights of the Zodiac.zip",
-    "image": "",
-    "console": "nes",
-    "id": "knights-of-the-zodiac",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Knuckles the Echidna in Sonic the Hedgehog 2",
@@ -11432,15 +11335,6 @@
     "console": "nes",
     "id": "krazy-kreatures",
     "id_igdb": 10503,
-    "active": true
-  },
-  {
-    "name": "Krion Conquest",
-    "filename": "Krion Conquest.zip",
-    "image": "",
-    "console": "nes",
-    "id": "krion-conquest",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -11490,15 +11384,6 @@
     "active": true
   },
   {
-    "name": "Kung Fu II",
-    "filename": "Kung Fu II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "kung-fu-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Kung-Fu Heroes",
     "filename": "Kung-Fu Heroes.zip",
     "image": "/images/roms/nes/kung-fu-heroes.jpg",
@@ -11508,22 +11393,24 @@
     "active": true
   },
   {
-    "name": "Kunio-Kun's Soccer League",
+    "name": "Kunio-kun's Nekketsu Soccer League",
     "filename": "Kunio-Kun's Soccer League.zip",
-    "image": "",
+    "image": "/images/roms/nes/kunio-kuns-nekketsu-soccer-league.jpg",
     "console": "nes",
-    "id": "kunio-kun-s-soccer-league",
-    "id_igdb": "",
-    "active": true
+    "id": "kunio-kuns-nekketsu-soccer-league",
+    "id_igdb": 16603,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kyatto Ninden Teyandee",
     "filename": "Kyatto Ninden Teyandee.zip",
-    "image": "",
+    "image": "/images/roms/nes/kyatto-ninden-teyandee.jpg",
     "console": "nes",
     "id": "kyatto-ninden-teyandee",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 24480,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kyle Petty's No Fear Racing",
@@ -11569,7 +11456,8 @@
     "console": "nes",
     "id": "labyrinth",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lagoon",
@@ -24044,6 +23932,16 @@
     "check_name": true
   },
   {
+    "name": "The Karate Kid",
+    "filename": "Karate Kid.zip",
+    "image": "/images/roms/nes/the-karate-kid.jpg",
+    "console": "nes",
+    "id": "the-karate-kid",
+    "id_igdb": 68386,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Killing Game Show",
     "filename": "Killing Game Show (U).smd",
     "image": "/images/roms/gens/the-killing-game-show.jpg",
@@ -24064,6 +23962,16 @@
     "check_name": true
   },
   {
+    "name": "The King of Fighters '96",
+    "filename": "King of Fighters '96.zip",
+    "image": "/images/roms/nes/the-king-of-fighters-96.jpg",
+    "console": "nes",
+    "id": "the-king-of-fighters-96",
+    "id_igdb": 261014,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The King of Fighters '98",
     "filename": "King of Fighters '98, The (Unl) [!].smd",
     "image": "/images/roms/gens/the-king-of-fighters-98.jpg",
@@ -24071,6 +23979,16 @@
     "id": "the-king-of-fighters-98",
     "id_igdb": 15429,
     "active": true
+  },
+  {
+    "name": "The Krion Conquest",
+    "filename": "Krion Conquest.zip",
+    "image": "/images/roms/nes/the-krion-conquest.jpg",
+    "console": "nes",
+    "id": "the-krion-conquest",
+    "id_igdb": 48173,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Lawnmower Man",
