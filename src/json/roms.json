@@ -5616,6 +5616,16 @@
     "check_name": true
   },
   {
+    "name": "Disney's The Jungle Book",
+    "filename": "Jungle Book.zip",
+    "image": "/images/roms/nes/disneys-the-jungle-book.jpg",
+    "console": "nes",
+    "id": "disneys-the-jungle-book",
+    "id_igdb": 204575,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Disney's Timon & Pumbaa's Jungle Games",
     "filename": "Timon & Pumbaa's Jungle Games (U) [!].smc",
     "image": "/images/roms/snes/disneys-timon-and-pumbaas-jungle-games.jpg",
@@ -9976,31 +9986,14 @@
     "check_name": true
   },
   {
-    "name": "J-League King of Ace Strikers",
+    "name": "J-League Fighting Soccer: The King of Ace Strikers",
     "filename": "J-League King of Ace Strikers.zip",
-    "image": "",
+    "image": "/images/roms/nes/j-league-fighting-soccer-the-king-of-ace-strikers.jpg",
     "console": "nes",
-    "id": "j-league-king-of-ace-strikers",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "J-League Super Top Players",
-    "filename": "J-League Super Top Players.zip",
-    "image": "",
-    "console": "nes",
-    "id": "j-league-super-top-players",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "J-League Winning Goal",
-    "filename": "J-League Winning Goal.zip",
-    "image": "",
-    "console": "nes",
-    "id": "j-league-winning-goal",
-    "id_igdb": "",
-    "active": true
+    "id": "j-league-fighting-soccer-the-king-of-ace-strikers",
+    "id_igdb": 48460,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "J. League Pro Striker Final Stage",
@@ -10041,6 +10034,26 @@
     "active": true
   },
   {
+    "name": "J.League Super Top Players",
+    "filename": "J-League Super Top Players.zip",
+    "image": "/images/roms/nes/jleague-super-top-players.jpg",
+    "console": "nes",
+    "id": "jleague-super-top-players",
+    "id_igdb": 48519,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "J.League Winning Goal",
+    "filename": "J-League Winning Goal.zip",
+    "image": "/images/roms/nes/jleague-winning-goal.jpg",
+    "console": "nes",
+    "id": "jleague-winning-goal",
+    "id_igdb": 48459,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "J.R.R. Tolkien's Lord of the Rings: Volume One",
     "filename": "JRR Tolkien's The Lord of the Rings - Volume 1 (E).smc",
     "image": "/images/roms/snes/jrr-tolkiens-lord-of-the-rings-volume-one.jpg",
@@ -10050,13 +10063,24 @@
     "active": true
   },
   {
-    "name": "Jack Nicklaus' Greatest 18 Holes",
-    "filename": "Jack Nicklaus' Greatest 18 Holes.zip",
-    "image": "",
+    "name": "JESUS: Kyoufu no Bio Monster",
+    "filename": "Jesus - Kyoufu no Bio Monster.zip",
+    "image": "/images/roms/nes/jesus-kyoufu-no-bio-monster.jpg",
     "console": "nes",
-    "id": "jack-nicklaus-greatest-18-holes",
-    "id_igdb": "",
-    "active": true
+    "id": "jesus-kyoufu-no-bio-monster",
+    "id_igdb": 48452,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Jack Nicklaus' Greatest 18 Holes of Major Championship Golf",
+    "filename": "Jack Nicklaus' Greatest 18 Holes.zip",
+    "image": "/images/roms/nes/jack-nicklaus-greatest-18-holes-of-major-championship-golf.jpg",
+    "console": "nes",
+    "id": "jack-nicklaus-greatest-18-holes-of-major-championship-golf",
+    "id_igdb": 18101,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jack Nicklaus' Power Challenge Golf",
@@ -10107,13 +10131,14 @@
     "check_name": true
   },
   {
-    "name": "James Bond Jr",
+    "name": "James Bond Jr.",
     "filename": "James Bond Jr.zip",
-    "image": "",
+    "image": "/images/roms/nes/james-bond-jr.jpg",
     "console": "nes",
     "id": "james-bond-jr",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 290180,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "James Bond Jr.",
@@ -10263,15 +10288,6 @@
     "active": true
   },
   {
-    "name": "Jeopardy! 25th Anniversary Edition",
-    "filename": "Jeopardy! 25th Anniversary Edition.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jeopardy-25th-anniversary-edition",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jeopardy! Deluxe Edition",
     "filename": "Jeopardy Deluxe (93) (JUE) [c][!].smd",
     "image": "/images/roms/gens/jeopardy-deluxe-edition.jpg",
@@ -10290,15 +10306,6 @@
     "id_igdb": 42512,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jeopardy! Junior Edition",
-    "filename": "Jeopardy! Junior Edition.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jeopardy-junior-edition",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Jeopardy! Sports Edition",
@@ -10320,6 +10327,26 @@
     "active": true
   },
   {
+    "name": "Jeopardy!: 25th Anniversary Edition",
+    "filename": "Jeopardy! 25th Anniversary Edition.zip",
+    "image": "/images/roms/nes/jeopardy-25th-anniversary-edition.jpg",
+    "console": "nes",
+    "id": "jeopardy-25th-anniversary-edition",
+    "id_igdb": 48694,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Jeopardy!: Junior Edition",
+    "filename": "Jeopardy! Junior Edition.zip",
+    "image": "/images/roms/nes/jeopardy-junior-edition.jpg",
+    "console": "nes",
+    "id": "jeopardy-junior-edition",
+    "id_igdb": 48709,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Jerry Glanville's Pigskin Footbrawl",
     "filename": "Jerry Glanville's PigSkin Footbrawl (U) [!].smd",
     "image": "/images/roms/gens/jerry-glanvilles-pigskin-footbrawl.jpg",
@@ -10328,24 +10355,6 @@
     "id_igdb": 46188,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jesus - Kyoufu no Bio Monster",
-    "filename": "Jesus - Kyoufu no Bio Monster.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jesus-kyoufu-no-bio-monster",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Jetsons - Cogswell's Caper!",
-    "filename": "Jetsons - Cogswell's Caper!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jetsons-cogswell-s-caper-",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Jewel Master",
@@ -10386,15 +10395,6 @@
     "check_name": true
   },
   {
-    "name": "Jimmy Connor's Tennis",
-    "filename": "Jimmy Connor's Tennis.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jimmy-connor-s-tennis",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jimmy Connors Pro Tennis Tour",
     "filename": "Jimmy Connors Pro Tennis Tour (U) [!].smc",
     "image": "/images/roms/snes/jimmy-connors-pro-tennis-tour.jpg",
@@ -10403,6 +10403,16 @@
     "id_igdb": 153771,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Jimmy Connors Tennis",
+    "filename": "Jimmy Connor's Tennis.zip",
+    "image": "/images/roms/nes/jimmy-connors-tennis.jpg",
+    "console": "nes",
+    "id": "jimmy-connors-tennis",
+    "id_igdb": 40845,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jimmy Houston's Bass Tournament U.S.A.",
@@ -10423,15 +10433,6 @@
     "id_igdb": 12159,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jin Gwok Sei Chuen Saang",
-    "filename": "Jin Gwok Sei Chuen Saang.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jin-gwok-sei-chuen-saang",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Joe & Mac",
@@ -10549,13 +10550,14 @@
     "check_name": true
   },
   {
-    "name": "Jordan Vs Bird - One On One",
+    "name": "Jordan vs. Bird: One on One",
     "filename": "Jordan Vs Bird - One On One.zip",
-    "image": "",
+    "image": "/images/roms/nes/jordan-vs-bird-one-on-one.jpg",
     "console": "nes",
     "id": "jordan-vs-bird-one-on-one",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 18837,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jordan vs. Bird: One on One",
@@ -10567,13 +10569,14 @@
     "active": true
   },
   {
-    "name": "Joshua",
+    "name": "Joshua & The Battle of Jericho",
     "filename": "Joshua.zip",
-    "image": "",
+    "image": "/images/roms/nes/joshua-and-the-battle-of-jericho.jpg",
     "console": "nes",
-    "id": "joshua",
-    "id_igdb": "",
-    "active": true
+    "id": "joshua-and-the-battle-of-jericho",
+    "id_igdb": 46186,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Joshua & The Battle of Jericho",
@@ -10595,15 +10598,6 @@
     "active": true
   },
   {
-    "name": "Journey to the West",
-    "filename": "Journey to the West.zip",
-    "image": "",
-    "console": "nes",
-    "id": "journey-to-the-west",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Joust",
     "filename": "Joust.zip",
     "image": "/images/roms/nes/joust.jpg",
@@ -10613,22 +10607,14 @@
     "active": true
   },
   {
-    "name": "Jovial Race",
-    "filename": "Jovial Race (Rally X).zip",
-    "image": "",
-    "console": "nes",
-    "id": "jovial-race",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Joy Mech Fight",
     "filename": "Joy Mech Fight.zip",
-    "image": "",
+    "image": "/images/roms/nes/joy-mech-fight.jpg",
     "console": "nes",
     "id": "joy-mech-fight",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48123,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Judge Dredd",
@@ -10650,22 +10636,24 @@
     "active": true
   },
   {
-    "name": "Jumbo Ozaki - Hole in One Professional",
+    "name": "Jumbo Ozaki no Hole in One Professional",
     "filename": "Jumbo Ozaki - Hole in One Professional.zip",
-    "image": "",
+    "image": "/images/roms/nes/jumbo-ozaki-no-hole-in-one-professional.jpg",
     "console": "nes",
-    "id": "jumbo-ozaki-hole-in-one-professional",
-    "id_igdb": "",
-    "active": true
+    "id": "jumbo-ozaki-no-hole-in-one-professional",
+    "id_igdb": 48340,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Jumpin' Kid",
+    "name": "Jumpin' Kid: Jack to Mame no Ki Monogatari",
     "filename": "Jumpin' Kid.zip",
-    "image": "",
+    "image": "/images/roms/nes/jumpin-kid-jack-to-mame-no-ki-monogatari.jpg",
     "console": "nes",
-    "id": "jumpin-kid",
-    "id_igdb": "",
-    "active": true
+    "id": "jumpin-kid-jack-to-mame-no-ki-monogatari",
+    "id_igdb": 48450,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Junction",
@@ -10676,15 +10664,6 @@
     "id_igdb": 109032,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jungle Book",
-    "filename": "Jungle Book.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jungle-book",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Jungle Strike",
@@ -10705,15 +10684,6 @@
     "id_igdb": 4368,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Jurassic Boy II",
-    "filename": "Jurassic Boy II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "jurassic-boy-ii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Jurassic Park",
@@ -10767,11 +10737,12 @@
   {
     "name": "Just Breed",
     "filename": "Just Breed.zip",
-    "image": "",
+    "image": "/images/roms/nes/just-breed.jpg",
     "console": "nes",
     "id": "just-breed",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 70173,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Justice League Task Force",
@@ -10804,13 +10775,14 @@
     "check_name": true
   },
   {
-    "name": "Kabuki - Quantum Fighter",
+    "name": "Kabuki: Quantum Fighter",
     "filename": "Kabuki - Quantum Fighter.zip",
-    "image": "",
+    "image": "/images/roms/nes/kabuki-quantum-fighter.jpg",
     "console": "nes",
     "id": "kabuki-quantum-fighter",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 27623,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kamen no Ninja - Akakage",
@@ -24050,6 +24022,16 @@
     "id_igdb": 2834,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Jetsons: Cogswell's Caper",
+    "filename": "Jetsons - Cogswell's Caper!.zip",
+    "image": "/images/roms/nes/the-jetsons-cogswells-caper.jpg",
+    "console": "nes",
+    "id": "the-jetsons-cogswells-caper",
+    "id_igdb": 48153,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Jetsons: Invasion of the Planet Pirates",
