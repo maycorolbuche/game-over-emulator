@@ -6829,6 +6829,15 @@
     "check_name": true
   },
   {
+    "name": "Empire City: 1931",
+    "filename": "Magnum Empire City 1931.zip",
+    "image": "/images/roms/nes/empire-city-1931.jpg",
+    "console": "nes",
+    "id": "empire-city-1931",
+    "id_igdb": 26543,
+    "active": true
+  },
+  {
     "name": "Equinox",
     "filename": "Equinox (U).smc",
     "image": "/images/roms/snes/equinox.jpg",
@@ -11905,15 +11914,6 @@
     "active": true
   },
   {
-    "name": "Lucky Bingo 777",
-    "filename": "Lucky Bingo 777.zip",
-    "image": "",
-    "console": "nes",
-    "id": "lucky-bingo-777",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Lucky Luke",
     "filename": "Lucky Luke (E) (M4).smc",
     "image": "/images/roms/snes/lucky-luke.jpg",
@@ -11962,6 +11962,15 @@
     "active": true
   },
   {
+    "name": "M.C Kids",
+    "filename": "MC Kids.zip",
+    "image": "/images/roms/nes/mc-kids.jpg",
+    "console": "nes",
+    "id": "mc-kids",
+    "id_igdb": 2718,
+    "active": true
+  },
+  {
     "name": "M.U.S.H.A.",
     "filename": "M.U.S.H.A (U) [!].smd",
     "image": "/images/roms/gens/m-u-s-h-a.jpg",
@@ -11970,15 +11979,6 @@
     "id_igdb": 4445,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "MC Kids",
-    "filename": "MC Kids.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mc-kids",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "MLBPA Baseball",
@@ -12175,12 +12175,12 @@
     "active": true
   },
   {
-    "name": "Mafat Conspiracy - Golgo 13",
-    "filename": "Mafat Conspiracy - Golgo 13.zip",
-    "image": "",
+    "name": "MagMax",
+    "filename": "Magmax.zip",
+    "image": "/images/roms/nes/magmax.jpg",
     "console": "nes",
-    "id": "mafat-conspiracy-golgo-13",
-    "id_igdb": "",
+    "id": "magmax",
+    "id_igdb": 289161,
     "active": true
   },
   {
@@ -12286,15 +12286,6 @@
     "check_name": true
   },
   {
-    "name": "Magic of Scheherazade",
-    "filename": "Magic of Scheherazade.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magic-of-scheherazade",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Magical Doropie",
     "filename": "Magical Doropie.zip",
     "image": "",
@@ -12337,24 +12328,6 @@
     "console": "nes",
     "id": "magician",
     "id_igdb": 94209,
-    "active": true
-  },
-  {
-    "name": "Magmax",
-    "filename": "Magmax.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magmax",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Magnum Empire City 1931",
-    "filename": "Magnum Empire City 1931.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magnum-empire-city-1931",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12441,15 +12414,6 @@
     "active": true
   },
   {
-    "name": "Mappy",
-    "filename": "Mappy.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mappy",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mappy Kids",
     "filename": "Mappy Kids.zip",
     "image": "",
@@ -12506,12 +12470,12 @@
     "check_name": true
   },
   {
-    "name": "Mario Bros",
+    "name": "Mario Bros.",
     "filename": "Mario Bros.zip",
-    "image": "",
+    "image": "/images/roms/nes/mario-bros.jpg",
     "console": "nes",
     "id": "mario-bros",
-    "id_igdb": "",
+    "id_igdb": 172201,
     "active": true
   },
   {
@@ -12594,12 +12558,12 @@
     "check_name": true
   },
   {
-    "name": "Mario's Time Machine!",
+    "name": "Mario's Time Machine",
     "filename": "Mario's Time Machine!.zip",
-    "image": "",
+    "image": "/images/roms/nes/marios-time-machine.jpg",
     "console": "nes",
-    "id": "mario-s-time-machine-",
-    "id_igdb": "",
+    "id": "marios-time-machine",
+    "id_igdb": 210116,
     "active": true
   },
   {
@@ -12699,12 +12663,12 @@
     "active": true
   },
   {
-    "name": "Master Chu & The Drunkard Hu",
+    "name": "Master Chu and the Drunkard Hu",
     "filename": "Master Chu & The Drunkard Hu.zip",
-    "image": "",
+    "image": "/images/roms/nes/master-chu-and-the-drunkard-hu.jpg",
     "console": "nes",
-    "id": "master-chu-the-drunkard-hu",
-    "id_igdb": "",
+    "id": "master-chu-and-the-drunkard-hu",
+    "id_igdb": 48178,
     "active": true
   },
   {
@@ -12865,6 +12829,60 @@
     "check_name": true
   },
   {
+    "name": "Mega Man",
+    "filename": "Mega Man I.zip",
+    "image": "/images/roms/nes/mega-man.jpg",
+    "console": "nes",
+    "id": "mega-man",
+    "id_igdb": 1714,
+    "active": true
+  },
+  {
+    "name": "Mega Man 2",
+    "filename": "Mega Man II.zip",
+    "image": "/images/roms/nes/mega-man-2.jpg",
+    "console": "nes",
+    "id": "mega-man-2",
+    "id_igdb": 1715,
+    "active": true
+  },
+  {
+    "name": "Mega Man 3",
+    "filename": "Mega Man III.zip",
+    "image": "/images/roms/nes/mega-man-3.jpg",
+    "console": "nes",
+    "id": "mega-man-3",
+    "id_igdb": 1716,
+    "active": true
+  },
+  {
+    "name": "Mega Man 4",
+    "filename": "Mega Man IV.zip",
+    "image": "/images/roms/nes/mega-man-4.jpg",
+    "console": "nes",
+    "id": "mega-man-4",
+    "id_igdb": 1717,
+    "active": true
+  },
+  {
+    "name": "Mega Man 5",
+    "filename": "Mega Man V.zip",
+    "image": "/images/roms/nes/mega-man-5.jpg",
+    "console": "nes",
+    "id": "mega-man-5",
+    "id_igdb": 1718,
+    "active": true
+  },
+  {
+    "name": "Mega Man 6",
+    "filename": "Mega Man VI.zip",
+    "image": "/images/roms/nes/mega-man-6.jpg",
+    "console": "nes",
+    "id": "mega-man-6",
+    "id_igdb": 1719,
+    "active": true
+  },
+  {
     "name": "Mega Man 7",
     "filename": "Mega Man VII (U).smc",
     "image": "/images/roms/snes/mega-man-7.jpg",
@@ -12875,42 +12893,6 @@
     "check_name": true
   },
   {
-    "name": "Mega Man I",
-    "filename": "Mega Man I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mega-man-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mega Man II",
-    "filename": "Mega Man II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mega-man-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mega Man III",
-    "filename": "Mega Man III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mega-man-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mega Man IV",
-    "filename": "Mega Man IV.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mega-man-iv",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mega Man Soccer",
     "filename": "Mega Man's Soccer (U) [!].smc",
     "image": "/images/roms/snes/mega-man-soccer.jpg",
@@ -12919,24 +12901,6 @@
     "id_igdb": 1730,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Mega Man V",
-    "filename": "Mega Man V.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mega-man-v",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mega Man VI",
-    "filename": "Mega Man VI.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mega-man-vi",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mega Man X",
@@ -13052,12 +13016,12 @@
     "check_name": true
   },
   {
-    "name": "Mermaids of Atlantis",
+    "name": "Mermaids of Atlantis: The Riddle of the Magic Bubble",
     "filename": "Mermaids of Atlantis.zip",
-    "image": "",
+    "image": "/images/roms/nes/mermaids-of-atlantis-the-riddle-of-the-magic-bubble.jpg",
     "console": "nes",
-    "id": "mermaids-of-atlantis",
-    "id_igdb": "",
+    "id": "mermaids-of-atlantis-the-riddle-of-the-magic-bubble",
+    "id_igdb": 48172,
     "active": true
   },
   {
@@ -23969,6 +23933,24 @@
     "console": "gens",
     "id": "the-lost-world-jurassic-park",
     "id_igdb": 8075,
+    "active": true
+  },
+  {
+    "name": "The Mafat Conspiracy",
+    "filename": "Mafat Conspiracy - Golgo 13.zip",
+    "image": "/images/roms/nes/the-mafat-conspiracy.jpg",
+    "console": "nes",
+    "id": "the-mafat-conspiracy",
+    "id_igdb": 48057,
+    "active": true
+  },
+  {
+    "name": "The Magic of Scheherazade",
+    "filename": "Magic of Scheherazade.zip",
+    "image": "/images/roms/nes/the-magic-of-scheherazade.jpg",
+    "console": "nes",
+    "id": "the-magic-of-scheherazade",
+    "id_igdb": 48078,
     "active": true
   },
   {
