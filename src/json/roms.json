@@ -13877,15 +13877,6 @@
     "active": true
   },
   {
-    "name": "NARC",
-    "filename": "NARC.zip",
-    "image": "",
-    "console": "nes",
-    "id": "narc",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "NBA Action '94",
     "filename": "NBA Action (94) (U) [!].smd",
     "image": "/images/roms/gens/nba-action-94.jpg",
@@ -14168,15 +14159,6 @@
     "active": true
   },
   {
-    "name": "NF Ball",
-    "filename": "NF Ball.zip",
-    "image": "",
-    "console": "nes",
-    "id": "nf-ball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "NFL Football",
     "filename": "NFL Football (U).smc",
     "image": "/images/roms/snes/nfl-football.jpg",
@@ -14385,21 +14367,12 @@
     "check_name": true
   },
   {
-    "name": "Nadia - Secret of the Blue Water",
-    "filename": "Nadia - Secret of the Blue Water.zip",
-    "image": "",
-    "console": "nes",
-    "id": "nadia-secret-of-the-blue-water",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Nagagutsu wo Haita Neko",
+    "name": "Nagagutsu wo Haita Neko: Sekai Isshuu 80-nichi Daibouken",
     "filename": "Nagagutsu wo Haita Neko.zip",
-    "image": "",
+    "image": "/images/roms/nes/nagagutsu-wo-haita-neko-sekai-isshuu-80-nichi-daibouken.jpg",
     "console": "nes",
-    "id": "nagagutsu-wo-haita-neko",
-    "id_igdb": "",
+    "id": "nagagutsu-wo-haita-neko-sekai-isshuu-80-nichi-daibouken",
+    "id_igdb": 48416,
     "active": true
   },
   {
@@ -14435,12 +14408,21 @@
     "check_name": true
   },
   {
-    "name": "Nangoku Shirei!! - Spy Vs Spy",
+    "name": "Nankoku Shirei!! Spy vs. Spy",
     "filename": "Nangoku Shirei!! - Spy Vs Spy.zip",
-    "image": "",
+    "image": "/images/roms/nes/nankoku-shirei-spy-vs-spy.jpg",
     "console": "nes",
-    "id": "nangoku-shirei-spy-vs-spy",
-    "id_igdb": "",
+    "id": "nankoku-shirei-spy-vs-spy",
+    "id_igdb": 48812,
+    "active": true
+  },
+  {
+    "name": "Narc",
+    "filename": "NARC.zip",
+    "image": "/images/roms/nes/narc.jpg",
+    "console": "nes",
+    "id": "narc",
+    "id_igdb": 307956,
     "active": true
   },
   {
@@ -14519,15 +14501,6 @@
     "active": true
   },
   {
-    "name": "Night Arrow",
-    "filename": "Night Arrow.zip",
-    "image": "",
-    "console": "nes",
-    "id": "night-arrow",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Nightmare Circus",
     "filename": "Nightmare Circus (F) [x].smd",
     "image": "/images/roms/gens/nightmare-circus.jpg",
@@ -14552,15 +14525,6 @@
     "image": "/images/roms/gens/nikkan-sports-pro-yakyuu-van.jpg",
     "console": "gens",
     "id": "nikkan-sports-pro-yakyuu-van",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ninja Boy II",
-    "filename": "Ninja Boy II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ninja-boy-ii",
     "id_igdb": "",
     "active": true
   },
@@ -14594,30 +14558,30 @@
     "check_name": true
   },
   {
-    "name": "Ninja Gaiden I",
+    "name": "Ninja Gaiden",
     "filename": "Ninja Gaiden I.zip",
-    "image": "",
+    "image": "/images/roms/nes/ninja-gaiden.jpg",
     "console": "nes",
-    "id": "ninja-gaiden-i",
-    "id_igdb": "",
+    "id": "ninja-gaiden",
+    "id_igdb": 210484,
     "active": true
   },
   {
-    "name": "Ninja Gaiden II",
+    "name": "Ninja Gaiden II: The Dark Sword of Chaos",
     "filename": "Ninja Gaiden II.zip",
-    "image": "",
+    "image": "/images/roms/nes/ninja-gaiden-ii-the-dark-sword-of-chaos.jpg",
     "console": "nes",
-    "id": "ninja-gaiden-ii",
-    "id_igdb": "",
+    "id": "ninja-gaiden-ii-the-dark-sword-of-chaos",
+    "id_igdb": 15540,
     "active": true
   },
   {
-    "name": "Ninja Gaiden III",
+    "name": "Ninja Gaiden III: The Ancient Ship of Doom",
     "filename": "Ninja Gaiden III.zip",
-    "image": "",
+    "image": "/images/roms/nes/ninja-gaiden-iii-the-ancient-ship-of-doom.jpg",
     "console": "nes",
-    "id": "ninja-gaiden-iii",
-    "id_igdb": "",
+    "id": "ninja-gaiden-iii-the-ancient-ship-of-doom",
+    "id_igdb": 17249,
     "active": true
   },
   {
@@ -14631,49 +14595,23 @@
     "check_name": true
   },
   {
-    "name": "Ninja Hattori Kun",
+    "name": "Ninja Hattori-kun",
     "filename": "Ninja Hattori Kun.zip",
-    "image": "",
+    "image": "/images/roms/nes/ninja-hattori-kun.jpg",
     "console": "nes",
     "id": "ninja-hattori-kun",
-    "id_igdb": "",
+    "id_igdb": 58882,
     "active": true
   },
   {
-    "name": "Ninja Jajamaru",
-    "filename": "Ninja Jajamaru.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ninja-jajamaru",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ninja Jajamaru - Galactic Battle",
-    "filename": "Ninja Jajamaru - Galactic Battle.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ninja-jajamaru-galactic-battle",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ninja Jajamaru's Big Adventure",
-    "filename": "Ninja Jajamaru's Big Adventure.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ninja-jajamaru-s-big-adventure",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ninja Jajamaru-kun",
+    "name": "Ninja JaJaMaru-kun",
     "filename": "Ninja Jajamaru-kun.zip",
-    "image": "",
+    "image": "/images/roms/nes/ninja-jajamaru-kun.jpg",
     "console": "nes",
     "id": "ninja-jajamaru-kun",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48455,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ninja Kid",
@@ -14695,22 +14633,14 @@
     "check_name": true
   },
   {
-    "name": "Ninja-kun - Majou no Bouken",
+    "name": "Ninja-kun: Majou no Bouken",
     "filename": "Ninja-kun - Majou no Bouken.zip",
-    "image": "",
+    "image": "/images/roms/nes/ninja-kun-majou-no-bouken.jpg",
     "console": "nes",
     "id": "ninja-kun-majou-no-bouken",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Nintendo Age Halloween 2009",
-    "filename": "Nintendo Age Halloween 2009.zip",
-    "image": "",
-    "console": "nes",
-    "id": "nintendo-age-halloween-2009",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 39457,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Nintendo World Championships 1990",
@@ -14790,22 +14720,24 @@
     "check_name": true
   },
   {
-    "name": "Nobunaga's Ambition I",
+    "name": "Nobunaga's Ambition",
     "filename": "Nobunaga's Ambition I.zip",
-    "image": "",
+    "image": "/images/roms/nes/nobunagas-ambition.jpg",
     "console": "nes",
-    "id": "nobunaga-s-ambition-i",
-    "id_igdb": "",
-    "active": true
+    "id": "nobunagas-ambition",
+    "id_igdb": 307124,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Nobunaga's Ambition II",
     "filename": "Nobunaga's Ambition II.zip",
     "image": "",
     "console": "nes",
-    "id": "nobunaga-s-ambition-ii",
-    "id_igdb": "",
-    "active": true
+    "id": "nobunagas-ambition-ii",
+    "id_igdb": 307125,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Nolan Ryan's Baseball",
