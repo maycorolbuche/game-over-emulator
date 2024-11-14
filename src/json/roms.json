@@ -11273,6 +11273,15 @@
     "active": true
   },
   {
+    "name": "Knightmare II: The Maze of Galious",
+    "filename": "Maze of Galious.zip",
+    "image": "/images/roms/nes/knightmare-ii-the-maze-of-galious.jpg",
+    "console": "nes",
+    "id": "knightmare-ii-the-maze-of-galious",
+    "id_igdb": 36671,
+    "active": true
+  },
+  {
     "name": "Knights of the Round",
     "filename": "Knights of the Round (U).smc",
     "image": "/images/roms/snes/knights-of-the-round.jpg",
@@ -12057,15 +12066,6 @@
     "active": true
   },
   {
-    "name": "Madara",
-    "filename": "Madara.zip",
-    "image": "",
-    "console": "nes",
-    "id": "madara",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Madden NFL '94",
     "filename": "John Madden NFL 94 (UEJ) [c][!].smd",
     "image": "/images/roms/gens/madden-nfl-94.jpg",
@@ -12184,15 +12184,6 @@
     "active": true
   },
   {
-    "name": "Magic Block",
-    "filename": "Magic Block.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magic-block",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Magic Boy",
     "filename": "Magic Boy (E).smc",
     "image": "/images/roms/snes/magic-boy.jpg",
@@ -12212,30 +12203,12 @@
     "active": true
   },
   {
-    "name": "Magic Cube",
-    "filename": "Magic Cube.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magic-cube",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Magic Darts",
     "filename": "Magic Darts.zip",
     "image": "/images/roms/nes/magic-darts.jpg",
     "console": "nes",
     "id": "magic-darts",
     "id_igdb": 48182,
-    "active": true
-  },
-  {
-    "name": "Magic Dragon",
-    "filename": "Magic Dragon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magic-dragon",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12258,15 +12231,6 @@
     "active": true
   },
   {
-    "name": "Magic Jewelry II",
-    "filename": "Magic Jewelry II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magic-jewelry-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Magic Johnson's Fast Break",
     "filename": "Magic Johnson's Fast Break.zip",
     "image": "/images/roms/nes/magic-johnsons-fast-break.jpg",
@@ -12286,15 +12250,6 @@
     "check_name": true
   },
   {
-    "name": "Magical Doropie",
-    "filename": "Magical Doropie.zip",
-    "image": "",
-    "console": "nes",
-    "id": "magical-doropie",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Magical Hat no Buttobi Turbo! Daibouken",
     "filename": "Majikaru Hashito no Butsutobi Turbo! Daibouken (JU) [!].smd",
     "image": "/images/roms/gens/magical-hat-no-buttobi-turbo-daibouken.jpg",
@@ -12304,12 +12259,12 @@
     "active": true
   },
   {
-    "name": "Magical Mathematics",
-    "filename": "Magical Mathematics.zip",
-    "image": "",
+    "name": "Magical Kids Doropie",
+    "filename": "Magical Doropie.zip",
+    "image": "/images/roms/nes/magical-kids-doropie.jpg",
     "console": "nes",
-    "id": "magical-mathematics",
-    "id_igdb": "",
+    "id": "magical-kids-doropie",
+    "id_igdb": 48333,
     "active": true
   },
   {
@@ -12331,15 +12286,6 @@
     "active": true
   },
   {
-    "name": "Maharaja",
-    "filename": "Maharaja.zip",
-    "image": "",
-    "console": "nes",
-    "id": "maharaja",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mahjong Cop Ryuu: Hakurou no Yabou",
     "filename": "Mahjong Cop Ryu (J).smd",
     "image": "/images/roms/gens/mahjong-cop-ryuu-hakurou-no-yabou.jpg",
@@ -12355,15 +12301,6 @@
     "console": "nes",
     "id": "major-league-baseball",
     "id_igdb": 80424,
-    "active": true
-  },
-  {
-    "name": "Makai Island",
-    "filename": "Makai Island.zip",
-    "image": "",
-    "console": "nes",
-    "id": "makai-island",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12416,10 +12353,10 @@
   {
     "name": "Mappy Kids",
     "filename": "Mappy Kids.zip",
-    "image": "",
+    "image": "/images/roms/nes/mappy-kids.jpg",
     "console": "nes",
     "id": "mappy-kids",
-    "id_igdb": "",
+    "id_igdb": 48625,
     "active": true
   },
   {
@@ -12448,15 +12385,6 @@
     "console": "nes",
     "id": "marble-madness",
     "id_igdb": 281834,
-    "active": true
-  },
-  {
-    "name": "Mari Street Fighter III Turbo",
-    "filename": "Mari Street Fighter III Turbo.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mari-street-fighter-iii-turbo",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12625,15 +12553,6 @@
     "check_name": true
   },
   {
-    "name": "Marvel's X-Men",
-    "filename": "Marvel's X-Men.zip",
-    "image": "",
-    "console": "nes",
-    "id": "marvel-s-x-men",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mary Shelley's Frankenstein",
     "filename": "Mary Shelley's Frankenstein (U) [!].smd",
     "image": "/images/roms/gens/mary-shelley-s-frankenstein.jpg",
@@ -12654,30 +12573,12 @@
     "check_name": true
   },
   {
-    "name": "Masmix",
-    "filename": "Masmix.zip",
-    "image": "",
-    "console": "nes",
-    "id": "masmix",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Master Chu and the Drunkard Hu",
     "filename": "Master Chu & The Drunkard Hu.zip",
     "image": "/images/roms/nes/master-chu-and-the-drunkard-hu.jpg",
     "console": "nes",
     "id": "master-chu-and-the-drunkard-hu",
     "id_igdb": 48178,
-    "active": true
-  },
-  {
-    "name": "Master Fighter II",
-    "filename": "Master Fighter II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "master-fighter-ii",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12739,15 +12640,6 @@
     "active": true,
     "check": true,
     "check_name": true
-  },
-  {
-    "name": "Maze of Galious",
-    "filename": "Maze of Galious.zip",
-    "image": "",
-    "console": "nes",
-    "id": "maze-of-galious",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mazin Saga: Mutant Fighter",
@@ -13056,28 +12948,19 @@
   {
     "name": "Metal Force",
     "filename": "Metal Force.zip",
-    "image": "",
+    "image": "/images/roms/nes/metal-force.jpg",
     "console": "nes",
     "id": "metal-force",
-    "id_igdb": "",
+    "id_igdb": 48325,
     "active": true
   },
   {
-    "name": "Metal Gear I",
+    "name": "Metal Gear",
     "filename": "Metal Gear I.zip",
-    "image": "",
+    "image": "/images/roms/nes/metal-gear.jpg",
     "console": "nes",
-    "id": "metal-gear-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Metal Gear II - Snake's Revenge",
-    "filename": "Metal Gear II - Snake's Revenge.zip",
-    "image": "",
-    "console": "nes",
-    "id": "metal-gear-ii-snake-s-revenge",
-    "id_igdb": "",
+    "id": "metal-gear",
+    "id_igdb": 133917,
     "active": true
   },
   {
@@ -13091,12 +12974,12 @@
     "check_name": true
   },
   {
-    "name": "Metal Mech",
+    "name": "Metal Mech: Man & Machine",
     "filename": "Metal Mech.zip",
-    "image": "",
+    "image": "/images/roms/nes/metal-mech-man-and-machine.jpg",
     "console": "nes",
-    "id": "metal-mech",
-    "id_igdb": "",
+    "id": "metal-mech-man-and-machine",
+    "id_igdb": 48082,
     "active": true
   },
   {
@@ -13157,6 +13040,16 @@
     "check_name": true
   },
   {
+    "name": "MiG-29 Soviet Fighter",
+    "filename": "Mig-29 Soviet Fighter.zip",
+    "image": "/images/roms/nes/mig-29-soviet-fighter.jpg",
+    "console": "nes",
+    "id": "mig-29-soviet-fighter",
+    "id_igdb": 39093,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Michael Andretti's Indy Car Challenge",
     "filename": "Michael Andretti's Indy Car Challenge (U).smc",
     "image": "/images/roms/snes/michael-andrettis-indy-car-challenge.jpg",
@@ -13167,13 +13060,14 @@
     "check_name": true
   },
   {
-    "name": "Michael Andretti's World Grand Prix",
+    "name": "Michael Andretti's World GP",
     "filename": "Michael Andretti's World Grand Prix.zip",
-    "image": "",
+    "image": "/images/roms/nes/michael-andrettis-world-gp.jpg",
     "console": "nes",
-    "id": "michael-andretti-s-world-grand-prix",
-    "id_igdb": "",
-    "active": true
+    "id": "michael-andrettis-world-gp",
+    "id_igdb": 48279,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Michael Jackson's Moonwalker",
@@ -13194,15 +13088,6 @@
     "id_igdb": 42490,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Mickey Mania VII",
-    "filename": "Mickey Mania VII.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mickey-mania-vii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mickey Mania: The Timeless Adventures of Mickey Mouse",
@@ -13227,11 +13112,12 @@
   {
     "name": "Mickey Mouse - Dream Balloon",
     "filename": "Mickey Mouse - Dream Balloon.zip",
-    "image": "",
+    "image": "/images/roms/nes/mickey-mouse-dream-balloon.png",
     "console": "nes",
     "id": "mickey-mouse-dream-balloon",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mickey Mouse - World of Illusion",
@@ -13252,13 +13138,14 @@
     "active": true
   },
   {
-    "name": "Mickey's Adventures in Numberland",
+    "name": "Mickey's Adventure in Numberland",
     "filename": "Mickey's Adventures in Numberland.zip",
-    "image": "",
+    "image": "/images/roms/nes/mickeys-adventure-in-numberland.jpg",
     "console": "nes",
-    "id": "mickey-s-adventures-in-numberland",
-    "id_igdb": "",
-    "active": true
+    "id": "mickeys-adventure-in-numberland",
+    "id_igdb": 18102,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mickey's Playtown Adventure: A Day of Discovery!",
@@ -13271,13 +13158,14 @@
     "check_name": true
   },
   {
-    "name": "Mickey's Safari In Letterland",
+    "name": "Mickey's Safari in Letterland",
     "filename": "Mickey's Safari In Letterland.zip",
-    "image": "",
+    "image": "/images/roms/nes/mickeys-safari-in-letterland.jpg",
     "console": "nes",
-    "id": "mickey-s-safari-in-letterland",
-    "id_igdb": "",
-    "active": true
+    "id": "mickeys-safari-in-letterland",
+    "id_igdb": 48168,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mickey's Ultimate Challenge",
@@ -13368,15 +13256,6 @@
     "check_name": true
   },
   {
-    "name": "Middle School English",
-    "filename": "Middle School English.zip",
-    "image": "",
-    "console": "nes",
-    "id": "middle-school-english",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Midnight Resistance",
     "filename": "Midnight Resistance (U) [!].smd",
     "image": "/images/roms/gens/midnight-resistance.jpg",
@@ -13385,24 +13264,6 @@
     "id_igdb": 4401,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Mig-29 Soviet Fighter",
-    "filename": "Mig-29 Soviet Fighter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mig-29-soviet-fighter",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Might and Magic",
-    "filename": "Might and Magic.zip",
-    "image": "",
-    "console": "nes",
-    "id": "might-and-magic",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Might and Magic II: Gates to Another World",
@@ -13435,13 +13296,24 @@
     "check_name": true
   },
   {
+    "name": "Might and Magic: Book One - The Secret of the Inner Sanctum",
+    "filename": "Might and Magic.zip",
+    "image": "/images/roms/nes/might-and-magic-book-one-the-secret-of-the-inner-sanctum.jpg",
+    "console": "nes",
+    "id": "might-and-magic-book-one-the-secret-of-the-inner-sanctum",
+    "id_igdb": 7733,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Mighty Atom",
     "filename": "Mighty Atom.zip",
-    "image": "",
+    "image": "/images/roms/nes/mighty-atom.jpg",
     "console": "nes",
     "id": "mighty-atom",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48386,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mighty Bomb Jack",
@@ -13512,15 +13384,6 @@
     "check_name": true
   },
   {
-    "name": "Mighty Morphin' Power Rangers",
-    "filename": "Mighty Morphin' Power Rangers.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mighty-morphin-power-rangers",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mike Ditka Power Football",
     "filename": "Mike Ditka Power Football (U) [!].smd",
     "image": "/images/roms/gens/mike-ditka-power-football.jpg",
@@ -13576,22 +13439,14 @@
     "active": true
   },
   {
-    "name": "Minesweeper",
-    "filename": "Minesweeper.zip",
-    "image": "",
-    "console": "nes",
-    "id": "minesweeper",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mini Putt",
+    "name": "Mini-Putt",
     "filename": "Mini Putt.zip",
-    "image": "",
+    "image": "/images/roms/nes/mini-putt.jpg",
     "console": "nes",
     "id": "mini-putt",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 44151,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Minnesota Fats: Pool Legend",
@@ -13604,22 +13459,14 @@
     "check_name": true
   },
   {
-    "name": "Miracle Piano Teaching System",
-    "filename": "Miracle Piano Teaching System.zip",
-    "image": "",
-    "console": "nes",
-    "id": "miracle-piano-teaching-system",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Miracle Ropit's Adventure in 2100",
     "filename": "Miracle Ropit's Adventure in 2100.zip",
-    "image": "",
+    "image": "/images/roms/nes/miracle-ropits-adventure-in-2100.jpg",
     "console": "nes",
-    "id": "miracle-ropit-s-adventure-in-2100",
-    "id_igdb": "",
-    "active": true
+    "id": "miracle-ropits-adventure-in-2100",
+    "id_igdb": 64685,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mission Cobra",
@@ -13631,40 +13478,44 @@
     "active": true
   },
   {
-    "name": "Mission Impossible",
+    "name": "Mission: Impossible",
     "filename": "Mission Impossible.zip",
-    "image": "",
+    "image": "/images/roms/nes/mission-impossible.jpg",
     "console": "nes",
     "id": "mission-impossible",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 68337,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mitsume ga Tooru",
     "filename": "Mitsume ga Tooru.zip",
-    "image": "",
+    "image": "/images/roms/nes/mitsume-ga-tooru.jpg",
     "console": "nes",
     "id": "mitsume-ga-tooru",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48666,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Moai-Kun",
+    "name": "Moai-kun",
     "filename": "Moai-Kun.zip",
-    "image": "",
+    "image": "/images/roms/nes/moai-kun.jpg",
     "console": "nes",
     "id": "moai-kun",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48424,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mobile Suit Z Gundam - Hot Scramble",
     "filename": "Mobile Suit Z Gundam - Hot Scramble.zip",
-    "image": "",
+    "image": "/images/roms/nes/mobile-suit-z-gundam-hot-scramble.webp",
     "console": "nes",
     "id": "mobile-suit-z-gundam-hot-scramble",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mohawk & Headphone Jack",
@@ -13733,13 +13584,14 @@
     "active": true
   },
   {
-    "name": "Monster in my Pocket",
+    "name": "Monster in My Pocket",
     "filename": "Monster in my Pocket.zip",
-    "image": "",
+    "image": "/images/roms/nes/monster-in-my-pocket.jpg",
     "console": "nes",
     "id": "monster-in-my-pocket",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 48166,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Moon Crystal",
@@ -13954,6 +13806,15 @@
     "id_igdb": 42485,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Mouryou Senki Madara",
+    "filename": "Madara.zip",
+    "image": "/images/roms/nes/mouryou-senki-madara.jpg",
+    "console": "nes",
+    "id": "mouryou-senki-madara",
+    "id_igdb": 48418,
+    "active": true
   },
   {
     "name": "Mr Gimmick",
@@ -19459,6 +19320,15 @@
     "active": true
   },
   {
+    "name": "Snake's Revenge",
+    "filename": "Metal Gear II - Snake's Revenge.zip",
+    "image": "/images/roms/nes/snakes-revenge.jpg",
+    "console": "nes",
+    "id": "snakes-revenge",
+    "id_igdb": 7848,
+    "active": true
+  },
+  {
     "name": "Snoopy's Silly Sports Spectacular",
     "filename": "Snoopy's Silly Sports Spectacular.zip",
     "image": "",
@@ -23972,6 +23842,16 @@
     "id_igdb": 42730,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Miracle Piano Teaching System",
+    "filename": "Miracle Piano Teaching System.zip",
+    "image": "/images/roms/nes/the-miracle-piano-teaching-system.jpg",
+    "console": "nes",
+    "id": "the-miracle-piano-teaching-system",
+    "id_igdb": 274059,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Miracle Piano Teaching System",
