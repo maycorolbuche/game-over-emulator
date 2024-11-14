@@ -11980,6 +11980,15 @@
     "active": true
   },
   {
+    "name": "M.U.L.E.",
+    "filename": "MULE.zip",
+    "image": "/images/roms/nes/mule.jpg",
+    "console": "nes",
+    "id": "mule",
+    "id_igdb": 23895,
+    "active": true
+  },
+  {
     "name": "M.U.S.H.A.",
     "filename": "M.U.S.H.A (U) [!].smd",
     "image": "/images/roms/gens/m-u-s-h-a.jpg",
@@ -12028,24 +12037,6 @@
     "id_igdb": 7777,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "MULE",
-    "filename": "MULE.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mule",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "MUSCLE",
-    "filename": "MUSCLE.zip",
-    "image": "",
-    "console": "nes",
-    "id": "muscle",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Mach Rider",
@@ -13046,8 +13037,7 @@
     "console": "nes",
     "id": "mig-29-soviet-fighter",
     "id_igdb": 39093,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Michael Andretti's Indy Car Challenge",
@@ -13066,8 +13056,7 @@
     "console": "nes",
     "id": "michael-andrettis-world-gp",
     "id_igdb": 48279,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Michael Jackson's Moonwalker",
@@ -13116,8 +13105,7 @@
     "console": "nes",
     "id": "mickey-mouse-dream-balloon",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mickey Mouse - World of Illusion",
@@ -13144,8 +13132,7 @@
     "console": "nes",
     "id": "mickeys-adventure-in-numberland",
     "id_igdb": 18102,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mickey's Playtown Adventure: A Day of Discovery!",
@@ -13164,8 +13151,7 @@
     "console": "nes",
     "id": "mickeys-safari-in-letterland",
     "id_igdb": 48168,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mickey's Ultimate Challenge",
@@ -13302,8 +13288,7 @@
     "console": "nes",
     "id": "might-and-magic-book-one-the-secret-of-the-inner-sanctum",
     "id_igdb": 7733,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mighty Atom",
@@ -13312,8 +13297,7 @@
     "console": "nes",
     "id": "mighty-atom",
     "id_igdb": 48386,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mighty Bomb Jack",
@@ -13445,8 +13429,7 @@
     "console": "nes",
     "id": "mini-putt",
     "id_igdb": 44151,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Minnesota Fats: Pool Legend",
@@ -13465,8 +13448,7 @@
     "console": "nes",
     "id": "miracle-ropits-adventure-in-2100",
     "id_igdb": 64685,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mission Cobra",
@@ -13484,8 +13466,7 @@
     "console": "nes",
     "id": "mission-impossible",
     "id_igdb": 68337,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mitsume ga Tooru",
@@ -13494,8 +13475,7 @@
     "console": "nes",
     "id": "mitsume-ga-tooru",
     "id_igdb": 48666,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Moai-kun",
@@ -13504,8 +13484,7 @@
     "console": "nes",
     "id": "moai-kun",
     "id_igdb": 48424,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mobile Suit Z Gundam - Hot Scramble",
@@ -13514,8 +13493,7 @@
     "console": "nes",
     "id": "mobile-suit-z-gundam-hot-scramble",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mohawk & Headphone Jack",
@@ -13590,25 +13568,15 @@
     "console": "nes",
     "id": "monster-in-my-pocket",
     "id_igdb": 48166,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Moon Crystal",
     "filename": "Moon Crystal.zip",
-    "image": "",
+    "image": "/images/roms/nes/moon-crystal.jpg",
     "console": "nes",
     "id": "moon-crystal",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Moon Princess Legend",
-    "filename": "Moon Princess Legend.zip",
-    "image": "",
-    "console": "nes",
-    "id": "moon-princess-legend",
-    "id_igdb": "",
+    "id_igdb": 48620,
     "active": true
   },
   {
@@ -13661,15 +13629,6 @@
     "check_name": true
   },
   {
-    "name": "Mortal Kombat I",
-    "filename": "Mortal Kombat I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mortal Kombat II",
     "filename": "Mortal Kombat 2 (JUE) [!].smd",
     "image": "/images/roms/gens/mortal-kombat-ii.jpg",
@@ -13690,15 +13649,6 @@
     "check_name": true
   },
   {
-    "name": "Mortal Kombat II",
-    "filename": "Mortal Kombat II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mortal Kombat II Special",
     "filename": "Mortal Kombat II Special.zip",
     "image": "/images/roms/nes/mortal-kombat-ii-special.jpg",
@@ -13708,84 +13658,12 @@
     "active": true
   },
   {
-    "name": "Mortal Kombat III",
-    "filename": "Mortal Kombat III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mortal Kombat III - Extra 60",
-    "filename": "Mortal Kombat III - Extra 60.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-iii-extra-60",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mortal Kombat III - Special 56 Peoples",
-    "filename": "Mortal Kombat III - Special 56 Peoples.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-iii-special-56-peoples",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mortal Kombat III Special",
-    "filename": "Mortal Kombat III Special.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-iii-special",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mortal Kombat IV",
-    "filename": "Mortal Kombat IV.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-iv",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mortal Kombat Trilogy",
-    "filename": "Mortal Kombat Trilogy.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-trilogy",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mortal Kombat V 1996 Turbo 30 Peoples",
-    "filename": "Mortal Kombat V 1996 Turbo 30 Peoples.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mortal-kombat-v-1996-turbo-30-peoples",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Most Dangerous Detectives",
-    "filename": "Most Dangerous Detectives.zip",
-    "image": "",
-    "console": "nes",
-    "id": "most-dangerous-detectives",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Motocross Champion",
     "filename": "Motocross Champion.zip",
-    "image": "",
+    "image": "/images/roms/nes/motocross-champion.jpg",
     "console": "nes",
     "id": "motocross-champion",
-    "id_igdb": "",
+    "id_igdb": 64272,
     "active": true
   },
   {
@@ -13817,15 +13695,6 @@
     "active": true
   },
   {
-    "name": "Mr Gimmick",
-    "filename": "Mr Gimmick.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mr-gimmick",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mr. DO!",
     "filename": "Mr. Do! (U).smc",
     "image": "/images/roms/snes/mr-do.jpg",
@@ -13834,6 +13703,15 @@
     "id_igdb": 9554,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Mr. Gimmick",
+    "filename": "Mr Gimmick.zip",
+    "image": "/images/roms/nes/mr-gimmick.jpg",
+    "console": "nes",
+    "id": "mr-gimmick",
+    "id_igdb": 6546,
+    "active": true
   },
   {
     "name": "Mr. Nutz",
@@ -13914,12 +13792,12 @@
     "check_name": true
   },
   {
-    "name": "Muppet Adventure",
+    "name": "Muppet Adventure: Chaos at the Carnival",
     "filename": "Muppet Adventure.zip",
-    "image": "",
+    "image": "/images/roms/nes/muppet-adventure-chaos-at-the-carnival.jpg",
     "console": "nes",
-    "id": "muppet-adventure",
-    "id_igdb": "",
+    "id": "muppet-adventure-chaos-at-the-carnival",
+    "id_igdb": 3257,
     "active": true
   },
   {
@@ -13932,12 +13810,12 @@
     "active": true
   },
   {
-    "name": "Musashi no Ken",
+    "name": "Musashi no Ken: Tadaima Shugyou-chuu",
     "filename": "Musashi no Ken.zip",
-    "image": "",
+    "image": "/images/roms/nes/musashi-no-ken-tadaima-shugyou-chuu.jpg",
     "console": "nes",
-    "id": "musashi-no-ken",
-    "id_igdb": "",
+    "id": "musashi-no-ken-tadaima-shugyou-chuu",
+    "id_igdb": 48417,
     "active": true
   },
   {
@@ -13971,15 +13849,6 @@
     "check_name": true
   },
   {
-    "name": "Mutant Virus",
-    "filename": "Mutant Virus.zip",
-    "image": "",
-    "console": "nes",
-    "id": "mutant-virus",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Mystery Quest",
     "filename": "Mystery Quest.zip",
     "image": "/images/roms/nes/mystery-quest.jpg",
@@ -14005,15 +13874,6 @@
     "console": "gens",
     "id": "mystical-fighter",
     "id_igdb": 45772,
-    "active": true
-  },
-  {
-    "name": "Myth Struggle",
-    "filename": "Myth Struggle.zip",
-    "image": "",
-    "console": "nes",
-    "id": "myth-struggle",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -22179,6 +22039,15 @@
     "active": true
   },
   {
+    "name": "Tag Team Match M.U.S.C.L.E.",
+    "filename": "MUSCLE.zip",
+    "image": "/images/roms/nes/tag-team-match-muscle.jpg",
+    "console": "nes",
+    "id": "tag-team-match-muscle",
+    "id_igdb": 73788,
+    "active": true
+  },
+  {
     "name": "Tag Team Wrestling",
     "filename": "Tag Team Wrestling.zip",
     "image": "/images/roms/nes/tag-team-wrestling.jpg",
@@ -23850,8 +23719,7 @@
     "console": "nes",
     "id": "the-miracle-piano-teaching-system",
     "id_igdb": 274059,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Miracle Piano Teaching System",
@@ -23862,6 +23730,15 @@
     "id_igdb": 274059,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Mutant Virus: \"Crisis in a Computer World!\"",
+    "filename": "Mutant Virus.zip",
+    "image": "/images/roms/nes/the-mutant-virus-crisis-in-a-computer-world.jpg",
+    "console": "nes",
+    "id": "the-mutant-virus-crisis-in-a-computer-world",
+    "id_igdb": 48196,
+    "active": true
   },
   {
     "name": "The Mystery of Atlantis",
