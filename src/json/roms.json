@@ -698,6 +698,15 @@
     "active": true
   },
   {
+    "name": "Alex Demeo's Race America",
+    "filename": "Race America.zip",
+    "image": "/images/roms/nes/alex-demeos-race-america.jpg",
+    "console": "nes",
+    "id": "alex-demeos-race-america",
+    "id_igdb": 48215,
+    "active": true
+  },
+  {
     "name": "Alex Kidd in the Enchanted Castle",
     "filename": "Alex Kidd in the Enchanted Castle (E) [!].smd",
     "image": "/images/roms/gens/alex-kidd-in-the-enchanted-castle.jpg",
@@ -1076,6 +1085,15 @@
     "console": "nes",
     "id": "arctic",
     "id_igdb": "",
+    "active": true
+  },
+  {
+    "name": "Arctic Adventure: Penguin & Seal",
+    "filename": "Penguin & Seal.zip",
+    "image": "/images/roms/nes/arctic-adventure-penguin-and-seal.jpg",
+    "console": "nes",
+    "id": "arctic-adventure-penguin-and-seal",
+    "id_igdb": 48276,
     "active": true
   },
   {
@@ -7916,6 +7934,15 @@
     "active": true
   },
   {
+    "name": "Fox's Peter Pan & The Pirates: The Revenge of Captain Hook",
+    "filename": "Peter Pan & The Pirates.zip",
+    "image": "/images/roms/nes/foxs-peter-pan-and-the-pirates-the-revenge-of-captain-hook.jpg",
+    "console": "nes",
+    "id": "foxs-peter-pan-and-the-pirates-the-revenge-of-captain-hook",
+    "id_igdb": 72710,
+    "active": true
+  },
+  {
     "name": "Frank Thomas Big Hurt Baseball",
     "filename": "Frank Thomas Big Hurt Baseball (F) [!].smd",
     "image": "/images/roms/gens/frank-thomas-big-hurt-baseball.jpg",
@@ -14610,8 +14637,7 @@
     "console": "nes",
     "id": "ninja-jajamaru-kun",
     "id_igdb": 48455,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ninja Kid",
@@ -14639,8 +14665,7 @@
     "console": "nes",
     "id": "ninja-kun-majou-no-bouken",
     "id_igdb": 39457,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nintendo World Championships 1990",
@@ -14726,18 +14751,7 @@
     "console": "nes",
     "id": "nobunagas-ambition",
     "id_igdb": 307124,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Nobunaga's Ambition II",
-    "filename": "Nobunaga's Ambition II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "nobunagas-ambition-ii",
-    "id_igdb": 307125,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nolan Ryan's Baseball",
@@ -14818,15 +14832,6 @@
     "check_name": true
   },
   {
-    "name": "Olympic IQ",
-    "filename": "Olympic IQ.zip",
-    "image": "",
-    "console": "nes",
-    "id": "olympic-iq",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Olympic Summer Games",
     "filename": "Olympic Summer Games Atlanta 96 (F) [!].smd",
     "image": "/images/roms/gens/olympic-summer-games.jpg",
@@ -14876,10 +14881,10 @@
   {
     "name": "Onyanko Town",
     "filename": "Onyanko Town.zip",
-    "image": "",
+    "image": "/images/roms/nes/onyanko-town.jpg",
     "console": "nes",
     "id": "onyanko-town",
-    "id_igdb": "",
+    "id_igdb": 48405,
     "active": true
   },
   {
@@ -14940,12 +14945,12 @@
     "active": true
   },
   {
-    "name": "Orb 3D",
+    "name": "Orb-3D",
     "filename": "Orb 3D.zip",
-    "image": "",
+    "image": "/images/roms/nes/orb-3d.jpg",
     "console": "nes",
     "id": "orb-3d",
-    "id_igdb": "",
+    "id_igdb": 48191,
     "active": true
   },
   {
@@ -15050,6 +15055,15 @@
     "console": "nes",
     "id": "pradikus-conflict",
     "id_igdb": 73467,
+    "active": true
+  },
+  {
+    "name": "P.O.W.: Prisoners of War",
+    "filename": "POW - Prisoners of War.zip",
+    "image": "/images/roms/nes/p-dot-o-w-dot-prisoners-of-war.jpg",
+    "console": "nes",
+    "id": "p-dot-o-w-dot-prisoners-of-war",
+    "id_igdb": 274103,
     "active": true
   },
   {
@@ -15163,33 +15177,6 @@
     "check_name": true
   },
   {
-    "name": "POW - Prisoners of War",
-    "filename": "POW - Prisoners of War.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pow-prisoners-of-war",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Paaman - Enban wo Torikaese!!",
-    "filename": "Paaman - Enban wo Torikaese!!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "paaman-enban-wo-torikaese-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Paaman - Part II",
-    "filename": "Paaman - Part II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "paaman-part-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Pac-Attack",
     "filename": "Pac-Attack (U) [!].smd",
     "image": "/images/roms/gens/pac-attack.jpg",
@@ -15218,15 +15205,6 @@
     "id_igdb": 242407,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Pac-Land",
-    "filename": "Pac-Land.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pac-land",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Pac-Man",
@@ -15315,21 +15293,12 @@
     "active": true
   },
   {
-    "name": "Palamedes II - Star Twinkles",
+    "name": "Palamedes II: Star Twinkles",
     "filename": "Palamedes II - Star Twinkles.zip",
-    "image": "",
+    "image": "/images/roms/nes/palamedes-ii-star-twinkles.jpg",
     "console": "nes",
     "id": "palamedes-ii-star-twinkles",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Panda Prince",
-    "filename": "Panda Prince.zip",
-    "image": "",
-    "console": "nes",
-    "id": "panda-prince",
-    "id_igdb": "",
+    "id_igdb": 48808,
     "active": true
   },
   {
@@ -15371,6 +15340,15 @@
     "check_name": true
   },
   {
+    "name": "Paperboy",
+    "filename": "Paperboy I.zip",
+    "image": "/images/roms/nes/paperboy.jpg",
+    "console": "nes",
+    "id": "paperboy",
+    "id_igdb": 256083,
+    "active": true
+  },
+  {
     "name": "Paperboy 2",
     "filename": "Paperboy 2 (JUE) [!].smd",
     "image": "/images/roms/gens/paperboy-2.jpg",
@@ -15391,48 +15369,30 @@
     "check_name": true
   },
   {
-    "name": "Paperboy I",
-    "filename": "Paperboy I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "paperboy-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Paperboy II",
+    "name": "Paperboy 2",
     "filename": "Paperboy II.zip",
-    "image": "",
+    "image": "/images/roms/nes/paperboy-2.jpg",
     "console": "nes",
-    "id": "paperboy-ii",
-    "id_igdb": "",
+    "id": "paperboy-2",
+    "id_igdb": 12458,
     "active": true
   },
   {
     "name": "Parallel World",
     "filename": "Parallel World.zip",
-    "image": "",
+    "image": "/images/roms/nes/parallel-world.jpg",
     "console": "nes",
     "id": "parallel-world",
-    "id_igdb": "",
+    "id_igdb": 48348,
     "active": true
   },
   {
     "name": "Parasol Henbee",
     "filename": "Parasol Henbee.zip",
-    "image": "",
+    "image": "/images/roms/nes/parasol-henbee.jpg",
     "console": "nes",
     "id": "parasol-henbee",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Parasol Stars - Bubble Bobble III",
-    "filename": "Parasol Stars - Bubble Bobble III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "parasol-stars-bubble-bobble-iii",
-    "id_igdb": "",
+    "id_igdb": 137369,
     "active": true
   },
   {
@@ -15473,39 +15433,12 @@
     "check_name": true
   },
   {
-    "name": "Peacock King I",
-    "filename": "Peacock King I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "peacock-king-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Peacock King II",
-    "filename": "Peacock King II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "peacock-king-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Peepar Time",
     "filename": "Peepar Time.zip",
-    "image": "",
+    "image": "/images/roms/nes/peepar-time.jpg",
     "console": "nes",
     "id": "peepar-time",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pegs",
-    "filename": "Pegs.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pegs",
-    "id_igdb": "",
+    "id_igdb": 48831,
     "active": true
   },
   {
@@ -15529,24 +15462,6 @@
     "check_name": true
   },
   {
-    "name": "Penguin & Seal",
-    "filename": "Penguin & Seal.zip",
-    "image": "",
-    "console": "nes",
-    "id": "penguin-seal",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Penguin Wars",
-    "filename": "Penguin Wars.zip",
-    "image": "",
-    "console": "nes",
-    "id": "penguin-wars",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Pepenga Pengo",
     "filename": "Pengo (F) [!].smd",
     "image": "/images/roms/gens/pepenga-pengo.jpg",
@@ -15559,28 +15474,37 @@
   {
     "name": "Perfect Bowling",
     "filename": "Perfect Bowling.zip",
-    "image": "",
+    "image": "/images/roms/nes/perfect-bowling.jpg",
     "console": "nes",
     "id": "perfect-bowling",
-    "id_igdb": "",
+    "id_igdb": 48306,
+    "active": true
+  },
+  {
+    "name": "Perman: Enban wo Torikaese",
+    "filename": "Paaman - Enban wo Torikaese!!.zip",
+    "image": "/images/roms/nes/perman-enban-wo-torikaese.jpg",
+    "console": "nes",
+    "id": "perman-enban-wo-torikaese",
+    "id_igdb": 60747,
     "active": true
   },
   {
     "name": "Pescatore",
     "filename": "Pescatore.zip",
-    "image": "",
+    "image": "/images/roms/nes/pescatore.jpg",
     "console": "nes",
     "id": "pescatore",
-    "id_igdb": "",
+    "id_igdb": 48830,
     "active": true
   },
   {
-    "name": "Pesterminator",
+    "name": "Pesterminator: The Western Exterminator",
     "filename": "Pesterminator.zip",
-    "image": "",
+    "image": "/images/roms/nes/pesterminator-the-western-exterminator.jpg",
     "console": "nes",
-    "id": "pesterminator",
-    "id_igdb": "",
+    "id": "pesterminator-the-western-exterminator",
+    "id_igdb": 48080,
     "active": true
   },
   {
@@ -15602,15 +15526,6 @@
     "id_igdb": 70943,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Peter Pan & The Pirates",
-    "filename": "Peter Pan & The Pirates.zip",
-    "image": "",
-    "console": "nes",
-    "id": "peter-pan-the-pirates",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Phalanx",
@@ -15680,30 +15595,21 @@
     "active": true
   },
   {
-    "name": "Phoenix - Gao's Adventure",
-    "filename": "Phoenix - Gao's Adventure.zip",
-    "image": "",
-    "console": "nes",
-    "id": "phoenix-gao-s-adventure",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Photon - Ultimate Game on Planet Earth",
+    "name": "Photon: The Ultimate Game on Planet Earth",
     "filename": "Photon - Ultimate Game on Planet Earth.zip",
-    "image": "",
+    "image": "/images/roms/nes/photon-the-ultimate-game-on-planet-earth.jpg",
     "console": "nes",
-    "id": "photon-ultimate-game-on-planet-earth",
-    "id_igdb": "",
+    "id": "photon-the-ultimate-game-on-planet-earth",
+    "id_igdb": 64657,
     "active": true
   },
   {
-    "name": "Pictionary",
+    "name": "Pictionary: The Game of Video Quick Draw",
     "filename": "Pictionary.zip",
-    "image": "",
+    "image": "/images/roms/nes/pictionary-the-game-of-video-quick-draw.jpg",
     "console": "nes",
-    "id": "pictionary",
-    "id_igdb": "",
+    "id": "pictionary-the-game-of-video-quick-draw",
+    "id_igdb": 48224,
     "active": true
   },
   {
@@ -15725,15 +15631,6 @@
     "id_igdb": 39042,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Pikachu Tetris",
-    "filename": "Pikachu Tetris.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pikachu-tetris",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Pilotwings",
@@ -15822,24 +15719,6 @@
     "active": true
   },
   {
-    "name": "PipeMania",
-    "filename": "PipeMania.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pipemania",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pirates!",
-    "filename": "Pirates!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pirates-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Pirates! Gold",
     "filename": "Pirates Gold (U) [!].smd",
     "image": "/images/roms/gens/pirates-gold.jpg",
@@ -15911,18 +15790,9 @@
   {
     "name": "Pocahontas",
     "filename": "Pocahontas.zip",
-    "image": "",
+    "image": "/images/roms/nes/pocahontas.png",
     "console": "nes",
     "id": "pocahontas",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pocahontas II",
-    "filename": "Pocahontas II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pocahontas-ii",
     "id_igdb": "",
     "active": true
   },
@@ -15939,10 +15809,10 @@
   {
     "name": "Pocket Monster",
     "filename": "Pocket Monster.zip",
-    "image": "",
+    "image": "/images/roms/nes/pocket-monster.jpg",
     "console": "nes",
     "id": "pocket-monster",
-    "id_igdb": "",
+    "id_igdb": 213127,
     "active": true
   },
   {
@@ -15956,12 +15826,12 @@
     "check_name": true
   },
   {
-    "name": "Pocket Zaurus - Juu Ouken no Nazo",
+    "name": "Pocket Zaurus: Juu Ouken no Nazo",
     "filename": "Pocket Zaurus - Juu Ouken no Nazo.zip",
-    "image": "",
+    "image": "/images/roms/nes/pocket-zaurus-juu-ouken-no-nazo.jpg",
     "console": "nes",
     "id": "pocket-zaurus-juu-ouken-no-nazo",
-    "id_igdb": "",
+    "id_igdb": 48339,
     "active": true
   },
   {
@@ -15983,42 +15853,6 @@
     "id_igdb": 1536,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Poke Block",
-    "filename": "Poke Block.zip",
-    "image": "",
-    "console": "nes",
-    "id": "poke-block",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pokemon 4-in-1",
-    "filename": "Pokemon 4-in-1.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pokemon-4-in-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Poker II",
-    "filename": "Poker II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "poker-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Poker III",
-    "filename": "Poker III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "poker-iii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Pooyan",
@@ -16056,24 +15890,6 @@
     "console": "nes",
     "id": "popeye",
     "id_igdb": 229982,
-    "active": true
-  },
-  {
-    "name": "Popeye Lingo Game",
-    "filename": "Popeye Lingo Game.zip",
-    "image": "",
-    "console": "nes",
-    "id": "popeye-lingo-game",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Popo Team",
-    "filename": "Popo Team.zip",
-    "image": "",
-    "console": "nes",
-    "id": "popo-team",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16116,39 +15932,21 @@
     "check_name": true
   },
   {
-    "name": "Portopia - Serial Murder Case",
-    "filename": "Portopia - Serial Murder Case.zip",
-    "image": "",
-    "console": "nes",
-    "id": "portopia-serial-murder-case",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Power Blade I",
+    "name": "Power Blade",
     "filename": "Power Blade I.zip",
-    "image": "",
+    "image": "/images/roms/nes/power-blade.jpg",
     "console": "nes",
-    "id": "power-blade-i",
-    "id_igdb": "",
+    "id": "power-blade",
+    "id_igdb": 48079,
     "active": true
   },
   {
-    "name": "Power Blade II",
+    "name": "Power Blade 2",
     "filename": "Power Blade II.zip",
-    "image": "",
+    "image": "/images/roms/nes/power-blade-2.jpg",
     "console": "nes",
-    "id": "power-blade-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Power Blazer",
-    "filename": "Power Blazer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "power-blazer",
-    "id_igdb": "",
+    "id": "power-blade-2",
+    "id_igdb": 48223,
     "active": true
   },
   {
@@ -16211,24 +16009,6 @@
     "active": true
   },
   {
-    "name": "Power Rangers III",
-    "filename": "Power Rangers III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "power-rangers-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Power Rangers IV",
-    "filename": "Power Rangers IV.zip",
-    "image": "",
-    "console": "nes",
-    "id": "power-rangers-iv",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Power Rangers Zeo: Battle Racers",
     "filename": "Power Rangers Zeo - Battle Racers (U).smc",
     "image": "/images/roms/snes/power-rangers-zeo-battle-racers.jpg",
@@ -16237,15 +16017,6 @@
     "id_igdb": 3295,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Power Soccer",
-    "filename": "Power Soccer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "power-soccer",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "PowerMonger",
@@ -16396,21 +16167,12 @@
     "check_name": true
   },
   {
-    "name": "Princess Tomato in Salad Kingdom",
+    "name": "Princess Tomato in the Salad Kingdom",
     "filename": "Princess Tomato in Salad Kingdom.zip",
-    "image": "",
+    "image": "/images/roms/nes/princess-tomato-in-the-salad-kingdom.jpg",
     "console": "nes",
-    "id": "princess-tomato-in-salad-kingdom",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Princesstual Orgy",
-    "filename": "Princesstual Orgy.zip",
-    "image": "",
-    "console": "nes",
-    "id": "princesstual-orgy",
-    "id_igdb": "",
+    "id": "princess-tomato-in-the-salad-kingdom",
+    "id_igdb": 48221,
     "active": true
   },
   {
@@ -16529,15 +16291,6 @@
     "active": true
   },
   {
-    "name": "Punisher",
-    "filename": "Punisher.zip",
-    "image": "",
-    "console": "nes",
-    "id": "punisher",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Pushover",
     "filename": "Push-Over (U).smc",
     "image": "/images/roms/snes/pushover.jpg",
@@ -16547,12 +16300,12 @@
     "active": true
   },
   {
-    "name": "Puss 'n Boots - Pero's Great Adventure",
+    "name": "Puss 'n Boots: Pero's Great Adventure",
     "filename": "Puss 'n Boots - Pero's Great Adventure.zip",
-    "image": "",
+    "image": "/images/roms/nes/puss-n-boots-peros-great-adventure.jpg",
     "console": "nes",
-    "id": "puss-n-boots-pero-s-great-adventure",
-    "id_igdb": "",
+    "id": "puss-n-boots-peros-great-adventure",
+    "id_igdb": 48219,
     "active": true
   },
   {
@@ -16576,15 +16329,6 @@
     "check_name": true
   },
   {
-    "name": "Puyo Puyo",
-    "filename": "Puyo Puyo.zip",
-    "image": "",
-    "console": "nes",
-    "id": "puyo-puyo",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Puyo Puyo 2",
     "filename": "Puyo Puyo 2 (REV 01) (J) [!].smd",
     "image": "/images/roms/gens/puyo-puyo-2.jpg",
@@ -16593,15 +16337,6 @@
     "id_igdb": 84798,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Puzslot",
-    "filename": "Puzslot.zip",
-    "image": "",
-    "console": "nes",
-    "id": "puzslot",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Puzzle",
@@ -16640,39 +16375,21 @@
     "active": true
   },
   {
-    "name": "Pyokotan no Dai Meiro",
+    "name": "Pyokotan no Daimeiro",
     "filename": "Pyokotan no Dai Meiro.zip",
-    "image": "",
+    "image": "/images/roms/nes/pyokotan-no-daimeiro.jpg",
     "console": "nes",
-    "id": "pyokotan-no-dai-meiro",
-    "id_igdb": "",
+    "id": "pyokotan-no-daimeiro",
+    "id_igdb": 48824,
     "active": true
   },
   {
-    "name": "Pyramid I",
-    "filename": "Pyramid I.zip",
-    "image": "",
+    "name": "Q*Bert",
+    "filename": "Q-bert.zip",
+    "image": "/images/roms/nes/q-star-bert.jpg",
     "console": "nes",
-    "id": "pyramid-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pyramid II",
-    "filename": "Pyramid II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "pyramid-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Q Boy",
-    "filename": "Q Boy.zip",
-    "image": "",
-    "console": "nes",
-    "id": "q-boy",
-    "id_igdb": "",
+    "id": "q-star-bert",
+    "id_igdb": 281633,
     "active": true
   },
   {
@@ -16685,12 +16402,12 @@
     "active": true
   },
   {
-    "name": "Q-bert",
-    "filename": "Q-bert.zip",
-    "image": "",
+    "name": "Q-Boy",
+    "filename": "Q Boy.zip",
+    "image": "/images/roms/nes/q-boy.jpg",
     "console": "nes",
-    "id": "q-bert",
-    "id_igdb": "",
+    "id": "q-boy",
+    "id_igdb": 56721,
     "active": true
   },
   {
@@ -16720,24 +16437,6 @@
     "id_igdb": 46212,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Quarter Back Scramble",
-    "filename": "Quarter Back Scramble.zip",
-    "image": "",
-    "console": "nes",
-    "id": "quarter-back-scramble",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Quarth",
-    "filename": "Quarth.zip",
-    "image": "",
-    "console": "nes",
-    "id": "quarth",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Quattro Adventure",
@@ -16882,15 +16581,6 @@
     "check_name": true
   },
   {
-    "name": "Race America",
-    "filename": "Race America.zip",
-    "image": "",
-    "console": "nes",
-    "id": "race-america",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Race Drivin'",
     "filename": "Race Drivin' (UJE) [!].smd",
     "image": "/images/roms/gens/race-drivin.jpg",
@@ -16910,12 +16600,12 @@
     "active": true
   },
   {
-    "name": "Racermate Challenge II",
+    "name": "RacerMate Challenge II",
     "filename": "Racermate Challenge II.zip",
-    "image": "",
+    "image": "/images/roms/nes/racermate-challenge-ii.jpg",
     "console": "nes",
     "id": "racermate-challenge-ii",
-    "id_igdb": "",
+    "id_igdb": 48379,
     "active": true
   },
   {
@@ -18757,6 +18447,15 @@
     "id_igdb": 902,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Sid Meier's Pirates!",
+    "filename": "Pirates!.zip",
+    "image": "/images/roms/nes/sid-meiers-pirates.jpg",
+    "console": "nes",
+    "id": "sid-meiers-pirates",
+    "id_igdb": 9231,
+    "active": true
   },
   {
     "name": "Side Pocket",
@@ -23759,6 +23458,24 @@
     "id_igdb": 8104,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Portopia Serial Murder Case",
+    "filename": "Portopia - Serial Murder Case.zip",
+    "image": "/images/roms/nes/the-portopia-serial-murder-case.jpg",
+    "console": "nes",
+    "id": "the-portopia-serial-murder-case",
+    "id_igdb": 48358,
+    "active": true
+  },
+  {
+    "name": "The Punisher",
+    "filename": "Punisher.zip",
+    "image": "/images/roms/nes/the-punisher.jpg",
+    "console": "nes",
+    "id": "the-punisher",
+    "id_igdb": 75883,
+    "active": true
   },
   {
     "name": "The Punisher",
