@@ -12046,6 +12046,15 @@
     "check_name": true
   },
   {
+    "name": "MTV Remote Control",
+    "filename": "Remote Control.zip",
+    "image": "/images/roms/nes/mtv-remote-control.jpg",
+    "console": "nes",
+    "id": "mtv-remote-control",
+    "id_igdb": 18019,
+    "active": true
+  },
+  {
     "name": "MTV's Beavis and Butt-Head",
     "filename": "Beavis and Butthead (U) [!].smd",
     "image": "/images/roms/gens/mtvs-beavis-and-butt-head.jpg",
@@ -16476,6 +16485,15 @@
     "check_name": true
   },
   {
+    "name": "R.B.I. Baseball",
+    "filename": "RBI Baseball I.zip",
+    "image": "/images/roms/nes/rbi-baseball.jpg",
+    "console": "nes",
+    "id": "rbi-baseball",
+    "id_igdb": 18022,
+    "active": true
+  },
+  {
     "name": "R.B.I. Baseball '93",
     "filename": "RBI Baseball 93 (UEJ) [!].smd",
     "image": "/images/roms/gens/rbi-baseball-93.jpg",
@@ -16496,6 +16514,15 @@
     "check_name": true
   },
   {
+    "name": "R.B.I. Baseball 2",
+    "filename": "RBI Baseball II.zip",
+    "image": "/images/roms/nes/rbi-baseball-2.jpg",
+    "console": "nes",
+    "id": "rbi-baseball-2",
+    "id_igdb": 48090,
+    "active": true
+  },
+  {
     "name": "R.B.I. Baseball 3",
     "filename": "RBI Baseball 3 (UJE) [c][!].smd",
     "image": "/images/roms/gens/rbi-baseball-3.jpg",
@@ -16504,6 +16531,15 @@
     "id_igdb": 93414,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "R.B.I. Baseball 3",
+    "filename": "RBI Baseball III.zip",
+    "image": "/images/roms/nes/rbi-baseball-3.jpg",
+    "console": "nes",
+    "id": "rbi-baseball-3",
+    "id_igdb": 93414,
+    "active": true
   },
   {
     "name": "R.B.I. Baseball 4",
@@ -16516,48 +16552,21 @@
     "check_name": true
   },
   {
-    "name": "RBI Baseball I",
-    "filename": "RBI Baseball I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "rbi-baseball-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "RBI Baseball II",
-    "filename": "RBI Baseball II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "rbi-baseball-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "RBI Baseball III",
-    "filename": "RBI Baseball III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "rbi-baseball-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "RC Pro-Am I",
+    "name": "R.C. Pro-Am",
     "filename": "RC Pro-Am I.zip",
-    "image": "",
+    "image": "/images/roms/nes/rc-pro-am.jpg",
     "console": "nes",
-    "id": "rc-pro-am-i",
-    "id_igdb": "",
+    "id": "rc-pro-am",
+    "id_igdb": 9155,
     "active": true
   },
   {
-    "name": "RC Pro-Am II",
+    "name": "R.C. Pro-Am II",
     "filename": "RC Pro-Am II.zip",
-    "image": "",
+    "image": "/images/roms/nes/rc-pro-am-ii.jpg",
     "console": "nes",
     "id": "rc-pro-am-ii",
-    "id_igdb": "",
+    "id_igdb": 9156,
     "active": true
   },
   {
@@ -16627,12 +16636,12 @@
     "active": true
   },
   {
-    "name": "Rad Racer I",
+    "name": "Rad Racer",
     "filename": "Rad Racer I.zip",
-    "image": "",
+    "image": "/images/roms/nes/rad-racer.jpg",
     "console": "nes",
-    "id": "rad-racer-i",
-    "id_igdb": "",
+    "id": "rad-racer",
+    "id_igdb": 8359,
     "active": true
   },
   {
@@ -16645,12 +16654,12 @@
     "active": true
   },
   {
-    "name": "Rad Racket - Deluxe Tennis II",
+    "name": "Rad Racket: Deluxe Tennis II",
     "filename": "Rad Racket - Deluxe Tennis II.zip",
-    "image": "",
+    "image": "/images/roms/nes/rad-racket-deluxe-tennis-ii.jpg",
     "console": "nes",
     "id": "rad-racket-deluxe-tennis-ii",
-    "id_igdb": "",
+    "id_igdb": 48212,
     "active": true
   },
   {
@@ -16733,7 +16742,7 @@
   {
     "name": "Rainbow Silkroad",
     "filename": "Rainbow Silkroad.zip",
-    "image": "",
+    "image": "/images/roms/nes/rainbow-silkroad.webp",
     "console": "nes",
     "id": "rainbow-silkroad",
     "id_igdb": "",
@@ -16865,15 +16874,6 @@
     "check_name": true
   },
   {
-    "name": "Recca - Summer Carnival '92",
-    "filename": "Recca - Summer Carnival '92.zip",
-    "image": "",
-    "console": "nes",
-    "id": "recca-summer-carnival-92",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Red Zone",
     "filename": "Red Zone (JUE) [!].smd",
     "image": "/images/roms/gens/red-zone.jpg",
@@ -16904,24 +16904,6 @@
     "check_name": true
   },
   {
-    "name": "Remote Control",
-    "filename": "Remote Control.zip",
-    "image": "",
-    "console": "nes",
-    "id": "remote-control",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ren & Stimpy Show",
-    "filename": "Ren & Stimpy Show.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ren-stimpy-show",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Renegade",
     "filename": "Renegade.zip",
     "image": "/images/roms/nes/renegade.jpg",
@@ -16943,7 +16925,7 @@
   {
     "name": "Rescue - The Embassy Mission",
     "filename": "Rescue - The Embassy Mission.zip",
-    "image": "",
+    "image": "/images/roms/nes/rescue-the-embassy-mission.jpg",
     "console": "nes",
     "id": "rescue-the-embassy-mission",
     "id_igdb": "",
@@ -17011,7 +16993,7 @@
   {
     "name": "Riki Kunio",
     "filename": "Riki Kunio.zip",
-    "image": "",
+    "image": "/images/roms/nes/riki-kunio.png",
     "console": "nes",
     "id": "riki-kunio",
     "id_igdb": "",
@@ -17116,15 +17098,6 @@
     "active": true
   },
   {
-    "name": "River City Ransom Zero",
-    "filename": "River City Ransom Zero.zip",
-    "image": "",
-    "console": "nes",
-    "id": "river-city-ransom-zero",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Road Fighter",
     "filename": "Road Fighter.zip",
     "image": "/images/roms/nes/road-fighter.jpg",
@@ -17176,7 +17149,7 @@
   {
     "name": "Road Runner",
     "filename": "Road Runner.zip",
-    "image": "",
+    "image": "/images/roms/nes/road-runner.jpg",
     "console": "nes",
     "id": "road-runner",
     "id_igdb": "",
@@ -17211,21 +17184,39 @@
     "active": true
   },
   {
-    "name": "Robin Hood - Prince of Thieves",
+    "name": "Robin Hood: Prince of Thieves",
     "filename": "Robin Hood - Prince of Thieves.zip",
-    "image": "",
+    "image": "/images/roms/nes/robin-hood-prince-of-thieves.jpg",
     "console": "nes",
     "id": "robin-hood-prince-of-thieves",
-    "id_igdb": "",
+    "id_igdb": 48088,
     "active": true
   },
   {
     "name": "Robo Warrior",
     "filename": "Robo Warrior.zip",
-    "image": "",
+    "image": "/images/roms/nes/robo-warrior.jpg",
     "console": "nes",
     "id": "robo-warrior",
     "id_igdb": "",
+    "active": true
+  },
+  {
+    "name": "RoboCop",
+    "filename": "Robocop I.zip",
+    "image": "/images/roms/nes/robocop.jpg",
+    "console": "nes",
+    "id": "robocop",
+    "id_igdb": 59110,
+    "active": true
+  },
+  {
+    "name": "RoboCop 2",
+    "filename": "Robocop II.zip",
+    "image": "/images/roms/nes/robocop-2.jpg",
+    "console": "nes",
+    "id": "robocop-2",
+    "id_igdb": 6853,
     "active": true
   },
   {
@@ -17249,6 +17240,15 @@
     "check_name": true
   },
   {
+    "name": "RoboCop 3",
+    "filename": "Robocop III.zip",
+    "image": "/images/roms/nes/robocop-3.jpg",
+    "console": "nes",
+    "id": "robocop-3",
+    "id_igdb": 19695,
+    "active": true
+  },
+  {
     "name": "RoboCop Versus the Terminator",
     "filename": "Robocop Versus The Terminator (U).smc",
     "image": "/images/roms/snes/robocop-versus-the-terminator.jpg",
@@ -17268,57 +17268,21 @@
     "active": true
   },
   {
-    "name": "Robocco Wars",
-    "filename": "Robocco Wars.zip",
-    "image": "",
-    "console": "nes",
-    "id": "robocco-wars",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Robocop I",
-    "filename": "Robocop I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "robocop-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Robocop II",
-    "filename": "Robocop II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "robocop-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Robocop III",
-    "filename": "Robocop III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "robocop-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Robocop IV",
-    "filename": "Robocop IV.zip",
-    "image": "",
-    "console": "nes",
-    "id": "robocop-iv",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Robocop Versus the Terminator",
+    "name": "RoboCop Versus the Terminator",
     "filename": "Robocop Versus the Terminator.zip",
-    "image": "",
+    "image": "/images/roms/nes/robocop-versus-the-terminator.jpg",
     "console": "nes",
     "id": "robocop-versus-the-terminator",
-    "id_igdb": "",
+    "id_igdb": 288341,
+    "active": true
+  },
+  {
+    "name": "Robocco Wars",
+    "filename": "Robocco Wars.zip",
+    "image": "/images/roms/nes/robocco-wars.jpg",
+    "console": "nes",
+    "id": "robocco-wars",
+    "id_igdb": 72649,
     "active": true
   },
   {
@@ -17341,15 +17305,6 @@
     "check_name": true
   },
   {
-    "name": "Rock 'n' Ball",
-    "filename": "Rock 'n' Ball.zip",
-    "image": "",
-    "console": "nes",
-    "id": "rock-n-ball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Rock n' Roll Racing",
     "filename": "Rock N' Roll Racing (E).smc",
     "image": "/images/roms/snes/rock-n-roll-racing.jpg",
@@ -17370,9 +17325,18 @@
     "check_name": true
   },
   {
+    "name": "Rock'n' Ball",
+    "filename": "Rock 'n' Ball.zip",
+    "image": "/images/roms/nes/rockn-ball.jpg",
+    "console": "nes",
+    "id": "rockn-ball",
+    "id_igdb": 48206,
+    "active": true
+  },
+  {
     "name": "Rockball",
     "filename": "Rockball.zip",
-    "image": "",
+    "image": "/images/roms/nes/rockball.jpg",
     "console": "nes",
     "id": "rockball",
     "id_igdb": "",
@@ -17395,15 +17359,6 @@
     "console": "nes",
     "id": "rocket-ranger",
     "id_igdb": 5486,
-    "active": true
-  },
-  {
-    "name": "Rocketeer",
-    "filename": "Rocketeer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "rocketeer",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -17436,21 +17391,21 @@
     "check_name": true
   },
   {
-    "name": "Rod Land featuring Rit & Tam",
+    "name": "Rod-Land",
     "filename": "Rod Land featuring Rit & Tam.zip",
-    "image": "",
+    "image": "/images/roms/nes/rod-land.jpg",
     "console": "nes",
-    "id": "rod-land-featuring-rit-tam",
-    "id_igdb": "",
+    "id": "rod-land",
+    "id_igdb": 293157,
     "active": true
   },
   {
-    "name": "Roger Clemens MVP Baseball",
+    "name": "Roger Clemens' MVP Baseball",
     "filename": "Roger Clemens MVP Baseball.zip",
-    "image": "",
+    "image": "/images/roms/nes/roger-clemens-mvp-baseball.jpg",
     "console": "nes",
     "id": "roger-clemens-mvp-baseball",
-    "id_igdb": "",
+    "id_igdb": 48710,
     "active": true
   },
   {
@@ -17539,12 +17494,12 @@
     "check_name": true
   },
   {
-    "name": "Romance of the Three Kingdoms I",
+    "name": "Romance of the Three Kingdoms",
     "filename": "Romance of the Three Kingdoms I.zip",
-    "image": "",
+    "image": "/images/roms/nes/romance-of-the-three-kingdoms.jpg",
     "console": "nes",
-    "id": "romance-of-the-three-kingdoms-i",
-    "id_igdb": "",
+    "id": "romance-of-the-three-kingdoms",
+    "id_igdb": 14509,
     "active": true
   },
   {
@@ -17635,21 +17590,21 @@
     "check_name": true
   },
   {
-    "name": "Roundball - 2-on-2 Challenge",
+    "name": "Roundball: 2 on 2 Challenge",
     "filename": "Roundball - 2-on-2 Challenge.zip",
-    "image": "",
+    "image": "/images/roms/nes/roundball-2-on-2-challenge.jpg",
     "console": "nes",
     "id": "roundball-2-on-2-challenge",
-    "id_igdb": "",
+    "id_igdb": 48203,
     "active": true
   },
   {
     "name": "Route-16 Turbo",
     "filename": "Route-16 Turbo.zip",
-    "image": "",
+    "image": "/images/roms/nes/route-16-turbo.jpg",
     "console": "nes",
     "id": "route-16-turbo",
-    "id_igdb": "",
+    "id_igdb": 48404,
     "active": true
   },
   {
@@ -20237,6 +20192,15 @@
     "console": "nes",
     "id": "sukeban-keiji-iii",
     "id_igdb": "",
+    "active": true
+  },
+  {
+    "name": "Summer Carnival '92: Recca",
+    "filename": "Recca - Summer Carnival '92.zip",
+    "image": "/images/roms/nes/summer-carnival-92-recca.jpg",
+    "console": "nes",
+    "id": "summer-carnival-92-recca",
+    "id_igdb": 48642,
     "active": true
   },
   {
@@ -23499,6 +23463,15 @@
   },
   {
     "name": "The Ren & Stimpy Show: Buckeroo$!",
+    "filename": "Ren & Stimpy Show.zip",
+    "image": "/images/roms/nes/the-ren-and-stimpy-show-buckeroo$.jpg",
+    "console": "nes",
+    "id": "the-ren-and-stimpy-show-buckeroo$",
+    "id_igdb": 48209,
+    "active": true
+  },
+  {
+    "name": "The Ren & Stimpy Show: Buckeroo$!",
     "filename": "Ren & Stimpy Show, The - Buckeroos! (U) [!].smc",
     "image": "/images/roms/snes/the-ren-and-stimpy-show-buckeroo$.jpg",
     "console": "snes",
@@ -23546,6 +23519,15 @@
     "id_igdb": 3327,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Rocketeer",
+    "filename": "Rocketeer.zip",
+    "image": "/images/roms/nes/the-rocketeer.jpg",
+    "console": "nes",
+    "id": "the-rocketeer",
+    "id_igdb": 48205,
+    "active": true
   },
   {
     "name": "The Rocketeer",
