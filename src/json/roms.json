@@ -14444,6 +14444,15 @@
     "check_name": true
   },
   {
+    "name": "Nakajima Satoru: F1 Hero 2",
+    "filename": "Satoru Nakajima - F-1 Hero II.zip",
+    "image": "/images/roms/nes/nakajima-satoru-f1-hero-2.jpg",
+    "console": "nes",
+    "id": "nakajima-satoru-f1-hero-2",
+    "id_igdb": 48301,
+    "active": true
+  },
+  {
     "name": "Nankoku Shirei!! Spy vs. Spy",
     "filename": "Nangoku Shirei!! - Spy Vs Spy.zip",
     "image": "/images/roms/nes/nankoku-shirei-spy-vs-spy.jpg",
@@ -17646,6 +17655,15 @@
     "active": true
   },
   {
+    "name": "S.C.A.T.: Special Cybernetic Attack Team",
+    "filename": "SCAT - Special Cybernetic Attack Team.zip",
+    "image": "/images/roms/nes/s-dot-c-a-dot-t-special-cybernetic-attack-team.jpg",
+    "console": "nes",
+    "id": "s-dot-c-a-dot-t-special-cybernetic-attack-team",
+    "id_igdb": 48202,
+    "active": true
+  },
+  {
     "name": "S.T.G: Strike Gunner",
     "filename": "Strike Gunner (E).smc",
     "image": "/images/roms/snes/s-dot-t-g-strike-gunner.jpg",
@@ -17654,24 +17672,6 @@
     "id_igdb": 39692,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "SCAT - Special Cybernetic Attack Team",
-    "filename": "SCAT - Special Cybernetic Attack Team.zip",
-    "image": "",
-    "console": "nes",
-    "id": "scat-special-cybernetic-attack-team",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "SDF - Space Defending Force",
-    "filename": "SDF - Space Defending Force.zip",
-    "image": "",
-    "console": "nes",
-    "id": "sdf-space-defending-force",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "SOS",
@@ -17723,12 +17723,12 @@
     "check_name": true
   },
   {
-    "name": "Sakigake!! Otokojuku",
+    "name": "Sakigake!! Otokojuku: Shippuu Ichi Gou Sei",
     "filename": "Sakigake!! Otokojuku.zip",
-    "image": "",
+    "image": "/images/roms/nes/sakigake-otokojuku-shippuu-ichi-gou-sei.jpg",
     "console": "nes",
-    "id": "sakigake-otokojuku",
-    "id_igdb": "",
+    "id": "sakigake-otokojuku-shippuu-ichi-gou-sei",
+    "id_igdb": 48674,
     "active": true
   },
   {
@@ -17752,33 +17752,6 @@
     "check_name": true
   },
   {
-    "name": "Samurai Shodown I",
-    "filename": "Samurai Shodown I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "samurai-shodown-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Samurai Shodown II",
-    "filename": "Samurai Shodown II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "samurai-shodown-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Samurai Shodown III",
-    "filename": "Samurai Shodown III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "samurai-shodown-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Sangokushi Retsuden: Ransei no Eiyuu-tachi",
     "filename": "Sangokushi Retsuden (J) [!].smd",
     "image": "/images/roms/gens/sangokushi-retsuden-ransei-no-eiyuu-tachi.jpg",
@@ -17789,21 +17762,21 @@
     "check_name": true
   },
   {
-    "name": "Sanrio Carnival II",
+    "name": "Sanrio Carnival 2",
     "filename": "Sanrio Carnival II.zip",
-    "image": "",
+    "image": "/images/roms/nes/sanrio-carnival-2.jpg",
     "console": "nes",
-    "id": "sanrio-carnival-ii",
-    "id_igdb": "",
+    "id": "sanrio-carnival-2",
+    "id_igdb": 48637,
     "active": true
   },
   {
-    "name": "Sanrio Cup - Pon Pon Volley",
+    "name": "Sanrio Cup: Pon-pon Volley",
     "filename": "Sanrio Cup - Pon Pon Volley.zip",
-    "image": "",
+    "image": "/images/roms/nes/sanrio-cup-pon-pon-volley.jpg",
     "console": "nes",
     "id": "sanrio-cup-pon-pon-volley",
-    "id_igdb": "",
+    "id_igdb": 48639,
     "active": true
   },
   {
@@ -17813,15 +17786,6 @@
     "console": "nes",
     "id": "sasa",
     "id_igdb": 48602,
-    "active": true
-  },
-  {
-    "name": "Satoru Nakajima - F-1 Hero II",
-    "filename": "Satoru Nakajima - F-1 Hero II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "satoru-nakajima-f-1-hero-ii",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -17843,15 +17807,6 @@
     "id_igdb": 4504,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Scarabeus",
-    "filename": "Scarabeus (Pyramids of Ra).zip",
-    "image": "",
-    "console": "nes",
-    "id": "scarabeus",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Scholastic's The Magic School Bus: Space Exploration Game",
@@ -17895,7 +17850,7 @@
   {
     "name": "Sea of Dreamland",
     "filename": "Sea of Dreamland.zip",
-    "image": "",
+    "image": "/images/roms/nes/sea-of-dreamland.png",
     "console": "nes",
     "id": "sea-of-dreamland",
     "id_igdb": "",
@@ -17932,18 +17887,18 @@
     "check_name": true
   },
   {
-    "name": "Secret Scout",
+    "name": "Secret Scout in the Temple of Demise",
     "filename": "Secret Scout.zip",
-    "image": "",
+    "image": "/images/roms/nes/secret-scout-in-the-temple-of-demise.jpg",
     "console": "nes",
-    "id": "secret-scout",
-    "id_igdb": "",
+    "id": "secret-scout-in-the-temple-of-demise",
+    "id_igdb": 48200,
     "active": true
   },
   {
     "name": "Secret Ties",
     "filename": "Secret Ties.zip",
-    "image": "",
+    "image": "/images/roms/nes/secret-ties.png",
     "console": "nes",
     "id": "secret-ties",
     "id_igdb": "",
@@ -18007,30 +17962,21 @@
     "active": true
   },
   {
-    "name": "Seikima II",
+    "name": "Seikima II: Akuma no Gyakushuu!",
     "filename": "Seikima II.zip",
-    "image": "",
+    "image": "/images/roms/nes/seikima-ii-akuma-no-gyakushuu.jpg",
     "console": "nes",
-    "id": "seikima-ii",
-    "id_igdb": "",
+    "id": "seikima-ii-akuma-no-gyakushuu",
+    "id_igdb": 48399,
     "active": true
   },
   {
-    "name": "Sesame Street 123",
-    "filename": "Sesame Street 123.zip",
-    "image": "",
-    "console": "nes",
-    "id": "sesame-street-123",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sesame Street ABC",
+    "name": "Sesame Street A B C",
     "filename": "Sesame Street ABC.zip",
-    "image": "",
+    "image": "/images/roms/nes/sesame-street-a-b-c.jpg",
     "console": "nes",
-    "id": "sesame-street-abc",
-    "id_igdb": "",
+    "id": "sesame-street-a-b-c",
+    "id_igdb": 70103,
     "active": true
   },
   {
@@ -18053,21 +17999,21 @@
     "check_name": true
   },
   {
+    "name": "Sesame Street: 1-2-3",
+    "filename": "Sesame Street 123.zip",
+    "image": "/images/roms/nes/sesame-street-1-2-3.jpg",
+    "console": "nes",
+    "id": "sesame-street-1-2-3",
+    "active": true,
+    "id_igdb": 78035
+  },
+  {
     "name": "Sesame Street: Big Bird's Hide & Speak",
     "filename": "Big Bird's Hide And Speak.zip",
     "image": "/images/roms/nes/sesame-street-big-birds-hide-and-speak.jpg",
     "console": "nes",
     "id": "sesame-street-big-birds-hide-and-speak",
     "id_igdb": 48249,
-    "active": true
-  },
-  {
-    "name": "Seven Islands Adventure",
-    "filename": "Seven Islands Adventure.zip",
-    "image": "",
-    "console": "nes",
-    "id": "seven-islands-adventure",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -18089,15 +18035,6 @@
     "id_igdb": 10217,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Shadow Land",
-    "filename": "Shadow Land.zip",
-    "image": "",
-    "console": "nes",
-    "id": "shadow-land",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Shadow of the Beast",
@@ -18157,12 +18094,12 @@
     "check_name": true
   },
   {
-    "name": "Shanghai I",
+    "name": "Shanghai",
     "filename": "Shanghai I.zip",
-    "image": "",
+    "image": "/images/roms/nes/shanghai.jpg",
     "console": "nes",
-    "id": "shanghai-i",
-    "id_igdb": "",
+    "id": "shanghai",
+    "id_igdb": 12765,
     "active": true
   },
   {
@@ -18234,15 +18171,6 @@
     "active": true
   },
   {
-    "name": "Shell Monsters Story",
-    "filename": "Shell Monsters Story.zip",
-    "image": "",
-    "console": "nes",
-    "id": "shell-monsters-story",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Shi-Kin-Joh",
     "filename": "Shi Kin Joh (J).smd",
     "image": "/images/roms/gens/shi-kin-joh.jpg",
@@ -18265,19 +18193,19 @@
   {
     "name": "Shikinjou",
     "filename": "Shikinjou.zip",
-    "image": "",
+    "image": "/images/roms/nes/shikinjou.jpg",
     "console": "nes",
     "id": "shikinjou",
-    "id_igdb": "",
+    "id_igdb": 267756,
     "active": true
   },
   {
-    "name": "Shingen The Ruler",
+    "name": "Shingen the Ruler",
     "filename": "Shingen The Ruler.zip",
-    "image": "",
+    "image": "/images/roms/nes/shingen-the-ruler.jpg",
     "console": "nes",
     "id": "shingen-the-ruler",
-    "id_igdb": "",
+    "id_igdb": 48085,
     "active": true
   },
   {
@@ -18330,12 +18258,12 @@
     "check_name": true
   },
   {
-    "name": "Shinsenden",
+    "name": "Shinsen-den",
     "filename": "Shinsenden.zip",
-    "image": "",
+    "image": "/images/roms/nes/shinsen-den.jpg",
     "console": "nes",
-    "id": "shinsenden",
-    "id_igdb": "",
+    "id": "shinsen-den",
+    "id_igdb": 77406,
     "active": true
   },
   {
@@ -18357,12 +18285,12 @@
     "active": true
   },
   {
-    "name": "Short Order & Eggsplode",
+    "name": "Short Order / Egg-splode!",
     "filename": "Short Order & Eggsplode.zip",
-    "image": "",
+    "image": "/images/roms/nes/short-order-slash-egg-splode.jpg",
     "console": "nes",
-    "id": "short-order-eggsplode",
-    "id_igdb": "",
+    "id": "short-order-slash-egg-splode",
+    "id_igdb": 48246,
     "active": true
   },
   {
@@ -18469,18 +18397,9 @@
     "active": true
   },
   {
-    "name": "Silva Saga",
-    "filename": "Silva Saga.zip",
-    "image": "",
-    "console": "nes",
-    "id": "silva-saga",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Silver Eagle",
     "filename": "Silver Eagle.zip",
-    "image": "",
+    "image": "/images/roms/nes/silver-eagle.jpg",
     "console": "nes",
     "id": "silver-eagle",
     "id_igdb": "",
@@ -18534,48 +18453,21 @@
     "check_name": true
   },
   {
-    "name": "Simpsons - Bart vs the Space Mutants",
-    "filename": "Simpsons - Bart vs the Space Mutants.zip",
-    "image": "",
-    "console": "nes",
-    "id": "simpsons-bart-vs-the-space-mutants",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Simpsons - Bart vs the World",
-    "filename": "Simpsons - Bart vs the World.zip",
-    "image": "",
-    "console": "nes",
-    "id": "simpsons-bart-vs-the-world",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Simpsons - Bartman & Radioactive Man",
-    "filename": "Simpsons - Bartman & Radioactive Man.zip",
-    "image": "",
-    "console": "nes",
-    "id": "simpsons-bartman-radioactive-man",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Skate or Die! I",
+    "name": "Skate or Die",
     "filename": "Skate or Die! I.zip",
-    "image": "",
+    "image": "/images/roms/nes/skate-or-die.jpg",
     "console": "nes",
-    "id": "skate-or-die-i",
-    "id_igdb": "",
+    "id": "skate-or-die",
+    "id_igdb": 40929,
     "active": true
   },
   {
-    "name": "Skate or Die! II",
+    "name": "Skate or Die 2: The Search for Double Trouble",
     "filename": "Skate or Die! II.zip",
-    "image": "",
+    "image": "/images/roms/nes/skate-or-die-2-the-search-for-double-trouble.jpg",
     "console": "nes",
-    "id": "skate-or-die-ii",
-    "id_igdb": "",
+    "id": "skate-or-die-2-the-search-for-double-trouble",
+    "id_igdb": 48181,
     "active": true
   },
   {
@@ -18629,10 +18521,10 @@
   {
     "name": "Sky Destroyer",
     "filename": "Sky Destroyer.zip",
-    "image": "",
+    "image": "/images/roms/nes/sky-destroyer.jpg",
     "console": "nes",
     "id": "sky-destroyer",
-    "id_igdb": "",
+    "id_igdb": 4620,
     "active": true
   },
   {
@@ -18719,12 +18611,12 @@
     "active": true
   },
   {
-    "name": "Smash TV",
+    "name": "Smash T.V.",
     "filename": "Smash TV.zip",
-    "image": "",
+    "image": "/images/roms/nes/smash-tv.jpg",
     "console": "nes",
     "id": "smash-tv",
-    "id_igdb": "",
+    "id_igdb": 218749,
     "active": true
   },
   {
@@ -18738,15 +18630,6 @@
     "check_name": true
   },
   {
-    "name": "Smurfs",
-    "filename": "Smurfs.zip",
-    "image": "",
-    "console": "nes",
-    "id": "smurfs",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Snake Rattle 'n' Roll",
     "filename": "Snake Rattle 'n' Roll (E) [c][!].smd",
     "image": "/images/roms/gens/snake-rattle-n-roll.jpg",
@@ -18757,12 +18640,12 @@
     "check_name": true
   },
   {
-    "name": "Snake Rattle'n Roll",
+    "name": "Snake Rattle 'n' Roll",
     "filename": "Snake Rattle'n Roll.zip",
-    "image": "",
+    "image": "/images/roms/nes/snake-rattle-n-roll.jpg",
     "console": "nes",
     "id": "snake-rattle-n-roll",
-    "id_igdb": "",
+    "id_igdb": 4479,
     "active": true
   },
   {
@@ -18775,21 +18658,12 @@
     "active": true
   },
   {
-    "name": "Snoopy's Silly Sports Spectacular",
+    "name": "Snoopy's Silly Sports Spectacular!",
     "filename": "Snoopy's Silly Sports Spectacular.zip",
-    "image": "",
+    "image": "/images/roms/nes/snoopys-silly-sports-spectacular.jpg",
     "console": "nes",
-    "id": "snoopy-s-silly-sports-spectacular",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Snow Bros",
-    "filename": "Snow Bros.zip",
-    "image": "",
-    "console": "nes",
-    "id": "snow-bros",
-    "id_igdb": "",
+    "id": "snoopys-silly-sports-spectacular",
+    "id_igdb": 48077,
     "active": true
   },
   {
@@ -18799,6 +18673,15 @@
     "console": "gens",
     "id": "snow-bros-dot-nick-and-tom",
     "id_igdb": 46173,
+    "active": true
+  },
+  {
+    "name": "Snow Brothers",
+    "filename": "Snow Bros.zip",
+    "image": "/images/roms/nes/snow-brothers.jpg",
+    "console": "nes",
+    "id": "snow-brothers",
+    "id_igdb": 4399,
     "active": true
   },
   {
@@ -18831,12 +18714,12 @@
     "check_name": true
   },
   {
-    "name": "Soccer League - Winner's Cup",
+    "name": "Soccer League: Winner's Cup",
     "filename": "Soccer League - Winner's Cup.zip",
-    "image": "",
+    "image": "/images/roms/nes/soccer-league-winners-cup.jpg",
     "console": "nes",
-    "id": "soccer-league-winner-s-cup",
-    "id_igdb": "",
+    "id": "soccer-league-winners-cup",
+    "id_igdb": 48531,
     "active": true
   },
   {
@@ -18850,24 +18733,6 @@
     "check_name": true
   },
   {
-    "name": "Softball Heaven",
-    "filename": "Softball Heaven.zip",
-    "image": "",
-    "console": "nes",
-    "id": "softball-heaven",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sokoban",
-    "filename": "Sokoban.zip",
-    "image": "",
-    "console": "nes",
-    "id": "sokoban",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Sol-Feace",
     "filename": "Sol-Deace (U) [!].smd",
     "image": "/images/roms/gens/sol-feace.jpg",
@@ -18877,12 +18742,12 @@
     "active": true
   },
   {
-    "name": "Solar Jetman",
+    "name": "Solar Jetman: Hunt for the Golden Warpship",
     "filename": "Solar Jetman.zip",
-    "image": "",
+    "image": "/images/roms/nes/solar-jetman-hunt-for-the-golden-warpship.jpg",
     "console": "nes",
-    "id": "solar-jetman",
-    "id_igdb": "",
+    "id": "solar-jetman-hunt-for-the-golden-warpship",
+    "id_igdb": 7853,
     "active": true
   },
   {
@@ -18924,12 +18789,12 @@
     "active": true
   },
   {
-    "name": "Solstice",
+    "name": "Solstice: The Quest for the Staff of Demnos",
     "filename": "Solstice.zip",
-    "image": "",
+    "image": "/images/roms/nes/solstice-the-quest-for-the-staff-of-demnos.jpg",
     "console": "nes",
-    "id": "solstice",
-    "id_igdb": "",
+    "id": "solstice-the-quest-for-the-staff-of-demnos",
+    "id_igdb": 48244,
     "active": true
   },
   {
@@ -19084,7 +18949,7 @@
   {
     "name": "Space Harrier",
     "filename": "Space Harrier.zip",
-    "image": "",
+    "image": "/images/roms/nes/space-harrier.webp",
     "console": "nes",
     "id": "space-harrier",
     "id_igdb": "",
@@ -19103,7 +18968,7 @@
   {
     "name": "Space Hunter",
     "filename": "Space Hunter.zip",
-    "image": "",
+    "image": "/images/roms/nes/space-hunter.jpg",
     "console": "nes",
     "id": "space-hunter",
     "id_igdb": "",
@@ -19147,15 +19012,6 @@
     "id_igdb": 42583,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Space Shadow",
-    "filename": "Space Shadow.zip",
-    "image": "",
-    "console": "nes",
-    "id": "space-shadow",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Space Shuttle Project",
@@ -19256,7 +19112,7 @@
   {
     "name": "Spelunker II",
     "filename": "Spelunker II.zip",
-    "image": "",
+    "image": "/images/roms/nes/spelunker-ii.png",
     "console": "nes",
     "id": "spelunker-ii",
     "id_igdb": "",
@@ -19279,15 +19135,6 @@
     "console": "gens",
     "id": "spider-man",
     "id_igdb": 4500,
-    "active": true
-  },
-  {
-    "name": "Spider-Man - Return of the Sinister 6",
-    "filename": "Spider-Man - Return of the Sinister 6.zip",
-    "image": "",
-    "console": "nes",
-    "id": "spider-man-return-of-the-sinister-6",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -19329,12 +19176,12 @@
     "active": true
   },
   {
-    "name": "Spiderman II",
-    "filename": "Spiderman II.zip",
-    "image": "",
+    "name": "Spider-Man: Return of the Sinister Six",
+    "filename": "Spider-Man - Return of the Sinister 6.zip",
+    "image": "/images/roms/nes/spider-man-return-of-the-sinister-six.jpg",
     "console": "nes",
-    "id": "spiderman-ii",
-    "id_igdb": "",
+    "id": "spider-man-return-of-the-sinister-six",
+    "id_igdb": 46123,
     "active": true
   },
   {
@@ -19387,15 +19234,6 @@
     "check_name": true
   },
   {
-    "name": "Splatter House",
-    "filename": "Splatter House.zip",
-    "image": "",
-    "console": "nes",
-    "id": "splatter-house",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Splatterhouse 2",
     "filename": "Splatter House 2 (U) [c][!].smd",
     "image": "/images/roms/gens/splatterhouse-2.jpg",
@@ -19414,21 +19252,12 @@
     "active": true
   },
   {
-    "name": "Spooky Kitaro II",
-    "filename": "Spooky Kitaro II.zip",
-    "image": "",
+    "name": "Splatterhouse: Wanpaku Graffiti",
+    "filename": "Splatter House.zip",
+    "image": "/images/roms/nes/splatterhouse-wanpaku-graffiti.jpg",
     "console": "nes",
-    "id": "spooky-kitaro-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Spooky Kitaro in the Yokai World",
-    "filename": "Spooky Kitaro in the Yokai World.zip",
-    "image": "",
-    "console": "nes",
-    "id": "spooky-kitaro-in-the-yokai-world",
-    "id_igdb": "",
+    "id": "splatterhouse-wanpaku-graffiti",
+    "id_igdb": 48653,
     "active": true
   },
   {
@@ -19440,15 +19269,6 @@
     "id_igdb": 38437,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Spot",
-    "filename": "Spot.zip",
-    "image": "",
-    "console": "nes",
-    "id": "spot",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Spot Goes to Hollywood",
@@ -19470,12 +19290,12 @@
     "active": true
   },
   {
-    "name": "Spy Vs Spy",
+    "name": "Spy vs Spy",
     "filename": "Spy Vs Spy.zip",
-    "image": "",
+    "image": "/images/roms/nes/spy-vs-spy.jpg",
     "console": "nes",
     "id": "spy-vs-spy",
-    "id_igdb": "",
+    "id_igdb": 289160,
     "active": true
   },
   {
@@ -23551,6 +23371,15 @@
   },
   {
     "name": "The Simpsons: Bart vs. The Space Mutants",
+    "filename": "Simpsons - Bart vs the Space Mutants.zip",
+    "image": "/images/roms/nes/the-simpsons-bart-vs-the-space-mutants.jpg",
+    "console": "nes",
+    "id": "the-simpsons-bart-vs-the-space-mutants",
+    "id_igdb": 2827,
+    "active": true
+  },
+  {
+    "name": "The Simpsons: Bart vs. The Space Mutants",
     "filename": "Simpsons, The - Bart vs The Space Mutants (REV 01) (JUE) [!].smd",
     "image": "/images/roms/gens/the-simpsons-bart-vs-the-space-mutants.jpg",
     "console": "gens",
@@ -23558,6 +23387,15 @@
     "id_igdb": 2827,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Simpsons: Bart vs. the World",
+    "filename": "Simpsons - Bart vs the World.zip",
+    "image": "/images/roms/nes/the-simpsons-bart-vs-the-world.jpg",
+    "console": "nes",
+    "id": "the-simpsons-bart-vs-the-world",
+    "id_igdb": 2830,
+    "active": true
   },
   {
     "name": "The Simpsons: Bart's Nightmare",
@@ -23578,6 +23416,24 @@
     "id_igdb": 2833,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Simpsons: Bartman Meets Radioactive Man",
+    "filename": "Simpsons - Bartman & Radioactive Man.zip",
+    "image": "/images/roms/nes/the-simpsons-bartman-meets-radioactive-man.jpg",
+    "console": "nes",
+    "id": "the-simpsons-bartman-meets-radioactive-man",
+    "id_igdb": 2832,
+    "active": true
+  },
+  {
+    "name": "The Smurfs",
+    "filename": "Smurfs.zip",
+    "image": "/images/roms/nes/the-smurfs.jpg",
+    "console": "nes",
+    "id": "the-smurfs",
+    "id_igdb": 287139,
+    "active": true
   },
   {
     "name": "The Smurfs",
