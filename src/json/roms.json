@@ -23263,6 +23263,24 @@
     "check_name": true
   },
   {
+    "name": "The Ultimate Stuntman",
+    "filename": "Ultimate Stuntman.zip",
+    "image": "/images/roms/nes/the-ultimate-stuntman.jpg",
+    "console": "nes",
+    "id": "the-ultimate-stuntman",
+    "id_igdb": 48264,
+    "active": true
+  },
+  {
+    "name": "The Universe Soldiers",
+    "filename": "Universe Soldiers.zip",
+    "image": "/images/roms/nes/universe-soldiers.png",
+    "console": "nes",
+    "id": "universe-soldiers",
+    "id_igdb": "",
+    "active": true
+  },
+  {
     "name": "The Untouchables",
     "filename": "Untouchables, The (U).smc",
     "image": "/images/roms/snes/the-untouchables.jpg",
@@ -23271,6 +23289,15 @@
     "id_igdb": 213865,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Untouchables",
+    "filename": "Untouchables.zip",
+    "image": "/images/roms/nes/the-untouchables.jpg",
+    "console": "nes",
+    "id": "the-untouchables",
+    "id_igdb": 213865,
+    "active": true
   },
   {
     "name": "The Wizard of Oz",
@@ -24354,15 +24381,6 @@
     "check_name": true
   },
   {
-    "name": "U-fouR-ia",
-    "filename": "U-fouR-ia.zip",
-    "image": "",
-    "console": "nes",
-    "id": "u-four-ia",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "U.N. Squadron",
     "filename": "U.N. Squadron (E).smc",
     "image": "/images/roms/snes/u-n-squadron.jpg",
@@ -24373,30 +24391,12 @@
     "check_name": true
   },
   {
-    "name": "Ultima - Exodus",
-    "filename": "Ultima - Exodus.zip",
-    "image": "",
+    "name": "Ufouria: The Saga",
+    "filename": "U-fouR-ia.zip",
+    "image": "/images/roms/nes/ufouria-the-saga.jpg",
     "console": "nes",
-    "id": "ultima-exodus",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ultima - Quest of the Avatar",
-    "filename": "Ultima - Quest of the Avatar.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ultima-quest-of-the-avatar",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Ultima - Warriors of Destiny",
-    "filename": "Ultima - Warriors of Destiny.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ultima-warriors-of-destiny",
-    "id_igdb": "",
+    "id": "ufouria-the-saga",
+    "id_igdb": 48268,
     "active": true
   },
   {
@@ -24419,6 +24419,24 @@
     "active": true
   },
   {
+    "name": "Ultima: Exodus",
+    "filename": "Ultima - Exodus.zip",
+    "image": "/images/roms/nes/ultima-exodus.jpg",
+    "console": "nes",
+    "id": "ultima-exodus",
+    "id_igdb": 48049,
+    "active": true
+  },
+  {
+    "name": "Ultima: Quest of the Avatar",
+    "filename": "Ultima - Quest of the Avatar.zip",
+    "image": "/images/roms/nes/ultima-quest-of-the-avatar.jpg",
+    "console": "nes",
+    "id": "ultima-quest-of-the-avatar",
+    "id_igdb": 48097,
+    "active": true
+  },
+  {
     "name": "Ultima: Runes of Virtue II",
     "filename": "Ultima - Runes of Virtue II (U) [!].smc",
     "image": "/images/roms/snes/ultima-runes-of-virtue-ii.jpg",
@@ -24427,6 +24445,15 @@
     "id_igdb": 38414,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Ultima: Warriors of Destiny",
+    "filename": "Ultima - Warriors of Destiny.zip",
+    "image": "/images/roms/nes/ultima-warriors-of-destiny.jpg",
+    "console": "nes",
+    "id": "ultima-warriors-of-destiny",
+    "id_igdb": 48096,
+    "active": true
   },
   {
     "name": "Ultimate Air Combat",
@@ -24494,15 +24521,6 @@
     "id_igdb": 4540,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Ultimate Stuntman",
-    "filename": "Ultimate Stuntman.zip",
-    "image": "",
-    "console": "nes",
-    "id": "ultimate-stuntman",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Ultraman",
@@ -24621,15 +24639,6 @@
     "check_name": true
   },
   {
-    "name": "Universe Soldiers",
-    "filename": "Universe Soldiers.zip",
-    "image": "",
-    "console": "nes",
-    "id": "universe-soldiers",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Unnecessary Roughness 95",
     "filename": "Unnecessary Roughness 95 (JUE) [!].smd",
     "image": "/images/roms/gens/unnecessary-roughness-95.jpg",
@@ -24640,30 +24649,12 @@
     "check_name": true
   },
   {
-    "name": "Untouchables",
-    "filename": "Untouchables.zip",
-    "image": "",
-    "console": "nes",
-    "id": "untouchables",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Urban Champion",
     "filename": "Urban Champion.zip",
     "image": "/images/roms/nes/urban-champion.jpg",
     "console": "nes",
     "id": "urban-champion",
     "id_igdb": 4624,
-    "active": true
-  },
-  {
-    "name": "Urban Strike",
-    "filename": "Urban Strike.zip",
-    "image": "",
-    "console": "nes",
-    "id": "urban-strike",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -24687,12 +24678,12 @@
     "check_name": true
   },
   {
-    "name": "Urusei Yatsura - Lum no Wedding Bell",
+    "name": "Urusei Yatsura: Lum no Wedding Bell",
     "filename": "Urusei Yatsura - Lum no Wedding Bell.zip",
-    "image": "",
+    "image": "/images/roms/nes/urusei-yatsura-lum-no-wedding-bell.jpg",
     "console": "nes",
     "id": "urusei-yatsura-lum-no-wedding-bell",
-    "id_igdb": "",
+    "id_igdb": 48555,
     "active": true
   },
   {
@@ -24706,12 +24697,12 @@
     "check_name": true
   },
   {
-    "name": "Utsurun Desu",
+    "name": "Utsurun Desu: Kawauso Hawaii he Iku!!!",
     "filename": "Utsurun Desu.zip",
-    "image": "",
+    "image": "/images/roms/nes/utsurun-desu-kawauso-hawaii-he-iku.jpg",
     "console": "nes",
-    "id": "utsurun-desu",
-    "id_igdb": "",
+    "id": "utsurun-desu-kawauso-hawaii-he-iku",
+    "id_igdb": 48553,
     "active": true
   },
   {
