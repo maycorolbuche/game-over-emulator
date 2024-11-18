@@ -15805,6 +15805,15 @@
     "active": true
   },
   {
+    "name": "Platoon",
+    "filename": "VS Platoon.zip",
+    "image": "/images/roms/nes/platoon.jpg",
+    "console": "nes",
+    "id": "platoon",
+    "id_igdb": 290275,
+    "active": true
+  },
+  {
     "name": "Plok",
     "filename": "Plok! (U) [!].smc",
     "image": "/images/roms/snes/plok.jpg",
@@ -18546,6 +18555,15 @@
     "active": true
   },
   {
+    "name": "Sky Kid",
+    "filename": "VS Sky Kid.zip",
+    "image": "/images/roms/nes/sky-kid.jpg",
+    "console": "nes",
+    "id": "sky-kid",
+    "id_igdb": 287596,
+    "active": true
+  },
+  {
     "name": "Sky Shark",
     "filename": "Sky Shark.zip",
     "image": "/images/roms/nes/sky-shark.jpg",
@@ -18706,6 +18724,15 @@
   {
     "name": "Soccer",
     "filename": "Soccer.zip",
+    "image": "/images/roms/nes/soccer.jpg",
+    "console": "nes",
+    "id": "soccer",
+    "id_igdb": 86375,
+    "active": true
+  },
+  {
+    "name": "Soccer",
+    "filename": "VS Soccer.zip",
     "image": "/images/roms/nes/soccer.jpg",
     "console": "nes",
     "id": "soccer",
@@ -21025,6 +21052,15 @@
     "id_igdb": 42495,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Super Xevious",
+    "filename": "VS Super Xevious.zip",
+    "image": "/images/roms/nes/super-xevious.jpg",
+    "console": "nes",
+    "id": "super-xevious",
+    "id_igdb": 20128,
+    "active": true
   },
   {
     "name": "Super Xevious: Gamp no Nazo",
@@ -24716,282 +24752,12 @@
     "check_name": true
   },
   {
-    "name": "VS Atari RBI Baseball",
-    "filename": "VS Atari RBI Baseball.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-atari-rbi-baseball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Battle City",
-    "filename": "VS Battle City.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-battle-city",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Castlevania",
-    "filename": "VS Castlevania.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-castlevania",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Clu Clu Land",
-    "filename": "VS Clu Clu Land.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-clu-clu-land",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Dr Mario",
-    "filename": "VS Dr Mario.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-dr-mario",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Duck Hunt",
-    "filename": "VS Duck Hunt.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-duck-hunt",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Excitebike",
-    "filename": "VS Excitebike.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-excitebike",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Freedom Force",
-    "filename": "VS Freedom Force.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-freedom-force",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Goonies",
-    "filename": "VS Goonies.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-goonies",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Gradius",
-    "filename": "VS Gradius.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-gradius",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Gumshoe",
-    "filename": "VS Gumshoe.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-gumshoe",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Hogan's Alley",
-    "filename": "VS Hogan's Alley.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-hogan-s-alley",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Ice Climber",
-    "filename": "VS Ice Climber.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-ice-climber",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Mach Rider",
-    "filename": "VS Mach Rider.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-mach-rider",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Mighty Bomb Jack",
-    "filename": "VS Mighty Bomb Jack.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-mighty-bomb-jack",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Ninja Jajamaru-kun",
-    "filename": "VS Ninja Jajamaru-kun.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-ninja-jajamaru-kun",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Pinball",
-    "filename": "VS Pinball.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-pinball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Platoon",
-    "filename": "VS Platoon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-platoon",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Sky Kid",
-    "filename": "VS Sky Kid.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-sky-kid",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Slalom",
-    "filename": "VS Slalom.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-slalom",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Soccer",
-    "filename": "VS Soccer.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-soccer",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Star Luster",
-    "filename": "VS Star Luster.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-star-luster",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Stroke & Match Golf - Ladies",
-    "filename": "VS Stroke & Match Golf - Ladies.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-stroke-match-golf-ladies",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Stroke & Match Golf - Mens",
-    "filename": "VS Stroke & Match Golf - Mens.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-stroke-match-golf-mens",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Super Mario Bros",
-    "filename": "VS Super Mario Bros.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-super-mario-bros",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Super Xevious",
-    "filename": "VS Super Xevious.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-super-xevious",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS TKO Boxing",
-    "filename": "VS TKO Boxing.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-tko-boxing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Tetris",
-    "filename": "VS Tetris.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-tetris",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "VS Top Gun",
-    "filename": "VS Top Gun.zip",
-    "image": "",
-    "console": "nes",
-    "id": "vs-top-gun",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Valis",
     "filename": "Valis - The Fantasm Soldier (U) [!].smd",
     "image": "/images/roms/gens/valis.jpg",
     "console": "gens",
     "id": "valis",
     "id_igdb": 278225,
-    "active": true
-  },
-  {
-    "name": "Valis - The Fantastic Soldier",
-    "filename": "Valis - The Fantastic Soldier.zip",
-    "image": "",
-    "console": "nes",
-    "id": "valis-the-fantastic-soldier",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -25005,12 +24771,12 @@
     "check_name": true
   },
   {
-    "name": "Valkyrie's Adventure-Legend Time Key",
-    "filename": "Valkyrie's Adventure-Legend Time Key.zip",
-    "image": "",
+    "name": "Valis: The Fantasm Soldier",
+    "filename": "Valis - The Fantastic Soldier.zip",
+    "image": "/images/roms/nes/valis-the-fantasm-soldier.jpg",
     "console": "nes",
-    "id": "valkyrie-s-adventure-legend-time-key",
-    "id_igdb": "",
+    "id": "valis-the-fantasm-soldier",
+    "id_igdb": 278478,
     "active": true
   },
   {
@@ -25101,12 +24867,12 @@
     "check_name": true
   },
   {
-    "name": "Vice - Project Doom",
+    "name": "Vice: Project Doom",
     "filename": "Vice - Project Doom.zip",
-    "image": "",
+    "image": "/images/roms/nes/vice-project-doom.jpg",
     "console": "nes",
     "id": "vice-project-doom",
-    "id_igdb": "",
+    "id_igdb": 48262,
     "active": true
   },
   {
@@ -25227,7 +24993,7 @@
   {
     "name": "Volguard II",
     "filename": "Volguard II.zip",
-    "image": "",
+    "image": "/images/roms/nes/volguard-ii.jpg",
     "console": "nes",
     "id": "volguard-ii",
     "id_igdb": "",
@@ -25251,6 +25017,15 @@
     "id_igdb": 81436,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Vs. Ninja JaJaMaru-kun",
+    "filename": "VS Ninja Jajamaru-kun.zip",
+    "image": "/images/roms/nes/vs-ninja-jajamaru-kun.jpg",
+    "console": "nes",
+    "id": "vs-ninja-jajamaru-kun",
+    "id_igdb": 214577,
+    "active": true
   },
   {
     "name": "WCW SuperBrawl Wrestling",
