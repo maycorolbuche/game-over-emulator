@@ -5614,6 +5614,15 @@
     "active": true
   },
   {
+    "name": "Disney's TaleSpin",
+    "filename": "TaleSpin.zip",
+    "image": "/images/roms/nes/disneys-talespin.jpg",
+    "console": "nes",
+    "id": "disneys-talespin",
+    "id_igdb": 8067,
+    "active": true
+  },
+  {
     "name": "Disney's The Jungle Book",
     "filename": "Jungle Book, The (E) [!].smd",
     "image": "/images/roms/gens/disneys-the-jungle-book.jpg",
@@ -21162,24 +21171,6 @@
     "check_name": true
   },
   {
-    "name": "T&C I - Wood & Water Rage",
-    "filename": "T&C I - Wood & Water Rage.zip",
-    "image": "",
-    "console": "nes",
-    "id": "t-c-i-wood-water-rage",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "T&C II - Thrilla's Surfari",
-    "filename": "T&C II - Thrilla's Surfari.zip",
-    "image": "",
-    "console": "nes",
-    "id": "t-c-ii-thrilla-s-surfari",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "TKO Super Championship Boxing",
     "filename": "TKO Super Championship Boxing (U).smc",
     "image": "/images/roms/snes/tko-super-championship-boxing.jpg",
@@ -21188,15 +21179,6 @@
     "id_igdb": 42440,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "TMNT Tournament Fighters",
-    "filename": "TMNT Tournament Fighters.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tmnt-tournament-fighters",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "TNN Bass Tournament of Champions",
@@ -21229,21 +21211,12 @@
     "check_name": true
   },
   {
-    "name": "Tabo's Tactics",
-    "filename": "Tabo's Tactics.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tabo-s-tactics",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Taboo - The Sixth Sense",
+    "name": "Taboo: The Sixth Sense",
     "filename": "Taboo - The Sixth Sense.zip",
-    "image": "",
+    "image": "/images/roms/nes/taboo-the-sixth-sense.jpg",
     "console": "nes",
     "id": "taboo-the-sixth-sense",
-    "id_igdb": "",
+    "id_igdb": 288038,
     "active": true
   },
   {
@@ -21283,30 +21256,21 @@
     "active": true
   },
   {
-    "name": "Taito Chase HQ",
+    "name": "Taito Chase H.Q.",
     "filename": "Taito Chase HQ.zip",
-    "image": "",
+    "image": "/images/roms/nes/taito-chase-hq.jpg",
     "console": "nes",
     "id": "taito-chase-hq",
-    "id_igdb": "",
+    "id_igdb": 48629,
     "active": true
   },
   {
     "name": "Takahashi Meijin no Bug-tte Honey",
     "filename": "Takahashi Meijin no Bug-tte Honey.zip",
-    "image": "",
+    "image": "/images/roms/nes/takahashi-meijin-no-bug-tte-honey.jpg",
     "console": "nes",
     "id": "takahashi-meijin-no-bug-tte-honey",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "TaleSpin",
-    "filename": "TaleSpin.zip",
-    "image": "",
-    "console": "nes",
-    "id": "talespin",
-    "id_igdb": "",
+    "id_igdb": 48662,
     "active": true
   },
   {
@@ -21320,12 +21284,12 @@
     "check_name": true
   },
   {
-    "name": "Target Renegade",
+    "name": "Target: Renegade",
     "filename": "Target Renegade.zip",
-    "image": "",
+    "image": "/images/roms/nes/target-renegade.jpg",
     "console": "nes",
     "id": "target-renegade",
-    "id_igdb": "",
+    "id_igdb": 39060,
     "active": true
   },
   {
@@ -21417,24 +21381,6 @@
     "check_name": true
   },
   {
-    "name": "Technos Ice Hockey",
-    "filename": "Technos Ice Hockey.zip",
-    "image": "",
-    "console": "nes",
-    "id": "technos-ice-hockey",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Technos Samurai - Downtown Special!",
-    "filename": "Technos Samurai - Downtown Special!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "technos-samurai-downtown-special-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tecmo Baseball",
     "filename": "Tecmo Baseball.zip",
     "image": "/images/roms/nes/tecmo-baseball.jpg",
@@ -21453,15 +21399,6 @@
     "active": true
   },
   {
-    "name": "Tecmo Cup - Soccer Game",
-    "filename": "Tecmo Cup - Soccer Game.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tecmo-cup-soccer-game",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tecmo Cup Football Game",
     "filename": "Tecmo Cup Football (J) [p1][!].smd",
     "image": "/images/roms/gens/tecmo-cup-football-game.jpg",
@@ -21470,6 +21407,15 @@
     "id_igdb": 46166,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Tecmo Cup Soccer Game",
+    "filename": "Tecmo Cup - Soccer Game.zip",
+    "image": "/images/roms/nes/tecmo-cup-soccer-game.jpg",
+    "console": "nes",
+    "id": "tecmo-cup-soccer-game",
+    "id_igdb": 48227,
+    "active": true
   },
   {
     "name": "Tecmo NBA Basketball",
@@ -21579,15 +21525,6 @@
     "check_name": true
   },
   {
-    "name": "Tecmo Super Coach",
-    "filename": "Tecmo Super Coach.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tecmo-super-coach",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tecmo Super Hockey",
     "filename": "Tecmo Super Hockey (U) [!].smd",
     "image": "/images/roms/gens/tecmo-super-hockey.jpg",
@@ -21645,30 +21582,30 @@
     "active": true
   },
   {
-    "name": "Teenage Mutant Ninja Turtles I",
+    "name": "Teenage Mutant Ninja Turtles",
     "filename": "Teenage Mutant Ninja Turtles I.zip",
-    "image": "",
+    "image": "/images/roms/nes/teenage-mutant-ninja-turtles.jpg",
     "console": "nes",
-    "id": "teenage-mutant-ninja-turtles-i",
-    "id_igdb": "",
+    "id": "teenage-mutant-ninja-turtles",
+    "id_igdb": 86386,
     "active": true
   },
   {
-    "name": "Teenage Mutant Ninja Turtles II",
+    "name": "Teenage Mutant Ninja Turtles II: The Arcade Game",
     "filename": "Teenage Mutant Ninja Turtles II.zip",
-    "image": "",
+    "image": "/images/roms/nes/teenage-mutant-ninja-turtles-ii-the-arcade-game.jpg",
     "console": "nes",
-    "id": "teenage-mutant-ninja-turtles-ii",
-    "id_igdb": "",
+    "id": "teenage-mutant-ninja-turtles-ii-the-arcade-game",
+    "id_igdb": 3816,
     "active": true
   },
   {
-    "name": "Teenage Mutant Ninja Turtles III",
+    "name": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
     "filename": "Teenage Mutant Ninja Turtles III.zip",
-    "image": "",
+    "image": "/images/roms/nes/teenage-mutant-ninja-turtles-iii-the-manhattan-project.jpg",
     "console": "nes",
-    "id": "teenage-mutant-ninja-turtles-iii",
-    "id_igdb": "",
+    "id": "teenage-mutant-ninja-turtles-iii-the-manhattan-project",
+    "id_igdb": 14731,
     "active": true
   },
   {
@@ -21693,6 +21630,15 @@
   },
   {
     "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+    "filename": "TMNT Tournament Fighters.zip",
+    "image": "/images/roms/nes/teenage-mutant-ninja-turtles-tournament-fighters.jpg",
+    "console": "nes",
+    "id": "teenage-mutant-ninja-turtles-tournament-fighters",
+    "id_igdb": 48274,
+    "active": true
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
     "filename": "Teenage Mutant Ninja Turtles - Tournament Fighters (U).smc",
     "image": "/images/roms/snes/teenage-mutant-ninja-turtles-tournament-fighters.jpg",
     "console": "snes",
@@ -21712,24 +21658,6 @@
     "check_name": true
   },
   {
-    "name": "Tekken II",
-    "filename": "Tekken II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tekken-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tekken III",
-    "filename": "Tekken III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tekken-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tel-Tel Mahjong",
     "filename": "Tel Tel Mahjong (J) [h1].smd",
     "image": "/images/roms/gens/tel-tel-mahjong.jpg",
@@ -21738,15 +21666,6 @@
     "id_igdb": 4485,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Tengen Tetris",
-    "filename": "Tengen Tetris.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tengen-tetris",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Tennis",
@@ -21777,6 +21696,15 @@
     "check_name": true
   },
   {
+    "name": "Terminator 2: Judgment Day",
+    "filename": "Terminator II - Judgement Day.zip",
+    "image": "/images/roms/nes/terminator-2-judgment-day.jpg",
+    "console": "nes",
+    "id": "terminator-2-judgment-day",
+    "id_igdb": 12793,
+    "active": true
+  },
+  {
     "name": "Terminator 2: The Arcade Game",
     "filename": "T2 - The Arcade Game (U).smc",
     "image": "/images/roms/snes/t2-the-arcade-game.jpg",
@@ -21793,24 +21721,6 @@
     "console": "gens",
     "id": "t2-the-arcade-game",
     "id_igdb": 12861,
-    "active": true
-  },
-  {
-    "name": "Terminator I",
-    "filename": "Terminator I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "terminator-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Terminator II - Judgement Day",
-    "filename": "Terminator II - Judgement Day.zip",
-    "image": "",
-    "console": "nes",
-    "id": "terminator-ii-judgement-day",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -21833,12 +21743,12 @@
     "check_name": true
   },
   {
-    "name": "Tetrastar - The Fighter",
+    "name": "Tetrastar: The Fighter",
     "filename": "Tetrastar - The Fighter.zip",
-    "image": "",
+    "image": "/images/roms/nes/tetrastar-the-fighter.jpg",
     "console": "nes",
     "id": "tetrastar-the-fighter",
-    "id_igdb": "",
+    "id_igdb": 48387,
     "active": true
   },
   {
@@ -21852,6 +21762,15 @@
     "check_name": true
   },
   {
+    "name": "Tetris",
+    "filename": "Tetris I.zip",
+    "image": "/images/roms/nes/tetris.jpg",
+    "console": "nes",
+    "id": "tetris",
+    "id_igdb": 180278,
+    "active": true
+  },
+  {
     "name": "Tetris 2",
     "filename": "Tetris 2 (E).smc",
     "image": "/images/roms/snes/tetris-2.jpg",
@@ -21862,12 +21781,12 @@
     "check_name": true
   },
   {
-    "name": "Tetris 2 & BomBliss",
-    "filename": "Tetris 2 & BomBliss.zip",
-    "image": "",
+    "name": "Tetris 2",
+    "filename": "Tetris II.zip",
+    "image": "/images/roms/nes/tetris-2.jpg",
     "console": "nes",
-    "id": "tetris-2-bombliss",
-    "id_igdb": "",
+    "id": "tetris-2",
+    "id_igdb": 254512,
     "active": true
   },
   {
@@ -21879,24 +21798,6 @@
     "id_igdb": 2739,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Tetris I",
-    "filename": "Tetris I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tetris-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tetris II",
-    "filename": "Tetris II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tetris-ii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "The 7th Saga",
@@ -23277,6 +23178,15 @@
   },
   {
     "name": "The Terminator",
+    "filename": "Terminator I.zip",
+    "image": "/images/roms/nes/the-terminator.jpg",
+    "console": "nes",
+    "id": "the-terminator",
+    "id_igdb": 96395,
+    "active": true
+  },
+  {
+    "name": "The Terminator",
     "filename": "Terminator, The (U).smc",
     "image": "/images/roms/snes/the-terminator.jpg",
     "console": "snes",
@@ -23294,6 +23204,15 @@
     "id_igdb": 4372,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Three Stooges",
+    "filename": "Three Stooges.zip",
+    "image": "/images/roms/nes/the-three-stooges.jpg",
+    "console": "nes",
+    "id": "the-three-stooges",
+    "id_igdb": 8670,
+    "active": true
   },
   {
     "name": "The Tick",
@@ -23314,6 +23233,24 @@
     "id_igdb": 46594,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Tower of Druaga",
+    "filename": "Tower of Druaga.zip",
+    "image": "/images/roms/nes/the-tower-of-druaga.jpg",
+    "console": "nes",
+    "id": "the-tower-of-druaga",
+    "id_igdb": 4207,
+    "active": true
+  },
+  {
+    "name": "The Trolls in Crazyland",
+    "filename": "Trolls in Crazyland.zip",
+    "image": "/images/roms/nes/the-trolls-in-crazyland.jpg",
+    "console": "nes",
+    "id": "the-trolls-in-crazyland",
+    "id_igdb": 48706,
+    "active": true
   },
   {
     "name": "The Twisted Tales of Spike McFang",
@@ -23395,21 +23332,12 @@
     "check_name": true
   },
   {
-    "name": "Thomas the Tank Engine and Friends",
+    "name": "Thomas the Tank Engine & Friends",
     "filename": "Thomas the Tank Engine and Friends.zip",
-    "image": "",
+    "image": "/images/roms/nes/thomas-the-tank-engine-and-friends.jpg",
     "console": "nes",
     "id": "thomas-the-tank-engine-and-friends",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Three Stooges",
-    "filename": "Three Stooges.zip",
-    "image": "",
-    "console": "nes",
-    "id": "three-stooges",
-    "id_igdb": "",
+    "id_igdb": 261048,
     "active": true
   },
   {
@@ -23419,15 +23347,6 @@
     "console": "nes",
     "id": "thunder-and-lightning",
     "id_igdb": 48273,
-    "active": true
-  },
-  {
-    "name": "Thunder Blast Man",
-    "filename": "Thunder Blast Man.zip",
-    "image": "",
-    "console": "nes",
-    "id": "thunder-blast-man",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -23471,15 +23390,6 @@
     "check_name": true
   },
   {
-    "name": "Thunder Warrior",
-    "filename": "Thunder Warrior.zip",
-    "image": "",
-    "console": "nes",
-    "id": "thunder-warrior",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Thunderbirds",
     "filename": "Thunderbirds.zip",
     "image": "/images/roms/nes/thunderbirds.jpg",
@@ -23498,21 +23408,12 @@
     "active": true
   },
   {
-    "name": "Tic-Tac XO",
-    "filename": "Tic-Tac XO.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tic-tac-xo",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tiger-Heli",
+    "name": "Tiger Heli",
     "filename": "Tiger-Heli.zip",
-    "image": "",
+    "image": "/images/roms/nes/tiger-heli.jpg",
     "console": "nes",
     "id": "tiger-heli",
-    "id_igdb": "",
+    "id_igdb": 4606,
     "active": true
   },
   {
@@ -23525,12 +23426,12 @@
     "active": true
   },
   {
-    "name": "Time Diver Avenger",
+    "name": "Time Diver: Eon Man",
     "filename": "Time Diver Avenger.zip",
-    "image": "",
+    "image": "/images/roms/nes/time-diver-eon-man.jpg",
     "console": "nes",
-    "id": "time-diver-avenger",
-    "id_igdb": "",
+    "id": "time-diver-eon-man",
+    "id_igdb": 48564,
     "active": true
   },
   {
@@ -23575,10 +23476,10 @@
   {
     "name": "Time Zone",
     "filename": "Time Zone.zip",
-    "image": "",
+    "image": "/images/roms/nes/time-zone.jpg",
     "console": "nes",
     "id": "time-zone",
-    "id_igdb": "",
+    "id_igdb": 86000,
     "active": true
   },
   {
@@ -23631,6 +23532,24 @@
     "check_name": true
   },
   {
+    "name": "Tiny Toon Adventures",
+    "filename": "Tiny Toon Adventures I.zip",
+    "image": "/images/roms/nes/tiny-toon-adventures.jpg",
+    "console": "nes",
+    "id": "tiny-toon-adventures",
+    "id_igdb": 4555,
+    "active": true
+  },
+  {
+    "name": "Tiny Toon Adventures 2: Trouble in Wackyland",
+    "filename": "Tiny Toon Adventures II.zip",
+    "image": "/images/roms/nes/tiny-toon-adventures-2-trouble-in-wackyland.jpg",
+    "console": "nes",
+    "id": "tiny-toon-adventures-2-trouble-in-wackyland",
+    "id_igdb": 8047,
+    "active": true
+  },
+  {
     "name": "Tiny Toon Adventures Cartoon Workshop",
     "filename": "Tiny Toon Adventures Cartoon Workshop.zip",
     "image": "/images/roms/nes/tiny-toon-adventures-cartoon-workshop.jpg",
@@ -23640,27 +23559,9 @@
     "active": true
   },
   {
-    "name": "Tiny Toon Adventures I",
-    "filename": "Tiny Toon Adventures I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tiny-toon-adventures-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tiny Toon Adventures II",
-    "filename": "Tiny Toon Adventures II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tiny-toon-adventures-ii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tiny Toon Adventures VI",
     "filename": "Tiny Toon Adventures VI.zip",
-    "image": "",
+    "image": "/images/roms/nes/tiny-toon-adventures-vi.jpg",
     "console": "nes",
     "id": "tiny-toon-adventures-vi",
     "id_igdb": "",
@@ -23709,28 +23610,28 @@
   {
     "name": "Titan",
     "filename": "Titan.zip",
-    "image": "",
+    "image": "/images/roms/nes/titan.jpg",
     "console": "nes",
     "id": "titan",
-    "id_igdb": "",
+    "id_igdb": 12487,
     "active": true
   },
   {
     "name": "Titan Warriors",
     "filename": "Titan Warriors.zip",
-    "image": "",
+    "image": "/images/roms/nes/titan-warriors.jpg",
     "console": "nes",
     "id": "titan-warriors",
-    "id_igdb": "",
+    "id_igdb": 48335,
     "active": true
   },
   {
-    "name": "To The Earth",
+    "name": "To the Earth",
     "filename": "To The Earth.zip",
-    "image": "",
+    "image": "/images/roms/nes/to-the-earth.jpg",
     "console": "nes",
     "id": "to-the-earth",
-    "id_igdb": "",
+    "id_igdb": 48117,
     "active": true
   },
   {
@@ -23791,30 +23692,12 @@
     "active": true
   },
   {
-    "name": "Tokoro-San no Mamorumo Semerumo",
+    "name": "Tokoro-san no Mamoru mo Semeru mo",
     "filename": "Tokoro-San no Mamorumo Semerumo.zip",
-    "image": "",
+    "image": "/images/roms/nes/tokoro-san-no-mamoru-mo-semeru-mo.jpg",
     "console": "nes",
-    "id": "tokoro-san-no-mamorumo-semerumo",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tom & Jerry",
-    "filename": "Tom & Jerry (and Tuffy).zip",
-    "image": "",
-    "console": "nes",
-    "id": "tom-jerry",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Tom & Jerry III",
-    "filename": "Tom & Jerry III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "tom-jerry-iii",
-    "id_igdb": "",
+    "id": "tokoro-san-no-mamoru-mo-semeru-mo",
+    "id_igdb": 48385,
     "active": true
   },
   {
@@ -23827,6 +23710,15 @@
     "active": true,
     "check": true,
     "check_name": true
+  },
+  {
+    "name": "Tom and Jerry",
+    "filename": "Tom & Jerry (and Tuffy).zip",
+    "image": "/images/roms/nes/tom-and-jerry.jpg",
+    "console": "nes",
+    "id": "tom-and-jerry",
+    "id_igdb": 8025,
+    "active": true
   },
   {
     "name": "Tom and Jerry",
@@ -23849,12 +23741,12 @@
     "check_name": true
   },
   {
-    "name": "Tombs and Treasure",
+    "name": "Tombs & Treasure",
     "filename": "Tombs and Treasure.zip",
-    "image": "",
+    "image": "/images/roms/nes/tombs-and-treasure.jpg",
     "console": "nes",
     "id": "tombs-and-treasure",
-    "id_igdb": "",
+    "id_igdb": 215142,
     "active": true
   },
   {
@@ -23919,12 +23811,12 @@
     "check_name": true
   },
   {
-    "name": "Toobin",
+    "name": "Toobin'",
     "filename": "Toobin.zip",
-    "image": "",
+    "image": "/images/roms/nes/toobin.jpg",
     "console": "nes",
     "id": "toobin",
-    "id_igdb": "",
+    "id_igdb": 12867,
     "active": true
   },
   {
@@ -23968,21 +23860,21 @@
     "check_name": true
   },
   {
-    "name": "Top Gun I",
+    "name": "Top Gun",
     "filename": "Top Gun I.zip",
-    "image": "",
+    "image": "/images/roms/nes/top-gun.jpg",
     "console": "nes",
-    "id": "top-gun-i",
-    "id_igdb": "",
+    "id": "top-gun",
+    "id_igdb": 18021,
     "active": true
   },
   {
-    "name": "Top Gun II - The Second Mission",
+    "name": "Top Gun: The Second Mission",
     "filename": "Top Gun II - The Second Mission.zip",
-    "image": "",
+    "image": "/images/roms/nes/top-gun-the-second-mission.jpg",
     "console": "nes",
-    "id": "top-gun-ii-the-second-mission",
-    "id_igdb": "",
+    "id": "top-gun-the-second-mission",
+    "id_igdb": 22911,
     "active": true
   },
   {
@@ -24044,15 +23936,6 @@
     "active": true
   },
   {
-    "name": "Touchdown Fever",
-    "filename": "Touchdown Fever.zip",
-    "image": "",
-    "console": "nes",
-    "id": "touchdown-fever",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Toughman Contest",
     "filename": "Toughman Contest (UEJ) [!].smd",
     "image": "/images/roms/gens/toughman-contest.jpg",
@@ -24063,21 +23946,21 @@
     "check_name": true
   },
   {
-    "name": "Tower of Babel",
-    "filename": "Tower of Babel.zip",
-    "image": "",
+    "name": "Town & Country Surf Designs II: Thrilla's Surfari",
+    "filename": "T&C II - Thrilla's Surfari.zip",
+    "image": "/images/roms/nes/town-and-country-surf-designs-ii-thrillas-surfari.jpg",
     "console": "nes",
-    "id": "tower-of-babel",
-    "id_igdb": "",
+    "id": "town-and-country-surf-designs-ii-thrillas-surfari",
+    "id_igdb": 48177,
     "active": true
   },
   {
-    "name": "Tower of Druaga",
-    "filename": "Tower of Druaga.zip",
-    "image": "",
+    "name": "Town & Country Surf Designs: Wood & Water Rage",
+    "filename": "T&C I - Wood & Water Rage.zip",
+    "image": "/images/roms/nes/town-and-country-surf-designs-wood-and-water-rage.jpg",
     "console": "nes",
-    "id": "tower-of-druaga",
-    "id_igdb": "",
+    "id": "town-and-country-surf-designs-wood-and-water-rage",
+    "id_igdb": 48119,
     "active": true
   },
   {
@@ -24120,12 +24003,12 @@
     "check_name": true
   },
   {
-    "name": "Track & Field I",
+    "name": "Track & Field",
     "filename": "Track & Field I.zip",
-    "image": "",
+    "image": "/images/roms/nes/track-and-field.jpg",
     "console": "nes",
-    "id": "track-field-i",
-    "id_igdb": "",
+    "id": "track-and-field",
+    "id_igdb": 266659,
     "active": true
   },
   {
@@ -24148,12 +24031,12 @@
     "check_name": true
   },
   {
-    "name": "Transformers - Mystery of Comvoy",
+    "name": "Transformers: Mystery of Comvoy",
     "filename": "Transformers - Mystery of Comvoy.zip",
-    "image": "",
+    "image": "/images/roms/nes/transformers-mystery-of-comvoy.jpg",
     "console": "nes",
     "id": "transformers-mystery-of-comvoy",
-    "id_igdb": "",
+    "id_igdb": 48563,
     "active": true
   },
   {
@@ -24173,15 +24056,6 @@
     "console": "nes",
     "id": "treasure-master",
     "id_igdb": 80822,
-    "active": true
-  },
-  {
-    "name": "Triathalon",
-    "filename": "Triathalon.zip",
-    "image": "",
-    "console": "nes",
-    "id": "triathalon",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -24230,15 +24104,6 @@
     "console": "nes",
     "id": "trojan",
     "id_igdb": 287583,
-    "active": true
-  },
-  {
-    "name": "Trolls in Crazyland",
-    "filename": "Trolls in Crazyland.zip",
-    "image": "",
-    "console": "nes",
-    "id": "trolls-in-crazyland",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -24447,24 +24312,6 @@
     "id_igdb": 28040,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "TwinBee I",
-    "filename": "TwinBee I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "twinbee-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "TwinBee III",
-    "filename": "TwinBee III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "twinbee-iii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Twinkle Tale",
