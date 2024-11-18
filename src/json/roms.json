@@ -17686,7 +17686,7 @@
   {
     "name": "STED - Starfield of Memorable Relics",
     "filename": "STED - Starfield of Memorable Relics.zip",
-    "image": "",
+    "image": "/images/roms/nes/sted-starfield-of-memorable-relics.jpg",
     "console": "nes",
     "id": "sted-starfield-of-memorable-relics",
     "id_igdb": "",
@@ -19310,37 +19310,28 @@
   {
     "name": "Square's Tom Sawyer",
     "filename": "Square's Tom Sawyer.zip",
-    "image": "",
+    "image": "/images/roms/nes/squares-tom-sawyer.jpg",
     "console": "nes",
-    "id": "square-s-tom-sawyer",
-    "id_igdb": "",
+    "id": "squares-tom-sawyer",
+    "id_igdb": 73518,
     "active": true
   },
   {
-    "name": "Stack-Up",
+    "name": "Stack-up",
     "filename": "Stack-Up.zip",
-    "image": "",
+    "image": "/images/roms/nes/stack-up.jpg",
     "console": "nes",
     "id": "stack-up",
-    "id_igdb": "",
+    "id_igdb": 8579,
     "active": true
   },
   {
-    "name": "Stadium Events",
-    "filename": "Stadium Events.zip",
-    "image": "",
-    "console": "nes",
-    "id": "stadium-events",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Stanley - The Search For Dr Livingston",
+    "name": "Stanley: The Search for Dr. Livingston",
     "filename": "Stanley - The Search For Dr Livingston.zip",
-    "image": "",
+    "image": "/images/roms/nes/stanley-the-search-for-dr-livingston.jpg",
     "console": "nes",
     "id": "stanley-the-search-for-dr-livingston",
-    "id_igdb": "",
+    "id_igdb": 48242,
     "active": true
   },
   {
@@ -19404,10 +19395,10 @@
   {
     "name": "Star Luster",
     "filename": "Star Luster.zip",
-    "image": "",
+    "image": "/images/roms/nes/star-luster.jpg",
     "console": "nes",
     "id": "star-luster",
-    "id_igdb": "",
+    "id_igdb": 40541,
     "active": true
   },
   {
@@ -19422,37 +19413,28 @@
   {
     "name": "Star Soldier Special",
     "filename": "Star Soldier Special.zip",
-    "image": "",
+    "image": "/images/roms/nes/star-soldier-special.jpg",
     "console": "nes",
     "id": "star-soldier-special",
     "id_igdb": "",
     "active": true
   },
   {
-    "name": "Star Trek - 25th Anniversary",
-    "filename": "Star Trek - 25th Anniversary.zip",
-    "image": "",
-    "console": "nes",
-    "id": "star-trek-25th-anniversary",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Star Trek - The Next Generation",
-    "filename": "Star Trek - The Next Generation.zip",
-    "image": "",
-    "console": "nes",
-    "id": "star-trek-the-next-generation",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Star Trek V - The Final Frontier",
+    "name": "Star Trek V: The Final Frontier",
     "filename": "Star Trek V - The Final Frontier.zip",
-    "image": "",
+    "image": "/images/roms/nes/star-trek-v-the-final-frontier.jpg",
     "console": "nes",
     "id": "star-trek-v-the-final-frontier",
-    "id_igdb": "",
+    "id_igdb": 48319,
+    "active": true
+  },
+  {
+    "name": "Star Trek: 25th Anniversary",
+    "filename": "Star Trek - 25th Anniversary.zip",
+    "image": "/images/roms/nes/star-trek-25th-anniversary.jpg",
+    "console": "nes",
+    "id": "star-trek-25th-anniversary",
+    "id_igdb": 2231,
     "active": true
   },
   {
@@ -19483,6 +19465,15 @@
     "id_igdb": 45878,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Star Trek: The Next Generation",
+    "filename": "Star Trek - The Next Generation.zip",
+    "image": "/images/roms/nes/star-trek-the-next-generation.jpg",
+    "console": "nes",
+    "id": "star-trek-the-next-generation",
+    "id_igdb": 48239,
+    "active": true
   },
   {
     "name": "Star Trek: The Next Generation - Echoes from the Past",
@@ -19522,12 +19513,21 @@
     "active": true
   },
   {
-    "name": "Star Wars - The Empire Strikes Back",
+    "name": "Star Wars: The Empire Strikes Back",
     "filename": "Star Wars - The Empire Strikes Back.zip",
-    "image": "",
+    "image": "/images/roms/nes/star-wars-the-empire-strikes-back.jpg",
     "console": "nes",
     "id": "star-wars-the-empire-strikes-back",
-    "id_igdb": "",
+    "id_igdb": 12594,
+    "active": true
+  },
+  {
+    "name": "StarTropics",
+    "filename": "Startropics I.zip",
+    "image": "/images/roms/nes/startropics.jpg",
+    "console": "nes",
+    "id": "startropics",
+    "id_igdb": 15901,
     "active": true
   },
   {
@@ -19567,24 +19567,6 @@
     "console": "nes",
     "id": "starship-hector",
     "id_igdb": 48238,
-    "active": true
-  },
-  {
-    "name": "Startropics I",
-    "filename": "Startropics I.zip",
-    "image": "",
-    "console": "nes",
-    "id": "startropics-i",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Startropics II - Zoda's Revenge",
-    "filename": "Startropics II - Zoda's Revenge.zip",
-    "image": "",
-    "console": "nes",
-    "id": "startropics-ii-zoda-s-revenge",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -19637,12 +19619,12 @@
     "check_name": true
   },
   {
-    "name": "Stick Hunter - Exciting Ice Hockey",
+    "name": "Stick Hunter: Exciting Ice Hockey",
     "filename": "Stick Hunter - Exciting Ice Hockey.zip",
-    "image": "",
+    "image": "/images/roms/nes/stick-hunter-exciting-ice-hockey.jpg",
     "console": "nes",
     "id": "stick-hunter-exciting-ice-hockey",
-    "id_igdb": "",
+    "id_igdb": 48618,
     "active": true
   },
   {
@@ -19665,15 +19647,6 @@
     "check_name": true
   },
   {
-    "name": "Storehouse No 18",
-    "filename": "Storehouse No 18.zip",
-    "image": "",
-    "console": "nes",
-    "id": "storehouse-no-18",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Stormlord",
     "filename": "Stormlord (J) [!].smd",
     "image": "/images/roms/gens/stormlord.jpg",
@@ -19682,24 +19655,6 @@
     "id_igdb": 12781,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Strategist",
-    "filename": "Strategist.zip",
-    "image": "",
-    "console": "nes",
-    "id": "strategist",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Street Basket - Ganbare Dunk Heroes",
-    "filename": "Street Basket - Ganbare Dunk Heroes.zip",
-    "image": "",
-    "console": "nes",
-    "id": "street-basket-ganbare-dunk-heroes",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Street Combat",
@@ -19721,12 +19676,12 @@
     "active": true
   },
   {
-    "name": "Street Fighter 2010 - The Final Fight",
+    "name": "Street Fighter 2010: The Final Fight",
     "filename": "Street Fighter 2010 - The Final Fight.zip",
-    "image": "",
+    "image": "/images/roms/nes/street-fighter-2010-the-final-fight.jpg",
     "console": "nes",
     "id": "street-fighter-2010-the-final-fight",
-    "id_igdb": "",
+    "id_igdb": 45196,
     "active": true
   },
   {
@@ -19738,24 +19693,6 @@
     "id_igdb": 243453,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Street Fighter Alpha Zero '97",
-    "filename": "Street Fighter Alpha Zero '97.zip",
-    "image": "",
-    "console": "nes",
-    "id": "street-fighter-alpha-zero-97",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Street Fighter II",
-    "filename": "Street Fighter II.zip",
-    "image": "/images/roms/nes/street-fighter-ii.jpg",
-    "console": "nes",
-    "id": "street-fighter-ii",
-    "id_igdb": 48280,
-    "active": true
   },
   {
     "name": "Street Fighter II Turbo",
@@ -19803,33 +19740,6 @@
     "id_igdb": 39306,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Street Fighter III",
-    "filename": "Street Fighter III.zip",
-    "image": "",
-    "console": "nes",
-    "id": "street-fighter-iii",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Street Fighter V - 20 peoples",
-    "filename": "Street Fighter V - 20 peoples.zip",
-    "image": "",
-    "console": "nes",
-    "id": "street-fighter-v-20-peoples",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Street Fighter Zero II",
-    "filename": "Street Fighter Zero II.zip",
-    "image": "",
-    "console": "nes",
-    "id": "street-fighter-zero-ii",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Street Heroes",
@@ -19940,15 +19850,6 @@
     "check_name": true
   },
   {
-    "name": "Strike Wolf",
-    "filename": "Strike Wolf.zip",
-    "image": "",
-    "console": "nes",
-    "id": "strike-wolf",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Striker",
     "filename": "Striker (8) [!].smd",
     "image": "/images/roms/gens/striker.jpg",
@@ -19997,21 +19898,12 @@
     "active": true
   },
   {
-    "name": "Sugoro Quest - The Quest of Dice Heros",
-    "filename": "Sugoro Quest - The Quest of Dice Heros.zip",
-    "image": "",
-    "console": "nes",
-    "id": "sugoro-quest-the-quest-of-dice-heros",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Sukeban Keiji III",
+    "name": "Sukeban Deka III",
     "filename": "Sukeban Keiji III.zip",
-    "image": "",
+    "image": "/images/roms/nes/sukeban-deka-iii.jpg",
     "console": "nes",
-    "id": "sukeban-keiji-iii",
-    "id_igdb": "",
+    "id": "sukeban-deka-iii",
+    "id_igdb": 48684,
     "active": true
   },
   {
@@ -20026,19 +19918,19 @@
   {
     "name": "Sumo Wrestling",
     "filename": "Sumo Wrestling.zip",
-    "image": "",
+    "image": "/images/roms/nes/sumo-wrestling.jpg",
     "console": "nes",
     "id": "sumo-wrestling",
     "id_igdb": "",
     "active": true
   },
   {
-    "name": "Sunday Funday",
+    "name": "Sunday Funday: The Ride",
     "filename": "Sunday Funday.zip",
-    "image": "",
+    "image": "/images/roms/nes/sunday-funday-the-ride.jpg",
     "console": "nes",
-    "id": "sunday-funday",
-    "id_igdb": "",
+    "id": "sunday-funday-the-ride",
+    "id_igdb": 11166,
     "active": true
   },
   {
@@ -20101,15 +19993,6 @@
     "check_name": true
   },
   {
-    "name": "Super Aladdin",
-    "filename": "Super Aladdin.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-aladdin",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Alfred Chicken",
     "filename": "Super Alfred Chicken (U) [!].smc",
     "image": "/images/roms/snes/super-alfred-chicken.jpg",
@@ -20122,10 +20005,10 @@
   {
     "name": "Super Arabian",
     "filename": "Super Arabian.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-arabian.jpg",
     "console": "nes",
     "id": "super-arabian",
-    "id_igdb": "",
+    "id_igdb": 48665,
     "active": true
   },
   {
@@ -20231,10 +20114,10 @@
   {
     "name": "Super Black Onyx",
     "filename": "Super Black Onyx.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-black-onyx.jpg",
     "console": "nes",
     "id": "super-black-onyx",
-    "id_igdb": "",
+    "id_igdb": 48704,
     "active": true
   },
   {
@@ -20364,42 +20247,6 @@
     "active": true
   },
   {
-    "name": "Super Cartridge Version 3 - 8-in-1",
-    "filename": "Super Cartridge Version 3 - 8-in-1.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-cartridge-version-3-8-in-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super Cartridge Version 6 - 6-in-1",
-    "filename": "Super Cartridge Version 6 - 6-in-1.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-cartridge-version-6-6-in-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super Cartridge Version 8 - 4-in-1",
-    "filename": "Super Cartridge Version 8 - 4-in-1.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-cartridge-version-8-4-in-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Super Cartridge Version 9 - 3-in-1",
-    "filename": "Super Cartridge Version 9 - 3-in-1.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-cartridge-version-9-3-in-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Castlevania IV",
     "filename": "Super Castlevania IV (U) [!].smc",
     "image": "/images/roms/snes/super-castlevania-iv.jpg",
@@ -20430,12 +20277,12 @@
     "check_name": true
   },
   {
-    "name": "Super Contra VII",
+    "name": "Super Contra 7",
     "filename": "Super Contra VII.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-contra-7.jpg",
     "console": "nes",
-    "id": "super-contra-vii",
-    "id_igdb": "",
+    "id": "super-contra-7",
+    "id_igdb": 48566,
     "active": true
   },
   {
@@ -20476,15 +20323,6 @@
     "id_igdb": 9929,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Dyna'mix Badminton",
-    "filename": "Super Dyna'mix Badminton.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-dyna-mix-badminton",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Fantasy Zone",
@@ -20625,15 +20463,6 @@
     "check_name": true
   },
   {
-    "name": "Super Jeopardy!",
-    "filename": "Super Jeopardy!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-jeopardy-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Kick-Off",
     "filename": "Super Kick Off (JUE) [c][!].smd",
     "image": "/images/roms/gens/super-kick-off.jpg",
@@ -20654,30 +20483,30 @@
     "check_name": true
   },
   {
-    "name": "Super Mario Bros I",
+    "name": "Super Mario Bros.",
     "filename": "Super Mario Bros I.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-mario-bros.jpg",
     "console": "nes",
-    "id": "super-mario-bros-i",
-    "id_igdb": "",
+    "id": "super-mario-bros",
+    "id_igdb": 358,
     "active": true
   },
   {
-    "name": "Super Mario Bros II",
+    "name": "Super Mario Bros. 2",
     "filename": "Super Mario Bros II.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-mario-bros-2.jpg",
     "console": "nes",
-    "id": "super-mario-bros-ii",
-    "id_igdb": "",
+    "id": "super-mario-bros-2",
+    "id_igdb": 1067,
     "active": true
   },
   {
-    "name": "Super Mario Bros III",
+    "name": "Super Mario Bros. 3",
     "filename": "Super Mario Bros III.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-mario-bros-3.jpg",
     "console": "nes",
-    "id": "super-mario-bros-iii",
-    "id_igdb": "",
+    "id": "super-mario-bros-3",
+    "id_igdb": 1068,
     "active": true
   },
   {
@@ -20709,15 +20538,6 @@
     "id_igdb": 1070,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Mario World",
-    "filename": "Super Mario World.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-mario-world",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Mario World 2: Yoshi's Island",
@@ -20819,21 +20639,21 @@
     "check_name": true
   },
   {
-    "name": "Super Pang I",
+    "name": "Super Pang",
     "filename": "Super Pang I.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-pang.jpg",
     "console": "nes",
-    "id": "super-pang-i",
-    "id_igdb": "",
+    "id": "super-pang",
+    "id_igdb": 195059,
     "active": true
   },
   {
     "name": "Super Pang II",
     "filename": "Super Pang II.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-pang-ii.jpg",
     "console": "nes",
     "id": "super-pang-ii",
-    "id_igdb": "",
+    "id_igdb": 64050,
     "active": true
   },
   {
@@ -20935,15 +20755,6 @@
     "check_name": true
   },
   {
-    "name": "Super Rugby",
-    "filename": "Super Rugby.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-rugby",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Super Shadow of the Beast",
     "filename": "Super Shadow of the Beast (U).smc",
     "image": "/images/roms/snes/super-shadow-of-the-beast.jpg",
@@ -20952,15 +20763,6 @@
     "id_igdb": 42453,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Super Shinobi",
-    "filename": "Super Shinobi.zip",
-    "image": "",
-    "console": "nes",
-    "id": "super-shinobi",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Super Skidmarks",
@@ -21050,12 +20852,12 @@
     "active": true
   },
   {
-    "name": "Super Star Force",
+    "name": "Super Star Force: Jikuureki no Himitsu",
     "filename": "Super Star Force.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-star-force-jikuureki-no-himitsu.jpg",
     "console": "nes",
-    "id": "super-star-force",
-    "id_igdb": "",
+    "id": "super-star-force-jikuureki-no-himitsu",
+    "id_igdb": 48394,
     "active": true
   },
   {
@@ -21216,12 +21018,12 @@
     "check_name": true
   },
   {
-    "name": "Super Xevious - Gump no Nazo",
+    "name": "Super Xevious: Gamp no Nazo",
     "filename": "Super Xevious - Gump no Nazo.zip",
-    "image": "",
+    "image": "/images/roms/nes/super-xevious-gamp-no-nazo.jpg",
     "console": "nes",
-    "id": "super-xevious-gump-no-nazo",
-    "id_igdb": "",
+    "id": "super-xevious-gamp-no-nazo",
+    "id_igdb": 184275,
     "active": true
   },
   {
@@ -21273,15 +21075,6 @@
     "active": true
   },
   {
-    "name": "Sweet Home",
-    "filename": "Sweet Home.zip",
-    "image": "",
-    "console": "nes",
-    "id": "sweet-home",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Sword Master",
     "filename": "Sword Master.zip",
     "image": "/images/roms/nes/sword-master.jpg",
@@ -21311,12 +21104,12 @@
     "check_name": true
   },
   {
-    "name": "Swords And Serpents",
+    "name": "Swords and Serpents",
     "filename": "Swords And Serpents.zip",
-    "image": "",
+    "image": "/images/roms/nes/swords-and-serpents.jpg",
     "console": "nes",
     "id": "swords-and-serpents",
-    "id_igdb": "",
+    "id_igdb": 48230,
     "active": true
   },
   {
@@ -27316,6 +27109,15 @@
     "console": "nes",
     "id": "zippy-race",
     "id_igdb": "",
+    "active": true
+  },
+  {
+    "name": "Zoda's Revenge: StarTropics II",
+    "filename": "Startropics II - Zoda's Revenge.zip",
+    "image": "/images/roms/nes/zodas-revenge-startropics-ii.jpg",
+    "console": "nes",
+    "id": "zodas-revenge-startropics-ii",
+    "id_igdb": 48062,
     "active": true
   },
   {
