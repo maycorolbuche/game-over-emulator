@@ -9974,6 +9974,15 @@
     "active": true
   },
   {
+    "name": "Ironsword: Wizards & Warriors II",
+    "filename": "Wizards & Warriors II - Ironsword.zip",
+    "image": "/images/roms/nes/ironsword-wizards-and-warriors-ii.jpg",
+    "console": "nes",
+    "id": "ironsword-wizards-and-warriors-ii",
+    "id_igdb": 48053,
+    "active": true
+  },
+  {
     "name": "Isolated Warrior",
     "filename": "Isolated Warrior.zip",
     "image": "/images/roms/nes/isolated-warrior.jpg",
@@ -23309,6 +23318,15 @@
     "active": true
   },
   {
+    "name": "The Wing of Madoola",
+    "filename": "Wing of Madoola.zip",
+    "image": "/images/roms/nes/the-wing-of-madoola.jpg",
+    "console": "nes",
+    "id": "the-wing-of-madoola",
+    "id_igdb": 65699,
+    "active": true
+  },
+  {
     "name": "The Wizard of Oz",
     "filename": "Wizard of Oz, The (U) [!].smc",
     "image": "/images/roms/snes/the-wizard-of-oz.jpg",
@@ -23317,6 +23335,15 @@
     "id_igdb": 77026,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Young Indiana Jones Chronicles",
+    "filename": "Young Indiana Jones Chronicles.zip",
+    "image": "/images/roms/nes/the-young-indiana-jones-chronicles.jpg",
+    "console": "nes",
+    "id": "the-young-indiana-jones-chronicles",
+    "id_igdb": 48254,
+    "active": true
   },
   {
     "name": "Theme Park",
@@ -25069,12 +25096,12 @@
     "check_name": true
   },
   {
-    "name": "WWF Steel Cage Challenge",
-    "filename": "WWF Steel Cage Challenge.zip",
-    "image": "",
+    "name": "WWF WrestleMania Challenge",
+    "filename": "WWF Wrestlemania Challenge.zip",
+    "image": "/images/roms/nes/wwf-wrestlemania-challenge.jpg",
     "console": "nes",
-    "id": "wwf-steel-cage-challenge",
-    "id_igdb": "",
+    "id": "wwf-wrestlemania-challenge",
+    "id_igdb": 19513,
     "active": true
   },
   {
@@ -25107,12 +25134,12 @@
     "active": true
   },
   {
-    "name": "WWF Wrestlemania Challenge",
-    "filename": "WWF Wrestlemania Challenge.zip",
-    "image": "",
+    "name": "WWF Wrestlemania: Steel Cage Challenge",
+    "filename": "WWF Steel Cage Challenge.zip",
+    "image": "/images/roms/nes/wwf-wrestlemania-steel-cage-challenge.jpg",
     "console": "nes",
-    "id": "wwf-wrestlemania-challenge",
-    "id_igdb": "",
+    "id": "wwf-wrestlemania-steel-cage-challenge",
+    "id_igdb": 46331,
     "active": true
   },
   {
@@ -25728,12 +25755,12 @@
     "active": true
   },
   {
-    "name": "Wily & Light's RockBoard",
+    "name": "Wily & Right no RockBoard: That's Paradise",
     "filename": "Wily & Light's RockBoard.zip",
-    "image": "",
+    "image": "/images/roms/nes/wily-right-no-rockboard-that-s-paradise.jpg",
     "console": "nes",
-    "id": "wily-light-s-rockboard",
-    "id_igdb": "",
+    "id": "wily-right-no-rockboard-that-s-paradise",
+    "id_igdb": 1729,
     "active": true
   },
   {
@@ -25747,12 +25774,12 @@
     "check_name": true
   },
   {
-    "name": "Win Lose or Draw",
+    "name": "Win, Lose or Draw",
     "filename": "Win Lose or Draw.zip",
-    "image": "",
+    "image": "/images/roms/nes/win-lose-or-draw.jpg",
     "console": "nes",
     "id": "win-lose-or-draw",
-    "id_igdb": "",
+    "id_igdb": 48093,
     "active": true
   },
   {
@@ -25774,15 +25801,6 @@
     "id_igdb": 38399,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Wing of Madoola",
-    "filename": "Wing of Madoola.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wing-of-madoola",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Wings 2: Aces High",
@@ -25863,10 +25881,10 @@
   {
     "name": "Wit's",
     "filename": "Wit's.zip",
-    "image": "",
+    "image": "/images/roms/nes/wits.jpg",
     "console": "nes",
-    "id": "wit-s",
-    "id_igdb": "",
+    "id": "wits",
+    "id_igdb": 40549,
     "active": true
   },
   {
@@ -25880,24 +25898,6 @@
     "check_name": true
   },
   {
-    "name": "Wizardry - Proving Grounds",
-    "filename": "Wizardry - Proving Grounds.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wizardry-proving-grounds",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wizardry - The Knight of Diamonds",
-    "filename": "Wizardry - The Knight of Diamonds.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wizardry-the-knight-of-diamonds",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Wizardry V: Heart of the Maelstrom",
     "filename": "Wizardry V - Heart of the Maelstrom (U) [!].smc",
     "image": "/images/roms/snes/wizardry-v-heart-of-the-maelstrom.jpg",
@@ -25908,30 +25908,39 @@
     "check_name": true
   },
   {
-    "name": "Wizards & Warriors I",
+    "name": "Wizardry: Knight of Diamonds - The Second Scenario",
+    "filename": "Wizardry - The Knight of Diamonds.zip",
+    "image": "/images/roms/nes/wizardry-knight-of-diamonds-the-second-scenario.jpg",
+    "console": "nes",
+    "id": "wizardry-knight-of-diamonds-the-second-scenario",
+    "id_igdb": 2865,
+    "active": true
+  },
+  {
+    "name": "Wizardry: Proving Grounds of the Mad Overlord",
+    "filename": "Wizardry - Proving Grounds.zip",
+    "image": "/images/roms/nes/wizardry-proving-grounds-of-the-mad-overlord.jpg",
+    "console": "nes",
+    "id": "wizardry-proving-grounds-of-the-mad-overlord",
+    "id_igdb": 2863,
+    "active": true
+  },
+  {
+    "name": "Wizards & Warriors",
     "filename": "Wizards & Warriors I.zip",
-    "image": "",
+    "image": "/images/roms/nes/wizards-and-warriors.jpg",
     "console": "nes",
-    "id": "wizards-warriors-i",
-    "id_igdb": "",
+    "id": "wizards-and-warriors",
+    "id_igdb": 9720,
     "active": true
   },
   {
-    "name": "Wizards & Warriors II - Ironsword",
-    "filename": "Wizards & Warriors II - Ironsword.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wizards-warriors-ii-ironsword",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wizards & Warriors III",
+    "name": "Wizards & Warriors III: Kuros - Visions of Power",
     "filename": "Wizards & Warriors III.zip",
-    "image": "",
+    "image": "/images/roms/nes/wizards-and-warriors-iii-kuros-visions-of-power.jpg",
     "console": "nes",
-    "id": "wizards-warriors-iii",
-    "id_igdb": "",
+    "id": "wizards-and-warriors-iii-kuros-visions-of-power",
+    "id_igdb": 48092,
     "active": true
   },
   {
@@ -26011,10 +26020,10 @@
   {
     "name": "Woody Poko",
     "filename": "Woody Poko.zip",
-    "image": "",
+    "image": "/images/roms/nes/woody-poko.jpg",
     "console": "nes",
     "id": "woody-poko",
-    "id_igdb": "",
+    "id_igdb": 48600,
     "active": true
   },
   {
@@ -26122,15 +26131,6 @@
     "console": "nes",
     "id": "world-games",
     "id_igdb": 304984,
-    "active": true
-  },
-  {
-    "name": "World Hero",
-    "filename": "World Hero.zip",
-    "image": "",
-    "console": "nes",
-    "id": "world-hero",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -26244,15 +26244,6 @@
     "check_name": true
   },
   {
-    "name": "World of Card Game",
-    "filename": "World of Card Game.zip",
-    "image": "",
-    "console": "nes",
-    "id": "world-of-card-game",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Worms",
     "filename": "Worms (8) [!].smd",
     "image": "/images/roms/gens/worms.jpg",
@@ -26301,12 +26292,12 @@
     "check_name": true
   },
   {
-    "name": "Wurm",
+    "name": "Wurm: Journey to the Center of the Earth!",
     "filename": "Wurm.zip",
-    "image": "",
+    "image": "/images/roms/nes/wurm-journey-to-the-center-of-the-earth.jpg",
     "console": "nes",
-    "id": "wurm",
-    "id_igdb": "",
+    "id": "wurm-journey-to-the-center-of-the-earth",
+    "id_igdb": 48112,
     "active": true
   },
   {
@@ -26409,30 +26400,12 @@
     "active": true
   },
   {
-    "name": "Xevious",
-    "filename": "Xevious.zip",
-    "image": "",
-    "console": "nes",
-    "id": "xevious",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Xexyz",
     "filename": "Xexyz.zip",
     "image": "/images/roms/nes/xexyz.jpg",
     "console": "nes",
     "id": "xexyz",
     "id_igdb": 14413,
-    "active": true
-  },
-  {
-    "name": "Xybots",
-    "filename": "Xybots.zip",
-    "image": "",
-    "console": "nes",
-    "id": "xybots",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -26445,21 +26418,21 @@
     "active": true
   },
   {
-    "name": "Yie Ar Kung-Fu",
-    "filename": "Yie Ar Kung-Fu.zip",
-    "image": "",
-    "console": "nes",
-    "id": "yie-ar-kung-fu",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Yo! Noid",
     "filename": "Yo! Noid.zip",
     "image": "/images/roms/nes/yo-noid.jpg",
     "console": "nes",
     "id": "yo-noid",
     "id_igdb": 19612,
+    "active": true
+  },
+  {
+    "name": "Yokai Club",
+    "filename": "Youkai Club.zip",
+    "image": "/images/roms/nes/yokai-club.jpg",
+    "console": "nes",
+    "id": "yokai-club",
+    "id_igdb": 48598,
     "active": true
   },
   {
@@ -26501,24 +26474,6 @@
     "check_name": true
   },
   {
-    "name": "Youkai Club",
-    "filename": "Youkai Club.zip",
-    "image": "",
-    "console": "nes",
-    "id": "youkai-club",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Young Indiana Jones Chronicles",
-    "filename": "Young Indiana Jones Chronicles.zip",
-    "image": "",
-    "console": "nes",
-    "id": "young-indiana-jones-chronicles",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Young Merlin",
     "filename": "Young Merlin (U).smc",
     "image": "/images/roms/snes/young-merlin.jpg",
@@ -26529,30 +26484,30 @@
     "check_name": true
   },
   {
-    "name": "Ys I",
+    "name": "Ys",
     "filename": "Ys I.zip",
-    "image": "",
+    "image": "/images/roms/nes/ys.jpg",
     "console": "nes",
-    "id": "ys-i",
-    "id_igdb": "",
+    "id": "ys",
+    "id_igdb": 206128,
     "active": true
   },
   {
-    "name": "Ys II - Ancient Ys Vanished - Final Ch",
+    "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
     "filename": "Ys II - Ancient Ys Vanished - Final Ch.zip",
-    "image": "",
+    "image": "/images/roms/nes/ys-ii-ancient-ys-vanished-the-final-chapter.jpg",
     "console": "nes",
-    "id": "ys-ii-ancient-ys-vanished-final-ch",
-    "id_igdb": "",
+    "id": "ys-ii-ancient-ys-vanished-the-final-chapter",
+    "id_igdb": 206640,
     "active": true
   },
   {
-    "name": "Ys III - Wanderers From Ys",
+    "name": "Ys III: Wanderers from Ys",
     "filename": "Ys III - Wanderers From Ys.zip",
-    "image": "",
+    "image": "/images/roms/nes/ys-iii-wanderers-from-ys.jpg",
     "console": "nes",
     "id": "ys-iii-wanderers-from-ys",
-    "id_igdb": "",
+    "id_igdb": 15450,
     "active": true
   },
   {
@@ -26576,21 +26531,21 @@
     "check_name": true
   },
   {
+    "name": "YuYu Hakusho Final: Makai Saikyou Retsuden",
+    "filename": "Yuu Yuu Hakusho Final.zip",
+    "image": "/images/roms/nes/yuyu-hakusho-final-makai-saikyou-retsuden.jpg",
+    "console": "nes",
+    "id": "yuyu-hakusho-final-makai-saikyou-retsuden",
+    "id_igdb": 79844,
+    "active": true
+  },
+  {
     "name": "YuYu Hakusho: Sunset Fighters",
     "filename": "Yu Yu Hakusho - Makyoutohissen (J).smd",
     "image": "/images/roms/gens/yuyu-hakusho-sunset-fighters.jpg",
     "console": "gens",
     "id": "yuyu-hakusho-sunset-fighters",
     "id_igdb": 45607,
-    "active": true
-  },
-  {
-    "name": "Yuu Yuu Hakusho Final",
-    "filename": "Yuu Yuu Hakusho Final.zip",
-    "image": "",
-    "console": "nes",
-    "id": "yuu-yuu-hakusho-final",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -26613,30 +26568,21 @@
     "check_name": true
   },
   {
-    "name": "Zelda II - The Adventure of Link",
+    "name": "Zelda II: The Adventure of Link",
     "filename": "Zelda II - The Adventure of Link.zip",
-    "image": "",
+    "image": "/images/roms/nes/zelda-ii-the-adventure-of-link.jpg",
     "console": "nes",
     "id": "zelda-ii-the-adventure-of-link",
-    "id_igdb": "",
+    "id_igdb": 1025,
     "active": true
   },
   {
-    "name": "Zelda II Challenge",
-    "filename": "Zelda II Challenge.zip",
-    "image": "",
-    "console": "nes",
-    "id": "zelda-ii-challenge",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Zen Intergalactic Ninja",
+    "name": "Zen: Intergalactic Ninja",
     "filename": "Zen Intergalactic Ninja.zip",
-    "image": "",
+    "image": "/images/roms/nes/zen-intergalactic-ninja.jpg",
     "console": "nes",
     "id": "zen-intergalactic-ninja",
-    "id_igdb": "",
+    "id_igdb": 48251,
     "active": true
   },
   {
@@ -26680,30 +26626,12 @@
     "check_name": true
   },
   {
-    "name": "Zippy Race",
-    "filename": "Zippy Race.zip",
-    "image": "",
-    "console": "nes",
-    "id": "zippy-race",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Zoda's Revenge: StarTropics II",
     "filename": "Startropics II - Zoda's Revenge.zip",
     "image": "/images/roms/nes/zodas-revenge-startropics-ii.jpg",
     "console": "nes",
     "id": "zodas-revenge-startropics-ii",
     "id_igdb": 48062,
-    "active": true
-  },
-  {
-    "name": "Zombie Hunter",
-    "filename": "Zombie Hunter.zip",
-    "image": "",
-    "console": "nes",
-    "id": "zombie-hunter",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -26788,10 +26716,10 @@
   {
     "name": "Zunou Senkan Galg",
     "filename": "Zunou Senkan Galg.zip",
-    "image": "",
+    "image": "/images/roms/nes/zunou-senkan-galg.jpg",
     "console": "nes",
     "id": "zunou-senkan-galg",
-    "id_igdb": "",
+    "id_igdb": 48488,
     "active": true
   }
 ]
