@@ -15805,15 +15805,6 @@
     "active": true
   },
   {
-    "name": "Platoon",
-    "filename": "VS Platoon.zip",
-    "image": "/images/roms/nes/platoon.jpg",
-    "console": "nes",
-    "id": "platoon",
-    "id_igdb": 290275,
-    "active": true
-  },
-  {
     "name": "Plok",
     "filename": "Plok! (U) [!].smc",
     "image": "/images/roms/snes/plok.jpg",
@@ -18555,15 +18546,6 @@
     "active": true
   },
   {
-    "name": "Sky Kid",
-    "filename": "VS Sky Kid.zip",
-    "image": "/images/roms/nes/sky-kid.jpg",
-    "console": "nes",
-    "id": "sky-kid",
-    "id_igdb": 287596,
-    "active": true
-  },
-  {
     "name": "Sky Shark",
     "filename": "Sky Shark.zip",
     "image": "/images/roms/nes/sky-shark.jpg",
@@ -18724,15 +18706,6 @@
   {
     "name": "Soccer",
     "filename": "Soccer.zip",
-    "image": "/images/roms/nes/soccer.jpg",
-    "console": "nes",
-    "id": "soccer",
-    "id_igdb": 86375,
-    "active": true
-  },
-  {
-    "name": "Soccer",
-    "filename": "VS Soccer.zip",
     "image": "/images/roms/nes/soccer.jpg",
     "console": "nes",
     "id": "soccer",
@@ -25038,12 +25011,12 @@
     "check_name": true
   },
   {
-    "name": "WCW World Championship Wrestling",
+    "name": "WCW: World Championship Wrestling",
     "filename": "WCW World Championship Wrestling.zip",
-    "image": "",
+    "image": "/images/roms/nes/wcw-world-championship-wrestling.jpg",
     "console": "nes",
     "id": "wcw-world-championship-wrestling",
-    "id_igdb": "",
+    "id_igdb": 48095,
     "active": true
   },
   {
@@ -25192,48 +25165,39 @@
     "check_name": true
   },
   {
-    "name": "Wagyan Land I",
+    "name": "Wagyan Land",
     "filename": "Wagyan Land I.zip",
-    "image": "",
+    "image": "/images/roms/nes/wagyan-land.jpg",
     "console": "nes",
-    "id": "wagyan-land-i",
-    "id_igdb": "",
+    "id": "wagyan-land",
+    "id_igdb": 48550,
     "active": true
   },
   {
-    "name": "Wagyan Land II",
+    "name": "Wagyan Land 2",
     "filename": "Wagyan Land II.zip",
-    "image": "",
+    "image": "/images/roms/nes/wagyan-land-2.jpg",
     "console": "nes",
-    "id": "wagyan-land-ii",
-    "id_igdb": "",
+    "id": "wagyan-land-2",
+    "id_igdb": 48549,
     "active": true
   },
   {
-    "name": "Wai Wai World I",
+    "name": "Wai-wai World",
     "filename": "Wai Wai World I.zip",
-    "image": "",
+    "image": "/images/roms/nes/wai-wai-world-i.png",
     "console": "nes",
     "id": "wai-wai-world-i",
     "id_igdb": "",
     "active": true
   },
   {
-    "name": "Wai Wai World II - SOS!!",
+    "name": "Wai-wai World 2: SOS!! Parsley-jou",
     "filename": "Wai Wai World II - SOS!!.zip",
-    "image": "",
+    "image": "/images/roms/nes/wai-wai-world-2-sos-parsley-jou.jpg",
     "console": "nes",
-    "id": "wai-wai-world-ii-sos-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wait and See!",
-    "filename": "Wait and See!.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wait-and-see-",
-    "id_igdb": "",
+    "id": "wai-wai-world-2-sos-parsley-jou",
+    "id_igdb": 48547,
     "active": true
   },
   {
@@ -25246,12 +25210,12 @@
     "active": true
   },
   {
-    "name": "Wally Bear and the No Gang",
+    "name": "Wally Bear and the NO! Gang",
     "filename": "Wally Bear and the No Gang.zip",
-    "image": "",
+    "image": "/images/roms/nes/wally-bear-and-the-no-gang.jpg",
     "console": "nes",
     "id": "wally-bear-and-the-no-gang",
-    "id_igdb": "",
+    "id_igdb": 48260,
     "active": true
   },
   {
@@ -25285,12 +25249,12 @@
     "check_name": true
   },
   {
-    "name": "War In The Gulf",
+    "name": "War in the Gulf",
     "filename": "War In The Gulf.zip",
-    "image": "",
+    "image": "/images/roms/nes/war-in-the-gulf.jpg",
     "console": "nes",
     "id": "war-in-the-gulf",
-    "id_igdb": "",
+    "id_igdb": 48931,
     "active": true
   },
   {
@@ -25365,10 +25329,10 @@
   {
     "name": "Warpman",
     "filename": "Warpman.zip",
-    "image": "",
+    "image": "/images/roms/nes/warpman.jpg",
     "console": "nes",
     "id": "warpman",
-    "id_igdb": "",
+    "id_igdb": 48640,
     "active": true
   },
   {
@@ -25508,12 +25472,12 @@
     "check_name": true
   },
   {
-    "name": "Werewolf",
+    "name": "Werewolf: The Last Warrior",
     "filename": "Werewolf.zip",
-    "image": "",
+    "image": "/images/roms/nes/werewolf-the-last-warrior.jpg",
     "console": "nes",
-    "id": "werewolf",
-    "id_igdb": "",
+    "id": "werewolf-the-last-warrior",
+    "id_igdb": 48259,
     "active": true
   },
   {
@@ -25536,33 +25500,6 @@
     "active": true
   },
   {
-    "name": "Wheel of Fortune - Family Edition",
-    "filename": "Wheel of Fortune - Family Edition.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wheel-of-fortune-family-edition",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wheel of Fortune - Junior Edition",
-    "filename": "Wheel of Fortune - Junior Edition.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wheel-of-fortune-junior-edition",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Wheel of Fortune Starring Vanna White",
-    "filename": "Wheel of Fortune Starring Vanna White.zip",
-    "image": "",
-    "console": "nes",
-    "id": "wheel-of-fortune-starring-vanna-white",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Wheel of Fortune: Deluxe Edition",
     "filename": "Wheel of Fortune - Deluxe Edition (U).smc",
     "image": "/images/roms/snes/wheel-of-fortune-deluxe-edition.jpg",
@@ -25573,12 +25510,39 @@
     "check_name": true
   },
   {
-    "name": "Where In Time Is Carmen Sandiego",
+    "name": "Wheel of Fortune: Family Edition",
+    "filename": "Wheel of Fortune - Family Edition.zip",
+    "image": "/images/roms/nes/wheel-of-fortune-family-edition.jpg",
+    "console": "nes",
+    "id": "wheel-of-fortune-family-edition",
+    "id_igdb": 48258,
+    "active": true
+  },
+  {
+    "name": "Wheel of Fortune: Featuring Vanna White",
+    "filename": "Wheel of Fortune Starring Vanna White.zip",
+    "image": "/images/roms/nes/wheel-of-fortune-featuring-vanna-white.jpg",
+    "console": "nes",
+    "id": "wheel-of-fortune-featuring-vanna-white",
+    "id_igdb": 182279,
+    "active": true
+  },
+  {
+    "name": "Wheel of Fortune: Junior Edition",
+    "filename": "Wheel of Fortune - Junior Edition.zip",
+    "image": "/images/roms/nes/wheel-of-fortune-junior-edition.jpg",
+    "console": "nes",
+    "id": "wheel-of-fortune-junior-edition",
+    "id_igdb": 48094,
+    "active": true
+  },
+  {
+    "name": "Where in Time is Carmen Sandiego?",
     "filename": "Where In Time Is Carmen Sandiego.zip",
-    "image": "",
+    "image": "/images/roms/nes/where-in-time-is-carmen-sandiego.jpg",
     "console": "nes",
     "id": "where-in-time-is-carmen-sandiego",
-    "id_igdb": "",
+    "id_igdb": 4376,
     "active": true
   },
   {
@@ -25622,12 +25586,12 @@
     "check_name": true
   },
   {
-    "name": "Where's Waldo",
+    "name": "Where's Waldo?",
     "filename": "Where's Waldo.zip",
-    "image": "",
+    "image": "/images/roms/nes/wheres-waldo.jpg",
     "console": "nes",
-    "id": "where-s-waldo",
-    "id_igdb": "",
+    "id": "wheres-waldo",
+    "id_igdb": 10618,
     "active": true
   },
   {
@@ -25669,12 +25633,12 @@
     "active": true
   },
   {
-    "name": "Whomp'Em",
+    "name": "Whomp 'Em",
     "filename": "Whomp'Em.zip",
-    "image": "",
+    "image": "/images/roms/nes/whomp-em.jpg",
     "console": "nes",
     "id": "whomp-em",
-    "id_igdb": "",
+    "id_igdb": 48257,
     "active": true
   },
   {
