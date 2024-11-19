@@ -4,7 +4,7 @@
       class="d-flex flex-wrap align-stretch justify-around m-3"
       style="border-bottom: 1px solid rgb(255 255 255 / 7%)"
     >
-      <img v-if="consol.image" :src="consol.image" />
+      <img v-if="consol.image" :src="consol.image" width="160" />
       <div class="d-flex flex-column flex-auto">
         <div
           class="title-console d-flex align-center justify-center flex-auto text-center"

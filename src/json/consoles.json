@@ -64,6 +64,34 @@
     "active": true
   },
   {
+    "name": "Master System",
+    "image": "/images/consoles/sms.png",
+    "id": "sms",
+    "controls": {
+      "player1": {
+        "start": "enter",
+        "select": "space",
+        "a": "z",
+        "b": "x",
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right"
+      },
+      "player2": {
+        "start": "keypad0",
+        "select": ",",
+        "a": "b",
+        "b": "n",
+        "up": "keypad5",
+        "down": "keypad2",
+        "left": "keypad1",
+        "right": "keypad3"
+      }
+    },
+    "active": true
+  },
+  {
     "name": "Sega CD",
     "image": "/images/consoles/scd.png",
     "id": "scd",
