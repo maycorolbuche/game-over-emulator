@@ -187,15 +187,6 @@
     "check_name": true
   },
   {
-    "name": "ALF",
-    "filename": "ALF (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "alf",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "ATP Tour Championship Tennis",
     "filename": "ATP Tour Championship Tennis (U) [!].smd",
     "image": "/images/roms/gens/atp-tour-championship-tennis.jpg",
@@ -317,15 +308,6 @@
     "id_igdb": 5341,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Addams Family, The",
-    "filename": "Addams Family, The (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "addams-family-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Advanced Busterhawk Gleylancer",
@@ -752,15 +734,6 @@
     "active": true
   },
   {
-    "name": "Aladdin",
-    "filename": "Aladdin (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "aladdin",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Aladdin II",
     "filename": "Aladdin II.zip",
     "image": "/images/roms/nes/aladdin-ii.jpg",
@@ -788,33 +761,6 @@
     "active": true
   },
   {
-    "name": "Alex Kidd - The Lost Stars",
-    "filename": "Alex Kidd - The Lost Stars (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "alex-kidd-the-lost-stars",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Alex Kidd BMX Trial",
-    "filename": "Alex Kidd BMX Trial (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "alex-kidd-bmx-trial",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Alex Kidd in High Tech World",
-    "filename": "Alex Kidd in High Tech World (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "alex-kidd-in-high-tech-world",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Alex Kidd in Miracle World",
     "filename": "Alex Kidd in Miracle World (UE) [!].zip",
     "image": "/images/roms/sms/alex-kidd-in-miracle-world.jpg",
@@ -832,6 +778,42 @@
     "id_igdb": 3217,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Alex Kidd: BMX Trial",
+    "filename": "Alex Kidd BMX Trial (UE) [!].zip",
+    "image": "/images/roms/sms/alex-kidd-bmx-trial.jpg",
+    "console": "sms",
+    "id": "alex-kidd-bmx-trial",
+    "id_igdb": 37174,
+    "active": true
+  },
+  {
+    "name": "Alex Kidd: High-Tech World",
+    "filename": "Alex Kidd in High Tech World (UE) [!].zip",
+    "image": "/images/roms/sms/alex-kidd-high-tech-world.jpg",
+    "console": "sms",
+    "id": "alex-kidd-high-tech-world",
+    "id_igdb": 46112,
+    "active": true
+  },
+  {
+    "name": "Alex Kidd: The Lost Stars",
+    "filename": "Alex Kidd - The Lost Stars (UE) [!].zip",
+    "image": "/images/roms/sms/alex-kidd-the-lost-stars.jpg",
+    "console": "sms",
+    "id": "alex-kidd-the-lost-stars",
+    "id_igdb": 13678,
+    "active": true
+  },
+  {
+    "name": "Alf",
+    "filename": "ALF (UE) [!].zip",
+    "image": "/images/roms/sms/alf.jpg",
+    "console": "sms",
+    "id": "alf",
+    "id_igdb": 65580,
+    "active": true
   },
   {
     "name": "Alfred Chicken",
@@ -1031,15 +1013,6 @@
     "active": true
   },
   {
-    "name": "American Baseball",
-    "filename": "American Baseball (JE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "american-baseball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "American Dream",
     "filename": "American Dream.zip",
     "image": "/images/roms/nes/american-dream.jpg",
@@ -1080,7 +1053,7 @@
   {
     "name": "American Pro Football",
     "filename": "American Pro Football (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/american-pro-football.jpg",
     "console": "sms",
     "id": "american-pro-football",
     "id_igdb": "",
@@ -1438,21 +1411,12 @@
     "check_name": true
   },
   {
-    "name": "Assault City - Light Phaser Version",
-    "filename": "Assault City - Light Phaser Version (U) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "assault-city-light-phaser-version",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Assault City - Pad Version",
+    "name": "Assault City",
     "filename": "Assault City - Pad Version (E) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/assault-city.jpg",
     "console": "sms",
-    "id": "assault-city-pad-version",
-    "id_igdb": "",
+    "id": "assault-city",
+    "id_igdb": 46117,
     "active": true
   },
   {
@@ -1536,15 +1500,6 @@
     "console": "sms",
     "id": "astro-warrior",
     "id_igdb": 37176,
-    "active": true
-  },
-  {
-    "name": "Astro Warrior & Pit Pot",
-    "filename": "Astro Warrior & Pit Pot (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "astro-warrior-pit-pot",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -1691,12 +1646,12 @@
     "check_name": true
   },
   {
-    "name": "Aztec Adventure - The Golden Road to Paradise",
+    "name": "Aztec Adventure: The Golden Road to Paradise",
     "filename": "Aztec Adventure - The Golden Road to Paradise (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/aztec-adventure-the-golden-road-to-paradise.jpg",
     "console": "sms",
     "id": "aztec-adventure-the-golden-road-to-paradise",
-    "id_igdb": "",
+    "id_igdb": 71972,
     "active": true
   },
   {
@@ -1766,21 +1721,12 @@
     "active": true
   },
   {
-    "name": "Back to the Future 2",
+    "name": "Back to the Future Part II",
     "filename": "Back to the Future 2 (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/back-to-the-future-part-ii.jpg",
     "console": "sms",
-    "id": "back-to-the-future-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Back to the Future 3",
-    "filename": "Back to the Future 3 (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "back-to-the-future-3",
-    "id_igdb": "",
+    "id": "back-to-the-future-part-ii",
+    "id_igdb": 12396,
     "active": true
   },
   {
@@ -1790,6 +1736,15 @@
     "console": "nes",
     "id": "back-to-the-future-part-ii-and-iii",
     "id_igdb": 8517,
+    "active": true
+  },
+  {
+    "name": "Back to the Future Part III",
+    "filename": "Back to the Future 3 (UE) [!].zip",
+    "image": "/images/roms/sms/back-to-the-future-part-iii.jpg",
+    "console": "sms",
+    "id": "back-to-the-future-part-iii",
+    "id_igdb": 8519,
     "active": true
   },
   {
@@ -6212,6 +6167,15 @@
     "console": "nes",
     "id": "dirty-harry",
     "id_igdb": 3142,
+    "active": true
+  },
+  {
+    "name": "Disney's Aladdin",
+    "filename": "Aladdin (UE) [!].zip",
+    "image": "/images/roms/sms/disneys-aladdin.jpg",
+    "console": "sms",
+    "id": "disneys-aladdin",
+    "id_igdb": 106270,
     "active": true
   },
   {
@@ -24625,6 +24589,15 @@
     "id_igdb": 15846,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Addams Family",
+    "filename": "Addams Family, The (UE) [!].zip",
+    "image": "/images/roms/sms/the-addams-family.jpg",
+    "console": "sms",
+    "id": "the-addams-family",
+    "id_igdb": 14207,
+    "active": true
   },
   {
     "name": "The Addams Family",
