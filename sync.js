@@ -369,6 +369,9 @@ async function getGameData(gameName, gameConsole, clientId, accessToken, gameSea
             case "nes":
                 platform = 18;
                 break;
+            case "sms":
+                platform = 64;
+                break;
             case "atari2600":
                 platform = 59;
                 break;

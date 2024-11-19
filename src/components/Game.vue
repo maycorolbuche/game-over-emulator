@@ -50,7 +50,7 @@
         class="text-center"
         style="width: 100%"
       >
-        <img :src="console_image" style="calc(100% - 20px)" />
+        <img :src="console_image" width="160" />
       </div>
       <div class="flex-auto" />
 
@@ -290,6 +290,7 @@ export default {
                 case "gbc":
                   return "gambatte";*/
               case "gens":
+              case "sms":
                 return "genesis_plus_gx";
               default:
                 return "";
