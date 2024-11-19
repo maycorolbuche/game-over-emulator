@@ -1795,12 +1795,12 @@
     "check": true
   },
   {
-    "name": "Baku Baku Animals",
+    "name": "Baku Baku",
     "filename": "Baku Baku Animals (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/baku-baku.jpg",
     "console": "sms",
-    "id": "baku-baku-animals",
-    "id_igdb": "",
+    "id": "baku-baku",
+    "id_igdb": 69785,
     "active": true
   },
   {
@@ -1986,24 +1986,6 @@
     "check_name": true
   },
   {
-    "name": "Bart vs. the Space Mutants",
-    "filename": "Bart vs. the Space Mutants (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "bart-vs-the-space-mutants",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Bart vs. the World",
-    "filename": "Bart vs. the World (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "bart-vs-the-world",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Baseball",
     "filename": "Baseball.zip",
     "image": "/images/roms/nes/baseball.jpg",
@@ -2076,12 +2058,12 @@
     "active": true
   },
   {
-    "name": "Basket Ball Nightmare",
+    "name": "Basketball Nightmare",
     "filename": "Basket Ball Nightmare (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/basketball-nightmare.jpg",
     "console": "sms",
-    "id": "basket-ball-nightmare",
-    "id_igdb": "",
+    "id": "basketball-nightmare",
+    "id_igdb": 45667,
     "active": true
   },
   {
@@ -2346,12 +2328,12 @@
     "check": true
   },
   {
-    "name": "Battle Out Run",
+    "name": "Battle OutRun",
     "filename": "Battle Out Run (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/battle-outrun.jpg",
     "console": "sms",
-    "id": "battle-out-run",
-    "id_igdb": "",
+    "id": "battle-outrun",
+    "id_igdb": 45666,
     "active": true
   },
   {
@@ -2810,15 +2792,6 @@
     "active": true
   },
   {
-    "name": "Black Onyx, The",
-    "filename": "Black Onyx, The (SG-1000) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "black-onyx-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Blackjack",
     "filename": "Blackjack.zip",
     "image": "/images/roms/nes/blackjack.jpg",
@@ -2847,12 +2820,12 @@
     "active": true
   },
   {
-    "name": "Blade Eagle 3D",
+    "name": "Blade Eagle 3-D",
     "filename": "Blade Eagle 3D (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/blade-eagle-3-d.jpg",
     "console": "sms",
-    "id": "blade-eagle-3d",
-    "id_igdb": "",
+    "id": "blade-eagle-3-d",
+    "id_igdb": 45663,
     "active": true
   },
   {
@@ -3027,12 +3000,12 @@
     "active": true
   },
   {
-    "name": "Bonanza Bros",
+    "name": "Bonanza Bros.",
     "filename": "Bonanza Bros (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/bonanza-bros.jpg",
     "console": "sms",
     "id": "bonanza-bros",
-    "id_igdb": "",
+    "id_igdb": 4511,
     "active": true
   },
   {
@@ -3063,15 +3036,6 @@
     "id_igdb": 78677,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Bonkers Wax Up!",
-    "filename": "Bonkers Wax Up! (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "bonkers-wax-up-",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Booby Kids",
@@ -3111,24 +3075,6 @@
     "id_igdb": "",
     "active": true,
     "check": true
-  },
-  {
-    "name": "Borderline",
-    "filename": "Borderline (SG-1000).zip",
-    "image": "",
-    "console": "sms",
-    "id": "borderline",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Borgman",
-    "filename": "Borgman (JUE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "borgman",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Boulder Dash",
@@ -3395,10 +3341,10 @@
   {
     "name": "Bubble Bobble",
     "filename": "Bubble Bobble (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/bubble-bobble.jpg",
     "console": "sms",
     "id": "bubble-bobble",
-    "id_igdb": "",
+    "id_igdb": 2630,
     "active": true
   },
   {
@@ -3700,12 +3646,12 @@
     "active": true
   },
   {
-    "name": "California Games 2",
+    "name": "California Games II",
     "filename": "California Games 2 (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/california-games-ii.jpg",
     "console": "sms",
-    "id": "california-games-2",
-    "id_igdb": "",
+    "id": "california-games-ii",
+    "id_igdb": 263902,
     "active": true
   },
   {
@@ -3975,12 +3921,12 @@
     "active": true
   },
   {
-    "name": "Castelo Ra Tin Bum",
+    "name": "Castelo Rá-Tim-Bum",
     "filename": "Castelo Ra Tin Bum (Brazil) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/castelo-ra-tim-bum.jpg",
     "console": "sms",
-    "id": "castelo-ra-tin-bum",
-    "id_igdb": "",
+    "id": "castelo-ra-tim-bum",
+    "id_igdb": 84302,
     "active": true
   },
   {
@@ -4010,15 +3956,6 @@
     "id_igdb": 8122,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Castle, The",
-    "filename": "Castle, The (SG-1000).zip",
-    "image": "",
-    "console": "sms",
-    "id": "castle-the",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Castlequest",
@@ -4119,10 +4056,10 @@
   {
     "name": "Chack'n Pop",
     "filename": "Chack'n Pop (SG-1000).zip",
-    "image": "",
+    "image": "/images/roms/sms/chack-n-pop.jpg",
     "console": "sms",
     "id": "chack-n-pop",
-    "id_igdb": "",
+    "id_igdb": 6103,
     "active": true
   },
   {
@@ -4155,38 +4092,11 @@
     "active": true
   },
   {
-    "name": "Champion Baseball",
-    "filename": "Champion Baseball (SG-1000).zip",
-    "image": "",
-    "console": "sms",
-    "id": "champion-baseball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Champion Billards",
     "filename": "Champion Billards (SG-1000) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/champion-billards.jpg",
     "console": "sms",
     "id": "champion-billards",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Champion Pro Wrestling",
-    "filename": "Champion Pro Wrestling (SG-1000) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "champion-pro-wrestling",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Champion Soccer",
-    "filename": "Champion Soccer (SG-1000).zip",
-    "image": "",
-    "console": "sms",
-    "id": "champion-soccer",
     "id_igdb": "",
     "active": true
   },
@@ -4236,15 +4146,6 @@
     "console": "nes",
     "id": "championship-bowling",
     "id_igdb": 4408,
-    "active": true
-  },
-  {
-    "name": "Championship Golf",
-    "filename": "Championship Golf (SG-1000).zip",
-    "image": "",
-    "console": "sms",
-    "id": "championship-golf",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -4325,12 +4226,12 @@
     "check_name": true
   },
   {
-    "name": "Chapolim x Dracula - Um Duelo Assustador",
+    "name": "Chapolim x Drácula: Um Duelo Assustador",
     "filename": "Chapolim x Dracula - Um Duelo Assustador (Brazil) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/chapolim-x-dracula-um-duelo-assustador.jpg",
     "console": "sms",
     "id": "chapolim-x-dracula-um-duelo-assustador",
-    "id_igdb": "",
+    "id_igdb": 85983,
     "active": true
   },
   {
@@ -4354,12 +4255,12 @@
     "active": true
   },
   {
-    "name": "Cheese Cat-astrophe",
+    "name": "Cheese Cat-Astrophe starring Speedy Gonzales",
     "filename": "Cheese Cat-astrophe (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/cheese-cat-astrophe-starring-speedy-gonzales.jpg",
     "console": "sms",
-    "id": "cheese-cat-astrophe",
-    "id_igdb": "",
+    "id": "cheese-cat-astrophe-starring-speedy-gonzales",
+    "id_igdb": 4460,
     "active": true
   },
   {
@@ -4583,12 +4484,12 @@
     "active": true
   },
   {
-    "name": "Chuck Rock 2",
+    "name": "Chuck Rock II: Son of Chuck",
     "filename": "Chuck Rock 2 (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/chuck-rock-ii-son-of-chuck.jpg",
     "console": "sms",
-    "id": "chuck-rock-2",
-    "id_igdb": "",
+    "id": "chuck-rock-ii-son-of-chuck",
+    "id_igdb": 4371,
     "active": true
   },
   {
@@ -4994,7 +4895,7 @@
   {
     "name": "Congo Bongo",
     "filename": "Congo Bongo (SG-1000).zip",
-    "image": "",
+    "image": "/images/roms/sms/congo-bongo.jpg",
     "console": "sms",
     "id": "congo-bongo",
     "id_igdb": "",
@@ -5087,15 +4988,6 @@
     "id_igdb": 2621,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Cool Spot",
-    "filename": "Cool Spot (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "cool-spot",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Cool World",
@@ -5356,15 +5248,6 @@
     "check_name": true
   },
   {
-    "name": "Cyber Shinobi",
-    "filename": "Cyber Shinobi (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "cyber-shinobi",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Cyber Spin",
     "filename": "Cyber Spin (U) [!].smc",
     "image": "/images/roms/snes/cyber-spin.jpg",
@@ -5537,12 +5420,12 @@
     "check": true
   },
   {
-    "name": "Danan the Jungle Fighter",
+    "name": "Danan: The Jungle Fighter",
     "filename": "Danan the Jungle Fighter (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/danan-the-jungle-fighter.jpg",
     "console": "sms",
     "id": "danan-the-jungle-fighter",
-    "id_igdb": "",
+    "id_igdb": 45664,
     "active": true
   },
   {
@@ -5816,12 +5699,12 @@
     "active": true
   },
   {
-    "name": "Deep Duck Trouble",
+    "name": "Deep Duck Trouble Starring Donald Duck",
     "filename": "Deep Duck Trouble (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/deep-duck-trouble-starring-donald-duck.jpg",
     "console": "sms",
-    "id": "deep-duck-trouble",
-    "id_igdb": "",
+    "id": "deep-duck-trouble-starring-donald-duck",
+    "id_igdb": 8447,
     "active": true
   },
   {
@@ -5910,21 +5793,21 @@
     "check_name": true
   },
   {
-    "name": "Desert Speedtrap",
+    "name": "Desert Speedtrap Starring Road Runner & Wile E. Coyote",
     "filename": "Desert Speedtrap (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/desert-speedtrap-starring-road-runner-and-wile-e-coyote.jpg",
     "console": "sms",
-    "id": "desert-speedtrap",
-    "id_igdb": "",
+    "id": "desert-speedtrap-starring-road-runner-and-wile-e-coyote",
+    "id_igdb": 8098,
     "active": true
   },
   {
-    "name": "Desert Strike",
+    "name": "Desert Strike: Return to the Gulf",
     "filename": "Desert Strike (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/desert-strike-return-to-the-gulf.jpg",
     "console": "sms",
-    "id": "desert-strike",
-    "id_igdb": "",
+    "id": "desert-strike-return-to-the-gulf",
+    "id_igdb": 19852,
     "active": true
   },
   {
@@ -6249,6 +6132,15 @@
     "check_name": true
   },
   {
+    "name": "Disney's Bonkers: Wax Up!",
+    "filename": "Bonkers Wax Up! (UE) [!].zip",
+    "image": "/images/roms/sms/disneys-bonkers-wax-up.jpg",
+    "console": "sms",
+    "id": "disneys-bonkers-wax-up",
+    "id_igdb": 57622,
+    "active": true
+  },
+  {
     "name": "Disney's Chip 'n Dale Rescue Rangers",
     "filename": "Chip 'n Dale Rescue Rangers I.zip",
     "image": "/images/roms/nes/disneys-chip-n-dale-rescue-rangers.jpg",
@@ -6427,15 +6319,6 @@
     "console": "nes",
     "id": "dizzy-the-adventurer",
     "id_igdb": 48672,
-    "active": true
-  },
-  {
-    "name": "Dodgeball King",
-    "filename": "Dodgeball King (Korean).zip",
-    "image": "",
-    "console": "sms",
-    "id": "dodgeball-king",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -6830,15 +6713,6 @@
     "active": true
   },
   {
-    "name": "Dragon - The Bruce Lee Story",
-    "filename": "Dragon - The Bruce Lee Story (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "dragon-the-bruce-lee-story",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Dragon Ball Z Gaiden: Saiya-jin Zetsumetsu Keikaku",
     "filename": "Dragon Ball Z Gaiden.zip",
     "image": "/images/roms/nes/dragon-ball-z-gaiden-saiya-jin-zetsumetsu-keikaku.jpg",
@@ -6955,10 +6829,10 @@
   {
     "name": "Dragon Wang",
     "filename": "Dragon Wang (SG-1000) (Ver-A).zip",
-    "image": "",
+    "image": "/images/roms/sms/dragon-wang.jpg",
     "console": "sms",
     "id": "dragon-wang",
-    "id_igdb": "",
+    "id_igdb": 6097,
     "active": true
   },
   {
@@ -7047,6 +6921,15 @@
   },
   {
     "name": "Dragon: The Bruce Lee Story",
+    "filename": "Dragon - The Bruce Lee Story (UE) [!].zip",
+    "image": "/images/roms/sms/dragon-the-bruce-lee-story.jpg",
+    "console": "sms",
+    "id": "dragon-the-bruce-lee-story",
+    "id_igdb": 18617,
+    "active": true
+  },
+  {
+    "name": "Dragon: The Bruce Lee Story",
     "filename": "Dragon - The Bruce Lee Story (U).smc",
     "image": "/images/roms/snes/dragon-the-bruce-lee-story.jpg",
     "console": "snes",
@@ -7098,10 +6981,10 @@
   {
     "name": "Drol",
     "filename": "Drol (SG-1000).zip",
-    "image": "",
+    "image": "/images/roms/sms/drol.jpg",
     "console": "sms",
     "id": "drol",
-    "id_igdb": "",
+    "id_igdb": 6098,
     "active": true
   },
   {
@@ -7277,12 +7160,12 @@
     "active": true
   },
   {
-    "name": "Dynamite Dux",
+    "name": "Dynamite Düx",
     "filename": "Dynamite Dux (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/dynamite-dux.jpg",
     "console": "sms",
     "id": "dynamite-dux",
-    "id_igdb": "",
+    "id_igdb": 12730,
     "active": true
   },
   {
@@ -7316,7 +7199,7 @@
   {
     "name": "E-SWAT - City Under Siege",
     "filename": "E-SWAT - City Under Siege (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/e-swat-city-under-siege.jpg",
     "console": "sms",
     "id": "e-swat-city-under-siege",
     "id_igdb": "",
@@ -7541,12 +7424,12 @@
     "active": true
   },
   {
-    "name": "Ecco the Dolphin - Tides of Time",
+    "name": "Ecco: The Tides of Time",
     "filename": "Ecco the Dolphin - Tides of Time (Brazil).zip",
-    "image": "",
+    "image": "/images/roms/sms/ecco-the-tides-of-time.jpg",
     "console": "sms",
-    "id": "ecco-the-dolphin-tides-of-time",
-    "id_igdb": "",
+    "id": "ecco-the-tides-of-time",
+    "id_igdb": 237314,
     "active": true
   },
   {
@@ -7620,10 +7503,10 @@
   {
     "name": "Elevator Action",
     "filename": "Elevator Action (SG-1000) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/elevator-action.jpg",
     "console": "sms",
     "id": "elevator-action",
-    "id_igdb": "",
+    "id_igdb": 4599,
     "active": true
   },
   {
@@ -7759,15 +7642,6 @@
     "check_name": true
   },
   {
-    "name": "European SMS BIOS",
-    "filename": "European SMS BIOS (Sonic the Hedgehog) (E) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "european-sms-bios",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Evander Holyfield's Real Deal Boxing",
     "filename": "Evander Holyfield's Real Deal Boxing (U) [!].smd",
     "image": "/images/roms/gens/evander-holyfields-real-deal-boxing.jpg",
@@ -7812,15 +7686,6 @@
     "console": "nes",
     "id": "exerion",
     "id_igdb": 6104,
-    "active": true
-  },
-  {
-    "name": "Exerion",
-    "filename": "Exerion (SG-1000) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "exerion",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -7970,7 +7835,7 @@
   {
     "name": "F1 Championship",
     "filename": "F1 Championship (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/f1-championship.png",
     "console": "sms",
     "id": "f1-championship",
     "id_igdb": "",
@@ -8249,21 +8114,12 @@
     "active": true
   },
   {
-    "name": "Fantasy Zone 2 - The Tears of Opa-Opa",
+    "name": "Fantasy Zone II",
     "filename": "Fantasy Zone 2 - The Tears of Opa-Opa (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/fantasy-zone-ii.jpg",
     "console": "sms",
-    "id": "fantasy-zone-2-the-tears-of-opa-opa",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Fantasy Zone 3 - The Maze",
-    "filename": "Fantasy Zone 3 - The Maze (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "fantasy-zone-3-the-maze",
-    "id_igdb": "",
+    "id": "fantasy-zone-ii",
+    "id_igdb": 6687,
     "active": true
   },
   {
@@ -8273,6 +8129,15 @@
     "console": "nes",
     "id": "fantasy-zone-ii-opa-opa-no-namida",
     "id_igdb": 48627,
+    "active": true
+  },
+  {
+    "name": "Fantasy Zone: The Maze",
+    "filename": "Fantasy Zone 3 - The Maze (UE) [!].zip",
+    "image": "/images/roms/sms/fantasy-zone-the-maze.jpg",
+    "console": "sms",
+    "id": "fantasy-zone-the-maze",
+    "id_igdb": 45658,
     "active": true
   },
   {
@@ -8364,15 +8229,6 @@
     "active": true
   },
   {
-    "name": "Felipe em Acao",
-    "filename": "Felipe em Acao (Brazil).zip",
-    "image": "",
-    "console": "sms",
-    "id": "felipe-em-acao",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Felix the Cat",
     "filename": "Felix the Cat.zip",
     "image": "/images/roms/nes/felix-the-cat.jpg",
@@ -8390,15 +8246,6 @@
     "id_igdb": 93061,
     "active": true,
     "check": true
-  },
-  {
-    "name": "Ferias Frustradas do Picapau",
-    "filename": "Ferias Frustradas do Picapau (Brazil).zip",
-    "image": "",
-    "console": "sms",
-    "id": "ferias-frustradas-do-picapau",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Ferrari Grand Prix Challenge",
@@ -8585,15 +8432,6 @@
     "check_name": true
   },
   {
-    "name": "Fire & Forget 2",
-    "filename": "Fire & Forget 2 (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "fire-forget-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Fire 'n Ice",
     "filename": "Fire 'n Ice.zip",
     "image": "/images/roms/nes/fire-n-ice.jpg",
@@ -8631,6 +8469,15 @@
     "id_igdb": 39647,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Fire and Forget 2: The Death Convoy",
+    "filename": "Fire & Forget 2 (UE) [!].zip",
+    "image": "/images/roms/sms/fire-and-forget-2-the-death-convoy.jpg",
+    "console": "sms",
+    "id": "fire-and-forget-2-the-death-convoy",
+    "id_igdb": 73184,
+    "active": true
   },
   {
     "name": "FireHawk",
@@ -8726,15 +8573,6 @@
     "active": true
   },
   {
-    "name": "Flash, The",
-    "filename": "Flash, The (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "flash-the",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Flashback: The Quest for Identity",
     "filename": "Flashback - The Quest for Identity (U) [!].smc",
     "image": "/images/roms/snes/flashback-the-quest-for-identity.jpg",
@@ -8790,15 +8628,6 @@
     "console": "gens",
     "id": "flink",
     "id_igdb": 5387,
-    "active": true
-  },
-  {
-    "name": "Flintstones, The",
-    "filename": "Flintstones, The (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "flintstones-the",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -9117,6 +8946,15 @@
   },
   {
     "name": "Férias Frustradas do Pica-Pau",
+    "filename": "Ferias Frustradas do Picapau (Brazil).zip",
+    "image": "/images/roms/sms/ferias-frustradas-do-pica-pau.jpg",
+    "console": "sms",
+    "id": "ferias-frustradas-do-pica-pau",
+    "id_igdb": 8011,
+    "active": true
+  },
+  {
+    "name": "Férias Frustradas do Pica-Pau",
     "filename": "Ferias Frustradas do Pica-Pau (Unl).smd",
     "image": "/images/roms/gens/ferias-frustradas-do-pica-pau.jpg",
     "console": "gens",
@@ -9174,10 +9012,10 @@
   {
     "name": "GP World",
     "filename": "GP World (SG-1000) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/gp-world.jpg",
     "console": "sms",
     "id": "gp-world",
-    "id_igdb": "",
+    "id_igdb": 6108,
     "active": true
   },
   {
@@ -9341,12 +9179,12 @@
     "check": true
   },
   {
-    "name": "Game Box Esportes Radicais",
+    "name": "Game Box Série Esportes Radicais",
     "filename": "Game Box Esportes Radicais (Brazil) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/game-box-serie-esportes-radicais.jpg",
     "console": "sms",
-    "id": "game-box-esportes-radicais",
-    "id_igdb": "",
+    "id": "game-box-serie-esportes-radicais",
+    "id_igdb": 96505,
     "active": true
   },
   {
@@ -9723,10 +9561,10 @@
   {
     "name": "Girl's Garden",
     "filename": "Girl's Garden (SG-1000).zip",
-    "image": "",
+    "image": "/images/roms/sms/girl-s-garden.jpg",
     "console": "sms",
     "id": "girl-s-garden",
-    "id_igdb": "",
+    "id_igdb": 6106,
     "active": true
   },
   {
@@ -9747,15 +9585,6 @@
     "id_igdb": 6828,
     "active": true,
     "check_name": true
-  },
-  {
-    "name": "Global Gladiators",
-    "filename": "Global Gladiators (UE) [!].zip",
-    "image": "",
-    "console": "sms",
-    "id": "global-gladiators",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Go! Benny!",
@@ -9891,21 +9720,21 @@
     "active": true
   },
   {
-    "name": "Golf Mania",
+    "name": "Golfamania",
     "filename": "Golf Mania (UE) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/golfamania.jpg",
     "console": "sms",
-    "id": "golf-mania",
-    "id_igdb": "",
+    "id": "golfamania",
+    "id_igdb": 45673,
     "active": true
   },
   {
     "name": "Golgo 13",
     "filename": "Golgo 13 (SG-1000).zip",
-    "image": "",
+    "image": "/images/roms/sms/golgo-13.jpg",
     "console": "sms",
     "id": "golgo-13",
-    "id_igdb": "",
+    "id_igdb": 6107,
     "active": true
   },
   {
@@ -10154,10 +9983,10 @@
   {
     "name": "Gulkave",
     "filename": "Gulkave (SG-1000) [!].zip",
-    "image": "",
+    "image": "/images/roms/sms/gulkave.jpg",
     "console": "sms",
     "id": "gulkave",
-    "id_igdb": "",
+    "id_igdb": 6109,
     "active": true
   },
   {
@@ -14670,6 +14499,15 @@
     "id_igdb": 42490,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "Mick & Mack as the Global Gladiators",
+    "filename": "Global Gladiators (UE) [!].zip",
+    "image": "/images/roms/sms/mick-and-mack-as-the-global-gladiators.jpg",
+    "console": "sms",
+    "id": "mick-and-mack-as-the-global-gladiators",
+    "id_igdb": 4425,
+    "active": true
   },
   {
     "name": "Mickey Mania: The Timeless Adventures of Mickey Mouse",
@@ -24837,6 +24675,15 @@
     "active": true
   },
   {
+    "name": "The Black Onyx",
+    "filename": "Black Onyx, The (SG-1000) [!].zip",
+    "image": "/images/roms/sms/the-black-onyx.jpg",
+    "console": "sms",
+    "id": "the-black-onyx",
+    "id_igdb": 6099,
+    "active": true
+  },
+  {
     "name": "The Blue Marlin",
     "filename": "Blue Marlin.zip",
     "image": "/images/roms/nes/the-blue-marlin.jpg",
@@ -24960,6 +24807,15 @@
     "check_name": true
   },
   {
+    "name": "The Cyber Shinobi",
+    "filename": "Cyber Shinobi (UE) [!].zip",
+    "image": "/images/roms/sms/the-cyber-shinobi.jpg",
+    "console": "sms",
+    "id": "the-cyber-shinobi",
+    "id_igdb": 10218,
+    "active": true
+  },
+  {
     "name": "The Death and Return of Superman",
     "filename": "Death and Return of Superman, The (U).smc",
     "image": "/images/roms/snes/the-death-and-return-of-superman.jpg",
@@ -25040,6 +24896,24 @@
     "id_igdb": 42621,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Flash",
+    "filename": "Flash, The (UE) [!].zip",
+    "image": "/images/roms/sms/the-flash.jpg",
+    "console": "sms",
+    "id": "the-flash",
+    "id_igdb": 48945,
+    "active": true
+  },
+  {
+    "name": "The Flintstones",
+    "filename": "Flintstones, The (UE) [!].zip",
+    "image": "/images/roms/sms/the-flintstones.jpg",
+    "console": "sms",
+    "id": "the-flintstones",
+    "id_igdb": 47227,
+    "active": true
   },
   {
     "name": "The Flintstones",
@@ -25855,6 +25729,15 @@
   },
   {
     "name": "The Simpsons: Bart vs. The Space Mutants",
+    "filename": "Bart vs. the Space Mutants (UE) [!].zip",
+    "image": "/images/roms/sms/the-simpsons-bart-vs-the-space-mutants.jpg",
+    "console": "sms",
+    "id": "the-simpsons-bart-vs-the-space-mutants",
+    "id_igdb": 2827,
+    "active": true
+  },
+  {
+    "name": "The Simpsons: Bart vs. The Space Mutants",
     "filename": "Simpsons - Bart vs the Space Mutants.zip",
     "image": "/images/roms/nes/the-simpsons-bart-vs-the-space-mutants.jpg",
     "console": "nes",
@@ -25871,6 +25754,15 @@
     "id_igdb": 2827,
     "active": true,
     "check_name": true
+  },
+  {
+    "name": "The Simpsons: Bart vs. the World",
+    "filename": "Bart vs. the World (UE) [!].zip",
+    "image": "/images/roms/sms/the-simpsons-bart-vs-the-world.jpg",
+    "console": "sms",
+    "id": "the-simpsons-bart-vs-the-world",
+    "id_igdb": 2830,
+    "active": true
   },
   {
     "name": "The Simpsons: Bart vs. the World",
