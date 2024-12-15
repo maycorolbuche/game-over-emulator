@@ -132,7 +132,8 @@ export default {
       const search = this.search
         .toLowerCase()
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, "");
 
       return this.json_roms
         .filter((rom) => rom.active && rom.console === this.console_id)
@@ -141,6 +142,7 @@ export default {
             .toLowerCase()
             .normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
+            .replace(/\s+/g, "")
             .includes(search)
         )
         .slice()

@@ -80,13 +80,15 @@ export default {
       const value = this.search
         .toLowerCase()
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, "");
       this.search_items = this.json_roms
         .filter((item) =>
           item.name
             .toLowerCase()
             .normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
+            .replace(/\s+/g, "")
             .includes(value)
         )
         .slice()
