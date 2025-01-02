@@ -14080,6 +14080,16 @@
     "active": true
   },
   {
+    "name": "Mega Man & Bass",
+    "filename": "Rockman & Forte (J) [!].smc",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55c4.jpg",
+    "console": "snes",
+    "id": "mega-man-bass",
+    "id_igdb": 1726,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Mega Man 2",
     "filename": "Mega Man II.zip",
     "image": "/images/roms/nes/mega-man-2.jpg",
