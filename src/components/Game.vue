@@ -160,9 +160,9 @@
 </template>
 
 <script>
-const Storage = require("@/helpers/Storage.js");
-const Conversions = require("@/helpers/Conversions.js");
-const Screen = require("@/helpers/Screen.js");
+import Storage from "@/helpers/Storage.js";
+import Conversions from "@/helpers/Conversions.js";
+import Screen from "@/helpers/Screen.js";
 
 import Key from "@/components/Key.vue";
 

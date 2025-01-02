@@ -26,16 +26,17 @@ export default {
   },
   computed: {
     pieces() {
+      import.meta.glob("@/assets/bg/*.svg", { eager: true });
       return [
-        require("@/assets/bg/tetris-1.svg"),
-        require("@/assets/bg/tetris-1.svg"),
-        require("@/assets/bg/tetris-1.svg"),
-        require("@/assets/bg/tetris-2.svg"),
-        require("@/assets/bg/tetris-2.svg"),
-        require("@/assets/bg/tetris-2.svg"),
-        require("@/assets/bg/tetris-3.svg"),
-        require("@/assets/bg/tetris-4.svg"),
-        require("@/assets/bg/tetris-4.svg"),
+        "src/assets/bg/tetris-1.svg",
+        "src/assets/bg/tetris-1.svg",
+        "src/assets/bg/tetris-1.svg",
+        "src/assets/bg/tetris-2.svg",
+        "src/assets/bg/tetris-2.svg",
+        "src/assets/bg/tetris-2.svg",
+        "src/assets/bg/tetris-3.svg",
+        "src/assets/bg/tetris-4.svg",
+        "src/assets/bg/tetris-4.svg",
       ];
     },
   },
