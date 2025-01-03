@@ -1,8 +1,44 @@
 <template>
   <div class="bg-area">
     <img
-      v-if="piece.src"
-      :src="piece.src"
+      v-if="piece.image_index == 1"
+      src="@/assets/bg/tetris-1.svg"
+      class="piece"
+      :style="{
+        top: 0,
+        left: piece.left + 'px',
+        animationDuration: piece.duration + 's',
+        transform: 'rotate(' + piece.rotation + 'deg)',
+      }"
+      @animationend="removePiece(index)"
+    />
+    <img
+      v-if="piece.image_index == 2"
+      src="@/assets/bg/tetris-2.svg"
+      class="piece"
+      :style="{
+        top: 0,
+        left: piece.left + 'px',
+        animationDuration: piece.duration + 's',
+        transform: 'rotate(' + piece.rotation + 'deg)',
+      }"
+      @animationend="removePiece(index)"
+    />
+    <img
+      v-if="piece.image_index == 3"
+      src="@/assets/bg/tetris-3.svg"
+      class="piece"
+      :style="{
+        top: 0,
+        left: piece.left + 'px',
+        animationDuration: piece.duration + 's',
+        transform: 'rotate(' + piece.rotation + 'deg)',
+      }"
+      @animationend="removePiece(index)"
+    />
+    <img
+      v-if="piece.image_index == 4"
+      src="@/assets/bg/tetris-4.svg"
       class="piece"
       :style="{
         top: 0,
@@ -26,18 +62,7 @@ export default {
   },
   computed: {
     pieces() {
-      import.meta.glob("@/assets/bg/*.svg", { eager: true });
-      return [
-        "src/assets/bg/tetris-1.svg",
-        "src/assets/bg/tetris-1.svg",
-        "src/assets/bg/tetris-1.svg",
-        "src/assets/bg/tetris-2.svg",
-        "src/assets/bg/tetris-2.svg",
-        "src/assets/bg/tetris-2.svg",
-        "src/assets/bg/tetris-3.svg",
-        "src/assets/bg/tetris-4.svg",
-        "src/assets/bg/tetris-4.svg",
-      ];
+      return [1, 1, 1, 2, 2, 2, 3, 4, 4];
     },
   },
   mounted() {
@@ -47,7 +72,8 @@ export default {
     createPiece() {
       const rotations = [0, 90, 180, 270];
       this.piece = {
-        src: this.pieces[Math.floor(Math.random() * this.pieces.length)],
+        image_index:
+          this.pieces[Math.floor(Math.random() * this.pieces.length)],
         left: Math.random() * (window.innerWidth - 50),
         duration: Math.random() * (12 - 6) + 6,
         rotation: rotations[Math.floor(Math.random() * rotations.length)],
