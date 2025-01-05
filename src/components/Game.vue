@@ -284,9 +284,9 @@ export default {
                 return "fceumm";
               case "snes":
                 return "snes9x";
-              /*case "gba":
-                  return "mgba";
-                case "gb":
+              case "gba":
+                return "mgba";
+              /*  case "gb":
                 case "gbc":
                   return "gambatte";*/
               case "gens":
