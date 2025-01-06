@@ -36,20 +36,20 @@
     "active": true
   },
   {
-    "name": "2 in 1 - Looney Tunes - Dizzy Driving x Looney Tunes - Acme Antics",
+    "name": "Looney Tunes Double Pack - Dizzy Driving / Acme Antics",
     "filename": "2 in 1 - Looney Tunes - Dizzy Driving x Looney Tunes - Acme Antics.zip",
     "image": "/images/roms/gba/2-in-1-looney-tunes-dizzy-driving-x-looney-tunes-acme-antics.webp",
     "console": "gba",
-    "id": "2-in-1-looney-tunes-dizzy-driving-x-looney-tunes-acme-antics",
+    "id": "looney-tunes-double-pack-dizzy-driving-acme-antics",
     "id_igdb": "",
     "active": true
   },
   {
-    "name": "2 in 1 - Matchbox Missions - Emergency Response x Air, Land & Sea Rescue",
+    "name": "Matchbox Missions / Emergency Response / Air, Land & Sea Rescue",
     "filename": "2 in 1 - Matchbox Missions - Emergency Response x Air, Land & Sea Rescue.zip",
     "image": "/images/roms/gba/2-in-1-matchbox-missions-emergency-response-x-air-land-sea-rescue.jpg",
     "console": "gba",
-    "id": "2-in-1-matchbox-missions-emergency-response-x-air-land-sea-rescue",
+    "id": "matchbox-missions-emergency-response-air-land-and-sea-rescue",
     "id_igdb": "",
     "active": true
   },
@@ -112,11 +112,11 @@
     "check_image": true
   },
   {
-    "name": "3 in 1 - Darts x Roll a Ball x Shuffle Bowl",
+    "name": "Darts / Roll a Ball / Shuffle Bowl",
     "filename": "3 in 1 - Darts x Roll a Ball x Shuffle Bowl.zip",
     "image": "/images/roms/gba/3-in-1-darts-x-roll-a-ball-x-shuffle-bowl.webp",
     "console": "gba",
-    "id": "3-in-1-darts-x-roll-a-ball-x-shuffle-bowl",
+    "id": "darts-roll-a-ball-shuffle-bowl",
     "id_igdb": "",
     "active": true,
     "check_image": true
