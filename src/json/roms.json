@@ -5691,12 +5691,11 @@
     "active": true
   },
   {
-    "name": "Classic NES Series: Castlevania",
+    "name": "Castlevania",
     "filename": "Castlevania.zip",
-    "image": "/images/roms/gba/classic-nes-series-castlevania.jpg",
+    "image": "",
     "console": "gba",
     "id": "classic-nes-series-castlevania",
-    "id_igdb": 49171,
     "active": true
   },
   {
