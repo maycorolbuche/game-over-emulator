@@ -13250,8 +13250,8 @@
     "check_image": true
   },
   {
-    "name": "Gradius Advance .GBA",
-    "filename": "Gradius Advance (Trained) .GBA.zip",
+    "name": "Gradius Advance",
+    "filename": "Gradius Advance (Trained).zip",
     "image": "",
     "console": "gba",
     "id": "gradius-advance-",
