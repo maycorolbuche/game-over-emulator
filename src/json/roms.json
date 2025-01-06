@@ -38,7 +38,7 @@
   {
     "name": "2 in 1 - Looney Tunes - Dizzy Driving x Looney Tunes - Acme Antics",
     "filename": "2 in 1 - Looney Tunes - Dizzy Driving x Looney Tunes - Acme Antics.zip",
-    "image": "",
+    "image": "/images/roms/gba/2-in-1-looney-tunes-dizzy-driving-x-looney-tunes-acme-antics.webp",
     "console": "gba",
     "id": "2-in-1-looney-tunes-dizzy-driving-x-looney-tunes-acme-antics",
     "id_igdb": "",
@@ -47,29 +47,31 @@
   {
     "name": "2 in 1 - Matchbox Missions - Emergency Response x Air, Land & Sea Rescue",
     "filename": "2 in 1 - Matchbox Missions - Emergency Response x Air, Land & Sea Rescue.zip",
-    "image": "",
+    "image": "/images/roms/gba/2-in-1-matchbox-missions-emergency-response-x-air-land-sea-rescue.jpg",
     "console": "gba",
     "id": "2-in-1-matchbox-missions-emergency-response-x-air-land-sea-rescue",
     "id_igdb": "",
     "active": true
   },
   {
-    "name": "2 in 1 - Paperboy x Rampage",
+    "name": "Paperboy / Rampage",
     "filename": "2 in 1 - Paperboy x Rampage.zip",
-    "image": "",
+    "image": "/images/roms/gba/paperboy-slash-rampage.jpg",
     "console": "gba",
-    "id": "2-in-1-paperboy-x-rampage",
-    "id_igdb": "",
-    "active": true
+    "id": "paperboy-slash-rampage",
+    "id_igdb": 94461,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "2 in 1 - Uno x Skip-Bo",
+    "name": "Uno/Skip-Bo",
     "filename": "2 in 1 - Uno x Skip-Bo.zip",
-    "image": "",
+    "image": "/images/roms/gba/uno-slash-skip-bo.jpg",
     "console": "gba",
-    "id": "2-in-1-uno-x-skip-bo",
-    "id_igdb": "",
-    "active": true
+    "id": "uno-slash-skip-bo",
+    "id_igdb": 78905,
+    "active": true,
+    "check_image": true
   },
   {
     "filename": "3 Ninjas Kick Back (U) [!].smd",
@@ -90,103 +92,114 @@
     "active": true
   },
   {
-    "name": "3 in 1 - Break Out x Centipede x Warlords",
+    "name": "Centipede/Breakout/Warlords",
     "filename": "3 in 1 - Break Out x Centipede x Warlords.zip",
-    "image": "",
+    "image": "/images/roms/gba/centipede-slash-breakout-slash-warlords.jpg",
     "console": "gba",
-    "id": "3-in-1-break-out-x-centipede-x-warlords",
-    "id_igdb": "",
-    "active": true
+    "id": "centipede-slash-breakout-slash-warlords",
+    "id_igdb": 79816,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Connect Four x Perfection x Trouble",
+    "name": "Connect Four / Perfection / Trouble",
     "filename": "3 in 1 - Connect Four x Perfection x Trouble.zip",
-    "image": "",
+    "image": "/images/roms/gba/connect-four-slash-perfection-slash-trouble.jpg",
     "console": "gba",
-    "id": "3-in-1-connect-four-x-perfection-x-trouble",
-    "id_igdb": "",
-    "active": true
+    "id": "connect-four-slash-perfection-slash-trouble",
+    "id_igdb": 77638,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "3 in 1 - Darts x Roll a Ball x Shuffle Bowl",
     "filename": "3 in 1 - Darts x Roll a Ball x Shuffle Bowl.zip",
-    "image": "",
+    "image": "/images/roms/gba/3-in-1-darts-x-roll-a-ball-x-shuffle-bowl.webp",
     "console": "gba",
     "id": "3-in-1-darts-x-roll-a-ball-x-shuffle-bowl",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Ker Plunk x Toss Across x Tip It",
+    "name": "Kerplunk! / Toss Across / Tip It",
     "filename": "3 in 1 - Ker Plunk x Toss Across x Tip It.zip",
-    "image": "",
+    "image": "/images/roms/gba/kerplunk-slash-toss-across-slash-tip-it.jpg",
     "console": "gba",
-    "id": "3-in-1-ker-plunk-x-toss-across-x-tip-it",
-    "id_igdb": "",
-    "active": true
+    "id": "kerplunk-slash-toss-across-slash-tip-it",
+    "id_igdb": 137995,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Life x Yahtzee x Payday",
+    "name": "The Game of Life / Yahtzee / Payday",
     "filename": "3 in 1 - Life x Yahtzee x Payday.zip",
-    "image": "",
+    "image": "/images/roms/gba/the-game-of-life-slash-yahtzee-slash-payday.jpg",
     "console": "gba",
-    "id": "3-in-1-life-x-yahtzee-x-payday",
-    "id_igdb": "",
-    "active": true
+    "id": "the-game-of-life-slash-yahtzee-slash-payday",
+    "id_igdb": 137695,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Millipede x Super Breakout x Lunar Lander",
+    "name": "Millipede / Super Breakout / Lunar Lander",
     "filename": "3 in 1 - Millipede x Super Breakout x Lunar Lander.zip",
-    "image": "",
+    "image": "/images/roms/gba/millipede-slash-super-breakout-slash-lunar-lander.jpg",
     "console": "gba",
-    "id": "3-in-1-millipede-x-super-breakout-x-lunar-lander",
-    "id_igdb": "",
-    "active": true
+    "id": "millipede-slash-super-breakout-slash-lunar-lander",
+    "id_igdb": 78289,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Mousetrap x Simon x Operation",
+    "name": "Mouse Trap / Operation / Simon",
     "filename": "3 in 1 - Mousetrap x Simon x Operation.zip",
-    "image": "",
+    "image": "/images/roms/gba/mouse-trap-slash-operation-slash-simon.jpg",
     "console": "gba",
-    "id": "3-in-1-mousetrap-x-simon-x-operation",
-    "id_igdb": "",
-    "active": true
+    "id": "mouse-trap-slash-operation-slash-simon",
+    "id_igdb": 77240,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Paintball Splat x Dodgeball - Dodge This x Big Alley Bowling",
+    "name": "Majesco's 3-in-1 Sports Pack",
     "filename": "3 in 1 - Paintball Splat x Dodgeball - Dodge This x Big Alley Bowling.zip",
-    "image": "",
+    "image": "/images/roms/gba/majescos-3-in-1-sports-pack.jpg",
     "console": "gba",
-    "id": "3-in-1-paintball-splat-x-dodgeball-dodge-this-x-big-alley-bowling",
-    "id_igdb": "",
-    "active": true
+    "id": "majescos-3-in-1-sports-pack",
+    "id_igdb": 56837,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Risk x BattleShip x Clue",
+    "name": "Risk Battleship Clue",
     "filename": "3 in 1 - Risk x BattleShip x Clue.zip",
-    "image": "",
+    "image": "/images/roms/gba/risk-battleship-clue.jpg",
     "console": "gba",
-    "id": "3-in-1-risk-x-battleship-x-clue",
-    "id_igdb": "",
-    "active": true
+    "id": "risk-battleship-clue",
+    "id_igdb": 138001,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Sorry x Aggravation x Scrabble Junior",
+    "name": "Sorry! / Aggravation / Scrabble Junior",
     "filename": "3 in 1 - Sorry x Aggravation x Scrabble Junior.zip",
-    "image": "",
+    "image": "/images/roms/gba/sorry-slash-aggravation-slash-scrabble-junior.jpg",
     "console": "gba",
-    "id": "3-in-1-sorry-x-aggravation-x-scrabble-junior",
-    "id_igdb": "",
-    "active": true
+    "id": "sorry-slash-aggravation-slash-scrabble-junior",
+    "id_igdb": 82303,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "3 in 1 - Yar's Revenge x Pong x Asteroids",
+    "name": "Asteroids / Pong / Yars' Revenge",
     "filename": "3 in 1 - Yar's Revenge x Pong x Asteroids.zip",
-    "image": "",
+    "image": "/images/roms/gba/asteroids-slash-pong-slash-yars-revenge.jpg",
     "console": "gba",
-    "id": "3-in-1-yar-s-revenge-x-pong-x-asteroids",
-    "id_igdb": "",
-    "active": true
+    "id": "asteroids-slash-pong-slash-yars-revenge",
+    "id_igdb": 94269,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "3-D WorldRunner",
