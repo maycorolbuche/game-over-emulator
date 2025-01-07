@@ -10263,16 +10263,6 @@
     "check_image": true
   },
   {
-    "name": "FIFA Soccer 06",
-    "filename": "FIFA 2006.zip",
-    "image": "/images/roms/gba/fifa-soccer-06.jpg",
-    "console": "gba",
-    "id": "fifa-soccer-06",
-    "id_igdb": 229741,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "FIFA International Soccer",
     "filename": "FIFA International Soccer (94) (EUJ) [!].smd",
     "image": "/images/roms/gens/fifa-international-soccer.jpg",
@@ -10289,6 +10279,16 @@
     "id": "fifa-international-soccer",
     "id_igdb": 4345,
     "active": true
+  },
+  {
+    "name": "FIFA Soccer 06",
+    "filename": "FIFA 2006.zip",
+    "image": "/images/roms/gba/fifa-soccer-06.jpg",
+    "console": "gba",
+    "id": "fifa-soccer-06",
+    "id_igdb": 229741,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "FIFA Soccer 07",
@@ -10395,16 +10395,6 @@
     "id": "fifa-road-to-world-cup-98",
     "id_igdb": 228796,
     "active": true
-  },
-  {
-    "name": "Fila Decathlon",
-    "filename": "FILA Decathlon.zip",
-    "image": "/images/roms/gba/fila-decathlon.jpg",
-    "console": "gba",
-    "id": "fila-decathlon",
-    "id_igdb": 62641,
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Faceball 2000",
@@ -10744,6 +10734,16 @@
     "active": true
   },
   {
+    "name": "Fila Decathlon",
+    "filename": "FILA Decathlon.zip",
+    "image": "/images/roms/gba/fila-decathlon.jpg",
+    "console": "gba",
+    "id": "fila-decathlon",
+    "id_igdb": 62641,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Final Blow",
     "filename": "Final Blow (J) [c][!].smd",
     "image": "/images/roms/gens/final-blow.jpg",
@@ -10771,16 +10771,6 @@
     "active": true
   },
   {
-    "name": "Final Fantasy Tactics Advance",
-    "filename": "Final Fantasy - Tactics Advanced.zip",
-    "image": "/images/roms/gba/final-fantasy-tactics-advance.jpg",
-    "console": "gba",
-    "id": "final-fantasy-tactics-advance",
-    "id_igdb": 414,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Final Fantasy I & II: Dawn of Souls",
     "filename": "Final Fantasy 1 + 2 - Dawn of Souls.zip",
     "image": "/images/roms/gba/final-fantasy-i-ii-dawn-of-souls.jpg",
@@ -10791,12 +10781,40 @@
     "check_image": true
   },
   {
+    "name": "Final Fantasy II",
+    "filename": "Final Fantasy II (U) (V1.1).smc",
+    "image": "/images/roms/snes/final-fantasy-ii.jpg",
+    "console": "snes",
+    "id": "final-fantasy-ii",
+    "id_igdb": 387,
+    "active": true
+  },
+  {
+    "name": "Final Fantasy III",
+    "filename": "Final Fantasy III (U) (V1.1) [!].smc",
+    "image": "/images/roms/snes/final-fantasy-iii.jpg",
+    "console": "snes",
+    "id": "final-fantasy-iii",
+    "id_igdb": 146170,
+    "active": true
+  },
+  {
     "name": "Final Fantasy IV Advance",
     "filename": "Final Fantasy 4 Advance.zip",
     "image": "/images/roms/gba/final-fantasy-iv-advance.jpg",
     "console": "gba",
     "id": "final-fantasy-iv-advance",
     "id_igdb": 406,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Final Fantasy Tactics Advance",
+    "filename": "Final Fantasy - Tactics Advanced.zip",
+    "image": "/images/roms/gba/final-fantasy-tactics-advance.jpg",
+    "console": "gba",
+    "id": "final-fantasy-tactics-advance",
+    "id_igdb": 414,
     "active": true,
     "check_image": true
   },
@@ -10819,24 +10837,6 @@
     "id_igdb": 20655,
     "active": true,
     "check_image": true
-  },
-  {
-    "name": "Final Fantasy II",
-    "filename": "Final Fantasy II (U) (V1.1).smc",
-    "image": "/images/roms/snes/final-fantasy-ii.jpg",
-    "console": "snes",
-    "id": "final-fantasy-ii",
-    "id_igdb": 387,
-    "active": true
-  },
-  {
-    "name": "Final Fantasy III",
-    "filename": "Final Fantasy III (U) (V1.1) [!].smc",
-    "image": "/images/roms/snes/final-fantasy-iii.jpg",
-    "console": "snes",
-    "id": "final-fantasy-iii",
-    "id_igdb": 146170,
-    "active": true
   },
   {
     "name": "Final Fantasy: Mystic Quest",
@@ -11168,16 +11168,6 @@
     "active": true
   },
   {
-    "name": "The Flintstones: Big Trouble in Bedrock",
-    "filename": "Flintstones - Big Trouble in Bedrock.zip",
-    "image": "/images/roms/gba/the-flintstones-big-trouble-in-bedrock.jpg",
-    "console": "gba",
-    "id": "the-flintstones-big-trouble-in-bedrock",
-    "id_igdb": 49194,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Flipull: An Exciting Cube Game",
     "filename": "Flipull - Cube Game.zip",
     "image": "/images/roms/nes/flipull-an-exciting-cube-game.jpg",
@@ -11424,16 +11414,6 @@
     "active": true
   },
   {
-    "name": "Razor Freestyle Scooter",
-    "filename": "Freestyle Scooter.zip",
-    "image": "/images/roms/gba/razor-freestyle-scooter.jpg",
-    "console": "gba",
-    "id": "razor-freestyle-scooter",
-    "id_igdb": 249124,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Friday the 13th",
     "filename": "Friday the 13th.zip",
     "image": "/images/roms/nes/friday-the-13th.jpg",
@@ -11471,22 +11451,22 @@
     "check_image": true
   },
   {
-    "name": "Frogger's Adventures: Temple of the Frog",
-    "filename": "Frogger's Adventure - Temple of the Frog.zip",
-    "image": "/images/roms/gba/frogger-s-adventures-temple-of-the-frog.jpg",
-    "console": "gba",
-    "id": "frogger-s-adventures-temple-of-the-frog",
-    "id_igdb": 6411,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Frogger's Adventures 2: The Lost Wand",
     "filename": "Frogger's Adventure 2 - the Lost Wand.zip",
     "image": "/images/roms/gba/froggers-adventures-2-the-lost-wand.jpg",
     "console": "gba",
     "id": "froggers-adventures-2-the-lost-wand",
     "id_igdb": 11468,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Frogger's Adventures: Temple of the Frog",
+    "filename": "Frogger's Adventure - Temple of the Frog.zip",
+    "image": "/images/roms/gba/frogger-s-adventures-temple-of-the-frog.jpg",
+    "console": "gba",
+    "id": "frogger-s-adventures-temple-of-the-frog",
+    "id_igdb": 6411,
     "active": true,
     "check_image": true
   },
@@ -32218,6 +32198,16 @@
     "id_igdb": 51942,
     "active": true,
     "check": true
+  },
+  {
+    "name": "The Flintstones: Big Trouble in Bedrock",
+    "filename": "Flintstones - Big Trouble in Bedrock.zip",
+    "image": "/images/roms/gba/the-flintstones-big-trouble-in-bedrock.jpg",
+    "console": "gba",
+    "id": "the-flintstones-big-trouble-in-bedrock",
+    "id_igdb": 49194,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Flintstones: The Rescue of Dino & Hoppy",
