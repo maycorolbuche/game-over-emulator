@@ -712,6 +712,16 @@
     "active": true
   },
   {
+    "name": "Agent Hugo: Roborumble",
+    "filename": "Hugo - Agent Roborumble.zip",
+    "image": "/images/roms/gba/agent-hugo-roborumble.jpg",
+    "console": "gba",
+    "id": "agent-hugo-roborumble",
+    "id_igdb": 141696,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Aggressive Inline",
     "filename": "Agressive Inline.zip",
     "image": "/images/roms/gba/aggressive-inline.jpg",
@@ -7884,6 +7894,76 @@
     "active": true
   },
   {
+    "name": "Disney's Herbie: Fully Loaded",
+    "filename": "Herbie - Fully Loaded.zip",
+    "image": "/images/roms/gba/disneys-herbie-fully-loaded.jpg",
+    "console": "gba",
+    "id": "disneys-herbie-fully-loaded",
+    "id_igdb": 6434,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney's Home on the Range",
+    "filename": "Home on the Range.zip",
+    "image": "/images/roms/gba/disneys-home-on-the-range.jpg",
+    "console": "gba",
+    "id": "disneys-home-on-the-range",
+    "id_igdb": 49153,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney's Kim Possible 2: Drakken's Demise",
+    "filename": "Kim Possible 2 - Drakken's Demise.zip",
+    "image": "/images/roms/gba/disneys-kim-possible-2-drakkens-demise.jpg",
+    "console": "gba",
+    "id": "disneys-kim-possible-2-drakkens-demise",
+    "id_igdb": 8144,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney's Kim Possible 3: Team Possible",
+    "filename": "Kim Possible 3 - Team Possible.zip",
+    "image": "/images/roms/gba/disneys-kim-possible-3-team-possible.jpg",
+    "console": "gba",
+    "id": "disneys-kim-possible-3-team-possible",
+    "id_igdb": 49186,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney's Lilo & Stitch",
+    "filename": "Lilo & Stitch.zip",
+    "image": "/images/roms/gba/disneys-lilo-and-stitch.jpg",
+    "console": "gba",
+    "id": "disneys-lilo-and-stitch",
+    "id_igdb": 25912,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney's Lilo & Stitch 2: Hämsterviel Havoc",
+    "filename": "Lilo and Stitch 2 - Hamsterveil Havoc.zip",
+    "image": "/images/roms/gba/disneys-lilo-and-stitch-2-hamsterviel-havoc.jpg",
+    "console": "gba",
+    "id": "disneys-lilo-and-stitch-2-hamsterviel-havoc",
+    "id_igdb": 49261,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney's Little Einsteins",
+    "filename": "Little Einstein.zip",
+    "image": "/images/roms/gba/disneys-little-einsteins.jpg",
+    "console": "gba",
+    "id": "disneys-little-einsteins",
+    "id_igdb": 49190,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Disney's Party",
     "filename": "Disney's Party.zip",
     "image": "/images/roms/gba/disneys-party.jpg",
@@ -7963,6 +8043,16 @@
     "id": "disneys-the-jungle-book",
     "id_igdb": 204575,
     "active": true
+  },
+  {
+    "name": "Disney's The Jungle Book 2",
+    "filename": "Jungle Book 2.zip",
+    "image": "/images/roms/gba/disneys-the-jungle-book-2.jpg",
+    "console": "gba",
+    "id": "disneys-the-jungle-book-2",
+    "id_igdb": 49463,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Disney's The Lion King",
@@ -11679,34 +11769,38 @@
     "console": "gba",
     "id": "gp-1-racing",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "GT Advance - Championship Racing",
-    "filename": "GT Advance - Championship Racing.zip",
-    "image": "",
-    "console": "gba",
-    "id": "gt-advance-championship-racing",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "GT Advance 2 - Rally Racing",
+    "name": "GT Advance 2: Rally Racing",
     "filename": "GT Advance 2 - Rally Racing.zip",
-    "image": "",
+    "image": "/images/roms/gba/gt-advance-2-rally-racing.jpg",
     "console": "gba",
     "id": "gt-advance-2-rally-racing",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6425,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "GT Advance 3 - Pro Concept Racing",
+    "name": "GT Advance 3: Pro Concept Racing",
     "filename": "GT Advance 3 - Pro Concept Racing.zip",
-    "image": "",
+    "image": "/images/roms/gba/gt-advance-3-pro-concept-racing.jpg",
     "console": "gba",
     "id": "gt-advance-3-pro-concept-racing",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6426,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "GT Advance Championship Racing",
+    "filename": "GT Advance - Championship Racing.zip",
+    "image": "/images/roms/gba/gt-advance-championship-racing.jpg",
+    "console": "gba",
+    "id": "gt-advance-championship-racing",
+    "id_igdb": 6424,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "GT Racers",
@@ -11879,7 +11973,8 @@
     "console": "gba",
     "id": "game-watch-gallery-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Game Box Série Esportes Radicais",
@@ -11946,15 +12041,6 @@
     "active": true
   },
   {
-    "name": "Garfield - the Search for Pooky",
-    "filename": "Garfield - the Search for Pooky.zip",
-    "image": "",
-    "console": "gba",
-    "id": "garfield-the-search-for-pooky",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Garfield and His Nine Lives",
     "filename": "Garfield and His Nine Lives.zip",
     "image": "/images/roms/gba/garfield-and-his-nine-lives.jpg",
@@ -11972,6 +12058,16 @@
     "id_igdb": 19736,
     "active": true,
     "check": true
+  },
+  {
+    "name": "Garfield: The Search for Pooky",
+    "filename": "Garfield - the Search for Pooky.zip",
+    "image": "/images/roms/gba/garfield-the-search-for-pooky.jpg",
+    "console": "gba",
+    "id": "garfield-the-search-for-pooky",
+    "id_igdb": 6416,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gargoyle's Quest II",
@@ -12028,13 +12124,24 @@
     "active": true
   },
   {
-    "name": "Gauntlet - Dark Legacy",
+    "name": "Gauntlet / Rampart",
+    "filename": "Gauntlet Rampart.zip",
+    "image": "/images/roms/gba/gauntlet-slash-rampart.jpg",
+    "console": "gba",
+    "id": "gauntlet-slash-rampart",
+    "id_igdb": 78814,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Gauntlet Dark Legacy",
     "filename": "Gauntlet - Dark Legacy.zip",
-    "image": "",
+    "image": "/images/roms/gba/gauntlet-dark-legacy.jpg",
     "console": "gba",
     "id": "gauntlet-dark-legacy",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 85795,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gauntlet II",
@@ -12056,15 +12163,6 @@
     "check": true
   },
   {
-    "name": "Gauntlet Rampart",
-    "filename": "Gauntlet Rampart.zip",
-    "image": "",
-    "console": "gba",
-    "id": "gauntlet-rampart",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Geimos",
     "filename": "Geimos.zip",
     "image": "/images/roms/nes/geimos.jpg",
@@ -12074,13 +12172,14 @@
     "active": true
   },
   {
-    "name": "Gekido Advance - Kintaro's Revenge",
+    "name": "Gekido Advance: Kintaro's Revenge",
     "filename": "Gekido Advance - Kintaro's Revenge.zip",
-    "image": "",
+    "image": "/images/roms/gba/gekido-advance-kintaro-s-revenge.jpg",
     "console": "gba",
     "id": "gekido-advance-kintaro-s-revenge",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6418,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gekitotsu Yonku Battle",
@@ -12320,15 +12419,6 @@
     "active": true
   },
   {
-    "name": "Ghouls N Ghosts",
-    "filename": "Ghouls N Ghosts.zip",
-    "image": "",
-    "console": "gba",
-    "id": "ghouls-n-ghosts",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Girl's Garden",
     "filename": "Girl's Garden (SG-1000).zip",
     "image": "/images/roms/sms/girl-s-garden.jpg",
@@ -12356,22 +12446,14 @@
     "active": true
   },
   {
-    "name": "Global Star - Sudoku Fever",
-    "filename": "Global Star - Sudoku Fever.zip",
-    "image": "",
-    "console": "gba",
-    "id": "global-star-sudoku-fever",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Glory Days - Essence of a War",
     "filename": "Glory Days - Essence of a War.zip",
     "image": "",
     "console": "gba",
     "id": "glory-days-essence-of-a-war",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Go! Benny!",
@@ -12383,13 +12465,14 @@
     "active": true
   },
   {
-    "name": "Go! Go! Beckham! - Adventure on Soccer Island",
+    "name": "Go! Go! Beckham! Adventure on Soccer Island",
     "filename": "Go! Go! Beckham! - Adventure on Soccer Island.zip",
-    "image": "",
+    "image": "/images/roms/gba/go-go-beckham-adventure-on-soccer-island.jpg",
     "console": "gba",
     "id": "go-go-beckham-adventure-on-soccer-island",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6421,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Goal!",
@@ -12428,15 +12511,6 @@
     "active": true
   },
   {
-    "name": "Godzilla - Domination",
-    "filename": "Godzilla - Domination.zip",
-    "image": "",
-    "console": "gba",
-    "id": "godzilla-domination",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Godzilla 2: War of the Monsters",
     "filename": "Godzilla II - War of the Monsters.zip",
     "image": "/images/roms/nes/godzilla-2-war-of-the-monsters.jpg",
@@ -12444,6 +12518,16 @@
     "id": "godzilla-2-war-of-the-monsters",
     "id_igdb": 48160,
     "active": true
+  },
+  {
+    "name": "Godzilla: Domination!",
+    "filename": "Godzilla - Domination.zip",
+    "image": "/images/roms/gba/godzilla-domination.jpg",
+    "console": "gba",
+    "id": "godzilla-domination",
+    "id_igdb": 49298,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Godzilla: Monster of Monsters",
@@ -12520,13 +12604,14 @@
     "active": true
   },
   {
-    "name": "Golden Sun 2 - the Lost Age",
+    "name": "Golden Sun: The Lost Age",
     "filename": "Golden Sun 2 - the Lost Age.zip",
-    "image": "",
+    "image": "/images/roms/gba/golden-sun-the-lost-age.jpg",
     "console": "gba",
-    "id": "golden-sun-2-the-lost-age",
-    "id_igdb": "",
-    "active": true
+    "id": "golden-sun-the-lost-age",
+    "id_igdb": 1173,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Golf",
@@ -12616,7 +12701,8 @@
     "console": "gba",
     "id": "gradius-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gradius Advance",
@@ -12625,7 +12711,8 @@
     "console": "gba",
     "id": "gradius-advance-",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gradius II",
@@ -12783,13 +12870,14 @@
     "check": true
   },
   {
-    "name": "Greg Hastings' Tournament Paintball Max'd",
+    "name": "Greg Hastings' Tournament Paintball MAX'D",
     "filename": "Greg Hastings' Tournament Paintball Max'd.zip",
-    "image": "",
+    "image": "/images/roms/gba/greg-hastings-tournament-paintball-max-d.jpg",
     "console": "gba",
     "id": "greg-hastings-tournament-paintball-max-d",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 5855,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Greg Norman's Golf Power",
@@ -12798,15 +12886,6 @@
     "console": "nes",
     "id": "greg-normans-golf-power",
     "id_igdb": 48701,
-    "active": true
-  },
-  {
-    "name": "Gremlins - Stripe vs. Gizmo",
-    "filename": "Gremlins - Stripe vs. Gizmo.zip",
-    "image": "",
-    "console": "gba",
-    "id": "gremlins-stripe-vs",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -12819,13 +12898,14 @@
     "active": true
   },
   {
-    "name": "Grim Adventures of Billy & Mandy",
-    "filename": "Grim Adventures of Billy & Mandy.zip",
-    "image": "",
+    "name": "Gremlins: Stripe vs. Gizmo",
+    "filename": "Gremlins - Stripe vs. Gizmo.zip",
+    "image": "/images/roms/gba/gremlins-stripe-vs-gizmo.jpg",
     "console": "gba",
-    "id": "grim-adventures-of-billy-mandy",
-    "id_igdb": "",
-    "active": true
+    "id": "gremlins-stripe-vs-gizmo",
+    "id_igdb": 49232,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Grind Stormer",
@@ -12856,13 +12936,14 @@
     "active": true
   },
   {
-    "name": "Guilty Gear X - Advance Edition",
+    "name": "Guilty Gear X: Advance Edition",
     "filename": "Guilty Gear X - Advance Edition.zip",
-    "image": "",
+    "image": "/images/roms/gba/guilty-gear-x-advance-edition.jpg",
     "console": "gba",
     "id": "guilty-gear-x-advance-edition",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49168,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gulkave",
@@ -12874,13 +12955,14 @@
     "active": true
   },
   {
-    "name": "Gumby vs. the Astrobots",
+    "name": "Gumby vs. The Astrobots",
     "filename": "Gumby vs. the Astrobots.zip",
-    "image": "",
+    "image": "/images/roms/gba/gumby-vs-the-astrobots.jpg",
     "console": "gba",
-    "id": "gumby-vs",
-    "id_igdb": "",
-    "active": true
+    "id": "gumby-vs-the-astrobots",
+    "id_igdb": 49297,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gumshoe",
@@ -12907,15 +12989,6 @@
     "console": "nes",
     "id": "gun-dot-smoke",
     "id_igdb": 40965,
-    "active": true
-  },
-  {
-    "name": "Gundam Seed - Battle Assault",
-    "filename": "Gundam Seed - Battle Assault.zip",
-    "image": "",
-    "console": "gba",
-    "id": "gundam-seed-battle-assault",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -13027,31 +13100,34 @@
     "active": true
   },
   {
-    "name": "Hamtaro - Ham Ham Games",
+    "name": "Hamtaro: Ham-Ham Games",
     "filename": "Hamtaro - Ham Ham Games.zip",
-    "image": "",
+    "image": "/images/roms/gba/hamtaro-ham-ham-games.jpg",
     "console": "gba",
     "id": "hamtaro-ham-ham-games",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6429,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Hamtaro - Ham Ham Heartbreak",
+    "name": "Hamtaro: Ham-Ham Heartbreak",
     "filename": "Hamtaro - Ham Ham Heartbreak.zip",
-    "image": "",
+    "image": "/images/roms/gba/hamtaro-ham-ham-heartbreak.jpg",
     "console": "gba",
     "id": "hamtaro-ham-ham-heartbreak",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6428,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Hamtaro - Rainbow Rescue",
+    "name": "Hamtaro: Rainbow Rescue",
     "filename": "Hamtaro - Rainbow Rescue.zip",
-    "image": "",
+    "image": "/images/roms/gba/hamtaro-rainbow-rescue.jpg",
     "console": "gba",
     "id": "hamtaro-rainbow-rescue",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6427,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hang-On",
@@ -13174,13 +13250,14 @@
     "active": true
   },
   {
-    "name": "Harlem Globetrotters - World Tour",
+    "name": "Harlem Globetrotters World Tour",
     "filename": "Harlem Globetrotters - World Tour.zip",
-    "image": "",
+    "image": "/images/roms/gba/harlem-globetrotters-world-tour.jpg",
     "console": "gba",
     "id": "harlem-globetrotters-world-tour",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6430,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Harley's Humongous Adventure",
@@ -13189,15 +13266,6 @@
     "console": "snes",
     "id": "harleys-humongous-adventure",
     "id_igdb": 20337,
-    "active": true
-  },
-  {
-    "name": "Harry Potter - Quidditch World Cup",
-    "filename": "Harry Potter - Quidditch World Cup.zip",
-    "image": "",
-    "console": "gba",
-    "id": "harry-potter-quidditch-world-cup",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -13255,6 +13323,16 @@
     "active": true
   },
   {
+    "name": "Harry Potter: Quidditch World Cup",
+    "filename": "Harry Potter - Quidditch World Cup.zip",
+    "image": "/images/roms/gba/harry-potter-quidditch-world-cup.jpg",
+    "console": "gba",
+    "id": "harry-potter-quidditch-world-cup",
+    "id_igdb": 166523,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Harry Story",
     "filename": "Harry Story.zip",
     "image": "/images/roms/nes/harry-story.png",
@@ -13282,22 +13360,24 @@
     "active": true
   },
   {
-    "name": "Harvest Moon - Friends of Mineral Town",
+    "name": "Harvest Moon: Friends of Mineral Town",
     "filename": "Harvest Moon - Friends of Mineral Town.zip",
-    "image": "",
+    "image": "/images/roms/gba/harvest-moon-friends-of-mineral-town.jpg",
     "console": "gba",
     "id": "harvest-moon-friends-of-mineral-town",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 3383,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Harvest Moon - More Friends of Mineral Town",
+    "name": "Harvest Moon: More Friends of Mineral Town",
     "filename": "Harvest Moon - More Friends of Mineral Town.zip",
-    "image": "",
+    "image": "/images/roms/gba/harvest-moon-more-friends-of-mineral-town.jpg",
     "console": "gba",
     "id": "harvest-moon-more-friends-of-mineral-town",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49188,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hatris",
@@ -13317,15 +13397,6 @@
     "id_igdb": 8100,
     "active": true,
     "check": true
-  },
-  {
-    "name": "He-Man and the Power of Grayskull",
-    "filename": "He-Man and the Power of Grayskull.zip",
-    "image": "",
-    "console": "gba",
-    "id": "he-man-and-the-power-of-grayskull",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Head-On Soccer",
@@ -13392,13 +13463,14 @@
     "active": true
   },
   {
-    "name": "Heidi - the Game",
+    "name": "Heidi: The Game",
     "filename": "Heidi - the Game.zip",
-    "image": "",
+    "image": "/images/roms/gba/heidi-the-game.jpg",
     "console": "gba",
     "id": "heidi-the-game",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49479,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Heisei Tensai Bakabon",
@@ -13428,15 +13500,6 @@
     "active": true
   },
   {
-    "name": "Hello Kitty - Happy Party Pals",
-    "filename": "Hello Kitty - Happy Party Pals.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hello-kitty-happy-party-pals",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Hello Kitty World",
     "filename": "Hello Kitty World.zip",
     "image": "/images/roms/nes/hello-kitty-world.jpg",
@@ -13455,13 +13518,14 @@
     "active": true
   },
   {
-    "name": "Herbie - Fully Loaded",
-    "filename": "Herbie - Fully Loaded.zip",
-    "image": "",
+    "name": "Hello Kitty: Happy Party Pals",
+    "filename": "Hello Kitty - Happy Party Pals.zip",
+    "image": "/images/roms/gba/hello-kitty-happy-party-pals.jpg",
     "console": "gba",
-    "id": "herbie-fully-loaded",
-    "id_igdb": "",
-    "active": true
+    "id": "hello-kitty-happy-party-pals",
+    "id_igdb": 3689,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hero of the Sun - Fire Bird",
@@ -13482,31 +13546,34 @@
     "active": true
   },
   {
-    "name": "Hey Arnold - the Movie",
+    "name": "Hey Arnold! The Movie",
     "filename": "Hey Arnold - the Movie.zip",
-    "image": "",
+    "image": "/images/roms/gba/hey-arnold-the-movie.jpg",
     "console": "gba",
     "id": "hey-arnold-the-movie",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6565,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Hi Hi Puffy Amiyumi - Kaznapped!",
+    "name": "Hi Hi Puffy AmiYumi: Kaznapped!",
     "filename": "Hi Hi Puffy Amiyumi - Kaznapped!.zip",
-    "image": "",
+    "image": "/images/roms/gba/hi-hi-puffy-amiyumi-kaznapped.jpg",
     "console": "gba",
-    "id": "hi-hi-puffy-amiyumi-kaznapped-",
-    "id_igdb": "",
-    "active": true
+    "id": "hi-hi-puffy-amiyumi-kaznapped",
+    "id_igdb": 2819,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "High Heat - Major League Baseball 2002",
+    "name": "High Heat Major League Baseball 2002",
     "filename": "High Heat - Major League Baseball 2002.zip",
-    "image": "",
+    "image": "/images/roms/gba/high-heat-major-league-baseball-2002.jpg",
     "console": "gba",
     "id": "high-heat-major-league-baseball-2002",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 248754,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "High Heat Major League Baseball 2003",
@@ -13518,13 +13585,14 @@
     "active": true
   },
   {
-    "name": "High School Musical - Livin the Dream",
+    "name": "High School Musical: Livin' the Dream",
     "filename": "High School Musical - Livin the Dream.zip",
-    "image": "",
+    "image": "/images/roms/gba/high-school-musical-livin-the-dream.jpg",
     "console": "gba",
     "id": "high-school-musical-livin-the-dream",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49478,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "High School Soccer - Kunio Kun",
@@ -13599,15 +13667,6 @@
     "id_igdb": 46208,
     "active": true,
     "check": true
-  },
-  {
-    "name": "Hobbit",
-    "filename": "Hobbit.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hobbit",
-    "id_igdb": "",
-    "active": true
   },
   {
     "name": "Hogan's Alley",
@@ -13729,15 +13788,6 @@
     "active": true
   },
   {
-    "name": "Home on the Range",
-    "filename": "Home on the Range.zip",
-    "image": "",
-    "console": "gba",
-    "id": "home-on-the-range",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Honoo no Toukyuuji: Dodge Danpei",
     "filename": "Dodge Ball - Kuy Kid (J).smd",
     "image": "/images/roms/gens/honoo-no-toukyuuji-dodge-danpei.jpg",
@@ -13799,7 +13849,8 @@
     "console": "gba",
     "id": "horse-and-pony-let-s-ride-2",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Horsez",
@@ -13811,58 +13862,14 @@
     "active": true
   },
   {
-    "name": "Hot Potato",
+    "name": "Hot Potato!",
     "filename": "Hot Potato.zip",
-    "image": "",
+    "image": "/images/roms/gba/hot-potato.jpg",
     "console": "gba",
     "id": "hot-potato",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hot Wheels - All Out",
-    "filename": "Hot Wheels - All Out.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hot-wheels-all-out",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hot Wheels - Burnin' Rubber",
-    "filename": "Hot Wheels - Burnin' Rubber.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hot-wheels-burnin-rubber",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hot Wheels - Stunt Track Challenge",
-    "filename": "Hot Wheels - Stunt Track Challenge.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hot-wheels-stunt-track-challenge",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hot Wheels - Velocity X",
-    "filename": "Hot Wheels - Velocity X.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hot-wheels-velocity-x",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hot Wheels - World Race",
-    "filename": "Hot Wheels - World Race.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hot-wheels-world-race",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6437,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hot Wheels Advance",
@@ -13871,7 +13878,58 @@
     "console": "gba",
     "id": "hot-wheels-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Hot Wheels Velocity X",
+    "filename": "Hot Wheels - Velocity X.zip",
+    "image": "/images/roms/gba/hot-wheels-velocity-x.jpg",
+    "console": "gba",
+    "id": "hot-wheels-velocity-x",
+    "id_igdb": 243199,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Hot Wheels World Race",
+    "filename": "Hot Wheels - World Race.zip",
+    "image": "/images/roms/gba/hot-wheels-world-race.jpg",
+    "console": "gba",
+    "id": "hot-wheels-world-race",
+    "id_igdb": 243147,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Hot Wheels: All Out",
+    "filename": "Hot Wheels - All Out.zip",
+    "image": "/images/roms/gba/hot-wheels-all-out.jpg",
+    "console": "gba",
+    "id": "hot-wheels-all-out",
+    "id_igdb": 49283,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Hot Wheels: Burnin' Rubber",
+    "filename": "Hot Wheels - Burnin' Rubber.zip",
+    "image": "/images/roms/gba/hot-wheels-burnin-rubber.jpg",
+    "console": "gba",
+    "id": "hot-wheels-burnin-rubber",
+    "id_igdb": 49295,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Hot Wheels: Stunt Track Challenge",
+    "filename": "Hot Wheels - Stunt Track Challenge.zip",
+    "image": "/images/roms/gba/hot-wheels-stunt-track-challenge.jpg",
+    "console": "gba",
+    "id": "hot-wheels-stunt-track-challenge",
+    "id_igdb": 248755,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hotman",
@@ -13910,31 +13968,24 @@
     "active": true
   },
   {
-    "name": "Hugo - Agent Roborumble",
-    "filename": "Hugo - Agent Roborumble.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hugo-agent-roborumble",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Hugo - Bukkazoom!",
+    "name": "Hugo: Bukkazoom",
     "filename": "Hugo - Bukkazoom!.zip",
-    "image": "",
+    "image": "/images/roms/gba/hugo-bukkazoom.jpg",
     "console": "gba",
-    "id": "hugo-bukkazoom-",
-    "id_igdb": "",
-    "active": true
+    "id": "hugo-bukkazoom",
+    "id_igdb": 49423,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Hugo - the Evil Mirror",
+    "name": "Hugo: The Evil Mirror",
     "filename": "Hugo - the Evil Mirror.zip",
-    "image": "",
+    "image": "/images/roms/gba/hugo-the-evil-mirror.jpg",
     "console": "gba",
     "id": "hugo-the-evil-mirror",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6438,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Hungry Dinosaurs",
@@ -14010,13 +14061,14 @@
     "active": true
   },
   {
-    "name": "I Spy Challenger",
+    "name": "I Spy Challenger!",
     "filename": "I Spy Challenger.zip",
-    "image": "",
+    "image": "/images/roms/gba/i-spy-challenger.jpg",
     "console": "gba",
     "id": "i-spy-challenger",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49294,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "IK Plus - the Ultimate Martial Arts Simulation",
@@ -14025,7 +14077,8 @@
     "console": "gba",
     "id": "ik-plus-the-ultimate-martial-arts-simulation",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "IMG International Tour Tennis",
@@ -14046,13 +14099,14 @@
     "active": true
   },
   {
-    "name": "Ice Age 2 - the Meltdown",
+    "name": "Ice Age 2: The Meltdown",
     "filename": "Ice Age 2 - the Meltdown.zip",
-    "image": "",
+    "image": "/images/roms/gba/ice-age-2-the-meltdown.jpg",
     "console": "gba",
     "id": "ice-age-2-the-meltdown",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 248537,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ice Climber",
@@ -14082,13 +14136,14 @@
     "active": true
   },
   {
-    "name": "Ignition Collection Volume 1",
+    "name": "Ignition Collection: Volume 1",
     "filename": "Ignition Collection Volume 1.zip",
-    "image": "",
+    "image": "/images/roms/gba/ignition-collection-volume-1.jpg",
     "console": "gba",
     "id": "ignition-collection-volume-1",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49622,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ikari III: The Rescue",
@@ -14190,33 +14245,6 @@
     "active": true
   },
   {
-    "name": "Incredible Hulk",
-    "filename": "Incredible Hulk.zip",
-    "image": "",
-    "console": "gba",
-    "id": "incredible-hulk",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Incredibles",
-    "filename": "Incredibles.zip",
-    "image": "",
-    "console": "gba",
-    "id": "incredibles",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Incredibles - Rise of the Underminer",
-    "filename": "Incredibles - Rise of the Underminer.zip",
-    "image": "",
-    "console": "gba",
-    "id": "incredibles-rise-of-the-underminer",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Indiana Jones and the Last Crusade",
     "filename": "Indiana Jones and the Last Crusade (U).zip",
     "image": "/images/roms/nes/indiana-jones-and-the-last-crusade.jpg",
@@ -14299,15 +14327,6 @@
     "active": true
   },
   {
-    "name": "Inspector Gadget - Advanced Mission",
-    "filename": "Inspector Gadget - Advanced Mission.zip",
-    "image": "",
-    "console": "gba",
-    "id": "inspector-gadget-advanced-mission",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Inspector Gadget Racing",
     "filename": "Inspector Gadget Racing.zip",
     "image": "/images/roms/gba/inspector-gadget-racing.jpg",
@@ -14315,6 +14334,16 @@
     "id": "inspector-gadget-racing",
     "id_igdb": 49293,
     "active": true
+  },
+  {
+    "name": "Inspector Gadget: Advance Mission",
+    "filename": "Inspector Gadget - Advanced Mission.zip",
+    "image": "/images/roms/gba/inspector-gadget-advance-mission.jpg",
+    "console": "gba",
+    "id": "inspector-gadget-advance-mission",
+    "id_igdb": 4864,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Instruments of Chaos Starring Young Indiana Jones",
@@ -14335,21 +14364,22 @@
     "active": true
   },
   {
+    "name": "International Karate +",
+    "filename": "International Karate Plus.zip",
+    "image": "/images/roms/gba/international-karate-plus.jpg",
+    "console": "gba",
+    "id": "international-karate-plus",
+    "id_igdb": 8397,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "International Karate Advanced",
     "filename": "International Karate Advanced.zip",
     "image": "/images/roms/gba/international-karate-advanced.jpg",
     "console": "gba",
     "id": "international-karate-advanced",
     "id_igdb": 49292,
-    "active": true
-  },
-  {
-    "name": "International Karate Plus",
-    "filename": "International Karate Plus.zip",
-    "image": "",
-    "console": "gba",
-    "id": "international-karate-plus",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -14416,15 +14446,6 @@
     "active": true
   },
   {
-    "name": "Invincible Iron Man",
-    "filename": "Invincible Iron Man.zip",
-    "image": "",
-    "console": "gba",
-    "id": "invincible-iron-man",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Iridion 3D",
     "filename": "Iridion 3D.zip",
     "image": "/images/roms/gba/iridion-3d.jpg",
@@ -14440,7 +14461,8 @@
     "console": "gba",
     "id": "iridion-3d-2",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Iron Commando",
@@ -14489,13 +14511,14 @@
     "check": true
   },
   {
-    "name": "It's Mr. Pants!",
+    "name": "It's Mr. Pants",
     "filename": "It's Mr. Pants!.zip",
-    "image": "",
+    "image": "/images/roms/gba/it-s-mr-pants.jpg",
     "console": "gba",
-    "id": "it-s-mr",
-    "id_igdb": "",
-    "active": true
+    "id": "it-s-mr-pants",
+    "id_igdb": 6355,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ivan ''Ironman'' Stewart's Super Off Road",
@@ -14634,13 +14657,14 @@
     "active": true
   },
   {
-    "name": "Jackie Chan Adventures - Legend of the Dark Hand",
+    "name": "Jackie Chan Adventures: Legend of the Dark Hand",
     "filename": "Jackie Chan Adventures - Legend of the Dark Hand.zip",
-    "image": "",
+    "image": "/images/roms/gba/jackie-chan-adventures-legend-of-the-dark-hand.jpg",
     "console": "gba",
     "id": "jackie-chan-adventures-legend-of-the-dark-hand",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 8155,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jackie Chan's Action Kung Fu",
@@ -14661,22 +14685,24 @@
     "active": true
   },
   {
-    "name": "James Bond 007 - Everything or Nothing",
+    "name": "James Bond 007: Everything or Nothing",
     "filename": "James Bond 007 - Everything or Nothing.zip",
-    "image": "",
+    "image": "/images/roms/gba/james-bond-007-everything-or-nothing.jpg",
     "console": "gba",
     "id": "james-bond-007-everything-or-nothing",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 243013,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "James Bond 007 - Nightfire",
+    "name": "James Bond 007: Nightfire",
     "filename": "James Bond 007 - Nightfire.zip",
-    "image": "",
+    "image": "/images/roms/gba/james-bond-007-nightfire.jpg",
     "console": "gba",
     "id": "james-bond-007-nightfire",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 248458,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "James Bond 007: The Duel",
@@ -14706,13 +14732,14 @@
     "active": true
   },
   {
-    "name": "James Pond - Codename Robocod",
+    "name": "James Pond 2: Codename - RoboCod",
     "filename": "James Pond - Codename Robocod.zip",
-    "image": "",
+    "image": "/images/roms/gba/james-pond-2-codename-robocod.jpg",
     "console": "gba",
-    "id": "james-pond-codename-robocod",
-    "id_igdb": "",
-    "active": true
+    "id": "james-pond-2-codename-robocod",
+    "id_igdb": 4443,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "James Pond 2: Codename - RoboCod",
@@ -14802,7 +14829,8 @@
     "console": "gba",
     "id": "jazz-jack-rabbit",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jelly Boy",
@@ -14928,7 +14956,8 @@
     "console": "gba",
     "id": "jet-set-radio",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jewel Master",
@@ -14994,33 +15023,6 @@
     "active": true
   },
   {
-    "name": "Jimmy Neutron - Attack of the Twonkies",
-    "filename": "Jimmy Neutron - Attack of the Twonkies.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jimmy-neutron-attack-of-the-twonkies",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Jimmy Neutron - Boy Genius",
-    "filename": "Jimmy Neutron - Boy Genius.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jimmy-neutron-boy-genius",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Jimmy Neutron - Jet Fusion",
-    "filename": "Jimmy Neutron - Jet Fusion.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jimmy-neutron-jet-fusion",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jimmy Neutron vs. Jimmy Negatron",
     "filename": "Jimmy Neutron vs. Jimmy Negatron.zip",
     "image": "/images/roms/gba/jimmy-neutron-vs-jimmy-negatron.jpg",
@@ -15028,6 +15030,16 @@
     "id": "jimmy-neutron-vs-jimmy-negatron",
     "id_igdb": 248695,
     "active": true
+  },
+  {
+    "name": "Jimmy Neutron: Boy Genius",
+    "filename": "Jimmy Neutron - Boy Genius.zip",
+    "image": "/images/roms/gba/jimmy-neutron-boy-genius.jpg",
+    "console": "gba",
+    "id": "jimmy-neutron-boy-genius",
+    "id_igdb": 49291,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jimmy White's 'Whirlwind' Snooker",
@@ -15156,13 +15168,14 @@
     "active": true
   },
   {
-    "name": "Jonny Moseley - Mad Trix",
+    "name": "Jonny Moseley: Mad Trix",
     "filename": "Jonny Moseley - Mad Trix.zip",
-    "image": "",
+    "image": "/images/roms/gba/jonny-moseley-mad-trix.jpg",
     "console": "gba",
     "id": "jonny-moseley-mad-trix",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49336,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jordan vs. Bird: One on One",
@@ -15282,24 +15295,6 @@
     "active": true
   },
   {
-    "name": "Jungle Book",
-    "filename": "Jungle Book.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jungle-book",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Jungle Book 2",
-    "filename": "Jungle Book 2.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jungle-book-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Jungle Strike",
     "filename": "Jungle Strike (UEJ) [!].smd",
     "image": "/images/roms/gens/jungle-strike.jpg",
@@ -15354,31 +15349,34 @@
     "active": true
   },
   {
-    "name": "Jurassic Park 3 - Island Attack",
+    "name": "Jurassic Park III: Island Attack",
     "filename": "Jurassic Park 3 - Island Attack.zip",
-    "image": "",
+    "image": "/images/roms/gba/jurassic-park-iii-island-attack.jpg",
     "console": "gba",
-    "id": "jurassic-park-3-island-attack",
-    "id_igdb": "",
-    "active": true
+    "id": "jurassic-park-iii-island-attack",
+    "id_igdb": 6482,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Jurassic Park 3 - Park Builder",
+    "name": "Jurassic Park III: Park Builder",
     "filename": "Jurassic Park 3 - Park Builder.zip",
-    "image": "",
+    "image": "/images/roms/gba/jurassic-park-iii-park-builder.jpg",
     "console": "gba",
-    "id": "jurassic-park-3-park-builder",
-    "id_igdb": "",
-    "active": true
+    "id": "jurassic-park-iii-park-builder",
+    "id_igdb": 6483,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Jurassic Park 3 - the DNA Factor",
+    "name": "Jurassic Park III: The DNA Factor",
     "filename": "Jurassic Park 3 - the DNA Factor.zip",
-    "image": "",
+    "image": "/images/roms/gba/jurassic-park-iii-the-dna-factor.jpg",
     "console": "gba",
-    "id": "jurassic-park-3-the-dna-factor",
-    "id_igdb": "",
-    "active": true
+    "id": "jurassic-park-iii-the-dna-factor",
+    "id_igdb": 6481,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Jurassic Park Part 2: The Chaos Continues",
@@ -15403,9 +15401,10 @@
     "filename": "Jurassic park 3 - Dino Attack.zip",
     "image": "",
     "console": "gba",
-    "id": "jurassic-park-3-dino-attack",
-    "id_igdb": "",
-    "active": true
+    "id": "jurassic-park-iii-dino-attack",
+    "id_igdb": 6482,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Just Breed",
@@ -15417,31 +15416,14 @@
     "active": true
   },
   {
-    "name": "Justice League - Chronicles",
-    "filename": "Justice League - Chronicles.zip",
-    "image": "",
-    "console": "gba",
-    "id": "justice-league-chronicles",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Justice League - Injustice for All",
-    "filename": "Justice League - Injustice for All.zip",
-    "image": "",
-    "console": "gba",
-    "id": "justice-league-injustice-for-all",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Justice League Heroes - the Flash",
+    "name": "Justice League Heroes: The Flash",
     "filename": "Justice League Heroes - the Flash.zip",
-    "image": "",
+    "image": "/images/roms/gba/justice-league-heroes-the-flash.jpg",
     "console": "gba",
     "id": "justice-league-heroes-the-flash",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6486,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Justice League Task Force",
@@ -15460,6 +15442,26 @@
     "id": "justice-league-task-force",
     "id_igdb": 455,
     "active": true
+  },
+  {
+    "name": "Justice League: Chronicles",
+    "filename": "Justice League - Chronicles.zip",
+    "image": "/images/roms/gba/justice-league-chronicles.jpg",
+    "console": "gba",
+    "id": "justice-league-chronicles",
+    "id_igdb": 6485,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Justice League: Injustice for All",
+    "filename": "Justice League - Injustice for All.zip",
+    "image": "/images/roms/gba/justice-league-injustice-for-all.jpg",
+    "console": "gba",
+    "id": "justice-league-injustice-for-all",
+    "id_igdb": 6484,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Ka-Ge-Ki: Fists of Steel",
@@ -15786,13 +15788,14 @@
     "active": true
   },
   {
-    "name": "Kien - Discover the Secret of Kien",
+    "name": "Kien",
     "filename": "Kien - Discover the Secret of Kien.zip",
-    "image": "",
+    "image": "/images/roms/gba/kien.jpg",
     "console": "gba",
-    "id": "kien-discover-the-secret-of-kien",
-    "id_igdb": "",
-    "active": true
+    "id": "kien",
+    "id_igdb": 210160,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kill-Switch",
@@ -15801,7 +15804,8 @@
     "console": "gba",
     "id": "kill-switch",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Killer 3D Pool",
@@ -15828,25 +15832,8 @@
     "console": "gba",
     "id": "kim-possible",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Kim Possible 2 - Drakken's Demise",
-    "filename": "Kim Possible 2 - Drakken's Demise.zip",
-    "image": "",
-    "console": "gba",
-    "id": "kim-possible-2-drakken-s-demise",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Kim Possible 3 - Team Possible",
-    "filename": "Kim Possible 3 - Team Possible.zip",
-    "image": "",
-    "console": "gba",
-    "id": "kim-possible-3-team-possible",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "King Arthur & the Knights of Justice",
@@ -15882,16 +15869,8 @@
     "console": "gba",
     "id": "king-kong",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "King Kong - King of Atlantis",
-    "filename": "King Kong - King of Atlantis.zip",
-    "image": "",
-    "console": "gba",
-    "id": "king-kong-king-of-atlantis",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "King Neptune's Adventure",
@@ -15909,24 +15888,6 @@
     "console": "gens",
     "id": "king-salmon-the-big-catch",
     "id_igdb": 4480,
-    "active": true
-  },
-  {
-    "name": "King of Fighters EX - Neo Blood",
-    "filename": "King of Fighters EX - Neo Blood.zip",
-    "image": "",
-    "console": "gba",
-    "id": "king-of-fighters-ex-neo-blood",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "King of Fighters EX 2 - Howling Blood",
-    "filename": "King of Fighters EX 2 - Howling Blood.zip",
-    "image": "",
-    "console": "gba",
-    "id": "king-of-fighters-ex-2-howling-blood",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16011,13 +15972,14 @@
     "active": true
   },
   {
-    "name": "Kingdom Hearts - Chain of Memories",
+    "name": "Kingdom Hearts: Chain of Memories",
     "filename": "Kingdom Hearts - Chain of Memories.zip",
-    "image": "",
+    "image": "/images/roms/gba/kingdom-hearts-chain-of-memories.jpg",
     "console": "gba",
     "id": "kingdom-hearts-chain-of-memories",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 1220,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kings of the Beach",
@@ -16029,21 +15991,22 @@
     "active": true
   },
   {
+    "name": "Kirby & the Amazing Mirror",
+    "filename": "Kirby and the Amazing Mirror.zip",
+    "image": "/images/roms/gba/kirby-and-the-amazing-mirror.jpg",
+    "console": "gba",
+    "id": "kirby-and-the-amazing-mirror",
+    "id_igdb": 3721,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Kirby Super Star",
     "filename": "Kirby Super Star (U) [!].smc",
     "image": "/images/roms/snes/kirby-super-star.jpg",
     "console": "snes",
     "id": "kirby-super-star",
     "id_igdb": 3719,
-    "active": true
-  },
-  {
-    "name": "Kirby and the Amazing Mirror",
-    "filename": "Kirby and the Amazing Mirror.zip",
-    "image": "",
-    "console": "gba",
-    "id": "kirby-and-the-amazing-mirror",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16089,7 +16052,8 @@
     "console": "gba",
     "id": "kirby-s-nightmare-in-dreamland",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Kiteretsu Daihyakka",
@@ -16146,22 +16110,24 @@
     "active": true
   },
   {
-    "name": "Klonoa - Empire of Dreams",
-    "filename": "Klonoa - Empire of Dreams.zip",
-    "image": "",
-    "console": "gba",
-    "id": "klonoa-empire-of-dreams",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Klonoa 2 - Dream Champ Tournament",
+    "name": "Klonoa 2: Dream Champ Tournament",
     "filename": "Klonoa 2 - Dream Champ Tournament.zip",
-    "image": "",
+    "image": "/images/roms/gba/klonoa-2-dream-champ-tournament.jpg",
     "console": "gba",
     "id": "klonoa-2-dream-champ-tournament",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6493,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Klonoa: Empire of Dreams",
+    "filename": "Klonoa - Empire of Dreams.zip",
+    "image": "/images/roms/gba/klonoa-empire-of-dreams.jpg",
+    "console": "gba",
+    "id": "klonoa-empire-of-dreams",
+    "id_igdb": 6492,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Knight Rider",
@@ -16200,22 +16166,14 @@
     "active": true
   },
   {
-    "name": "Koala Brothers - Outback Adventures",
-    "filename": "Koala Brothers - Outback Adventures.zip",
-    "image": "",
-    "console": "gba",
-    "id": "koala-brothers-outback-adventures",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Konami Collectors Series - Arcade Advanced",
+    "name": "Konami Collector's Series: Arcade Advanced",
     "filename": "Konami Collectors Series - Arcade Advanced.zip",
-    "image": "",
+    "image": "/images/roms/gba/konami-collector-s-series-arcade-advanced.jpg",
     "console": "gba",
-    "id": "konami-collectors-series-arcade-advanced",
-    "id_igdb": "",
-    "active": true
+    "id": "konami-collector-s-series-arcade-advanced",
+    "id_igdb": 6494,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Konami GB Collection Vol. 1",
@@ -16224,7 +16182,8 @@
     "console": "gba",
     "id": "konami-gb-collection-vol-1",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Konami GB Collection Vol. 3",
@@ -16233,7 +16192,8 @@
     "console": "gba",
     "id": "konami-gb-collection-vol-3",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Konami Hyper Soccer",
@@ -16245,31 +16205,44 @@
     "active": true
   },
   {
-    "name": "Konami's Krazy Racers",
+    "name": "Konami Krazy Racers",
     "filename": "Konami's Krazy Racers.zip",
-    "image": "",
+    "image": "/images/roms/gba/konami-krazy-racers.jpg",
     "console": "gba",
-    "id": "konami-s-krazy-racers",
-    "id_igdb": "",
-    "active": true
+    "id": "konami-krazy-racers",
+    "id_igdb": 6495,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Kong - the 8th Wonder of the World",
+    "name": "Kong: King of Atlantis",
+    "filename": "King Kong - King of Atlantis.zip",
+    "image": "/images/roms/gba/kong-king-of-atlantis.jpg",
+    "console": "gba",
+    "id": "kong-king-of-atlantis",
+    "id_igdb": 49334,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Kong: The 8th Wonder of the World",
     "filename": "Kong - the 8th Wonder of the World.zip",
-    "image": "",
+    "image": "/images/roms/gba/kong-the-8th-wonder-of-the-world.jpg",
     "console": "gba",
     "id": "kong-the-8th-wonder-of-the-world",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49397,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Kong - the Animated Series",
+    "name": "Kong: The Animated Series",
     "filename": "Kong - the Animated Series.zip",
-    "image": "",
+    "image": "/images/roms/gba/kong-the-animated-series.jpg",
     "console": "gba",
     "id": "kong-the-animated-series",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49333,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Krazy Kreatures",
@@ -16278,15 +16251,6 @@
     "console": "nes",
     "id": "krazy-kreatures",
     "id_igdb": 10503,
-    "active": true
-  },
-  {
-    "name": "Krazy Racers",
-    "filename": "Krazy Racers.zip",
-    "image": "",
-    "console": "gba",
-    "id": "krazy-racers",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16416,22 +16380,14 @@
     "active": true
   },
   {
-    "name": "LEGO -  Knight's Kingdom",
-    "filename": "LEGO -  Knight's Kingdom.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-knight-s-kingdom",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "LEGO - Bionicle",
     "filename": "LEGO - Bionicle.zip",
     "image": "",
     "console": "gba",
     "id": "lego-bionicle",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO - Bionicle - Matoran Adventures",
@@ -16440,7 +16396,8 @@
     "console": "gba",
     "id": "lego-bionicle-matoran-adventures",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO - Bionicle - Maze of Shadows",
@@ -16449,7 +16406,8 @@
     "console": "gba",
     "id": "lego-bionicle-maze-of-shadows",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO - Bionicle - the Game",
@@ -16458,7 +16416,8 @@
     "console": "gba",
     "id": "lego-bionicle-the-game",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO - Bionicle Heroes",
@@ -16467,7 +16426,8 @@
     "console": "gba",
     "id": "lego-bionicle-heroes",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO - Drome Racers",
@@ -16476,7 +16436,8 @@
     "console": "gba",
     "id": "lego-drome-racers",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO - Football Mania",
@@ -16485,43 +16446,8 @@
     "console": "gba",
     "id": "lego-football-mania",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Racers 2",
-    "filename": "LEGO - Racers 2.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-racers-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Soccer Mania",
-    "filename": "LEGO - Soccer Mania.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-soccer-mania",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Star Wars - the Video Game",
-    "filename": "LEGO - Star Wars - the Video Game.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-star-wars-the-video-game",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Star Wars 2 - the Original Trilogy",
-    "filename": "LEGO - Star Wars 2 - the Original Trilogy.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-star-wars-2-the-original-trilogy",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LEGO Island - Xtreme Stunts",
@@ -16530,16 +16456,68 @@
     "console": "gba",
     "id": "lego-island-xtreme-stunts",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "LEGO Island 2",
+    "name": "LEGO Island 2: The Brickster's Revenge",
     "filename": "LEGO Island 2.zip",
-    "image": "",
+    "image": "/images/roms/gba/lego-island-2-the-bricksters-revenge.jpg",
     "console": "gba",
-    "id": "lego-island-2",
-    "id_igdb": "",
-    "active": true
+    "id": "lego-island-2-the-bricksters-revenge",
+    "id_igdb": 229841,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "LEGO Knights' Kingdom",
+    "filename": "LEGO -  Knight's Kingdom.zip",
+    "image": "/images/roms/gba/lego-knights-kingdom.jpg",
+    "console": "gba",
+    "id": "lego-knights-kingdom",
+    "id_igdb": 6498,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "LEGO Racers 2",
+    "filename": "LEGO - Racers 2.zip",
+    "image": "/images/roms/gba/lego-racers-2.jpg",
+    "console": "gba",
+    "id": "lego-racers-2",
+    "id_igdb": 229843,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "LEGO Soccer Mania",
+    "filename": "LEGO - Soccer Mania.zip",
+    "image": "/images/roms/gba/lego-soccer-mania.jpg",
+    "console": "gba",
+    "id": "lego-soccer-mania",
+    "id_igdb": 49221,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "LEGO Star Wars II: The Original Trilogy",
+    "filename": "LEGO - Star Wars 2 - the Original Trilogy.zip",
+    "image": "/images/roms/gba/lego-star-wars-ii-the-original-trilogy.jpg",
+    "console": "gba",
+    "id": "lego-star-wars-ii-the-original-trilogy",
+    "id_igdb": 194937,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "LEGO Star Wars: The Video Game",
+    "filename": "LEGO - Star Wars - the Video Game.zip",
+    "image": "/images/roms/gba/lego-star-wars-the-video-game.jpg",
+    "console": "gba",
+    "id": "lego-star-wars-the-video-game",
+    "id_igdb": 229840,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "LHX: Attack Chopper",
@@ -16587,22 +16565,14 @@
     "active": true
   },
   {
-    "name": "Land Before Time",
-    "filename": "Land Before Time.zip",
-    "image": "",
-    "console": "gba",
-    "id": "land-before-time",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Land Before Time - Into the Mysterious Land",
     "filename": "Land Before Time - Into the Mysterious Land.zip",
     "image": "",
     "console": "gba",
     "id": "land-before-time-into-the-mysterious-land",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Land of Illusion Starring Mickey Mouse",
@@ -16648,15 +16618,6 @@
     "console": "gens",
     "id": "langrisser-hikari-no-matsuei",
     "id_igdb": 42010,
-    "active": true
-  },
-  {
-    "name": "Lara Croft Tomb Raider - Legend",
-    "filename": "Lara Croft Tomb Raider - Legend.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lara-croft-tomb-raider-legend",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16777,13 +16738,14 @@
     "active": true
   },
   {
-    "name": "Legends of Wrestling 2",
+    "name": "Legends of Wrestling II",
     "filename": "Legends of Wrestling 2.zip",
-    "image": "",
+    "image": "/images/roms/gba/legends-of-wrestling-ii.jpg",
     "console": "gba",
-    "id": "legends-of-wrestling-2",
-    "id_igdb": "",
-    "active": true
+    "id": "legends-of-wrestling-ii",
+    "id_igdb": 194214,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Legends of the Diamond",
@@ -16849,13 +16811,14 @@
     "active": true
   },
   {
-    "name": "Lemony Snicket's a Series of Unfortunate Events",
+    "name": "Lemony Snicket's A Series of Unfortunate Events",
     "filename": "Lemony Snicket's a Series of Unfortunate Events.zip",
-    "image": "",
+    "image": "/images/roms/gba/lemony-snickets-a-series-of-unfortunate-events.jpg",
     "console": "gba",
-    "id": "lemony-snicket-s-a-series-of-unfortunate-events",
-    "id_igdb": "",
-    "active": true
+    "id": "lemony-snickets-a-series-of-unfortunate-events",
+    "id_igdb": 248493,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Les Indestructibles",
@@ -16864,7 +16827,8 @@
     "console": "gba",
     "id": "les-indestructibles",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lester the Unlikely",
@@ -16876,22 +16840,24 @@
     "active": true
   },
   {
-    "name": "Let's Ride! Dreamer",
+    "name": "Let's Ride!: Dreamer",
     "filename": "Let's Ride! Dreamer.zip",
-    "image": "",
+    "image": "/images/roms/gba/lets-ride-dreamer.jpg",
     "console": "gba",
-    "id": "let-s-ride-dreamer",
-    "id_igdb": "",
-    "active": true
+    "id": "lets-ride-dreamer",
+    "id_igdb": 49396,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Let's Ride! Sunshine Stables",
+    "name": "Let's Ride!: Sunshine Stables",
     "filename": "Let's Ride! Sunshine Stables.zip",
-    "image": "",
+    "image": "/images/roms/gba/lets-ride-sunshine-stables.jpg",
     "console": "gba",
-    "id": "let-s-ride-sunshine-stables",
-    "id_igdb": "",
-    "active": true
+    "id": "lets-ride-sunshine-stables",
+    "id_igdb": 49395,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lethal Enforcers",
@@ -16939,13 +16905,14 @@
     "active": true
   },
   {
-    "name": "Lets Ride - Friends Forever",
+    "name": "Lets Ride!: Friends Forever",
     "filename": "Lets Ride - Friends Forever.zip",
-    "image": "",
+    "image": "/images/roms/gba/lets-ride-friends-forever.jpg",
     "console": "gba",
     "id": "lets-ride-friends-forever",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 142571,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Liberty or Death",
@@ -16993,24 +16960,6 @@
     "active": true
   },
   {
-    "name": "Lilo & Stitch",
-    "filename": "Lilo & Stitch.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lilo-stitch",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lilo and Stitch 2 - Hamsterveil Havoc",
-    "filename": "Lilo and Stitch 2 - Hamsterveil Havoc.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lilo-and-stitch-2-hamsterveil-havoc",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Line of Fire",
     "filename": "Line of Fire (UE) [!].zip",
     "image": "/images/roms/sms/line-of-fire.jpg",
@@ -17044,16 +16993,8 @@
     "console": "gba",
     "id": "lion-king",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Little Einstein",
-    "filename": "Little Einstein.zip",
-    "image": "",
-    "console": "gba",
-    "id": "little-einstein",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Little League Baseball 2002",
@@ -17110,40 +17051,44 @@
     "active": true
   },
   {
-    "name": "Lizzie McGuire - On the Go!",
-    "filename": "Lizzie McGuire - On the Go!.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lizzie-mcguire-on-the-go-",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lizzie McGuire 2 - Lizzie Diaries",
-    "filename": "Lizzie McGuire 2 - Lizzie Diaries.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lizzie-mcguire-2-lizzie-diaries",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Lizzie McGuire 2 - Lizzie Diaries - Special Edition",
     "filename": "Lizzie McGuire 2 - Lizzie Diaries - Special Edition.zip",
     "image": "",
     "console": "gba",
     "id": "lizzie-mcguire-2-lizzie-diaries-special-edition",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Lizzie McGuire 3 - Home-Coming Havoc",
-    "filename": "Lizzie McGuire 3 - Home-Coming Havoc.zip",
-    "image": "",
+    "name": "Lizzie McGuire 2: Lizzie Diaries",
+    "filename": "Lizzie McGuire 2 - Lizzie Diaries.zip",
+    "image": "/images/roms/gba/lizzie-mcguire-2-lizzie-diaries.jpg",
     "console": "gba",
-    "id": "lizzie-mcguire-3-home-coming-havoc",
-    "id_igdb": "",
-    "active": true
+    "id": "lizzie-mcguire-2-lizzie-diaries",
+    "id_igdb": 49393,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Lizzie McGuire 3: Homecoming Havoc",
+    "filename": "Lizzie McGuire 3 - Home-Coming Havoc.zip",
+    "image": "/images/roms/gba/lizzie-mcguire-3-homecoming-havoc.jpg",
+    "console": "gba",
+    "id": "lizzie-mcguire-3-homecoming-havoc",
+    "id_igdb": 49392,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Lizzie McGuire: On the Go!",
+    "filename": "Lizzie McGuire - On the Go!.zip",
+    "image": "/images/roms/gba/lizzie-mcguire-on-the-go.jpg",
+    "console": "gba",
+    "id": "lizzie-mcguire-on-the-go",
+    "id_igdb": 49394,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lock On",
@@ -17173,15 +17118,6 @@
     "active": true
   },
   {
-    "name": "Looney Tunes - Back in Action",
-    "filename": "Looney Tunes - Back in Action.zip",
-    "image": "",
-    "console": "gba",
-    "id": "looney-tunes-back-in-action",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Looney Tunes B-Ball",
     "filename": "Looney Tunes B-Ball (U).smc",
     "image": "/images/roms/snes/looney-tunes-b-ball.jpg",
@@ -17198,6 +17134,16 @@
     "id": "looney-tunes-double-pack-dizzy-driving-acme-antics",
     "id_igdb": "",
     "active": true
+  },
+  {
+    "name": "Looney Tunes: Back in Action",
+    "filename": "Looney Tunes - Back in Action.zip",
+    "image": "/images/roms/gba/looney-tunes-back-in-action.jpg",
+    "console": "gba",
+    "id": "looney-tunes-back-in-action",
+    "id_igdb": 248448,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Loopz",
@@ -17218,57 +17164,12 @@
     "active": true
   },
   {
-    "name": "Lord of the Rings - the Fellowship of the Ring",
-    "filename": "Lord of the Rings - the Fellowship of the Ring.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lord-of-the-rings-the-fellowship-of-the-ring",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lord of the Rings - the Third Age",
-    "filename": "Lord of the Rings - the Third Age.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lord-of-the-rings-the-third-age",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lord of the Rings 2 - the Two Towers",
-    "filename": "Lord of the Rings 2 - the Two Towers.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lord-of-the-rings-2-the-two-towers",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Lord of the Rings 3 - Return of the King",
-    "filename": "Lord of the Rings 3 - Return of the King.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lord-of-the-rings-3-return-of-the-king",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Lord of the Sword",
     "filename": "Lord of the Sword (UE) [!].zip",
     "image": "/images/roms/sms/lord-of-the-sword.jpg",
     "console": "sms",
     "id": "lord-of-the-sword",
     "id_igdb": 46671,
-    "active": true
-  },
-  {
-    "name": "Lost Vikings",
-    "filename": "Lost Vikings.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lost-vikings",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -17305,7 +17206,8 @@
     "console": "gba",
     "id": "love-hina-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Low G Man: The Low Gravity Man",
@@ -17326,13 +17228,14 @@
     "active": true
   },
   {
-    "name": "Lucky Luke - Wanted",
+    "name": "Lucky Luke: Wanted!",
     "filename": "Lucky Luke - Wanted.zip",
-    "image": "",
+    "image": "/images/roms/gba/lucky-luke-wanted.jpg",
     "console": "gba",
     "id": "lucky-luke-wanted",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49331,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lufia & the Fortress of Doom",
@@ -17344,15 +17247,6 @@
     "active": true
   },
   {
-    "name": "Lufia - the Ruins of Lore",
-    "filename": "Lufia - the Ruins of Lore.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lufia-the-ruins-of-lore",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Lufia II: Rise of the Sinistrals",
     "filename": "Lufia II - Rise of the Sinistrals (U).smc",
     "image": "/images/roms/snes/lufia-ii-rise-of-the-sinistrals.jpg",
@@ -17360,6 +17254,16 @@
     "id": "lufia-ii-rise-of-the-sinistrals",
     "id_igdb": 1178,
     "active": true
+  },
+  {
+    "name": "Lufia: The Ruins of Lore",
+    "filename": "Lufia - the Ruins of Lore.zip",
+    "image": "/images/roms/gba/lufia-the-ruins-of-lore.jpg",
+    "console": "gba",
+    "id": "lufia-the-ruins-of-lore",
+    "id_igdb": 1180,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Lunar Legend",
@@ -17525,13 +17429,14 @@
     "active": true
   },
   {
-    "name": "Madagascar - Operation Penguin",
+    "name": "Madagascar: Operation Penguin",
     "filename": "Madagascar - Operation Penguin.zip",
-    "image": "",
+    "image": "/images/roms/gba/madagascar-operation-penguin.jpg",
     "console": "gba",
     "id": "madagascar-operation-penguin",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 3766,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Madden NFL '94",
@@ -18255,6 +18160,16 @@
     "active": true
   },
   {
+    "name": "Marvel's The Invincible Iron Man",
+    "filename": "Invincible Iron Man.zip",
+    "image": "/images/roms/gba/marvels-the-invincible-iron-man.jpg",
+    "console": "gba",
+    "id": "marvels-the-invincible-iron-man",
+    "id_igdb": 49231,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Mary Shelley's Frankenstein",
     "filename": "Mary Shelley's Frankenstein (U) [!].smd",
     "image": "/images/roms/gens/mary-shelley-s-frankenstein.jpg",
@@ -18325,6 +18240,16 @@
     "id": "masters-of-combat",
     "id_igdb": 46140,
     "active": true
+  },
+  {
+    "name": "Masters of the Universe: He-Man - Power of Grayskull",
+    "filename": "He-Man and the Power of Grayskull.zip",
+    "image": "/images/roms/gba/masters-of-the-universe-he-man-power-of-grayskull.jpg",
+    "console": "gba",
+    "id": "masters-of-the-universe-he-man-power-of-grayskull",
+    "id_igdb": 6432,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Mat Hoffman's Pro BMX",
@@ -29820,6 +29745,16 @@
     "active": true
   },
   {
+    "name": "Super Ghouls 'n Ghosts",
+    "filename": "Ghouls N Ghosts.zip",
+    "image": "/images/roms/gba/super-ghouls-n-ghosts.jpg",
+    "console": "gba",
+    "id": "super-ghouls-n-ghosts",
+    "id_igdb": 219488,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Super Ghouls'n Ghosts",
     "filename": "Super Ghouls 'N Ghosts (E).smc",
     "image": "/images/roms/snes/super-ghoulsn-ghosts.jpg",
@@ -31722,6 +31657,26 @@
     "active": true
   },
   {
+    "name": "The Adventures of Jimmy Neutron Boy Genius: Attack of the Twonkies",
+    "filename": "Jimmy Neutron - Attack of the Twonkies.zip",
+    "image": "/images/roms/gba/the-adventures-of-jimmy-neutron-boy-genius-attack-of-the-twonkies.jpg",
+    "console": "gba",
+    "id": "the-adventures-of-jimmy-neutron-boy-genius-attack-of-the-twonkies",
+    "id_igdb": 248496,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Adventures of Jimmy Neutron Boy Genius: Jet Fusion",
+    "filename": "Jimmy Neutron - Jet Fusion.zip",
+    "image": "/images/roms/gba/the-adventures-of-jimmy-neutron-boy-genius-jet-fusion.jpg",
+    "console": "gba",
+    "id": "the-adventures-of-jimmy-neutron-boy-genius-jet-fusion",
+    "id_igdb": 242423,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Adventures of Mighty Max",
     "filename": "Mighty Max (U).smc",
     "image": "/images/roms/snes/the-adventures-of-mighty-max.jpg",
@@ -32319,6 +32274,16 @@
     "check": true
   },
   {
+    "name": "The Grim Adventures of Billy & Mandy",
+    "filename": "Grim Adventures of Billy & Mandy.zip",
+    "image": "/images/roms/gba/the-grim-adventures-of-billy-and-mandy.jpg",
+    "console": "gba",
+    "id": "the-grim-adventures-of-billy-and-mandy",
+    "id_igdb": 248521,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Guardian Legend",
     "filename": "Guardian Legend.zip",
     "image": "/images/roms/nes/the-guardian-legend.jpg",
@@ -32326,6 +32291,16 @@
     "id": "the-guardian-legend",
     "id_igdb": 48058,
     "active": true
+  },
+  {
+    "name": "The Hobbit",
+    "filename": "Hobbit.zip",
+    "image": "/images/roms/gba/the-hobbit.jpg",
+    "console": "gba",
+    "id": "the-hobbit",
+    "id_igdb": 248450,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Humans",
@@ -32441,6 +32416,16 @@
   },
   {
     "name": "The Incredible Hulk",
+    "filename": "Incredible Hulk.zip",
+    "image": "/images/roms/gba/the-incredible-hulk.jpg",
+    "console": "gba",
+    "id": "the-incredible-hulk",
+    "id_igdb": 131067,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Incredible Hulk",
     "filename": "Incredible Hulk, The (UE) [!].zip",
     "image": "/images/roms/sms/the-incredible-hulk.jpg",
     "console": "sms",
@@ -32466,6 +32451,26 @@
     "id_igdb": 94829,
     "active": true,
     "check": true
+  },
+  {
+    "name": "The Incredibles",
+    "filename": "Incredibles.zip",
+    "image": "/images/roms/gba/the-incredibles.jpg",
+    "console": "gba",
+    "id": "the-incredibles",
+    "id_igdb": 210442,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Incredibles: Rise of the Underminer",
+    "filename": "Incredibles - Rise of the Underminer.zip",
+    "image": "/images/roms/gba/the-incredibles-rise-of-the-underminer.jpg",
+    "console": "gba",
+    "id": "the-incredibles-rise-of-the-underminer",
+    "id_igdb": 200818,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Irem Skins Game",
@@ -32558,6 +32563,36 @@
     "active": true
   },
   {
+    "name": "The King of Fighters EX2: Howling Blood",
+    "filename": "King of Fighters EX 2 - Howling Blood.zip",
+    "image": "/images/roms/gba/the-king-of-fighters-ex2-howling-blood.jpg",
+    "console": "gba",
+    "id": "the-king-of-fighters-ex2-howling-blood",
+    "id_igdb": 49169,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The King of Fighters EX: Neo Blood",
+    "filename": "King of Fighters EX - Neo Blood.zip",
+    "image": "/images/roms/gba/the-king-of-fighters-ex-neo-blood.jpg",
+    "console": "gba",
+    "id": "the-king-of-fighters-ex-neo-blood",
+    "id_igdb": 49170,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Koala Brothers: Outback Adventures",
+    "filename": "Koala Brothers - Outback Adventures.zip",
+    "image": "/images/roms/gba/the-koala-brothers-outback-adventures.jpg",
+    "console": "gba",
+    "id": "the-koala-brothers-outback-adventures",
+    "id_igdb": 49398,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "The Krion Conquest",
     "filename": "Krion Conquest.zip",
     "image": "/images/roms/nes/the-krion-conquest.jpg",
@@ -32565,6 +32600,16 @@
     "id": "the-krion-conquest",
     "id_igdb": 48173,
     "active": true
+  },
+  {
+    "name": "The Land Before Time",
+    "filename": "Land Before Time.zip",
+    "image": "/images/roms/gba/the-land-before-time.jpg",
+    "console": "gba",
+    "id": "the-land-before-time",
+    "id_igdb": 69555,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Last Ninja",
@@ -32691,6 +32736,56 @@
     "id": "the-lone-ranger",
     "id_igdb": 48183,
     "active": true
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "filename": "Lord of the Rings - the Fellowship of the Ring.zip",
+    "image": "/images/roms/gba/the-lord-of-the-rings-the-fellowship-of-the-ring.jpg",
+    "console": "gba",
+    "id": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+    "id_igdb": 201347,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "filename": "Lord of the Rings 3 - Return of the King.zip",
+    "image": "/images/roms/gba/the-lord-of-the-rings-the-return-of-the-king.jpg",
+    "console": "gba",
+    "id": "the-lord-of-the-rings-the-return-of-the-king",
+    "id_igdb": 308133,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Lord of the Rings: The Third Age",
+    "filename": "Lord of the Rings - the Third Age.zip",
+    "image": "/images/roms/gba/the-lord-of-the-rings-the-third-age.jpg",
+    "console": "gba",
+    "id": "the-lord-of-the-rings-the-third-age",
+    "id_igdb": 127953,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "filename": "Lord of the Rings 2 - the Two Towers.zip",
+    "image": "/images/roms/gba/the-lord-of-the-rings-the-two-towers.jpg",
+    "console": "gba",
+    "id": "the-lord-of-the-rings-the-two-towers",
+    "id_igdb": 135736,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "The Lost Vikings",
+    "filename": "Lost Vikings.zip",
+    "image": "/images/roms/gba/the-lost-vikings.jpg",
+    "console": "gba",
+    "id": "the-lost-vikings",
+    "id_igdb": 144422,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "The Lost Vikings",
@@ -33871,6 +33966,16 @@
     "id": "tom-and-jerry-the-movie",
     "id_igdb": 8043,
     "active": true
+  },
+  {
+    "name": "Tomb Raider: Legend",
+    "filename": "Lara Croft Tomb Raider - Legend.zip",
+    "image": "/images/roms/gba/tomb-raider-legend.jpg",
+    "console": "gba",
+    "id": "tomb-raider-legend",
+    "id_igdb": 146717,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Tomb-Raider - Legend",
@@ -35789,6 +35894,16 @@
     "id": "wally-bear-and-the-no-gang",
     "id_igdb": 48260,
     "active": true
+  },
+  {
+    "name": "Walt Disney's The Jungle Book",
+    "filename": "Jungle Book.zip",
+    "image": "/images/roms/gba/walt-disneys-the-jungle-book.jpg",
+    "console": "gba",
+    "id": "walt-disneys-the-jungle-book",
+    "id_igdb": 111548,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Walt Disney's The Jungle Book",
