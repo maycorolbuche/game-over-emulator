@@ -141,8 +141,7 @@
     "console": "gba",
     "id": "a-sound-of-thunder",
     "id_igdb": 49271,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "A Week of Garfield: Garfield no Isshukan",
@@ -728,8 +727,7 @@
     "console": "gba",
     "id": "agent-hugo-roborumble",
     "id_igdb": 141696,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Aggressive Inline",
@@ -1336,16 +1334,6 @@
     "active": true
   },
   {
-    "name": "Another World",
-    "filename": "Another World (Prototype).zip",
-    "image": "",
-    "console": "gba",
-    "id": "another-world",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Antarctic Adventure",
     "filename": "Antarctic Adventure.zip",
     "image": "/images/roms/nes/antarctic-adventure.jpg",
@@ -1670,16 +1658,6 @@
     "active": true
   },
   {
-    "name": "Arthur and the Minimoys",
-    "filename": "Arthur and the Minimoys.zip",
-    "image": "",
-    "console": "gba",
-    "id": "arthur-and-the-minimoys",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "As Aventuras da TV Colosso",
     "filename": "TV Colosso (Brazil).zip",
     "image": "/images/roms/sms/as-aventuras-da-tv-colosso.jpg",
@@ -1941,14 +1919,13 @@
     "active": true
   },
   {
-    "name": "Avatar - the Legend of Aang",
+    "name": "Avatar: The Last Airbender",
     "filename": "Avatar - the Legend of Aang.zip",
-    "image": "",
+    "image": "/images/roms/gba/avatar-the-last-airbender.jpg",
     "console": "gba",
-    "id": "avatar-the-legend-of-aang",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "id": "avatar-the-last-airbender",
+    "id_igdb": 210487,
+    "active": true
   },
   {
     "name": "Avatar: The Last Airbender",
@@ -2174,16 +2151,6 @@
     "id": "backyard-basketball",
     "id_igdb": 69242,
     "active": true
-  },
-  {
-    "name": "Backyard Football",
-    "filename": "Backyard Football.zip",
-    "image": "",
-    "console": "gba",
-    "id": "backyard-football",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Backyard Football 2006",
@@ -3108,16 +3075,6 @@
     "active": true
   },
   {
-    "name": "Best Friends: My Horse",
-    "filename": "Best Friends - My Horse.zip",
-    "image": "",
-    "console": "gba",
-    "id": "best-friends-my-horse",
-    "id_igdb": 49229,
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Best of the Best: Championship Karate",
     "filename": "Best of the Best - Championship Karate.zip",
     "image": "/images/roms/nes/best-of-the-best-championship-karate.jpg",
@@ -3143,16 +3100,6 @@
     "id": "best-of-the-best-championship-karate",
     "id_igdb": 7783,
     "active": true
-  },
-  {
-    "name": "Beyblade V-Force 2",
-    "filename": "Beyblade V-Force 2.zip",
-    "image": "",
-    "console": "gba",
-    "id": "beyblade-v-force-2",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Beyblade VForce: Ultimate Blader Jam",
@@ -3450,16 +3397,6 @@
     "id": "blazeon-the-bio-cyborg-challenge",
     "id_igdb": 42625,
     "active": true
-  },
-  {
-    "name": "Black Bass Advance",
-    "filename": "Black Bass Advance.zip",
-    "image": "",
-    "console": "gba",
-    "id": "black-bass-advance",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Black Belt",
@@ -4433,24 +4370,22 @@
     "active": true
   },
   {
-    "name": "CT Special Forces 2 - Back to Hell",
-    "filename": "CT Special Forces 2 - Back to Hell.zip",
-    "image": "",
-    "console": "gba",
-    "id": "ct-special-forces-2-back-to-hell",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "CT Special Forces 3: BioTerror",
     "filename": "CT Special Forces 3 - Bio-Terror.zip",
     "image": "/images/roms/gba/ct-special-forces-3-bioterror.jpg",
     "console": "gba",
     "id": "ct-special-forces-3-bioterror",
     "id_igdb": 49253,
-    "active": true,
-    "check_image": true
+    "active": true
+  },
+  {
+    "name": "CT Special Forces: Back to Hell",
+    "filename": "CT Special Forces 2 - Back to Hell.zip",
+    "image": "/images/roms/gba/ct-special-forces-back-to-hell.jpg",
+    "console": "gba",
+    "id": "ct-special-forces-back-to-hell",
+    "id_igdb": 45103,
+    "active": true
   },
   {
     "name": "Cabal",
@@ -4469,16 +4404,6 @@
     "id": "cabbage-patch-kids-the-patch-puppy-rescue",
     "id_igdb": 49363,
     "active": true
-  },
-  {
-    "name": "Cabela's Big Game Hunter",
-    "filename": "Cabela's Big Game Hunter.zip",
-    "image": "",
-    "console": "gba",
-    "id": "cabela-s-big-game-hunter",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Cabela's Big Game Hunter: 2005 Adventures",
@@ -4627,12 +4552,11 @@
   {
     "name": "Candy Land / Chutes & Ladders / Original Memory Game",
     "filename": "Candy Land & Chutes and Ladders & Memory.zip",
-    "image": "",
+    "image": "/images/roms/gba/candy-land-slash-chutes-and-ladders-slash-original-memory-game.jpg",
     "console": "gba",
     "id": "candy-land-slash-chutes-and-ladders-slash-original-memory-game",
     "id_igdb": 91423,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Cannon Fodder",
@@ -5014,16 +4938,6 @@
     "active": true
   },
   {
-    "name": "Castlevania",
-    "filename": "Castlevania.zip",
-    "image": "",
-    "console": "gba",
-    "id": "classic-nes-series-castlevania",
-    "active": true,
-    "check_image": true,
-    "id_igdb": ""
-  },
-  {
     "name": "Castlevania II: Simon's Quest",
     "filename": "Castlevania II - Simon's Quest.zip",
     "image": "/images/roms/nes/castlevania-ii-simon-s-quest.jpg",
@@ -5097,14 +5011,13 @@
     "active": true
   },
   {
-    "name": "Cat-Women",
+    "name": "Catwoman",
     "filename": "Cat-Women.zip",
-    "image": "",
+    "image": "/images/roms/gba/catwoman.jpg",
     "console": "gba",
-    "id": "cat-women",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "id": "catwoman",
+    "id_igdb": 248498,
+    "active": true
   },
   {
     "name": "Catz",
@@ -6329,34 +6242,13 @@
     "active": true
   },
   {
-    "name": "Crash Bandicoot - Fusion",
-    "filename": "Crash Bandicoot - Fusion.zip",
-    "image": "",
-    "console": "gba",
-    "id": "crash-bandicoot-fusion",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Crash Bandicoot - the Wrath of Cortex",
-    "filename": "Crash Bandicoot - the Wrath of Cortex.zip",
-    "image": "",
-    "console": "gba",
-    "id": "crash-bandicoot-the-wrath-of-cortex",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
-  },
-  {
     "name": "Crash Bandicoot 2: N-Tranced",
     "filename": "Crash Bandicoot 2 - N-Tranced.zip",
     "image": "/images/roms/gba/crash-bandicoot-2-n-tranced.jpg",
     "console": "gba",
     "id": "crash-bandicoot-2-n-tranced",
     "id_igdb": 1198,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Crash Bandicoot Purple: Ripto's Rampage",
@@ -6366,16 +6258,6 @@
     "id": "crash-bandicoot-purple-ripto-s-rampage",
     "id_igdb": 1199,
     "active": true
-  },
-  {
-    "name": "Crash Bandicoot XS",
-    "filename": "Crash Bandicoot XS.zip",
-    "image": "",
-    "console": "gba",
-    "id": "crash-bandicoot-xs",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Crash Bandicoot: The Huge Adventure",
@@ -6448,18 +6330,7 @@
     "console": "gba",
     "id": "crazy-taxi-catch-a-ride",
     "id_igdb": 1808,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Creatures",
-    "filename": "Creatures.zip",
-    "image": "",
-    "console": "gba",
-    "id": "creatures",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Crisis Force",
@@ -6495,8 +6366,16 @@
     "console": "gba",
     "id": "crouching-tiger-hidden-dragon",
     "id_igdb": 248616,
-    "active": true,
-    "check_image": true
+    "active": true
+  },
+  {
+    "name": "Cruis'n Velocity",
+    "filename": "Crusin' Velocity.zip",
+    "image": "/images/roms/gba/cruisn-velocity.jpg",
+    "console": "gba",
+    "id": "cruisn-velocity",
+    "id_igdb": 49191,
+    "active": true
   },
   {
     "name": "Crusader of Centy",
@@ -6515,16 +6394,6 @@
     "id": "crushed-baseball",
     "id_igdb": 49306,
     "active": true
-  },
-  {
-    "name": "Crusin' Velocity",
-    "filename": "Crusin' Velocity.zip",
-    "image": "",
-    "console": "gba",
-    "id": "crusin-velocity",
-    "id_igdb": "",
-    "active": true,
-    "check_image": true
   },
   {
     "name": "Crystal Mines",
@@ -6570,8 +6439,7 @@
     "console": "gba",
     "id": "cubix-robots-for-everyone-clash-n-bash",
     "id_igdb": 49156,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Curious George",
@@ -6751,8 +6619,7 @@
     "console": "gba",
     "id": "dk-king-of-swing",
     "id_igdb": 1098,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Daffy Duck in Hollywood",
@@ -6825,8 +6692,7 @@
     "console": "gba",
     "id": "danny-phantom-the-ultimate-enemy",
     "id_igdb": 6365,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Danny Phantom: Urban Jungle",
@@ -6835,8 +6701,7 @@
     "console": "gba",
     "id": "danny-phantom-urban-jungle",
     "id_igdb": 6366,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Danny Sullivan's Indy Heat",
@@ -6918,8 +6783,7 @@
     "console": "gba",
     "id": "darts-shuffle-skiball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Darts / Roll a Ball / Shuffle Bowl",
@@ -6964,8 +6828,7 @@
     "console": "gba",
     "id": "dave-mirra-freestyle-bmx-2",
     "id_igdb": 208753,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dave Mirra Freestyle BMX 3",
@@ -6974,8 +6837,7 @@
     "console": "gba",
     "id": "dave-mirra-freestyle-bmx-3",
     "id_igdb": 6368,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "David Beckham Soccer",
@@ -7020,8 +6882,7 @@
     "console": "gba",
     "id": "davis-cup-tennis",
     "id_igdb": 49175,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Davis Cup Tennis",
@@ -7122,8 +6983,7 @@
     "console": "gba",
     "id": "deadly-skies",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Deadly Towers",
@@ -7258,8 +7118,7 @@
     "console": "gba",
     "id": "demikids-dark-version",
     "id_igdb": 19884,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "DemiKids: Light Version",
@@ -7268,8 +7127,7 @@
     "console": "gba",
     "id": "demikids-light-version",
     "id_igdb": 49185,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Demolition Man",
@@ -7287,8 +7145,7 @@
     "console": "gba",
     "id": "demon-driver-time-to-burn-rubber",
     "id_igdb": 49274,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Demon Sword",
@@ -7306,8 +7163,7 @@
     "console": "gba",
     "id": "denki-blocks",
     "id_igdb": 49155,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dennis the Menace",
@@ -7353,8 +7209,7 @@
     "console": "gba",
     "id": "desert-strike-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Desert Strike: Return to the Gulf",
@@ -7456,8 +7311,7 @@
     "console": "gba",
     "id": "dexter-s-laboratory-chess-challenge",
     "id_igdb": 6373,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dexter's Laboratory: Deesaster Strikes!",
@@ -7466,8 +7320,7 @@
     "console": "gba",
     "id": "dexter-s-laboratory-deesaster-strikes",
     "id_igdb": 2813,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dick Tracy",
@@ -7567,8 +7420,7 @@
     "console": "gba",
     "id": "digimon-battle-spirit",
     "id_igdb": 6374,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Digimon: Battle Spirit 2",
@@ -7577,8 +7429,7 @@
     "console": "gba",
     "id": "digimon-battle-spirit-2",
     "id_igdb": 6375,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dino City",
@@ -7623,8 +7474,7 @@
     "console": "gba",
     "id": "dinotopia-the-timestone-pirates",
     "id_igdb": 6378,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dirt Racer",
@@ -7669,8 +7519,7 @@
     "console": "gba",
     "id": "disney-princess-royal-adventure",
     "id_igdb": 49411,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney Sports - Football",
@@ -7679,8 +7528,7 @@
     "console": "gba",
     "id": "disney-sports-football",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney Sports Basketball",
@@ -7689,8 +7537,7 @@
     "console": "gba",
     "id": "disney-sports-basketball",
     "id_igdb": 243192,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney Sports Motocross",
@@ -7699,8 +7546,7 @@
     "console": "gba",
     "id": "disney-sports-motocross",
     "id_igdb": 49305,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney Sports Skateboarding",
@@ -7709,8 +7555,7 @@
     "console": "gba",
     "id": "disney-sports-skateboarding",
     "id_igdb": 248465,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney Sports Snowboarding",
@@ -7719,8 +7564,7 @@
     "console": "gba",
     "id": "disney-sports-snowboarding",
     "id_igdb": 49304,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney Sports Soccer",
@@ -7729,8 +7573,7 @@
     "console": "gba",
     "id": "disney-sports-soccer",
     "id_igdb": 242927,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Aladdin",
@@ -7910,8 +7753,7 @@
     "console": "gba",
     "id": "disneys-herbie-fully-loaded",
     "id_igdb": 6434,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Home on the Range",
@@ -7920,8 +7762,7 @@
     "console": "gba",
     "id": "disneys-home-on-the-range",
     "id_igdb": 49153,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Kim Possible 2: Drakken's Demise",
@@ -7930,8 +7771,7 @@
     "console": "gba",
     "id": "disneys-kim-possible-2-drakkens-demise",
     "id_igdb": 8144,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Kim Possible 3: Team Possible",
@@ -7940,8 +7780,7 @@
     "console": "gba",
     "id": "disneys-kim-possible-3-team-possible",
     "id_igdb": 49186,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Lilo & Stitch",
@@ -7950,8 +7789,7 @@
     "console": "gba",
     "id": "disneys-lilo-and-stitch",
     "id_igdb": 25912,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Lilo & Stitch 2: Hämsterviel Havoc",
@@ -7960,8 +7798,7 @@
     "console": "gba",
     "id": "disneys-lilo-and-stitch-2-hamsterviel-havoc",
     "id_igdb": 49261,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Little Einsteins",
@@ -7970,8 +7807,7 @@
     "console": "gba",
     "id": "disneys-little-einsteins",
     "id_igdb": 49190,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Magical Quest 2 Starring Mickey & Minnie",
@@ -7980,8 +7816,7 @@
     "console": "gba",
     "id": "disneys-magical-quest-2-starring-mickey-and-minnie",
     "id_igdb": 188634,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Magical Quest 3 Starring Mickey & Donald",
@@ -7990,8 +7825,7 @@
     "console": "gba",
     "id": "disney-s-magical-quest-3-starring-mickey-donald",
     "id_igdb": 6381,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Magical Quest Starring Mickey & Minnie",
@@ -8000,8 +7834,7 @@
     "console": "gba",
     "id": "disneys-magical-quest-starring-mickey-and-minnie",
     "id_igdb": 187209,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Party",
@@ -8019,8 +7852,7 @@
     "console": "gba",
     "id": "disneys-peter-pan-return-to-neverland",
     "id_igdb": 300977,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Pinocchio",
@@ -8074,8 +7906,7 @@
     "console": "gba",
     "id": "disneys-tarzan-return-to-the-jungle",
     "id_igdb": 49339,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's The Jungle Book",
@@ -8111,8 +7942,7 @@
     "console": "gba",
     "id": "disneys-the-jungle-book-2",
     "id_igdb": 49463,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's The Lion King",
@@ -8175,8 +8005,7 @@
     "console": "gba",
     "id": "disneys-treasure-planet",
     "id_igdb": 49202,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Disney's Winnie the Pooh's Rumbly Tumbly Adventure",
@@ -8185,8 +8014,7 @@
     "console": "gba",
     "id": "disneys-winnie-the-poohs-rumbly-tumbly-adventure",
     "id_igdb": 243185,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Divine Sealing",
@@ -8213,8 +8041,7 @@
     "console": "gba",
     "id": "dodgeball-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dog Trainer",
@@ -8223,8 +8050,7 @@
     "console": "gba",
     "id": "dog-trainer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dogz",
@@ -8251,8 +8077,7 @@
     "console": "gba",
     "id": "dogz-fashion",
     "id_igdb": 49403,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dokapon: Monster Hunter",
@@ -8261,8 +8086,7 @@
     "console": "gba",
     "id": "dokapon-monster-hunter",
     "id_igdb": 6382,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dominus",
@@ -8433,8 +8257,7 @@
     "console": "gba",
     "id": "doom-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Doom Troopers: Mutant Chronicles",
@@ -8480,8 +8303,7 @@
     "console": "gba",
     "id": "dora-the-explorer-doras-world-adventure",
     "id_igdb": 49230,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dora the Explorer: Super Spies",
@@ -8490,8 +8312,7 @@
     "console": "gba",
     "id": "dora-the-explorer-super-spies",
     "id_igdb": 49200,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dora the Explorer: Super Star Adventures",
@@ -8500,8 +8321,7 @@
     "console": "gba",
     "id": "dora-the-explorer-super-star-adventures",
     "id_igdb": 7974,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dora the Explorer: The Search for Pirate Pig's Treasure",
@@ -8510,8 +8330,7 @@
     "console": "gba",
     "id": "dora-the-explorer-the-search-for-pirate-pigs-treasure",
     "id_igdb": 49201,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Doraemon: Giga Zombie no Gyakushuu",
@@ -8768,8 +8587,7 @@
     "console": "gba",
     "id": "dr-seuss-green-eggs-and-ham",
     "id_igdb": 6354,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dr. Seuss': The Cat in the Hat",
@@ -8778,8 +8596,7 @@
     "console": "gba",
     "id": "dr-seuss-the-cat-in-the-hat",
     "id_igdb": 293344,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dr. Sudoku",
@@ -8806,8 +8623,7 @@
     "console": "gba",
     "id": "dragon-ball-gt-transformation",
     "id_igdb": 24269,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z Gaiden: Saiya-jin Zetsumetsu Keikaku",
@@ -8834,8 +8650,7 @@
     "console": "gba",
     "id": "dragon-ball-z-buus-fury",
     "id_igdb": 19835,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z: Buyuu Retsuden",
@@ -8854,8 +8669,7 @@
     "console": "gba",
     "id": "dragon-ball-z-collectible-card-game",
     "id_igdb": 78230,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z: Supersonic Warriors",
@@ -8864,8 +8678,7 @@
     "console": "gba",
     "id": "dragon-ball-z-supersonic-warriors",
     "id_igdb": 2576,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z: Taiketsu",
@@ -8874,8 +8687,7 @@
     "console": "gba",
     "id": "dragon-ball-z-taiketsu",
     "id_igdb": 2580,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z: The Legacy of Goku",
@@ -8884,8 +8696,7 @@
     "console": "gba",
     "id": "dragon-ball-z-the-legacy-of-goku",
     "id_igdb": 6387,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball Z: The Legacy of Goku II",
@@ -8894,8 +8705,7 @@
     "console": "gba",
     "id": "dragon-ball-z-the-legacy-of-goku-ii",
     "id_igdb": 19834,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Ball: Advanced Adventure",
@@ -8904,8 +8714,7 @@
     "console": "gba",
     "id": "dragon-ball-advanced-adventure",
     "id_igdb": 6386,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon Buster",
@@ -8988,8 +8797,7 @@
     "console": "gba",
     "id": "dragon-tales-dragon-adventures",
     "id_igdb": 248751,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dragon View",
@@ -9170,8 +8978,7 @@
     "console": "gba",
     "id": "dreamworks-shark-tale",
     "id_igdb": 243200,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Drill Dozer",
@@ -9243,8 +9050,7 @@
     "console": "gba",
     "id": "dropzone",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dual Blades",
@@ -9307,8 +9113,7 @@
     "console": "gba",
     "id": "duel-masters-kaijudo-showdown",
     "id_igdb": 24257,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Duel Masters: Sempai Legends",
@@ -9317,8 +9122,7 @@
     "console": "gba",
     "id": "duel-masters-sempai-legends",
     "id_igdb": 49198,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Duel Masters: Shadow of the Code",
@@ -9327,8 +9131,7 @@
     "console": "gba",
     "id": "duel-masters-shadow-of-the-code",
     "id_igdb": 49402,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Duke Nukem 3D",
@@ -9346,8 +9149,7 @@
     "console": "gba",
     "id": "duke-nukem-advance",
     "id_igdb": 6393,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dune II: The Building of a Dynasty",
@@ -9394,8 +9196,7 @@
     "console": "gba",
     "id": "dungeons-and-dragons-eye-of-the-beholder",
     "id_igdb": 49197,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dungeons & Dragons: Warriors of the Eternal Sun",
@@ -9522,8 +9323,7 @@
     "console": "gba",
     "id": "e-dot-t-the-extra-terrestrial",
     "id_igdb": 243040,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "E.V.O. : Search for Eden",
@@ -9569,8 +9369,7 @@
     "console": "gba",
     "id": "espn-final-round-golf-2002",
     "id_igdb": 6397,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ESPN Great Outdoor Games: Bass 2002",
@@ -9579,8 +9378,7 @@
     "console": "gba",
     "id": "espn-great-outdoor-games-bass-2002",
     "id_igdb": 49302,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ESPN International Winter Sports 2002",
@@ -9589,8 +9387,7 @@
     "console": "gba",
     "id": "espn-international-winter-sports-2002",
     "id_igdb": 242938,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ESPN National Hockey Night",
@@ -9656,8 +9453,7 @@
     "console": "gba",
     "id": "espn-winter-x-games-snowboarding-2002",
     "id_igdb": 49206,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ESPN X Games Skateboarding",
@@ -9666,8 +9462,7 @@
     "console": "gba",
     "id": "espn-x-games-skateboarding",
     "id_igdb": 248752,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "ESWAT: City Under Siege",
@@ -9833,8 +9628,7 @@
     "console": "gba",
     "id": "ecks-vs",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ed, Edd n Eddy: Jawbreakers!",
@@ -9843,8 +9637,7 @@
     "console": "gba",
     "id": "ed-edd-n-eddy-jawbreakers",
     "id_igdb": 2816,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ed, Edd n Eddy: The Mis-Edventures",
@@ -9853,8 +9646,7 @@
     "console": "gba",
     "id": "ed-edd-n-eddy-the-mis-edventures",
     "id_igdb": 248473,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Eek! The Cat",
@@ -9872,8 +9664,7 @@
     "console": "gba",
     "id": "egg-mania",
     "id_igdb": 248463,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Eggerland - Revival of the Labyrinth",
@@ -9945,8 +9736,7 @@
     "console": "gba",
     "id": "elf-the-movie",
     "id_igdb": 49301,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Eliminate Down",
@@ -10027,8 +9817,7 @@
     "console": "gba",
     "id": "enchanted-once-upon-andalasia",
     "id_igdb": 49278,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Enduro Racer",
@@ -10118,8 +9907,7 @@
     "console": "gba",
     "id": "evergirl",
     "id_igdb": 6399,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ex-Mutants",
@@ -10219,8 +10007,7 @@
     "console": "gba",
     "id": "extreme-ghostbusters-code-ecto-1",
     "id_igdb": 129158,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Eye of the Beholder",
@@ -10319,8 +10106,7 @@
     "console": "gba",
     "id": "f-zero-gp-legend",
     "id_igdb": 3493,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "F-Zero: Maximum Velocity",
@@ -10329,8 +10115,7 @@
     "console": "gba",
     "id": "f-zero-maximum-velocity",
     "id_igdb": 3491,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "F1 2002",
@@ -10439,8 +10224,7 @@
     "console": "gba",
     "id": "f24-stealth-fighter",
     "id_igdb": 49425,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA International Soccer",
@@ -10467,8 +10251,7 @@
     "console": "gba",
     "id": "fifa-soccer-06",
     "id_igdb": 229741,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA Soccer 07",
@@ -10477,8 +10260,7 @@
     "console": "gba",
     "id": "fifa-soccer-07",
     "id_igdb": 240288,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA Soccer 2003",
@@ -10487,8 +10269,7 @@
     "console": "gba",
     "id": "fifa-soccer-2003",
     "id_igdb": 209425,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA Soccer 2004",
@@ -10497,8 +10278,7 @@
     "console": "gba",
     "id": "fifa-soccer-2004",
     "id_igdb": 240273,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA Soccer 2005",
@@ -10507,8 +10287,7 @@
     "console": "gba",
     "id": "fifa-soccer-2005",
     "id_igdb": 49195,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA Soccer 95",
@@ -10554,8 +10333,7 @@
     "console": "gba",
     "id": "fifa-world-cup-germany-2006",
     "id_igdb": 240285,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "FIFA: Road to World Cup 98",
@@ -10664,8 +10442,7 @@
     "console": "gba",
     "id": "fantastic-4-flame-on",
     "id_igdb": 49299,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fantastic Dizzy",
@@ -10818,8 +10595,7 @@
     "console": "gba",
     "id": "fear-factor-unleashed",
     "id_igdb": 6406,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Felix the Cat",
@@ -10892,8 +10668,7 @@
     "console": "gba",
     "id": "fightbox",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fighter's History",
@@ -10920,8 +10695,7 @@
     "console": "gba",
     "id": "fila-decathlon",
     "id_igdb": 62641,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Blow",
@@ -10957,8 +10731,7 @@
     "console": "gba",
     "id": "final-fantasy-i-ii-dawn-of-souls",
     "id_igdb": 408,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Fantasy II",
@@ -10985,8 +10758,7 @@
     "console": "gba",
     "id": "final-fantasy-iv-advance",
     "id_igdb": 406,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Fantasy Tactics Advance",
@@ -10995,8 +10767,7 @@
     "console": "gba",
     "id": "final-fantasy-tactics-advance",
     "id_igdb": 414,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Fantasy V Advance",
@@ -11005,8 +10776,7 @@
     "console": "gba",
     "id": "final-fantasy-v-advance",
     "id_igdb": 20597,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Fantasy VI Advance",
@@ -11015,8 +10785,7 @@
     "console": "gba",
     "id": "final-fantasy-vi-advance",
     "id_igdb": 20655,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Final Fantasy: Mystic Quest",
@@ -11106,8 +10875,7 @@
     "console": "gba",
     "id": "finding-nemo-the-continuing-adventures",
     "id_igdb": 49269,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fire 'n Ice",
@@ -11125,8 +10893,7 @@
     "console": "gba",
     "id": "fire-eaters-zero-bandits",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fire Emblem",
@@ -11135,8 +10902,7 @@
     "console": "gba",
     "id": "fire-emblem",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fire Emblem: The Sacred Stones",
@@ -11145,8 +10911,7 @@
     "console": "gba",
     "id": "fire-emblem-the-sacred-stones",
     "id_igdb": 1440,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fire Mustang",
@@ -11499,8 +11264,7 @@
     "console": "gba",
     "id": "four-pack-racing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fox's Peter Pan & The Pirates: The Revenge of Captain Hook",
@@ -11554,8 +11318,7 @@
     "console": "gba",
     "id": "franklins-great-adventures",
     "id_igdb": 48044,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Frantic Flea",
@@ -11627,8 +11390,7 @@
     "console": "gba",
     "id": "frogger-advance-the-great-quest",
     "id_igdb": 6412,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Frogger's Adventures 2: The Lost Wand",
@@ -11637,8 +11399,7 @@
     "console": "gba",
     "id": "froggers-adventures-2-the-lost-wand",
     "id_igdb": 11468,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Frogger's Adventures: Temple of the Frog",
@@ -11647,8 +11408,7 @@
     "console": "gba",
     "id": "frogger-s-adventures-temple-of-the-frog",
     "id_igdb": 6411,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Frogger's Journey: The Forgotten Relic",
@@ -11657,8 +11417,7 @@
     "console": "gba",
     "id": "froggers-journey-the-forgotten-relic",
     "id_igdb": 11480,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Front Line",
@@ -11859,8 +11618,7 @@
     "console": "gba",
     "id": "gp-1-racing",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "GT Advance 2: Rally Racing",
@@ -11869,8 +11627,7 @@
     "console": "gba",
     "id": "gt-advance-2-rally-racing",
     "id_igdb": 6425,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "GT Advance 3: Pro Concept Racing",
@@ -11879,8 +11636,7 @@
     "console": "gba",
     "id": "gt-advance-3-pro-concept-racing",
     "id_igdb": 6426,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "GT Advance Championship Racing",
@@ -11889,8 +11645,7 @@
     "console": "gba",
     "id": "gt-advance-championship-racing",
     "id_igdb": 6424,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "GT Racers",
@@ -12043,8 +11798,7 @@
     "console": "gba",
     "id": "galidor-defenders-of-the-outer-dimension",
     "id_igdb": 49172,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gambler Jiko Chuushinha: Katayama Masayuki no Mahjong Dojo",
@@ -12063,8 +11817,7 @@
     "console": "gba",
     "id": "game-watch-gallery-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Game Box Série Esportes Radicais",
@@ -12156,8 +11909,7 @@
     "console": "gba",
     "id": "garfield-the-search-for-pooky",
     "id_igdb": 6416,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gargoyle's Quest II",
@@ -12220,8 +11972,7 @@
     "console": "gba",
     "id": "gauntlet-slash-rampart",
     "id_igdb": 78814,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gauntlet Dark Legacy",
@@ -12230,8 +11981,7 @@
     "console": "gba",
     "id": "gauntlet-dark-legacy",
     "id_igdb": 85795,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gauntlet II",
@@ -12268,8 +12018,7 @@
     "console": "gba",
     "id": "gekido-advance-kintaro-s-revenge",
     "id_igdb": 6418,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gekitotsu Yonku Battle",
@@ -12542,8 +12291,7 @@
     "console": "gba",
     "id": "glory-days-essence-of-a-war",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Go! Benny!",
@@ -12561,8 +12309,7 @@
     "console": "gba",
     "id": "go-go-beckham-adventure-on-soccer-island",
     "id_igdb": 6421,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Goal!",
@@ -12616,8 +12363,7 @@
     "console": "gba",
     "id": "godzilla-domination",
     "id_igdb": 49298,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Godzilla: Monster of Monsters",
@@ -12700,8 +12446,7 @@
     "console": "gba",
     "id": "golden-sun-the-lost-age",
     "id_igdb": 1173,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Golf",
@@ -12791,8 +12536,7 @@
     "console": "gba",
     "id": "gradius-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gradius Advance",
@@ -12801,8 +12545,7 @@
     "console": "gba",
     "id": "gradius-advance-",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gradius II",
@@ -12966,8 +12709,7 @@
     "console": "gba",
     "id": "greg-hastings-tournament-paintball-max-d",
     "id_igdb": 5855,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Greg Norman's Golf Power",
@@ -12994,8 +12736,7 @@
     "console": "gba",
     "id": "gremlins-stripe-vs-gizmo",
     "id_igdb": 49232,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Grind Stormer",
@@ -13032,8 +12773,7 @@
     "console": "gba",
     "id": "guilty-gear-x-advance-edition",
     "id_igdb": 49168,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gulkave",
@@ -13051,8 +12791,7 @@
     "console": "gba",
     "id": "gumby-vs-the-astrobots",
     "id_igdb": 49297,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gumshoe",
@@ -13196,8 +12935,7 @@
     "console": "gba",
     "id": "hamtaro-ham-ham-games",
     "id_igdb": 6429,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hamtaro: Ham-Ham Heartbreak",
@@ -13206,8 +12944,7 @@
     "console": "gba",
     "id": "hamtaro-ham-ham-heartbreak",
     "id_igdb": 6428,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hamtaro: Rainbow Rescue",
@@ -13216,8 +12953,7 @@
     "console": "gba",
     "id": "hamtaro-rainbow-rescue",
     "id_igdb": 6427,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hang-On",
@@ -13346,8 +13082,7 @@
     "console": "gba",
     "id": "harlem-globetrotters-world-tour",
     "id_igdb": 6430,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Harley's Humongous Adventure",
@@ -13419,8 +13154,7 @@
     "console": "gba",
     "id": "harry-potter-quidditch-world-cup",
     "id_igdb": 166523,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Harry Story",
@@ -13456,8 +13190,7 @@
     "console": "gba",
     "id": "harvest-moon-friends-of-mineral-town",
     "id_igdb": 3383,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Harvest Moon: More Friends of Mineral Town",
@@ -13466,8 +13199,7 @@
     "console": "gba",
     "id": "harvest-moon-more-friends-of-mineral-town",
     "id_igdb": 49188,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hatris",
@@ -13559,8 +13291,7 @@
     "console": "gba",
     "id": "heidi-the-game",
     "id_igdb": 49479,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Heisei Tensai Bakabon",
@@ -13614,8 +13345,7 @@
     "console": "gba",
     "id": "hello-kitty-happy-party-pals",
     "id_igdb": 3689,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hero of the Sun - Fire Bird",
@@ -13642,8 +13372,7 @@
     "console": "gba",
     "id": "hey-arnold-the-movie",
     "id_igdb": 6565,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hi Hi Puffy AmiYumi: Kaznapped!",
@@ -13652,8 +13381,7 @@
     "console": "gba",
     "id": "hi-hi-puffy-amiyumi-kaznapped",
     "id_igdb": 2819,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "High Heat Major League Baseball 2002",
@@ -13662,8 +13390,7 @@
     "console": "gba",
     "id": "high-heat-major-league-baseball-2002",
     "id_igdb": 248754,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "High Heat Major League Baseball 2003",
@@ -13681,8 +13408,7 @@
     "console": "gba",
     "id": "high-school-musical-livin-the-dream",
     "id_igdb": 49478,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "High School Soccer - Kunio Kun",
@@ -13939,8 +13665,7 @@
     "console": "gba",
     "id": "horse-and-pony-let-s-ride-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Horsez",
@@ -13958,8 +13683,7 @@
     "console": "gba",
     "id": "hot-potato",
     "id_igdb": 6437,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hot Wheels Advance",
@@ -13968,8 +13692,7 @@
     "console": "gba",
     "id": "hot-wheels-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hot Wheels Velocity X",
@@ -13978,8 +13701,7 @@
     "console": "gba",
     "id": "hot-wheels-velocity-x",
     "id_igdb": 243199,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hot Wheels World Race",
@@ -13988,8 +13710,7 @@
     "console": "gba",
     "id": "hot-wheels-world-race",
     "id_igdb": 243147,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hot Wheels: All Out",
@@ -13998,8 +13719,7 @@
     "console": "gba",
     "id": "hot-wheels-all-out",
     "id_igdb": 49283,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hot Wheels: Burnin' Rubber",
@@ -14008,8 +13728,7 @@
     "console": "gba",
     "id": "hot-wheels-burnin-rubber",
     "id_igdb": 49295,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hot Wheels: Stunt Track Challenge",
@@ -14018,8 +13737,7 @@
     "console": "gba",
     "id": "hot-wheels-stunt-track-challenge",
     "id_igdb": 248755,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hotman",
@@ -14064,8 +13782,7 @@
     "console": "gba",
     "id": "hugo-bukkazoom",
     "id_igdb": 49423,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hugo: The Evil Mirror",
@@ -14074,8 +13791,7 @@
     "console": "gba",
     "id": "hugo-the-evil-mirror",
     "id_igdb": 6438,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Hungry Dinosaurs",
@@ -14157,8 +13873,7 @@
     "console": "gba",
     "id": "i-spy-challenger",
     "id_igdb": 49294,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "IK Plus - the Ultimate Martial Arts Simulation",
@@ -14167,8 +13882,7 @@
     "console": "gba",
     "id": "ik-plus-the-ultimate-martial-arts-simulation",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "IMG International Tour Tennis",
@@ -14195,8 +13909,7 @@
     "console": "gba",
     "id": "ice-age-2-the-meltdown",
     "id_igdb": 248537,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ice Climber",
@@ -14232,8 +13945,7 @@
     "console": "gba",
     "id": "ignition-collection-volume-1",
     "id_igdb": 49622,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ikari III: The Rescue",
@@ -14432,8 +14144,7 @@
     "console": "gba",
     "id": "inspector-gadget-advance-mission",
     "id_igdb": 4864,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Instruments of Chaos Starring Young Indiana Jones",
@@ -14460,8 +14171,7 @@
     "console": "gba",
     "id": "international-karate-plus",
     "id_igdb": 8397,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "International Karate Advanced",
@@ -14551,8 +14261,7 @@
     "console": "gba",
     "id": "iridion-3d-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Iron Commando",
@@ -14607,8 +14316,7 @@
     "console": "gba",
     "id": "it-s-mr-pants",
     "id_igdb": 6355,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ivan ''Ironman'' Stewart's Super Off Road",
@@ -14753,8 +14461,7 @@
     "console": "gba",
     "id": "jackie-chan-adventures-legend-of-the-dark-hand",
     "id_igdb": 8155,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jackie Chan's Action Kung Fu",
@@ -14781,8 +14488,7 @@
     "console": "gba",
     "id": "james-bond-007-everything-or-nothing",
     "id_igdb": 243013,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "James Bond 007: Nightfire",
@@ -14791,8 +14497,7 @@
     "console": "gba",
     "id": "james-bond-007-nightfire",
     "id_igdb": 248458,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "James Bond 007: The Duel",
@@ -14828,8 +14533,7 @@
     "console": "gba",
     "id": "james-pond-2-codename-robocod",
     "id_igdb": 4443,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "James Pond 2: Codename - RoboCod",
@@ -14919,8 +14623,7 @@
     "console": "gba",
     "id": "jazz-jack-rabbit",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jelly Boy",
@@ -15046,8 +14749,7 @@
     "console": "gba",
     "id": "jet-set-radio",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jewel Master",
@@ -15128,8 +14830,7 @@
     "console": "gba",
     "id": "jimmy-neutron-boy-genius",
     "id_igdb": 49291,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jimmy White's 'Whirlwind' Snooker",
@@ -15264,8 +14965,7 @@
     "console": "gba",
     "id": "jonny-moseley-mad-trix",
     "id_igdb": 49336,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jordan vs. Bird: One on One",
@@ -15445,8 +15145,7 @@
     "console": "gba",
     "id": "jurassic-park-iii-island-attack",
     "id_igdb": 6482,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jurassic Park III: Park Builder",
@@ -15455,8 +15154,7 @@
     "console": "gba",
     "id": "jurassic-park-iii-park-builder",
     "id_igdb": 6483,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jurassic Park III: The DNA Factor",
@@ -15465,8 +15163,7 @@
     "console": "gba",
     "id": "jurassic-park-iii-the-dna-factor",
     "id_igdb": 6481,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Jurassic Park Part 2: The Chaos Continues",
@@ -15493,8 +15190,7 @@
     "console": "gba",
     "id": "jurassic-park-iii-dino-attack",
     "id_igdb": 6482,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Just Breed",
@@ -15512,8 +15208,7 @@
     "console": "gba",
     "id": "justice-league-heroes-the-flash",
     "id_igdb": 6486,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Justice League Task Force",
@@ -15540,8 +15235,7 @@
     "console": "gba",
     "id": "justice-league-chronicles",
     "id_igdb": 6485,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Justice League: Injustice for All",
@@ -15550,8 +15244,7 @@
     "console": "gba",
     "id": "justice-league-injustice-for-all",
     "id_igdb": 6484,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ka-Ge-Ki: Fists of Steel",
@@ -15884,8 +15577,7 @@
     "console": "gba",
     "id": "kien",
     "id_igdb": 210160,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kill-Switch",
@@ -15894,8 +15586,7 @@
     "console": "gba",
     "id": "kill-switch",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Killer 3D Pool",
@@ -15922,8 +15613,7 @@
     "console": "gba",
     "id": "kim-possible",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "King Arthur & the Knights of Justice",
@@ -15959,8 +15649,7 @@
     "console": "gba",
     "id": "king-kong",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "King Neptune's Adventure",
@@ -16068,8 +15757,7 @@
     "console": "gba",
     "id": "kingdom-hearts-chain-of-memories",
     "id_igdb": 1220,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kings of the Beach",
@@ -16087,8 +15775,7 @@
     "console": "gba",
     "id": "kirby-and-the-amazing-mirror",
     "id_igdb": 3721,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kirby Super Star",
@@ -16142,8 +15829,7 @@
     "console": "gba",
     "id": "kirby-s-nightmare-in-dreamland",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kiteretsu Daihyakka",
@@ -16206,8 +15892,7 @@
     "console": "gba",
     "id": "klonoa-2-dream-champ-tournament",
     "id_igdb": 6493,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Klonoa: Empire of Dreams",
@@ -16216,8 +15901,7 @@
     "console": "gba",
     "id": "klonoa-empire-of-dreams",
     "id_igdb": 6492,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Knight Rider",
@@ -16262,8 +15946,7 @@
     "console": "gba",
     "id": "konami-collector-s-series-arcade-advanced",
     "id_igdb": 6494,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Konami GB Collection Vol. 1",
@@ -16272,8 +15955,7 @@
     "console": "gba",
     "id": "konami-gb-collection-vol-1",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Konami GB Collection Vol. 3",
@@ -16282,8 +15964,7 @@
     "console": "gba",
     "id": "konami-gb-collection-vol-3",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Konami Hyper Soccer",
@@ -16301,8 +15982,7 @@
     "console": "gba",
     "id": "konami-krazy-racers",
     "id_igdb": 6495,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kong: King of Atlantis",
@@ -16311,8 +15991,7 @@
     "console": "gba",
     "id": "kong-king-of-atlantis",
     "id_igdb": 49334,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kong: The 8th Wonder of the World",
@@ -16321,8 +16000,7 @@
     "console": "gba",
     "id": "kong-the-8th-wonder-of-the-world",
     "id_igdb": 49397,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Kong: The Animated Series",
@@ -16331,8 +16009,7 @@
     "console": "gba",
     "id": "kong-the-animated-series",
     "id_igdb": 49333,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Krazy Kreatures",
@@ -16476,8 +16153,7 @@
     "console": "gba",
     "id": "lego-bionicle",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO - Bionicle - Matoran Adventures",
@@ -16486,8 +16162,7 @@
     "console": "gba",
     "id": "lego-bionicle-matoran-adventures",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO - Bionicle - Maze of Shadows",
@@ -16496,8 +16171,7 @@
     "console": "gba",
     "id": "lego-bionicle-maze-of-shadows",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO - Bionicle - the Game",
@@ -16506,8 +16180,7 @@
     "console": "gba",
     "id": "lego-bionicle-the-game",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO - Bionicle Heroes",
@@ -16516,8 +16189,7 @@
     "console": "gba",
     "id": "lego-bionicle-heroes",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO - Drome Racers",
@@ -16526,8 +16198,7 @@
     "console": "gba",
     "id": "lego-drome-racers",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO - Football Mania",
@@ -16536,8 +16207,7 @@
     "console": "gba",
     "id": "lego-football-mania",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Island - Xtreme Stunts",
@@ -16546,8 +16216,7 @@
     "console": "gba",
     "id": "lego-island-xtreme-stunts",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Island 2: The Brickster's Revenge",
@@ -16556,8 +16225,7 @@
     "console": "gba",
     "id": "lego-island-2-the-bricksters-revenge",
     "id_igdb": 229841,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Knights' Kingdom",
@@ -16566,8 +16234,7 @@
     "console": "gba",
     "id": "lego-knights-kingdom",
     "id_igdb": 6498,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Racers 2",
@@ -16576,8 +16243,7 @@
     "console": "gba",
     "id": "lego-racers-2",
     "id_igdb": 229843,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Soccer Mania",
@@ -16586,8 +16252,7 @@
     "console": "gba",
     "id": "lego-soccer-mania",
     "id_igdb": 49221,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Star Wars II: The Original Trilogy",
@@ -16596,8 +16261,7 @@
     "console": "gba",
     "id": "lego-star-wars-ii-the-original-trilogy",
     "id_igdb": 194937,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LEGO Star Wars: The Video Game",
@@ -16606,8 +16270,7 @@
     "console": "gba",
     "id": "lego-star-wars-the-video-game",
     "id_igdb": 229840,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "LHX: Attack Chopper",
@@ -16661,8 +16324,7 @@
     "console": "gba",
     "id": "land-before-time-into-the-mysterious-land",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Land of Illusion Starring Mickey Mouse",
@@ -16834,8 +16496,7 @@
     "console": "gba",
     "id": "legends-of-wrestling-ii",
     "id_igdb": 194214,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Legends of the Diamond",
@@ -16907,8 +16568,7 @@
     "console": "gba",
     "id": "lemony-snickets-a-series-of-unfortunate-events",
     "id_igdb": 248493,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Les Indestructibles",
@@ -16917,8 +16577,7 @@
     "console": "gba",
     "id": "les-indestructibles",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lester the Unlikely",
@@ -16936,8 +16595,7 @@
     "console": "gba",
     "id": "lets-ride-dreamer",
     "id_igdb": 49396,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Let's Ride!: Sunshine Stables",
@@ -16946,8 +16604,7 @@
     "console": "gba",
     "id": "lets-ride-sunshine-stables",
     "id_igdb": 49395,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lethal Enforcers",
@@ -17001,8 +16658,7 @@
     "console": "gba",
     "id": "lets-ride-friends-forever",
     "id_igdb": 142571,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Liberty or Death",
@@ -17083,8 +16739,7 @@
     "console": "gba",
     "id": "lion-king",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Little League Baseball 2002",
@@ -17147,8 +16802,7 @@
     "console": "gba",
     "id": "lizzie-mcguire-2-lizzie-diaries-special-edition",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lizzie McGuire 2: Lizzie Diaries",
@@ -17157,8 +16811,7 @@
     "console": "gba",
     "id": "lizzie-mcguire-2-lizzie-diaries",
     "id_igdb": 49393,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lizzie McGuire 3: Homecoming Havoc",
@@ -17167,8 +16820,7 @@
     "console": "gba",
     "id": "lizzie-mcguire-3-homecoming-havoc",
     "id_igdb": 49392,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lizzie McGuire: On the Go!",
@@ -17177,8 +16829,7 @@
     "console": "gba",
     "id": "lizzie-mcguire-on-the-go",
     "id_igdb": 49394,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lock On",
@@ -17232,8 +16883,7 @@
     "console": "gba",
     "id": "looney-tunes-back-in-action",
     "id_igdb": 248448,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Loopz",
@@ -17296,8 +16946,7 @@
     "console": "gba",
     "id": "love-hina-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Low G Man: The Low Gravity Man",
@@ -17324,8 +16973,7 @@
     "console": "gba",
     "id": "lucky-luke-wanted",
     "id_igdb": 49331,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lufia & the Fortress of Doom",
@@ -17352,8 +17000,7 @@
     "console": "gba",
     "id": "lufia-the-ruins-of-lore",
     "id_igdb": 1180,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Lunar Legend",
@@ -17489,8 +17136,7 @@
     "console": "gba",
     "id": "mx-2002-featuring-ricky-carmichael",
     "id_igdb": 18265,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mach Rider",
@@ -17526,8 +17172,7 @@
     "console": "gba",
     "id": "madagascar-operation-penguin",
     "id_igdb": 3766,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Madden NFL '94",
@@ -17554,8 +17199,7 @@
     "console": "gba",
     "id": "madden-nfl-06",
     "id_igdb": 243002,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Madden NFL 07",
@@ -17564,8 +17208,7 @@
     "console": "gba",
     "id": "madden-nfl-07",
     "id_igdb": 243008,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Madden NFL 2002",
@@ -17817,8 +17460,7 @@
     "console": "gba",
     "id": "majesco-s-sports-pack",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Major League Baseball",
@@ -17882,8 +17524,7 @@
     "console": "gba",
     "id": "maniac-racers-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Manic Miner",
@@ -17892,8 +17533,7 @@
     "console": "gba",
     "id": "manic-miner",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mappy Kids",
@@ -17947,8 +17587,7 @@
     "console": "gba",
     "id": "marble-madness-slash-klax",
     "id_igdb": 79831,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "March of the Penguins",
@@ -17966,8 +17605,7 @@
     "console": "gba",
     "id": "mario-luigi-superstar-saga",
     "id_igdb": 3351,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario Advanced - Mario Bros. 2 + Mario Classic",
@@ -17976,8 +17614,7 @@
     "console": "gba",
     "id": "mario-advanced-mario-bros",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario Advanced 2 - Mario World",
@@ -17986,8 +17623,7 @@
     "console": "gba",
     "id": "mario-advanced-2-mario-world",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario Andretti Racing",
@@ -18005,8 +17641,7 @@
     "console": "gba",
     "id": "mario-ball",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario Bros.",
@@ -18024,8 +17659,7 @@
     "console": "gba",
     "id": "mario-golf-advance-tour",
     "id_igdb": 3404,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario Is Missing!",
@@ -18052,8 +17686,7 @@
     "console": "gba",
     "id": "mario-kart-super-circuit",
     "id_igdb": 2343,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario Lemieux Hockey",
@@ -18098,8 +17731,7 @@
     "console": "gba",
     "id": "mario-tennis-power-tour",
     "id_igdb": 6504,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mario vs. Donkey Kong",
@@ -18216,8 +17848,7 @@
     "console": "gba",
     "id": "marvels-the-invincible-iron-man",
     "id_igdb": 49231,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Marvel: Ultimate Alliance",
@@ -18226,8 +17857,7 @@
     "console": "gba",
     "id": "marvel-ultimate-alliance",
     "id_igdb": 197883,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mary Shelley's Frankenstein",
@@ -18254,8 +17884,7 @@
     "console": "gba",
     "id": "mary-kate-and-ashley-girls-night-out",
     "id_igdb": 49391,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mary-Kate and Ashley: Sweet 16 - Licensed to Drive",
@@ -18264,8 +17893,7 @@
     "console": "gba",
     "id": "mary-kate-and-ashley-sweet-16-licensed-to-drive",
     "id_igdb": 242426,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Master Chu and the Drunkard Hu",
@@ -18310,8 +17938,7 @@
     "console": "gba",
     "id": "masters-of-the-universe-he-man-power-of-grayskull",
     "id_igdb": 6432,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mat Hoffman's Pro BMX",
@@ -18347,8 +17974,7 @@
     "console": "gba",
     "id": "matchbox-cross-town-heroes",
     "id_igdb": 49329,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Maten no Soumetsu",
@@ -18375,8 +18001,7 @@
     "console": "gba",
     "id": "math-patrol-the-kleptoid-threat",
     "id_igdb": 49475,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Maui Mallard in Cold Shadow",
@@ -18404,8 +18029,7 @@
     "console": "gba",
     "id": "max-payne",
     "id_igdb": 133860,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Maya the Bee: Sweet Gold",
@@ -18414,8 +18038,7 @@
     "console": "gba",
     "id": "maya-the-bee-sweet-gold",
     "id_igdb": 49328,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Maya the Bee: The Great Adventure",
@@ -18424,8 +18047,7 @@
     "console": "gba",
     "id": "maya-the-bee-the-great-adventure",
     "id_igdb": 49327,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Maze Hunter 3-D",
@@ -18525,8 +18147,7 @@
     "console": "gba",
     "id": "medabots-ax-metabee-version",
     "id_igdb": 49415,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Medabots AX: Rokusho Version",
@@ -18535,8 +18156,7 @@
     "console": "gba",
     "id": "medabots-ax-rokusho-version",
     "id_igdb": 49234,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Medabots RPG - Metabee Version",
@@ -18545,8 +18165,7 @@
     "console": "gba",
     "id": "medabots-rpg-metabee-version",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Medabots RPG - Rokusho Version",
@@ -18555,8 +18174,7 @@
     "console": "gba",
     "id": "medabots-rpg-rokusho-version",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Medal of Honor: Infiltrator",
@@ -18565,8 +18183,7 @@
     "console": "gba",
     "id": "medal-of-honor-infiltrator",
     "id_igdb": 1317,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Medal of Honor: Underground",
@@ -18575,8 +18192,7 @@
     "console": "gba",
     "id": "medal-of-honor-underground",
     "id_igdb": 165307,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Meet the Robinsons",
@@ -18621,8 +18237,7 @@
     "console": "gba",
     "id": "mega-man-bass",
     "id_igdb": 1726,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man 2",
@@ -18685,8 +18300,7 @@
     "console": "gba",
     "id": "mega-man-battle-chip-challenge",
     "id_igdb": 1767,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network",
@@ -18695,8 +18309,7 @@
     "console": "gba",
     "id": "mega-man-battle-network",
     "id_igdb": 1755,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 2",
@@ -18705,8 +18318,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-2",
     "id_igdb": 1756,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 3 Blue",
@@ -18715,8 +18327,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-3-blue",
     "id_igdb": 1758,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 3 White",
@@ -18725,8 +18336,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-3-white",
     "id_igdb": 1757,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 4: Blue Moon",
@@ -18735,8 +18345,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-4-blue-moon",
     "id_igdb": 1760,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 4: Red Sun",
@@ -18745,8 +18354,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-4-red-sun",
     "id_igdb": 1759,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 5: Team Colonel",
@@ -18755,8 +18363,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-5-team-colonel",
     "id_igdb": 1762,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 5: Team Protoman",
@@ -18765,8 +18372,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-5-team-protoman",
     "id_igdb": 1761,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 6: Cybeast Falzar",
@@ -18775,8 +18381,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-6-cybeast-falzar",
     "id_igdb": 1764,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Battle Network 6: Cybeast Gregar",
@@ -18785,8 +18390,7 @@
     "console": "gba",
     "id": "mega-man-battle-network-6-cybeast-gregar",
     "id_igdb": 1765,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Soccer",
@@ -18831,8 +18435,7 @@
     "console": "gba",
     "id": "mega-man-zero",
     "id_igdb": 1775,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Zero 2",
@@ -18841,8 +18444,7 @@
     "console": "gba",
     "id": "mega-man-zero-2",
     "id_igdb": 1776,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Zero 3",
@@ -18851,8 +18453,7 @@
     "console": "gba",
     "id": "mega-man-zero-3",
     "id_igdb": 1777,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man Zero 4",
@@ -18861,8 +18462,7 @@
     "console": "gba",
     "id": "mega-man-zero-4",
     "id_igdb": 1778,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mega Man: The Wily Wars",
@@ -18908,8 +18508,7 @@
     "console": "gba",
     "id": "meine-tierarztpraxis",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Men in Black: The Series",
@@ -18918,8 +18517,7 @@
     "console": "gba",
     "id": "men-in-black-the-series",
     "id_igdb": 240165,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Menace Beach",
@@ -19108,8 +18706,7 @@
     "console": "gba",
     "id": "metroid-fusion",
     "id_igdb": 1104,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Metroid: Zero Mission",
@@ -19118,8 +18715,7 @@
     "console": "gba",
     "id": "metroid-zero-mission",
     "id_igdb": 1107,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "MiG-29 Fulcrum",
@@ -19335,8 +18931,7 @@
     "console": "gba",
     "id": "micro-machines",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Micro Machines 2: Turbo Tournament",
@@ -19381,8 +18976,7 @@
     "console": "gba",
     "id": "midnight-club-street-racing",
     "id_igdb": 194265,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Midnight Resistance",
@@ -19454,8 +19048,7 @@
     "console": "gba",
     "id": "mighty-beanz-pocket-puzzles",
     "id_igdb": 6510,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mighty Bomb Jack",
@@ -19536,8 +19129,7 @@
     "console": "gba",
     "id": "mike-tyson-boxing",
     "id_igdb": 209511,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mike Tyson's Intergalactic Power Punch",
@@ -19618,8 +19210,7 @@
     "console": "gba",
     "id": "minority-report-everybody-runs",
     "id_igdb": 248459,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Miracle Ropit's Adventure in 2100",
@@ -19673,8 +19264,7 @@
     "console": "gba",
     "id": "mission-impossible-operation-surma",
     "id_igdb": 248447,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mitsume ga Tooru",
@@ -19701,8 +19291,7 @@
     "console": "gba",
     "id": "mobile-suit-gundam-seed-battle-assault",
     "id_igdb": 49325,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mobile Suit Z Gundam - Hot Scramble",
@@ -19792,8 +19381,7 @@
     "console": "gba",
     "id": "monster-jam-maximum-destruction",
     "id_igdb": 242805,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Monster Party",
@@ -19883,8 +19471,7 @@
     "console": "gba",
     "id": "monster-bass-fishing",
     "id_igdb": 49324,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Monsters, Inc.",
@@ -19893,8 +19480,7 @@
     "console": "gba",
     "id": "monsters-inc",
     "id_igdb": 81849,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Montezuma's Revenge Featuring Panama Joe",
@@ -19930,8 +19516,7 @@
     "console": "gba",
     "id": "moorhen-3-chicken-chase",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mortal Kombat",
@@ -20039,8 +19624,7 @@
     "console": "gba",
     "id": "mortal-kombat-deadly-alliance",
     "id_igdb": 229852,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mortal Kombat: Tournament Edition",
@@ -20049,8 +19633,7 @@
     "console": "gba",
     "id": "mortal-kombat-tournament-edition",
     "id_igdb": 26635,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Moto GP",
@@ -20059,8 +19642,7 @@
     "console": "gba",
     "id": "moto-gp",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Motocross Champion",
@@ -20096,8 +19678,7 @@
     "console": "gba",
     "id": "motoracer-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mountain Bike Rally",
@@ -20232,8 +19813,7 @@
     "console": "gba",
     "id": "ms-pac-man-maze-madness",
     "id_igdb": 239193,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mucha Lucha! Mascaritas of the Lost Code",
@@ -20242,8 +19822,7 @@
     "console": "gba",
     "id": "mucha-lucha-mascaritas-of-the-lost-code",
     "id_igdb": 64836,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Muhammad Ali Heavyweight Boxing",
@@ -20351,8 +19930,7 @@
     "console": "gba",
     "id": "my-little-pony-crystal-princess-the-runaway-rainbow",
     "id_igdb": 49389,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "My Pet Hotel",
@@ -20361,8 +19939,7 @@
     "console": "gba",
     "id": "my-pet-hotel",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "My Stud Farm",
@@ -20371,8 +19948,7 @@
     "console": "gba",
     "id": "my-stud-farm",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Mystery Quest",
@@ -20705,8 +20281,7 @@
     "console": "gba",
     "id": "nfl-blitz-2002",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NFL Blitz 2003",
@@ -20787,8 +20362,7 @@
     "console": "gba",
     "id": "ngt-next-generation-tennis",
     "id_igdb": 49320,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "NHL '94",
@@ -20998,8 +20572,7 @@
     "console": "gba",
     "id": "namco-museum-50th-anniversary",
     "id_igdb": 202112,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nancy Drew: Message in a Haunted Mansion",
@@ -21008,8 +20581,7 @@
     "console": "gba",
     "id": "nancy-drew-message-in-a-haunted-mansion",
     "id_igdb": 248638,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nankoku Shirei!! Spy vs. Spy",
@@ -21036,8 +20608,7 @@
     "console": "gba",
     "id": "naruto-ninja-council",
     "id_igdb": 24066,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Naruto: Ninja Council 2",
@@ -21046,8 +20617,7 @@
     "console": "gba",
     "id": "naruto-ninja-council-2",
     "id_igdb": 24065,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Natsume Championship Wrestling",
@@ -21065,8 +20635,7 @@
     "console": "gba",
     "id": "need-for-speed-carbon-own-the-city",
     "id_igdb": 248119,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Need for Speed: Most Wanted",
@@ -21075,8 +20644,7 @@
     "console": "gba",
     "id": "need-for-speed-most-wanted",
     "id_igdb": 242991,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Need for Speed: Porsche Unleashed",
@@ -21085,8 +20653,7 @@
     "console": "gba",
     "id": "need-for-speed-porsche-unleashed",
     "id_igdb": 248143,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Need for Speed: Underground",
@@ -21095,8 +20662,7 @@
     "console": "gba",
     "id": "need-for-speed-underground",
     "id_igdb": 242990,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Need for Speed: Underground 2",
@@ -21105,8 +20671,7 @@
     "console": "gba",
     "id": "need-for-speed-underground-2",
     "id_igdb": 229854,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "New Ghostbusters II",
@@ -21160,8 +20725,7 @@
     "console": "gba",
     "id": "nicktoons-unite",
     "id_igdb": 202111,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nicktoons: Attack of the Toybots",
@@ -21170,8 +20734,7 @@
     "console": "gba",
     "id": "nicktoons-attack-of-the-toybots",
     "id_igdb": 240986,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nicktoons: Battle for Volcano Island",
@@ -21180,8 +20743,7 @@
     "console": "gba",
     "id": "nicktoons-battle-for-volcano-island",
     "id_igdb": 43481,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nicktoons: Freeze Frame Frenzy",
@@ -21190,8 +20752,7 @@
     "console": "gba",
     "id": "nicktoons-freeze-frame-frenzy",
     "id_igdb": 2766,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nigel Mansell's World Championship",
@@ -21263,8 +20824,7 @@
     "console": "gba",
     "id": "ninja-cop",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ninja Crusaders",
@@ -21282,8 +20842,7 @@
     "console": "gba",
     "id": "ninja-five-o",
     "id_igdb": 6524,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ninja Gaiden",
@@ -21436,8 +20995,7 @@
     "console": "gba",
     "id": "no-rules-get-phat",
     "id_igdb": 6525,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Noah's Ark",
@@ -21491,8 +21049,7 @@
     "console": "gba",
     "id": "noddy-a-day-in-toyland",
     "id_igdb": 49388,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Nolan Ryan's Baseball",
@@ -21555,8 +21112,7 @@
     "console": "gba",
     "id": "oddworld-munchs-oddysee",
     "id_igdb": 134025,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ogre Battle: The March of the Black Queen",
@@ -21619,8 +21175,7 @@
     "console": "gba",
     "id": "one-piece",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Onimusha Tactics",
@@ -21728,8 +21283,7 @@
     "console": "gba",
     "id": "operation-armored-liberty",
     "id_igdb": 49319,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Orb-3D",
@@ -21756,8 +21310,7 @@
     "console": "gba",
     "id": "original-harlem-globetrotters",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Oscar",
@@ -21874,8 +21427,7 @@
     "console": "gba",
     "id": "over-the-hedge-hammy-goes-nuts",
     "id_igdb": 6527,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Overlord",
@@ -21893,8 +21445,7 @@
     "console": "gba",
     "id": "ozzy-and-drix",
     "id_igdb": 49318,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "P'radikus Conflict",
@@ -22362,8 +21913,7 @@
     "console": "gba",
     "id": "paws-and-claws-pet-resort",
     "id_igdb": 18272,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Payback",
@@ -22417,8 +21967,7 @@
     "console": "gba",
     "id": "penny-racers",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pepenga Pengo",
@@ -22454,8 +22003,7 @@
     "console": "gba",
     "id": "personal-organizer-pda",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pescatore",
@@ -22500,8 +22048,7 @@
     "console": "gba",
     "id": "peter-pan-the-motion-picture-event",
     "id_igdb": 49317,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pets - Hamsters Life 2",
@@ -22510,8 +22057,7 @@
     "console": "gba",
     "id": "pets-hamsters-life-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Petz Vet",
@@ -22520,8 +22066,7 @@
     "console": "gba",
     "id": "petz-vet",
     "id_igdb": 49459,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Phalanx",
@@ -22539,8 +22084,7 @@
     "console": "gba",
     "id": "phalanx",
     "id_igdb": 6532,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Phantasy Star",
@@ -22774,8 +22318,7 @@
     "console": "gba",
     "id": "pink-panther-pinkadelic-pursuit",
     "id_igdb": 8108,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pinky and the Brain: The Master Plan",
@@ -22784,8 +22327,7 @@
     "console": "gba",
     "id": "pinky-and-the-brain-the-master-plan",
     "id_igdb": 49360,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pinobee: Wings of Adventure",
@@ -22794,8 +22336,7 @@
     "console": "gba",
     "id": "pinobee-wings-of-adventure",
     "id_igdb": 6535,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pipe Dream",
@@ -22813,8 +22354,7 @@
     "console": "gba",
     "id": "pippa-funnell-stable-adventure",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pippa Funnell 2",
@@ -22832,8 +22372,7 @@
     "console": "gba",
     "id": "pirates-of-the-caribbean",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pirates of the Caribbean: Dead Man's Chest",
@@ -22842,8 +22381,7 @@
     "console": "gba",
     "id": "pirates-of-the-caribbean-dead-mans-chest",
     "id_igdb": 194266,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pirates! Gold",
@@ -22888,8 +22426,7 @@
     "console": "gba",
     "id": "pitfall-the-lost-expedition",
     "id_igdb": 209384,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pitfall: The Mayan Adventure",
@@ -22898,8 +22435,7 @@
     "console": "gba",
     "id": "pitfall-the-mayan-adventure",
     "id_igdb": 5410,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pitfall: The Mayan Adventure",
@@ -23016,8 +22552,7 @@
     "console": "gba",
     "id": "pocket-professor-kwik-notes-volume-1",
     "id_igdb": 300979,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pocket Zaurus: Juu Ouken no Nazo",
@@ -23062,8 +22597,7 @@
     "console": "gba",
     "id": "pokemon-fire-red",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pokemon - Leaf Green",
@@ -23072,8 +22606,7 @@
     "console": "gba",
     "id": "pokemon-leaf-green",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pokemon Emerald",
@@ -23082,8 +22615,7 @@
     "console": "gba",
     "id": "pokemon-emerald",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pokemon Ruby",
@@ -23092,8 +22624,7 @@
     "console": "gba",
     "id": "pokemon-ruby",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pokemon Sapphire",
@@ -23102,8 +22633,7 @@
     "console": "gba",
     "id": "pokemon-sapphire",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pokémon Mystery Dungeon: Red Rescue Team",
@@ -23112,8 +22642,7 @@
     "console": "gba",
     "id": "pokemon-mystery-dungeon-red-rescue-team",
     "id_igdb": 2319,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pokémon Pinball: Ruby & Sapphire",
@@ -23122,8 +22651,7 @@
     "console": "gba",
     "id": "pokemon-pinball-ruby-sapphire",
     "id_igdb": 4069,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Polarium Advance",
@@ -23141,8 +22669,7 @@
     "console": "gba",
     "id": "polly-pocket-super-splash-island",
     "id_igdb": 49434,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pooyan",
@@ -23160,8 +22687,7 @@
     "console": "gba",
     "id": "pop-idol",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pop'n TwinBee",
@@ -23197,8 +22723,7 @@
     "console": "gba",
     "id": "popeye-rush-for-spinach",
     "id_igdb": 6538,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Populous",
@@ -23333,8 +22858,7 @@
     "console": "gba",
     "id": "power-rangers-s-p-d",
     "id_igdb": 3292,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Rangers Time Force",
@@ -23343,8 +22867,7 @@
     "console": "gba",
     "id": "power-rangers-time-force",
     "id_igdb": 248622,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Rangers Zeo: Battle Racers",
@@ -23362,8 +22885,7 @@
     "console": "gba",
     "id": "power-rangers-dino-thunder",
     "id_igdb": 243195,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Rangers: Ninja Storm",
@@ -23372,8 +22894,7 @@
     "console": "gba",
     "id": "power-rangers-ninja-storm",
     "id_igdb": 284965,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Rangers: Wild Force",
@@ -23382,8 +22903,7 @@
     "console": "gba",
     "id": "power-rangers-wild-force",
     "id_igdb": 49181,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Power Strike II",
@@ -23428,8 +22948,7 @@
     "console": "gba",
     "id": "powerpuff-girls-mojo-jojo-a-go-go",
     "id_igdb": 5888,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Predator",
@@ -23483,8 +23002,7 @@
     "console": "gba",
     "id": "premier-action",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Premier League Manager",
@@ -23493,8 +23011,7 @@
     "console": "gba",
     "id": "premier-league-manager",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Premier Manager",
@@ -23512,8 +23029,7 @@
     "console": "gba",
     "id": "premier-manager-2003-04",
     "id_igdb": 27250,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Premier Manager 2004-2005",
@@ -23531,8 +23047,7 @@
     "console": "gba",
     "id": "premier-manager-2005-2006",
     "id_igdb": 49354,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Premier Manager 97",
@@ -23613,8 +23128,7 @@
     "console": "gba",
     "id": "prince-of-persia-the-sands-of-time",
     "id_igdb": 142650,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Princess Natasha: Student Secret Agent",
@@ -23623,8 +23137,7 @@
     "console": "gba",
     "id": "princess-natasha-student-secret-agent",
     "id_igdb": 49432,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Princess Tomato in the Salad Kingdom",
@@ -23642,8 +23155,7 @@
     "console": "gba",
     "id": "pro-beach-soccer",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pro Moves Soccer",
@@ -23787,8 +23299,7 @@
     "console": "gba",
     "id": "punch-king",
     "id_igdb": 49180,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Punch-Out!!",
@@ -23806,8 +23317,7 @@
     "console": "gba",
     "id": "puppy-luv-spa-and-resort",
     "id_igdb": 49473,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Pushover",
@@ -23915,8 +23425,7 @@
     "console": "gba",
     "id": "puzzle-fighter-2",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Puzznic",
@@ -24060,8 +23569,7 @@
     "console": "gba",
     "id": "r-type-iii-the-third-lightning",
     "id_igdb": 6550,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "R-Type III: The Third Lightning",
@@ -24430,8 +23938,7 @@
     "console": "gba",
     "id": "rampage-puzzle-attack",
     "id_igdb": 6552,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rampart",
@@ -24512,8 +24019,7 @@
     "console": "gba",
     "id": "rapala-pro-fishing",
     "id_igdb": 308988,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rastan",
@@ -24549,8 +24055,7 @@
     "console": "gba",
     "id": "rave-master-special-attack-force",
     "id_igdb": 6553,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rayman 10th Anniversary",
@@ -24559,8 +24064,7 @@
     "console": "gba",
     "id": "rayman-10th-anniversary",
     "id_igdb": 136211,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rayman 3",
@@ -24569,8 +24073,7 @@
     "console": "gba",
     "id": "rayman-3",
     "id_igdb": 49843,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rayman Advance",
@@ -24579,8 +24082,7 @@
     "console": "gba",
     "id": "rayman-advance",
     "id_igdb": 22012,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rayman Raving Rabbids",
@@ -24589,8 +24091,7 @@
     "console": "gba",
     "id": "rayman-raving-rabbids",
     "id_igdb": 151927,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rayman: Hoodlums' Revenge",
@@ -24599,8 +24100,7 @@
     "console": "gba",
     "id": "rayman-hoodlums-revenge",
     "id_igdb": 1967,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Razor Freestyle Scooter",
@@ -24609,8 +24109,7 @@
     "console": "gba",
     "id": "razor-freestyle-scooter",
     "id_igdb": 249124,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ready 2 Rumble Boxing: Round 2",
@@ -24619,8 +24118,7 @@
     "console": "gba",
     "id": "ready-2-rumble-boxing-round-2",
     "id_igdb": 209280,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Realm",
@@ -24638,8 +24136,7 @@
     "console": "gba",
     "id": "rebel-star-tactical-command",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rebelstar: Tactical Command",
@@ -24648,8 +24145,7 @@
     "console": "gba",
     "id": "rebelstar-tactical-command",
     "id_igdb": 6554,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Red Zone",
@@ -24739,8 +24235,7 @@
     "console": "gba",
     "id": "rescue-heroes-billy-blazes",
     "id_igdb": 49431,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rescue Mission",
@@ -24929,8 +24424,7 @@
     "console": "gba",
     "id": "riviera-the-promised-land",
     "id_igdb": 6559,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Road Fighter",
@@ -24984,8 +24478,7 @@
     "console": "gba",
     "id": "road-rash-jailbreak",
     "id_igdb": 49178,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Road Riot 4WD",
@@ -25021,8 +24514,7 @@
     "console": "gba",
     "id": "road-trip-shifting-gears",
     "id_igdb": 49251,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "RoadBlasters",
@@ -25175,8 +24667,7 @@
     "console": "gba",
     "id": "robopon-2-cross-version",
     "id_igdb": 6561,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robopon 2 Ring Version",
@@ -25185,8 +24676,7 @@
     "console": "gba",
     "id": "robopon-2-ring-version",
     "id_igdb": 6560,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robot Wars: Advanced Destruction",
@@ -25195,8 +24685,7 @@
     "console": "gba",
     "id": "robot-wars-advanced-destruction",
     "id_igdb": 6562,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robot Wars: Extreme Destruction",
@@ -25205,8 +24694,7 @@
     "console": "gba",
     "id": "robot-wars-extreme-destruction",
     "id_igdb": 78623,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robotech: The Macross Saga",
@@ -25215,8 +24703,7 @@
     "console": "gba",
     "id": "robotech-the-macross-saga",
     "id_igdb": 6563,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Robotrek",
@@ -25243,8 +24730,7 @@
     "console": "gba",
     "id": "rock-em-sock-em-robots",
     "id_igdb": 146679,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rock n' Bolt",
@@ -25262,8 +24748,7 @@
     "console": "gba",
     "id": "rock-n-roll-racing",
     "id_igdb": 6564,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rock n' Roll Racing",
@@ -25317,8 +24802,7 @@
     "console": "gba",
     "id": "rocket-power-beach-bandits",
     "id_igdb": 243188,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rocket Power: Dream Scheme",
@@ -25327,8 +24811,7 @@
     "console": "gba",
     "id": "rocket-power-dream-scheme",
     "id_igdb": 8092,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rocket Power: Zero Gravity Zone",
@@ -25337,8 +24820,7 @@
     "console": "gba",
     "id": "rocket-power-zero-gravity-zone",
     "id_igdb": 8095,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rocket Ranger",
@@ -25437,8 +24919,7 @@
     "console": "gba",
     "id": "roland-garros-2002-next-generation-tennis",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rollerball",
@@ -25627,8 +25108,7 @@
     "console": "gba",
     "id": "rugrats-all-grown-up",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rugrats Go Wild!",
@@ -25637,8 +25117,7 @@
     "console": "gba",
     "id": "rugrats-go-wild",
     "id_igdb": 248691,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rugrats: Castle Capers",
@@ -25647,8 +25126,7 @@
     "console": "gba",
     "id": "rugrats-castle-capers",
     "id_igdb": 2795,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Rugrats: I Gotta Go Party",
@@ -25657,8 +25135,7 @@
     "console": "gba",
     "id": "rugrats-i-gotta-go-party",
     "id_igdb": 2794,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Run Saber",
@@ -25757,8 +25234,7 @@
     "console": "gba",
     "id": "srs-street-racing-syndicate",
     "id_igdb": 49382,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SSX 3",
@@ -25803,8 +25279,7 @@
     "console": "gba",
     "id": "sabrewulf",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sabrina the Teenage Witch: Potion Commotion",
@@ -25813,8 +25288,7 @@
     "console": "gba",
     "id": "sabrina-the-teenage-witch-potion-commotion",
     "id_igdb": 49430,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Safari Hunt",
@@ -25877,8 +25351,7 @@
     "console": "gba",
     "id": "samurai-jack-the-amulet-of-time",
     "id_igdb": 2822,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Samurai Shodown",
@@ -25932,8 +25405,7 @@
     "console": "gba",
     "id": "santa-claus-jr-advance",
     "id_igdb": 49338,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Santa Claus Saves The Earth",
@@ -25942,8 +25414,7 @@
     "console": "gba",
     "id": "santa-claus-saves-the-earth",
     "id_igdb": 49237,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sapo Xulé: O Mestre do Kung Fu",
@@ -26006,8 +25477,7 @@
     "console": "gba",
     "id": "scooby-doo-the-motion-picture",
     "id_igdb": 57641,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scooby-Doo 2: Monsters Unleashed",
@@ -26016,8 +25486,7 @@
     "console": "gba",
     "id": "scooby-doo-2-monsters-unleashed",
     "id_igdb": 27602,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scooby-Doo Mystery",
@@ -26053,8 +25522,7 @@
     "console": "gba",
     "id": "scooby-doo-unmasked",
     "id_igdb": 210729,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scooby-Doo!: Mystery Mayhem",
@@ -26063,8 +25531,7 @@
     "console": "gba",
     "id": "scooby-doo-mystery-mayhem",
     "id_igdb": 49225,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scrabble",
@@ -26082,8 +25549,7 @@
     "console": "gba",
     "id": "scrabble-blast",
     "id_igdb": 49337,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scrabble Scramble",
@@ -26092,8 +25558,7 @@
     "console": "gba",
     "id": "scrabble-scramble",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Scramble Spirits",
@@ -26111,8 +25576,7 @@
     "console": "gba",
     "id": "scurge-hive",
     "id_igdb": 6585,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sea Trader: Rise of Taipan",
@@ -26121,8 +25585,7 @@
     "console": "gba",
     "id": "sea-trader-rise-of-taipan",
     "id_igdb": 49386,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sea World: Shamu's Deep Sea Adventures",
@@ -26131,8 +25594,7 @@
     "console": "gba",
     "id": "sea-world-shamus-deep-sea-adventures",
     "id_igdb": 72623,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sea of Dreamland",
@@ -26465,8 +25927,7 @@
     "console": "gba",
     "id": "shaman-king-legacy-of-the-spirits-soaring-hawk",
     "id_igdb": 6588,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shaman King: Legacy of the Spirits, Sprinting Wolf",
@@ -26475,8 +25936,7 @@
     "console": "gba",
     "id": "shaman-king-legacy-of-the-spirits-sprinting-wolf",
     "id_igdb": 6589,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shaman King: Master of Spirits",
@@ -26485,8 +25945,7 @@
     "console": "gba",
     "id": "shaman-king-master-of-spirits",
     "id_igdb": 6590,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shanghai",
@@ -26649,8 +26108,7 @@
     "console": "gba",
     "id": "shining-force-resurrection-of-the-dark-dragon",
     "id_igdb": 22285,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shining Soul",
@@ -26668,8 +26126,7 @@
     "console": "gba",
     "id": "shining-soul-ii",
     "id_igdb": 6594,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shining in the Darkness",
@@ -26732,8 +26189,7 @@
     "console": "gba",
     "id": "shonen-jumps-shaman-king-master-of-spirits-2",
     "id_igdb": 6591,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shooting Gallery",
@@ -26787,8 +26243,7 @@
     "console": "gba",
     "id": "shrek-2-beg-for-mercy",
     "id_igdb": 49223,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shrek Smash n' Crash Racing",
@@ -26797,8 +26252,7 @@
     "console": "gba",
     "id": "shrek-smash-n-crash-racing",
     "id_igdb": 248506,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shrek SuperSlam",
@@ -26807,8 +26261,7 @@
     "console": "gba",
     "id": "shrek-superslam",
     "id_igdb": 141642,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shrek the Third",
@@ -26826,8 +26279,7 @@
     "console": "gba",
     "id": "shrek-hassle-at-the-castle",
     "id_igdb": 3674,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shrek: Reekin' Havoc",
@@ -26836,8 +26288,7 @@
     "console": "gba",
     "id": "shrek-reekin-havoc",
     "id_igdb": 49222,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shrek: Swamp Kart Speedway",
@@ -26846,8 +26297,7 @@
     "console": "gba",
     "id": "shrek-swamp-kart-speedway",
     "id_igdb": 49240,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Shufflepuck Cafe",
@@ -27000,8 +26450,7 @@
     "console": "gba",
     "id": "simcity-2000",
     "id_igdb": 330,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SimCity 2000",
@@ -27109,8 +26558,7 @@
     "console": "gba",
     "id": "sky-dancers-they-magically-fly",
     "id_igdb": 49401,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sky Destroyer",
@@ -27290,8 +26738,7 @@
     "console": "gba",
     "id": "snood-2-on-vacation",
     "id_igdb": 19107,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Snoopy's Silly Sports Spectacular!",
@@ -27606,8 +27053,7 @@
     "console": "gba",
     "id": "sonic-the-hedgehog-genesis",
     "id_igdb": 43321,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sonic the Hedgehog: Spinball",
@@ -27679,8 +27125,7 @@
     "console": "gba",
     "id": "space-channel-5-ulalas-cosmic-attack",
     "id_igdb": 23716,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Space Football: One on One",
@@ -27860,8 +27305,7 @@
     "console": "gba",
     "id": "speedball-2-brutal-deluxe",
     "id_igdb": 10152,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Speedball 2: Brutal Deluxe",
@@ -27951,8 +27395,7 @@
     "console": "gba",
     "id": "spider-man",
     "id_igdb": 203134,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spider-Man 2",
@@ -28015,8 +27458,7 @@
     "console": "gba",
     "id": "spider-man-battle-for-new-york",
     "id_igdb": 6604,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spider-Man: Mysterio's Menace",
@@ -28025,8 +27467,7 @@
     "console": "gba",
     "id": "spider-man-mysterio-s-menace",
     "id_igdb": 6605,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spider-Man: Return of the Sinister Six",
@@ -28053,8 +27494,7 @@
     "console": "gba",
     "id": "spirit-stallion-of-the-cimarron",
     "id_igdb": 49257,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spirits & Spells",
@@ -28063,8 +27503,7 @@
     "console": "gba",
     "id": "spirits-and-spells",
     "id_igdb": 165201,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spiritual Warfare",
@@ -28136,8 +27575,7 @@
     "console": "gba",
     "id": "splinter-cell",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob SquarePants & Friends Unite",
@@ -28146,8 +27584,7 @@
     "console": "gba",
     "id": "spongebob-squarepants-friends-unite",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob SquarePants - Lights Camera Action",
@@ -28156,8 +27593,7 @@
     "console": "gba",
     "id": "spongebob-squarepants-lights-camera-action",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob SquarePants: Battle For Bikini Bottom",
@@ -28166,8 +27602,7 @@
     "console": "gba",
     "id": "spongebob-squarepants-battle-for-bikini-bottom",
     "id_igdb": 133910,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob SquarePants: Creature From the Krusty Krab",
@@ -28176,8 +27611,7 @@
     "console": "gba",
     "id": "spongebob-squarepants-creature-from-the-krusty-krab",
     "id_igdb": 248482,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob SquarePants: Revenge of the Flying Dutchman",
@@ -28186,8 +27620,7 @@
     "console": "gba",
     "id": "spongebob-squarepants-revenge-of-the-flying-dutchman",
     "id_igdb": 198665,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob SquarePants: SuperSponge",
@@ -28196,8 +27629,7 @@
     "console": "gba",
     "id": "spongebob-squarepants-supersponge",
     "id_igdb": 248626,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob and Friends - Attack of the Toybots",
@@ -28206,8 +27638,7 @@
     "console": "gba",
     "id": "spongebob-and-friends-attack-of-the-toybots",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "SpongeBob's Atlantis Squarepantis",
@@ -28216,8 +27647,7 @@
     "console": "gba",
     "id": "spongebobs-atlantis-squarepantis",
     "id_igdb": 43312,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sports Illustrated Championship Football & Baseball",
@@ -28235,8 +27665,7 @@
     "console": "gba",
     "id": "sports-illustrated-for-kids-baseball",
     "id_igdb": 49290,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sports Illustrated for Kids: Football",
@@ -28245,8 +27674,7 @@
     "console": "gba",
     "id": "sports-illustrated-for-kids-football",
     "id_igdb": 49220,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spot Goes to Hollywood",
@@ -28274,8 +27702,7 @@
     "console": "gba",
     "id": "spy-hunter",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spy Hunter / Super Sprint",
@@ -28284,8 +27711,7 @@
     "console": "gba",
     "id": "spy-hunter-slash-super-sprint",
     "id_igdb": 93200,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spy Kids 3-D: Game Over",
@@ -28294,8 +27720,7 @@
     "console": "gba",
     "id": "spy-kids-3-d-game-over",
     "id_igdb": 23693,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spy Kids Challenger",
@@ -28313,8 +27738,7 @@
     "console": "gba",
     "id": "spy-muppets-license-to-croak",
     "id_igdb": 210723,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spy vs Spy",
@@ -28341,8 +27765,7 @@
     "console": "gba",
     "id": "spyro-2-season-of-flame",
     "id_igdb": 1588,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spyro Fusion",
@@ -28351,8 +27774,7 @@
     "console": "gba",
     "id": "spyro-fusion",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spyro Orange: The Cortex Conspiracy",
@@ -28361,8 +27783,7 @@
     "console": "gba",
     "id": "spyro-orange-the-cortex-conspiracy",
     "id_igdb": 1590,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spyro's Adventures",
@@ -28371,8 +27792,7 @@
     "console": "gba",
     "id": "spyro-s-adventures",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spyro: Attack of the Rhynocs",
@@ -28381,8 +27801,7 @@
     "console": "gba",
     "id": "spyro-attack-of-the-rhynocs",
     "id_igdb": 1589,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Spyro: Season of Ice",
@@ -28391,8 +27810,7 @@
     "console": "gba",
     "id": "spyro-season-of-ice",
     "id_igdb": 1587,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sqoon",
@@ -28644,8 +28062,7 @@
     "console": "gba",
     "id": "star-wars-trilogy-apprentice-of-the-force",
     "id_igdb": 6609,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Wars: Episode II - Attack of the Clones",
@@ -28654,8 +28071,7 @@
     "console": "gba",
     "id": "star-wars-episode-ii-attack-of-the-clones",
     "id_igdb": 18951,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Wars: Episode III - Revenge of the Sith",
@@ -28664,8 +28080,7 @@
     "console": "gba",
     "id": "star-wars-episode-iii-revenge-of-the-sith",
     "id_igdb": 166484,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Wars: Flight of the Falcon",
@@ -28674,8 +28089,7 @@
     "console": "gba",
     "id": "star-wars-flight-of-the-falcon",
     "id_igdb": 6608,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Wars: Jedi Power Battles",
@@ -28684,8 +28098,7 @@
     "console": "gba",
     "id": "star-wars-jedi-power-battles",
     "id_igdb": 301489,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star Wars: The Empire Strikes Back",
@@ -28703,8 +28116,7 @@
     "console": "gba",
     "id": "star-wars-the-new-droid-army",
     "id_igdb": 6607,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Star X",
@@ -28767,8 +28179,7 @@
     "console": "gba",
     "id": "starsky-and-hutch",
     "id_igdb": 243809,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Stealth ATF",
@@ -28876,8 +28287,7 @@
     "console": "gba",
     "id": "strawberry-shortcake-ice-cream-island-riding-camp",
     "id_igdb": 8571,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Strawberry Shortcake: Summertime Adventure",
@@ -28886,8 +28296,7 @@
     "console": "gba",
     "id": "strawberry-shortcake-summertime-adventure",
     "id_igdb": 8570,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Strawberry Shortcake: Summertime Adventure - Special Edition",
@@ -28896,8 +28305,7 @@
     "console": "gba",
     "id": "strawberry-shortcake-summertime-adventure-special-edition",
     "id_igdb": 49501,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Strawberry Shortcake: Sweet Dreams",
@@ -28906,8 +28314,7 @@
     "console": "gba",
     "id": "strawberry-shortcake-sweet-dreams",
     "id_igdb": 49366,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Street Combat",
@@ -29060,8 +28467,7 @@
     "console": "gba",
     "id": "street-fighter-alpha-3",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Streets of Rage",
@@ -29205,8 +28611,7 @@
     "console": "gba",
     "id": "stuntman",
     "id_igdb": 197884,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sub Terrania",
@@ -29278,8 +28683,7 @@
     "console": "gba",
     "id": "summon-night-swordcraft-story",
     "id_igdb": 6615,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Summon Night: Swordcraft Story 2",
@@ -29288,8 +28692,7 @@
     "console": "gba",
     "id": "summon-night-swordcraft-story-2",
     "id_igdb": 6616,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Sumo Wrestling",
@@ -29740,8 +29143,7 @@
     "console": "gba",
     "id": "super-ghouls-n-ghosts",
     "id_igdb": 219488,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Ghouls'n Ghosts",
@@ -29831,8 +29233,7 @@
     "console": "gba",
     "id": "super-hornet-f-slash-a-18f",
     "id_igdb": 49289,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Hydlide",
@@ -29886,8 +29287,7 @@
     "console": "gba",
     "id": "super-mario-advance-4-super-mario-bros-3",
     "id_igdb": 296153,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Mario All-Stars",
@@ -30005,8 +29405,7 @@
     "console": "gba",
     "id": "super-monkey-ball-jr",
     "id_igdb": 6622,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Morph",
@@ -30168,8 +29567,7 @@
     "console": "gba",
     "id": "super-puzzle-fighter-ii-turbo",
     "id_igdb": 55059,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super R-Type",
@@ -30205,8 +29603,7 @@
     "console": "gba",
     "id": "super-robot-taisen-original-generation",
     "id_igdb": 6625,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Robot Taisen: Original Generation 2",
@@ -30215,8 +29612,7 @@
     "console": "gba",
     "id": "super-robot-taisen-original-generation-2",
     "id_igdb": 6627,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Shadow of the Beast",
@@ -30369,8 +29765,7 @@
     "console": "gba",
     "id": "super-street-fighter-ii-turbo-revival",
     "id_igdb": 45195,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Street Fighter II: The New Challengers",
@@ -30559,8 +29954,7 @@
     "console": "gba",
     "id": "superman-returns-fortress-of-solitude",
     "id_igdb": 19074,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Superman: Countdown to Apokolips",
@@ -30569,8 +29963,7 @@
     "console": "gba",
     "id": "superman-countdown-to-apokolips",
     "id_igdb": 49216,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Superman: The Man of Steel",
@@ -30795,8 +30188,7 @@
     "console": "gba",
     "id": "tactics-ogre-the-knight-of-lodis",
     "id_igdb": 6635,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tag Team Match M.U.S.C.L.E.",
@@ -30850,8 +30242,7 @@
     "console": "gba",
     "id": "tak-2-the-staff-of-dreams",
     "id_igdb": 243146,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tak and the Power of Juju",
@@ -30860,8 +30251,7 @@
     "console": "gba",
     "id": "tak-and-the-power-of-juju",
     "id_igdb": 248449,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tak: The Great Juju Challenge",
@@ -30870,8 +30260,7 @@
     "console": "gba",
     "id": "tak-the-great-juju-challenge",
     "id_igdb": 210255,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Takahashi Meijin no Bug-tte Honey",
@@ -31259,8 +30648,7 @@
     "console": "gba",
     "id": "teenage-mutant-ninja-turtles-2-battle-nexus",
     "id_igdb": 146058,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Teenage Mutant Ninja Turtles II: The Arcade Game",
@@ -31332,8 +30720,7 @@
     "console": "gba",
     "id": "tekken-advance",
     "id_igdb": 1240,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tel-Tel Mahjong",
@@ -31378,8 +30765,7 @@
     "console": "gba",
     "id": "tennis-masters-series-2003",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Terebi Oekaki",
@@ -31451,8 +30837,7 @@
     "console": "gba",
     "id": "terminator-3-rise-of-the-machines",
     "id_igdb": 204902,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Terra Cresta",
@@ -31542,8 +30927,7 @@
     "console": "gba",
     "id": "texas-hold-em-poker",
     "id_igdb": 18051,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "That's So Raven",
@@ -31552,8 +30936,7 @@
     "console": "gba",
     "id": "thats-so-raven",
     "id_igdb": 49407,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "That's So Raven 2: Supernatural Style",
@@ -31562,8 +30945,7 @@
     "console": "gba",
     "id": "thats-so-raven-2-supernatural-style",
     "id_igdb": 49406,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The 7th Saga",
@@ -31689,8 +31071,7 @@
     "console": "gba",
     "id": "the-adventures-of-jimmy-neutron-boy-genius-attack-of-the-twonkies",
     "id_igdb": 248496,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Adventures of Jimmy Neutron Boy Genius: Jet Fusion",
@@ -31699,8 +31080,7 @@
     "console": "gba",
     "id": "the-adventures-of-jimmy-neutron-boy-genius-jet-fusion",
     "id_igdb": 242423,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Adventures of Mighty Max",
@@ -32101,8 +31481,7 @@
     "console": "gba",
     "id": "the-fairly-oddparents-breakin-da-rules",
     "id_igdb": 243198,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Fairly OddParents: Clash With the Anti-World",
@@ -32111,8 +31490,7 @@
     "console": "gba",
     "id": "the-fairly-oddparents-clash-with-the-anti-world",
     "id_igdb": 18256,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Fairly OddParents: Enter the Cleft",
@@ -32121,8 +31499,7 @@
     "console": "gba",
     "id": "the-fairly-oddparents-enter-the-cleft",
     "id_igdb": 18257,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Fairly OddParents: Shadow Showdown",
@@ -32131,8 +31508,7 @@
     "console": "gba",
     "id": "the-fairly-oddparents-shadow-showdown",
     "id_igdb": 248497,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Firemen",
@@ -32187,8 +31563,7 @@
     "console": "gba",
     "id": "the-flintstones-big-trouble-in-bedrock",
     "id_igdb": 49194,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Flintstones: The Rescue of Dino & Hoppy",
@@ -32306,8 +31681,7 @@
     "console": "gba",
     "id": "the-grim-adventures-of-billy-and-mandy",
     "id_igdb": 248521,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Guardian Legend",
@@ -32325,8 +31699,7 @@
     "console": "gba",
     "id": "the-hobbit",
     "id_igdb": 248450,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Humans",
@@ -32447,8 +31820,7 @@
     "console": "gba",
     "id": "the-incredible-hulk",
     "id_igdb": 131067,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Incredible Hulk",
@@ -32485,8 +31857,7 @@
     "console": "gba",
     "id": "the-incredibles",
     "id_igdb": 210442,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Incredibles: Rise of the Underminer",
@@ -32495,8 +31866,7 @@
     "console": "gba",
     "id": "the-incredibles-rise-of-the-underminer",
     "id_igdb": 200818,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Irem Skins Game",
@@ -32595,8 +31965,7 @@
     "console": "gba",
     "id": "the-king-of-fighters-ex2-howling-blood",
     "id_igdb": 49169,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The King of Fighters EX: Neo Blood",
@@ -32605,8 +31974,7 @@
     "console": "gba",
     "id": "the-king-of-fighters-ex-neo-blood",
     "id_igdb": 49170,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Koala Brothers: Outback Adventures",
@@ -32615,8 +31983,7 @@
     "console": "gba",
     "id": "the-koala-brothers-outback-adventures",
     "id_igdb": 49398,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Krion Conquest",
@@ -32634,8 +32001,7 @@
     "console": "gba",
     "id": "the-land-before-time",
     "id_igdb": 69555,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Last Ninja",
@@ -32707,8 +32073,7 @@
     "console": "gba",
     "id": "the-legend-of-spyro-a-new-beginning",
     "id_igdb": 206652,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Legend of Spyro: The Eternal Night",
@@ -32717,8 +32082,7 @@
     "console": "gba",
     "id": "the-legend-of-spyro-the-eternal-night",
     "id_igdb": 210446,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Legend of Zelda",
@@ -32745,8 +32109,7 @@
     "console": "gba",
     "id": "the-legend-of-zelda-a-link-to-the-past",
     "id_igdb": 229416,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Legend of Zelda: The Minish Cap",
@@ -32755,8 +32118,7 @@
     "console": "gba",
     "id": "the-legend-of-zelda-the-minish-cap",
     "id_igdb": 1035,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Legend of the Mystical Ninja",
@@ -32810,8 +32172,7 @@
     "console": "gba",
     "id": "the-lord-of-the-rings-the-fellowship-of-the-ring",
     "id_igdb": 201347,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Lord of the Rings: The Return of the King",
@@ -32820,8 +32181,7 @@
     "console": "gba",
     "id": "the-lord-of-the-rings-the-return-of-the-king",
     "id_igdb": 308133,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Lord of the Rings: The Third Age",
@@ -32830,8 +32190,7 @@
     "console": "gba",
     "id": "the-lord-of-the-rings-the-third-age",
     "id_igdb": 127953,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Lord of the Rings: The Two Towers",
@@ -32840,8 +32199,7 @@
     "console": "gba",
     "id": "the-lord-of-the-rings-the-two-towers",
     "id_igdb": 135736,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Lost Vikings",
@@ -32850,8 +32208,7 @@
     "console": "gba",
     "id": "the-lost-vikings",
     "id_igdb": 144422,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Lost Vikings",
@@ -32959,8 +32316,7 @@
     "console": "gba",
     "id": "the-mummy",
     "id_igdb": 49323,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Muppets: On with the Show!",
@@ -32969,8 +32325,7 @@
     "console": "gba",
     "id": "the-muppets-on-with-the-show",
     "id_igdb": 49321,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Mutant Virus: \"Crisis in a Computer World!\"",
@@ -33078,8 +32433,7 @@
     "console": "gba",
     "id": "the-pinball-of-the-dead",
     "id_igdb": 6534,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Pirates of Dark Water",
@@ -33106,8 +32460,7 @@
     "console": "gba",
     "id": "the-polar-express",
     "id_igdb": 210732,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Portopia Serial Murder Case",
@@ -33125,8 +32478,7 @@
     "console": "gba",
     "id": "the-powerpuff-girls-him-and-seek",
     "id_igdb": 49433,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Proud Family",
@@ -33135,8 +32487,7 @@
     "console": "gba",
     "id": "the-proud-family",
     "id_igdb": 49421,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Punisher",
@@ -33217,8 +32568,7 @@
     "console": "gba",
     "id": "the-revenge-of-shinobi",
     "id_igdb": 10222,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Revenge of Shinobi",
@@ -33236,8 +32586,7 @@
     "console": "gba",
     "id": "the-revenge-of-the-smurfs",
     "id_igdb": 8079,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Ripping Friends: The World's Most Manly Men!",
@@ -33246,8 +32595,7 @@
     "console": "gba",
     "id": "the-ripping-friends-the-worlds-most-manly-men",
     "id_igdb": 49179,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Rocketeer",
@@ -33274,8 +32622,7 @@
     "console": "gba",
     "id": "the-santa-clause-3-the-escape-clause",
     "id_igdb": 49429,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Scorpion King: Sword of Osiris",
@@ -33284,8 +32631,7 @@
     "console": "gba",
     "id": "the-scorpion-king-sword-of-osiris",
     "id_igdb": 49236,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Shadow",
@@ -33303,8 +32649,7 @@
     "console": "gba",
     "id": "the-simpsons-road-rage",
     "id_igdb": 201746,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Simpsons: Bart vs. The Space Mutants",
@@ -33385,8 +32730,7 @@
     "console": "gba",
     "id": "the-sims-2",
     "id_igdb": 192905,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Sims 2: Pets",
@@ -33395,8 +32739,7 @@
     "console": "gba",
     "id": "the-sims-2-pets",
     "id_igdb": 192108,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Sims Bustin' Out",
@@ -33405,8 +32748,7 @@
     "console": "gba",
     "id": "the-sims-bustin-out",
     "id_igdb": 210728,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Smurfs",
@@ -33460,8 +32802,7 @@
     "console": "gba",
     "id": "the-spongebob-squarepants-movie",
     "id_igdb": 210725,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Sporting News Baseball",
@@ -33479,8 +32820,7 @@
     "console": "gba",
     "id": "the-suite-life-of-zack-and-cody-tipton-caper",
     "id_igdb": 77883,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Sum of All Fears",
@@ -33489,8 +32829,7 @@
     "console": "gba",
     "id": "the-sum-of-all-fears",
     "id_igdb": 248466,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Terminator",
@@ -33625,8 +32964,7 @@
     "console": "gba",
     "id": "the-urbz-sims-in-the-city",
     "id_igdb": 144555,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Wild",
@@ -33635,8 +32973,7 @@
     "console": "gba",
     "id": "the-wild",
     "id_igdb": 49282,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Wild Thornberrys Movie",
@@ -33645,8 +32982,7 @@
     "console": "gba",
     "id": "the-wild-thornberrys-movie",
     "id_igdb": 49372,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Wild Thornberrys: Chimp Chase",
@@ -33655,8 +32991,7 @@
     "console": "gba",
     "id": "the-wild-thornberrys-chimp-chase",
     "id_igdb": 49373,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "The Wing of Madoola",
@@ -33746,8 +33081,7 @@
     "console": "gba",
     "id": "three-stooges",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Thunder & Lightning",
@@ -33828,8 +33162,7 @@
     "console": "gba",
     "id": "thunderbirds-international-rescue",
     "id_igdb": 49255,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Thundercade",
@@ -33856,8 +33189,7 @@
     "console": "gba",
     "id": "tiger-woods-pga-tour-golf",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tiger Woods PGA Tour 2004",
@@ -33866,8 +33198,7 @@
     "console": "gba",
     "id": "tiger-woods-pga-tour-2004",
     "id_igdb": 243023,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tiles of Fate",
@@ -33885,8 +33216,7 @@
     "console": "gba",
     "id": "tim-burtons-the-nightmare-before-christmas-the-pumpkin-king",
     "id_igdb": 73651,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Time Diver: Eon Man",
@@ -34012,8 +33342,7 @@
     "console": "gba",
     "id": "tiny-toon-adventures-buster-s-bad-dream",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tiny Toon Adventures 2: Trouble in Wackyland",
@@ -34076,8 +33405,7 @@
     "console": "gba",
     "id": "tiny-toon-adventures-scary-dreams",
     "id_igdb": 6640,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tiny Toon Adventures: Wacky Sports Challenge",
@@ -34095,8 +33423,7 @@
     "console": "gba",
     "id": "tiny-toon-adventures-wacky-stackers",
     "id_igdb": 6642,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Titan",
@@ -34204,8 +33531,7 @@
     "console": "gba",
     "id": "tom-clancys-rainbow-six-rogue-spear",
     "id_igdb": 249165,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
@@ -34214,8 +33540,7 @@
     "console": "gba",
     "id": "tom-clancys-splinter-cell-pandora-tomorrow",
     "id_igdb": 134396,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tom Mason's Dinosaurs for Hire",
@@ -34252,8 +33577,7 @@
     "console": "gba",
     "id": "tom-and-jerry-tales",
     "id_igdb": 8027,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tom and Jerry in Infurnal Escape",
@@ -34262,8 +33586,7 @@
     "console": "gba",
     "id": "tom-and-jerry-in-infurnal-escape",
     "id_igdb": 8029,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tom and Jerry: Frantic Antics!",
@@ -34281,8 +33604,7 @@
     "console": "gba",
     "id": "tom-and-jerry-the-magic-ring",
     "id_igdb": 8030,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tom and Jerry: The Movie",
@@ -34300,8 +33622,7 @@
     "console": "gba",
     "id": "tomb-raider-legend",
     "id_igdb": 146717,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tomb Raider: The Prophecy",
@@ -34310,8 +33631,7 @@
     "console": "gba",
     "id": "tomb-raider-the-prophecy",
     "id_igdb": 18809,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tombs & Treasure",
@@ -34357,8 +33677,7 @@
     "console": "gba",
     "id": "tonka-on-the-job",
     "id_igdb": 49455,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tony Hawk's American Sk8land",
@@ -34367,8 +33686,7 @@
     "console": "gba",
     "id": "tony-hawk-s-american-sk8land",
     "id_igdb": 6643,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tony Hawk's Downhill Jam",
@@ -34467,8 +33785,7 @@
     "console": "gba",
     "id": "tootuff-gagmachine",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Top Gear",
@@ -34517,16 +33834,6 @@
   },
   {
     "name": "Top Gear Rally",
-    "filename": "TG Rally.zip",
-    "image": "/images/roms/gba/top-gear-rally.jpg",
-    "console": "gba",
-    "id": "top-gear-rally",
-    "id_igdb": 248591,
-    "active": true,
-    "check_image": true
-  },
-  {
-    "name": "Top Gear Rally",
     "filename": "Top Gear Rally.zip",
     "image": "/images/roms/gba/top-gear-rally.jpg",
     "console": "gba",
@@ -34550,8 +33857,7 @@
     "console": "gba",
     "id": "top-gun-combat-zones",
     "id_igdb": 146784,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Top Gun: Firestorm Advance",
@@ -34560,8 +33866,7 @@
     "console": "gba",
     "id": "top-gun-firestorm-advance",
     "id_igdb": 49209,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Top Gun: The Second Mission",
@@ -34633,8 +33938,7 @@
     "console": "gba",
     "id": "total-soccer-manager",
     "id_igdb": 49343,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Totally Rad",
@@ -34652,8 +33956,7 @@
     "console": "gba",
     "id": "totally-spies",
     "id_igdb": 8021,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Totally Spies! 2: Undercover",
@@ -34662,8 +33965,7 @@
     "console": "gba",
     "id": "totally-spies-2-undercover",
     "id_igdb": 49454,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Toughman Contest",
@@ -34879,8 +34181,7 @@
     "console": "gba",
     "id": "trollz-hair-affair",
     "id_igdb": 49375,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tron 2.0: Killer App",
@@ -34889,8 +34190,7 @@
     "console": "gba",
     "id": "tron-2-dot-0-killer-app",
     "id_igdb": 79835,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Trouble Shooter",
@@ -35052,8 +34352,7 @@
     "console": "gba",
     "id": "turok-evolution",
     "id_igdb": 146695,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Turrican",
@@ -35071,8 +34370,7 @@
     "console": "gba",
     "id": "tweety-and-the-magic-gems",
     "id_igdb": 49346,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Twin Cobra",
@@ -35144,8 +34442,7 @@
     "console": "gba",
     "id": "ty-the-tasmanian-tiger-2-bush-rescue",
     "id_igdb": 210497,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ty the Tasmanian Tiger 3: Night of the Quinkan",
@@ -35154,8 +34451,7 @@
     "console": "gba",
     "id": "ty-the-tasmanian-tiger-3-night-of-the-quinkan",
     "id_igdb": 248505,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Tyrants: Fight Through Time",
@@ -35344,8 +34640,7 @@
     "console": "gba",
     "id": "ultimate-muscle-the-kinnikuman-legacy-the-path-of-the-superhero",
     "id_igdb": 49208,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Ultimate Puzzle Games",
@@ -35534,8 +34829,7 @@
     "console": "gba",
     "id": "uno-free-fall",
     "id_igdb": 6646,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Uno/Skip-Bo",
@@ -35580,8 +34874,7 @@
     "console": "gba",
     "id": "urban-yeti",
     "id_igdb": 6647,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Urusei Yatsura: Lum no Wedding Bell",
@@ -35626,8 +34919,7 @@
     "console": "gba",
     "id": "vip",
     "id_igdb": 210453,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "VR Troopers",
@@ -35735,8 +35027,7 @@
     "console": "gba",
     "id": "veggietales-larryboy-and-the-bad-apple",
     "id_igdb": 248629,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Venice Beach Volleyball",
@@ -35961,8 +35252,7 @@
     "console": "gba",
     "id": "w-i-t-c-h",
     "id_igdb": 6682,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "WCW SuperBrawl Wrestling",
@@ -35998,8 +35288,7 @@
     "console": "gba",
     "id": "wwe-road-to-wrestlemania-x8",
     "id_igdb": 6683,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "WWE Survivor Series",
@@ -36044,8 +35333,7 @@
     "console": "gba",
     "id": "wwf-road-to-wrestlemania",
     "id_igdb": 6686,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "WWF Royal Rumble",
@@ -36207,8 +35495,7 @@
     "console": "gba",
     "id": "wakeboarding-unleashed",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wall Street Kid",
@@ -36235,8 +35522,7 @@
     "console": "gba",
     "id": "walt-disneys-the-jungle-book",
     "id_igdb": 111548,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Walt Disney's The Jungle Book",
@@ -36308,8 +35594,7 @@
     "console": "gba",
     "id": "wario-land-4",
     "id_igdb": 1699,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wario's Woods",
@@ -36336,8 +35621,7 @@
     "console": "gba",
     "id": "warioware-inc-dot-mega-microgame$",
     "id_igdb": 1703,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "WarioWare: Twisted!",
@@ -36346,8 +35630,7 @@
     "console": "gba",
     "id": "warioware-twisted",
     "id_igdb": 1704,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Warlock",
@@ -36536,8 +35819,7 @@
     "console": "gba",
     "id": "whac-a-mole",
     "id_igdb": 49347,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wheel of Fortune",
@@ -36699,8 +35981,7 @@
     "console": "gba",
     "id": "who-wants-to-be-a-millionaire",
     "id_igdb": 210722,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Who Wants to Be a Millionaire: 2nd Edition",
@@ -36709,8 +35990,7 @@
     "console": "gba",
     "id": "who-wants-to-be-a-millionaire-2nd-edition",
     "id_igdb": 309014,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Who Wants to Be a Millionaire: Junior",
@@ -36719,8 +35999,7 @@
     "console": "gba",
     "id": "who-wants-to-be-a-millionaire-junior",
     "id_igdb": 308991,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Whomp 'Em",
@@ -36864,8 +36143,7 @@
     "console": "gba",
     "id": "winx-club-quest-for-the-codex",
     "id_igdb": 49457,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wing Commander",
@@ -36883,8 +36161,7 @@
     "console": "gba",
     "id": "wing-commander-prophecy",
     "id_igdb": 248587,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wing Commander: The Secret Missions",
@@ -36992,8 +36269,7 @@
     "console": "gba",
     "id": "winx-club",
     "id_igdb": 200907,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wit's",
@@ -37209,8 +36485,7 @@
     "console": "gba",
     "id": "word-safari-the-friendship-totems",
     "id_igdb": 49472,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wordtris",
@@ -37489,8 +36764,7 @@
     "console": "gba",
     "id": "world-soccer-winning-eleven",
     "id_igdb": 68693,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "World Tennis Stars",
@@ -37544,8 +36818,7 @@
     "console": "gba",
     "id": "worms-world-party",
     "id_igdb": 6294,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Wrath of the Black Manta",
@@ -37590,8 +36863,7 @@
     "console": "gba",
     "id": "x-bladez-inline-skater",
     "id_igdb": 285251,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "X-Kaliber 2097",
@@ -37627,8 +36899,7 @@
     "console": "gba",
     "id": "x-men-3-the-last-stand",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "X-Men: Mojo World",
@@ -37655,8 +36926,7 @@
     "console": "gba",
     "id": "x-men-reign-of-apocalypse",
     "id_igdb": 6688,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "X-Perts",
@@ -37683,8 +36953,7 @@
     "console": "gba",
     "id": "x2-wolverines-revenge",
     "id_igdb": 248452,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "XDR: X-Dazedly-Ray",
@@ -37774,8 +37043,7 @@
     "console": "gba",
     "id": "yggdra-union-we-ll-never-fight-alone",
     "id_igdb": 6693,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yo! Noid",
@@ -37829,8 +37097,7 @@
     "console": "gba",
     "id": "yoshis-island-super-mario-advance-3",
     "id_igdb": 16747,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yoshi's Safari",
@@ -37848,8 +37115,7 @@
     "console": "gba",
     "id": "yoshi-s-universal-gravitation",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Young Merlin",
@@ -37921,8 +37187,7 @@
     "console": "gba",
     "id": "yu-yu-hakusho-spirit-detective",
     "id_igdb": 6696,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu Yu Hakusho: Tournament Tactics",
@@ -37931,8 +37196,7 @@
     "console": "gba",
     "id": "yu-yu-hakusho-tournament-tactics",
     "id_igdb": 6695,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005",
@@ -37941,8 +37205,7 @@
     "console": "gba",
     "id": "yu-gi-oh-7-trials-to-glory-world-championship-tournament-2005",
     "id_igdb": 68039,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! Destiny Board Traveler",
@@ -37951,8 +37214,7 @@
     "console": "gba",
     "id": "yu-gi-oh-destiny-board-traveler",
     "id_igdb": 49204,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! Dungeon Dice Monsters",
@@ -37961,8 +37223,7 @@
     "console": "gba",
     "id": "yu-gi-oh-dungeon-dice-monsters",
     "id_igdb": 49211,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! GX Duel Academy",
@@ -37971,8 +37232,7 @@
     "console": "gba",
     "id": "yu-gi-oh-gx-duel-academy",
     "id_igdb": 49380,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! Reshef of Destruction",
@@ -37981,8 +37241,7 @@
     "console": "gba",
     "id": "yu-gi-oh-reshef-of-destruction",
     "id_igdb": 49379,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! The Eternal Duelist Soul",
@@ -37991,8 +37250,7 @@
     "console": "gba",
     "id": "yu-gi-oh-the-eternal-duelist-soul",
     "id_igdb": 11672,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! The Sacred Cards",
@@ -38001,8 +37259,7 @@
     "console": "gba",
     "id": "yu-gi-oh-the-sacred-cards",
     "id_igdb": 6697,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
@@ -38011,8 +37268,7 @@
     "console": "gba",
     "id": "yu-gi-oh-ultimate-masters-world-championship-tournament-2006",
     "id_igdb": 49377,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! World Championship Tournament 2004",
@@ -38021,8 +37277,7 @@
     "console": "gba",
     "id": "yu-gi-oh-world-championship-tournament-2004",
     "id_igdb": 6698,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel",
@@ -38031,8 +37286,7 @@
     "console": "gba",
     "id": "yu-gi-oh-worldwide-edition-stairway-to-the-destined-duel",
     "id_igdb": 6699,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "YuYu Hakusho Final: Makai Saikyou Retsuden",
@@ -38077,8 +37331,7 @@
     "console": "gba",
     "id": "zapper-one-wicked-cricket",
     "id_igdb": 4583,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zatch Bell! Electric Arena",
@@ -38087,8 +37340,7 @@
     "console": "gba",
     "id": "zatch-bell-electric-arena",
     "id_igdb": 65146,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zaxxon 3-D",
@@ -38160,8 +37412,7 @@
     "console": "gba",
     "id": "zidane-football-generation-2002",
     "id_igdb": 49351,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zillion",
@@ -38206,8 +37457,7 @@
     "console": "gba",
     "id": "zoids-legacy",
     "id_igdb": 49203,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zombie Nation",
@@ -38243,8 +37493,7 @@
     "console": "gba",
     "id": "zone-of-the-enders-the-fist-of-mars",
     "id_igdb": 1474,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zoocube",
@@ -38253,8 +37502,7 @@
     "console": "gba",
     "id": "zoocube",
     "id_igdb": 248467,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zool",
@@ -38299,8 +37547,7 @@
     "console": "gba",
     "id": "zooo-action-puzzle-game",
     "id_igdb": 49259,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Zoop",
