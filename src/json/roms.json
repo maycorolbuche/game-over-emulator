@@ -4994,6 +4994,16 @@
     "active": true
   },
   {
+    "name": "Castlevania",
+    "filename": "Castlevania.zip",
+    "image": "",
+    "console": "gba",
+    "id": "classic-nes-series-castlevania",
+    "active": true,
+    "check_image": true,
+    "id_igdb": ""
+  },
+  {
     "name": "Castlevania II: Simon's Quest",
     "filename": "Castlevania II - Simon's Quest.zip",
     "image": "/images/roms/nes/castlevania-ii-simon-s-quest.jpg",
@@ -5688,14 +5698,6 @@
     "console": "nes",
     "id": "classic-concentration",
     "id_igdb": 48098,
-    "active": true
-  },
-  {
-    "name": "Castlevania",
-    "filename": "Castlevania.zip",
-    "image": "",
-    "console": "gba",
-    "id": "classic-nes-series-castlevania",
     "active": true
   },
   {
@@ -6723,6 +6725,16 @@
     "active": true
   },
   {
+    "name": "DK: King of Swing",
+    "filename": "Donkey Kong - King of Swing.zip",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wfx.jpg",
+    "console": "gba",
+    "id": "dk-king-of-swing",
+    "id_igdb": 1098,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Daffy Duck in Hollywood",
     "filename": "Daffy Duck in Hollywood (JUE) [!].smd",
     "image": "/images/roms/gens/daffy-duck-in-hollywood.jpg",
@@ -6787,22 +6799,24 @@
     "active": true
   },
   {
-    "name": "Danny Phantom - Urban Jungle",
-    "filename": "Danny Phantom - Urban Jungle.zip",
-    "image": "",
-    "console": "gba",
-    "id": "danny-phantom-urban-jungle",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Danny Phantom - the Ultimate Enemy",
+    "name": "Danny Phantom: The Ultimate Enemy",
     "filename": "Danny Phantom - the Ultimate Enemy.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p7g.jpg",
     "console": "gba",
     "id": "danny-phantom-the-ultimate-enemy",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6365,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Danny Phantom: Urban Jungle",
+    "filename": "Danny Phantom - Urban Jungle.zip",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kxd.jpg",
+    "console": "gba",
+    "id": "danny-phantom-urban-jungle",
+    "id_igdb": 6366,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Danny Sullivan's Indy Heat",
@@ -6884,7 +6898,8 @@
     "console": "gba",
     "id": "darts-shuffle-skiball",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Darts / Roll a Ball / Shuffle Bowl",
@@ -6923,22 +6938,24 @@
     "active": true
   },
   {
-    "name": "Dave Mirra - Freestyle BMX 2",
+    "name": "Dave Mirra Freestyle BMX 2",
     "filename": "Dave Mirra - Freestyle BMX 2.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84px.jpg",
     "console": "gba",
-    "id": "dave-mirra-freestyle-bmx-2",
-    "id_igdb": "",
-    "active": true
+    "id": "dave-mirra-freestyle-bmx-2--1",
+    "id_igdb": 208753,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dave Mirra - Freestyle BMX 3",
+    "name": "Dave Mirra Freestyle BMX 3",
     "filename": "Dave Mirra - Freestyle BMX 3.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/pw9pay2raost8jycijin.jpg",
     "console": "gba",
     "id": "dave-mirra-freestyle-bmx-3",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6368,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "David Beckham Soccer",
@@ -6977,13 +6994,14 @@
     "active": true
   },
   {
-    "name": "Davis Cup",
+    "name": "Davis Cup Tennis",
     "filename": "Davis Cup.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/scnmbq2j3l7l0kdbamhl.jpg",
     "console": "gba",
-    "id": "davis-cup",
-    "id_igdb": "",
-    "active": true
+    "id": "davis-cup-tennis",
+    "id_igdb": 49175,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Davis Cup Tennis",
@@ -7084,7 +7102,8 @@
     "console": "gba",
     "id": "deadly-skies",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Deadly Towers",
@@ -7213,22 +7232,24 @@
     "active": true
   },
   {
-    "name": "Demikids - Dark Version",
+    "name": "DemiKids: Dark Version",
     "filename": "Demikids - Dark Version.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ps1.jpg",
     "console": "gba",
     "id": "demikids-dark-version",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 19884,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Demikids - Light Version",
+    "name": "DemiKids: Light Version",
     "filename": "Demikids - Light Version.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ps2.jpg",
     "console": "gba",
     "id": "demikids-light-version",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49185,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Demolition Man",
@@ -7240,13 +7261,14 @@
     "active": true
   },
   {
-    "name": "Demon Driver - Time to Burn Rubber",
+    "name": "Demon Driver: Time to Burn Rubber",
     "filename": "Demon Driver - Time to Burn Rubber.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/rya3nycjq1kqvu35dks3.jpg",
     "console": "gba",
     "id": "demon-driver-time-to-burn-rubber",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49274,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Demon Sword",
@@ -7258,13 +7280,14 @@
     "active": true
   },
   {
-    "name": "Denki Blocks",
+    "name": "Denki Blocks!",
     "filename": "Denki Blocks.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6iqy.jpg",
     "console": "gba",
     "id": "denki-blocks",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49155,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dennis the Menace",
@@ -7310,7 +7333,8 @@
     "console": "gba",
     "id": "desert-strike-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Desert Strike: Return to the Gulf",
@@ -7406,22 +7430,24 @@
     "check": true
   },
   {
-    "name": "Dexter's Laboratory - Chess Challenge",
+    "name": "Dexter's Laboratory: Chess Challenge",
     "filename": "Dexter's Laboratory - Chess Challenge.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/x6ajpkzmykjostmllu4i.jpg",
     "console": "gba",
     "id": "dexter-s-laboratory-chess-challenge",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6373,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dexter's Laboratory - Deesaster Strikes",
+    "name": "Dexter's Laboratory: Deesaster Strikes!",
     "filename": "Dexter's Laboratory - Deesaster Strikes.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p7f.jpg",
     "console": "gba",
     "id": "dexter-s-laboratory-deesaster-strikes",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 2813,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dick Tracy",
@@ -7506,24 +7532,6 @@
     "active": true
   },
   {
-    "name": "Digimon Battle Spirit",
-    "filename": "Digimon Battle Spirit.zip",
-    "image": "",
-    "console": "gba",
-    "id": "digimon-battle-spirit",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Digimon Battle Spirit 2 -  Rising Sun",
-    "filename": "Digimon Battle Spirit 2 -  Rising Sun.zip",
-    "image": "",
-    "console": "gba",
-    "id": "digimon-battle-spirit-2-rising-sun",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Digimon Racing",
     "filename": "Digimon Racing.zip",
     "image": "/images/roms/gba/digimon-racing.jpg",
@@ -7531,6 +7539,26 @@
     "id": "digimon-racing",
     "id_igdb": 6376,
     "active": true
+  },
+  {
+    "name": "Digimon: Battle Spirit",
+    "filename": "Digimon Battle Spirit.zip",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zfh.jpg",
+    "console": "gba",
+    "id": "digimon-battle-spirit",
+    "id_igdb": 6374,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Digimon: Battle Spirit 2",
+    "filename": "Digimon Battle Spirit 2 -  Rising Sun.zip",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zfk.jpg",
+    "console": "gba",
+    "id": "digimon-battle-spirit-2",
+    "id_igdb": 6375,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dino City",
@@ -7569,13 +7597,14 @@
     "active": true
   },
   {
-    "name": "Dinotopia - the Timestone Pirates",
+    "name": "Dinotopia: The Timestone Pirates",
     "filename": "Dinotopia - the Timestone Pirates.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zk9.jpg",
     "console": "gba",
     "id": "dinotopia-the-timestone-pirates",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6378,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dirt Racer",
@@ -7614,22 +7643,14 @@
     "active": true
   },
   {
-    "name": "Disney Princess - Royal Adventure",
+    "name": "Disney Princess: Royal Adventure",
     "filename": "Disney Princess - Royal Adventure.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co80kf.jpg",
     "console": "gba",
     "id": "disney-princess-royal-adventure",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Disney Sports - Basketball",
-    "filename": "Disney Sports - Basketball.zip",
-    "image": "",
-    "console": "gba",
-    "id": "disney-sports-basketball",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49411,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Disney Sports - Football",
@@ -7638,43 +7659,58 @@
     "console": "gba",
     "id": "disney-sports-football",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Disney Sports - Motocross",
+    "name": "Disney Sports Basketball",
+    "filename": "Disney Sports - Basketball.zip",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bc3.jpg",
+    "console": "gba",
+    "id": "disney-sports-basketball--1",
+    "id_igdb": 243192,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Disney Sports Motocross",
     "filename": "Disney Sports - Motocross.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d14.jpg",
     "console": "gba",
     "id": "disney-sports-motocross",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49305,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Disney Sports - Skateboarding",
+    "name": "Disney Sports Skateboarding",
     "filename": "Disney Sports - Skateboarding.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6gxg.jpg",
     "console": "gba",
-    "id": "disney-sports-skateboarding",
-    "id_igdb": "",
-    "active": true
+    "id": "disney-sports-skateboarding--1",
+    "id_igdb": 248465,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Disney Sports - Snowboarding",
+    "name": "Disney Sports Snowboarding",
     "filename": "Disney Sports - Snowboarding.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w0p.jpg",
     "console": "gba",
     "id": "disney-sports-snowboarding",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49304,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Disney Sports - Soccer",
+    "name": "Disney Sports Soccer",
     "filename": "Disney Sports - Soccer.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co965a.jpg",
     "console": "gba",
-    "id": "disney-sports-soccer",
-    "id_igdb": "",
-    "active": true
+    "id": "disney-sports-soccer--1",
+    "id_igdb": 242927,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Disney's Aladdin",
@@ -8007,7 +8043,8 @@
     "console": "gba",
     "id": "dodgeball-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dog Trainer",
@@ -8016,7 +8053,8 @@
     "console": "gba",
     "id": "dog-trainer",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dogz",
@@ -8025,15 +8063,6 @@
     "console": "gba",
     "id": "dogz",
     "id_igdb": 47777,
-    "active": true
-  },
-  {
-    "name": "Dogz - Fashion",
-    "filename": "Dogz - Fashion.zip",
-    "image": "",
-    "console": "gba",
-    "id": "dogz-fashion",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -8046,13 +8075,24 @@
     "active": true
   },
   {
-    "name": "Dokapon - Monster Hunter",
+    "name": "Dogz: Fashion",
+    "filename": "Dogz - Fashion.zip",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kxc.jpg",
+    "console": "gba",
+    "id": "dogz-fashion",
+    "id_igdb": 49403,
+    "active": true,
+    "check_image": true
+  },
+  {
+    "name": "Dokapon: Monster Hunter",
     "filename": "Dokapon - Monster Hunter.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ipg.jpg",
     "console": "gba",
     "id": "dokapon-monster-hunter",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6382,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dominus",
@@ -8106,15 +8146,6 @@
     "console": "nes",
     "id": "donkey-kong",
     "id_igdb": 141959,
-    "active": true
-  },
-  {
-    "name": "Donkey Kong - King of Swing",
-    "filename": "Donkey Kong - King of Swing.zip",
-    "image": "",
-    "console": "gba",
-    "id": "donkey-kong-king-of-swing",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -8232,7 +8263,8 @@
     "console": "gba",
     "id": "doom-2",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Doom Troopers: Mutant Chronicles",
@@ -8272,40 +8304,44 @@
     "active": true
   },
   {
-    "name": "Dora the Explorer - Dora's World Adventure",
+    "name": "Dora the Explorer: Dora's World Adventure!",
     "filename": "Dora the Explorer - Dora's World Adventure.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7cng.jpg",
     "console": "gba",
-    "id": "dora-the-explorer-dora-s-world-adventure",
-    "id_igdb": "",
-    "active": true
+    "id": "dora-the-explorer-doras-world-adventure",
+    "id_igdb": 49230,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dora the Explorer - Super Spies",
+    "name": "Dora the Explorer: Super Spies",
     "filename": "Dora the Explorer - Super Spies.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/scdhttubhtwuiaxajckz.jpg",
     "console": "gba",
     "id": "dora-the-explorer-super-spies",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49200,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dora the Explorer - Super Star Adventures",
+    "name": "Dora the Explorer: Super Star Adventures",
     "filename": "Dora the Explorer - Super Star Adventures.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5sti.jpg",
     "console": "gba",
     "id": "dora-the-explorer-super-star-adventures",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 7974,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dora the Explorer - the Search for Pirate Pig's Treasure",
+    "name": "Dora the Explorer: The Search for Pirate Pig's Treasure",
     "filename": "Dora the Explorer - the Search for Pirate Pig's Treasure.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ikp.jpg",
     "console": "gba",
-    "id": "dora-the-explorer-the-search-for-pirate-pig-s-treasure",
-    "id_igdb": "",
-    "active": true
+    "id": "dora-the-explorer-the-search-for-pirate-pigs-treasure",
+    "id_igdb": 49201,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Doraemon: Giga Zombie no Gyakushuu",
@@ -8556,22 +8592,24 @@
     "active": true
   },
   {
-    "name": "Dr. Seuss - Green Eggs and Ham",
+    "name": "Dr. Seuss' Green Eggs and Ham",
     "filename": "Dr. Seuss - Green Eggs and Ham.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/wgdtdvnfvg59qlidxgpy.jpg",
     "console": "gba",
     "id": "dr-seuss-green-eggs-and-ham",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 6354,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dr. Seuss - the Cat in the Hat",
+    "name": "Dr. Seuss': The Cat in the Hat",
     "filename": "Dr. Seuss - the Cat in the Hat.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7yyj.jpg",
     "console": "gba",
-    "id": "dr-seuss-the-cat-in-the-hat",
-    "id_igdb": "",
-    "active": true
+    "id": "dr-seuss-the-cat-in-the-hat--1",
+    "id_igdb": 293344,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dr. Sudoku",
@@ -8694,13 +8732,14 @@
     "active": true
   },
   {
-    "name": "Dragon Tales - Dragon Adventures",
+    "name": "Dragon Tales: Dragon Adventures",
     "filename": "Dragon Tales - Dragon Adventures.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ppg.jpg",
     "console": "gba",
-    "id": "dragon-tales-dragon-adventures",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-tales-dragon-adventures--1",
+    "id_igdb": 248751,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dragon View",
@@ -8839,76 +8878,84 @@
     "check": true
   },
   {
-    "name": "Dragonball - Advanced Adventure",
+    "name": "Dragon Ball: Advanced Adventure",
     "filename": "Dragonball - Advanced Adventure.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3zef.jpg",
     "console": "gba",
-    "id": "dragonball-advanced-adventure",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-advanced-adventure",
+    "id_igdb": 6386,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball GT - Transformation",
+    "name": "Dragon Ball GT: Transformation",
     "filename": "Dragonball GT - Transformation.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co408a.jpg",
     "console": "gba",
-    "id": "dragonball-gt-transformation",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-gt-transformation",
+    "id_igdb": 24269,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball Z - Buu's Fury",
+    "name": "Dragon Ball Z: Buu's Fury",
     "filename": "Dragonball Z - Buu's Fury.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3klz.jpg",
     "console": "gba",
-    "id": "dragonball-z-buu-s-fury",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-buus-fury",
+    "id_igdb": 19835,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball Z - Collectable Card Game",
+    "name": "Dragon Ball Z: Collectible Card Game",
     "filename": "Dragonball Z - Collectable Card Game.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tyb.jpg",
     "console": "gba",
-    "id": "dragonball-z-collectable-card-game",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-collectible-card-game",
+    "id_igdb": 78230,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball Z - Supersonic Warriors",
+    "name": "Dragon Ball Z: Supersonic Warriors",
     "filename": "Dragonball Z - Supersonic Warriors.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3y03.jpg",
     "console": "gba",
-    "id": "dragonball-z-supersonic-warriors",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-supersonic-warriors",
+    "id_igdb": 2576,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball Z - Taiketsu",
+    "name": "Dragon Ball Z: Taiketsu",
     "filename": "Dragonball Z - Taiketsu.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3zeu.jpg",
     "console": "gba",
-    "id": "dragonball-z-taiketsu",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-taiketsu",
+    "id_igdb": 2580,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball Z - the Legacy of Goku",
+    "name": "Dragon Ball Z: The Legacy of Goku",
     "filename": "Dragonball Z - the Legacy of Goku.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u9g.jpg",
     "console": "gba",
-    "id": "dragonball-z-the-legacy-of-goku",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-the-legacy-of-goku",
+    "id_igdb": 6387,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Dragonball Z - the Legacy of Goku 2",
+    "name": "Dragon Ball Z: The Legacy of Goku II",
     "filename": "Dragonball Z - the Legacy of Goku 2.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z5y.jpg",
     "console": "gba",
-    "id": "dragonball-z-the-legacy-of-goku-2",
-    "id_igdb": "",
-    "active": true
+    "id": "dragon-ball-z-the-legacy-of-goku-ii",
+    "id_igdb": 19834,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Drake & Josh",
@@ -9016,7 +9063,8 @@
     "console": "gba",
     "id": "dropzone",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dual Blades",
@@ -9073,31 +9121,34 @@
     "active": true
   },
   {
-    "name": "Duel Masters - Kaijudo Showdown",
+    "name": "Duel Masters: Kaijudo Showdown",
     "filename": "Duel Masters - Kaijudo Showdown.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xjo.jpg",
     "console": "gba",
     "id": "duel-masters-kaijudo-showdown",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 24257,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Duel Masters - Sempai Legends",
+    "name": "Duel Masters: Sempai Legends",
     "filename": "Duel Masters - Sempai Legends.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4euq.jpg",
     "console": "gba",
     "id": "duel-masters-sempai-legends",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49198,
+    "active": true,
+    "check_image": true
   },
   {
-    "name": "Duel Masters - Shadow of the Code",
+    "name": "Duel Masters: Shadow of the Code",
     "filename": "Duel Masters - Shadow of the Code.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jxq.jpg",
     "console": "gba",
     "id": "duel-masters-shadow-of-the-code",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49402,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Duke Nukem 3D",
@@ -9109,13 +9160,14 @@
     "active": true
   },
   {
-    "name": "Duke Nukem Advanced",
+    "name": "Duke Nukem Advance",
     "filename": "Duke Nukem Advanced.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3aht.jpg",
     "console": "gba",
-    "id": "duke-nukem-advanced",
-    "id_igdb": "",
-    "active": true
+    "id": "duke-nukem-advance",
+    "id_igdb": 6393,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dune II: The Building of a Dynasty",
@@ -9166,13 +9218,14 @@
     "check": true
   },
   {
-    "name": "Dungeons and Dragons - Eye of the Beholder",
+    "name": "Dungeons & Dragons: Eye of the Beholder",
     "filename": "Dungeons and Dragons - Eye of the Beholder.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d0b.jpg",
     "console": "gba",
     "id": "dungeons-and-dragons-eye-of-the-beholder",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 49197,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dusty Diamond's All-Star Softball",
@@ -9283,13 +9336,14 @@
     "active": true
   },
   {
-    "name": "E.T. - the Extra Terrestrial",
+    "name": "E.T.: The Extra Terrestrial",
     "filename": "E.T. - the Extra Terrestrial.zip",
-    "image": "",
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6b0y.jpg",
     "console": "gba",
-    "id": "e-t",
-    "id_igdb": "",
-    "active": true
+    "id": "e-dot-t-the-extra-terrestrial",
+    "id_igdb": 243040,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "E.V.O. : Search for Eden",
