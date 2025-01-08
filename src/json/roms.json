@@ -1433,6 +1433,16 @@
     "active": true
   },
   {
+    "name": "Archer Maclean's Super Dropzone",
+    "filename": "Dropzone.zip",
+    "image": "/images/roms/gba/archer-macleans-super-dropzone.jpg",
+    "console": "gba",
+    "id": "archer-macleans-super-dropzone",
+    "id_igdb": 42637,
+    "active": true,
+    "check_image": true
+  },
+  {
     "name": "Archon",
     "filename": "Archon.zip",
     "image": "/images/roms/nes/archon.jpg",
@@ -1920,15 +1930,6 @@
   },
   {
     "name": "Avatar: The Last Airbender",
-    "filename": "Avatar - the Legend of Aang.zip",
-    "image": "/images/roms/gba/avatar-the-last-airbender.jpg",
-    "console": "gba",
-    "id": "avatar-the-last-airbender",
-    "id_igdb": 210487,
-    "active": true
-  },
-  {
-    "name": "Avatar: The Last Airbender",
     "filename": "Avatar - the Last Airbender.zip",
     "image": "/images/roms/gba/avatar-the-last-airbender.jpg",
     "console": "gba",
@@ -2260,6 +2261,16 @@
     "id": "baldurs-gate-dark-alliance",
     "id_igdb": 243015,
     "active": true
+  },
+  {
+    "name": "Ballistic: Ecks vs. Sever",
+    "filename": "Ecks vs. Sever 2.zip",
+    "image": "/images/roms/gba/ballistic-ecks-vs-sever.jpg",
+    "console": "gba",
+    "id": "ballistic-ecks-vs-sever",
+    "id_igdb": 49196,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Balloon Fight",
@@ -6777,15 +6788,6 @@
     "active": true
   },
   {
-    "name": "Darts - Shuffle - Skiball",
-    "filename": "Darts - Shuffle - Skiball.zip",
-    "image": "",
-    "console": "gba",
-    "id": "darts-shuffle-skiball",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Darts / Roll a Ball / Shuffle Bowl",
     "filename": "3 in 1 - Darts x Roll a Ball x Shuffle Bowl.zip",
     "image": "/images/roms/gba/3-in-1-darts-x-roll-a-ball-x-shuffle-bowl.webp",
@@ -6974,15 +6976,6 @@
     "console": "snes",
     "id": "deadly-moves",
     "id_igdb": 46225,
-    "active": true
-  },
-  {
-    "name": "Deadly Skies",
-    "filename": "Deadly Skies.zip",
-    "image": "",
-    "console": "gba",
-    "id": "deadly-skies",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -7203,12 +7196,12 @@
     "active": true
   },
   {
-    "name": "Desert Strike Advance",
+    "name": "Desert Strike: Return to the Gulf",
     "filename": "Desert Strike Advance.zip",
-    "image": "",
+    "image": "/images/roms/gba/desert-strike-return-to-the-gulf.jpg",
     "console": "gba",
-    "id": "desert-strike-advance",
-    "id_igdb": "",
+    "id": "desert-strike-return-to-the-gulf",
+    "id_igdb": 6798,
     "active": true
   },
   {
@@ -7519,15 +7512,6 @@
     "console": "gba",
     "id": "disney-princess-royal-adventure",
     "id_igdb": 49411,
-    "active": true
-  },
-  {
-    "name": "Disney Sports - Football",
-    "filename": "Disney Sports - Football.zip",
-    "image": "",
-    "console": "gba",
-    "id": "disney-sports-football",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -8035,22 +8019,14 @@
     "active": true
   },
   {
-    "name": "Dodgeball Advance",
-    "filename": "Dodgeball Advance.zip",
-    "image": "",
-    "console": "gba",
-    "id": "dodgeball-advance",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Dog Trainer",
     "filename": "Dog Trainer.zip",
-    "image": "",
+    "image": "/images/roms/gba/dog-trainer.jpg",
     "console": "gba",
     "id": "dog-trainer",
-    "id_igdb": "",
-    "active": true
+    "id_igdb": 132797,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Dogz",
@@ -8251,13 +8227,14 @@
     "active": true
   },
   {
-    "name": "Doom 2",
+    "name": "Doom II: Hell on Earth",
     "filename": "Doom 2.zip",
-    "image": "",
+    "image": "/images/roms/gba/doom-ii-hell-on-earth.jpg",
     "console": "gba",
-    "id": "doom-2",
-    "id_igdb": "",
-    "active": true
+    "id": "doom-ii-hell-on-earth",
+    "id_igdb": 202120,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Doom Troopers: Mutant Chronicles",
@@ -9044,15 +9021,6 @@
     "active": true
   },
   {
-    "name": "Dropzone",
-    "filename": "Dropzone.zip",
-    "image": "",
-    "console": "gba",
-    "id": "dropzone",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Dual Blades",
     "filename": "Dual Blades.zip",
     "image": "/images/roms/gba/dual-blades.jpg",
@@ -9619,15 +9587,6 @@
     "console": "gba",
     "id": "ecks-vs-sever",
     "id_igdb": 6396,
-    "active": true
-  },
-  {
-    "name": "Ecks vs. Sever 2",
-    "filename": "Ecks vs. Sever 2.zip",
-    "image": "",
-    "console": "gba",
-    "id": "ecks-vs",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -10662,15 +10621,6 @@
     "active": true
   },
   {
-    "name": "Fightbox",
-    "filename": "Fightbox.zip",
-    "image": "",
-    "console": "gba",
-    "id": "fightbox",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Fighter's History",
     "filename": "Fighter's History (U).smc",
     "image": "/images/roms/snes/fighters-history.jpg",
@@ -10887,22 +10837,14 @@
     "active": true
   },
   {
-    "name": "Fire Eaters - Zero Bandits",
-    "filename": "Fire Eaters - Zero Bandits (Beta).zip",
-    "image": "",
-    "console": "gba",
-    "id": "fire-eaters-zero-bandits",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Fire Emblem",
     "filename": "Fire Emblem.zip",
-    "image": "",
+    "image": "/images/roms/gba/fire-emblem.png",
     "console": "gba",
     "id": "fire-emblem",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Fire Emblem: The Sacred Stones",
@@ -11255,15 +11197,6 @@
     "console": "gba",
     "id": "foster-s-home-for-imaginary-friends",
     "id_igdb": 6410,
-    "active": true
-  },
-  {
-    "name": "Four Pack Racing",
-    "filename": "Four Pack Racing.zip",
-    "image": "",
-    "console": "gba",
-    "id": "four-pack-racing",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -11813,11 +11746,12 @@
   {
     "name": "Game & Watch Gallery Advance",
     "filename": "Game & Watch Gallery Advance.zip",
-    "image": "",
+    "image": "/images/roms/gba/game-watch-gallery-advance.jpg",
     "console": "gba",
     "id": "game-watch-gallery-advance",
     "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Game Box Série Esportes Radicais",
@@ -29099,6 +29033,16 @@
     "id": "super-dodge-ball",
     "id_igdb": 46768,
     "active": true
+  },
+  {
+    "name": "Super Dodge Ball Advance",
+    "filename": "Dodgeball Advance.zip",
+    "image": "/images/roms/gba/super-dodge-ball-advance.jpg",
+    "console": "gba",
+    "id": "super-dodge-ball-advance",
+    "id_igdb": 6620,
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Super Double Dragon",
