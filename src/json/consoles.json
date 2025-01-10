@@ -1,7 +1,8 @@
 [
   {
     "name": "Mega Drive",
-    "image": "/images/consoles/gens.png",
+    "base_url": "https://maycorolbuche.github.io/roms_gens",
+    "image": "/cover.png",
     "id": "gens",
     "controls": {
       "player1": {
@@ -37,7 +38,8 @@
   },
   {
     "name": "Nintendo",
-    "image": "/images/consoles/nes.png",
+    "base_url": "https://maycorolbuche.github.io/roms_nes",
+    "image": "/cover.png",
     "id": "nes",
     "controls": {
       "player1": {
@@ -65,7 +67,8 @@
   },
   {
     "name": "Master System",
-    "image": "/images/consoles/sms.png",
+    "base_url": "https://maycorolbuche.github.io/roms_sms",
+    "image": "/cover.png",
     "id": "sms",
     "controls": {
       "player1": {
@@ -92,14 +95,9 @@
     "active": true
   },
   {
-    "name": "Sega CD",
-    "image": "/images/consoles/scd.png",
-    "id": "scd",
-    "active": false
-  },
-  {
     "name": "Super Nintendo",
-    "image": "/images/consoles/snes.png",
+    "base_url": "https://maycorolbuche.github.io/roms_snes",
+    "image": "/cover.png",
     "id": "snes",
     "controls": {
       "player1": {
@@ -134,44 +132,9 @@
     "active": true
   },
   {
-    "name": "Atari 2600",
-    "image": "/images/consoles/atari2600.png",
-    "id": "atari2600",
-    "controls": {
-      "player1": {
-        "start": "enter",
-        "select": "space",
-        "a": "z",
-        "b": "c",
-        "x": "s",
-        "y": "x",
-        "l": "a",
-        "r": "d",
-        "up": "up",
-        "down": "down",
-        "left": "left",
-        "right": "right"
-      },
-      "player2": {
-        "start": "keypad0",
-        "select": ",",
-        "a": "b",
-        "b": "m",
-        "x": "j",
-        "y": "n",
-        "l": "h",
-        "r": "k",
-        "up": "keypad5",
-        "down": "keypad2",
-        "left": "keypad1",
-        "right": "keypad3"
-      }
-    },
-    "active": false
-  },
-  {
     "name": "Game Boy Advance",
-    "image": "/images/consoles/gba.png",
+    "base_url": "https://maycorolbuche.github.io/roms_gba",
+    "image": "/cover.png",
     "id": "gba",
     "controls": {
       "player1": {

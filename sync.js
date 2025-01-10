@@ -317,9 +317,9 @@ async function download_image(json, type) {
 
         // Atualiza o campo 'image' para o caminho local
         if (type == "console") {
-          item.image = `/images/consoles/${item.id}${imageExtension}`;
+          item.image = `cover${imageExtension}`;
         } else {
-          item.image = `/images/roms/${item.console}/${item.id}${imageExtension}`;
+          item.image = `${item.id}${imageExtension}`;
         }
         console.log(`Imagem baixada e salva em: ${item.image}`);
       } catch (error) {

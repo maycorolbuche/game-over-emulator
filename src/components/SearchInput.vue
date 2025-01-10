@@ -44,12 +44,21 @@
         v-for="(item, key) in items"
         :key="key"
       >
-        <img class="img-rom" :src="item.image" />
+        <img
+          class="img-rom"
+          :src="json_consoles[item.console].base_url + '/images/' + item.image"
+        />
         <div class="info">
           <div class="name-rom">{{ item.name }}</div>
           <div class="name-console">{{ json_consoles[item.console].name }}</div>
         </div>
-        <img class="img-console" :src="json_consoles[item.console].image" />
+        <img
+          class="img-console"
+          :src="
+            json_consoles[item.console].base_url +
+            json_consoles[item.console].image
+          "
+        />
       </router-link>
     </div>
   </div>

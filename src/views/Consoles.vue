@@ -7,7 +7,11 @@
         class="console-card d-flex flex-column align-center justify-center"
         :to="{ name: 'Games', params: { console_id: console.id } }"
       >
-        <img v-if="console.image" :src="console.image" width="160" />
+        <img
+          v-if="console.image"
+          :src="console.base_url + console.image"
+          width="160"
+        />
         <span>{{ console.name }}</span>
       </router-link>
     </div>
