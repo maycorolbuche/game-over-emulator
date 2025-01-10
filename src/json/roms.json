@@ -12448,20 +12448,12 @@
   {
     "name": "Gradius Advance",
     "filename": "Gradius Advance.zip",
-    "image": "",
+    "image": "gradius-advance.jpg",
     "console": "gba",
     "id": "gradius-advance",
     "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Gradius Advance",
-    "filename": "Gradius Advance (Trained).zip",
-    "image": "",
-    "console": "gba",
-    "id": "gradius-advance-",
-    "id_igdb": "",
-    "active": true
+    "active": true,
+    "check_image": true
   },
   {
     "name": "Gradius II",

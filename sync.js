@@ -270,19 +270,21 @@ async function download_image(json, type) {
       let localImagePath;
       if (type == "console") {
         localImagePath = path.join(
-          __dirname,
-          "public",
-          "images",
-          "consoles",
-          `${item.id}${imageExtension}`
+          dir,
+          "..",
+          "..",
+          "..",
+          "roms_" + item.console,
+          `cover${imageExtension}`
         );
       } else {
         localImagePath = path.join(
-          __dirname,
-          "public",
+          dir,
+          "..",
+          "..",
+          "..",
+          "roms_" + item.console,
           "images",
-          "roms",
-          item.console,
           `${item.id}${imageExtension}`
         );
       }
@@ -321,7 +323,7 @@ async function download_image(json, type) {
         } else {
           item.image = `${item.id}${imageExtension}`;
         }
-        console.log(`Imagem baixada e salva em: ${item.image}`);
+        console.log(`Imagem baixada e salva em: ${localImagePath}`);
       } catch (error) {
         console.error(`Erro ao baixar a imagem: ${imageUrl}`, error);
       }
@@ -623,11 +625,36 @@ async function main() {
       json_consoles = await open(path.join(dir_json, "consoles.json"));
 
       //consoles = await get_files(dir);
+      //console.log(qQuestion(`Deseja fazer a busca no modo automático?`));
+      //console.log(qOption("S", `Sim (se não encontrar o jogo, ignora)`));
       consoles = json_consoles.filter((c) => c.active).map((c) => c.id);
+      console.log(qQuestion("Escolha o console"));
+      console.log(qOption("*", "Todos"));
+      for (let index = 0; index < consoles.length; index++) {
+        console.log(qOption(index + 1, consoles[index]));
+      }
+      let c = await readlineSync.question("> ");
+      if (!isNaN(c) && consoles[parseInt(c) - 1]) {
+        consoles = [consoles[c - 1]];
+      }
+      console.log(consoles);
 
       dupicates = [];
       for (const consol of consoles) {
-        let roms = await get_files(path.join(dir, consol));
+        let dir_roms = path.join(
+          dir,
+          "..",
+          "..",
+          "..",
+          "roms_" + consol,
+          "roms"
+        );
+        if (!fsSync.existsSync(dir_roms)) {
+          console.log(`O diretório ${dir_roms} nao existe. Ignorando...`);
+          continue;
+        }
+
+        let roms = await get_files(dir_roms);
         let json = await open(path.join(dir_json, "roms.json"));
         let dup;
 
