@@ -270,7 +270,7 @@ export default {
         return;
       }
 
-      let file = `/roms/${this.console}/${this.filename}`;
+      let file = this.filename;
 
       try {
         this.loading = true;

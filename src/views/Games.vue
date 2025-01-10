@@ -4,7 +4,11 @@
       class="d-flex flex-wrap align-stretch justify-around m-3"
       style="border-bottom: 1px solid rgb(255 255 255 / 7%)"
     >
-      <img v-if="consol.image" :src="consol.image" width="160" />
+      <img
+        v-if="consol.image"
+        :src="consol.base_url + consol.image"
+        width="160"
+      />
       <div class="d-flex flex-column flex-auto">
         <div
           class="title-console d-flex align-center justify-center flex-auto text-center"
@@ -51,11 +55,11 @@
         :key="key"
         class="rom-card d-flex flex-column align-center"
         href="javascript:"
-        @click="openGame(rom)"
+        @click="openGame(rom, consol)"
       >
         <img
           v-if="rom.image"
-          :src="rom.image"
+          :src="consol.base_url + '/images/' + rom.image"
           style="height: 240px; object-fit: contain"
         />
         <div
@@ -83,7 +87,7 @@
       <game
         v-bind="game"
         :console="consol.id"
-        :console_image="consol.image"
+        :console_image="consol.base_url + consol.image"
         :controls="consol.controls"
         @close="closeGame()"
       />
@@ -190,9 +194,11 @@ export default {
         },
       });
 
-      this.game = game;
-
-      console.log(game);
+      this.game = Object.assign({
+        ...game,
+        image: this.consol.base_url + "/images/" + game.image,
+        filename: this.consol.base_url + "/roms/" + game.filename,
+      });
     },
     closeGame() {
       this.$router.push({
