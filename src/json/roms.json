@@ -1063,6 +1063,15 @@
     "active": true
   },
   {
+    "name": "All Grown Up!: Express Yourself",
+    "filename": "Rugrats - All Grown Up.zip",
+    "image": "all-grown-up-express-yourself.jpg",
+    "console": "gba",
+    "id": "all-grown-up-express-yourself",
+    "id_igdb": 2796,
+    "active": true
+  },
+  {
     "name": "All-Pro Basketball",
     "filename": "All-Pro Basketball.zip",
     "image": "all-pro-basketball.jpg",
@@ -1439,8 +1448,7 @@
     "console": "gba",
     "id": "archer-macleans-super-dropzone",
     "id_igdb": 42637,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Archon",
@@ -2269,8 +2277,7 @@
     "console": "gba",
     "id": "ballistic-ecks-vs-sever",
     "id_igdb": 49196,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Balloon Fight",
@@ -3362,6 +3369,42 @@
     "console": "nes",
     "id": "bionic-commando",
     "id_igdb": 54535,
+    "active": true
+  },
+  {
+    "name": "Bionicle Heroes",
+    "filename": "LEGO - Bionicle Heroes.zip",
+    "image": "bionicle-heroes.jpg",
+    "console": "gba",
+    "id": "bionicle-heroes",
+    "id_igdb": 200959,
+    "active": true
+  },
+  {
+    "name": "Bionicle: Matoran Adventures",
+    "filename": "LEGO - Bionicle - Matoran Adventures.zip",
+    "image": "bionicle-matoran-adventures.jpg",
+    "console": "gba",
+    "id": "bionicle-matoran-adventures",
+    "id_igdb": 6322,
+    "active": true
+  },
+  {
+    "name": "Bionicle: Maze of Shadows",
+    "filename": "LEGO - Bionicle - Maze of Shadows.zip",
+    "image": "bionicle-maze-of-shadows.jpg",
+    "console": "gba",
+    "id": "bionicle-maze-of-shadows",
+    "id_igdb": 15738,
+    "active": true
+  },
+  {
+    "name": "Bionicle: The Game",
+    "filename": "LEGO - Bionicle - the Game.zip",
+    "image": "bionicle-the-game.jpg",
+    "console": "gba",
+    "id": "bionicle-the-game",
+    "id_igdb": 248451,
     "active": true
   },
   {
@@ -7767,6 +7810,15 @@
     "active": true
   },
   {
+    "name": "Disney's Kim Possible: Revenge of Monkey Fist",
+    "filename": "Kim Possible.zip",
+    "image": "disneys-kim-possible-revenge-of-monkey-fist.jpg",
+    "console": "gba",
+    "id": "disneys-kim-possible-revenge-of-monkey-fist",
+    "id_igdb": 49275,
+    "active": true
+  },
+  {
     "name": "Disney's Lilo & Stitch",
     "filename": "Lilo & Stitch.zip",
     "image": "disneys-lilo-and-stitch.jpg",
@@ -7938,6 +7990,15 @@
     "active": true
   },
   {
+    "name": "Disney's The Lion King 1 1/2",
+    "filename": "Lion King.zip",
+    "image": "disneys-the-lion-king-1-1-slash-2.jpg",
+    "console": "gba",
+    "id": "disneys-the-lion-king-1-1-slash-2",
+    "id_igdb": 79813,
+    "active": true
+  },
+  {
     "name": "Disney's The Little Mermaid",
     "filename": "Little Mermaid.zip",
     "image": "disneys-the-little-mermaid.jpg",
@@ -8025,8 +8086,7 @@
     "console": "gba",
     "id": "dog-trainer",
     "id_igdb": 132797,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Dogz",
@@ -8233,8 +8293,7 @@
     "console": "gba",
     "id": "doom-ii-hell-on-earth",
     "id_igdb": 202120,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Doom Troopers: Mutant Chronicles",
@@ -9000,6 +9059,15 @@
     "console": "sms",
     "id": "drol",
     "id_igdb": 6098,
+    "active": true
+  },
+  {
+    "name": "Drome Racers",
+    "filename": "LEGO - Drome Racers.zip",
+    "image": "drome-racers.jpg",
+    "console": "gba",
+    "id": "drome-racers",
+    "id_igdb": 22244,
     "active": true
   },
   {
@@ -10843,8 +10911,7 @@
     "console": "gba",
     "id": "fire-emblem",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Fire Emblem: The Sacred Stones",
@@ -11741,8 +11808,7 @@
     "console": "gba",
     "id": "game-watch-gallery-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Game Box Série Esportes Radicais",
@@ -12452,8 +12518,7 @@
     "console": "gba",
     "id": "gradius-advance",
     "id_igdb": "",
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Gradius II",
@@ -13569,7 +13634,7 @@
   {
     "name": "Horse and Pony - Let's Ride 2",
     "filename": "Horse and Pony - Let's Ride 2.zip",
-    "image": "",
+    "image": "horse-and-pony-let-s-ride-2.png",
     "console": "gba",
     "id": "horse-and-pony-let-s-ride-2",
     "id_igdb": "",
@@ -13591,15 +13656,6 @@
     "console": "gba",
     "id": "hot-potato",
     "id_igdb": 6437,
-    "active": true
-  },
-  {
-    "name": "Hot Wheels Advance",
-    "filename": "Hot Wheels Advance.zip",
-    "image": "",
-    "console": "gba",
-    "id": "hot-wheels-advance",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -13781,15 +13837,6 @@
     "console": "gba",
     "id": "i-spy-challenger",
     "id_igdb": 49294,
-    "active": true
-  },
-  {
-    "name": "IK Plus - the Ultimate Martial Arts Simulation",
-    "filename": "IK Plus - the Ultimate Martial Arts Simulation.zip",
-    "image": "",
-    "console": "gba",
-    "id": "ik-plus-the-ultimate-martial-arts-simulation",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -14163,12 +14210,12 @@
     "active": true
   },
   {
-    "name": "Iridion 3D 2",
+    "name": "Iridion II",
     "filename": "Iridion 3D 2.zip",
-    "image": "",
+    "image": "iridion-ii.jpg",
     "console": "gba",
-    "id": "iridion-3d-2",
-    "id_igdb": "",
+    "id": "iridion-ii",
+    "id_igdb": 6450,
     "active": true
   },
   {
@@ -14196,6 +14243,15 @@
     "console": "nes",
     "id": "ironsword-wizards-and-warriors-ii",
     "id_igdb": 48053,
+    "active": true
+  },
+  {
+    "name": "Island Xtreme Stunts",
+    "filename": "LEGO Island - Xtreme Stunts.zip",
+    "image": "island-xtreme-stunts.jpg",
+    "console": "gba",
+    "id": "island-xtreme-stunts",
+    "id_igdb": 300709,
     "active": true
   },
   {
@@ -14525,12 +14581,12 @@
     "active": true
   },
   {
-    "name": "Jazz Jack-Rabbit",
+    "name": "Jazz Jackrabbit Advance",
     "filename": "Jazz Jack-Rabbit.zip",
-    "image": "",
+    "image": "jazz-jackrabbit-advance.jpg",
     "console": "gba",
-    "id": "jazz-jack-rabbit",
-    "id_igdb": "",
+    "id": "jazz-jackrabbit-advance",
+    "id_igdb": 6477,
     "active": true
   },
   {
@@ -14648,15 +14704,6 @@
     "console": "gba",
     "id": "jet-grind-radio",
     "id_igdb": 145186,
-    "active": true
-  },
-  {
-    "name": "Jet Set Radio",
-    "filename": "Jet Set Radio.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jet-set-radio",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -15092,15 +15139,6 @@
     "active": true
   },
   {
-    "name": "Jurassic park 3 - Dino Attack",
-    "filename": "Jurassic park 3 - Dino Attack.zip",
-    "image": "",
-    "console": "gba",
-    "id": "jurassic-park-iii-dino-attack",
-    "id_igdb": 6482,
-    "active": true
-  },
-  {
     "name": "Just Breed",
     "filename": "Just Breed.zip",
     "image": "just-breed.jpg",
@@ -15488,15 +15526,6 @@
     "active": true
   },
   {
-    "name": "Kill-Switch",
-    "filename": "Kill-Switch.zip",
-    "image": "",
-    "console": "gba",
-    "id": "kill-switch",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Killer 3D Pool",
     "filename": "Killer 3D Pool.zip",
     "image": "killer-3d-pool.jpg",
@@ -15512,15 +15541,6 @@
     "console": "snes",
     "id": "killer-instinct",
     "id_igdb": 2907,
-    "active": true
-  },
-  {
-    "name": "Kim Possible",
-    "filename": "Kim Possible.zip",
-    "image": "",
-    "console": "gba",
-    "id": "kim-possible",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -15548,15 +15568,6 @@
     "console": "gens",
     "id": "king-colossus",
     "id_igdb": 46524,
-    "active": true
-  },
-  {
-    "name": "King Kong",
-    "filename": "King Kong.zip",
-    "image": "",
-    "console": "gba",
-    "id": "king-kong",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -15731,12 +15742,12 @@
     "active": true
   },
   {
-    "name": "Kirby's Nightmare in Dreamland",
+    "name": "Kirby: Nightmare in Dream Land",
     "filename": "Kirby's Nightmare in Dreamland.zip",
-    "image": "",
+    "image": "kirby-nightmare-in-dream-land.jpg",
     "console": "gba",
-    "id": "kirby-s-nightmare-in-dreamland",
-    "id_igdb": "",
+    "id": "kirby-nightmare-in-dream-land",
+    "id_igdb": 3726,
     "active": true
   },
   {
@@ -15854,24 +15865,6 @@
     "console": "gba",
     "id": "konami-collector-s-series-arcade-advanced",
     "id_igdb": 6494,
-    "active": true
-  },
-  {
-    "name": "Konami GB Collection Vol. 1",
-    "filename": "Konami GB Collection Vol. 1.zip",
-    "image": "",
-    "console": "gba",
-    "id": "konami-gb-collection-vol-1",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Konami GB Collection Vol. 3",
-    "filename": "Konami GB Collection Vol. 3.zip",
-    "image": "",
-    "console": "gba",
-    "id": "konami-gb-collection-vol-3",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16055,75 +16048,12 @@
     "active": true
   },
   {
-    "name": "LEGO - Bionicle",
+    "name": "LEGO Bionicle: Quest for the Toa",
     "filename": "LEGO - Bionicle.zip",
-    "image": "",
+    "image": "lego-bionicle-quest-for-the-toa.jpg",
     "console": "gba",
-    "id": "lego-bionicle",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Bionicle - Matoran Adventures",
-    "filename": "LEGO - Bionicle - Matoran Adventures.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-bionicle-matoran-adventures",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Bionicle - Maze of Shadows",
-    "filename": "LEGO - Bionicle - Maze of Shadows.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-bionicle-maze-of-shadows",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Bionicle - the Game",
-    "filename": "LEGO - Bionicle - the Game.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-bionicle-the-game",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Bionicle Heroes",
-    "filename": "LEGO - Bionicle Heroes.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-bionicle-heroes",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Drome Racers",
-    "filename": "LEGO - Drome Racers.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-drome-racers",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO - Football Mania",
-    "filename": "LEGO - Football Mania.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-football-mania",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "LEGO Island - Xtreme Stunts",
-    "filename": "LEGO Island - Xtreme Stunts.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lego-island-xtreme-stunts",
-    "id_igdb": "",
+    "id": "lego-bionicle-quest-for-the-toa",
+    "id_igdb": 6323,
     "active": true
   },
   {
@@ -16223,15 +16153,6 @@
     "console": "snes",
     "id": "lamborghini-american-challenge",
     "id_igdb": 27525,
-    "active": true
-  },
-  {
-    "name": "Land Before Time - Into the Mysterious Land",
-    "filename": "Land Before Time - Into the Mysterious Land.zip",
-    "image": "",
-    "console": "gba",
-    "id": "land-before-time-into-the-mysterious-land",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16479,15 +16400,6 @@
     "active": true
   },
   {
-    "name": "Les Indestructibles",
-    "filename": "Les Indestructibles.zip",
-    "image": "",
-    "console": "gba",
-    "id": "les-indestructibles",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Lester the Unlikely",
     "filename": "Lester the Unlikely (U).smc",
     "image": "lester-the-unlikely.jpg",
@@ -16641,15 +16553,6 @@
     "active": true
   },
   {
-    "name": "Lion King",
-    "filename": "Lion King.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lion-king",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Little League Baseball 2002",
     "filename": "Little League Baseball 2002.zip",
     "image": "little-league-baseball-2002.jpg",
@@ -16701,15 +16604,6 @@
     "console": "nes",
     "id": "little-samson",
     "id_igdb": 48114,
-    "active": true
-  },
-  {
-    "name": "Lizzie McGuire 2 - Lizzie Diaries - Special Edition",
-    "filename": "Lizzie McGuire 2 - Lizzie Diaries - Special Edition.zip",
-    "image": "",
-    "console": "gba",
-    "id": "lizzie-mcguire-2-lizzie-diaries-special-edition",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -16848,12 +16742,12 @@
     "active": true
   },
   {
-    "name": "Love Hina Advance",
+    "name": "Love Hina Advance ~Shukufuku no Kane wa Naru kana~",
     "filename": "Love Hina Advance.zip",
-    "image": "",
+    "image": "love-hina-advance-shukufuku-no-kane-wa-naru-kana.jpg",
     "console": "gba",
-    "id": "love-hina-advance",
-    "id_igdb": "",
+    "id": "love-hina-advance-shukufuku-no-kane-wa-naru-kana",
+    "id_igdb": 49416,
     "active": true
   },
   {
@@ -17354,20 +17248,11 @@
   },
   {
     "name": "Majesco's 3-in-1 Sports Pack",
-    "filename": "3 in 1 - Paintball Splat x Dodgeball - Dodge This x Big Alley Bowling.zip",
+    "filename": "Majesco's Sports Pack.zip",
     "image": "majescos-3-in-1-sports-pack.jpg",
     "console": "gba",
     "id": "majescos-3-in-1-sports-pack",
     "id_igdb": 56837,
-    "active": true
-  },
-  {
-    "name": "Majesco's Sports Pack",
-    "filename": "Majesco's Sports Pack.zip",
-    "image": "",
-    "console": "gba",
-    "id": "majesco-s-sports-pack",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -17426,18 +17311,9 @@
     "active": true
   },
   {
-    "name": "Maniac Racers Advance",
-    "filename": "Maniac Racers Advance.zip",
-    "image": "",
-    "console": "gba",
-    "id": "maniac-racers-advance",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Manic Miner",
     "filename": "Manic Miner.zip",
-    "image": "",
+    "image": "manic-miner.png",
     "console": "gba",
     "id": "manic-miner",
     "id_igdb": "",
@@ -17518,18 +17394,9 @@
   {
     "name": "Mario Advanced - Mario Bros. 2 + Mario Classic",
     "filename": "Mario Advanced - Mario Bros. 2 + Mario Classic.zip",
-    "image": "",
+    "image": "mario-advanced-mario-bros.jpg",
     "console": "gba",
     "id": "mario-advanced-mario-bros",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Mario Advanced 2 - Mario World",
-    "filename": "Mario Advanced 2 - Mario World.zip",
-    "image": "",
-    "console": "gba",
-    "id": "mario-advanced-2-mario-world",
     "id_igdb": "",
     "active": true
   },
@@ -17540,15 +17407,6 @@
     "console": "gens",
     "id": "mario-andretti-racing",
     "id_igdb": 20593,
-    "active": true
-  },
-  {
-    "name": "Mario Ball",
-    "filename": "Mario Ball.zip",
-    "image": "",
-    "console": "gba",
-    "id": "mario-ball",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -18067,21 +17925,21 @@
     "active": true
   },
   {
-    "name": "Medabots RPG - Metabee Version",
+    "name": "Medabots: Metabee",
     "filename": "Medabots RPG - Metabee Version.zip",
-    "image": "",
+    "image": "medabots-metabee.jpg",
     "console": "gba",
-    "id": "medabots-rpg-metabee-version",
-    "id_igdb": "",
+    "id": "medabots-metabee",
+    "id_igdb": 7583,
     "active": true
   },
   {
-    "name": "Medabots RPG - Rokusho Version",
+    "name": "Medabots: Rokusho",
     "filename": "Medabots RPG - Rokusho Version.zip",
-    "image": "",
+    "image": "medabots-rokusho.jpg",
     "console": "gba",
-    "id": "medabots-rpg-rokusho-version",
-    "id_igdb": "",
+    "id": "medabots-rokusho",
+    "id_igdb": 49235,
     "active": true
   },
   {
@@ -18412,7 +18270,7 @@
   {
     "name": "Meine Tierarztpraxis",
     "filename": "Meine Tierarztpraxis (My Vet. Practice).zip",
-    "image": "",
+    "image": "meine-tierarztpraxis.png",
     "console": "gba",
     "id": "meine-tierarztpraxis",
     "id_igdb": "",
@@ -18833,15 +18691,6 @@
     "active": true
   },
   {
-    "name": "Micro Machines",
-    "filename": "Micro Machines.zip",
-    "image": "",
-    "console": "gba",
-    "id": "micro-machines",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Micro Machines 2: Turbo Tournament",
     "filename": "Micro Machines 2 - Turbo Tournament (E).smc",
     "image": "micro-machines-2-turbo-tournament.jpg",
@@ -18875,6 +18724,15 @@
     "console": "gens",
     "id": "micro-machines-turbo-tournament-96",
     "id_igdb": 4545,
+    "active": true
+  },
+  {
+    "name": "MicroMachines",
+    "filename": "Micro Machines.zip",
+    "image": "micromachines.jpg",
+    "console": "gba",
+    "id": "micromachines",
+    "id_igdb": 250475,
     "active": true
   },
   {
@@ -19418,12 +19276,12 @@
     "active": true
   },
   {
-    "name": "Moorhen 3 - Chicken Chase",
+    "name": "Moorhen 3: The Chicken Chase!",
     "filename": "Moorhen 3 - Chicken Chase.zip",
-    "image": "",
+    "image": "moorhen-3-the-chicken-chase.jpg",
     "console": "gba",
-    "id": "moorhen-3-chicken-chase",
-    "id_igdb": "",
+    "id": "moorhen-3-the-chicken-chase",
+    "id_igdb": 49438,
     "active": true
   },
   {
@@ -19546,7 +19404,7 @@
   {
     "name": "Moto GP",
     "filename": "Moto GP.zip",
-    "image": "",
+    "image": "moto-gp.jpg",
     "console": "gba",
     "id": "moto-gp",
     "id_igdb": "",
@@ -19582,7 +19440,7 @@
   {
     "name": "Motoracer Advance",
     "filename": "Motoracer Advance.zip",
-    "image": "",
+    "image": "motoracer-advance.png",
     "console": "gba",
     "id": "motoracer-advance",
     "id_igdb": "",
@@ -19838,24 +19696,6 @@
     "console": "gba",
     "id": "my-little-pony-crystal-princess-the-runaway-rainbow",
     "id_igdb": 49389,
-    "active": true
-  },
-  {
-    "name": "My Pet Hotel",
-    "filename": "My Pet Hotel.zip",
-    "image": "",
-    "console": "gba",
-    "id": "my-pet-hotel",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "My Stud Farm",
-    "filename": "My Stud Farm.zip",
-    "image": "",
-    "console": "gba",
-    "id": "my-stud-farm",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -20180,15 +20020,6 @@
     "console": "nes",
     "id": "nes-virus-cleaner",
     "id_igdb": 48355,
-    "active": true
-  },
-  {
-    "name": "NFL Blitz 2002",
-    "filename": "NFL Blitz 2002.zip",
-    "image": "",
-    "console": "gba",
-    "id": "nfl-blitz-2002",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -20637,7 +20468,7 @@
   },
   {
     "name": "Nicktoons: Attack of the Toybots",
-    "filename": "Nicktoons - Attack of the Toybots.zip",
+    "filename": "SpongeBob and Friends - Attack of the Toybots.zip",
     "image": "nicktoons-attack-of-the-toybots.jpg",
     "console": "gba",
     "id": "nicktoons-attack-of-the-toybots",
@@ -20723,15 +20554,6 @@
     "console": "gens",
     "id": "ninja-burai-densetsu",
     "id_igdb": 46072,
-    "active": true
-  },
-  {
-    "name": "Ninja Cop",
-    "filename": "Ninja Cop.zip",
-    "image": "",
-    "console": "gba",
-    "id": "ninja-cop",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -21077,15 +20899,6 @@
     "active": true
   },
   {
-    "name": "One Piece",
-    "filename": "One Piece.zip",
-    "image": "",
-    "console": "gba",
-    "id": "one-piece",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Onimusha Tactics",
     "filename": "Onimusha Tactics.zip",
     "image": "onimusha-tactics.jpg",
@@ -21209,15 +21022,6 @@
     "console": "sms",
     "id": "orguss",
     "id_igdb": 6121,
-    "active": true
-  },
-  {
-    "name": "Original Harlem Globetrotters",
-    "filename": "Original Harlem Globetrotters.zip",
-    "image": "",
-    "console": "gba",
-    "id": "original-harlem-globetrotters",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -21871,7 +21675,7 @@
   {
     "name": "Penny Racers",
     "filename": "Penny Racers.zip",
-    "image": "",
+    "image": "penny-racers.jpg",
     "console": "gba",
     "id": "penny-racers",
     "id_igdb": "",
@@ -21902,15 +21706,6 @@
     "console": "nes",
     "id": "perman-enban-wo-torikaese",
     "id_igdb": 60747,
-    "active": true
-  },
-  {
-    "name": "Personal Organizer PDA",
-    "filename": "Personal Organizer PDA.zip",
-    "image": "",
-    "console": "gba",
-    "id": "personal-organizer-pda",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -21959,21 +21754,21 @@
     "active": true
   },
   {
-    "name": "Pets - Hamsters Life 2",
-    "filename": "Pets - Hamsters Life 2.zip",
-    "image": "",
-    "console": "gba",
-    "id": "pets-hamsters-life-2",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Petz Vet",
     "filename": "Petz Vet..zip",
     "image": "petz-vet.jpg",
     "console": "gba",
     "id": "petz-vet",
     "id_igdb": 49459,
+    "active": true
+  },
+  {
+    "name": "Petz: Hamsterz Life 2",
+    "filename": "Pets - Hamsters Life 2.zip",
+    "image": "petz-hamsterz-life-2.jpg",
+    "console": "gba",
+    "id": "petz-hamsterz-life-2",
+    "id_igdb": 49474,
     "active": true
   },
   {
@@ -22258,7 +22053,7 @@
   {
     "name": "Pippa Funnell - Stable Adventure",
     "filename": "Pippa Funnell - Stable Adventure.zip",
-    "image": "",
+    "image": "pippa-funnell-stable-adventure.jpg",
     "console": "gba",
     "id": "pippa-funnell-stable-adventure",
     "id_igdb": "",
@@ -22274,21 +22069,21 @@
     "active": true
   },
   {
-    "name": "Pirates of the Caribbean",
-    "filename": "Pirates of the Caribbean.zip",
-    "image": "",
-    "console": "gba",
-    "id": "pirates-of-the-caribbean",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Pirates of the Caribbean: Dead Man's Chest",
     "filename": "Pirates of the Caribbean 2 - Dead Man's Chest.zip",
     "image": "pirates-of-the-caribbean-dead-mans-chest.jpg",
     "console": "gba",
     "id": "pirates-of-the-caribbean-dead-mans-chest",
     "id_igdb": 194266,
+    "active": true
+  },
+  {
+    "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "filename": "Pirates of the Caribbean.zip",
+    "image": "pirates-of-the-caribbean-the-curse-of-the-black-pearl.jpg",
+    "console": "gba",
+    "id": "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+    "id_igdb": 19218,
     "active": true
   },
   {
@@ -22499,48 +22294,30 @@
     "active": true
   },
   {
-    "name": "Pokemon - Fire Red",
-    "filename": "Pokemon - Fire Red.zip",
-    "image": "",
-    "console": "gba",
-    "id": "pokemon-fire-red",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pokemon - Leaf Green",
-    "filename": "Pokemon - Leaf Green.zip",
-    "image": "",
-    "console": "gba",
-    "id": "pokemon-leaf-green",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Pokemon Emerald",
+    "name": "Pokémon Emerald Version",
     "filename": "Pokemon Emerald.zip",
-    "image": "",
+    "image": "pokemon-emerald-version.jpg",
     "console": "gba",
-    "id": "pokemon-emerald",
-    "id_igdb": "",
+    "id": "pokemon-emerald-version",
+    "id_igdb": 1517,
     "active": true
   },
   {
-    "name": "Pokemon Ruby",
-    "filename": "Pokemon Ruby.zip",
-    "image": "",
+    "name": "Pokémon FireRed Version",
+    "filename": "Pokemon - Fire Red.zip",
+    "image": "pokemon-firered-version.jpg",
     "console": "gba",
-    "id": "pokemon-ruby",
-    "id_igdb": "",
+    "id": "pokemon-firered-version",
+    "id_igdb": 1559,
     "active": true
   },
   {
-    "name": "Pokemon Sapphire",
-    "filename": "Pokemon Sapphire.zip",
-    "image": "",
+    "name": "Pokémon LeafGreen Version",
+    "filename": "Pokemon - Leaf Green.zip",
+    "image": "pokemon-leafgreen-version.jpg",
     "console": "gba",
-    "id": "pokemon-sapphire",
-    "id_igdb": "",
+    "id": "pokemon-leafgreen-version",
+    "id_igdb": 1516,
     "active": true
   },
   {
@@ -22559,6 +22336,24 @@
     "console": "gba",
     "id": "pokemon-pinball-ruby-sapphire",
     "id_igdb": 4069,
+    "active": true
+  },
+  {
+    "name": "Pokémon Ruby Version",
+    "filename": "Pokemon Ruby.zip",
+    "image": "pokemon-ruby-version.jpg",
+    "console": "gba",
+    "id": "pokemon-ruby-version",
+    "id_igdb": 1557,
+    "active": true
+  },
+  {
+    "name": "Pokémon Sapphire Version",
+    "filename": "Pokemon Sapphire.zip",
+    "image": "pokemon-sapphire-version.jpg",
+    "console": "gba",
+    "id": "pokemon-sapphire-version",
+    "id_igdb": 1515,
     "active": true
   },
   {
@@ -22586,15 +22381,6 @@
     "console": "nes",
     "id": "pooyan",
     "id_igdb": 4618,
-    "active": true
-  },
-  {
-    "name": "Pop Idol",
-    "filename": "Pop Idol.zip",
-    "image": "",
-    "console": "gba",
-    "id": "pop-idol",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -22904,21 +22690,12 @@
     "active": true
   },
   {
-    "name": "Premier Action",
+    "name": "Premier Action Soccer",
     "filename": "Premier Action.zip",
-    "image": "",
+    "image": "premier-action-soccer.jpg",
     "console": "gba",
-    "id": "premier-action",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Premier League Manager",
-    "filename": "Premier League Manager.zip",
-    "image": "",
-    "console": "gba",
-    "id": "premier-league-manager",
-    "id_igdb": "",
+    "id": "premier-action-soccer",
+    "id_igdb": 49356,
     "active": true
   },
   {
@@ -23054,15 +22831,6 @@
     "console": "nes",
     "id": "princess-tomato-in-the-salad-kingdom",
     "id_igdb": 48221,
-    "active": true
-  },
-  {
-    "name": "Pro Beach Soccer",
-    "filename": "Pro Beach Soccer.zip",
-    "image": "",
-    "console": "gba",
-    "id": "pro-beach-soccer",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -23323,15 +23091,6 @@
     "image": "puzzle-bobble.jpg",
     "console": "snes",
     "id": "puzzle-bobble",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "Puzzle Fighter 2",
-    "filename": "Puzzle Fighter 2.zip",
-    "image": "",
-    "console": "gba",
-    "id": "puzzle-fighter-2",
     "id_igdb": "",
     "active": true
   },
@@ -24035,15 +23794,6 @@
     "console": "snes",
     "id": "realm",
     "id_igdb": 44457,
-    "active": true
-  },
-  {
-    "name": "Rebel Star - Tactical Command",
-    "filename": "Rebel Star - Tactical Command.zip",
-    "image": "",
-    "console": "gba",
-    "id": "rebel-star-tactical-command",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -24821,15 +24571,6 @@
     "active": true
   },
   {
-    "name": "Roland Garros 2002 - Next Generation Tennis",
-    "filename": "Roland Garros 2002 - Next Generation Tennis.zip",
-    "image": "",
-    "console": "gba",
-    "id": "roland-garros-2002-next-generation-tennis",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Rollerball",
     "filename": "Rollerball.zip",
     "image": "rollerball.jpg",
@@ -25010,15 +24751,6 @@
     "active": true
   },
   {
-    "name": "Rugrats - All Grown Up",
-    "filename": "Rugrats - All Grown Up.zip",
-    "image": "",
-    "console": "gba",
-    "id": "rugrats-all-grown-up",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Rugrats Go Wild!",
     "filename": "Rugrats - Go Wild.zip",
     "image": "rugrats-go-wild.jpg",
@@ -25181,12 +24913,12 @@
     "active": true
   },
   {
-    "name": "Sabrewulf",
+    "name": "Sabre Wulf",
     "filename": "Sabrewulf.zip",
-    "image": "",
+    "image": "sabre-wulf.jpg",
     "console": "gba",
-    "id": "sabrewulf",
-    "id_igdb": "",
+    "id": "sabre-wulf",
+    "id_igdb": 6582,
     "active": true
   },
   {
@@ -25462,7 +25194,7 @@
   {
     "name": "Scrabble Scramble",
     "filename": "Scrabble Scramble.zip",
-    "image": "",
+    "image": "scrabble-scramble.jpg",
     "console": "gba",
     "id": "scrabble-scramble",
     "id_igdb": "",
@@ -26088,6 +25820,15 @@
     "console": "nes",
     "id": "shockwave",
     "id_igdb": 48084,
+    "active": true
+  },
+  {
+    "name": "Shonen Jump's One Piece",
+    "filename": "One Piece.zip",
+    "image": "shonen-jumps-one-piece.jpg",
+    "console": "gba",
+    "id": "shonen-jumps-one-piece",
+    "id_igdb": 75755,
     "active": true
   },
   {
@@ -27477,29 +27218,11 @@
     "active": true
   },
   {
-    "name": "Splinter Cell",
-    "filename": "Splinter Cell.zip",
-    "image": "",
-    "console": "gba",
-    "id": "splinter-cell",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "SpongeBob SquarePants & Friends Unite",
     "filename": "SpongeBob SquarePants & Friends Unite.zip",
-    "image": "",
+    "image": "spongebob-squarepants-friends-unite.jpg",
     "console": "gba",
     "id": "spongebob-squarepants-friends-unite",
-    "id_igdb": "",
-    "active": true
-  },
-  {
-    "name": "SpongeBob SquarePants - Lights Camera Action",
-    "filename": "SpongeBob SquarePants - Lights Camera Action.zip",
-    "image": "",
-    "console": "gba",
-    "id": "spongebob-squarepants-lights-camera-action",
     "id_igdb": "",
     "active": true
   },
@@ -27522,6 +27245,15 @@
     "active": true
   },
   {
+    "name": "SpongeBob SquarePants: Lights, Camera, Pants!",
+    "filename": "SpongeBob SquarePants - Lights Camera Action.zip",
+    "image": "spongebob-squarepants-lights-camera-pants.jpg",
+    "console": "gba",
+    "id": "spongebob-squarepants-lights-camera-pants",
+    "id_igdb": 210724,
+    "active": true
+  },
+  {
     "name": "SpongeBob SquarePants: Revenge of the Flying Dutchman",
     "filename": "SpongeBob SquarePants - Revenge of the Flying Dutchman.zip",
     "image": "spongebob-squarepants-revenge-of-the-flying-dutchman.jpg",
@@ -27537,15 +27269,6 @@
     "console": "gba",
     "id": "spongebob-squarepants-supersponge",
     "id_igdb": 248626,
-    "active": true
-  },
-  {
-    "name": "SpongeBob and Friends - Attack of the Toybots",
-    "filename": "SpongeBob and Friends - Attack of the Toybots.zip",
-    "image": "",
-    "console": "gba",
-    "id": "spongebob-and-friends-attack-of-the-toybots",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -27601,15 +27324,6 @@
     "console": "nes",
     "id": "spy-hunter",
     "id_igdb": 287960,
-    "active": true
-  },
-  {
-    "name": "Spy Hunter",
-    "filename": "Spy Hunter.zip",
-    "image": "",
-    "console": "gba",
-    "id": "spy-hunter",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -27676,30 +27390,12 @@
     "active": true
   },
   {
-    "name": "Spyro Fusion",
-    "filename": "Spyro Fusion.zip",
-    "image": "",
-    "console": "gba",
-    "id": "spyro-fusion",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Spyro Orange: The Cortex Conspiracy",
     "filename": "Spyro Orange - the Cortex Conspiracy.zip",
     "image": "spyro-orange-the-cortex-conspiracy.jpg",
     "console": "gba",
     "id": "spyro-orange-the-cortex-conspiracy",
     "id_igdb": 1590,
-    "active": true
-  },
-  {
-    "name": "Spyro's Adventures",
-    "filename": "Spyro's Adventures.zip",
-    "image": "",
-    "console": "gba",
-    "id": "spyro-s-adventures",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -28207,15 +27903,6 @@
     "active": true
   },
   {
-    "name": "Strawberry Shortcake: Summertime Adventure - Special Edition",
-    "filename": "Strawberry Shortcake - Summertime Adventure - Special Edition.zip",
-    "image": "",
-    "console": "gba",
-    "id": "strawberry-shortcake-summertime-adventure-special-edition",
-    "id_igdb": 49501,
-    "active": true
-  },
-  {
     "name": "Strawberry Shortcake: Sweet Dreams",
     "filename": "Strawberry Shortcake - Sweet Dreams.zip",
     "image": "strawberry-shortcake-sweet-dreams.jpg",
@@ -28258,6 +27945,15 @@
     "console": "snes",
     "id": "street-fighter-alpha-2",
     "id_igdb": 243453,
+    "active": true
+  },
+  {
+    "name": "Street Fighter Alpha 3 Upper",
+    "filename": "Street-Fighter Alpha 3.zip",
+    "image": "street-fighter-alpha-3-upper.jpg",
+    "console": "gba",
+    "id": "street-fighter-alpha-3-upper",
+    "id_igdb": 219058,
     "active": true
   },
   {
@@ -28366,15 +28062,6 @@
     "console": "gens",
     "id": "street-smart",
     "id_igdb": 41084,
-    "active": true
-  },
-  {
-    "name": "Street-Fighter Alpha 3",
-    "filename": "Street-Fighter Alpha 3.zip",
-    "image": "",
-    "console": "gba",
-    "id": "street-fighter-alpha-3",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -29015,8 +28702,7 @@
     "console": "gba",
     "id": "super-dodge-ball-advance",
     "id_igdb": 6620,
-    "active": true,
-    "check_image": true
+    "active": true
   },
   {
     "name": "Super Double Dragon",
@@ -29277,6 +28963,15 @@
     "console": "snes",
     "id": "super-mario-world-2-yoshi-s-island",
     "id_igdb": 1073,
+    "active": true
+  },
+  {
+    "name": "Super Mario World: Super Mario Advance 2",
+    "filename": "Mario Advanced 2 - Mario World.zip",
+    "image": "super-mario-world-super-mario-advance-2.jpg",
+    "console": "gba",
+    "id": "super-mario-world-super-mario-advance-2",
+    "id_igdb": 16617,
     "active": true
   },
   {
@@ -30677,15 +30372,6 @@
     "active": true
   },
   {
-    "name": "Tennis Masters Series 2003",
-    "filename": "Tennis Masters Series 2003.zip",
-    "image": "",
-    "console": "gba",
-    "id": "tennis-masters-series-2003",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Terebi Oekaki",
     "filename": "Terebi Oekaki (SG-1000) [!].zip",
     "image": "terebi-oekaki.jpg",
@@ -31922,6 +31608,15 @@
     "active": true
   },
   {
+    "name": "The Land Before Time: Into the Mysterious Beyond",
+    "filename": "Land Before Time - Into the Mysterious Land.zip",
+    "image": "the-land-before-time-into-the-mysterious-beyond.jpg",
+    "console": "gba",
+    "id": "the-land-before-time-into-the-mysterious-beyond",
+    "id_igdb": 49332,
+    "active": true
+  },
+  {
     "name": "The Last Ninja",
     "filename": "Last Ninja.zip",
     "image": "the-last-ninja.jpg",
@@ -32993,15 +32688,6 @@
     "active": true
   },
   {
-    "name": "Three Stooges",
-    "filename": "Three Stooges.zip",
-    "image": "",
-    "console": "gba",
-    "id": "three-stooges",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Thunder & Lightning",
     "filename": "Thunder & Lightning.zip",
     "image": "thunder-and-lightning.jpg",
@@ -33098,15 +32784,6 @@
     "console": "nes",
     "id": "tiger-heli",
     "id_igdb": 4606,
-    "active": true
-  },
-  {
-    "name": "Tiger Woods - PGA Tour Golf",
-    "filename": "Tiger Woods - PGA Tour Golf.zip",
-    "image": "",
-    "console": "gba",
-    "id": "tiger-woods-pga-tour-golf",
-    "id_igdb": "",
     "active": true
   },
   {
@@ -33254,15 +32931,6 @@
     "active": true
   },
   {
-    "name": "Tiny Toon Adventures - Buster's Bad Dream",
-    "filename": "Tiny Toon Adventures - Buster's Bad Dream.zip",
-    "image": "",
-    "console": "gba",
-    "id": "tiny-toon-adventures-buster-s-bad-dream",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Tiny Toon Adventures 2: Trouble in Wackyland",
     "filename": "Tiny Toon Adventures II.zip",
     "image": "tiny-toon-adventures-2-trouble-in-wackyland.jpg",
@@ -33362,6 +33030,15 @@
     "active": true
   },
   {
+    "name": "Titeuf: Ze Gag Machine",
+    "filename": "Tootuff - Gagmachine.zip",
+    "image": "titeuf-ze-gag-machine.jpg",
+    "console": "gba",
+    "id": "titeuf-ze-gag-machine",
+    "id_igdb": 125558,
+    "active": true
+  },
+  {
     "name": "To the Earth",
     "filename": "To The Earth.zip",
     "image": "to-the-earth.jpg",
@@ -33449,6 +33126,15 @@
     "console": "gba",
     "id": "tom-clancys-rainbow-six-rogue-spear",
     "id_igdb": 249165,
+    "active": true
+  },
+  {
+    "name": "Tom Clancy's Splinter Cell",
+    "filename": "Splinter Cell.zip",
+    "image": "tom-clancys-splinter-cell.jpg",
+    "console": "gba",
+    "id": "tom-clancys-splinter-cell",
+    "id_igdb": 134350,
     "active": true
   },
   {
@@ -33697,15 +33383,6 @@
     "active": true
   },
   {
-    "name": "Tootuff - Gagmachine",
-    "filename": "Tootuff - Gagmachine.zip",
-    "image": "",
-    "console": "gba",
-    "id": "tootuff-gagmachine",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "Top Gear",
     "filename": "Top Gear (U) [!].smc",
     "image": "top-gear.jpg",
@@ -33847,15 +33524,6 @@
     "console": "nes",
     "id": "total-recall",
     "id_igdb": 12500,
-    "active": true
-  },
-  {
-    "name": "Total Soccer Manager",
-    "filename": "Total Soccer Manager.zip",
-    "image": "",
-    "console": "gba",
-    "id": "total-soccer-manager",
-    "id_igdb": 49343,
     "active": true
   },
   {
@@ -35407,12 +35075,12 @@
     "active": true
   },
   {
-    "name": "Wakeboarding Unleashed",
+    "name": "Wakeboarding Unleashed Featuring Shaun Murray",
     "filename": "Wakeboarding Unleashed.zip",
-    "image": "",
+    "image": "wakeboarding-unleashed-featuring-shaun-murray.jpg",
     "console": "gba",
-    "id": "wakeboarding-unleashed",
-    "id_igdb": "",
+    "id": "wakeboarding-unleashed-featuring-shaun-murray",
+    "id_igdb": 248685,
     "active": true
   },
   {
@@ -36811,15 +36479,6 @@
     "active": true
   },
   {
-    "name": "X-Men 3 - the Last Stand",
-    "filename": "X-Men 3 - the Last Stand.zip",
-    "image": "",
-    "console": "gba",
-    "id": "x-men-3-the-last-stand",
-    "id_igdb": "",
-    "active": true
-  },
-  {
     "name": "X-Men: Mojo World",
     "filename": "X-Men - Mojo World (UE) [!].zip",
     "image": "x-men-mojo-world.jpg",
@@ -36844,6 +36503,15 @@
     "console": "gba",
     "id": "x-men-reign-of-apocalypse",
     "id_igdb": 6688,
+    "active": true
+  },
+  {
+    "name": "X-Men: The Official Game",
+    "filename": "X-Men 3 - the Last Stand.zip",
+    "image": "x-men-the-official-game.jpg",
+    "console": "gba",
+    "id": "x-men-the-official-game",
+    "id_igdb": 200902,
     "active": true
   },
   {
@@ -37029,7 +36697,7 @@
   {
     "name": "Yoshi's Universal Gravitation",
     "filename": "Yoshi's Universal Gravitation.zip",
-    "image": "",
+    "image": "yoshi-s-universal-gravitation.jpg",
     "console": "gba",
     "id": "yoshi-s-universal-gravitation",
     "id_igdb": "",
