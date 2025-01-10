@@ -340,8 +340,24 @@ async function download_image(json, type) {
 
       try {
         await fs.rename(
-          path.join(__dirname, "/public", oldImagePath),
-          path.join(__dirname, "/public", newImagePath)
+          path.join(
+            dir,
+            "..",
+            "..",
+            "..",
+            "roms_" + item.console,
+            "images",
+            oldImagePath
+          ),
+          path.join(
+            dir,
+            "..",
+            "..",
+            "..",
+            "roms_" + item.console,
+            "images",
+            newImagePath
+          )
         );
         item.image = newImagePath;
       } catch (error) {
