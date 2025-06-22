@@ -16,8 +16,6 @@
       </router-link>
     </div>
 
-    <div class="text-center">Mais consoles em breve!</div>
-
     <tetris />
     <star />
   </div>
