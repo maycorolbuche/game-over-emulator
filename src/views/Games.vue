@@ -60,6 +60,11 @@
         <img
           v-if="rom.image"
           :src="consol.base_url + '/images/' + rom.image"
+          :alt="rom.name"
+          loading="lazy"
+          decoding="async"
+          width="180"
+          height="240"
           style="height: 240px; object-fit: contain"
         />
         <div
