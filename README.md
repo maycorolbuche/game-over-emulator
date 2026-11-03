@@ -29,6 +29,10 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 
 Há testes específicos do validador em `npm run test:catalog`; não há script geral de teste ou lint. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.
 
+## Verificação automática
+
+O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do catálogo, testes do validador e build em PRs para `main` e pushes na `main`, usando Node.js 26.x. Também pode ser iniciado manualmente em Actions. Consulte [Desenvolvimento](docs/desenvolvimento.md#integração-contínua) para detalhes.
+
 ## Funcionalidades
 
 - Catálogo por console e busca global e por seção.

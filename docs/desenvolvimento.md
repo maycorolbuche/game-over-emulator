@@ -36,7 +36,24 @@ Crie uma branch a partir da main atual e abra PR. O gitdeploy.bat existente exec
 
 ## Validação do catálogo
 
-Execute `npm run check:catalog` antes de enviar alterações nos JSONs. Execute `npm run test:catalog` ao alterar o validador; os testes usam o runner nativo do Node, com dados isolados e sem modificar o catálogo. Não são necessárias dependências novas. Consulte as regras e os limites em [Catálogo](catalogo.md#validação-local). A execução é manual; a integração com GitHub Actions ainda não foi implementada.
+Execute `npm run check:catalog` antes de enviar alterações nos JSONs. Execute `npm run test:catalog` ao alterar o validador; os testes usam o runner nativo do Node, com dados isolados e sem modificar o catálogo. Não são necessárias dependências novas. Consulte as regras e os limites em [Catálogo](catalogo.md#validação-local). Os comandos também são executados automaticamente no GitHub Actions.
+
+## Integração contínua
+
+O arquivo [.github/workflows/ci.yml](../.github/workflows/ci.yml) define o workflow CI, com o job `Catálogo, testes e build`. Ele roda em PRs cujo destino é main, pushes na main e acionamento manual em Actions → CI → Run workflow (após o workflow estar na branch padrão).
+
+O runner Ubuntu usa Node.js 26.x, alinhado ao ambiente Vercel informado para este projeto. Para reproduzir os comandos, use essa versão do Node e execute:
+
+```bash
+npm ci
+npm run check:catalog
+npm run test:catalog
+npm run build
+```
+
+As etapas são sequenciais; uma falha impede as seguintes e aparece no log da etapa. O cache é do npm, não de node_modules; npm ci continua instalando pelo lockfile. Execuções anteriores do mesmo PR ou referência são canceladas quando chegam novos commits. O job tem limite de dez minutos e permissão contents: read. As actions são fixadas por SHA; revise os SHAs ao atualizá-las.
+
+O workflow não publica o site nem acessa ROMs ou integrações do sincronizador. Não executa os jogos no navegador. Para bloquear merges com falhas, configure o check `Catálogo, testes e build` como obrigatório na proteção/ruleset da main após a primeira execução. Essa regra não é criada pelo arquivo do workflow.
 
 ## Verificação conforme o escopo
 
