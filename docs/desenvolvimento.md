@@ -50,6 +50,7 @@ npm run check:catalog
 npm run test:catalog
 npm run test:emulator
 npm run test:routes
+npm run test:saves
 npm run build
 ```
 
@@ -82,3 +83,7 @@ Mudanças somente de documentação exigem conferir links, comandos e aderência
 
 Atualize os guias afetados na mesma PR do código. Na descrição, informe comportamento resultante, documentos atualizados, verificações e limitações. Se nada documentado mudou, explique o motivo. Consulte também [AGENTS.md](../AGENTS.md).
 
+
+## Testes dos salvamentos
+
+`npm run test:saves` testa os métodos reais do componente com armazenamento e núcleo simulados: quota, bloqueio de acesso, JSON/estrutura inválidos, falha de conversão ou núcleo, sucesso após gravação, slots preservados e fechamento durante salvamento. O CI executa esses testes; eles não substituem uma sessão real no navegador.

@@ -41,7 +41,7 @@ Salvar chama nostalgist.saveState(), converte o Blob para Base64 e grava um obje
 
 Carregar recupera esse estado e chama loadState. O save fica no navegador e na origem do site: mudar domínio, navegador ou dispositivo não transfere o progresso. Limpar os dados do site pode apagá-lo. Não existem sincronização em nuvem, exportação/importação ou salvamento automático implementados.
 
-Storage.js não trata erros de quota na escrita, e a leitura de objetos pode lançar erro em JSON inválido. A compatibilidade de um save após trocar núcleo ou versão não é validada pela aplicação.
+Game.vue trata erros de quota, bloqueio de armazenamento, JSON/estrutura de slots inválidos, conversão e rejeições do núcleo. Falhas são exibidas em aviso persistente com botão ENTENDI, sem impedir iniciar o jogo quando a leitura inicial falha. O componente valida os slots antes de salvar ou carregar; dados inválidos não são apagados nem substituídos automaticamente. Para evitar sobrescrever outros slots, a gravação relê os dados atuais. “Salvo” e a atualização em memória só ocorrem após Storage.set concluir. Operações concorrentes de salvar/carregar são bloqueadas; uma gravação pendente é descartada se o componente fechar antes de concluí-la. O formato Base64 e a chave console.id existentes são mantidos. Não há coordenação de gravações simultâneas entre abas. A compatibilidade de um save após trocar núcleo ou versão não é validada pela aplicação.
 
 ## Limitações atuais
 

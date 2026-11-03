@@ -31,6 +31,11 @@
         <button type="button" @click.stop="launchGame()">TENTAR NOVAMENTE</button>
       </div>
 
+      <div v-if="save_error" class="save-error" role="alert">
+        <p>{{ save_error }}</p>
+        <button type="button" @click.stop="save_error = null">ENTENDI</button>
+      </div>
+
       <canvas
         v-show="!interact && !loading && !launch_error"
         id="emulator-canvas"
@@ -199,6 +204,8 @@ export default {
       launch_controller: null,
       resize_timer: null,
       message_timer: null,
+      save_error: null,
+      save_busy: false,
       message: null,
       loading: false,
       nostalgist: null,
@@ -411,24 +418,68 @@ export default {
         }
       });
     },
+    readSavedSlots() {
+      const slots = Storage.get(this.console + "." + this.id, {});
+      if (!slots || typeof slots !== "object" || Array.isArray(slots) ||
+          Object.entries(slots).some(([key, value]) =>
+            !/^[0-9]$/.test(key) || (value !== null &&
+              (typeof value !== "string" || !/^data:[^,]*;base64,[A-Za-z0-9+/]+={0,2}$/.test(value))))) {
+        throw new Error("INVALID_SAVE");
+      }
+      return slots;
+    },
+    saveFailure(error, action) {
+      if (this.session_closed) return;
+      this.message = null;
+      if (error?.name === "QuotaExceededError" || error?.name === "NS_ERROR_DOM_QUOTA_REACHED") {
+        this.save_error = "Não foi possível salvar: o armazenamento do navegador está cheio. O salvamento anterior foi mantido.";
+      } else if (error instanceof SyntaxError || error?.message === "INVALID_SAVE" || error?.name === "InvalidCharacterError") {
+        this.save_error = "O salvamento deste jogo contém dados inválidos. Os dados foram preservados; não foi possível " + action + ".";
+      } else {
+        this.save_error = "Não foi possível " + action + " o progresso. Verifique se o navegador permite armazenar dados deste site e tente novamente.";
+      }
+    },
     async saveState(slot) {
-      if (this.nostalgist) {
-        const { state } = await this.nostalgist.saveState();
-        this.slot[slot] = await Conversions.blobToBase64(state);
+      const instance = this.nostalgist;
+      if (!instance || this.session_closed || this.save_busy) return;
+      this.save_busy = true;
+      this.save_error = null;
+      try {
+        const previous = this.readSavedSlots();
+        const { state } = await instance.saveState();
+        const encoded = await Conversions.blobToBase64(state);
+        if (this.session_closed || this.nostalgist !== instance) return;
+        const next = { ...previous, [slot]: encoded };
+        Storage.set(this.console + "." + this.id, next);
+        this.slot = next;
         this.message = "Salvo";
-        Storage.set(this.console + "." + this.id, this.slot);
+      } catch (error) {
+        this.saveFailure(error, "salvar");
+      } finally {
+        this.save_busy = false;
       }
     },
     async loadState(slot) {
-      if (this.nostalgist) {
-        if (this.slot[slot]) {
-          const state = Conversions.base64ToBlob(this.slot[slot]);
-          await this.nostalgist.loadState(state);
-          this.play();
-          this.message = "Carregado";
-        } else {
+      const instance = this.nostalgist;
+      if (!instance || this.session_closed || this.save_busy) return;
+      this.save_busy = true;
+      this.save_error = null;
+      try {
+        const saved = this.readSavedSlots();
+        if (!saved[slot]) {
           this.message = "Nada a ser carregado";
+          return;
         }
+        const state = Conversions.base64ToBlob(saved[slot]);
+        await instance.loadState(state);
+        if (this.session_closed || this.nostalgist !== instance) return;
+        this.slot = saved;
+        this.play();
+        this.message = "Carregado";
+      } catch (error) {
+        this.saveFailure(error, "carregar");
+      } finally {
+        this.save_busy = false;
       }
     },
     toggleFullscreen() {
@@ -492,18 +543,11 @@ export default {
 
     this.handleResize();
 
-    this.slot = Storage.get(this.console + "." + this.id, {
-      1: null,
-      2: null,
-      3: null,
-      4: null,
-      5: null,
-      6: null,
-      7: null,
-      8: null,
-      9: null,
-      0: null,
-    });
+    try {
+      this.slot = this.readSavedSlots();
+    } catch (error) {
+      this.saveFailure(error, "ler");
+    }
 
     this.launchGame();
   },
@@ -554,6 +598,24 @@ export default {
 }
 .launch-error button {
   padding: 12px;
+  cursor: pointer;
+}
+.save-error {
+  position: absolute;
+  z-index: 350;
+  max-width: min(440px, 80%);
+  padding: 16px;
+  margin: 12px;
+  background: #000;
+  color: #fff;
+  border: 3px solid #faa914;
+  line-height: 1.5;
+}
+.save-error button {
+  background: #faa914;
+  color: #000;
+  border: 0;
+  padding: 10px;
   cursor: pointer;
 }
 .message {
