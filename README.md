@@ -25,7 +25,7 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run serve` | Abre o preview de um build já gerado |
 | `npm run sync` | Abre o menu local de manutenção do catálogo |
 
-Não há scripts de teste ou lint definidos atualmente. `serve` não substitui `dev`.
+Não há scripts de teste ou lint definidos atualmente. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.
 
 ## Funcionalidades
 
@@ -47,3 +47,4 @@ Comece pelo [índice técnico](docs/README.md).
 - [Publicação e diagnóstico](docs/operacao.md)
 
 Toda alteração deve revisar e atualizar a documentação correspondente na mesma PR. As instruções para agentes estão em [AGENTS.md](AGENTS.md).
+
