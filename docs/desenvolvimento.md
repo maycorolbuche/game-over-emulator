@@ -48,12 +48,17 @@ O runner Ubuntu usa Node.js 26.x, alinhado ao ambiente Vercel informado para est
 npm ci
 npm run check:catalog
 npm run test:catalog
+npm run test:emulator
 npm run build
 ```
 
 As etapas são sequenciais; uma falha impede as seguintes e aparece no log da etapa. O cache é do npm, não de node_modules; npm ci continua instalando pelo lockfile. Execuções anteriores do mesmo PR ou referência são canceladas quando chegam novos commits. O job tem limite de dez minutos e permissão contents: read. As actions são fixadas por SHA; revise os SHAs ao atualizá-las.
 
 O workflow não publica o site nem acessa ROMs ou integrações do sincronizador. Não executa os jogos no navegador. Para bloquear merges com falhas, configure o check `Catálogo, testes e build` como obrigatório na proteção/ruleset da main após a primeira execução. Essa regra não é criada pelo arquivo do workflow.
+
+## Testes do emulador
+
+`npm run test:emulator` executa os métodos reais de Game.vue com Nostalgist simulado: sucesso, falha seguida de nova tentativa, bloqueio de chamadas duplicadas, fechamento durante carregamento, rejeição tardia e independência entre sessões. Os testes não baixam ROMs nem executam núcleos no navegador. O workflow CI também executa esse comando.
 
 ## Verificação conforme o escopo
 

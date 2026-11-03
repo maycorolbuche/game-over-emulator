@@ -18,7 +18,7 @@ Game Boy e Game Boy Color aparecem apenas em código comentado; não estão impl
 
 Games.vue fornece ao componente Game.vue o jogo, URL da ROM, imagens e controles. Game.vue aguarda interação do usuário e chama Nostalgist.launch com canvas, ROM, núcleo e retroarchConfig. Atualmente clique, teclado e rolagem na janela são observados como interação.
 
-A interface oferece pausa, retomada, reinício com confirmação, fechamento com confirmação, tela cheia e aceleração. Ao desmontar, remove eventos e encerra a instância já disponível. Ainda não há cancelamento explícito da inicialização assíncrona em andamento.
+A interface oferece pausa, retomada, reinício com confirmação, fechamento com confirmação, tela cheia e aceleração. Ao confirmar o fechamento ou desmontar, invalida a tentativa atual, solicita cancelamento via AbortSignal quando o carregamento está em andamento e encerra a instância disponível. Se uma inicialização terminar mesmo após o cancelamento, sua instância é encerrada e descartada. Cada jogo tem uma chave própria no componente para impedir reutilização da sessão ao trocar pela rota. O canvas é passado por referência, sem busca por ID global; timers e listeners são removidos ao desmontar.
 
 ## Atalhos do emulador
 
@@ -45,4 +45,4 @@ Storage.js não trata erros de quota na escrita, e a leitura de objetos pode lan
 
 ## Limitações atuais
 
-Se Nostalgist.launch falhar, o catch registra no console, mas não limpa loading nem oferece nova tentativa. A lateral reserva 180 px e pode limitar o espaço em telas pequenas. Essas limitações devem ser testadas e documentadas novamente quando forem corrigidas.
+Se Nostalgist.launch falhar, CARREGANDO é encerrado e a interface mostra uma mensagem com o botão TENTAR NOVAMENTE. A nova tentativa é explícita, sem repetição automática. Ações do emulador ficam indisponíveis enquanto não houver uma instância pronta. Os detalhes técnicos permanecem no console do navegador. O cancelamento depende da cooperação da biblioteca e da operação em andamento; não há timeout automático para conexões que nunca respondem. A lateral reserva 180 px e pode limitar o espaço em telas pequenas. Essas limitações devem ser testadas e documentadas novamente quando forem corrigidas.

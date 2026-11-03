@@ -29,7 +29,7 @@ Google Analytics é configurado em src/main.js. Não existe painel de configura�
 | Rota direta retorna 404 | Fallback da hospedagem e configuração history |
 | Capa não aparece | URL base/images/arquivo, nome exato e painel Network |
 | Capas distantes não foram baixadas | Pode ser loading=lazy normal; role a página e confira Network |
-| Jogo permanece em CARREGANDO | Console do navegador, ROM e recursos do núcleo; há limitação de tratamento de erro em Game.vue |
+| Jogo permanece em CARREGANDO | Enquanto a requisição estiver pendente, confira Network. Em falha, a tela oferece TENTAR NOVAMENTE; confira conexão, URL da ROM, recursos do núcleo e console do navegador |
 | Save não aparece | Mesma origem, navegador, console e ID; dados locais e limite de armazenamento |
 | Sync pula consoles | Repositórios irmãos e diretórios roms/ locais |
 | URL de console inválido quebra a página | Ausência atual de tratamento completo de console inexistente |

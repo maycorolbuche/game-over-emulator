@@ -34,5 +34,7 @@ jobs:
         run: npm run check:catalog
       - name: Testar validador
         run: npm run test:catalog
+      - name: Testar ciclo de vida do emulador
+        run: npm run test:emulator
       - name: Gerar build
         run: npm run build

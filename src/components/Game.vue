@@ -26,7 +26,13 @@
       </a>
       <div v-else-if="loading" class="loading">CARREGANDO</div>
 
+      <div v-else-if="launch_error" class="loading launch-error" role="alert">
+        <p>{{ launch_error }}</p>
+        <button type="button" @click.stop="launchGame()">TENTAR NOVAMENTE</button>
+      </div>
+
       <canvas
+        v-show="!interact && !loading && !launch_error"
         id="emulator-canvas"
         ref="emulatorCanvas"
         :style="{
@@ -68,7 +74,7 @@
           </a>
           <a
             v-if="!is_paused"
-            :class="{ link: true, disabled: loading || interact }"
+            :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
             v-shortkey.once="['ctrl', 'enter']"
             @click="pause()"
@@ -78,7 +84,7 @@
           </a>
           <a
             v-if="is_paused"
-            :class="{ link: true, disabled: loading || interact }"
+            :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
             v-shortkey.once="['ctrl', 'enter']"
             @click="play()"
@@ -87,7 +93,7 @@
             CONTINUAR
           </a>
           <a
-            :class="{ link: true, disabled: loading || interact }"
+            :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
             v-shortkey.once="['shift', '+']"
             @click="saveState(0)"
@@ -96,7 +102,7 @@
             SALVAR
           </a>
           <a
-            :class="{ link: true, disabled: loading || interact }"
+            :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
             v-shortkey.once="['=']"
             @click="loadState(0)"
@@ -105,7 +111,7 @@
             CARREGAR
           </a>
           <a
-            :class="{ link: true, disabled: loading || interact }"
+            :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
             v-shortkey.once="['f11']"
             @click="toggleFullscreen()"
@@ -114,7 +120,7 @@
             TELA CHEIA
           </a>
           <a
-            :class="{ link: true, disabled: loading || interact }"
+            :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
             v-shortkey.once="['tab']"
             @click="restartGame()"
@@ -160,6 +166,7 @@
 </template>
 
 <script>
+import { markRaw } from "vue";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -186,6 +193,12 @@ export default {
   },
   data() {
     return {
+      launch_error: null,
+      session_closed: false,
+      launch_id: 0,
+      launch_controller: null,
+      resize_timer: null,
+      message_timer: null,
       message: null,
       loading: false,
       nostalgist: null,
@@ -249,8 +262,9 @@ export default {
   watch: {
     fullscreen(val) {
       this.handleResize();
-      setTimeout(() => {
-        this.handleResize();
+      clearTimeout(this.resize_timer);
+      this.resize_timer = setTimeout(() => {
+        if (!this.session_closed) this.handleResize();
       }, 100);
       if (val) {
         this.play();
@@ -258,25 +272,28 @@ export default {
     },
     message(text) {
       if (text) {
-        setTimeout(() => {
-          this.message = null;
+        clearTimeout(this.message_timer);
+        this.message_timer = setTimeout(() => {
+          if (!this.session_closed) this.message = null;
         }, 2500);
       }
     },
   },
   methods: {
     async launchGame() {
-      if (this.interact) {
-        return;
-      }
-
+      if (this.interact || this.loading || this.nostalgist || this.session_closed) return;
+      const attempt = ++this.launch_id;
+      this.launch_controller = markRaw(new AbortController());
+      this.launch_error = null;
+      this.is_paused = false;
       let file = this.filename;
 
       try {
         this.loading = true;
 
         let config = {
-          element: "#emulator-canvas",
+          element: this.$refs.emulatorCanvas,
+          signal: this.launch_controller.signal,
           rom: file,
           core: (() => {
             switch (this.console) {
@@ -300,17 +317,37 @@ export default {
             ...this.retroarch_controls,
           },
         };
-        console.log("Iniciando....", config);
-        this.nostalgist = await Nostalgist.launch(config);
-
-        this.loading = false;
+        const instance = await Nostalgist.launch(config);
+        if (this.session_closed || attempt !== this.launch_id) {
+          instance.exit({ removeCanvas: false });
+          return;
+        }
+        this.nostalgist = markRaw(instance);
       } catch (error) {
-        this.nostalgist = null;
-        console.error("Erro ao iniciar o jogo: ", error);
+        if (!this.session_closed && attempt === this.launch_id) {
+          this.nostalgist = null;
+          this.launch_error = "Não foi possível iniciar o jogo. Verifique sua conexão e tente novamente.";
+          console.error("Erro ao iniciar o jogo:", error);
+        }
+      } finally {
+        if (!this.session_closed && attempt === this.launch_id) this.loading = false;
       }
-      /*
-      https://www.igdb.com/
-      */
+    },
+    disposeGame() {
+      if (this.session_closed) return;
+      this.session_closed = true;
+      this.launch_id++;
+      if (this.loading) this.launch_controller?.abort();
+      clearTimeout(this.resize_timer);
+      clearTimeout(this.message_timer);
+      const instance = this.nostalgist;
+      this.nostalgist = null;
+      this.loading = false;
+      try {
+        if (instance) instance.exit({ removeCanvas: false });
+      } catch (error) {
+        console.error("Erro ao encerrar o jogo:", error);
+      }
     },
     pause() {
       if (this.nostalgist && !this.is_paused) {
@@ -347,6 +384,7 @@ export default {
           confirmButtonText: "Sim",
           cancelButtonText: `Não`,
         }).then((result) => {
+          if (this.session_closed) return;
           if (result.isConfirmed) {
             if (this.nostalgist) {
               this.restart();
@@ -364,7 +402,9 @@ export default {
         confirmButtonText: "Sim",
         cancelButtonText: `Não`,
       }).then((result) => {
+        if (this.session_closed) return;
         if (result.isConfirmed) {
+          this.disposeGame();
           this.$emit("close");
         } else {
           this.play();
@@ -392,6 +432,7 @@ export default {
       }
     },
     toggleFullscreen() {
+      if (!this.nostalgist || this.session_closed) return;
       if (!this.fullscreen) {
         Screen.fullscreen(this.$refs.emulatorContainer);
       } else {
@@ -402,13 +443,14 @@ export default {
       this.fullscreen = Screen.isFullscreen();
     },
     handleUserInteraction() {
-      if (this.interact) {
+      if (this.interact && !this.session_closed) {
         this.play();
         this.interact = false;
         this.launchGame();
       }
     },
     handleResize() {
+      if (this.session_closed || !this.$refs.emulatorContainer || !this.$refs.emulator) return;
       if (this.fullscreen) {
         this.$refs.emulatorContainer.style.width =
           this.$refs.emulator.clientWidth + "px";
@@ -466,10 +508,7 @@ export default {
     this.launchGame();
   },
   beforeUnmount() {
-    if (this.nostalgist) {
-      this.nostalgist.exit();
-    }
-    this.nostalgist = null;
+    this.disposeGame();
 
     window.removeEventListener("click", this.handleUserInteraction);
     window.removeEventListener("keydown", this.handleUserInteraction);
@@ -503,6 +542,19 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.launch-error {
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.launch-error button {
+  padding: 12px;
+  cursor: pointer;
 }
 .message {
   color: #fff;
