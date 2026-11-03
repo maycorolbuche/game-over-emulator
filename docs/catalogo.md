@@ -36,11 +36,31 @@ Mantenha a combinação console + id única e estável. Mudar id pode quebrar li
 
 As URLs dos jogos são montadas como base_url + /roms/ + filename e base_url + /images/ + image. Uma URL absoluta em image não é compatível com essa concatenação do frontend; o sincronizador oferece download para convertê-la em nome local.
 
+## Validação local
+
+```bash
+npm run check:catalog
+npm run test:catalog
+```
+
+O primeiro comando lê os JSONs a partir da raiz do projeto, independentemente do diretório de execução. Não altera arquivos nem acessa a rede. Retorna código 0 se os dados forem válidos e 1 em caso de erro de leitura, JSON inválido ou contrato inválido. Os erros mostram arquivo, índice do registro (começando em zero) e campo; por exemplo: `src/json/roms.json[12].console: console inexistente ou identificador inválido`.
+
+Regras implementadas em scripts/check-catalog.mjs:
+
+- Ambos os JSONs precisam ser arrays não vazios de objetos.
+- Consoles precisam de id único, name não vazio e active booleano. IDs de consoles e jogos não podem conter espaços, separadores de caminho ou delimitadores de URL; caracteres já usados, como `$` e hífen final, são preservados para manter links e saves.
+- Consoles ativos precisam de base_url HTTP(S) absoluta sem query, fragmento ou credenciais, image no formato `/arquivo.ext` e controls.player1 não vazio. player2 é opcional; quando informado, deve ser mapa não vazio. Botões e teclas devem ser textos não vazios.
+- Todos os jogos, inclusive inativos, precisam de id, name, console existente, active booleano, filename com extensão e image com extensão png/jpg/jpeg/webp/gif/avif/svg. A combinação console + id deve ser única; o mesmo id em consoles diferentes é permitido.
+- filename e image são nomes simples, sem diretórios, URLs absolutas, caracteres de controle ou caracteres reservados `?`, `#`, `%` e `:`. Espaços internos em nomes de arquivos são aceitos.
+- Quando presentes, check_image, check_name e block_change devem ser booleanos. id_igdb aceita inteiro positivo, texto numérico positivo ou texto vazio. Campos adicionais são permitidos.
+
+A validação não confirma existência de arquivos externos, suporte de um núcleo novo, validade das teclas no RetroArch ou execução dos jogos. Não renomeia IDs nem corrige registros automaticamente. O comando test:catalog verifica casos válidos e inválidos, duplicidades, referências, controles, leitura e códigos de saída.
+
 ## Inclusão manual
 
 1. Publique ROM e capa no repositório externo correspondente.
 2. Adicione ou revise o registro em roms.json.
-3. Confira a unicidade de console + id e a disponibilidade das URLs.
+3. Execute `npm run check:catalog` e confira separadamente a disponibilidade das URLs.
 4. Gere o build e teste a busca, o card e a abertura direta.
 5. Revise a documentação se houver mudança no contrato ou no processo.
 
