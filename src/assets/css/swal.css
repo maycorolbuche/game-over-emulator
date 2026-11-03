@@ -5,6 +5,12 @@
     color: #FFF;
 }
 
+.swal2-html-container {
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px !important;
+    color: #FFF !important;
+}
+
 .swal2-popup {
     background: #000;
     border: 3px solid #FFF;
