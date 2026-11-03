@@ -49,6 +49,7 @@ npm ci
 npm run check:catalog
 npm run test:catalog
 npm run test:emulator
+npm run test:routes
 npm run build
 ```
 
@@ -59,6 +60,10 @@ O workflow não publica o site nem acessa ROMs ou integrações do sincronizador
 ## Testes do emulador
 
 `npm run test:emulator` executa os métodos reais de Game.vue com Nostalgist simulado: sucesso, falha seguida de nova tentativa, bloqueio de chamadas duplicadas, fechamento durante carregamento, rejeição tardia e independência entre sessões. Os testes não baixam ROMs nem executam núcleos no navegador. O workflow CI também executa esse comando.
+
+## Testes de rotas
+
+`npm run test:routes` verifica consoles/jogos inexistentes e inativos, acesso direto, mudanças de parâmetros, abertura/fechamento e correspondência das rotas reais com histórico em memória. É executado no CI e não baixa ROMs. Confira também manualmente voltar/avançar e links de retorno após publicar.
 
 ## Verificação conforme o escopo
 

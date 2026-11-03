@@ -36,5 +36,7 @@ jobs:
         run: npm run test:catalog
       - name: Testar ciclo de vida do emulador
         run: npm run test:emulator
+      - name: Testar rotas e navegação
+        run: npm run test:routes
       - name: Gerar build
         run: npm run build

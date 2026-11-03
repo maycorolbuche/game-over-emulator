@@ -92,6 +92,7 @@ export default {
         .replace(/[\u0300-\u036f]/g, "")
         .replace(/\s+/g, "");
       this.search_items = this.json_roms
+        .filter(item => item.active && this.json_consoles[item.console]?.active)
         .filter((item) =>
           item.name
             .toLowerCase()
