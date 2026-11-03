@@ -90,6 +90,7 @@
 
     <modal v-if="game" @close="closeGame()">
       <game
+        :key="game.console + ':' + game.id"
         v-bind="game"
         :console="consol.id"
         :console_image="consol.base_url + consol.image"

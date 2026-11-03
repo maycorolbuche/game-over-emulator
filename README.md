@@ -24,14 +24,14 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run build` | Gera a aplicação estática em dist/ |
 | `npm run serve` | Abre o preview de um build já gerado |
 | `npm run check:catalog` | Valida os JSONs locais de consoles e jogos |
-| `npm run test:catalog` | Executa os testes do validador |
+| `npm run test:emulator` | Testa falhas, novas tentativas e encerramento do emulador |\n| `npm run test:catalog` | Executa os testes do validador |
 | `npm run sync` | Abre o menu local de manutenção do catálogo |
 
-Há testes específicos do validador em `npm run test:catalog`; não há script geral de teste ou lint. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.
+Há testes do validador em `npm run test:catalog` e do ciclo de vida do emulador em `npm run test:emulator`; não há script geral de teste ou lint. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.
 
 ## Verificação automática
 
-O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do catálogo, testes do validador e build em PRs para `main` e pushes na `main`, usando Node.js 26.x. Também pode ser iniciado manualmente em Actions. Consulte [Desenvolvimento](docs/desenvolvimento.md#integração-contínua) para detalhes.
+O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do catálogo, testes do validador e do emulador e build em PRs para `main` e pushes na `main`, usando Node.js 26.x. Também pode ser iniciado manualmente em Actions. Consulte [Desenvolvimento](docs/desenvolvimento.md#integração-contínua) para detalhes.
 
 ## Funcionalidades
 
