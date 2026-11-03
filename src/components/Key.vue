@@ -34,7 +34,7 @@ export default {
     info(key) {
       switch (key.toLowerCase()) {
         case "pause":
-          return "Pausar";
+          return "Pausar/continuar";
         case "save":
           return "Salvar";
         case "load":
