@@ -38,5 +38,7 @@ jobs:
         run: npm run test:emulator
       - name: Testar rotas e navegação
         run: npm run test:routes
+      - name: Testar salvamentos
+        run: npm run test:saves
       - name: Gerar build
         run: npm run build
