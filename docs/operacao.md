@@ -50,4 +50,4 @@ Não reintroduza ROMs neste repositório. Uma limpeza permanente de histórico �
 
 ## Verificação após publicação
 
-Confira início, busca, listagem sem paginação, carregamento de capas ao rolar, acesso direto a um jogo e uma sessão com salvar/carregar. Não há workflows de CI versionados nem suíte automatizada configurada no estado documentado.
+Confira início, busca, listagem sem paginação, carregamento de capas ao rolar, acesso direto a um jogo e uma sessão com salvar/carregar. O workflow [CI](../.github/workflows/ci.yml) verifica catálogo, testes do validador e build com Node.js 26.x; ele não substitui a verificação manual dos jogos. Acompanhe erros na aba Actions, abrindo a etapa com falha. A publicação na Vercel continua independente: um CI com falha só bloqueia o merge se o check for obrigatório na proteção da main.
