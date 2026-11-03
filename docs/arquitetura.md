@@ -55,3 +55,7 @@ Consoles.vue mostra consoles ativos. Games.vue filtra jogos ativos do console e 
 ## Botões de retorno
 
 NotFound.vue apresenta links como botões com fonte pixelada, bordas retas e paleta dos alertas SweetAlert: ação principal amarela e alternativa preta com borda branca. Há estados de hover, pressionamento e foco visível, largura total em telas pequenas e respeito à preferência por movimento reduzido. Os estilos são locais à página.
+
+## Componentes mobile
+
+TouchControls.vue renderiza botões do perfil do jogador 1; TouchInput.mjs controla ponteiros com contagem por botão e calcula a proporção do canvas. Game.vue mantém a sessão em resize/rotação e compartilha as mesmas ações da lateral no painel mobile, sem duplicar a lógica. Header.vue possui navegação recolhível; o modal mantém o bloqueio de rolagem anterior ao abrir. A tela cheia usa o contêiner raiz do emulador.

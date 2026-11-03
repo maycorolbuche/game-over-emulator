@@ -3,14 +3,19 @@
     id="emulator"
     ref="emulator"
     class="d-flex align-stretch"
-    style="height: 100%"
+    :class="{ 'mobile-layout': mobile_layout }"
+    :style="{ '--game-ratio': console === 'gba' ? '3 / 2' : '4 / 3' }"
+    @keydown.esc.stop="menu_open && toggleMenu()"
   >
     <button v-show="false" v-shortkey.push="['\'']" @shortkey="speed" />
+    <button v-if="mobile_layout" class="game-menu-toggle" type="button" :aria-expanded="menu_open" aria-controls="game-options" aria-label="Menu do jogo" @click.stop="toggleMenu()">☰</button>
+    <div class="game-stage" ref="gameStage">
     <div
       id="emulator-container"
       ref="emulatorContainer"
       style="overflow: hidden"
       @click="resumeFromCanvas()"
+      @pointerdown="handleUserInteraction()"
     >
       <div
         v-if="(is_paused || message) && !interact && !loading"
@@ -21,9 +26,9 @@
         {{ message }}
       </div>
 
-      <a v-if="interact" class="link loading" href="javascript:">
-        CLIQUE PARA INICIAR
-      </a>
+      <button v-if="interact" class="link loading start-game" type="button" @click.stop="handleUserInteraction()">
+        TOQUE OU CLIQUE PARA INICIAR
+      </button>
       <div v-else-if="loading" class="loading">CARREGANDO</div>
 
       <canvas
@@ -37,11 +42,17 @@
         }"
       />
     </div>
+    <touch-controls v-if="mobile_layout && show_touch" ref="touchControls" :buttons="touch_buttons" :disabled="!nostalgist || is_paused || menu_open || save_busy || !!launch_error" @input="touchInput" />
+    </div>
+    <button v-if="mobile_layout && menu_open" class="game-menu-backdrop" type="button" aria-label="Fechar menu" @click="toggleMenu()" />
     <div
-      v-show="!fullscreen"
-      class="d-flex flex-column align-stretch"
+      id="game-options"
+      v-show="mobile_layout ? menu_open : !fullscreen"
+      class="game-options flex-column align-stretch"
       style="width: 180px; color: #fff"
     >
+      <button v-if="mobile_layout" class="link" type="button" @click="toggleMenu()">VOLTAR AO JOGO</button>
+      <button v-if="mobile_layout" class="link" type="button" @click="show_touch = !show_touch">{{ show_touch ? "OCULTAR BOTÕES" : "MOSTRAR BOTÕES" }}</button>
       <div v-if="image" class="text-center" style="width: 100%">
         <img :src="image" style="width: 100%" />
       </div>
@@ -168,6 +179,8 @@ import { markRaw } from "vue";
 import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
 import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import * as Controls from "@/helpers/Controls.mjs";
+import TouchControls from "@/components/TouchControls.vue";
+import { fitScreen } from "@/helpers/TouchInput.mjs";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -181,6 +194,7 @@ export default {
   name: "GameComponent",
   components: {
     Key,
+    TouchControls,
   },
   inheritAttrs: false,
   props: {
@@ -194,6 +208,11 @@ export default {
   },
   data() {
     return {
+      mobile_layout: false,
+      show_touch: true,
+      menu_open: false,
+      resume_after_menu: false,
+      resize_observer: null,
       launch_error: null,
       session_closed: false,
       launch_id: 0,
@@ -224,6 +243,7 @@ export default {
     };
   },
   computed: {
+    touch_buttons() { return Object.keys(Controls.visibleControls(this.console, this.controls).player1 || {}); },
     game_controls() {
       return {
         emulator: {
@@ -242,6 +262,7 @@ export default {
     },
   },
   watch: {
+    show_touch() { this.$nextTick?.(this.handleResize); },
     launch_error(text) {
       if (text) this.showError(text, true);
     },
@@ -269,7 +290,37 @@ export default {
   },
   methods: {
     resumeFromCanvas() {
-      if (!Swal.isVisible()) this.play();
+      if (!Swal.isVisible() && !this.menu_open) this.play();
+    },
+    touchInput(button, pressed) {
+      const input = Controls.profiles[this.console]?.buttons[button];
+      if (!input || !this.nostalgist || (pressed && (this.menu_open || this.is_paused || this.save_busy))) return;
+      this.nostalgist[pressed ? "pressDown" : "pressUp"](input, 1);
+    },
+    releaseTouch() { this.$refs?.touchControls?.releaseAll(); },
+    toggleMenu() {
+      if (!this.menu_open) {
+        this.resume_after_menu = !!this.nostalgist && !this.is_paused;
+        this.releaseTouch();
+        this.pause();
+        this.menu_open = true;
+      } else {
+        this.menu_open = false;
+        if (this.resume_after_menu && !Swal.isVisible()) this.play();
+      }
+    },
+    updateViewport() {
+      const mobile = window.matchMedia("(max-width: 900px), (pointer: coarse)").matches;
+      if (!mobile && this.menu_open) this.toggleMenu();
+      this.mobile_layout = mobile;
+      this.releaseTouch();
+      this.$nextTick?.(this.handleResize);
+    },
+    pageVisibility() {
+      if (document.hidden) {
+        this.releaseTouch();
+        this.pause();
+      }
     },
     async showError(text, retry = false) {
       if (this.session_closed) return;
@@ -286,7 +337,7 @@ export default {
         allowOutsideClick: false,
         allowEscapeKey: !retry,
         heightAuto: false,
-        target: this.$refs.emulatorContainer,
+        target: this.$refs.emulator,
       });
       if (this.session_closed) return;
       if (retry) {
@@ -343,6 +394,7 @@ export default {
           return;
         }
         this.nostalgist = markRaw(instance);
+        this.$nextTick?.(this.handleResize);
       } catch (error) {
         if (!this.session_closed && attempt === this.launch_id) {
           this.nostalgist = null;
@@ -354,6 +406,7 @@ export default {
       }
     },
     disposeGame() {
+      this.releaseTouch();
       if (this.session_closed) return;
       this.session_closed = true;
       this.launch_id++;
@@ -370,6 +423,7 @@ export default {
       }
     },
     pause() {
+      this.releaseTouch();
       if (this.nostalgist && !this.is_paused) {
         this.nostalgist.pause();
         this.is_paused = true;
@@ -562,7 +616,7 @@ export default {
     toggleFullscreen() {
       if (!this.nostalgist || this.session_closed) return;
       if (!this.fullscreen) {
-        Screen.fullscreen(this.$refs.emulatorContainer);
+        Screen.fullscreen(this.$refs.emulator);
       } else {
         Screen.exitFullscreen();
       }
@@ -578,20 +632,15 @@ export default {
       }
     },
     handleResize() {
-      if (this.session_closed || !this.$refs.emulatorContainer || !this.$refs.emulator) return;
-      if (this.fullscreen) {
-        this.$refs.emulatorContainer.style.width =
-          this.$refs.emulator.clientWidth + "px";
-      } else {
-        this.$refs.emulatorContainer.style.width =
-          this.$refs.emulator.clientWidth - 180 + "px";
-      }
-
-      if (this.nostalgist) {
-        this.nostalgist.resize({
-          width: this.$refs.emulatorContainer.getBoundingClientRect().width,
-          height: this.$refs.emulatorContainer.getBoundingClientRect().height,
-        });
+      if (this.session_closed || !this.$refs.emulatorContainer || !this.$refs.gameStage) return;
+      this.releaseTouch();
+      const area = this.$refs.emulatorContainer.getBoundingClientRect();
+      const size = fitScreen(area.width, area.height, this.console === "gba" ? 3 / 2 : 4 / 3);
+      const canvas = this.$refs.emulatorCanvas;
+      if (canvas && size.width > 0 && size.height > 0) {
+        canvas.style.setProperty("width", size.width + "px", "important");
+        canvas.style.setProperty("height", size.height + "px", "important");
+        if (this.nostalgist) this.nostalgist.resize(size);
       }
     },
     info_player(info) {
@@ -605,10 +654,13 @@ export default {
     },
   },
   mounted() {
-    window.addEventListener("click", this.handleUserInteraction);
-    window.addEventListener("keydown", this.handleUserInteraction);
-    window.addEventListener("scroll", this.handleUserInteraction);
-    window.addEventListener("resize", this.handleResize);
+    window.addEventListener("resize", this.updateViewport);
+    document.addEventListener("visibilitychange", this.pageVisibility);
+    this.updateViewport();
+    if (typeof ResizeObserver !== "undefined") {
+      this.resize_observer = markRaw(new ResizeObserver(this.handleResize));
+      this.resize_observer.observe(this.$refs.emulatorContainer);
+    }
 
     document.addEventListener("fullscreenchange", this.onFullscreenChange);
     document.addEventListener(
@@ -634,7 +686,9 @@ export default {
     window.removeEventListener("click", this.handleUserInteraction);
     window.removeEventListener("keydown", this.handleUserInteraction);
     window.removeEventListener("scroll", this.handleUserInteraction);
-    window.removeEventListener("resize", this.handleResize);
+    window.removeEventListener("resize", this.updateViewport);
+    document.removeEventListener("visibilitychange", this.pageVisibility);
+    this.resize_observer?.disconnect();
 
     document.removeEventListener("fullscreenchange", this.onFullscreenChange);
     document.removeEventListener(
@@ -651,9 +705,27 @@ export default {
 </script>
 
 <style scoped>
-#emulator {
-  background: #000;
+#emulator { background: #000; position: relative; height: 100%; height: 100dvh !important; overflow: hidden; }
+.game-stage { min-width: 0; flex: 1; display: flex; flex-direction: column; min-height: 0; }
+#emulator-container { min-height: 0; flex: 1; position: relative; display: flex; align-items: center; justify-content: center; }
+#emulator-canvas { flex: none; max-width: 100%; max-height: 100%; }
+.game-options { display: flex; flex: none; overflow-y: auto; background: #000; }
+.start-game { background: #000; border: 0; cursor: pointer; }
+.game-menu-toggle { position: absolute; top: max(8px, env(safe-area-inset-top)); right: max(8px, env(safe-area-inset-right)); z-index: 420; width: 48px; height: 44px; border: 2px solid #faa914; background: #000b; color: #fff; font-size: 26px; }
+.game-menu-backdrop { position: absolute; inset: 0; background: #0009; border: 0; z-index: 400; }
+.mobile-layout .game-options { position: absolute; top: 0; right: 0; bottom: 0; width: min(280px, 85vw) !important; z-index: 410; padding: 64px 12px max(16px, env(safe-area-inset-bottom)); box-sizing: border-box; border-left: 2px solid #faa914; }
+.mobile-layout .game-options img { display: none; }
+.mobile-layout .game-options .link { padding: 12px 4px; font-size: 12px; }
+.mobile-layout .game-stage { width: 100%; }
+.mobile-layout .game-stage > :deep(.touch-pad) { flex: 1 1 auto; min-height: 200px; }
+@media (orientation: portrait) {
+  .mobile-layout #emulator-container { flex: 0 1 auto; width: 100%; aspect-ratio: var(--game-ratio); max-height: calc(100% - 200px); }
 }
+@media (orientation: landscape) {
+  .mobile-layout .game-stage > :deep(.touch-pad) { position: absolute; inset: 0; z-index: 310; min-height: 0; }
+}
+.message { pointer-events: none; font-size: 11px; max-width: 90%; }
+
 
 .loading {
   font-family: "Press Start 2P", cursive;

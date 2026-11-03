@@ -52,6 +52,7 @@ npm run test:emulator
 npm run test:routes
 npm run test:saves
 npm run test:transfer
+npm run test:mobile
 npm run build
 ```
 
@@ -92,3 +93,7 @@ Atualize os guias afetados na mesma PR do código. Na descrição, informe compo
 ## Testes de transferência
 
 `npm run test:transfer` cobre hashes de ROM/núcleo, corrupção e formato, exportação do estado atual e importação automática sem ler ou gravar slots locais. Usa os métodos reais do componente com núcleo e navegador simulados. Também é executado no CI.
+
+## Validação mobile
+
+Execute npm run test:mobile (também no CI). Os testes usam a lógica real de multitoque e redimensionamento, com núcleo simulado. Confira manualmente 320×568, 390×844, 844×390 e tablet; rode uma ROM, segure direção e pulo, gire a tela e confirme continuidade do jogo, liberação das entradas e proporção. Verifique menus, SweetAlert e todos os comandos em tela cheia e fora dela. Testes em aparelhos Android/iOS são necessários para áudio, seletor de arquivo, downloads e gestos do sistema.

@@ -3,7 +3,8 @@
     <router-link :to="{ name: 'Home' }" class="logo">
       <logo size="30px" text="GO" />
     </router-link>
-    <div style="width: 100%" />
+    <button class="header-toggle" type="button" aria-label="Menu do site" :aria-expanded="menu_open" @keydown.esc="menu_open = false" aria-controls="site-navigation" @click="menu_open = !menu_open">☰</button>
+    <nav id="site-navigation" :class="{ open: menu_open }" aria-label="Navegação principal" @click="menu_open = false">
     <router-link
       class="menu"
       :to="{ name: 'Home' }"
@@ -25,6 +26,7 @@
     >
       Sobre
     </router-link>
+    </nav>
   </div>
   <div
     ref="searchBar"
@@ -49,8 +51,10 @@ export default {
   data() {
     return {
       observer: null,
+      menu_open: false,
     };
   },
+  watch: { $route() { this.menu_open = false; } },
   methods: {
     handleScroll() {
       const searchBar = this.$refs.searchBar;
@@ -85,21 +89,19 @@ a.menu:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  a.menu {
-    margin: 0 20px;
-  }
+#main-menu { justify-content: space-between; position: relative; }
+#site-navigation { display: flex; align-items: center; }
+.header-toggle { display: none; color: #fff; border: 2px solid #faa914; background: #000; font-size: 24px; min-width: 44px; min-height: 44px; }
+@media (max-width: 900px) {
+  .header-toggle { display: block; }
+  #main-menu { flex-direction: row !important; }
+  #site-navigation { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #0e0049; z-index: 30; padding: 12px; }
+  #site-navigation.open { display: flex; flex-direction: column; align-items: stretch; }
+  a.menu { margin: 0; padding: 16px; }
+  .search-bar { padding: 8px 12px; }
+  .search-bar :deep(.container) { width: 100%; margin: 0; }
+  .search-bar :deep(.search-input) { width: 100%; min-width: 0; }
 }
-
-@media (max-width: 400px) {
-  a.menu {
-    margin: 5px 0;
-  }
-  #main-menu {
-    flex-direction: column !important;
-  }
-}
-
 .search-bar {
   position: sticky;
   top: 0;

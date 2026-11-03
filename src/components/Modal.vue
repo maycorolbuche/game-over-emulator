@@ -11,16 +11,18 @@
 export default {
   name: "ModalComponent",
   inheritAttrs: false,
+  data() { return { previousOverflow: "" }; },
   methods: {
     close() {
       this.$emit("close");
     },
   },
   mounted() {
+    this.previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
   },
   beforeUnmount() {
-    document.body.style.overflow = "";
+    document.body.style.overflow = this.previousOverflow;
   },
 };
 </script>
@@ -33,6 +35,7 @@ export default {
   position: fixed;
   width: 100%;
   height: 100%;
+  height: 100dvh;
   top: 0;
   left: 0;
 }

@@ -46,5 +46,7 @@ jobs:
         run: npm run test:state-files
       - name: Validar perfis de controles
         run: npm run test:controls
+      - name: Testar entradas e layout mobile
+        run: npm run test:mobile
       - name: Gerar build
         run: npm run build

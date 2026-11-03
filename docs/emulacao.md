@@ -16,7 +16,7 @@ Game Boy e Game Boy Color aparecem apenas em código comentado; não estão impl
 
 ## Sessão
 
-Games.vue fornece ao componente Game.vue o jogo, URL da ROM, imagens e controles. Game.vue aguarda interação do usuário e chama Nostalgist.launch com canvas, ROM, núcleo e retroarchConfig. Atualmente clique, teclado e rolagem na janela são observados como interação.
+Games.vue fornece ao componente Game.vue o jogo, URL da ROM, imagens e controles. Game.vue aguarda interação do usuário e chama Nostalgist.launch com canvas, ROM, núcleo e retroarchConfig. A inicialização exige toque/clique na área do jogo; abrir menus ou rolar a página não inicia o núcleo.
 
 A interface oferece pausa, retomada, reinício com confirmação, fechamento com confirmação, tela cheia e aceleração. Ao confirmar o fechamento ou desmontar, invalida a tentativa atual, solicita cancelamento via AbortSignal quando o carregamento está em andamento e encerra a instância disponível. Se uma inicialização terminar mesmo após o cancelamento, sua instância é encerrada e descartada. Cada jogo tem uma chave própria no componente para impedir reutilização da sessão ao trocar pela rota. O canvas é passado por referência, sem busca por ID global; timers e listeners são removidos ao desmontar.
 
@@ -31,7 +31,7 @@ A interface oferece pausa, retomada, reinício com confirmação, fechamento com
 | Reiniciar | Tab |
 | Acelerar | ' |
 
-O comportamento de caracteres e teclas reservadas pode variar conforme teclado e navegador. A opção CONTROLES mostra também o mapa do console. Não há editor de mapeamento ou controles virtuais de toque implementados na interface.
+O comportamento de caracteres e teclas reservadas pode variar conforme teclado e navegador. A opção CONTROLES mostra também o mapa do console. Não há editor de mapeamento; controles virtuais do jogador 1 estão disponíveis no layout mobile.
 
 As teclas ficam em consoles.json, com nomes físicos de botões. O helper Controls.mjs define entradas RetroPad, botões obrigatórios e jogadores por console; Game.vue usa esse perfil tanto na tela CONTROLES quanto na configuração do núcleo. Entradas de teclado RetroPad não usadas são explicitamente nul para não herdar controles ocultos.
 
@@ -61,7 +61,7 @@ Game.vue trata erros de quota, bloqueio de armazenamento, JSON/estrutura de slot
 
 ## Limitações atuais
 
-Se Nostalgist.launch falhar, CARREGANDO é encerrado e a interface abre um diálogo SweetAlert com TENTAR NOVAMENTE e FECHAR JOGO. A nova tentativa é explícita, sem repetição automática. Ações do emulador ficam indisponíveis enquanto não houver uma instância pronta. Os detalhes técnicos permanecem no console do navegador. O cancelamento depende da cooperação da biblioteca e da operação em andamento; não há timeout automático para conexões que nunca respondem. A lateral reserva 180 px e pode limitar o espaço em telas pequenas. Essas limitações devem ser testadas e documentadas novamente quando forem corrigidas.
+Se Nostalgist.launch falhar, CARREGANDO é encerrado e a interface abre um diálogo SweetAlert com TENTAR NOVAMENTE e FECHAR JOGO. A nova tentativa é explícita, sem repetição automática. Ações do emulador ficam indisponíveis enquanto não houver uma instância pronta. Os detalhes técnicos permanecem no console do navegador. O cancelamento depende da cooperação da biblioteca e da operação em andamento; não há timeout automático para conexões que nunca respondem. A lateral fica disponível no desktop; no mobile, as opções ficam em um painel recolhível. Essas limitações devem ser testadas e documentadas novamente quando forem corrigidas.
 
 ## Exportar e importar estado atual
 
@@ -82,3 +82,15 @@ Em Nostalgist 0.10, o nome esperado do save pode divergir do nome interno de uma
 ## Diálogos de erro
 
 Erros de inicialização, salvar/carregar e exportar/importar usam Swal.fire com o mesmo tema dos diálogos de confirmação. Textos são passados em text, sem interpretação HTML. Durante um erro o jogo é pausado; ao dispensar, retoma somente se estava rodando e a sessão continua aberta. Erros de inicialização oferecem tentar novamente ou fechar o jogo. Os diálogos são inseridos no contêiner do emulador para permanecerem visíveis em tela cheia. Mensagens breves de sucesso e pausa continuam sobre o canvas.
+
+## Layout mobile e rotação
+
+Em telas de até 900 px ou dispositivos com ponteiro principal coarse, o emulador usa menu ☰ com todas as ações e botões de toque do jogador 1. Em pé, os controles ocupam uma área abaixo do jogo. Deitado, ficam sobre a imagem, com fundos semitransparentes. Os botões respeitam o perfil do console (inclusive Mega Drive X/Y/Z, Mode e Master System 1/2/Pause); comandos turbo opcionais do GBA não são exibidos no touch inicial.
+
+ResizeObserver e resize acompanham o espaço disponível, inclusive rotação e mudança das barras do navegador. A sessão não é remontada: o canvas é redimensionado com proporção 4:3 (GBA 3:2), sem reiniciar o jogo. A área usa unidades dvh e safe-area-inset. Tela cheia envolve o emulador inteiro, para manter menu e controles visíveis; sua disponibilidade depende do navegador e dispositivo.
+
+TouchControls.vue usa Pointer Events, captura de ponteiros e pressDown/pressUp do Nostalgist, traduzidos por Controls.mjs. O direcional permite diagonais e deslizar entre direções; múltiplos dedos mantêm ações independentes. pointerup, pointercancel, perda de captura, blur, resize, mudança de visibilidade, pausa e desmontagem liberam os botões. touch-action: none é restrito ao controle. Nenhuma entrada do jogador 2 é gerada pelo touch.
+
+Abrir o menu pausa e libera entradas. Fechá-lo retoma somente se o jogo estava rodando antes. Ocultar/mostrar botões permite usar teclado ou controle externo sem a área de toque (não implementa configuração nova de gamepad). Ao voltar do segundo plano o jogo permanece pausado; toque no canvas ou use CONTINUAR.
+
+Os testes automatizados verificam múltiplos ponteiros, diagonais, liberação, proporções em pé/deitado, tradução e comportamento do menu. Android/Chrome e iPhone/Safari precisam de validação manual com ROM real, incluindo fullscreen, áudio, rotação durante toque e importação/exportação.

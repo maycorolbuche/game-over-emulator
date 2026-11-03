@@ -255,4 +255,10 @@ export default {
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .title-console { font-size: clamp(18px, 5vw, 28px); padding: 12px 0; }
+  .search-container { width: 100%; }
+  .search-container input { width: 100%; min-width: 0; box-sizing: border-box; }
+  .rom-card { width: calc(50% - 24px); max-width: 180px; margin: 12px; }
+}
 </style>
