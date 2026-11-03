@@ -133,6 +133,9 @@
           >
             REINICIAR
           </a>
+          <button class="transfer-button" :disabled="!nostalgist || save_busy" @click="exportSave()">EXPORTAR SAVE</button>
+          <button class="transfer-button" :disabled="!nostalgist || save_busy" @click="$refs.importFile.click()">IMPORTAR SAVE</button>
+          <input ref="importFile" type="file" accept=".json,application/json" hidden @change="importSave($event)" />
           <a
             :class="{ link: true, sticky: true }"
             href="javascript:"
@@ -172,6 +175,7 @@
 
 <script>
 import { markRaw } from "vue";
+import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -418,6 +422,53 @@ export default {
         }
       });
     },
+    async exportSave() {
+      const instance = this.nostalgist;
+      if (!instance || this.save_busy || this.session_closed) return;
+      this.save_busy = true;
+      this.save_error = null;
+      const paused = this.is_paused;
+      try {
+        this.pause();
+        const { state } = await instance.saveState();
+        const identity = await SaveTransfer.gameIdentity(instance, this.console, this.id);
+        const json = await SaveTransfer.exportState(state, identity);
+        if (this.session_closed || this.nostalgist !== instance) return;
+        const url = URL.createObjectURL(new Blob([json], { type: "application/json" }));
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = ("game-over-" + this.console + "-" + this.id).replace(/[^a-zA-Z0-9_-]/g, "_") + ".save.json";
+        document.body.append(link);
+        try { link.click(); } finally { link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
+        this.message = "Estado atual exportado";
+      } catch (error) {
+        if (!this.session_closed) this.save_error = "Não foi possível exportar: " + error.message;
+      } finally {
+        this.save_busy = false;
+        if (!paused && !this.session_closed && this.nostalgist === instance) this.play();
+      }
+    },
+    async importSave(event) {
+      const file = event.target.files?.[0];
+      event.target.value = "";
+      const instance = this.nostalgist;
+      if (!file || !instance || this.save_busy || this.session_closed) return;
+      this.save_busy = true;
+      this.save_error = null;
+      try {
+        const identity = await SaveTransfer.gameIdentity(instance, this.console, this.id);
+        const state = await SaveTransfer.importState(file, identity);
+        if (this.session_closed || this.nostalgist !== instance) return;
+        await instance.loadState(state);
+        if (this.session_closed || this.nostalgist !== instance) return;
+        this.play();
+        this.message = "Save importado e carregado";
+      } catch (error) {
+        if (!this.session_closed) this.save_error = "Não foi possível importar: " + error.message;
+      } finally {
+        this.save_busy = false;
+      }
+    },
     readSavedSlots() {
       const slots = Storage.get(this.console + "." + this.id, {});
       if (!slots || typeof slots !== "object" || Array.isArray(slots) ||
@@ -618,6 +669,19 @@ export default {
   padding: 10px;
   cursor: pointer;
 }
+.transfer-button {
+  background: #000;
+  color: #faa914;
+  border: 2px solid #faa914;
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  line-height: 1.6;
+  padding: 10px 6px;
+  margin: 6px;
+  cursor: pointer;
+}
+.transfer-button:disabled { opacity: .4; cursor: not-allowed; }
+.transfer-button:focus-visible { outline: 3px solid #41f7fb; }
 .message {
   color: #fff;
   position: absolute;

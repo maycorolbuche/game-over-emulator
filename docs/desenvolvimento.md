@@ -51,6 +51,7 @@ npm run test:catalog
 npm run test:emulator
 npm run test:routes
 npm run test:saves
+npm run test:transfer
 npm run build
 ```
 
@@ -87,3 +88,7 @@ Atualize os guias afetados na mesma PR do código. Na descrição, informe compo
 ## Testes dos salvamentos
 
 `npm run test:saves` testa os métodos reais do componente com armazenamento e núcleo simulados: quota, bloqueio de acesso, JSON/estrutura inválidos, falha de conversão ou núcleo, sucesso após gravação, slots preservados e fechamento durante salvamento. O CI executa esses testes; eles não substituem uma sessão real no navegador.
+
+## Testes de transferência
+
+`npm run test:transfer` cobre hashes de ROM/núcleo, corrupção e formato, exportação do estado atual e importação automática sem ler ou gravar slots locais. Usa os métodos reais do componente com núcleo e navegador simulados. Também é executado no CI.
