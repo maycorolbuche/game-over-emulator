@@ -32,7 +32,7 @@ Google Analytics é configurado em src/main.js. Não existe painel de configura�
 | Jogo permanece em CARREGANDO | Enquanto a requisição estiver pendente, confira Network. Em falha, a tela oferece TENTAR NOVAMENTE; confira conexão, URL da ROM, recursos do núcleo e console do navegador |
 | Save não aparece | Mesma origem, navegador, console e ID; dados locais e limite de armazenamento |
 | Sync pula consoles | Repositórios irmãos e diretórios roms/ locais |
-| URL de console inválido quebra a página | Ausência atual de tratamento completo de console inexistente |
+| Console ou jogo não encontrado | Confira o ID e se console/jogo estão ativos; use o link de retorno ao catálogo |
 
 Não limpe localStorage como primeiro passo de diagnóstico: isso pode apagar progresso. A aplicação não possui exportação de saves.
 
@@ -50,4 +50,4 @@ Não reintroduza ROMs neste repositório. Uma limpeza permanente de histórico �
 
 ## Verificação após publicação
 
-Confira início, busca, listagem sem paginação, carregamento de capas ao rolar, acesso direto a um jogo e uma sessão com salvar/carregar. O workflow [CI](../.github/workflows/ci.yml) verifica catálogo, testes do validador e build com Node.js 26.x; ele não substitui a verificação manual dos jogos. Acompanhe erros na aba Actions, abrindo a etapa com falha. A publicação na Vercel continua independente: um CI com falha só bloqueia o merge se o check for obrigatório na proteção da main.
+Confira URLs inexistentes, links de retorno, voltar/avançar, início, busca, listagem sem paginação, carregamento de capas ao rolar, acesso direto a um jogo e uma sessão com salvar/carregar. O workflow [CI](../.github/workflows/ci.yml) verifica catálogo, testes do validador e build com Node.js 26.x; ele não substitui a verificação manual dos jogos. Acompanhe erros na aba Actions, abrindo a etapa com falha. A publicação na Vercel continua independente: um CI com falha só bloqueia o merge se o check for obrigatório na proteção da main.

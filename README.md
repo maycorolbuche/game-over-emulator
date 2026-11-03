@@ -24,7 +24,9 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run build` | Gera a aplicação estática em dist/ |
 | `npm run serve` | Abre o preview de um build já gerado |
 | `npm run check:catalog` | Valida os JSONs locais de consoles e jogos |
-| `npm run test:emulator` | Testa falhas, novas tentativas e encerramento do emulador |\n| `npm run test:catalog` | Executa os testes do validador |
+| `npm run test:emulator` | Testa falhas, novas tentativas e encerramento do emulador |
+| `npm run test:catalog` | Executa os testes do validador |
+| `npm run test:routes` | Testa resolução e navegação de consoles e jogos |
 | `npm run sync` | Abre o menu local de manutenção do catálogo |
 
 Há testes do validador em `npm run test:catalog` e do ciclo de vida do emulador em `npm run test:emulator`; não há script geral de teste ou lint. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.
@@ -39,7 +41,7 @@ O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do c
 - Nintendo, Super Nintendo, Mega Drive, Master System e Game Boy Advance.
 - Emulação com pausa, reinício, aceleração e tela cheia.
 - Salvamento manual de estado no navegador.
-- Links diretos para jogos.
+- Links diretos para jogos e mensagens de endereço não encontrado.
 - Catálogo sem paginação, com carregamento tardio nativo das capas.
 
 ## Documentação

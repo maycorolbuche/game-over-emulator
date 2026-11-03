@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <not-found v-if="!consol" title="Console não encontrado" />
+  <not-found v-else-if="game_id && !game" title="Jogo não encontrado" :console-id="consol.id" />
+  <div v-else>
     <div
       class="d-flex flex-wrap align-stretch justify-around m-3"
       style="border-bottom: 1px solid rgb(255 255 255 / 7%)"
@@ -102,6 +104,7 @@
 </template>
 
 <script>
+import NotFound from "@/views/NotFound.vue";
 import Modal from "@/components/Modal.vue";
 import Game from "@/components/Game.vue";
 
@@ -111,6 +114,7 @@ import roms from "@/json/roms.json";
 export default {
   name: "GamesPage",
   components: {
+    NotFound,
     Modal,
     Game,
   },
@@ -128,15 +132,24 @@ export default {
     return {
       json_consoles: consoles,
       json_roms: roms,
-      game: null,
       search: "",
     };
   },
   computed: {
     consol() {
-      return this.json_consoles.filter(
-        (console) => console.id === this.console_id
-      )[0];
+      return this.json_consoles.find(
+        (console) => console.active && console.id === this.console_id
+      );
+    },
+    game() {
+      if (!this.consol || !this.game_id) return null;
+      const game = this.json_roms.find(rom => rom.active && rom.console === this.console_id && rom.id === this.game_id);
+      if (!game) return null;
+      return {
+        ...game,
+        image: this.consol.base_url + "/images/" + game.image,
+        filename: this.consol.base_url + "/roms/" + game.filename,
+      };
     },
     roms() {
       const search = this.search
@@ -170,61 +183,20 @@ export default {
         );
     },
   },
-  watch: {
-    $route(to) {
-      if (to.params.game_id) {
-        this.openGame(
-          this.json_roms.find(
-            (rom) =>
-              rom.id === to.params.game_id &&
-              rom.console === to.params.console_id
-          )
-        );
-      } else {
-        this.closeGame();
-      }
-    },
-  },
   methods: {
     openGame(game) {
-      if (!game || game == undefined) {
-        this.closeGame();
-        return;
-      }
-
-      this.$router.push({
+      if (!this.consol || !game?.active || game.console !== this.console_id) return;
+      return this.$router.push({
         name: "Game",
-        params: {
-          console_id: game.console,
-          game_id: game.id,
-        },
-      });
-
-      this.game = Object.assign({
-        ...game,
-        image: this.consol.base_url + "/images/" + game.image,
-        filename: this.consol.base_url + "/roms/" + game.filename,
+        params: { console_id: game.console, game_id: game.id },
       });
     },
     closeGame() {
-      this.$router.push({
+      return this.$router.push({
         name: "Games",
-        params: {
-          console_id: this.console_id,
-        },
+        params: { console_id: this.console_id },
       });
-
-      this.game = null;
     },
-  },
-  mounted() {
-    if (this.game_id) {
-      this.openGame(
-        this.json_roms.find(
-          (rom) => rom.id === this.game_id && rom.console === this.console_id
-        )
-      );
-    }
   },
 };
 </script>

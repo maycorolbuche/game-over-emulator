@@ -38,8 +38,9 @@ O catálogo é importado no frontend, não consultado em uma API. A busca no cab
 | /games/:console_id | Games | Games.vue |
 | /games/:console_id/:game_id | Game | Games.vue com jogo aberto |
 | /about | About | About.vue |
+| /:pathMatch(.*)* | NotFound | NotFound.vue |
 
-Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game.vue dentro do modal. Abrir e fechar o jogo atualiza a rota. Não há rota catch-all de página não encontrada; console desconhecido não tem tratamento seguro completo.
+Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game.vue dentro do modal. Abrir e fechar o jogo atualiza a rota. Console inexistente ou inativo mostra “Console não encontrado”. Jogo inexistente, inativo ou pertencente a outro console mostra “Jogo não encontrado”. A URL é preservada, com links para retornar aos jogos do console válido ou aos consoles. A sessão é derivada dos parâmetros reativos, sem watcher que redireciona ao ler a rota; assim voltar/avançar atualiza a sessão sem novos pushes. A rota catch-all mostra “Página não encontrada” para demais caminhos. Como SPA estática, essa tela não configura um status HTTP 404 no servidor.
 
 ## Integrações e dados
 
@@ -49,4 +50,4 @@ Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game
 - Google Analytics: configurado em src/main.js por vue-gtag.
 - localStorage: guarda estados dos jogos na origem atual.
 
-Consoles.vue mostra consoles ativos. Games.vue filtra jogos ativos do console e ordena por nome. A busca global não aplica atualmente o mesmo filtro active. As capas da listagem usam loading=lazy e decoding=async, com espaço reservado de 180 × 240 px; isso não pagina nem reduz o total de cards renderizados.
+Consoles.vue mostra consoles ativos. Games.vue filtra jogos ativos do console e ordena por nome. A busca global também exige jogo e console ativos. As capas da listagem usam loading=lazy e decoding=async, com espaço reservado de 180 × 240 px; isso não pagina nem reduz o total de cards renderizados.

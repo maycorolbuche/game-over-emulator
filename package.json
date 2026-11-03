@@ -9,7 +9,8 @@
     "sync": "node sync.js",
     "check:catalog": "node scripts/check-catalog.mjs",
     "test:catalog": "node --test scripts/check-catalog.test.mjs",
-    "test:emulator": "node --test scripts/game-lifecycle.test.mjs"
+    "test:emulator": "node --test scripts/game-lifecycle.test.mjs",
+    "test:routes": "node --test scripts/routes.test.mjs"
   },
   "dependencies": {
     "nostalgist": "^0.10.0",
