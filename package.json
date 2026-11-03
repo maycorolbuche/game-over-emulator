@@ -11,7 +11,8 @@
     "test:catalog": "node --test scripts/check-catalog.test.mjs",
     "test:emulator": "node --test scripts/game-lifecycle.test.mjs",
     "test:routes": "node --test scripts/routes.test.mjs",
-    "test:saves": "node --test scripts/saves.test.mjs"
+    "test:saves": "node --test scripts/saves.test.mjs",
+    "test:transfer": "node --test scripts/save-transfer.test.mjs"
   },
   "dependencies": {
     "nostalgist": "^0.10.0",
