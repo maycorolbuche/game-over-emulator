@@ -22,7 +22,11 @@ npm run serve
 
 O build é escrito em dist/, ignorado pelo Git. O preview serve o resultado compilado, não é o servidor de desenvolvimento nem uma configuração de hospedagem de produção.
 
-Há dependências legadas do Vue CLI e Babel, mas os scripts dev/build/serve usam Vite. Não há scripts npm test ou npm run lint; não os apresente como verificações disponíveis.
+Os scripts dev/build/serve usam exclusivamente Vite e @vitejs/plugin-vue. As dependências e configurações antigas de Vue CLI, Babel e ESLint foram removidas; não há scripts npm test ou npm run lint configurados.
+
+As bibliotecas usadas no navegador ficam em dependencies. Axios e readline-sync são usados somente pelo sync.js e ficam em devDependencies, junto das ferramentas de build. Use npm ci completo para desenvolver, compilar ou executar o sincronizador. Uma instalação com --omit=dev não oferece essas ferramentas.
+
+core-js foi removido porque não havia importação no código. O projeto não adiciona uma camada de polyfills legada; a configuração Browserslist antiga também foi removida, e o build segue o alvo padrão do Vite 6. Isso não estabelece suporte a navegadores antigos. Ao alterar compatibilidade de navegadores, configure e valide explicitamente o alvo no Vite e os recursos de execução do emulador.
 
 ## Organização e contribuição
 
@@ -46,3 +50,4 @@ Mudanças somente de documentação exigem conferir links, comandos e aderência
 ## Documentação contínua
 
 Atualize os guias afetados na mesma PR do código. Na descrição, informe comportamento resultante, documentos atualizados, verificações e limitações. Se nada documentado mudou, explique o motivo. Consulte também [AGENTS.md](../AGENTS.md).
+
