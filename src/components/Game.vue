@@ -71,9 +71,7 @@
             v-if="!is_paused"
             :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
-            v-shortkey.once="['ctrl', 'enter']"
             @click="pause()"
-            @shortkey="pause()"
           >
             PAUSAR
           </a>
@@ -81,9 +79,7 @@
             v-if="is_paused"
             :class="{ link: true, disabled: loading || interact || !!launch_error }"
             href="javascript:"
-            v-shortkey.once="['ctrl', 'enter']"
             @click="play()"
-            @shortkey="play()"
           >
             CONTINUAR
           </a>
@@ -226,7 +222,7 @@ export default {
     game_controls() {
       return {
         emulator: {
-          pause: ["CTRL", "ENTER"],
+          pause: "ESC",
           save: ["SHIFT", "="],
           load: "=",
           fullscreen: "F11",
@@ -288,6 +284,16 @@ export default {
     },
   },
   methods: {
+    handlePauseKey(event) {
+      if (event.key !== "Escape" || Swal.isVisible() ||
+          !this.nostalgist || this.loading || this.interact ||
+          this.session_closed || this.save_busy) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (event.repeat) return;
+      if (this.is_paused) this.play();
+      else this.pause();
+    },
     resumeFromCanvas() {
       if (!Swal.isVisible()) this.play();
     },
@@ -625,6 +631,7 @@ export default {
     },
   },
   mounted() {
+    window.addEventListener("keydown", this.handlePauseKey, true);
     window.addEventListener("click", this.handleUserInteraction);
     window.addEventListener("keydown", this.handleUserInteraction);
     window.addEventListener("scroll", this.handleUserInteraction);
@@ -651,6 +658,7 @@ export default {
   beforeUnmount() {
     this.disposeGame();
 
+    window.removeEventListener("keydown", this.handlePauseKey, true);
     window.removeEventListener("click", this.handleUserInteraction);
     window.removeEventListener("keydown", this.handleUserInteraction);
     window.removeEventListener("scroll", this.handleUserInteraction);
