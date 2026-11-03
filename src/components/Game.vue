@@ -176,6 +176,7 @@
 <script>
 import { markRaw } from "vue";
 import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
+import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -423,11 +424,20 @@ export default {
         }
       });
     },
+    async restoreCurrentState(instance, state) {
+      const wasPaused = this.is_paused;
+      if (wasPaused) this.play();
+      try {
+        await EmulatorState.restoreState(instance, state, { active: () => !this.session_closed && this.nostalgist === instance });
+      } finally {
+        if (wasPaused && !this.session_closed && this.nostalgist === instance) this.pause();
+      }
+    },
     async captureCurrentState(instance) {
       const wasPaused = this.is_paused;
       if (wasPaused) this.play();
       try {
-        return await instance.saveState();
+        return await EmulatorState.captureState(instance, { active: () => !this.session_closed && this.nostalgist === instance });
       } finally {
         if (wasPaused && !this.session_closed && this.nostalgist === instance) this.pause();
       }
@@ -468,7 +478,7 @@ export default {
         const identity = await SaveTransfer.gameIdentity(instance, this.console, this.id);
         const state = await SaveTransfer.importState(file, identity);
         if (this.session_closed || this.nostalgist !== instance) return;
-        await instance.loadState(state);
+        await this.restoreCurrentState(instance, state);
         if (this.session_closed || this.nostalgist !== instance) return;
         this.play();
         this.message = "Save importado e carregado";
@@ -506,7 +516,7 @@ export default {
       this.save_error = null;
       try {
         const previous = this.readSavedSlots();
-        const { state } = await instance.saveState();
+        const { state } = await this.captureCurrentState(instance);
         const encoded = await Conversions.blobToBase64(state);
         if (this.session_closed || this.nostalgist !== instance) return;
         const next = { ...previous, [slot]: encoded };
@@ -531,7 +541,7 @@ export default {
           return;
         }
         const state = Conversions.base64ToBlob(saved[slot]);
-        await instance.loadState(state);
+        await this.restoreCurrentState(instance, state);
         if (this.session_closed || this.nostalgist !== instance) return;
         this.slot = saved;
         this.play();

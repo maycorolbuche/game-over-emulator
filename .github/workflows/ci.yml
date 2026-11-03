@@ -42,5 +42,7 @@ jobs:
         run: npm run test:saves
       - name: Testar transferência de saves
         run: npm run test:transfer
+      - name: Testar arquivos de estado do emulador
+        run: npm run test:state-files
       - name: Gerar build
         run: npm run build
