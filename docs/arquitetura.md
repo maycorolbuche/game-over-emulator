@@ -51,3 +51,7 @@ Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game
 - localStorage: guarda estados dos jogos na origem atual.
 
 Consoles.vue mostra consoles ativos. Games.vue filtra jogos ativos do console e ordena por nome. A busca global também exige jogo e console ativos. As capas da listagem usam loading=lazy e decoding=async, com espaço reservado de 180 × 240 px; isso não pagina nem reduz o total de cards renderizados.
+
+## Botões de retorno
+
+NotFound.vue apresenta links como botões com fonte pixelada, bordas retas e paleta dos alertas SweetAlert: ação principal amarela e alternativa preta com borda branca. Há estados de hover, pressionamento e foco visível, largura total em telas pequenas e respeito à preferência por movimento reduzido. Os estilos são locais à página.
