@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "sync": "node sync.js"
+    "sync": "node sync.js",
+    "check:catalog": "node scripts/check-catalog.mjs",
+    "test:catalog": "node --test scripts/check-catalog.test.mjs"
   },
   "dependencies": {
     "nostalgist": "^0.10.0",
