@@ -10,7 +10,7 @@
       id="emulator-container"
       ref="emulatorContainer"
       style="overflow: hidden"
-      @click="play()"
+      @click="resumeFromCanvas()"
     >
       <div
         v-if="(is_paused || message) && !interact && !loading"
@@ -25,16 +25,6 @@
         CLIQUE PARA INICIAR
       </a>
       <div v-else-if="loading" class="loading">CARREGANDO</div>
-
-      <div v-else-if="launch_error" class="loading launch-error" role="alert">
-        <p>{{ launch_error }}</p>
-        <button type="button" @click.stop="launchGame()">TENTAR NOVAMENTE</button>
-      </div>
-
-      <div v-if="save_error" class="save-error" role="alert">
-        <p>{{ save_error }}</p>
-        <button type="button" @click.stop="save_error = null">ENTENDI</button>
-      </div>
 
       <canvas
         v-show="!interact && !loading && !launch_error"
@@ -272,6 +262,12 @@ export default {
     },
   },
   watch: {
+    launch_error(text) {
+      if (text) this.showError(text, true);
+    },
+    save_error(text) {
+      if (text) this.showError(text);
+    },
     fullscreen(val) {
       this.handleResize();
       clearTimeout(this.resize_timer);
@@ -292,6 +288,37 @@ export default {
     },
   },
   methods: {
+    resumeFromCanvas() {
+      if (!Swal.isVisible()) this.play();
+    },
+    async showError(text, retry = false) {
+      if (this.session_closed) return;
+      const instance = this.nostalgist;
+      const wasPaused = this.is_paused;
+      this.pause();
+      const result = await Swal.fire({
+        icon: "error",
+        title: retry ? "Não foi possível iniciar" : "Não foi possível concluir",
+        text,
+        confirmButtonText: retry ? "Tentar novamente" : "Entendi",
+        showCancelButton: retry,
+        cancelButtonText: "Fechar jogo",
+        allowOutsideClick: false,
+        allowEscapeKey: !retry,
+        heightAuto: false,
+        target: this.$refs.emulatorContainer,
+      });
+      if (this.session_closed) return;
+      if (retry) {
+        if (result.isConfirmed) this.launchGame();
+        else {
+          this.disposeGame();
+          this.$emit("close");
+        }
+      } else if (!wasPaused && this.nostalgist === instance) {
+        this.play();
+      }
+    },
     async launchGame() {
       if (this.interact || this.loading || this.nostalgist || this.session_closed) return;
       const attempt = ++this.launch_id;
@@ -656,37 +683,6 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.launch-error {
-  flex-direction: column;
-  gap: 16px;
-  padding: 24px;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 12px;
-  line-height: 1.8;
-}
-.launch-error button {
-  padding: 12px;
-  cursor: pointer;
-}
-.save-error {
-  position: absolute;
-  z-index: 350;
-  max-width: min(440px, 80%);
-  padding: 16px;
-  margin: 12px;
-  background: #000;
-  color: #fff;
-  border: 3px solid #faa914;
-  line-height: 1.5;
-}
-.save-error button {
-  background: #faa914;
-  color: #000;
-  border: 0;
-  padding: 10px;
-  cursor: pointer;
 }
 .message {
   color: #fff;

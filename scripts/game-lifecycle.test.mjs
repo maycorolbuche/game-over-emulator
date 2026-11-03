@@ -5,12 +5,12 @@ import { parse } from '@vue/compiler-sfc';
 import { markRaw } from 'vue';
 
 // Execute the real component methods, replacing only browser/emulator services.
-function setup(launch) {
+function setup(launch, swal = {}) {
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   const { descriptor } = parse(source);
   const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
   const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', script)(
-    { launch }, {}, {}, {}, {}, {}, markRaw,
+    { launch }, swal, {}, {}, {}, {}, markRaw,
   );
   const canvas = {};
   const vm = { ...options.data(), filename: 'game.zip', console: 'nes', retroarch_controls: {}, $refs: { emulatorCanvas: canvas } };
@@ -102,4 +102,30 @@ test('jogo novo permanece independente da inicialização anterior', async () =>
   assert.equal(stale.exits, 1);
   assert.equal(current.exits, 0);
   assert.equal(next.nostalgist, current);
+});
+
+test('erros usam SweetAlert com texto seguro e opção de nova tentativa', async () => {
+  const dialogs = [];
+  const vm = setup(async () => instance(), { fire: async config => { dialogs.push(config); return { isConfirmed: true }; } });
+  await vm.showError('<erro>', false);
+  assert.equal(dialogs[0].icon, 'error');
+  assert.equal(dialogs[0].text, '<erro>');
+  assert.equal(dialogs[0].html, undefined);
+  assert.equal(dialogs[0].confirmButtonText, 'Entendi');
+  let retries = 0; vm.launchGame = () => { retries++; };
+  await vm.showError('Falha', true);
+  assert.equal(dialogs[1].confirmButtonText, 'Tentar novamente');
+  assert.equal(retries, 1);
+});
+
+test('fechar diálogo de inicialização encerra jogo e retorno tardio não reabre sessão', async () => {
+  const pending = deferred();
+  const vm = setup(() => {}, { fire: () => pending.promise });
+  let closed = 0; vm.$emit = () => { closed++; };
+  const result = vm.showError('erro', true);
+  vm.disposeGame(); pending.resolve({ isConfirmed: true }); await result;
+  assert.equal(closed, 0);
+  const next = setup(() => {}, { fire: async () => ({ isConfirmed: false }) });
+  next.$emit = () => { closed++; }; await next.showError('erro', true);
+  assert.equal(next.session_closed, true); assert.equal(closed, 1);
 });
