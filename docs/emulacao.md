@@ -24,12 +24,14 @@ A interface oferece pausa, retomada, reinício com confirmação, fechamento com
 
 | Ação | Tecla configurada |
 | --- | --- |
-| Pausar/continuar | Ctrl + Enter |
+| Pausar/continuar | Esc |
 | Salvar | Shift + = (o binding usa Shift + +) |
 | Carregar | = |
 | Tela cheia | F11 |
 | Reiniciar | Tab |
 | Acelerar | ' |
+
+Esc alterna entre pausar e continuar, inclusive com a lista de controles aberta. Segurar a tecla não repete a ação. O atalho fica inativo durante carregamento, operações de save e diálogos; nesses diálogos, Esc segue o comportamento do SweetAlert. Em tela cheia, o navegador também pode reservar Esc para sair desse modo.
 
 O comportamento de caracteres e teclas reservadas pode variar conforme teclado e navegador. A opção CONTROLES mostra também o mapa do console. Não há editor de mapeamento ou controles virtuais de toque implementados na interface.
 
