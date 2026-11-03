@@ -53,7 +53,7 @@ test('exportação captura núcleo atual e não toca no save local', async t => 
   let exported;
   const vm = component({ gameIdentity: async () => identity, exportState: async state => { exported = await state.text(); return '{}'; } });
   vm.is_paused = true;
-  vm.nostalgist = { saveState: async () => ({ state: new Blob(['fase 3']) }) };
+  vm.nostalgist = { resume() {}, pause() {}, saveState: async () => ({ state: new Blob(['fase 3']) }) };
   vm.slot = { 0: 'fase 1' };
   t.mock.method(URL, 'createObjectURL', () => 'blob:mock');
   t.mock.method(globalThis, 'setTimeout', () => 1);
@@ -61,4 +61,14 @@ test('exportação captura núcleo atual e não toca no save local', async t => 
   globalThis.document = { body: { append() {} }, createElement: () => ({ click() {}, remove() {} }) };
   try { await vm.exportSave(); } finally { if (old === undefined) delete globalThis.document; else globalThis.document = old; }
   assert.equal(exported, 'fase 3'); assert.equal(vm.slot[0], 'fase 1'); assert.equal(vm.save_error, null);
+});
+
+test('captura permite processar SAVE_STATE e restaura pausa mesmo em erro', async () => {
+  const vm = component({});
+  const calls = [];
+  vm.is_paused = true;
+  vm.nostalgist = { resume() { calls.push('resume'); }, pause() { calls.push('pause'); }, async saveState() { calls.push('save'); throw new Error('fs timeout'); } };
+  await assert.rejects(vm.captureCurrentState(vm.nostalgist), /fs timeout/);
+  assert.deepEqual(calls, ['resume', 'save', 'pause']);
+  assert.equal(vm.is_paused, true);
 });
