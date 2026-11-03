@@ -55,3 +55,25 @@ Confira URLs inexistentes, links de retorno, voltar/avançar, início, busca, li
 ## Conferência em celulares
 
 Verifique Android/Chrome e iPhone/Safari, retrato e paisagem: controles abaixo/sobre o jogo, menu acessível, rotação sem reiniciar e liberação de botões ao interromper um toque. Confirme que o ambiente permite tela cheia; a experiência no modal funciona sem ela. Confira mensagens SweetAlert, save local e transferência de arquivos em ambos os modos.
+
+## PWA: instalação e atualização
+
+O manifesto em public/manifest.webmanifest define Game Over Emulator, modo standalone, escopo/URL inicial na raiz e ícones PNG baseados no favicon existente. Não fixa orientação: a rotação continua controlada pelo layout. index.html aponta para manifesto e apple-touch-icon; vercel.json configura tipo do manifesto e evita cache HTTP do sw.js.
+
+O service worker é gerado no build pelo plugin local pwa/build-plugin.mjs, sem dependência nova. O template pwa/service-worker.js recebe versão baseada no conteúdo de todos os arquivos de dist e uma lista de pré-cache, incluindo chunks das rotas. Não registre um worker novo com escopo mais amplo nem publique este projeto em subdiretório sem revisar os caminhos absolutos.
+
+O registro só ocorre em produção (npm run build + npm run serve, ou hospedagem HTTPS). npm run dev não registra worker. Localhost é permitido para testes. PwaActions mostra INSTALAR APP quando beforeinstallprompt está disponível ou instruções de instalação no Safari para iOS/iPadOS. O convite depende da decisão do navegador, não aparece automaticamente em todo acesso e não é forçado. Em modo standalone o botão some.
+
+O cache permite reabrir interface e catálogo sem rede depois da primeira instalação do worker e de uma nova navegação controlada por ele. Não armazena ROMs, capas, núcleos WASM, fontes externas ou Analytics; jogar offline não é garantido. Não altera saves em localStorage. Navegadores podem separar ou remover dados conforme perfil/modo de execução; exportar estados permite transferi-los quando necessário.
+
+Uma versão nova fica aguardando até fechar o app e todas as abas do site. O aviso informa isso; não há skipWaiting, clients.claim ou reload automático durante a partida. Na ativação, só caches antigos com prefixo game-over-shell- são removidos. Não limpa localStorage. Em cada implantação, o próprio build regenera o worker e sua versão.
+
+Validação após publicar:
+1. Conferir /manifest.webmanifest (JSON), /sw.js (JavaScript) e todos os ícones com resposta 200.
+2. Conferir em DevTools → Application o registro/ativação e a lista do Cache Storage.
+3. Instalar no Android/Chrome ou desktop compatível; no iPhone/iPad usar Safari → Compartilhar → Adicionar à Tela de Início.
+4. Fechar/reabrir em standalone, girar o aparelho e confirmar menu/controles e início dos jogos online.
+5. Sem conexão, reabrir o catálogo e confirmar a indicação de offline.
+6. Publicar outra versão: confirmar aviso sem interromper o jogo e ativação após fechar todas as instâncias.
+
+Os testes automatizados simulam eventos do navegador, caches e rede; não comprovam a instalação real em aparelhos.

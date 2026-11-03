@@ -31,6 +31,7 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run test:transfer` | Testa exportação/importação sem alterar saves locais |
 | `npm run test:controls` | Valida perfis e tradução dos controles por console |
 | `npm run test:mobile` | Testa multitoque, proporção e menu do emulador |
+| `npm run test:pwa` | Testa manifesto, cache, instalação e atualização do PWA |
 | `npm run sync` | Abre o menu local de manutenção do catálogo |
 
 Há testes do validador em `npm run test:catalog` e do ciclo de vida do emulador em `npm run test:emulator`; não há script geral de teste ou lint. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.
@@ -49,6 +50,10 @@ O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do c
 - Links diretos para jogos e mensagens de endereço não encontrado.
 - Layout mobile com menu recolhível, rotação e controles de toque do jogador 1.
 - Catálogo sem paginação, com carregamento tardio nativo das capas.
+
+## Instalar no aparelho
+
+Em produção HTTPS, o site pode ser instalado como aplicativo. Quando o navegador oferecer a instalação, use INSTALAR APP. No iPhone/iPad, o botão orienta abrir no Safari e usar Compartilhar → Adicionar à Tela de Início. A interface e o catálogo ficam disponíveis offline após o cache ser preparado; ROMs, capas, fontes externas e núcleos continuam exigindo conexão para carregamento. Consulte [Operação](docs/operacao.md#pwa-instalação-e-atualização).
 
 ## Documentação
 
