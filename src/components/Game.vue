@@ -133,8 +133,8 @@
           >
             REINICIAR
           </a>
-          <button class="link" :disabled="!nostalgist || save_busy" @click="exportSave()">EXPORTAR SAVE</button>
-          <button class="link" :disabled="!nostalgist || save_busy" @click="$refs.importFile.click()">IMPORTAR SAVE</button>
+          <button class="link" :disabled="!nostalgist || save_busy" @click="exportSave()">EXPORTAR</button>
+          <button class="link" :disabled="!nostalgist || save_busy" @click="$refs.importFile.click()">IMPORTAR</button>
           <input ref="importFile" type="file" accept=".json,application/json" hidden @change="importSave($event)" />
           <a
             :class="{ link: true, sticky: true }"
