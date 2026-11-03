@@ -29,6 +29,7 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run test:routes` | Testa resolução e navegação de consoles e jogos |
 | `npm run test:saves` | Testa falhas e preservação dos salvamentos |
 | `npm run test:transfer` | Testa exportação/importação sem alterar saves locais |
+| `npm run test:controls` | Valida perfis e tradução dos controles por console |
 | `npm run sync` | Abre o menu local de manutenção do catálogo |
 
 Há testes do validador em `npm run test:catalog` e do ciclo de vida do emulador em `npm run test:emulator`; não há script geral de teste ou lint. `serve` não substitui `dev`. A instalação completa com `npm ci` é necessária para build e sincronização: Vite, Axios e readline-sync ficam em devDependencies.

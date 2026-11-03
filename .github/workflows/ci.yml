@@ -44,5 +44,7 @@ jobs:
         run: npm run test:transfer
       - name: Testar arquivos de estado do emulador
         run: npm run test:state-files
+      - name: Validar perfis de controles
+        run: npm run test:controls
       - name: Gerar build
         run: npm run build

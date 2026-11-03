@@ -167,6 +167,7 @@
 import { markRaw } from "vue";
 import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
 import * as EmulatorState from "@/helpers/EmulatorState.mjs";
+import * as Controls from "@/helpers/Controls.mjs";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -233,32 +234,11 @@ export default {
           restart: "TAB",
           accelerate: "'",
         },
-        ...(this.controls || {}),
+        ...Controls.visibleControls(this.console, this.controls),
       };
     },
     retroarch_controls() {
-      let result = {};
-
-      Object.keys(this.controls).map((player) => {
-        Object.keys(this.controls[player]).map((button) => {
-          const key = this.controls[player][button];
-          if (this.console == "gens") {
-            switch (button) {
-              case "a":
-                button = "y";
-                break;
-              case "y":
-                button = "c";
-                break;
-              case "c":
-                button = "a";
-                break;
-            }
-          }
-          result[`input_${player}_${button}`] = key;
-        });
-      });
-      return result;
+      return Controls.retroarchControls(this.console, this.controls);
     },
   },
   watch: {

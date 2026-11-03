@@ -7,7 +7,6 @@
     "controls": {
       "player1": {
         "start": "enter",
-        "select": "space",
         "a": "z",
         "b": "x",
         "c": "c",
@@ -17,11 +16,11 @@
         "up": "up",
         "down": "down",
         "left": "left",
-        "right": "right"
+        "right": "right",
+        "mode": "space"
       },
       "player2": {
         "start": "keypad0",
-        "select": ",",
         "a": "b",
         "b": "n",
         "c": "m",
@@ -31,7 +30,8 @@
         "up": "keypad5",
         "down": "keypad2",
         "left": "keypad1",
-        "right": "keypad3"
+        "right": "keypad3",
+        "mode": ","
       }
     },
     "active": true
@@ -72,24 +72,21 @@
     "id": "sms",
     "controls": {
       "player1": {
-        "start": "enter",
-        "select": "space",
-        "a": "z",
-        "b": "x",
         "up": "up",
         "down": "down",
         "left": "left",
-        "right": "right"
+        "right": "right",
+        "button1": "x",
+        "button2": "z",
+        "pause": "enter"
       },
       "player2": {
-        "start": "keypad0",
-        "select": ",",
-        "a": "b",
-        "b": "n",
         "up": "keypad5",
         "down": "keypad2",
         "left": "keypad1",
-        "right": "keypad3"
+        "right": "keypad3",
+        "button1": "n",
+        "button2": "b"
       }
     },
     "active": true
@@ -142,28 +139,14 @@
         "select": "space",
         "a": "z",
         "b": "x",
-        "x": "a",
-        "y": "s",
         "l": "d",
         "r": "c",
         "up": "up",
         "down": "down",
         "left": "left",
-        "right": "right"
-      },
-      "player2": {
-        "start": "keypad0",
-        "select": ",",
-        "a": "b",
-        "b": "n",
-        "x": "h",
-        "y": "j",
-        "l": "k",
-        "r": "m",
-        "up": "keypad5",
-        "down": "keypad2",
-        "left": "keypad1",
-        "right": "keypad3"
+        "right": "right",
+        "turbo_a": "a",
+        "turbo_b": "s"
       }
     },
     "active": true

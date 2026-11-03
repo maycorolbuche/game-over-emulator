@@ -47,6 +47,16 @@ export default {
           return "Acelerar";
         case "start":
           return "Start";
+        case "mode":
+          return "Mode";
+        case "button1":
+          return "1";
+        case "button2":
+          return "2";
+        case "turbo_a":
+          return "Turbo A";
+        case "turbo_b":
+          return "Turbo B";
         case "select":
           return "Select";
         case "up":
@@ -82,6 +92,7 @@ export default {
     isButton(key) {
       key = key.toLowerCase();
       return (
+        ["mode", "button1", "button2", "turbo_a", "turbo_b"].includes(key) ||
         key == "start" ||
         key == "select" ||
         key == "a" ||
