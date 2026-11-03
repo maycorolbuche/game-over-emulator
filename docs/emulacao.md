@@ -33,7 +33,23 @@ A interface oferece pausa, retomada, reinício com confirmação, fechamento com
 
 O comportamento de caracteres e teclas reservadas pode variar conforme teclado e navegador. A opção CONTROLES mostra também o mapa do console. Não há editor de mapeamento ou controles virtuais de toque implementados na interface.
 
-Os mapas player1/player2 ficam em consoles.json. No Mega Drive, Game.vue remapeia os nomes a → y, y → c e c → a antes de enviar ao RetroArch. Mapas de dois jogadores não garantem suporte multiplayer em todos os jogos ou consoles; não há modo online implementado.
+As teclas ficam em consoles.json, com nomes físicos de botões. O helper Controls.mjs define entradas RetroPad, botões obrigatórios e jogadores por console; Game.vue usa esse perfil tanto na tela CONTROLES quanto na configuração do núcleo. Entradas de teclado RetroPad não usadas são explicitamente nul para não herdar controles ocultos.
+
+| Console | Botões físicos e entradas RetroPad | Jogadores configurados |
+| --- | --- | --- |
+| Nintendo | A→a, B→b, Start, Select, direcionais | 2 |
+| Super Nintendo | A/B/X/Y/L/R com entradas homônimas, Start, Select, direcionais | 2 |
+| Mega Drive | A→y, B→b, C→a, X→l, Y→x, Z→r, Mode→select, Start, direcionais | 2 |
+| Master System | 1→b, 2→a, direcionais; Pause do console→start apenas no jogador 1 | 2 |
+| Game Boy Advance | A→a, B→b, L→l, R→r, Start, Select, direcionais; Turbo A→x e Turbo B→y opcionais | 1 |
+
+As teclas atuais são preservadas: no jogador 1, por exemplo, Master System 1 usa X e 2 usa Z; Mega Drive A/B/C usam Z/X/C e X/Y/Z usam A/S/D. Mode usa Espaço e Pause do Master System usa Enter. Select fictício do Master System foi removido. GBA não exibe jogador 2; turbo é identificado por nome.
+
+Genesis Plus GX mantém Joypad Auto (nenhum dispositivo forçado). O núcleo escolhe três ou seis botões conforme a ROM; mapear X/Y/Z não força dispositivo de seis botões. Alterações específicas de compatibilidade por jogo não fazem parte deste perfil. Mapas de dois jogadores não garantem multiplayer em todo jogo. Não há link cable GBA, multitap ou periféricos especiais implementados nesta interface.
+
+npm run test:controls valida os perfis reais, botões ausentes/não suportados, jogadores extras, teclas permitidas e duplicadas, conflitos entre jogadores e tradução para RetroPad. As teclas aceitas pelo perfil atual são letras/números, vírgula, enter, space, direcionais e keypad0–keypad9; amplie o validador explicitamente se adicionar outras teclas.
+
+Referências: [Nostalgist press](https://nostalgist.js.org/apis/press/), [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/), [mGBA](https://docs.libretro.com/library/mgba/), [FCEUmm](https://docs.libretro.com/library/fceumm/) e [Snes9x](https://docs.libretro.com/library/snes9x/). A correspondência foi conferida na documentação; os testes não executam núcleos nem simulam hardware de teclado (ghosting).
 
 ## Salvamento
 
