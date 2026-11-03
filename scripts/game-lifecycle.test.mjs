@@ -8,7 +8,7 @@ import { markRaw } from 'vue';
 function setup(launch) {
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   const { descriptor } = parse(source);
-  const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('export default', 'return');
+  const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
   const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', script)(
     { launch }, {}, {}, {}, {}, {}, markRaw,
   );
