@@ -49,10 +49,12 @@ Se Nostalgist.launch falhar, CARREGANDO é encerrado e a interface mostra uma me
 
 ## Exportar e importar estado atual
 
-Com o jogo iniciado, EXPORTAR SAVE captura o estado atual do núcleo e baixa um arquivo .save.json. Não lê nem grava localStorage: se o save local estiver na fase 1 e você exportar na fase 3, o arquivo contém a fase 3 e o save local continua na fase 1. A captura pausa temporariamente o jogo e retoma se ele estava em execução.
+Com o jogo iniciado, EXPORTAR SAVE captura o estado atual do núcleo e baixa um arquivo .save.json. Não lê nem grava localStorage: se o save local estiver na fase 1 e você exportar na fase 3, o arquivo contém a fase 3 e o save local continua na fase 1. A captura mantém o jogo em execução para processar SAVE_STATE. Se o jogo estava pausado, retoma temporariamente e restaura a pausa após a captura, inclusive em falha. A miniatura automática fica desativada, pois não é usada na transferência. Os botões de transferência usam o mesmo estilo link dos demais comandos.
 
 IMPORTAR SAVE abre um seletor de arquivo. Antes de chamar o núcleo, valida formato/versão, console, ID do jogo, hashes SHA-256 dos bytes das ROMs carregadas, nome e hash do núcleo WASM e integridade SHA-256 do estado. Base64 inválido, JSON inválido ou divergências geram um aviso. Limite: estado de até 64 MB e arquivo JSON de até 89,6 MB.
 
 O estado válido é enviado diretamente a loadState e o jogo continua desse ponto. A importação nunca lê nem grava slots locais e não pede confirmação para sobrescrever, pois não há sobrescrita. Para persistir o progresso importado no navegador, clique em SALVAR; CARREGAR continua recuperando o save local anterior.
 
 O formato é exclusivo desta função (versão 1, game-over-state), não um importador genérico de arquivos RetroArch. Hashes detectam corrupção acidental e diferenças de ROM/núcleo, mas não autenticam arquivos deliberadamente adulterados. A biblioteca envia o estado ao RetroArch sem oferecer confirmação completa de compatibilidade interna; a checagem não garante interpretar qualquer binário arbitrário como save válido. Rejeições lançadas pelo núcleo são exibidas sem gravação local. HTTPS ou localhost é necessário para Web Crypto. Não há sincronização automática.
+
+Durante a captura, o Nostalgist pode registrar FS error/errno 44 enquanto espera a criação do arquivo. Esse aviso isolado não comprova falha definitiva; um fs timeout ou aviso de exportação na interface indica que a operação não concluiu. A validação com o núcleo real continua necessária ao investigar problemas específicos de ROM.

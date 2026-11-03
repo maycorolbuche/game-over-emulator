@@ -133,8 +133,8 @@
           >
             REINICIAR
           </a>
-          <button class="transfer-button" :disabled="!nostalgist || save_busy" @click="exportSave()">EXPORTAR SAVE</button>
-          <button class="transfer-button" :disabled="!nostalgist || save_busy" @click="$refs.importFile.click()">IMPORTAR SAVE</button>
+          <button class="link" :disabled="!nostalgist || save_busy" @click="exportSave()">EXPORTAR SAVE</button>
+          <button class="link" :disabled="!nostalgist || save_busy" @click="$refs.importFile.click()">IMPORTAR SAVE</button>
           <input ref="importFile" type="file" accept=".json,application/json" hidden @change="importSave($event)" />
           <a
             :class="{ link: true, sticky: true }"
@@ -325,6 +325,7 @@ export default {
             }
           })(),
           retroarchConfig: {
+            savestate_thumbnail_enable: false,
             ...this.retroarch_controls,
           },
         };
@@ -422,6 +423,15 @@ export default {
         }
       });
     },
+    async captureCurrentState(instance) {
+      const wasPaused = this.is_paused;
+      if (wasPaused) this.play();
+      try {
+        return await instance.saveState();
+      } finally {
+        if (wasPaused && !this.session_closed && this.nostalgist === instance) this.pause();
+      }
+    },
     async exportSave() {
       const instance = this.nostalgist;
       if (!instance || this.save_busy || this.session_closed) return;
@@ -429,8 +439,7 @@ export default {
       this.save_error = null;
       const paused = this.is_paused;
       try {
-        this.pause();
-        const { state } = await instance.saveState();
+        const { state } = await this.captureCurrentState(instance);
         const identity = await SaveTransfer.gameIdentity(instance, this.console, this.id);
         const json = await SaveTransfer.exportState(state, identity);
         if (this.session_closed || this.nostalgist !== instance) return;
@@ -669,19 +678,6 @@ export default {
   padding: 10px;
   cursor: pointer;
 }
-.transfer-button {
-  background: #000;
-  color: #faa914;
-  border: 2px solid #faa914;
-  font-family: "Press Start 2P", cursive;
-  font-size: 10px;
-  line-height: 1.6;
-  padding: 10px 6px;
-  margin: 6px;
-  cursor: pointer;
-}
-.transfer-button:disabled { opacity: .4; cursor: not-allowed; }
-.transfer-button:focus-visible { outline: 3px solid #41f7fb; }
 .message {
   color: #fff;
   position: absolute;
@@ -692,17 +688,26 @@ export default {
   text-transform: uppercase;
   z-index: 300;
 }
-a.link {
+button.link {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+button.link:focus-visible { outline: 2px solid #41f7fb; outline-offset: 3px; }
+a.link,
+button.link {
   font-family: "Press Start 2P", cursive;
   color: #fff;
   text-decoration: none;
   font-size: 14px;
   padding: 5px 0;
 }
-a.link:hover {
+a.link:hover,
+button.link:hover:not(:disabled) {
   animation: piscar 0.3s infinite alternate;
 }
-a.disabled {
+a.disabled,
+button.link:disabled {
   color: #333;
   pointer-events: none;
   cursor: not-allowed;
