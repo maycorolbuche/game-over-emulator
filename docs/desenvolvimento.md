@@ -53,6 +53,7 @@ npm run test:routes
 npm run test:saves
 npm run test:transfer
 npm run test:mobile
+npm run test:pwa
 npm run build
 ```
 
@@ -97,3 +98,7 @@ Atualize os guias afetados na mesma PR do código. Na descrição, informe compo
 ## Validação mobile
 
 Execute npm run test:mobile (também no CI). Os testes usam a lógica real de multitoque e redimensionamento, com núcleo simulado. Confira manualmente 320×568, 390×844, 844×390 e tablet; rode uma ROM, segure direção e pulo, gire a tela e confirme continuidade do jogo, liberação das entradas e proporção. Verifique menus, SweetAlert e todos os comandos em tela cheia e fora dela. Testes em aparelhos Android/iOS são necessários para áudio, seletor de arquivo, downloads e gestos do sistema.
+
+## Desenvolvimento do PWA
+
+Use npm run test:pwa para validar manifesto/ícones, geração e versionamento de pré-cache, fallback offline, isolamento de caches e convite de instalação. O CI executa esse comando. Para testar worker real, gere build e use npm run serve em localhost; o servidor dev não registra worker. Antes de depurar versões antigas, confira o registro em DevTools e suas abas abertas; atualizações aguardam encerramento das instâncias. Veja o guia de operação para checagens em Android/iOS. O plugin gera dist/sw.js após o build e não deve ser executado manualmente sobre arquivos incompletos.
