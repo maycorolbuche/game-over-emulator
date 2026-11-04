@@ -70,10 +70,13 @@ test('arrastar mantém captura, permite ação simultânea e centraliza ao cance
   vm.releaseAll();assert.deepEqual(events.at(-1),['a',false]);
 });
 
-test('ações mobile fecham menu e retomam sessão antes de executar o comando', () => {
+test('ações mobile fecham menu no gesto e agendam retomada antes do comando', t => {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
   const {vm,events}=game();vm.mobile_layout=true;vm.toggleMenu();
+  t.mock.timers.tick(10);
   let executed=false;const result=vm.runMenuAction(()=>{ executed=true;assert.equal(vm.menu_open,false);assert.equal(vm.is_paused,false);return 123; });
-  assert.equal(executed,true);assert.equal(result,123);assert.ok(events.includes('resume'));
+  assert.equal(executed,true);assert.equal(result,123);assert.equal(events.includes('resume'),false);
+  t.mock.timers.tick(10);assert.ok(events.includes('resume'));
 });
 test('pausar permanece pausado após fechar menu; desktop não recolhe a lateral', () => {
   const {vm}=game();vm.mobile_layout=true;vm.toggleMenu();vm.runMenuAction(()=>vm.pause());

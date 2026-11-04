@@ -22,6 +22,10 @@ A interface oferece pausa, retomada, reinício com confirmação, fechamento com
 
 ## Atalhos do emulador
 
+Pausa e retomada passam por uma janela de 10 ms após o último pedido. A interface registra imediatamente o estado solicitado; ao terminar a janela, Game.vue só chama pause/resume se esse estado diferir do último aplicado por ele. Se estiver pausado e receber play seguido de pause nesse intervalo, não envia nenhum comando. O mesmo vale para pause seguido de play enquanto está rodando. Pedidos pendentes são cancelados ao encerrar a sessão. Reiniciar envia RESET e usa a mesma fila para retomar, evitando a retomada imediata embutida em Nostalgist.restart().
+
+Captura e restauração de saves aguardam essa fila antes de enviar comandos de estado e aguardam a restauração da pausa quando necessário. Os 10 ms são um debounce mínimo de agendamento, não confirmação de processamento pelo núcleo; o navegador pode executar o timer mais tarde. O último estado aplicado registra as chamadas da aplicação, não consulta diretamente a pausa interna do RetroArch. Valide as sequências também com ROM real.
+
 | Ação | Tecla configurada |
 | --- | --- |
 | Pausar/continuar | Ctrl + Enter |
@@ -101,4 +105,4 @@ O centro do D-pad contém um botão arrastável, preservando as oito setas. Um t
 
 ## Seleção de ações no menu mobile
 
-Selecionar uma ação recolhe imediatamente o painel e executa o comando. Se a partida estava rodando antes de abrir o menu, ela é retomada antes da ação; PAUSAR, confirmações e erros aplicam sua própria pausa. Salvar/carregar/exportar mantêm suas validações e importação abre o seletor no mesmo gesto do usuário. CONTROLES abre um SweetAlert com a lista, para que o painel possa fechar sem perder essa informação. Desktop mantém a lateral e a visualização de controles existentes.
+Selecionar uma ação recolhe imediatamente o painel e executa o comando. Se a partida estava rodando antes de abrir o menu, solicita retomada antes da ação; PAUSAR, confirmações e erros solicitam sua própria pausa. Pedidos opostos na janela de 10 ms são agrupados, mantendo somente o último, sem uma retomada intermediária. Salvar/carregar/exportar aguardam a fila e mantêm suas validações; importação abre o seletor no mesmo gesto do usuário. CONTROLES abre um SweetAlert com a lista, para que o painel possa fechar sem perder essa informação. Desktop mantém a lateral e a visualização de controles existentes.

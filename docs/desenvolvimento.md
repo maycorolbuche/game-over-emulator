@@ -65,6 +65,8 @@ O workflow não publica o site nem acessa ROMs ou integrações do sincronizador
 
 `npm run test:emulator` executa os métodos reais de Game.vue com Nostalgist simulado: sucesso, falha seguida de nova tentativa, bloqueio de chamadas duplicadas, fechamento durante carregamento, rejeição tardia e independência entre sessões. Os testes não baixam ROMs nem executam núcleos no navegador. O workflow CI também executa esse comando.
 
+Também usa timers simulados para verificar a janela de 10 ms de pausa/retomada: sequências opostas, último pedido prevalecendo, ausência de comandos duplicados, cancelamento ao fechar, retomada após RESET e ação de confirmação no menu mobile. Esses testes conferem os comandos enviados pela aplicação; a pausa efetiva do núcleo exige validação manual com ROM real.
+
 ## Testes de rotas
 
 `npm run test:routes` verifica consoles/jogos inexistentes e inativos, acesso direto, mudanças de parâmetros, abertura/fechamento e correspondência das rotas reais com histórico em memória. É executado no CI e não baixa ROMs. Confira também manualmente voltar/avançar e links de retorno após publicar.

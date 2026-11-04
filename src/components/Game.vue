@@ -301,6 +301,9 @@ export default {
       nostalgist: null,
       interact: true,
       is_paused: false,
+      playback_applied_paused: false,
+      playback_timer: null,
+      playback_waiters: [],
       fullscreen: false,
       show_controls: false,
       slot: {
@@ -515,6 +518,7 @@ export default {
           return;
         }
         this.nostalgist = markRaw(instance);
+        this.playback_applied_paused = false;
         this.$nextTick?.(this.handleResize);
       } catch (error) {
         if (!this.session_closed && attempt === this.launch_id) {
@@ -532,6 +536,9 @@ export default {
       this.releaseTouch();
       if (this.session_closed) return;
       this.session_closed = true;
+      clearTimeout(this.playback_timer);
+      this.playback_timer = null;
+      this.finishPlayback(false);
       this.launch_id++;
       if (this.loading) this.launch_controller?.abort();
       clearTimeout(this.resize_timer);
@@ -547,20 +554,47 @@ export default {
     },
     pause() {
       this.releaseTouch();
-      if (this.nostalgist && !this.is_paused) {
-        this.nostalgist.pause();
-        this.is_paused = true;
-      }
+      return this.requestPlayback(true);
     },
     play() {
-      if (this.nostalgist && this.is_paused) {
-        this.nostalgist.resume();
-        this.is_paused = false;
-      }
+      return this.requestPlayback(false);
+    },
+    finishPlayback(applied) {
+      const waiters = this.playback_waiters.splice(0);
+      for (const resolve of waiters) resolve(applied);
+    },
+    requestPlayback(paused) {
+      if (!this.nostalgist || this.session_closed) return Promise.resolve(false);
+      const instance = this.nostalgist;
+      this.is_paused = paused;
+      clearTimeout(this.playback_timer);
+      const settled = new Promise(resolve => this.playback_waiters.push(resolve));
+      // Coalesce opposite requests before sending RetroArch's PAUSE_TOGGLE.
+      this.playback_timer = setTimeout(() => {
+        this.playback_timer = null;
+        if (this.session_closed || this.nostalgist !== instance) {
+          this.finishPlayback(false);
+          return;
+        }
+        try {
+          if (this.playback_applied_paused !== this.is_paused) {
+            instance[this.is_paused ? "pause" : "resume"]();
+            this.playback_applied_paused = this.is_paused;
+          }
+          this.finishPlayback(true);
+        } catch (error) {
+          this.is_paused = this.playback_applied_paused;
+          this.finishPlayback(false);
+          console.error("Erro ao alterar pausa do jogo:", error);
+        }
+      }, 10);
+      return settled;
     },
     restart() {
       if (this.nostalgist) {
-        this.nostalgist.restart();
+        // Nostalgist.restart() also resumes immediately, bypassing the queue.
+        this.nostalgist.sendCommand("RESET");
+        return this.play();
       }
     },
     speed() {
@@ -610,26 +644,30 @@ export default {
     },
     async restoreCurrentState(instance, state) {
       const wasPaused = this.is_paused;
-      if (wasPaused) this.play();
       try {
+        const ready = await this.play();
+        if (!ready || this.is_paused || this.session_closed || this.nostalgist !== instance)
+          throw new Error("A sessão não está disponível para carregar o estado.");
         await EmulatorState.restoreState(instance, state, {
           active: () => !this.session_closed && this.nostalgist === instance,
         });
       } finally {
         if (wasPaused && !this.session_closed && this.nostalgist === instance)
-          this.pause();
+          await this.pause();
       }
     },
     async captureCurrentState(instance) {
       const wasPaused = this.is_paused;
-      if (wasPaused) this.play();
       try {
+        const ready = await this.play();
+        if (!ready || this.is_paused || this.session_closed || this.nostalgist !== instance)
+          throw new Error("A sessão não está disponível para capturar o estado.");
         return await EmulatorState.captureState(instance, {
           active: () => !this.session_closed && this.nostalgist === instance,
         });
       } finally {
         if (wasPaused && !this.session_closed && this.nostalgist === instance)
-          this.pause();
+          await this.pause();
       }
     },
     async exportSave() {
