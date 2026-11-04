@@ -92,7 +92,7 @@
         v-if="mobile_layout"
         class="link"
         type="button"
-        @click="show_touch = !show_touch"
+        @click="runMenuAction(() => show_touch = !show_touch)"
       >
         {{ show_touch ? "OCULTAR BOTÕES" : "MOSTRAR BOTÕES" }}
       </button>
@@ -117,7 +117,7 @@
           <a
             :class="{ link: true }"
             href="javascript:"
-            @click="show_controls = true"
+            @click="runMenuAction(() => openControls())"
           >
             CONTROLES
           </a>
@@ -129,7 +129,7 @@
             }"
             href="javascript:"
             v-shortkey.once="['ctrl', 'enter']"
-            @click="pause()"
+            @click="runMenuAction(() => pause())"
             @shortkey="pause()"
           >
             PAUSAR
@@ -142,7 +142,7 @@
             }"
             href="javascript:"
             v-shortkey.once="['ctrl', 'enter']"
-            @click="play()"
+            @click="runMenuAction(() => play())"
             @shortkey="play()"
           >
             CONTINUAR
@@ -154,7 +154,7 @@
             }"
             href="javascript:"
             v-shortkey.once="['shift', '+']"
-            @click="saveState(0)"
+            @click="runMenuAction(() => saveState(0))"
             @shortkey="saveState(0)"
           >
             SALVAR
@@ -166,7 +166,7 @@
             }"
             href="javascript:"
             v-shortkey.once="['=']"
-            @click="loadState(0)"
+            @click="runMenuAction(() => loadState(0))"
             @shortkey="loadState(0)"
           >
             CARREGAR
@@ -178,7 +178,7 @@
             }"
             href="javascript:"
             v-shortkey.once="['f11']"
-            @click="toggleFullscreen()"
+            @click="runMenuAction(() => toggleFullscreen())"
             @shortkey="toggleFullscreen()"
           >
             TELA CHEIA
@@ -190,7 +190,7 @@
             }"
             href="javascript:"
             v-shortkey.once="['tab']"
-            @click="restartGame()"
+            @click="runMenuAction(() => restartGame())"
             @shortkey="restartGame()"
           >
             REINICIAR
@@ -198,14 +198,14 @@
           <button
             class="link"
             :disabled="!nostalgist || save_busy"
-            @click="exportSave()"
+            @click="runMenuAction(() => exportSave())"
           >
             EXPORTAR
           </button>
           <button
             class="link"
             :disabled="!nostalgist || save_busy"
-            @click="$refs.importFile.click()"
+            @click="runMenuAction(() => $refs.importFile.click())"
           >
             IMPORTAR
           </button>
@@ -216,7 +216,7 @@
             hidden
             @change="importSave($event)"
           />
-          <a :class="{ link: true }" href="javascript:" @click="close()">
+          <a :class="{ link: true }" href="javascript:" @click="runMenuAction(() => close())">
             FECHAR
           </a>
         </div>
@@ -370,6 +370,31 @@ export default {
     },
   },
   methods: {
+    runMenuAction(action) {
+      if (this.mobile_layout && this.menu_open) {
+        const resume = this.resume_after_menu;
+        this.menu_open = false;
+        this.resume_after_menu = false;
+        if (resume && !Swal.isVisible()) this.play();
+      }
+      return action();
+    },
+    async openControls() {
+      if (!this.mobile_layout) {
+        this.show_controls = true;
+        return;
+      }
+      const wasPaused = this.is_paused;
+      this.pause();
+      const labels = { up: "Cima", down: "Baixo", left: "Esquerda", right: "Direita", button1: "1", button2: "2", mode: "Mode", turbo_a: "Turbo A", turbo_b: "Turbo B", pause: "Pausar", save: "Salvar", load: "Carregar", fullscreen: "Tela cheia", restart: "Reiniciar", accelerate: "Acelerar" };
+      const text = Object.entries(this.game_controls).map(([player, controls]) =>
+        this.info_player(player) + "\n" + Object.entries(controls).map(([button, keys]) =>
+          (labels[button] || button.toUpperCase()) + ": " + (Array.isArray(keys) ? keys.join(" + ") : keys)
+        ).join("\n")
+      ).join("\n\n");
+      await Swal.fire({ title: "Controles", text, confirmButtonText: "Voltar ao jogo", target: this.$refs.emulator, heightAuto: false, customClass: { htmlContainer: "game-controls-text" } });
+      if (!wasPaused && !this.session_closed) this.play();
+    },
     resumeFromCanvas() {
       if (!Swal.isVisible() && !this.menu_open) this.play();
     },
@@ -862,6 +887,7 @@ export default {
 </script>
 
 <style scoped>
+#emulator :deep(.game-controls-text) { white-space: pre-line; text-align: left; }
 #emulator {
   background: #000;
   position: relative;

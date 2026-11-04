@@ -69,3 +69,15 @@ test('arrastar mantém captura, permite ação simultânea e centraliza ao cance
   assert.deepEqual(events.at(-1),['up',false]);
   vm.releaseAll();assert.deepEqual(events.at(-1),['a',false]);
 });
+
+test('ações mobile fecham menu e retomam sessão antes de executar o comando', () => {
+  const {vm,events}=game();vm.mobile_layout=true;vm.toggleMenu();
+  let executed=false;const result=vm.runMenuAction(()=>{ executed=true;assert.equal(vm.menu_open,false);assert.equal(vm.is_paused,false);return 123; });
+  assert.equal(executed,true);assert.equal(result,123);assert.ok(events.includes('resume'));
+});
+test('pausar permanece pausado após fechar menu; desktop não recolhe a lateral', () => {
+  const {vm}=game();vm.mobile_layout=true;vm.toggleMenu();vm.runMenuAction(()=>vm.pause());
+  assert.equal(vm.menu_open,false);assert.equal(vm.is_paused,true);
+  vm.mobile_layout=false;vm.menu_open=true;vm.runMenuAction(()=>{});
+  assert.equal(vm.menu_open,true);
+});
