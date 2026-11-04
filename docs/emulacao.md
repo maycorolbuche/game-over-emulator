@@ -98,3 +98,7 @@ Os testes automatizados verificam múltiplos ponteiros, diagonais, liberação, 
 ## Direcional central arrastável
 
 O centro do D-pad contém um botão arrastável, preservando as oito setas. Um toque mantido no centro permite mudar entre as oito direções sem levantar o dedo; a zona neutra de 8 px libera as direções ao retornar ao centro, e o deslocamento visual do botão é limitado a 34 px. Ele envia comandos direcionais digitais do jogador 1, não intensidade analógica. A captura do ponteiro mantém o movimento mesmo fora do botão. Ao soltar/cancelar, abrir menu, pausar, girar, perder foco ou desmontar, o botão volta ao centro e libera as entradas. Outros dedos continuam podendo acionar ações e setas simultaneamente.
+
+## Seleção de ações no menu mobile
+
+Selecionar uma ação recolhe imediatamente o painel e executa o comando. Se a partida estava rodando antes de abrir o menu, ela é retomada antes da ação; PAUSAR, confirmações e erros aplicam sua própria pausa. Salvar/carregar/exportar mantêm suas validações e importação abre o seletor no mesmo gesto do usuário. CONTROLES abre um SweetAlert com a lista, para que o painel possa fechar sem perder essa informação. Desktop mantém a lateral e a visualização de controles existentes.
