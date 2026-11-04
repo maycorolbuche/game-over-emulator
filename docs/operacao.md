@@ -62,18 +62,18 @@ O manifesto em public/manifest.webmanifest define Game Over Emulator, modo stand
 
 O service worker é gerado no build pelo plugin local pwa/build-plugin.mjs, sem dependência nova. O template pwa/service-worker.js recebe versão baseada no conteúdo de todos os arquivos de dist e uma lista de pré-cache, incluindo chunks das rotas. Não registre um worker novo com escopo mais amplo nem publique este projeto em subdiretório sem revisar os caminhos absolutos.
 
-O registro só ocorre em produção (npm run build + npm run serve, ou hospedagem HTTPS). npm run dev não registra worker. Localhost é permitido para testes. PwaActions mostra INSTALAR APP quando beforeinstallprompt está disponível ou instruções de instalação no Safari para iOS/iPadOS. O convite depende da decisão do navegador, não aparece automaticamente em todo acesso e não é forçado. Em modo standalone o botão some.
+O registro só ocorre em produção (npm run build + npm run serve, ou hospedagem HTTPS). npm run dev não registra worker. Localhost é permitido para testes. A instalação usa exclusivamente a interface nativa do navegador, sem botão, banners ou diálogos próprios no site. O código não intercepta beforeinstallprompt nem impede o convite nativo. No iPhone/iPad, use Safari → Compartilhar → Adicionar à Tela de Início.
 
 O cache permite reabrir interface e catálogo sem rede depois da primeira instalação do worker e de uma nova navegação controlada por ele. Não armazena ROMs, capas, núcleos WASM, fontes externas ou Analytics; jogar offline não é garantido. Não altera saves em localStorage. Navegadores podem separar ou remover dados conforme perfil/modo de execução; exportar estados permite transferi-los quando necessário.
 
-Uma versão nova fica aguardando até fechar o app e todas as abas do site. O aviso informa isso; não há skipWaiting, clients.claim ou reload automático durante a partida. Na ativação, só caches antigos com prefixo game-over-shell- são removidos. Não limpa localStorage. Em cada implantação, o próprio build regenera o worker e sua versão.
+Uma versão nova fica aguardando até fechar o app e todas as abas do site. Não há aviso próprio na interface nem skipWaiting, clients.claim ou reload automático durante a partida. Na ativação, só caches antigos com prefixo game-over-shell- são removidos. Não limpa localStorage. Em cada implantação, o próprio build regenera o worker e sua versão.
 
 Validação após publicar:
 1. Conferir /manifest.webmanifest (JSON), /sw.js (JavaScript) e todos os ícones com resposta 200.
 2. Conferir em DevTools → Application o registro/ativação e a lista do Cache Storage.
 3. Instalar no Android/Chrome ou desktop compatível; no iPhone/iPad usar Safari → Compartilhar → Adicionar à Tela de Início.
 4. Fechar/reabrir em standalone, girar o aparelho e confirmar menu/controles e início dos jogos online.
-5. Sem conexão, reabrir o catálogo e confirmar a indicação de offline.
-6. Publicar outra versão: confirmar aviso sem interromper o jogo e ativação após fechar todas as instâncias.
+5. Sem conexão, reabrir o catálogo e confirmar a abertura da interface em cache.
+6. Publicar outra versão: confirmar que a partida não é interrompida e que a ativação ocorre após fechar todas as instâncias.
 
 Os testes automatizados simulam eventos do navegador, caches e rede; não comprovam a instalação real em aparelhos.

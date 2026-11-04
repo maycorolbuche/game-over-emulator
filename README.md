@@ -53,7 +53,7 @@ O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do c
 
 ## Instalar no aparelho
 
-Em produção HTTPS, o site pode ser instalado como aplicativo. Quando o navegador oferecer a instalação, use INSTALAR APP. No iPhone/iPad, o botão orienta abrir no Safari e usar Compartilhar → Adicionar à Tela de Início. A interface e o catálogo ficam disponíveis offline após o cache ser preparado; ROMs, capas, fontes externas e núcleos continuam exigindo conexão para carregamento. Consulte [Operação](docs/operacao.md#pwa-instalação-e-atualização).
+Em produção HTTPS, o site pode ser instalado como aplicativo. A instalação é feita exclusivamente pelo ícone ou menu do navegador. No iPhone/iPad, use Safari → Compartilhar → Adicionar à Tela de Início. A interface e o catálogo ficam disponíveis offline após o cache ser preparado; ROMs, capas, fontes externas e núcleos continuam exigindo conexão para carregamento. Consulte [Operação](docs/operacao.md#pwa-instalação-e-atualização).
 
 ## Documentação
 
