@@ -58,7 +58,7 @@ Verifique Android/Chrome e iPhone/Safari, retrato e paisagem: controles abaixo/s
 
 ## PWA: instalação e atualização
 
-O manifesto em public/manifest.webmanifest define Game Over Emulator, modo standalone, escopo/URL inicial na raiz e ícones PNG baseados no favicon existente. Não fixa orientação: a rotação continua controlada pelo layout. index.html aponta para manifesto e apple-touch-icon; vercel.json configura tipo do manifesto e evita cache HTTP do sw.js.
+O manifesto em public/manifest.webmanifest define Game Over Emulator, modo standalone, escopo/URL inicial na raiz e ícones PNG baseados no favicon existente. Não fixa orientação: a rotação continua controlada pelo layout. index.html aponta para manifesto e apple-touch-icon e declara mobile-web-app-capable, mantendo também a metatag Apple para compatibilidade; vercel.json configura tipo do manifesto e evita cache HTTP do sw.js.
 
 O service worker é gerado no build pelo plugin local pwa/build-plugin.mjs, sem dependência nova. O template pwa/service-worker.js recebe versão baseada no conteúdo de todos os arquivos de dist e uma lista de pré-cache, incluindo chunks das rotas. Não registre um worker novo com escopo mais amplo nem publique este projeto em subdiretório sem revisar os caminhos absolutos.
 
