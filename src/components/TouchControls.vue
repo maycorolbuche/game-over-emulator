@@ -9,7 +9,6 @@
       </template>
     </div>
     <div class="system-buttons">
-      <button type="button" :disabled="disabled" data-buttons="rewind" aria-label="Rebobinar (segurar)" title="Segure para rebobinar">⏪</button>
       <button v-for="button in system" :key="button" type="button" :disabled="disabled" :data-buttons="button">{{ label(button) }}</button>
     </div>
     <div class="action-buttons" :class="{ 'six-buttons': actions.length > 4 }">

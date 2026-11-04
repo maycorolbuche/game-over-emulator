@@ -67,7 +67,7 @@ O workflow não publica o site nem acessa ROMs ou integrações do sincronizador
 
 Também usa timers simulados para verificar a janela de 10 ms de pausa/retomada: sequências opostas, último pedido prevalecendo, ausência de comandos duplicados, cancelamento ao fechar e ação de confirmação no menu mobile. No reinício pausado, verifica ausência de comandos antes de 10 ms, retomada e RESET ao terminar a espera; cobre também play adicional sem duplicação e RESET imediato quando já está rodando. Esses testes conferem os comandos enviados pela aplicação; a pausa efetiva do núcleo exige validação manual com ROM real.
 
-Os testes de emulação também simulam requestAnimationFrame para validar Backspace mantido, interrupção ao soltar/pausar/fechar, bloqueio em campos editáveis e estados indisponíveis, uso simultâneo de teclado/toque sem loops duplicados e posição do atalho após Acelerar. Conferem ainda a configuração do histórico no launch. Não executam a rebobinagem no WebAssembly: testar uma ROM por núcleo em desktop e Android/iOS, mantendo Backspace/⏪ por alguns segundos, soltando, abrindo menu durante o gesto e alternando pausa, salvar/carregar e rotação.
+Os testes de emulação também simulam requestAnimationFrame para validar Backspace mantido, interrupção ao soltar/pausar/fechar, bloqueio em campos editáveis e estados indisponíveis, uso simultâneo de teclado/toque sem loops duplicados e posição do atalho após Acelerar. Conferem ainda a configuração do histórico no launch. Não executam a rebobinagem no WebAssembly: testar uma ROM por núcleo em desktop e Android/iOS, mantendo Backspace em teclado físico por alguns segundos, soltando, abrindo menu durante o gesto e alternando pausa, salvar/carregar e rotação.
 
 ## Testes de rotas
 
