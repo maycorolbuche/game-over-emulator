@@ -79,12 +79,35 @@ test('fechamento cancela transição pendente e libera quem aguarda', async t =>
   assert.deepEqual(commands, []);
 });
 
-test('reinício não usa retomada imediata da biblioteca nem duplica resume', t => {
+test('reinício pausado aguarda 10 ms antes de retomar e enviar RESET', t => {
+  const { vm, commands } = playback(t, true);
+  vm.restart();
+  assert.deepEqual(commands, []);
+  t.mock.timers.tick(9);
+  assert.deepEqual(commands, []);
+  t.mock.timers.tick(1);
+  assert.deepEqual(commands, ['resume', 'RESET']);
+  assert.equal(vm.is_paused, false);
+});
+
+test('reinício pausado seguido de play adicional não duplica resume ou RESET', t => {
   const { vm, commands } = playback(t, true);
   vm.restart(); vm.play();
-  assert.deepEqual(commands, ['RESET']);
+  assert.deepEqual(commands, []);
+  t.mock.timers.tick(9);
+  assert.deepEqual(commands, []);
+  t.mock.timers.tick(1);
+  assert.deepEqual(commands, ['RESET', 'resume']);
   t.mock.timers.tick(10);
   assert.deepEqual(commands, ['RESET', 'resume']);
+});
+
+test('reinício em execução envia RESET imediatamente sem retomar novamente', t => {
+  const { vm, commands } = playback(t);
+  vm.restart();
+  assert.deepEqual(commands, ['RESET']);
+  t.mock.timers.tick(10);
+  assert.deepEqual(commands, ['RESET']);
 });
 
 test('ação de confirmação no menu não retoma jogo pausado entre pedidos', t => {
