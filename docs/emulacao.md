@@ -34,6 +34,7 @@ Captura e restauração de saves aguardam essa fila antes de enviar comandos de 
 | Tela cheia | F11 |
 | Reiniciar | Tab |
 | Acelerar | ' |
+| Rebobinar (segurar) | Backspace |
 
 O comportamento de caracteres e teclas reservadas pode variar conforme teclado e navegador. A opção CONTROLES mostra também o mapa do console. Não há editor de mapeamento; controles virtuais do jogador 1 estão disponíveis no layout mobile.
 
@@ -54,6 +55,14 @@ Genesis Plus GX mantém Joypad Auto (nenhum dispositivo forçado). O núcleo esc
 npm run test:controls valida os perfis reais, botões ausentes/não suportados, jogadores extras, teclas permitidas e duplicadas, conflitos entre jogadores e tradução para RetroPad. As teclas aceitas pelo perfil atual são letras/números, vírgula, enter, space, direcionais e keypad0–keypad9; amplie o validador explicitamente se adicionar outras teclas.
 
 Referências: [Nostalgist press](https://nostalgist.js.org/apis/press/), [Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/), [mGBA](https://docs.libretro.com/library/mgba/), [FCEUmm](https://docs.libretro.com/library/fceumm/) e [Snes9x](https://docs.libretro.com/library/snes9x/). A correspondência foi conferida na documentação; os testes não executam núcleos nem simulam hardware de teclado (ghosting).
+
+## Rebobinar
+
+Segure Backspace para voltar pelos estados recentes; solte para continuar desse ponto. No mobile, segure o botão ⏪ junto de Start/Select. A lista CONTROLES mostra o atalho logo abaixo de Acelerar, tanto na lateral desktop quanto no diálogo mobile.
+
+Game.vue habilita rewind_enable, com rewind_buffer_size de 20 MB e rewind_granularity de 1. O histórico é mantido pelo RetroArch na memória da sessão; sua duração depende da ROM, do núcleo e dos estados, sem garantia de segundos fixos. Não lê nem sobrescreve slots do localStorage e não exporta esse histórico. A captura contínua aumenta consumo de CPU e memória; confira especialmente o desempenho no celular. Os núcleos configurados declaram suporte, mas a execução nos builds WebAssembly exige validação com ROM real.
+
+O atalho é tratado pelo site, com input_rewind=nul para evitar acionamento duplicado pelo binding nativo. Enquanto houver tecla ou toque mantido, envia sendCommand("REWIND") uma vez por callback de requestAnimationFrame; o comando do RetroArch vale um quadro, não é um toggle. Autorepetição do teclado não cria loops extras. Campos editáveis preservam Backspace; pausa, menu, diálogo, carregamento e salvamento bloqueiam rebobinar. Soltar/cancelar o toque, perder foco, ocultar a página, redimensionar/girar, pausar, reiniciar, capturar/restaurar estado e fechar interrompem o loop. Teclado e toque compartilham um loop e soltar uma origem não cancela a outra ainda mantida. A velocidade depende do navegador e do processamento do núcleo.
 
 ## Salvamento
 

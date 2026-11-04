@@ -3,18 +3,20 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { parse } from '@vue/compiler-sfc';
 import { markRaw } from 'vue';
+import * as Controls from '../src/helpers/Controls.mjs';
 
 // Execute the real component methods, replacing only browser/emulator services.
 function setup(launch, swal = {}) {
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   const { descriptor } = parse(source);
   const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
-  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', script)(
-    { launch }, { isVisible: () => false, ...swal }, {}, {}, {}, {}, markRaw,
+  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', script)(
+    { launch }, { isVisible: () => false, ...swal }, {}, {}, {}, {}, markRaw, Controls,
   );
   const canvas = {};
   const vm = { ...options.data(), filename: 'game.zip', console: 'nes', retroarch_controls: {}, $refs: { emulatorCanvas: canvas } };
   for (const [name, method] of Object.entries(options.methods)) vm[name] = method.bind(vm);
+  Object.defineProperty(vm, 'game_controls', { get: options.computed.game_controls.bind(vm) });
   vm.interact = false;
   return vm;
 }
@@ -26,6 +28,74 @@ function deferred() {
 function instance() {
   return { exits: 0, exit(options) { assert.equal(options.removeCanvas, false); this.exits++; } };
 }
+
+function rewind(t) {
+  const { vm, commands } = playback(t);
+  let sequence = 0;
+  const frames = new Map();
+  const oldRequest = globalThis.requestAnimationFrame;
+  const oldCancel = globalThis.cancelAnimationFrame;
+  globalThis.requestAnimationFrame = callback => {
+    frames.set(++sequence, callback); return sequence;
+  };
+  globalThis.cancelAnimationFrame = id => frames.delete(id);
+  t.after(() => {
+    if (oldRequest) globalThis.requestAnimationFrame = oldRequest;
+    else delete globalThis.requestAnimationFrame;
+    if (oldCancel) globalThis.cancelAnimationFrame = oldCancel;
+    else delete globalThis.cancelAnimationFrame;
+  });
+  return { vm, commands, frames, frame() {
+    const [id, callback] = frames.entries().next().value;
+    frames.delete(id); callback();
+  } };
+}
+
+test('Backspace mantido envia REWIND por quadro e soltar cancela o loop', t => {
+  const { vm, commands, frames, frame } = rewind(t);
+  let prevented = 0;
+  const event = { key: 'Backspace', preventDefault() { prevented++; }, stopImmediatePropagation() {} };
+  vm.rewindKeyDown(event);
+  vm.rewindKeyDown({ ...event, repeat: true });
+  assert.deepEqual(commands, ['REWIND']);
+  assert.equal(frames.size, 1);
+  frame(); assert.deepEqual(commands, ['REWIND', 'REWIND']);
+  vm.rewindKeyUp(event);
+  assert.equal(frames.size, 0); assert.equal(vm.rewind_sources.size, 0);
+  assert.equal(prevented, 2);
+});
+
+test('rewind de toque e teclado compartilham um loop sem soltar a outra origem', t => {
+  const { vm, frames } = rewind(t);
+  vm.touchInput('rewind', true); vm.rewindInput(true, 'keyboard');
+  assert.equal(frames.size, 1);
+  vm.touchInput('rewind', false); assert.equal(frames.size, 1);
+  vm.rewindKeyUp({ key: 'Backspace' }); assert.equal(frames.size, 0);
+});
+
+test('rewind respeita pausa, menu, salvamento, sessão fechada e campos editáveis', t => {
+  const { vm, commands, frames } = rewind(t);
+  for (const flag of ['is_paused', 'playback_applied_paused', 'menu_open', 'save_busy', 'session_closed', 'loading']) {
+    vm[flag] = true; vm.rewindInput(true, 'touch'); vm[flag] = false;
+  }
+  vm.rewindKeyDown({ key: 'Backspace', target: { closest: () => ({}) } });
+  assert.deepEqual(commands, []); assert.equal(frames.size, 0);
+  vm.rewindInput(true, 'touch'); vm.pause();
+  assert.equal(frames.size, 0);
+});
+
+test('liberar entradas por foco/rotação e encerrar cancelam rewind pendente', t => {
+  const { vm, frames } = rewind(t);
+  vm.rewindInput(true, 'keyboard'); vm.releaseTouch(); assert.equal(frames.size, 0);
+  vm.rewindInput(true, 'touch'); vm.disposeGame(); assert.equal(frames.size, 0);
+});
+
+test('atalho de rebobinar vem logo após Acelerar nos controles', () => {
+  const vm = setup(() => {});
+  const entries = Object.entries(vm.game_controls.emulator);
+  const index = entries.findIndex(([name]) => name === 'accelerate');
+  assert.deepEqual(entries[index + 1], ['rewind', 'BACKSPACE']);
+});
 
 function playback(t, paused = false) {
   t.mock.timers.enable({ apis: ['setTimeout'] });
@@ -123,7 +193,14 @@ test('ação de confirmação no menu não retoma jogo pausado entre pedidos', t
 test('sucesso usa o canvas próprio e impede inicializações duplicadas', async () => {
   const pending = deferred();
   let calls = 0;
-  const vm = setup(config => { calls++; assert.equal(config.element, vm.$refs.emulatorCanvas); return pending.promise; });
+  const vm = setup(config => {
+    calls++; assert.equal(config.element, vm.$refs.emulatorCanvas);
+    assert.equal(config.retroarchConfig.rewind_enable, true);
+    assert.equal(config.retroarchConfig.rewind_buffer_size, 20);
+    assert.equal(config.retroarchConfig.rewind_granularity, 1);
+    assert.equal(config.retroarchConfig.input_rewind, 'nul');
+    return pending.promise;
+  });
   const first = vm.launchGame();
   assert.equal(vm.loading, true);
   await vm.launchGame();
