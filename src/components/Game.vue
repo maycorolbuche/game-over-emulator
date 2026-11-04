@@ -256,6 +256,7 @@ import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import * as Controls from "@/helpers/Controls.mjs";
 import TouchControls from "@/components/TouchControls.vue";
 import { fitScreen } from "@/helpers/TouchInput.mjs";
+import * as PauseState from "@/helpers/PauseState.mjs";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -513,6 +514,8 @@ export default {
           retroarchConfig: {
             savestate_thumbnail_enable: false,
             pause_nonactive: false,
+            pause_on_disconnect: false,
+            input_pause_toggle: "nul",
             ...this.retroarch_controls,
           },
         };
@@ -555,20 +558,21 @@ export default {
     pause() {
       this.releaseTouch();
       if (this.nostalgist && !this.is_paused) {
-        this.nostalgist.pause();
+        PauseState.setPaused(this.nostalgist, true);
         this.is_paused = true;
       }
     },
     play() {
       if (this.dialog_open || this.menu_open || (typeof document !== "undefined" && document.hidden)) return;
       if (this.nostalgist && this.is_paused) {
-        this.nostalgist.resume();
+        PauseState.setPaused(this.nostalgist, false);
         this.is_paused = false;
       }
     },
     restart() {
       if (this.nostalgist) {
-        this.nostalgist.restart();
+        this.nostalgist.sendCommand("RESET");
+        PauseState.setPaused(this.nostalgist, false);
         this.is_paused = false;
       }
     },
