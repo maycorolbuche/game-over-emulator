@@ -94,3 +94,7 @@ TouchControls.vue usa Pointer Events, captura de ponteiros e pressDown/pressUp d
 Abrir o menu pausa e libera entradas. Fechá-lo retoma somente se o jogo estava rodando antes. Ocultar/mostrar botões permite usar teclado ou controle externo sem a área de toque (não implementa configuração nova de gamepad). Ao voltar do segundo plano o jogo permanece pausado; toque no canvas ou use CONTINUAR.
 
 Os testes automatizados verificam múltiplos ponteiros, diagonais, liberação, proporções em pé/deitado, tradução e comportamento do menu. Android/Chrome e iPhone/Safari precisam de validação manual com ROM real, incluindo fullscreen, áudio, rotação durante toque e importação/exportação.
+
+## Direcional central arrastável
+
+O centro do D-pad contém um botão arrastável, preservando as oito setas. Um toque mantido no centro permite mudar entre as oito direções sem levantar o dedo; a zona neutra de 8 px libera as direções ao retornar ao centro, e o deslocamento visual do botão é limitado a 34 px. Ele envia comandos direcionais digitais do jogador 1, não intensidade analógica. A captura do ponteiro mantém o movimento mesmo fora do botão. Ao soltar/cancelar, abrir menu, pausar, girar, perder foco ou desmontar, o botão volta ao centro e libera as entradas. Outros dedos continuam podendo acionar ações e setas simultaneamente.
