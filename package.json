@@ -16,7 +16,8 @@
     "test:state-files": "node --test scripts/emulator-state.test.mjs",
     "test:controls": "node --test scripts/controls.test.mjs",
     "test:mobile": "node --test scripts/mobile.test.mjs",
-    "test:pwa": "node --test scripts/pwa.test.mjs"
+    "test:pwa": "node --test scripts/pwa.test.mjs",
+    "test:pause": "node --test scripts/pause-state.test.mjs"
   },
   "dependencies": {
     "nostalgist": "^0.10.0",
