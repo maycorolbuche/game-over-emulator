@@ -34,7 +34,34 @@
         "mode": ","
       }
     },
-    "active": true
+    "active": true,
+    "cheats": {
+      "default_format": "free",
+      "formats": [
+        {
+          "id": "game_genie",
+          "label": "Game Genie",
+          "masks": [
+            "XXXX-XXXX"
+          ],
+          "characters": "ABCDEFGHJKLMNPRSTVWXYZ0123456789"
+        },
+        {
+          "id": "raw",
+          "label": "Patch / Pro Action Replay",
+          "masks": [
+            "XXXXXX:XXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "free",
+          "label": "Livre / múltiplas linhas",
+          "masks": [],
+          "characters": null
+        }
+      ]
+    }
   },
   {
     "name": "Nintendo",
@@ -63,7 +90,51 @@
         "right": "keypad3"
       }
     },
-    "active": true
+    "active": true,
+    "cheats": {
+      "default_format": "free",
+      "formats": [
+        {
+          "id": "game_genie",
+          "label": "Game Genie",
+          "masks": [
+            "XXXXXX",
+            "XXXXXXXX"
+          ],
+          "characters": "APZLGITYEOXUKSVN"
+        },
+        {
+          "id": "pro_action_replay",
+          "label": "Pro Action Replay",
+          "masks": [
+            "XXXXXXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "raw",
+          "label": "Endereço e valor",
+          "masks": [
+            "XXXX:XX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "raw_compare",
+          "label": "Endereço, comparação e valor",
+          "masks": [
+            "XXXX?XX:XX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "free",
+          "label": "Livre / múltiplas linhas",
+          "masks": [],
+          "characters": null
+        }
+      ]
+    }
   },
   {
     "name": "Master System",
@@ -89,7 +160,51 @@
         "button2": "b"
       }
     },
-    "active": true
+    "active": true,
+    "cheats": {
+      "default_format": "free",
+      "formats": [
+        {
+          "id": "game_genie",
+          "label": "Game Genie",
+          "masks": [
+            "XXX-XXX",
+            "XXX-XXX-XXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "action_replay",
+          "label": "Action Replay",
+          "masks": [
+            "XXXX-XXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "raw_ram",
+          "label": "Fusion RAM",
+          "masks": [
+            "XXXX:XX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "raw_rom",
+          "label": "Fusion ROM",
+          "masks": [
+            "XXXXXX:XX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "free",
+          "label": "Livre / múltiplas linhas",
+          "masks": [],
+          "characters": null
+        }
+      ]
+    }
   },
   {
     "name": "Super Nintendo",
@@ -126,7 +241,42 @@
         "right": "keypad3"
       }
     },
-    "active": true
+    "active": true,
+    "cheats": {
+      "default_format": "free",
+      "formats": [
+        {
+          "id": "game_genie",
+          "label": "Game Genie",
+          "masks": [
+            "XXXX-XXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "pro_action_replay",
+          "label": "Pro Action Replay",
+          "masks": [
+            "XXXXXXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "raw",
+          "label": "Endereço e valor",
+          "masks": [
+            "XXXXXX:XX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "free",
+          "label": "Livre / múltiplas linhas",
+          "masks": [],
+          "characters": null
+        }
+      ]
+    }
   },
   {
     "name": "Game Boy Advance",
@@ -149,6 +299,33 @@
         "turbo_b": "s"
       }
     },
-    "active": true
+    "active": true,
+    "cheats": {
+      "default_format": "free",
+      "formats": [
+        {
+          "id": "hex_8_8",
+          "label": "Hexadecimal (8 + 8)",
+          "masks": [
+            "XXXXXXXX XXXXXXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "hex_8_4",
+          "label": "Hexadecimal (8 + 4)",
+          "masks": [
+            "XXXXXXXX XXXX"
+          ],
+          "characters": "0123456789ABCDEF"
+        },
+        {
+          "id": "free",
+          "label": "Livre / múltiplas linhas",
+          "masks": [],
+          "characters": null
+        }
+      ]
+    }
   }
 ]
