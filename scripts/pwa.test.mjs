@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { runInNewContext } from 'node:vm';
 import { generateWorker } from '../pwa/build-plugin.mjs';
-import { createPwaController } from '../src/helpers/Pwa.mjs';
+import { registerPwa } from '../src/helpers/Pwa.mjs';
 
 test('manifesto permite rotação, tem escopo e ícones reais nas dimensões declaradas', async () => {
   const manifest = JSON.parse(await readFile(new URL('../public/manifest.webmanifest', import.meta.url), 'utf8'));
@@ -59,24 +59,19 @@ test('offline atende navegação e assets; ROMs externas e POST passam direto', 
     x.handlers.fetch({ request, respondWith() { assert.fail('requisição não deve ser cacheada'); } });
   }
 });
-function environment() {
-  const listeners = new Map();
-  const host = { navigator: { onLine: true, userAgent:'Android', platform:'Linux', maxTouchPoints:1 },
-    matchMedia: () => ({ matches:false, addEventListener(){}, removeEventListener(){} }),
-    addEventListener: (name, fn) => listeners.set(name,fn), removeEventListener: name => listeners.delete(name),
+test('registro mantém worker sem interceptar instalação nativa ou forçar atualização', async () => {
+  let calls = 0;
+  const registration = { waiting: {} };
+  const host = {
+    navigator: { serviceWorker: { register: async (path, options) => {
+      calls++; assert.equal(path, '/sw.js'); assert.equal(options.scope, '/');
+      assert.equal(options.updateViaCache, 'none'); return registration;
+    } } },
+    addEventListener() { assert.fail('não deve interceptar instalação'); },
+    location: { reload() { assert.fail('não deve recarregar'); } },
   };
-  return { host, listeners };
-}
-test('prompt só abre por ação do usuário e é consumido uma única vez', async () => {
-  const {host,listeners}=environment(); const state={}; const controller=createPwaController(host,state);
-  let prompts=0;
-  listeners.get('beforeinstallprompt')({preventDefault(){},prompt:async()=>{prompts++;},userChoice:Promise.resolve({outcome:'dismissed'})});
-  assert.equal(state.canInstall,true); assert.equal(prompts,0);
-  await controller.install(); await controller.install(); assert.equal(prompts,1); assert.equal(state.canInstall,false);
-  listeners.get('appinstalled')(); assert.equal(state.installed,true); controller.stop(); assert.equal(listeners.size,0);
+  assert.equal(await registerPwa(host), registration); assert.equal(calls, 1);
 });
-test('iPad é reconhecido e atualização aguardando não força reload', async () => {
-  const {host}=environment();host.navigator.platform='MacIntel';host.navigator.maxTouchPoints=5;
-  host.navigator.serviceWorker={register:async(path,options)=>{assert.equal(path,'/sw.js');assert.equal(options.updateViaCache,'none');return {waiting:{},addEventListener(){}};}};
-  const state={}; const controller=createPwaController(host,state);await controller.register(); assert.equal(state.ios,true);assert.equal(state.updateAvailable,true);
+test('navegador sem service worker continua funcionando', async () => {
+  assert.equal(await registerPwa({ navigator: {} }), undefined);
 });
