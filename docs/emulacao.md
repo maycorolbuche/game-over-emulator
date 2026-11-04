@@ -58,11 +58,11 @@ Referências: [Nostalgist press](https://nostalgist.js.org/apis/press/), [Genesi
 
 ## Rebobinar
 
-Segure Backspace para voltar pelos estados recentes; solte para continuar desse ponto. No mobile, segure o botão ⏪ junto de Start/Select. A lista CONTROLES mostra o atalho logo abaixo de Acelerar, tanto na lateral desktop quanto no diálogo mobile.
+Segure Backspace para voltar pelos estados recentes; solte para continuar desse ponto. No mobile, os controles na tela exibem somente os botões do console; ações do emulador ficam no menu. Rebobinar permanece disponível por Backspace em teclado físico. A lista CONTROLES mostra o atalho logo abaixo de Acelerar, tanto na lateral desktop quanto no diálogo mobile.
 
 Game.vue habilita rewind_enable, com rewind_buffer_size de 20 MB e rewind_granularity de 1. O histórico é mantido pelo RetroArch na memória da sessão; sua duração depende da ROM, do núcleo e dos estados, sem garantia de segundos fixos. Não lê nem sobrescreve slots do localStorage e não exporta esse histórico. A captura contínua aumenta consumo de CPU e memória; confira especialmente o desempenho no celular. Os núcleos configurados declaram suporte, mas a execução nos builds WebAssembly exige validação com ROM real.
 
-O atalho é tratado pelo site, com input_rewind=nul para evitar acionamento duplicado pelo binding nativo. Enquanto houver tecla ou toque mantido, envia sendCommand("REWIND") uma vez por callback de requestAnimationFrame; o comando do RetroArch vale um quadro, não é um toggle. Autorepetição do teclado não cria loops extras. Campos editáveis preservam Backspace; pausa, menu, diálogo, carregamento e salvamento bloqueiam rebobinar. Soltar/cancelar o toque, perder foco, ocultar a página, redimensionar/girar, pausar, reiniciar, capturar/restaurar estado e fechar interrompem o loop. Teclado e toque compartilham um loop e soltar uma origem não cancela a outra ainda mantida. A velocidade depende do navegador e do processamento do núcleo.
+O atalho é tratado pelo site, com input_rewind=nul para evitar acionamento duplicado pelo binding nativo. Enquanto Backspace estiver mantido, envia sendCommand("REWIND") uma vez por callback de requestAnimationFrame; o comando do RetroArch vale um quadro, não é um toggle. Autorepetição do teclado não cria loops extras. Campos editáveis preservam Backspace; pausa, menu, diálogo, carregamento e salvamento bloqueiam rebobinar. Soltar a tecla, perder foco, ocultar a página, redimensionar/girar, pausar, reiniciar, capturar/restaurar estado e fechar interrompem o loop. A velocidade depende do navegador e do processamento do núcleo.
 
 ## Salvamento
 
