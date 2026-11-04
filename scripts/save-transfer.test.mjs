@@ -26,7 +26,7 @@ test('identidade usa bytes reais da ROM e do núcleo', async () => {
   assert.match(data.coreHash, /^[a-f0-9]{64}$/);
 });
 function component(service) {
-  const script = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const PauseState = { setPaused(instance, paused) { instance[paused ? "pause" : "resume"](); } }; const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
+  const script = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
   const storage = { get() { throw new Error('storage não pode ser lido'); }, set() { throw new Error('storage não pode ser gravado'); } };
   const options = new Function('Storage', 'Conversions', 'Screen', 'Key', 'Nostalgist', 'Swal', 'markRaw', 'SaveTransfer', script)(storage, {}, {}, {}, {}, {}, x => x, service);
   const vm = { ...options.data(), console: 'nes', id: 'game' };

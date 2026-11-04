@@ -26,7 +26,7 @@ test('redimensionamento mantém proporção em pé e deitado sem exceder área',
   assert.equal(fitScreen(390,604,3/2).height,260);
 });
 function game() {
-  const source = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url),'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm,'').replace('export default','const PauseState = { setPaused(instance, paused) { instance[paused ? "pause" : "resume"](); } }; return');
+  const source = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url),'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm,'').replace('export default','return');
   const options = new Function('Key','TouchControls','Controls','Storage','Conversions','Screen','Nostalgist','Swal','markRaw','SaveTransfer','EmulatorState','fitScreen',source)({}, {}, Controls, {}, {}, {}, {}, { isVisible: () => false }, x=>x, {}, {}, fitScreen);
   const events=[];
   const vm={...options.data(), console:'gens', $refs:{touchControls:{releaseAll(){events.push('release');}}}, nostalgist:{pause(){events.push('pause');},resume(){events.push('resume');},pressDown(b,p){events.push(['down',b,p]);},pressUp(b,p){events.push(['up',b,p]);}}};
