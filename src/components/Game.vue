@@ -92,7 +92,7 @@
         v-if="mobile_layout"
         class="link"
         type="button"
-        @click="runMenuAction(() => show_touch = !show_touch)"
+        @click="runMenuAction(() => (show_touch = !show_touch))"
       >
         {{ show_touch ? "OCULTAR BOTÕES" : "MOSTRAR BOTÕES" }}
       </button>
@@ -216,7 +216,11 @@
             hidden
             @change="importSave($event)"
           />
-          <a :class="{ link: true }" href="javascript:" @click="runMenuAction(() => close())">
+          <a
+            :class="{ link: true }"
+            href="javascript:"
+            @click="runMenuAction(() => close())"
+          >
             FECHAR
           </a>
         </div>
@@ -389,13 +393,46 @@ export default {
       }
       const wasPaused = this.is_paused;
       this.pause();
-      const labels = { up: "Cima", down: "Baixo", left: "Esquerda", right: "Direita", button1: "1", button2: "2", mode: "Mode", turbo_a: "Turbo A", turbo_b: "Turbo B", pause: "Pausar", save: "Salvar", load: "Carregar", fullscreen: "Tela cheia", restart: "Reiniciar", accelerate: "Acelerar" };
-      const text = Object.entries(this.game_controls).map(([player, controls]) =>
-        this.info_player(player) + "\n" + Object.entries(controls).map(([button, keys]) =>
-          (labels[button] || button.toUpperCase()) + ": " + (Array.isArray(keys) ? keys.join(" + ") : keys)
-        ).join("\n")
-      ).join("\n\n");
-      await Swal.fire({ title: "Controles", text, confirmButtonText: "Voltar ao jogo", target: this.$refs.emulator, heightAuto: false, customClass: { htmlContainer: "game-controls-text" } });
+      const labels = {
+        up: "Cima",
+        down: "Baixo",
+        left: "Esquerda",
+        right: "Direita",
+        button1: "1",
+        button2: "2",
+        mode: "Mode",
+        turbo_a: "Turbo A",
+        turbo_b: "Turbo B",
+        pause: "Pausar",
+        save: "Salvar",
+        load: "Carregar",
+        fullscreen: "Tela cheia",
+        restart: "Reiniciar",
+        accelerate: "Acelerar",
+      };
+      const text = Object.entries(this.game_controls)
+        .map(
+          ([player, controls]) =>
+            this.info_player(player) +
+            "\n" +
+            Object.entries(controls)
+              .map(
+                ([button, keys]) =>
+                  (labels[button] || button.toUpperCase()) +
+                  ": " +
+                  (Array.isArray(keys) ? keys.join(" + ") : keys),
+              )
+              .join("\n"),
+        )
+        .join("\n\n");
+      await Swal.fire({
+        title: "Controles",
+        text,
+        confirmButtonText: "Voltar ao jogo",
+        target: this.$refs.emulator,
+        heightAuto: false,
+        customClass: { htmlContainer: "game-controls-text" },
+      });
       if (!wasPaused && !this.session_closed) this.play();
     },
     resumeFromCanvas() {
@@ -564,11 +601,14 @@ export default {
       for (const resolve of waiters) resolve(applied);
     },
     requestPlayback(paused) {
-      if (!this.nostalgist || this.session_closed) return Promise.resolve(false);
+      if (!this.nostalgist || this.session_closed)
+        return Promise.resolve(false);
       const instance = this.nostalgist;
       this.is_paused = paused;
       clearTimeout(this.playback_timer);
-      const settled = new Promise(resolve => this.playback_waiters.push(resolve));
+      const settled = new Promise((resolve) =>
+        this.playback_waiters.push(resolve),
+      );
       // Coalesce opposite requests before sending RetroArch's PAUSE_TOGGLE.
       this.playback_timer = setTimeout(() => {
         this.playback_timer = null;
@@ -593,13 +633,19 @@ export default {
     restart() {
       if (this.nostalgist) {
         // Nostalgist.restart() also resumes immediately, bypassing the queue.
-        this.nostalgist.sendCommand("RESET");
-        return this.play();
+        if (this.is_paused) {
+          this.play();
+          setTimeout(() => {
+            this.nostalgist.sendCommand("RESET");
+          }, 10);
+        } else {
+          this.nostalgist.sendCommand("RESET");
+        }
       }
     },
     speed() {
       if (this.nostalgist) {
-        console.log("FAST_FORWARD");
+        //console.log("FAST_FORWARD");
         this.nostalgist.sendCommand("FAST_FORWARD");
       }
     },
@@ -646,8 +692,15 @@ export default {
       const wasPaused = this.is_paused;
       try {
         const ready = await this.play();
-        if (!ready || this.is_paused || this.session_closed || this.nostalgist !== instance)
-          throw new Error("A sessão não está disponível para carregar o estado.");
+        if (
+          !ready ||
+          this.is_paused ||
+          this.session_closed ||
+          this.nostalgist !== instance
+        )
+          throw new Error(
+            "A sessão não está disponível para carregar o estado.",
+          );
         await EmulatorState.restoreState(instance, state, {
           active: () => !this.session_closed && this.nostalgist === instance,
         });
@@ -660,8 +713,15 @@ export default {
       const wasPaused = this.is_paused;
       try {
         const ready = await this.play();
-        if (!ready || this.is_paused || this.session_closed || this.nostalgist !== instance)
-          throw new Error("A sessão não está disponível para capturar o estado.");
+        if (
+          !ready ||
+          this.is_paused ||
+          this.session_closed ||
+          this.nostalgist !== instance
+        )
+          throw new Error(
+            "A sessão não está disponível para capturar o estado.",
+          );
         return await EmulatorState.captureState(instance, {
           active: () => !this.session_closed && this.nostalgist === instance,
         });
@@ -925,7 +985,10 @@ export default {
 </script>
 
 <style scoped>
-#emulator :deep(.game-controls-text) { white-space: pre-line; text-align: left; }
+#emulator :deep(.game-controls-text) {
+  white-space: pre-line;
+  text-align: left;
+}
 #emulator {
   background: #000;
   position: relative;
