@@ -300,6 +300,7 @@ export default {
       loading: false,
       nostalgist: null,
       interact: true,
+      dialog_open: false,
       is_paused: false,
       fullscreen: false,
       show_controls: false,
@@ -384,16 +385,13 @@ export default {
         this.show_controls = true;
         return;
       }
-      const wasPaused = this.is_paused;
-      this.pause();
       const labels = { up: "Cima", down: "Baixo", left: "Esquerda", right: "Direita", button1: "1", button2: "2", mode: "Mode", turbo_a: "Turbo A", turbo_b: "Turbo B", pause: "Pausar", save: "Salvar", load: "Carregar", fullscreen: "Tela cheia", restart: "Reiniciar", accelerate: "Acelerar" };
       const text = Object.entries(this.game_controls).map(([player, controls]) =>
         this.info_player(player) + "\n" + Object.entries(controls).map(([button, keys]) =>
           (labels[button] || button.toUpperCase()) + ": " + (Array.isArray(keys) ? keys.join(" + ") : keys)
         ).join("\n")
       ).join("\n\n");
-      await Swal.fire({ title: "Controles", text, confirmButtonText: "Voltar ao jogo", target: this.$refs.emulator, heightAuto: false, customClass: { htmlContainer: "game-controls-text" } });
-      if (!wasPaused && !this.session_closed) this.play();
+      await this.showGameDialog({ title: "Controles", text, confirmButtonText: "Voltar ao jogo", target: this.$refs.emulator, heightAuto: false, customClass: { htmlContainer: "game-controls-text" } });
     },
     resumeFromCanvas() {
       if (!Swal.isVisible() && !this.menu_open) this.play();
@@ -437,12 +435,22 @@ export default {
         this.pause();
       }
     },
-    async showError(text, retry = false) {
-      if (this.session_closed) return;
+    async showGameDialog(options) {
+      if (this.session_closed || this.dialog_open) return { isConfirmed: false };
       const instance = this.nostalgist;
       const wasPaused = this.is_paused;
+      this.dialog_open = true;
       this.pause();
-      const result = await Swal.fire({
+      try {
+        return await Swal.fire({ target: this.$refs.emulator, heightAuto: false, ...options });
+      } finally {
+        this.dialog_open = false;
+        if (!wasPaused && !this.session_closed && this.nostalgist === instance) this.play();
+      }
+    },
+    async showError(text, retry = false) {
+      if (this.session_closed) return;
+      const result = await this.showGameDialog({
         icon: "error",
         title: retry ? "Não foi possível iniciar" : "Não foi possível concluir",
         text,
@@ -461,8 +469,6 @@ export default {
           this.disposeGame();
           this.$emit("close");
         }
-      } else if (!wasPaused && this.nostalgist === instance) {
-        this.play();
       }
     },
     async launchGame() {
@@ -506,6 +512,7 @@ export default {
           })(),
           retroarchConfig: {
             savestate_thumbnail_enable: false,
+            pause_nonactive: false,
             ...this.retroarch_controls,
           },
         };
@@ -553,6 +560,7 @@ export default {
       }
     },
     play() {
+      if (this.dialog_open || this.menu_open || (typeof document !== "undefined" && document.hidden)) return;
       if (this.nostalgist && this.is_paused) {
         this.nostalgist.resume();
         this.is_paused = false;
@@ -561,6 +569,7 @@ export default {
     restart() {
       if (this.nostalgist) {
         this.nostalgist.restart();
+        this.is_paused = false;
       }
     },
     speed() {
@@ -569,44 +578,28 @@ export default {
         this.nostalgist.sendCommand("FAST_FORWARD");
       }
     },
-    restartGame() {
-      if (this.nostalgist) {
-        if (this.fullscreen) {
-          this.toggleFullscreen();
-        }
-        this.pause();
-        Swal.fire({
-          title: "Deseja reinicar este jogo?",
-          showCancelButton: true,
-          confirmButtonText: "Sim",
-          cancelButtonText: `Não`,
-        }).then((result) => {
-          if (this.session_closed) return;
-          if (result.isConfirmed) {
-            if (this.nostalgist) {
-              this.restart();
-            }
-          }
-          this.play();
-        });
-      }
+    async restartGame() {
+      if (!this.nostalgist || this.dialog_open) return;
+      const result = await this.showGameDialog({
+        title: "Deseja reiniciar este jogo?",
+        showCancelButton: true,
+        confirmButtonText: "Sim",
+        cancelButtonText: "Não",
+      });
+      if (!this.session_closed && result.isConfirmed) this.restart();
     },
-    close() {
-      this.pause();
-      Swal.fire({
+    async close() {
+      if (this.dialog_open) return;
+      const result = await this.showGameDialog({
         title: "Deseja fechar este jogo?",
         showCancelButton: true,
         confirmButtonText: "Sim",
-        cancelButtonText: `Não`,
-      }).then((result) => {
-        if (this.session_closed) return;
-        if (result.isConfirmed) {
-          this.disposeGame();
-          this.$emit("close");
-        } else {
-          this.play();
-        }
+        cancelButtonText: "Não",
       });
+      if (!this.session_closed && result.isConfirmed) {
+        this.disposeGame();
+        this.$emit("close");
+      }
     },
     async restoreCurrentState(instance, state) {
       const wasPaused = this.is_paused;

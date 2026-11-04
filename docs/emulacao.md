@@ -102,3 +102,7 @@ O centro do D-pad contém um botão arrastável, preservando as oito setas. Um t
 ## Seleção de ações no menu mobile
 
 Selecionar uma ação recolhe imediatamente o painel e executa o comando. Se a partida estava rodando antes de abrir o menu, ela é retomada antes da ação; PAUSAR, confirmações e erros aplicam sua própria pausa. Salvar/carregar/exportar mantêm suas validações e importação abre o seletor no mesmo gesto do usuário. CONTROLES abre um SweetAlert com a lista, para que o painel possa fechar sem perder essa informação. Desktop mantém a lateral e a visualização de controles existentes.
+
+## Sincronização de pausa nos diálogos
+
+showGameDialog centraliza pausa e restauração de estado para confirmações, erros e controles. Enquanto um diálogo está aberto, play não retoma a sessão; ao dispensar, só retoma se ela estava rodando antes e a aba está visível, o menu fechado e a mesma instância continua ativa. Cancelar reinício/fechamento preserva pausa prévia. Reiniciar confirmado atualiza is_paused porque Nostalgist.restart também retoma internamente. A configuração pause_nonactive=false evita a pausa automática do RetroArch por foco concorrer com os comandos explícitos da aplicação; visibilitychange continua pausando quando o app fica em segundo plano.
