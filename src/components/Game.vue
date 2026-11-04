@@ -303,6 +303,8 @@ export default {
       message: null,
       loading: false,
       nostalgist: null,
+      rewind_sources: new Set(),
+      rewind_frame: null,
       interact: true,
       is_paused: false,
       playback_applied_paused: false,
@@ -339,6 +341,7 @@ export default {
           fullscreen: "F11",
           restart: "TAB",
           accelerate: "'",
+          rewind: "BACKSPACE",
         },
         ...Controls.visibleControls(this.console, this.controls),
       };
@@ -409,6 +412,7 @@ export default {
         fullscreen: "Tela cheia",
         restart: "Reiniciar",
         accelerate: "Acelerar",
+        rewind: "Rebobinar (segurar)",
       };
       const text = Object.entries(this.game_controls)
         .map(
@@ -439,6 +443,10 @@ export default {
       if (!Swal.isVisible() && !this.menu_open) this.play();
     },
     touchInput(button, pressed) {
+      if (button === "rewind") {
+        this.rewindInput(pressed, "touch");
+        return;
+      }
       const input = Controls.profiles[this.console]?.buttons[button];
       if (
         !input ||
@@ -450,6 +458,54 @@ export default {
     },
     releaseTouch() {
       this.$refs?.touchControls?.releaseAll();
+      this.stopRewind();
+    },
+    canRewind() {
+      return !!this.nostalgist && !this.session_closed && !this.loading &&
+        !this.is_paused && !this.playback_applied_paused &&
+        !this.menu_open && !this.save_busy && !Swal.isVisible?.();
+    },
+    rewindInput(pressed, source) {
+      if (pressed) {
+        if (!this.canRewind()) return;
+        this.rewind_sources.add(source);
+        if (this.rewind_frame === null) this.rewindStep();
+      } else {
+        this.rewind_sources.delete(source);
+        if (!this.rewind_sources.size) this.stopRewind();
+      }
+    },
+    rewindStep() {
+      if (!this.rewind_sources.size || !this.canRewind()) {
+        this.stopRewind();
+        return;
+      }
+      try {
+        // REWIND is a one-frame command, not an on/off toggle.
+        this.nostalgist.sendCommand("REWIND");
+        this.rewind_frame = requestAnimationFrame(this.rewindStep);
+      } catch (error) {
+        this.stopRewind();
+        console.error("Erro ao rebobinar:", error);
+        this.showError("Não foi possível rebobinar este jogo.");
+      }
+    },
+    stopRewind() {
+      if (this.rewind_frame !== null) cancelAnimationFrame(this.rewind_frame);
+      this.rewind_frame = null;
+      this.rewind_sources.clear();
+    },
+    rewindKeyDown(event) {
+      if (event.key !== "Backspace" || event.isComposing ||
+          event.target?.closest?.('input, textarea, select, [contenteditable]:not([contenteditable="false"])') ||
+          !this.canRewind()) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (!event.repeat && !event.ctrlKey && !event.altKey && !event.metaKey)
+        this.rewindInput(true, "keyboard");
+    },
+    rewindKeyUp(event) {
+      if (event.key === "Backspace") this.rewindInput(false, "keyboard");
     },
     toggleMenu() {
       if (!this.menu_open) {
@@ -545,6 +601,11 @@ export default {
             }
           })(),
           retroarchConfig: {
+            rewind_enable: true,
+            rewind_buffer_size: 20,
+            rewind_granularity: 1,
+            // Backspace is handled by the guarded keyboard loop above.
+            input_rewind: "nul",
             savestate_thumbnail_enable: false,
             ...this.retroarch_controls,
           },
@@ -631,6 +692,7 @@ export default {
       return settled;
     },
     restart() {
+      this.stopRewind();
       if (this.nostalgist) {
         // Nostalgist.restart() also resumes immediately, bypassing the queue.
         if (this.is_paused) {
@@ -689,6 +751,7 @@ export default {
       });
     },
     async restoreCurrentState(instance, state) {
+      this.stopRewind();
       const wasPaused = this.is_paused;
       try {
         const ready = await this.play();
@@ -710,6 +773,7 @@ export default {
       }
     },
     async captureCurrentState(instance) {
+      this.stopRewind();
       const wasPaused = this.is_paused;
       try {
         const ready = await this.play();
@@ -934,6 +998,9 @@ export default {
     },
   },
   mounted() {
+    window.addEventListener("keydown", this.rewindKeyDown, true);
+    window.addEventListener("keyup", this.rewindKeyUp, true);
+    window.addEventListener("blur", this.releaseTouch);
     window.addEventListener("resize", this.updateViewport);
     document.addEventListener("visibilitychange", this.pageVisibility);
     this.updateViewport();
@@ -962,6 +1029,9 @@ export default {
   },
   beforeUnmount() {
     this.disposeGame();
+    window.removeEventListener("keydown", this.rewindKeyDown, true);
+    window.removeEventListener("keyup", this.rewindKeyUp, true);
+    window.removeEventListener("blur", this.releaseTouch);
 
     window.removeEventListener("click", this.handleUserInteraction);
     window.removeEventListener("keydown", this.handleUserInteraction);

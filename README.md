@@ -45,6 +45,7 @@ O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do c
 - Catálogo por console e busca global e por seção.
 - Nintendo, Super Nintendo, Mega Drive, Master System e Game Boy Advance.
 - Emulação com pausa, reinício, aceleração e tela cheia.
+- Rebobinar segurando Backspace ou o botão ⏪ no mobile, com histórico temporário em memória.
 - Salvamento manual de estado no navegador.
 - Exportação do estado atual e importação com carregamento imediato, sem alterar saves locais.
 - Links diretos para jogos e mensagens de endereço não encontrado.
