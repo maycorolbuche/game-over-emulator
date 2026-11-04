@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createTouchInput, fitScreen } from '../src/helpers/TouchInput.mjs';
+import { createTouchInput, fitScreen, joystickState } from '../src/helpers/TouchInput.mjs';
 import { parse } from '@vue/compiler-sfc';
 import { readFileSync } from 'node:fs';
 import * as Controls from '../src/helpers/Controls.mjs';
@@ -43,4 +43,29 @@ test('menu libera toques, pausa e retoma apenas sessão anteriormente ativa',()=
   vm.toggleMenu();assert.equal(vm.menu_open,true);assert.equal(vm.is_paused,true);
   vm.toggleMenu();assert.equal(vm.is_paused,false);assert.equal(vm.nostalgist,instance);
   vm.pause();events.length=0;vm.toggleMenu();vm.toggleMenu();assert.equal(events.includes('resume'),false);
+});
+
+test('direcional central cobre oito direções, zona neutra e limite visual', () => {
+  const samples = [[30,0,['right']], [30,30,['down','right']], [0,30,['down']], [-30,30,['down','left']], [-30,0,['left']], [-30,-30,['up','left']], [0,-30,['up']], [30,-30,['up','right']]];
+  for (const [x,y,expected] of samples) assert.deepEqual(joystickState(x,y).buttons, expected);
+  assert.deepEqual(joystickState(3,3).buttons, []);
+  assert.ok(Math.hypot(joystickState(1000,1000).x, joystickState(1000,1000).y) <= 34.0001);
+});
+test('arrastar mantém captura, permite ação simultânea e centraliza ao cancelar', () => {
+  const source = parse(readFileSync(new URL('../src/components/TouchControls.vue',import.meta.url),'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm,'').replace('export default','return');
+  const options = new Function('markRaw','createTouchInput','joystickState',source)(x=>x,createTouchInput,joystickState);
+  const events = []; const vm = {...options.data(), disabled:false};
+  vm.input = createTouchInput((button, down)=>events.push([button,down]));
+  const stick = { getBoundingClientRect:()=>({left:0,top:0,width:44,height:44}) };
+  let captures=0;vm.$el={contains:()=>true,setPointerCapture(){captures++;}};
+  for(const [key,method] of Object.entries(options.methods)) vm[key]=method.bind(vm);
+  vm.down({pointerId:1,clientX:22,clientY:22,target:{closest:selector=>selector==='[data-stick]'?stick:null},preventDefault(){}});
+  vm.move({pointerId:1,clientX:60,clientY:22});
+  vm.input.update(2,['a']);
+  vm.move({pointerId:1,clientX:22,clientY:-20});
+  assert.deepEqual(events,[['right',true],['a',true],['right',false],['up',true]]);
+  assert.equal(captures,1);
+  vm.up({pointerId:1});assert.equal(vm.stick_id,null);assert.equal(vm.stick_x,0);assert.equal(vm.stick_y,0);
+  assert.deepEqual(events.at(-1),['up',false]);
+  vm.releaseAll();assert.deepEqual(events.at(-1),['a',false]);
 });

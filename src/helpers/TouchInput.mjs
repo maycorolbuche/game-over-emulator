@@ -23,3 +23,14 @@ export function fitScreen(width, height, ratio) {
   const fittedWidth = Math.min(width, height * ratio);
   return { width: fittedWidth, height: fittedWidth / ratio };
 }
+
+export function joystickState(dx, dy, radius = 34, deadZone = 8) {
+  const distance = Math.hypot(dx, dy);
+  const scale = distance > radius ? radius / distance : 1;
+  const sectors = [
+    ['right'], ['down', 'right'], ['down'], ['down', 'left'],
+    ['left'], ['up', 'left'], ['up'], ['up', 'right'],
+  ];
+  const sector = (Math.round(Math.atan2(dy, dx) / (Math.PI / 4)) + 8) % 8;
+  return { x: dx * scale, y: dy * scale, buttons: distance <= deadZone ? [] : sectors[sector] };
+}
