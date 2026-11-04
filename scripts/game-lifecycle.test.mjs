@@ -129,3 +129,28 @@ test('fechar diálogo de inicialização encerra jogo e retorno tardio não reab
   next.$emit = () => { closed++; }; await next.showError('erro', true);
   assert.equal(next.session_closed, true); assert.equal(closed, 1);
 });
+
+test('reiniciar/Não mantém núcleo pausado durante diálogo e sincroniza ao voltar', async () => {
+  const answer = deferred();
+  let corePaused = false;
+  const engine = { pause(){ corePaused=true; }, resume(){ corePaused=false; }, restart(){ corePaused=false; } };
+  const vm = setup(async config => { assert.equal(config.retroarchConfig.pause_nonactive, false); return engine; }, { fire: () => answer.promise });
+  await vm.launchGame();
+  const dialog = vm.restartGame();
+  assert.equal(vm.dialog_open, true); assert.equal(vm.is_paused, true); assert.equal(corePaused, true);
+  vm.play();
+  assert.equal(corePaused, true);
+  answer.resolve({ isConfirmed: false }); await dialog;
+  assert.equal(vm.dialog_open, false); assert.equal(vm.is_paused, false); assert.equal(corePaused, false);
+  vm.pause(); assert.equal(vm.is_paused, true); assert.equal(corePaused, true);
+  vm.play(); assert.equal(vm.is_paused, false); assert.equal(corePaused, false);
+});
+test('cancelar confirmação preserva pausa prévia e confirmar reinício atualiza a interface', async () => {
+  let confirm = false; let paused = false;
+  const engine = { pause(){paused=true;}, resume(){paused=false;}, restart(){paused=false;} };
+  const vm = setup(async()=>engine, {fire:async()=>({isConfirmed:confirm})});
+  await vm.launchGame();vm.pause();
+  await vm.restartGame();assert.equal(vm.is_paused,true);assert.equal(paused,true);
+  await vm.close();assert.equal(vm.is_paused,true);assert.equal(paused,true);
+  confirm=true;await vm.restartGame();assert.equal(vm.is_paused,false);assert.equal(paused,false);
+});
