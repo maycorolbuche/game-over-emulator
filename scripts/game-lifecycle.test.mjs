@@ -10,7 +10,7 @@ function setup(launch, swal = {}) {
   const { descriptor } = parse(source);
   const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
   const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', script)(
-    { launch }, swal, {}, {}, {}, {}, markRaw,
+    { launch }, { isVisible: () => false, ...swal }, {}, {}, {}, {}, markRaw,
   );
   const canvas = {};
   const vm = { ...options.data(), filename: 'game.zip', console: 'nes', retroarch_controls: {}, $refs: { emulatorCanvas: canvas } };
@@ -26,6 +26,76 @@ function deferred() {
 function instance() {
   return { exits: 0, exit(options) { assert.equal(options.removeCanvas, false); this.exits++; } };
 }
+
+function playback(t, paused = false) {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
+  const vm = setup(() => {});
+  const commands = [];
+  vm.nostalgist = {
+    pause: () => commands.push('pause'),
+    resume: () => commands.push('resume'),
+    sendCommand: command => commands.push(command),
+    exit() {},
+  };
+  vm.is_paused = vm.playback_applied_paused = paused;
+  return { vm, commands };
+}
+
+test('pausado: play seguido de pause em menos de 10 ms não envia comandos', async t => {
+  const { vm, commands } = playback(t, true);
+  const first = vm.play();
+  t.mock.timers.tick(5);
+  const last = vm.pause();
+  t.mock.timers.tick(9);
+  assert.deepEqual(commands, []);
+  assert.equal(vm.is_paused, true);
+  t.mock.timers.tick(1);
+  assert.deepEqual(commands, []);
+  assert.equal(await first, true);
+  assert.equal(await last, true);
+});
+
+test('rodando: pause seguido de play mantém execução sem alternar núcleo', t => {
+  const { vm, commands } = playback(t);
+  vm.pause(); vm.play(); t.mock.timers.tick(10);
+  assert.deepEqual(commands, []);
+  assert.equal(vm.is_paused, false);
+});
+
+test('último pedido vence e pedidos repetidos não duplicam comandos', t => {
+  const { vm, commands } = playback(t);
+  vm.pause(); vm.play(); vm.pause(); t.mock.timers.tick(10);
+  assert.deepEqual(commands, ['pause']);
+  vm.pause(); t.mock.timers.tick(10);
+  assert.deepEqual(commands, ['pause']);
+  vm.play(); t.mock.timers.tick(9); assert.deepEqual(commands, ['pause']);
+  t.mock.timers.tick(1); assert.deepEqual(commands, ['pause', 'resume']);
+});
+
+test('fechamento cancela transição pendente e libera quem aguarda', async t => {
+  const { vm, commands } = playback(t, true);
+  const pending = vm.play(); vm.disposeGame(); t.mock.timers.tick(20);
+  assert.equal(await pending, false);
+  assert.deepEqual(commands, []);
+});
+
+test('reinício não usa retomada imediata da biblioteca nem duplica resume', t => {
+  const { vm, commands } = playback(t, true);
+  vm.restart(); vm.play();
+  assert.deepEqual(commands, ['RESET']);
+  t.mock.timers.tick(10);
+  assert.deepEqual(commands, ['RESET', 'resume']);
+});
+
+test('ação de confirmação no menu não retoma jogo pausado entre pedidos', t => {
+  const { vm, commands } = playback(t);
+  vm.mobile_layout = true;
+  vm.toggleMenu(); t.mock.timers.tick(10);
+  vm.runMenuAction(() => vm.pause()); t.mock.timers.tick(10);
+  assert.deepEqual(commands, ['pause']);
+  assert.equal(vm.menu_open, false);
+  assert.equal(vm.is_paused, true);
+});
 
 test('sucesso usa o canvas próprio e impede inicializações duplicadas', async () => {
   const pending = deferred();

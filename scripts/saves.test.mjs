@@ -46,10 +46,12 @@ test('falha do núcleo/conversão não mostra sucesso', async () => {
   x.conversions.blobToBase64 = async () => { throw new Error('reader'); };
   await x.vm.saveState(0); assert.equal(x.vm.message, null); assert.equal(x.vm.save_busy, false);
 });
-test('slot vazio não é erro e operação tardia não grava após fechar', async () => {
+test('slot vazio não é erro e operação tardia não grava após fechar', async t => {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
   const x = setup(null); await x.vm.loadState(0); assert.equal(x.vm.message, 'Nada a ser carregado');
   let finish; x.vm.nostalgist.saveState = () => new Promise(resolve => { finish = resolve; });
   const pending = x.vm.saveState(0); await x.vm.saveState(0);
+  t.mock.timers.tick(10); await Promise.resolve();
   x.vm.session_closed = true; finish({ state: new Blob(['a']) }); await pending;
   assert.equal(x.stored(), null);
 });
