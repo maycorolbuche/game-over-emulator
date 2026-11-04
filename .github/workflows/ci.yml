@@ -50,7 +50,5 @@ jobs:
         run: npm run test:mobile
       - name: Testar instalação e cache PWA
         run: npm run test:pwa
-      - name: Testar sincronização de pausa
-        run: npm run test:pause
       - name: Gerar build
         run: npm run build

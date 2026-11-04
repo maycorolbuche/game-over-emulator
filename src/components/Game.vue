@@ -256,7 +256,6 @@ import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import * as Controls from "@/helpers/Controls.mjs";
 import TouchControls from "@/components/TouchControls.vue";
 import { fitScreen } from "@/helpers/TouchInput.mjs";
-import * as PauseState from "@/helpers/PauseState.mjs";
 import Storage from "@/helpers/Storage.js";
 import Conversions from "@/helpers/Conversions.js";
 import Screen from "@/helpers/Screen.js";
@@ -301,7 +300,6 @@ export default {
       loading: false,
       nostalgist: null,
       interact: true,
-      dialog_open: false,
       is_paused: false,
       fullscreen: false,
       show_controls: false,
@@ -386,13 +384,16 @@ export default {
         this.show_controls = true;
         return;
       }
+      const wasPaused = this.is_paused;
+      this.pause();
       const labels = { up: "Cima", down: "Baixo", left: "Esquerda", right: "Direita", button1: "1", button2: "2", mode: "Mode", turbo_a: "Turbo A", turbo_b: "Turbo B", pause: "Pausar", save: "Salvar", load: "Carregar", fullscreen: "Tela cheia", restart: "Reiniciar", accelerate: "Acelerar" };
       const text = Object.entries(this.game_controls).map(([player, controls]) =>
         this.info_player(player) + "\n" + Object.entries(controls).map(([button, keys]) =>
           (labels[button] || button.toUpperCase()) + ": " + (Array.isArray(keys) ? keys.join(" + ") : keys)
         ).join("\n")
       ).join("\n\n");
-      await this.showGameDialog({ title: "Controles", text, confirmButtonText: "Voltar ao jogo", target: this.$refs.emulator, heightAuto: false, customClass: { htmlContainer: "game-controls-text" } });
+      await Swal.fire({ title: "Controles", text, confirmButtonText: "Voltar ao jogo", target: this.$refs.emulator, heightAuto: false, customClass: { htmlContainer: "game-controls-text" } });
+      if (!wasPaused && !this.session_closed) this.play();
     },
     resumeFromCanvas() {
       if (!Swal.isVisible() && !this.menu_open) this.play();
@@ -436,22 +437,12 @@ export default {
         this.pause();
       }
     },
-    async showGameDialog(options) {
-      if (this.session_closed || this.dialog_open) return { isConfirmed: false };
-      const instance = this.nostalgist;
-      const wasPaused = this.is_paused;
-      this.dialog_open = true;
-      this.pause();
-      try {
-        return await Swal.fire({ target: this.$refs.emulator, heightAuto: false, ...options });
-      } finally {
-        this.dialog_open = false;
-        if (!wasPaused && !this.session_closed && this.nostalgist === instance) this.play();
-      }
-    },
     async showError(text, retry = false) {
       if (this.session_closed) return;
-      const result = await this.showGameDialog({
+      const instance = this.nostalgist;
+      const wasPaused = this.is_paused;
+      this.pause();
+      const result = await Swal.fire({
         icon: "error",
         title: retry ? "Não foi possível iniciar" : "Não foi possível concluir",
         text,
@@ -470,6 +461,8 @@ export default {
           this.disposeGame();
           this.$emit("close");
         }
+      } else if (!wasPaused && this.nostalgist === instance) {
+        this.play();
       }
     },
     async launchGame() {
@@ -513,9 +506,6 @@ export default {
           })(),
           retroarchConfig: {
             savestate_thumbnail_enable: false,
-            pause_nonactive: false,
-            pause_on_disconnect: false,
-            input_pause_toggle: "nul",
             ...this.retroarch_controls,
           },
         };
@@ -558,22 +548,19 @@ export default {
     pause() {
       this.releaseTouch();
       if (this.nostalgist && !this.is_paused) {
-        PauseState.setPaused(this.nostalgist, true);
+        this.nostalgist.pause();
         this.is_paused = true;
       }
     },
     play() {
-      if (this.dialog_open || this.menu_open || (typeof document !== "undefined" && document.hidden)) return;
       if (this.nostalgist && this.is_paused) {
-        PauseState.setPaused(this.nostalgist, false);
+        this.nostalgist.resume();
         this.is_paused = false;
       }
     },
     restart() {
       if (this.nostalgist) {
-        this.nostalgist.sendCommand("RESET");
-        PauseState.setPaused(this.nostalgist, false);
-        this.is_paused = false;
+        this.nostalgist.restart();
       }
     },
     speed() {
@@ -582,28 +569,44 @@ export default {
         this.nostalgist.sendCommand("FAST_FORWARD");
       }
     },
-    async restartGame() {
-      if (!this.nostalgist || this.dialog_open) return;
-      const result = await this.showGameDialog({
-        title: "Deseja reiniciar este jogo?",
-        showCancelButton: true,
-        confirmButtonText: "Sim",
-        cancelButtonText: "Não",
-      });
-      if (!this.session_closed && result.isConfirmed) this.restart();
+    restartGame() {
+      if (this.nostalgist) {
+        if (this.fullscreen) {
+          this.toggleFullscreen();
+        }
+        this.pause();
+        Swal.fire({
+          title: "Deseja reinicar este jogo?",
+          showCancelButton: true,
+          confirmButtonText: "Sim",
+          cancelButtonText: `Não`,
+        }).then((result) => {
+          if (this.session_closed) return;
+          if (result.isConfirmed) {
+            if (this.nostalgist) {
+              this.restart();
+            }
+          }
+          this.play();
+        });
+      }
     },
-    async close() {
-      if (this.dialog_open) return;
-      const result = await this.showGameDialog({
+    close() {
+      this.pause();
+      Swal.fire({
         title: "Deseja fechar este jogo?",
         showCancelButton: true,
         confirmButtonText: "Sim",
-        cancelButtonText: "Não",
+        cancelButtonText: `Não`,
+      }).then((result) => {
+        if (this.session_closed) return;
+        if (result.isConfirmed) {
+          this.disposeGame();
+          this.$emit("close");
+        } else {
+          this.play();
+        }
       });
-      if (!this.session_closed && result.isConfirmed) {
-        this.disposeGame();
-        this.$emit("close");
-      }
     },
     async restoreCurrentState(instance, state) {
       const wasPaused = this.is_paused;

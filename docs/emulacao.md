@@ -102,13 +102,3 @@ O centro do D-pad contém um botão arrastável, preservando as oito setas. Um t
 ## Seleção de ações no menu mobile
 
 Selecionar uma ação recolhe imediatamente o painel e executa o comando. Se a partida estava rodando antes de abrir o menu, ela é retomada antes da ação; PAUSAR, confirmações e erros aplicam sua própria pausa. Salvar/carregar/exportar mantêm suas validações e importação abre o seletor no mesmo gesto do usuário. CONTROLES abre um SweetAlert com a lista, para que o painel possa fechar sem perder essa informação. Desktop mantém a lateral e a visualização de controles existentes.
-
-## Sincronização de pausa nos diálogos
-
-showGameDialog centraliza pausa e restauração de estado para confirmações, erros e controles. Enquanto um diálogo está aberto, play não retoma a sessão; ao dispensar, só retoma se ela estava rodando antes e a aba está visível, o menu fechado e a mesma instância continua ativa. Cancelar reinício/fechamento preserva pausa prévia. Reiniciar confirmado envia RESET e retoma explicitamente o loop, atualizando is_paused. A configuração pause_nonactive=false evita a pausa automática do RetroArch por foco concorrer com os comandos explícitos da aplicação; visibilitychange continua pausando quando o app fica em segundo plano.
-
-## Pausa explícita do loop
-
-PauseState.mjs interrompe/retoma Browser.mainLoop exposto por nostalgist.getEmscripten e suspende/retoma os contextos de áudio do mesmo núcleo. Não utiliza nostalgist.pause/resume nem PAUSE_TOGGLE: chamadas repetidas para o mesmo estado são idempotentes. O estado is_paused que mostra a camada de pausa e escurece o canvas só é atualizado após aplicar esse estado ao loop. A camada é uma representação desse estado, sem observar mutações do DOM.
-
-O núcleo inicia rodando; reinício envia RESET sem usar a retomada implícita de Nostalgist.restart. Captura/restauração continuam podendo retomar temporariamente o loop para processar comandos. pause_nonactive, pause_on_disconnect e a tecla interna de alternância ficam desativados para evitar controles concorrentes; o app trata visibilidade, menus e diálogos. Esta integração depende das APIs Browser.mainLoop e AL expostas pelo pacote Nostalgist atual e deve ser verificada ao atualizar o núcleo. Pausas internas do próprio jogo via Start são independentes da pausa do emulador.
