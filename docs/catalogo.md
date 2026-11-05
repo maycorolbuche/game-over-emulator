@@ -94,9 +94,9 @@ As consultas IGDB obtêm token por OAuth da Twitch, com configuração atualment
 
 ## Formatos de cheats
 
-Cada console inclui cheats.default_format e cheats.formats. São metadados preparados para o formulário de cheats; o modal e sua integração com o núcleo ainda não estão implementados. O padrão free preserva digitação livre, inclusive códigos compostos, sem impor uma máscara única ao console.
+Cada console inclui cheats.default_format e cheats.formats. O modal CHEATS usa esses metadados para escolher formato, mostrar a máscara e normalizar códigos ao sair do campo ou adicionar. O padrão free preserva digitação livre, inclusive códigos compostos, sem impor uma máscara única ao console.
 
-Cada formato tem id, label, masks e characters. Em masks, X representa um caractere do alfabeto characters; os demais caracteres são separadores literais. Várias máscaras representam comprimentos alternativos. O formato free usa masks vazio e characters nulo, sem transformação nem restrição. Não cortar nem remover caracteres de códigos colados que não correspondam a uma máscara: permitir selecionar Livre. Para um conjunto de várias linhas, preservar a ordem e manter as linhas no mesmo cheat.
+Cada formato tem id, label, masks e characters. Em masks, X representa um caractere do alfabeto characters; os demais caracteres são separadores literais. Várias máscaras representam comprimentos alternativos. O formato free usa masks vazio e characters nulo, sem máscara nem conversão de letras; aplicam-se os limites gerais do cadastro. Não cortar nem remover caracteres de códigos colados que não correspondam a uma máscara: permitir selecionar Livre. Para um conjunto de várias linhas, preservar a ordem e manter as linhas no mesmo cheat.
 
 | Console | Formatos identificados |
 | --- | --- |

@@ -22,6 +22,8 @@ O catálogo é importado no frontend, não consultado em uma API. A busca no cab
 | src/components/SearchInput.vue | Busca global e resultados progressivos |
 | src/components/Key.vue | Apresentação das teclas |
 | src/components/bg/ e src/assets/bg/ | Elementos decorativos |
+| src/helpers/Cheats.mjs | Formatos, armazenamento por jogo e aplicação no RetroArch v1.21.0 |
+| src/helpers/CheatsDialog.mjs | Formulário e checkboxes no SweetAlert |
 | src/helpers/ | Storage, conversão Blob/Base64 e tela cheia |
 | src/json/ | Catálogos de consoles e jogos |
 | public/ | Arquivos estáticos locais, atualmente favicon |
@@ -48,7 +50,8 @@ Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game
 - GitHub Pages: origem configurada das ROMs e imagens por console.
 - Twitch/IGDB: usados pelo script de manutenção, não necessários para consultar o catálogo pronto.
 - Google Analytics: configurado em src/main.js por vue-gtag.
-- localStorage: guarda estados dos jogos na origem atual.
+- localStorage: guarda estados dos jogos e listas de cheats por console/jogo na origem atual.
+- jsDelivr: entrega os JS/WASM dos núcleos, fixados em retroarch-emscripten-build@v1.21.0 para os exports de cheats.
 
 Consoles.vue mostra consoles ativos. Games.vue filtra jogos ativos do console e ordena por nome. A busca global também exige jogo e console ativos. As capas da listagem usam loading=lazy e decoding=async, com espaço reservado de 180 × 240 px; isso não pagina nem reduz o total de cards renderizados.
 

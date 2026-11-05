@@ -29,6 +29,7 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run test:routes` | Testa resolução e navegação de consoles e jogos |
 | `npm run test:saves` | Testa falhas e preservação dos salvamentos |
 | `npm run test:transfer` | Testa exportação/importação sem alterar saves locais |
+| `npm run test:cheats` | Testa cadastro, máscaras, persistência e aplicação dos cheats |
 | `npm run test:controls` | Valida perfis e tradução dos controles por console |
 | `npm run test:mobile` | Testa multitoque, proporção e menu do emulador |
 | `npm run test:pwa` | Testa manifesto, cache, instalação e atualização do PWA |
@@ -47,6 +48,7 @@ O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do c
 - Emulação com pausa, reinício, aceleração e tela cheia.
 - Rebobinar segurando Backspace, com histórico temporário em memória.
 - Salvamento manual de estado no navegador.
+- Cheats por jogo, com código, descrição e ativação individual salvos no navegador.
 - Exportação do estado atual e importação com carregamento imediato, sem alterar saves locais.
 - Links diretos para jogos e mensagens de endereço não encontrado.
 - Layout mobile com menu recolhível, rotação e controles de toque do jogador 1.

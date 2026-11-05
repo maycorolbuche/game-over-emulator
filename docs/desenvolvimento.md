@@ -52,6 +52,7 @@ npm run test:emulator
 npm run test:routes
 npm run test:saves
 npm run test:transfer
+npm run test:cheats
 npm run test:mobile
 npm run test:pwa
 npm run build
@@ -106,3 +107,7 @@ Execute npm run test:mobile (também no CI). Os testes usam a lógica real de mu
 ## Desenvolvimento do PWA
 
 Use npm run test:pwa para validar manifesto/ícones, geração e versionamento de pré-cache, fallback offline, isolamento de caches e registro do worker sem interceptar a instalação nativa. O CI executa esse comando. Para testar worker real, gere build e use npm run serve em localhost; o servidor dev não registra worker. Antes de depurar versões antigas, confira o registro em DevTools e suas abas abertas; atualizações aguardam encerramento das instâncias. Veja o guia de operação para checagens em Android/iOS. O plugin gera dist/sw.js após o build e não deve ser executado manualmente sobre arquivos incompletos.
+
+## Testes de cheats
+
+npm run test:cheats (também no CI) cobre máscaras reais do consoles.json, códigos livres/compostos, cadastro ativado, persistência isolada por console/jogo, dados corrompidos, quota com restauração da lista anterior, limpeza ao desativar o último código, liberação de memória, núcleo sem exports, formulário/checkbox com DOM simulado, texto sem interpolação HTML e pausa/retomada pelos métodos reais de Game.vue. Não executa ROM nem garante efeito dos códigos no WebAssembly. Após publicar, conferir cada núcleo com uma ROM e código compatíveis, recarregar a página, ativar/desativar, abrir/fechar o modal em pausa e execução, salvar/carregar e usar fullscreen/mobile.

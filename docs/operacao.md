@@ -77,3 +77,11 @@ Validação após publicar:
 6. Publicar outra versão: confirmar que a partida não é interrompida e que a ativação ocorre após fechar todas as instâncias.
 
 Os testes automatizados simulam eventos do navegador, caches e rede; não comprovam a instalação real em aparelhos.
+
+## Atualização dos núcleos e cheats
+
+Os núcleos JS/WASM agora são resolvidos por Cheats.mjs em jsDelivr com a tag v1.21.0. Não basta atualizar somente um dos arquivos. Nostalgist continua em 0.10; a versão anterior padrão v1.19.1 não oferece os exports exigidos pelo cadastro dinâmico. Sem esses exports, o site informa indisponibilidade e não afirma que aplicou cheats.
+
+Antes de publicar, validar inicialização, pausa/retomada, rewind e salvar/carregar com uma ROM por núcleo. A atualização altera o hash do núcleo, portanto arquivos .save.json exportados anteriormente serão recusados pela comparação de identidade já existente. Os arquivos e saves locais são preservados; não há conversor de estados entre versões. Se precisar carregar um arquivo antigo, usar a versão correspondente do núcleo/aplicação em ambiente separado. Não remover o verificador de integridade para contornar a incompatibilidade.
+
+Cheats ficam na chave cheats.<console>.<id> do navegador. Conferir origem, console e ID quando uma lista não aparecer; não limpar o armazenamento como primeiro diagnóstico. Ao desativar um código, valores já modificados podem persistir no jogo; reiniciar pode ser necessário. Códigos dependem da ROM/região, e ausência de erro do parser não confirma efeito.
