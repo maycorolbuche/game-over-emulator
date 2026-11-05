@@ -51,8 +51,6 @@
           id="emulator-canvas"
           ref="emulatorCanvas"
           :style="{
-            width: '100%',
-            height: '100%',
             opacity: this.is_paused ? 0.2 : 1,
           }"
         />
@@ -1041,9 +1039,11 @@ export default {
       );
       const canvas = this.$refs.emulatorCanvas;
       if (canvas && size.width > 0 && size.height > 0) {
-        canvas.style.setProperty("width", size.width + "px", "important");
-        canvas.style.setProperty("height", size.height + "px", "important");
-        if (this.nostalgist) this.nostalgist.resize(size);
+        // The core owns the backing buffer and applies devicePixelRatio itself.
+        // Its Emscripten resize code removes inline width/height, so keep CSS
+        // dimensions in custom properties which it does not remove.
+        canvas.style.setProperty("--canvas-width", size.width + "px");
+        canvas.style.setProperty("--canvas-height", size.height + "px");
       }
     },
     info_player(info) {
@@ -1149,6 +1149,7 @@ export default {
   min-height: 0;
 }
 #emulator-container {
+  min-width: 0;
   min-height: 0;
   flex: 1;
   position: relative;
@@ -1157,6 +1158,12 @@ export default {
   justify-content: center;
 }
 #emulator-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--canvas-width, 100%) !important;
+  height: var(--canvas-height, 100%) !important;
   flex: none;
   max-width: 100%;
   max-height: 100%;

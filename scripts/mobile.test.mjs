@@ -25,6 +25,42 @@ test('redimensionamento mantém proporção em pé e deitado sem exceder área',
   }
   assert.equal(fitScreen(390,604,3/2).height,260);
 });
+test('canvas mantém tamanho CSS quando núcleo muda buffer e remove width/height inline', () => {
+  const {vm} = game();
+  let area = { width: 844, height: 390 }, resizeCalls = 0;
+  const properties = new Map();
+  const canvas = { width: 300, height: 150, style: {
+    setProperty: (key, value) => properties.set(key, value),
+    removeProperty: key => properties.delete(key),
+  } };
+  vm.$refs.gameStage = {};
+  vm.$refs.emulatorContainer = { getBoundingClientRect: () => area };
+  vm.$refs.emulatorCanvas = canvas;
+  vm.nostalgist.resize = () => { resizeCalls++; };
+  const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
+  assert.match(source, /width: var\(--canvas-width, 100%\) !important/);
+  assert.match(source, /height: var\(--canvas-height, 100%\) !important/);
+  assert.match(source, /#emulator-canvas\s*\{\s*position: absolute/);
+  for (const dpr of [1, 1.25, 1.5, 2, 3]) {
+    for (let i = 0; i < 30; i++) {
+      vm.handleResize();
+      const width = parseFloat(properties.get('--canvas-width'));
+      const height = parseFloat(properties.get('--canvas-height'));
+      assert.equal(width, 520); assert.equal(height, 390);
+      // RetroArch observes CSS pixels, sets a high-DPI backing store and may
+      // remove the inline width/height via Browser.updateCanvasDimensions.
+      canvas.width = Math.round(width * dpr); canvas.height = Math.round(height * dpr);
+      canvas.style.removeProperty('width'); canvas.style.removeProperty('height');
+      assert.equal(parseFloat(properties.get('--canvas-width')), 520);
+    }
+  }
+  assert.equal(resizeCalls, 0);
+  area = { width: 390, height: 604 }; vm.handleResize();
+  assert.equal(parseFloat(properties.get('--canvas-width')), 390);
+  assert.equal(parseFloat(properties.get('--canvas-height')), 292.5);
+  vm.console = 'gba'; vm.handleResize();
+  assert.equal(parseFloat(properties.get('--canvas-height')), 260);
+});
 function game() {
   const source = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url),'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm,'').replace('export default','return');
   const options = new Function('Key','TouchControls','Controls','Storage','Conversions','Screen','Nostalgist','Swal','markRaw','SaveTransfer','EmulatorState','fitScreen',source)({}, {}, Controls, {}, {}, {}, {}, { isVisible: () => false }, x=>x, {}, {}, fitScreen);
