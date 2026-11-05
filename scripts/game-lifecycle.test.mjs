@@ -524,3 +524,24 @@ test('fechar diálogo de inicialização encerra jogo e retorno tardio não reab
   next.$emit = () => { closed++; }; await next.showError('erro', true);
   assert.equal(next.session_closed, true); assert.equal(closed, 1);
 });
+
+ test('Mega Drive inicia com controle de seis botões em ambas as portas; demais consoles mantêm padrão', async () => {
+  for (const consoleId of ['gens', 'sms', 'nes', 'snes', 'gba']) {
+    let launched = false;
+    const vm = setup(config => {
+      launched = true;
+      assert.equal(config.core, consoleId === 'gens' || consoleId === 'sms' ? 'genesis_plus_gx' : consoleId === 'nes' ? 'fceumm' : consoleId === 'snes' ? 'snes9x' : 'mgba');
+      for (const port of [1, 2]) {
+        const key = 'input_libretro_device_p' + port;
+        if (consoleId === 'gens') assert.equal(config.retroarchConfig[key], 513);
+        else assert.equal(Object.hasOwn(config.retroarchConfig, key), false);
+      }
+      return instance();
+    });
+    vm.console = consoleId;
+    await vm.launchGame();
+    assert.equal(launched, true);
+    assert.equal(vm.launch_error, null);
+    vm.disposeGame();
+  }
+});
