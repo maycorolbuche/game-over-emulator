@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parse } from '@vue/compiler-sfc';
 import { markRaw } from 'vue';
 import * as Controls from '../src/helpers/Controls.mjs';
+import * as TurboInput from '../src/helpers/TurboInput.mjs';
 import * as Cheats from '../src/helpers/Cheats.mjs';
 import * as RetroArchCommands from '../src/helpers/RetroArchCommands.mjs';
 import * as StateFiles from '../src/helpers/EmulatorState.mjs';
@@ -13,8 +14,8 @@ function setup(launch, swal = {}) {
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   const { descriptor } = parse(source);
   const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
-  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', 'Cheats', 'RetroArchCommands', script)(
-    { launch }, { isVisible: () => false, ...swal }, { get: () => null }, {}, {}, {}, markRaw, Controls, Cheats, RetroArchCommands,
+  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', 'Cheats', 'RetroArchCommands', 'TurboInput', script)(
+    { launch }, { isVisible: () => false, ...swal }, { get: () => null }, {}, {}, {}, markRaw, Controls, Cheats, RetroArchCommands, TurboInput,
   );
   const canvas = {};
   const vm = { ...options.data(), filename: 'game.zip', console: 'nes', retroarch_controls: {}, $refs: { emulatorCanvas: canvas } };
@@ -152,6 +153,26 @@ test('launch instala comunicação moderna para pause/resume sem alterar debounc
   t.mock.timers.tick(1); assert.equal(core.paused, true);
   vm.play(); t.mock.timers.tick(10); assert.equal(core.paused, false);
   assert.deepEqual(core.stdin, []);
+});
+
+test('turbo integrado envia jogador correto ao Nostalgist e pausa libera todas as entradas', async t => {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
+  const core = modernCore(), events = [];
+  core.instance.pressDown = options => events.push(['down', options]);
+  core.instance.pressUp = options => events.push(['up', options]);
+  const vm = setup(() => core.instance);
+  vm.console = 'gens';
+  vm.controls = JSON.parse(readFileSync(new URL('../src/json/consoles.json', import.meta.url), 'utf8')).find(console => console.id === 'gens').controls;
+  await vm.launchGame();
+  vm.turboKeyDown({ code: 'KeyB', key: 'b', shiftKey: true, target: vm.$refs.emulatorCanvas, preventDefault() {}, stopImmediatePropagation() {} });
+  assert.deepEqual(events[0], ['down', { button: 'y', player: 2 }]);
+  vm.touchInput('a', true);
+  assert.deepEqual(events[1], ['down', { button: 'y', player: 1 }]);
+  vm.pause();
+  assert.ok(events.some(([type, options]) => type === 'up' && options.player === 1));
+  assert.ok(events.some(([type, options]) => type === 'up' && options.player === 2));
+  const count = events.length; t.mock.timers.tick(1000);
+  assert.equal(events.length, count); assert.equal(core.paused, true);
 });
 
 test('captura e restauração reais usam exports modernos para gerar e carregar bytes', async () => {
@@ -395,6 +416,8 @@ test('sucesso usa o canvas próprio e impede inicializações duplicadas', async
     assert.equal(config.retroarchConfig.rewind_buffer_size, 20);
     assert.equal(config.retroarchConfig.rewind_granularity, 1);
     assert.equal(config.retroarchConfig.input_rewind, 'nul');
+    assert.equal(config.retroarchConfig.input_player1_turbo, 'nul');
+    assert.equal(config.retroarchConfig.input_player2_turbo, 'nul');
     assert.equal(config.beforeLaunch, RetroArchCommands.configureLaunch);
     assert.equal(config.respondToGlobalEvents, false);
     assert.equal(config.retroarchConfig.savestate_directory, RetroArchCommands.STATE_DIRECTORY);

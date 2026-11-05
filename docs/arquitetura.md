@@ -22,6 +22,7 @@ O catálogo é importado no frontend, não consultado em uma API. A busca no cab
 | src/components/SearchInput.vue | Busca global e resultados progressivos |
 | src/components/Key.vue | Apresentação das teclas |
 | src/components/bg/ e src/assets/bg/ | Elementos decorativos |
+| src/helpers/TurboInput.mjs | Modificador Shift, repetição de ações e arbitragem teclado/touch |
 | src/helpers/RetroArchCommands.mjs | Adapta os comandos do Nostalgist 0.10 aos exports/API do RetroArch 1.21 |
 | src/helpers/Cheats.mjs | Formatos, armazenamento por jogo e aplicação no RetroArch v1.21.0 |
 | src/helpers/CheatsDialog.mjs | Formulário e checkboxes no SweetAlert |

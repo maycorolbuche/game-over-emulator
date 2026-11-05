@@ -16,6 +16,7 @@
     "test:state-files": "node --test scripts/emulator-state.test.mjs",
     "test:controls": "node --test scripts/controls.test.mjs",
     "test:cheats": "node --test scripts/cheats.test.mjs",
+    "test:turbo": "node --test scripts/turbo.test.mjs",
     "test:mobile": "node --test scripts/mobile.test.mjs",
     "test:pwa": "node --test scripts/pwa.test.mjs"
   },

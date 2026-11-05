@@ -47,6 +47,8 @@ export default {
           return "Acelerar";
         case "rewind":
           return "Rebobinar (segurar)";
+        case "turbo":
+          return "Turbo (segurar)";
         case "start":
           return "Start";
         case "mode":

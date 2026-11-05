@@ -29,6 +29,7 @@ Abra a URL indicada pelo Vite (porta configurada: 3000). É necessária conexão
 | `npm run test:routes` | Testa resolução e navegação de consoles e jogos |
 | `npm run test:saves` | Testa falhas e preservação dos salvamentos |
 | `npm run test:transfer` | Testa exportação/importação sem alterar saves locais |
+| `npm run test:turbo` | Testa Shift como modificador dos botões de ação |
 | `npm run test:cheats` | Testa cadastro, máscaras, persistência e aplicação dos cheats |
 | `npm run test:controls` | Valida perfis e tradução dos controles por console |
 | `npm run test:mobile` | Testa multitoque, proporção e menu do emulador |
@@ -46,6 +47,7 @@ O workflow [CI](.github/workflows/ci.yml) executa instalação, validação do c
 - Catálogo por console e busca global e por seção.
 - Nintendo, Super Nintendo, Mega Drive, Master System e Game Boy Advance.
 - Emulação com pausa, reinício, aceleração e tela cheia.
+- Turbo nos botões de ação ao segurar Shift junto da tecla mapeada.
 - Rebobinar segurando Backspace, com histórico temporário em memória.
 - Salvamento manual de estado no navegador.
 - Cheats por jogo, com código e descrição salvos no navegador; novos códigos entram ativos, e iniciar/reiniciar/carregar desmarca todos.

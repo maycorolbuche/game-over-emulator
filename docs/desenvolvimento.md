@@ -53,6 +53,7 @@ npm run test:routes
 npm run test:saves
 npm run test:transfer
 npm run test:cheats
+npm run test:turbo
 npm run test:mobile
 npm run test:pwa
 npm run build
@@ -127,3 +128,7 @@ Os testes do emulador executam também runMain() extraído do Nostalgist instala
 Os testes de cheats também cobrem início sem reaplicar códigos salvos, preservação dos cadastros com checkboxes desmarcados, limpeza antes de RESET e restauração de estados (caminho compartilhado de carregar/importar), e falha de storage que impede reinício em vez de anunciar uma partida limpa sem conseguir persistir a desativação. Saves inválidos ou slots vazios não iniciam uma restauração e não desativam cheats. Capturar/exportar não altera os checkboxes.
 
 Os testes de cheats cobrem também remoção ativa/última entrada e falha ao persistir a remoção. O teste de teclado extrai e executa updateKeyboardEventHandlers() do bundle instalado do Nostalgist, verificando que keydown/keypress/keyup dos inputs/textarea não chegam ao handler nativo, enquanto os eventos do canvas continuam encaminhados. O launch deve configurar respondToGlobalEvents:false e continuar deve restaurar o foco. O comportamento de digitação e foco no navegador real continua exigindo verificação manual após publicação.
+
+## Testes do turbo
+
+npm run test:turbo também roda no CI. Verifica pressão normal, Shift antes/depois da tecla, retorno ao normal ao soltar Shift, dois Shifts, múltiplos botões/jogadores, tradução Mega Drive, exclusão dos direcionais/sistema/atalhos, campos editáveis, cancelamento, indisponibilidade e compartilhamento com touch. O teste de ciclo de vida verifica a integração real do controlador com Game.vue, o argumento {button, player} do Nostalgist e a liberação ao pausar. Não executa o núcleo WASM. Após publicar, testar normal/Shift/soltar Shift sem soltar a ação, abrir menus durante a repetição, blur, Shift+=, campos do modal e jogadores 1/2 com ROM real.

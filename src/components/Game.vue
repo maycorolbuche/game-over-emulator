@@ -51,6 +51,7 @@
           id="emulator-canvas"
           class="emulator-canvas"
           ref="emulatorCanvas"
+          @blur="releaseTouch()"
           :style="{
             visibility: loading ? 'hidden' : 'visible',
             opacity: this.is_paused ? 0.2 : 1,
@@ -265,6 +266,7 @@ import { markRaw } from "vue";
 import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
 import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import * as Controls from "@/helpers/Controls.mjs";
+import * as TurboInput from "@/helpers/TurboInput.mjs";
 import * as Cheats from "@/helpers/Cheats.mjs";
 import * as RetroArchCommands from "@/helpers/RetroArchCommands.mjs";
 import * as CheatsDialog from "@/helpers/CheatsDialog.mjs";
@@ -314,6 +316,7 @@ export default {
       message: null,
       loading: false,
       nostalgist: null,
+      turbo_input: null,
       cheats_open: false,
       cheat_entries: [],
       rewind_sources: new Set(),
@@ -355,6 +358,7 @@ export default {
           restart: "TAB",
           accelerate: "'",
           rewind: "BACKSPACE",
+          turbo: ["SHIFT", "BOTÃO DE AÇÃO"],
         },
         ...Controls.visibleControls(this.console, this.controls),
       };
@@ -393,6 +397,17 @@ export default {
     },
   },
   methods: {
+    setupTurbo() {
+      const instance = this.nostalgist;
+      this.turbo_input = markRaw(TurboInput.createTurboInput({
+        mapping: TurboInput.bindings(this.console, this.controls),
+        emit: (button, down, player) => instance[down ? "pressDown" : "pressUp"]({ button, player }),
+        active: () => this.canRewind() && !this.cheats_open,
+        target: () => this.$refs.emulatorCanvas,
+      }));
+    },
+    turboKeyDown(event) { this.turbo_input?.keydown(event); },
+    turboKeyUp(event) { this.turbo_input?.keyup(event); },
     restoreCheats() {
       try {
         const entries = Cheats.read(Storage, this.console, this.id);
@@ -510,6 +525,7 @@ export default {
         restart: "Reiniciar",
         accelerate: "Acelerar",
         rewind: "Rebobinar (segurar)",
+        turbo: "Turbo (segurar)",
       };
       const text = Object.entries(this.game_controls)
         .map(
@@ -551,10 +567,12 @@ export default {
         (pressed && (this.menu_open || this.is_paused || this.save_busy))
       )
         return;
-      this.nostalgist[pressed ? "pressDown" : "pressUp"](input, 1);
+      if (this.turbo_input && TurboInput.isAction(button)) this.turbo_input.touchInput(input, pressed, 1);
+      else this.nostalgist[pressed ? "pressDown" : "pressUp"](input, 1);
     },
     releaseTouch() {
       this.$refs?.touchControls?.releaseAll();
+      this.turbo_input?.releaseAll();
       this.stopRewind();
     },
     canRewind() {
@@ -735,6 +753,8 @@ export default {
             rewind_granularity: 1,
             // Backspace is handled by the guarded keyboard loop above.
             input_rewind: "nul",
+            input_player1_turbo: "nul",
+            input_player2_turbo: "nul",
             savestate_thumbnail_enable: false,
             ...this.retroarch_controls,
           },
@@ -746,6 +766,7 @@ export default {
         }
         RetroArchCommands.connect(instance);
         this.nostalgist = markRaw(instance);
+        this.setupTurbo();
         this.playback_applied_paused = false;
         this.restoreCheats();
         this.$nextTick?.(this.handleResize);
@@ -765,6 +786,7 @@ export default {
       if (this.cheats_open) Swal.close();
       this.releaseTouch();
       if (this.session_closed) return;
+      this.turbo_input = null;
       this.session_closed = true;
       clearTimeout(this.playback_timer);
       this.playback_timer = null;
@@ -826,6 +848,7 @@ export default {
       return settled;
     },
     restart() {
+      this.turbo_input?.releaseAll();
       this.stopRewind();
       if (this.nostalgist) {
         try {
@@ -899,6 +922,7 @@ export default {
       });
     },
     async restoreCurrentState(instance, state) {
+      this.turbo_input?.releaseAll();
       this.stopRewind();
       const wasPaused = this.is_paused;
       try {
@@ -922,6 +946,7 @@ export default {
       }
     },
     async captureCurrentState(instance) {
+      this.turbo_input?.releaseAll();
       this.stopRewind();
       const wasPaused = this.is_paused;
       try {
@@ -1175,6 +1200,8 @@ export default {
     },
   },
   mounted() {
+    window.addEventListener("keydown", this.turboKeyDown, true);
+    window.addEventListener("keyup", this.turboKeyUp, true);
     window.addEventListener("keydown", this.rewindKeyDown, true);
     window.addEventListener("keyup", this.rewindKeyUp, true);
     window.addEventListener("blur", this.releaseTouch);
@@ -1206,6 +1233,8 @@ export default {
   },
   beforeUnmount() {
     this.disposeGame();
+    window.removeEventListener("keydown", this.turboKeyDown, true);
+    window.removeEventListener("keyup", this.turboKeyUp, true);
     window.removeEventListener("keydown", this.rewindKeyDown, true);
     window.removeEventListener("keyup", this.rewindKeyUp, true);
     window.removeEventListener("blur", this.releaseTouch);

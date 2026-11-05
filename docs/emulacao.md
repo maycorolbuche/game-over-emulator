@@ -35,6 +35,7 @@ Captura e restauração de saves aguardam essa fila antes de enviar comandos de 
 | Reiniciar | Tab |
 | Acelerar | ' |
 | Rebobinar (segurar) | Backspace |
+| Turbo (botões de ação) | Shift + tecla mapeada |
 
 O comportamento de caracteres e teclas reservadas pode variar conforme teclado e navegador. A opção CONTROLES mostra também o mapa do console. Não há editor de mapeamento; controles virtuais do jogador 1 estão disponíveis no layout mobile.
 
@@ -157,3 +158,13 @@ Ao desativar os cheats para reiniciar/carregar, a gravação dos checkboxes faz 
 ### Teclado do modal e foco do jogo
 
 O launch usa respondToGlobalEvents:false para que Nostalgist mantenha keydown/keypress/keyup no canvas, em vez de encaminhar também a digitação dos campos ao núcleo. O canvas recebe foco ao iniciar pela biblioteca, ao continuar pelo site e ao fechar o modal de cheats. O modal não restaura o foco para o antigo botão do menu; seus campos mantêm digitação, Backspace, colagem e seleção nativas. Os atalhos do site continuam disponíveis conforme o bloqueio de campos editáveis já configurado.
+
+## Turbo com Shift
+
+Com o canvas em foco, segurar Shift junto da tecla de um botão de ação alterna apertar/soltar esse botão. Funciona também ao pressionar Shift depois da tecla. Soltar a tecla encerra a repetição; soltar Shift mantendo a tecla pressionada volta à pressão contínua normal. Aceita Shift esquerdo/direito, vários botões e os jogadores configurados. Exemplo: no Mega Drive do jogador 1, Shift+Z repete o botão A físico (entrada RetroPad y), não a tecla A do teclado.
+
+Somente A/B/C/X/Y/Z/L/R, conforme o console, e 1/2 do Master System participam. Direcionais, Start, Select, Mode/Pause do console, teclas do emulador (incluindo Shift+= para salvar), campos editáveis e combinações Ctrl/Alt/Meta são preservados. Os atalhos opcionais Turbo A/B já existentes no GBA não são remapeados. A lista CONTROLES explica Shift + botão de ação. Não há botão TURBO novo no mobile: o modificador atua no teclado; toques continuam normais.
+
+TurboInput.mjs traduz os perfis de Controls.mjs, intercepta somente teclas de ação do canvas e emite pressDown/pressUp com {button, player}. Mantém um temporizador compartilhado com fases de 50 ms (aproximadamente dez apertos por segundo em tempo real); não depende da autorepetição do teclado. A frequência efetivamente reconhecida depende do jogo, do processamento e de throttling do navegador. Os bindings nativos input_player1_turbo/input_player2_turbo ficam nul para não acumular outro turbo de frontend. O turbo nativo do núcleo GBA permanece independente.
+
+Keyboard e touch de ações passam por arbitragem de estado: um toque normal mantido no mesmo botão tem prioridade sobre as fases desligadas do turbo. Soltar uma origem não libera o botão que continua segurado pela outra. Pausa, abertura do menu/diálogo, blur do canvas/janela, ocultação, redimensionamento, reinício, captura/restauração e encerramento liberam as entradas e cancelam pulsos; retomar exige pressionar novamente. Os demais botões do touch usam o caminho existente. Os testes automatizados simulam entradas/temporizadores e métodos reais de Game.vue; precisam ser complementados por ROM real no navegador, especialmente para frequência, dois jogadores e teclado físico no mobile.

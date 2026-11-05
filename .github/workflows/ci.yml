@@ -48,6 +48,8 @@ jobs:
         run: npm run test:controls
       - name: Testar cheats
         run: npm run test:cheats
+      - name: Testar turbo por Shift
+        run: npm run test:turbo
       - name: Testar entradas e layout mobile
         run: npm run test:mobile
       - name: Testar instalação e cache PWA
