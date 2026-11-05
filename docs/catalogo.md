@@ -91,3 +91,21 @@ O script não é necessário para rodar o site. Antes de usá-lo, confira a estr
 As opções 2–9 pulam o console se o diretório local de ROMs não existir. Algumas operações, como reset de marcadores e remoção de inativos, atuam no JSON inteiro, mesmo após escolher um console. A verificação de duplicidades também examina o conjunto completo.
 
 As consultas IGDB obtêm token por OAuth da Twitch, com configuração atualmente definida no próprio script. Este guia não reproduz credenciais nem pressupõe suporte a variáveis de ambiente que ainda não foi implementado. Uma falha ao buscar capa pode deixar check_image marcado e exigir reset para tentar novamente.
+
+## Formatos de cheats
+
+Cada console inclui cheats.default_format e cheats.formats. São metadados preparados para o formulário de cheats; o modal e sua integração com o núcleo ainda não estão implementados. O padrão free preserva digitação livre, inclusive códigos compostos, sem impor uma máscara única ao console.
+
+Cada formato tem id, label, masks e characters. Em masks, X representa um caractere do alfabeto characters; os demais caracteres são separadores literais. Várias máscaras representam comprimentos alternativos. O formato free usa masks vazio e characters nulo, sem transformação nem restrição. Não cortar nem remover caracteres de códigos colados que não correspondam a uma máscara: permitir selecionar Livre. Para um conjunto de várias linhas, preservar a ordem e manter as linhas no mesmo cheat.
+
+| Console | Formatos identificados |
+| --- | --- |
+| NES | Game Genie de 6/8 letras; PAR de 8 hexadecimais; XXXX:XX; XXXX?XX:XX |
+| SNES | Game Genie XXXX-XXXX; PAR XXXXXXXX; endereço XXXXXX:XX |
+| Mega Drive | Game Genie XXXX-XXXX com alfabeto próprio; patch/PAR XXXXXX:XXXX |
+| Master System | Game Genie XXX-XXX ou XXX-XXX-XXX; Action Replay XXXX-XXXX; Fusion RAM XXXX:XX e ROM XXXXXX:XX |
+| GBA | Linhas hexadecimais XXXXXXXX XXXXXXXX ou XXXXXXXX XXXX; Livre para sequências compostas |
+
+Os nomes 8+8 e 8+4 do GBA descrevem a estrutura, sem inferir a versão do dispositivo ou sua criptografia. Máscara só auxilia digitação: não confirma que o código tem efeito na ROM/região nem que o build WebAssembly o aceita. As opções não pretendem esgotar todas as sintaxes dos núcleos.
+
+Formatos conferidos nos parsers oficiais: [FCEUmm libretro](https://github.com/libretro/libretro-fceumm/blob/master/src/drivers/libretro/libretro.c), [FCEUmm decodificadores](https://github.com/libretro/libretro-fceumm/blob/master/src/cheat.c), [Snes9x](https://github.com/snes9xgit/snes9x/blob/master/cheats2.cpp), [Genesis Plus GX](https://github.com/libretro/Genesis-Plus-GX/blob/master/libretro/libretro.c) e [mGBA](https://github.com/mgba-emu/mgba/blob/master/src/platform/libretro/libretro.c).
