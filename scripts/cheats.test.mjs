@@ -118,9 +118,27 @@ test('modal adiciona marcado, exibe texto seguro, alterna checkbox e recupera fa
   assert.equal(saved[0].enabled, false);
   checkbox = list.children[0].children[0]; fail = true; checkbox.checked = true; checkbox.dispatch('change');
   assert.equal(checkbox.checked, false); assert.equal(message, 'quota');
+  const remove = list.children[0].children.at(-1);
+  assert.equal(remove.textContent, 'Remover'); assert.equal(remove.type, 'button');
+  remove.dispatch('click');
+  assert.equal(saved.length, 1); assert.equal(list.children[0].children[1].children[0].textContent, saved[0].description);
+  fail = false; remove.dispatch('click');
+  assert.deepEqual(saved, []);
+  assert.equal(list.children[0].textContent, 'Nenhum cheat adicionado para este jogo.');
 });
 
-function component({ store, instance, dialog, swal, stateService = {} }) {
+test('remover um cheat ativo atualiza núcleo e storage sem remover outros', () => {
+  const store = storage(), instance = emulator();
+  const previous = [entry(), entry({ id: '2', code: '12345678' })];
+  Cheats.commit(store, instance, 'nes', 'a', [], previous);
+  const next = Cheats.commit(store, instance, 'nes', 'a', previous, previous.filter(item => item.id !== '1'));
+  assert.deepEqual(instance.active, ['12345678']);
+  assert.deepEqual(Cheats.read(store, 'nes', 'a').map(item => item.id), ['2']);
+  Cheats.commit(store, instance, 'nes', 'a', next, []);
+  assert.deepEqual(instance.active, []); assert.deepEqual(Cheats.read(store, 'nes', 'a'), []);
+});
+
+function component({ store, instance, dialog, swal = {}, stateService = {} }) {
   const script = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8')).descriptor.script.content
     .replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'return');
   const options = new Function('Key', 'Cheats', 'CheatsDialog', 'consoles', 'Storage', 'Swal', 'EmulatorState', script)({}, Cheats, dialog, consoles, store, swal, stateService);

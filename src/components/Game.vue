@@ -453,6 +453,7 @@ export default {
           entries,
           target: this.$refs.emulator,
           active: () => !this.session_closed && this.nostalgist === instance,
+          onClosed: () => this.$refs.emulatorCanvas?.focus?.({ preventScroll: true }),
           onChange: (next) => {
             const result = Cheats.commit(
               Storage,
@@ -700,6 +701,7 @@ export default {
         let config = {
           size,
           element: this.$refs.emulatorCanvas,
+          respondToGlobalEvents: false,
           signal: this.launch_controller.signal,
           rom: file,
           resolveCoreJs: (core) => Cheats.coreUrl(core, "js"),
@@ -814,6 +816,7 @@ export default {
             this.playback_applied_paused = this.is_paused;
           }
           this.finishPlayback(true);
+          if (!this.is_paused && !Swal.isVisible?.()) this.$refs?.emulatorCanvas?.focus?.({ preventScroll: true });
         } catch (error) {
           this.is_paused = this.playback_applied_paused;
           this.finishPlayback(false);
@@ -1283,8 +1286,17 @@ export default {
   flex-shrink: 0;
   accent-color: #faa914;
 }
-#emulator :deep(.cheat-row span) {
+#emulator :deep(.cheat-row label) {
   min-width: 0;
+  flex: 1;
+  cursor: pointer;
+}
+#emulator :deep(.cheat-row button) {
+  flex-shrink: 0;
+  min-height: 44px;
+  padding: 8px;
+  font-size: 9px;
+  margin: 0;
 }
 #emulator :deep(.cheat-row code),
 #emulator :deep(.cheat-row strong) {
