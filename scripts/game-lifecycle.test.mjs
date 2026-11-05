@@ -70,6 +70,39 @@ function instance() {
   return { getEmulator: () => emulator, getEmscriptenModule: () => ({}), exits: 0, exit(options) { assert.equal(options.removeCanvas, false); this.exits++; } };
 }
 
+test('rotina real do Nostalgist isola campos editáveis sem bloquear teclado do canvas', () => {
+  const library = readFileSync(new URL(import.meta.resolve('nostalgist')), 'utf8');
+  const start = library.indexOf('  updateKeyboardEventHandlers() {');
+  const end = library.indexOf('\n  async waitForEmscriptenFile(', start);
+  assert.ok(start > 0 && end > start);
+  const document = {}, registered = [];
+  let prevented = 0, focused = 0;
+  const element = { getAttribute: () => null, focus: () => focused++, addEventListener() {} };
+  const JSEvents = {
+    eventHandlers: ['keydown', 'keypress', 'keyup'].map(eventTypeString => ({ target: document, eventTypeString, handlerFunc: event => event.preventDefault() })),
+    registerOrRemoveHandler: handler => { if (handler.handlerFunc) registered.push(handler); },
+  };
+  const update = new Function('document', `return ({${library.slice(start, end)}}).updateKeyboardEventHandlers`)(document);
+  update.call({ options: { element, respondToGlobalEvents: false }, getEmscripten: () => ({ JSEvents }) });
+  assert.equal(registered.length, 3);
+  for (const handler of registered) {
+    assert.equal(handler.target, element);
+    handler.handlerFunc({ target: { tagName: 'INPUT' }, preventDefault: () => prevented++ });
+    handler.handlerFunc({ target: { tagName: 'TEXTAREA' }, preventDefault: () => prevented++ });
+  }
+  assert.equal(prevented, 0);
+  for (const handler of registered) handler.handlerFunc({ target: element, preventDefault: () => prevented++ });
+  assert.equal(prevented, 3); assert.equal(focused, 1);
+});
+
+test('continuar devolve foco ao canvas para permitir teclado após usar menu', t => {
+  const { vm } = playback(t, true);
+  let focused = 0;
+  vm.$refs.emulatorCanvas = { focus: () => focused++ };
+  vm.play(); t.mock.timers.tick(10);
+  assert.equal(vm.is_paused, false); assert.equal(focused, 1);
+});
+
 // Model RetroArch 1.21 deliberately never consumes Nostalgist 0.10's stdin queue.
 function modernCore() {
   const stdin = [], messages = [], files = new Map();
@@ -304,12 +337,16 @@ test('fechamento cancela transição pendente e libera quem aguarda', async t =>
   assert.deepEqual(commands, []);
 });
 
-test('reinício pausado aguarda 10 ms antes de retomar e enviar RESET', t => {
+test('reinício pausado retoma em 10 ms e aguarda 1000 ms para enviar RESET', t => {
   const { vm, commands } = playback(t, true);
   vm.restart();
   assert.deepEqual(commands, []);
   t.mock.timers.tick(9);
   assert.deepEqual(commands, []);
+  t.mock.timers.tick(1);
+  assert.deepEqual(commands, ['resume']);
+  t.mock.timers.tick(989);
+  assert.deepEqual(commands, ['resume']);
   t.mock.timers.tick(1);
   assert.deepEqual(commands, ['resume', 'RESET']);
   assert.equal(vm.is_paused, false);
@@ -322,9 +359,13 @@ test('reinício pausado seguido de play adicional não duplica resume ou RESET',
   t.mock.timers.tick(9);
   assert.deepEqual(commands, []);
   t.mock.timers.tick(1);
-  assert.deepEqual(commands, ['RESET', 'resume']);
-  t.mock.timers.tick(10);
-  assert.deepEqual(commands, ['RESET', 'resume']);
+  assert.deepEqual(commands, ['resume']);
+  t.mock.timers.tick(989);
+  assert.deepEqual(commands, ['resume']);
+  t.mock.timers.tick(1);
+  assert.deepEqual(commands, ['resume', 'RESET']);
+  t.mock.timers.tick(1000);
+  assert.deepEqual(commands, ['resume', 'RESET']);
 });
 
 test('reinício em execução envia RESET imediatamente sem retomar novamente', t => {
@@ -355,6 +396,7 @@ test('sucesso usa o canvas próprio e impede inicializações duplicadas', async
     assert.equal(config.retroarchConfig.rewind_granularity, 1);
     assert.equal(config.retroarchConfig.input_rewind, 'nul');
     assert.equal(config.beforeLaunch, RetroArchCommands.configureLaunch);
+    assert.equal(config.respondToGlobalEvents, false);
     assert.equal(config.retroarchConfig.savestate_directory, RetroArchCommands.STATE_DIRECTORY);
     return pending.promise;
   });
