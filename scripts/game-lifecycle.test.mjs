@@ -418,7 +418,7 @@ test('sucesso usa o canvas próprio e impede inicializações duplicadas', async
     assert.equal(config.retroarchConfig.input_rewind, 'nul');
     assert.equal(config.retroarchConfig.input_player1_turbo, 'nul');
     assert.equal(config.retroarchConfig.input_player2_turbo, 'nul');
-    assert.equal(config.beforeLaunch, RetroArchCommands.configureLaunch);
+    assert.equal(typeof config.beforeLaunch, 'function');
     assert.equal(config.respondToGlobalEvents, false);
     assert.equal(config.retroarchConfig.savestate_directory, RetroArchCommands.STATE_DIRECTORY);
     return pending.promise;
@@ -523,4 +523,53 @@ test('fechar diálogo de inicialização encerra jogo e retorno tardio não reab
   const next = setup(() => {}, { fire: async () => ({ isConfirmed: false }) });
   next.$emit = () => { closed++; }; await next.showError('erro', true);
   assert.equal(next.session_closed, true); assert.equal(closed, 1);
+});
+
+test('Mega Drive seleciona seis botões via argumentos realmente entregues ao runner; demais consoles mantêm padrão', async () => {
+  const library = readFileSync(new URL(import.meta.resolve('nostalgist')), 'utf8');
+  const start = library.indexOf('  runMain() {');
+  const end = library.indexOf('\n  async setupEmscripten()', start);
+  assert.ok(start > 0 && end > start);
+  const runMain = new Function('checkIsAborted', `return ({${library.slice(start, end)}}).runMain`)(() => {});
+  for (const consoleId of ['gens', 'sms', 'nes', 'snes', 'gba']) {
+    let launched = false;
+    const vm = setup(config => {
+      launched = true;
+      const module = {};
+      const fileName = 'Street Fighter II.zip';
+      config.beforeLaunch({
+        getEmscriptenModule: () => module,
+        getEmulatorOptions: () => ({ rom: [{ fileName }] }),
+        getEmscriptenFS: () => ({ mkdirTree() {} }),
+      });
+      let actualArgs;
+      module.callMain = args => { actualArgs = [...args]; };
+      runMain.call({ options: { rom: [{ fileName }] }, getEmscripten: () => ({ Module: module }), postRun() {} });
+      assert.ok(actualArgs.includes('/home/web_user/retroarch/userdata/content/' + fileName));
+      assert.equal(actualArgs[actualArgs.indexOf('-c') + 1], RetroArchCommands.CONFIG_PATH);
+      assert.deepEqual(actualArgs.filter(arg => arg.startsWith('--device=')),
+        consoleId === 'gens' ? ['--device=1:513', '--device=2:513'] : []);
+      assert.equal(Object.hasOwn(config.retroarchConfig, 'input_libretro_device_p1'), false);
+      return instance();
+    });
+    vm.console = consoleId;
+    await vm.launchGame();
+    assert.equal(launched, true);
+    assert.equal(vm.launch_error, null);
+    vm.disposeGame();
+  }
+});
+
+test('configurar dispositivos duas vezes não duplica portas nem remove argumentos existentes', () => {
+  const module = { arguments: ['--verbose'] };
+  const core = {
+    getEmscriptenModule: () => module,
+    getEmulatorOptions: () => ({ rom: [{ fileName: 'game.zip' }] }),
+    getEmscriptenFS: () => ({ mkdirTree() {} }),
+  };
+  RetroArchCommands.configureLaunch(core, 'gens');
+  RetroArchCommands.configureLaunch(core, 'gens');
+  assert.equal(module.arguments.filter(arg => arg === '--device=1:513').length, 1);
+  assert.equal(module.arguments.filter(arg => arg === '--device=2:513').length, 1);
+  assert.ok(module.arguments.includes('--verbose'));
 });

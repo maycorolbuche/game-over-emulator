@@ -12,7 +12,7 @@ const connected = new WeakSet();
 export const CONFIG_PATH = '/home/web_user/retroarch/userdata/retroarch.cfg';
 export const STATE_DIRECTORY = '/home/web_user/retroarch/userdata/states';
 
-export function configureLaunch(instance) {
+export function configureLaunch(instance, consoleId) {
   const module = instance.getEmscriptenModule();
   const fileName = instance.getEmulatorOptions().rom[0]?.fileName;
   if (!fileName) throw new Error('Não foi possível identificar a ROM para iniciar o núcleo.');
@@ -24,6 +24,14 @@ export function configureLaunch(instance) {
     if (args[index] === '-c' || args[index] === '--config') args.splice(index, 2);
   }
   args.push('-c', CONFIG_PATH);
+  if (consoleId === 'gens') {
+    // Device selection is a CLI/remap setting, not a retroarch.cfg setting.
+    // RETRO_DEVICE_SUBCLASS(RETRO_DEVICE_JOYPAD, 1) = MD Joypad 6 Button.
+    for (const port of [1, 2]) {
+      const argument = `--device=${port}:513`;
+      if (!args.includes(argument)) args.push(argument);
+    }
+  }
   instance.getEmscriptenFS().mkdirTree(STATE_DIRECTORY);
   module.arguments = args;
 }

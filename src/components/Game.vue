@@ -733,7 +733,8 @@ export default {
           rom: file,
           resolveCoreJs: (core) => Cheats.coreUrl(core, "js"),
           resolveCoreWasm: (core) => Cheats.coreUrl(core, "wasm"),
-          beforeLaunch: RetroArchCommands.configureLaunch,
+          beforeLaunch: (instance) =>
+            RetroArchCommands.configureLaunch(instance, this.console),
           core: (() => {
             switch (this.console) {
               case "nes":
