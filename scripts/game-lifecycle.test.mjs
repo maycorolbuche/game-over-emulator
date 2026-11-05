@@ -28,6 +28,43 @@ function deferred() {
   const promise = new Promise((yes, no) => { resolve = yes; reject = no; });
   return { promise, resolve, reject };
 }
+
+test('launch aguarda layout e fornece tamanho positivo mesmo com offset 0 durante loading', async () => {
+  const layout = deferred();
+  let calls = 0;
+  const vm = setup(config => {
+    calls++;
+    assert.equal(vm.loading, true);
+    assert.deepEqual(config.size, { width: 320, height: 240 });
+    return instance();
+  });
+  vm.$refs.emulatorCanvas.offsetWidth = 0;
+  vm.$refs.emulatorCanvas.offsetHeight = 0;
+  vm.$nextTick = () => layout.promise;
+  const pending = vm.launchGame();
+  assert.equal(calls, 0);
+  layout.resolve(); await pending;
+  assert.equal(calls, 1); assert.equal(vm.loading, false);
+  const template = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8')).descriptor.template.content;
+  assert.match(template, /v-show="!interact && !launch_error"/);
+  assert.match(template, /visibility: loading \? 'hidden' : 'visible'/);
+});
+
+test('launch usa o tamanho calculado do layout em vez dos atributos do buffer', async () => {
+  const vm = setup(config => {
+    assert.deepEqual(config.size, { width: 520, height: 390 }); return instance();
+  });
+  vm.handleResize = () => ({ width: 520, height: 390 });
+  await vm.launchGame();
+});
+
+test('fechar enquanto aguarda layout impede iniciar um núcleo novo', async () => {
+  const layout = deferred(); let calls = 0;
+  const vm = setup(() => { calls++; return instance(); });
+  vm.$nextTick = () => layout.promise;
+  const pending = vm.launchGame(); vm.disposeGame(); layout.resolve(); await pending;
+  assert.equal(calls, 0); assert.equal(vm.nostalgist, null);
+});
 function instance() {
   const emulator = { sendCommand() {} };
   return { getEmulator: () => emulator, getEmscriptenModule: () => ({}), exits: 0, exit(options) { assert.equal(options.removeCanvas, false); this.exits++; } };
@@ -317,6 +354,7 @@ test('fechamento durante launch descarta e encerra a instância tardia', async (
   const pending = deferred();
   const vm = setup(() => pending.promise);
   const running = vm.launchGame();
+  await Promise.resolve(); // layout flush completed; the core launch is pending
   vm.disposeGame();
   assert.equal(vm.launch_controller.signal.aborted, true);
   const emulator = instance();
@@ -333,6 +371,7 @@ test('rejeição tardia não altera estado de componente fechado', async () => {
   const pending = deferred();
   const vm = setup(() => pending.promise);
   const running = vm.launchGame();
+  await Promise.resolve();
   vm.disposeGame();
   pending.reject(new Error('network'));
   await running;
@@ -344,6 +383,7 @@ test('jogo novo permanece independente da inicialização anterior', async () =>
   const pending = deferred();
   const old = setup(() => pending.promise);
   const first = old.launchGame();
+  await Promise.resolve();
   old.disposeGame();
   const current = instance();
   const next = setup(() => current);

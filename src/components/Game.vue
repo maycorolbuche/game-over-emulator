@@ -47,10 +47,11 @@
         <div v-else-if="loading" class="loading">CARREGANDO</div>
 
         <canvas
-          v-show="!interact && !loading && !launch_error"
+          v-show="!interact && !launch_error"
           id="emulator-canvas"
           ref="emulatorCanvas"
           :style="{
+            visibility: loading ? 'hidden' : 'visible',
             opacity: this.is_paused ? 0.2 : 1,
           }"
         />
@@ -627,7 +628,16 @@ export default {
       try {
         this.loading = true;
 
+        // Flush v-show before measuring. display:none reports a 0x0 canvas and
+        // RetroArch 1.21 needs a real layout even while the loading text is shown.
+        await this.$nextTick?.();
+        if (this.session_closed || attempt !== this.launch_id) return;
+        const size = this.handleResize() || (this.console === "gba"
+          ? { width: 240, height: 160 }
+          : { width: 320, height: 240 });
+
         let config = {
+          size,
           element: this.$refs.emulatorCanvas,
           signal: this.launch_controller.signal,
           rom: file,
@@ -1044,6 +1054,7 @@ export default {
         // dimensions in custom properties which it does not remove.
         canvas.style.setProperty("--canvas-width", size.width + "px");
         canvas.style.setProperty("--canvas-height", size.height + "px");
+        return size;
       }
     },
     info_player(info) {
