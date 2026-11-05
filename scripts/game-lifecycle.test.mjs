@@ -5,14 +5,16 @@ import { parse } from '@vue/compiler-sfc';
 import { markRaw } from 'vue';
 import * as Controls from '../src/helpers/Controls.mjs';
 import * as Cheats from '../src/helpers/Cheats.mjs';
+import * as RetroArchCommands from '../src/helpers/RetroArchCommands.mjs';
+import * as StateFiles from '../src/helpers/EmulatorState.mjs';
 
 // Execute the real component methods, replacing only browser/emulator services.
 function setup(launch, swal = {}) {
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   const { descriptor } = parse(source);
   const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
-  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', 'Cheats', script)(
-    { launch }, { isVisible: () => false, ...swal }, { get: () => null }, {}, {}, {}, markRaw, Controls, Cheats,
+  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', 'Cheats', 'RetroArchCommands', script)(
+    { launch }, { isVisible: () => false, ...swal }, { get: () => null }, {}, {}, {}, markRaw, Controls, Cheats, RetroArchCommands,
   );
   const canvas = {};
   const vm = { ...options.data(), filename: 'game.zip', console: 'nes', retroarch_controls: {}, $refs: { emulatorCanvas: canvas } };
@@ -27,8 +29,87 @@ function deferred() {
   return { promise, resolve, reject };
 }
 function instance() {
-  return { exits: 0, exit(options) { assert.equal(options.removeCanvas, false); this.exits++; } };
+  const emulator = { sendCommand() {} };
+  return { getEmulator: () => emulator, getEmscriptenModule: () => ({}), exits: 0, exit(options) { assert.equal(options.removeCanvas, false); this.exits++; } };
 }
+
+// Model RetroArch 1.21 deliberately never consumes Nostalgist 0.10's stdin queue.
+function modernCore() {
+  const stdin = [], messages = [], files = new Map();
+  let paused = false, loaded;
+  const root = '/home/web_user/retroarch/userdata/states';
+  const path = root + '/rom.state';
+  const module = {
+    _cmd_toggle_pause() { paused = !paused; },
+    _cmd_save_state() { files.set(path, new Uint8Array([1, 2, 3])); },
+    _cmd_load_state() { loaded = [...files.get(path)]; },
+    EmscriptenSendCommand(command) { messages.push(command); },
+  };
+  const emulator = {
+    status: 'running',
+    sendCommand(command) { stdin.push(command); },
+    pause() { if (this.status === 'running') this.sendCommand('PAUSE_TOGGLE'); this.status = 'paused'; },
+    resume() { if (this.status === 'paused') this.sendCommand('PAUSE_TOGGLE'); this.status = 'running'; },
+  };
+  const fs = {
+    analyzePath: directory => ({ exists: directory === root }),
+    readdir: () => ['.', '..', ...[...files.keys()].map(path => path.split('/').at(-1))],
+    stat: path => ({ mode: 0, size: files.get(path).length }), isDir: () => false,
+    unlink: path => files.delete(path), readFile: path => files.get(path),
+    writeFile: (path, bytes) => files.set(path, bytes),
+  };
+  const instance = {
+    getEmulator: () => emulator, getEmscriptenModule: () => module, getEmscriptenFS: () => fs,
+    sendCommand: command => emulator.sendCommand(command),
+    pause: () => emulator.pause(), resume: () => emulator.resume(), exit() {},
+  };
+  return { instance, stdin, messages, module, get paused() { return paused; }, get loaded() { return loaded; } };
+}
+
+test('regressão: stdin antigo não pausa nem gera save no núcleo moderno', async () => {
+  const core = modernCore();
+  core.instance.pause();
+  assert.equal(core.paused, false);
+  await assert.rejects(StateFiles.captureState(core.instance, { attempts: 2, delay: async () => {} }), /não gerou/);
+  assert.deepEqual(core.stdin, ['PAUSE_TOGGLE', 'SAVE_STATE']);
+});
+
+test('launch instala comunicação moderna para pause/resume sem alterar debounce', async t => {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
+  const core = modernCore(); const vm = setup(() => core.instance);
+  await vm.launchGame();
+  vm.pause(); t.mock.timers.tick(9); assert.equal(core.paused, false);
+  t.mock.timers.tick(1); assert.equal(core.paused, true);
+  vm.play(); t.mock.timers.tick(10); assert.equal(core.paused, false);
+  assert.deepEqual(core.stdin, []);
+});
+
+test('captura e restauração reais usam exports modernos para gerar e carregar bytes', async () => {
+  const core = modernCore(); RetroArchCommands.connect(core.instance);
+  const options = { attempts: 3, delay: async () => {} };
+  const { state } = await StateFiles.captureState(core.instance, options);
+  assert.deepEqual([...new Uint8Array(await state.arrayBuffer())], [1, 2, 3]);
+  await StateFiles.restoreState(core.instance, new Blob([new Uint8Array([8, 9])]), options);
+  assert.deepEqual(core.loaded, [8, 9]); assert.deepEqual(core.stdin, []);
+});
+
+test('rewind e aceleração usam EmscriptenSendCommand sem newline ou fila stdin', () => {
+  const core = modernCore();
+  RetroArchCommands.connect(core.instance); RetroArchCommands.connect(core.instance);
+  core.instance.sendCommand('REWIND'); core.instance.sendCommand('REWIND');
+  core.instance.sendCommand('FAST_FORWARD');
+  assert.deepEqual(core.messages, ['REWIND', 'REWIND', 'FAST_FORWARD']);
+  assert.deepEqual(core.stdin, []);
+});
+
+test('sem export direto usa transporte moderno, e módulos legados mantêm stdin', () => {
+  const core = modernCore(); delete core.module._cmd_save_state;
+  RetroArchCommands.connect(core.instance); core.instance.sendCommand('SAVE_STATE');
+  assert.deepEqual(core.messages, ['SAVE_STATE']);
+  const legacy = modernCore(); Object.keys(legacy.module).forEach(key => delete legacy.module[key]);
+  RetroArchCommands.connect(legacy.instance); RetroArchCommands.connect(legacy.instance);
+  legacy.instance.sendCommand('RESET'); assert.deepEqual(legacy.stdin, ['RESET']);
+});
 
 function rewind(t) {
   const { vm, commands } = playback(t);
