@@ -120,10 +120,10 @@ test('modal adiciona marcado, exibe texto seguro, alterna checkbox e recupera fa
   assert.equal(checkbox.checked, false); assert.equal(message, 'quota');
 });
 
-function component({ store, instance, dialog, swal }) {
+function component({ store, instance, dialog, swal, stateService = {} }) {
   const script = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8')).descriptor.script.content
     .replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'return');
-  const options = new Function('Key', 'Cheats', 'CheatsDialog', 'consoles', 'Storage', 'Swal', script)({}, Cheats, dialog, consoles, store, swal);
+  const options = new Function('Key', 'Cheats', 'CheatsDialog', 'consoles', 'Storage', 'Swal', 'EmulatorState', script)({}, Cheats, dialog, consoles, store, swal, stateService);
   const vm = { ...options.data(), console: 'nes', id: 'a', nostalgist: instance, $refs: { emulator: {} } };
   for (const [key, method] of Object.entries(options.methods)) vm[key] = method.bind(vm);
   return vm;
@@ -144,9 +144,50 @@ test('abrir modal pausa, bloqueia retomada no fundo e restaura pausa anterior', 
   const again = vm.openCheats(); t.mock.timers.tick(10); await again; t.mock.timers.tick(10);
   assert.deepEqual(events, []); assert.equal(vm.is_paused, true);
 });
-test('reabrir partida restaura somente cheats habilitados do jogo', () => {
+test('reabrir partida mantém cadastros, desmarca todos e não aplica códigos no boot', () => {
   const store = storage(), instance = emulator();
   store.set('cheats.nes.a', { version: 1, entries: [entry(), entry({ id: '2', enabled: false })] });
   const vm = component({ store, instance }); vm.restoreCheats();
-  assert.deepEqual(instance.active, ['ABCD-EFGH']); assert.equal(vm.cheat_entries.length, 2);
+  assert.deepEqual(instance.active, []); assert.equal(vm.cheat_entries.length, 2);
+  assert.ok(vm.cheat_entries.every(entry => !entry.enabled));
+  assert.ok(Cheats.read(store, 'nes', 'a').every(entry => !entry.enabled));
+  assert.deepEqual(vm.cheat_entries.map(entry => entry.id), ['1', '2']);
+});
+
+test('reiniciar limpa núcleo e persiste checkboxes desmarcados antes de RESET', () => {
+  const store = storage(), instance = emulator();
+  const vm = component({ store, instance });
+  vm.cheat_entries = Cheats.commit(store, instance, 'nes', 'a', [], [entry()]);
+  let resets = 0;
+  instance.sendCommand = command => {
+    assert.equal(command, 'RESET'); assert.deepEqual(instance.active, []);
+    assert.equal(Cheats.read(store, 'nes', 'a')[0].enabled, false); resets++;
+  };
+  vm.restart(); assert.equal(resets, 1);
+  assert.equal(vm.cheat_entries[0].enabled, false);
+});
+
+test('carregar/importar estado limpa cheats antes de restaurar o save', async t => {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
+  const store = storage(), instance = emulator();
+  let restored = 0;
+  const vm = component({ store, instance, stateService: { restoreState: async (_, state) => {
+    assert.equal(await state.text(), 'save'); assert.deepEqual(instance.active, []);
+    assert.equal(Cheats.read(store, 'nes', 'a')[0].enabled, false); restored++;
+  } } });
+  vm.cheat_entries = Cheats.commit(store, instance, 'nes', 'a', [], [entry()]);
+  const pending = vm.restoreCurrentState(instance, new Blob(['save']));
+  t.mock.timers.tick(10); await pending; assert.equal(restored, 1);
+});
+
+test('falha ao persistir desativação interrompe reinício sem perder lista anterior', () => {
+  const store = storage(), instance = emulator(), vm = component({ store, instance });
+  vm.cheat_entries = Cheats.commit(store, instance, 'nes', 'a', [], [entry()]);
+  store.set = () => { throw new Error('quota'); };
+  let resets = 0, message;
+  instance.sendCommand = () => resets++;
+  vm.showError = text => { message = text; };
+  assert.equal(vm.restart(), false); assert.equal(resets, 0);
+  assert.match(message, /anterior foi mantida/);
+  assert.equal(Cheats.read(store, 'nes', 'a')[0].enabled, true);
 });

@@ -396,12 +396,20 @@ export default {
     restoreCheats() {
       try {
         const entries = Cheats.read(Storage, this.console, this.id);
-        if (entries.some(entry => entry.enabled)) Cheats.apply(this.nostalgist, entries);
-        this.cheat_entries = entries;
+        this.cheat_entries = entries.map(entry => ({ ...entry, enabled: false }));
+        // A new core is already clean. Never apply stored codes during boot.
+        if (entries.some(entry => entry.enabled)) Storage.set(Cheats.storageKey(this.console, this.id), {
+          version: 1, entries: this.cheat_entries,
+        });
       } catch (error) {
         console.error("Erro ao restaurar cheats:", error);
         this.save_error = error.message || "Não foi possível restaurar os cheats deste jogo.";
       }
+    },
+    deactivateCheats() {
+      if (!this.cheat_entries.some(entry => entry.enabled)) return;
+      const clean = this.cheat_entries.map(entry => ({ ...entry, enabled: false }));
+      this.cheat_entries = Cheats.commit(Storage, this.nostalgist, this.console, this.id, this.cheat_entries, clean);
     },
     async openCheats() {
       const instance = this.nostalgist;
@@ -409,7 +417,8 @@ export default {
       const wasPaused = this.is_paused;
       this.cheats_open = true;
       try {
-        const entries = Cheats.read(Storage, this.console, this.id);
+        Cheats.read(Storage, this.console, this.id); // preserve validation of stored data
+        const entries = this.cheat_entries;
         if (!Cheats.supported(instance)) throw new Error("Este núcleo não permite aplicar cheats. Reabra o jogo após atualizar o site.");
         await this.pause();
         if (this.session_closed || this.nostalgist !== instance) return;
@@ -764,11 +773,18 @@ export default {
     restart() {
       this.stopRewind();
       if (this.nostalgist) {
+        try {
+          this.deactivateCheats();
+        } catch (error) {
+          this.showError(error.message || "Não foi possível desativar os cheats antes de reiniciar.");
+          return false;
+        }
+        const instance = this.nostalgist;
         // Nostalgist.restart() also resumes immediately, bypassing the queue.
         if (this.is_paused) {
           this.play();
           setTimeout(() => {
-            this.nostalgist.sendCommand("RESET");
+            if (!this.session_closed && this.nostalgist === instance) instance.sendCommand("RESET");
           }, 10);
         } else {
           this.nostalgist.sendCommand("RESET");
@@ -797,7 +813,7 @@ export default {
           if (this.session_closed) return;
           if (result.isConfirmed) {
             if (this.nostalgist) {
-              this.restart();
+              if (this.restart() === false) return;
             }
           }
           this.play();
@@ -826,6 +842,7 @@ export default {
       this.stopRewind();
       const wasPaused = this.is_paused;
       try {
+        this.deactivateCheats();
         const ready = await this.play();
         if (
           !ready ||
