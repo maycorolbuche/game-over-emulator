@@ -49,6 +49,7 @@
         <canvas
           v-show="!interact && !launch_error"
           id="emulator-canvas"
+          class="emulator-canvas"
           ref="emulatorCanvas"
           :style="{
             visibility: loading ? 'hidden' : 'visible',
@@ -1168,7 +1169,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
-#emulator-canvas {
+.emulator-canvas {
   position: absolute;
   top: 50%;
   left: 50%;
