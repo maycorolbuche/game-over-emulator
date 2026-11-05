@@ -396,48 +396,84 @@ export default {
     restoreCheats() {
       try {
         const entries = Cheats.read(Storage, this.console, this.id);
-        this.cheat_entries = entries.map(entry => ({ ...entry, enabled: false }));
+        this.cheat_entries = entries.map((entry) => ({
+          ...entry,
+          enabled: false,
+        }));
         // A new core is already clean. Never apply stored codes during boot.
-        if (entries.some(entry => entry.enabled)) Storage.set(Cheats.storageKey(this.console, this.id), {
-          version: 1, entries: this.cheat_entries,
-        });
+        if (entries.some((entry) => entry.enabled))
+          Storage.set(Cheats.storageKey(this.console, this.id), {
+            version: 1,
+            entries: this.cheat_entries,
+          });
       } catch (error) {
         console.error("Erro ao restaurar cheats:", error);
-        this.save_error = error.message || "Não foi possível restaurar os cheats deste jogo.";
+        this.save_error =
+          error.message || "Não foi possível restaurar os cheats deste jogo.";
       }
     },
     deactivateCheats() {
-      if (!this.cheat_entries.some(entry => entry.enabled)) return;
-      const clean = this.cheat_entries.map(entry => ({ ...entry, enabled: false }));
-      this.cheat_entries = Cheats.commit(Storage, this.nostalgist, this.console, this.id, this.cheat_entries, clean);
+      if (!this.cheat_entries.some((entry) => entry.enabled)) return;
+      const clean = this.cheat_entries.map((entry) => ({
+        ...entry,
+        enabled: false,
+      }));
+      this.cheat_entries = Cheats.commit(
+        Storage,
+        this.nostalgist,
+        this.console,
+        this.id,
+        this.cheat_entries,
+        clean,
+      );
     },
     async openCheats() {
       const instance = this.nostalgist;
-      if (!instance || this.cheats_open || this.save_busy || this.session_closed) return;
+      if (
+        !instance ||
+        this.cheats_open ||
+        this.save_busy ||
+        this.session_closed
+      )
+        return;
       const wasPaused = this.is_paused;
       this.cheats_open = true;
       try {
         Cheats.read(Storage, this.console, this.id); // preserve validation of stored data
         const entries = this.cheat_entries;
-        if (!Cheats.supported(instance)) throw new Error("Este núcleo não permite aplicar cheats. Reabra o jogo após atualizar o site.");
+        if (!Cheats.supported(instance))
+          throw new Error(
+            "Este núcleo não permite aplicar cheats. Reabra o jogo após atualizar o site.",
+          );
         await this.pause();
         if (this.session_closed || this.nostalgist !== instance) return;
         await CheatsDialog.open(Swal, {
-          profile: consoles.find(console => console.id === this.console)?.cheats,
+          profile: consoles.find((console) => console.id === this.console)
+            ?.cheats,
           entries,
           target: this.$refs.emulator,
           active: () => !this.session_closed && this.nostalgist === instance,
-          onChange: next => {
-            const result = Cheats.commit(Storage, instance, this.console, this.id, this.cheat_entries, next);
+          onChange: (next) => {
+            const result = Cheats.commit(
+              Storage,
+              instance,
+              this.console,
+              this.id,
+              this.cheat_entries,
+              next,
+            );
             this.cheat_entries = result;
             return result;
           },
         });
       } catch (error) {
-        await this.showError(error.message || "Não foi possível abrir os cheats.");
+        await this.showError(
+          error.message || "Não foi possível abrir os cheats.",
+        );
       } finally {
         this.cheats_open = false;
-        if (!wasPaused && !this.session_closed && this.nostalgist === instance) this.play();
+        if (!wasPaused && !this.session_closed && this.nostalgist === instance)
+          this.play();
       }
     },
     runMenuAction(action) {
@@ -521,9 +557,16 @@ export default {
       this.stopRewind();
     },
     canRewind() {
-      return !!this.nostalgist && !this.session_closed && !this.loading &&
-        !this.is_paused && !this.playback_applied_paused &&
-        !this.menu_open && !this.save_busy && !Swal.isVisible?.();
+      return (
+        !!this.nostalgist &&
+        !this.session_closed &&
+        !this.loading &&
+        !this.is_paused &&
+        !this.playback_applied_paused &&
+        !this.menu_open &&
+        !this.save_busy &&
+        !Swal.isVisible?.()
+      );
     },
     rewindInput(pressed, source) {
       if (pressed) {
@@ -556,9 +599,15 @@ export default {
       this.rewind_sources.clear();
     },
     rewindKeyDown(event) {
-      if (event.key !== "Backspace" || event.isComposing ||
-          event.target?.closest?.('input, textarea, select, [contenteditable]:not([contenteditable="false"])') ||
-          !this.canRewind()) return;
+      if (
+        event.key !== "Backspace" ||
+        event.isComposing ||
+        event.target?.closest?.(
+          'input, textarea, select, [contenteditable]:not([contenteditable="false"])',
+        ) ||
+        !this.canRewind()
+      )
+        return;
       event.preventDefault();
       event.stopImmediatePropagation();
       if (!event.repeat && !event.ctrlKey && !event.altKey && !event.metaKey)
@@ -642,17 +691,19 @@ export default {
         // RetroArch 1.21 needs a real layout even while the loading text is shown.
         await this.$nextTick?.();
         if (this.session_closed || attempt !== this.launch_id) return;
-        const size = this.handleResize() || (this.console === "gba"
-          ? { width: 240, height: 160 }
-          : { width: 320, height: 240 });
+        const size =
+          this.handleResize() ||
+          (this.console === "gba"
+            ? { width: 240, height: 160 }
+            : { width: 320, height: 240 });
 
         let config = {
           size,
           element: this.$refs.emulatorCanvas,
           signal: this.launch_controller.signal,
           rom: file,
-          resolveCoreJs: core => Cheats.coreUrl(core, "js"),
-          resolveCoreWasm: core => Cheats.coreUrl(core, "wasm"),
+          resolveCoreJs: (core) => Cheats.coreUrl(core, "js"),
+          resolveCoreWasm: (core) => Cheats.coreUrl(core, "wasm"),
           beforeLaunch: RetroArchCommands.configureLaunch,
           core: (() => {
             switch (this.console) {
@@ -674,7 +725,8 @@ export default {
           })(),
           retroarchConfig: {
             savestate_directory: RetroArchCommands.STATE_DIRECTORY,
-            core_options_path: "/home/web_user/retroarch/userdata/retroarch-core-options.cfg",
+            core_options_path:
+              "/home/web_user/retroarch/userdata/retroarch-core-options.cfg",
             system_directory: "/home/web_user/retroarch/userdata/system",
             rewind_enable: true,
             rewind_buffer_size: 20,
@@ -776,7 +828,10 @@ export default {
         try {
           this.deactivateCheats();
         } catch (error) {
-          this.showError(error.message || "Não foi possível desativar os cheats antes de reiniciar.");
+          this.showError(
+            error.message ||
+              "Não foi possível desativar os cheats antes de reiniciar.",
+          );
           return false;
         }
         const instance = this.nostalgist;
@@ -784,8 +839,10 @@ export default {
         if (this.is_paused) {
           this.play();
           setTimeout(() => {
-            if (!this.session_closed && this.nostalgist === instance) instance.sendCommand("RESET");
-          }, 10);
+            if (!this.session_closed && this.nostalgist === instance) {
+              instance.sendCommand("RESET");
+            }
+          }, 1000);
         } else {
           this.nostalgist.sendCommand("RESET");
         }
@@ -885,7 +942,13 @@ export default {
     },
     async exportSave() {
       const instance = this.nostalgist;
-      if (!instance || this.save_busy || this.cheats_open || this.session_closed) return;
+      if (
+        !instance ||
+        this.save_busy ||
+        this.cheats_open ||
+        this.session_closed
+      )
+        return;
       this.save_busy = true;
       this.save_error = null;
       const paused = this.is_paused;
@@ -929,7 +992,14 @@ export default {
       const file = event.target.files?.[0];
       event.target.value = "";
       const instance = this.nostalgist;
-      if (!file || !instance || this.save_busy || this.cheats_open || this.session_closed) return;
+      if (
+        !file ||
+        !instance ||
+        this.save_busy ||
+        this.cheats_open ||
+        this.session_closed
+      )
+        return;
       this.save_busy = true;
       this.save_error = null;
       try {
@@ -996,7 +1066,13 @@ export default {
     },
     async saveState(slot) {
       const instance = this.nostalgist;
-      if (!instance || this.session_closed || this.save_busy || this.cheats_open) return;
+      if (
+        !instance ||
+        this.session_closed ||
+        this.save_busy ||
+        this.cheats_open
+      )
+        return;
       this.save_busy = true;
       this.save_error = null;
       try {
@@ -1016,7 +1092,13 @@ export default {
     },
     async loadState(slot) {
       const instance = this.nostalgist;
-      if (!instance || this.session_closed || this.save_busy || this.cheats_open) return;
+      if (
+        !instance ||
+        this.session_closed ||
+        this.save_busy ||
+        this.cheats_open
+      )
+        return;
       this.save_busy = true;
       this.save_error = null;
       try {
@@ -1147,22 +1229,69 @@ export default {
 </script>
 
 <style scoped>
-#emulator :deep(.cheats-content) { color: #fff; text-align: left; }
-#emulator :deep(.cheats-dialog form) { display: grid; gap: 8px; }
+#emulator :deep(.cheats-content) {
+  color: #fff;
+  text-align: left;
+}
+#emulator :deep(.cheats-dialog form) {
+  display: grid;
+  gap: 8px;
+}
 #emulator :deep(.cheats-dialog input:not([type="checkbox"])),
 #emulator :deep(.cheats-dialog select),
 #emulator :deep(.cheats-dialog textarea) {
-  box-sizing: border-box; width: 100%; min-width: 0; padding: 10px;
-  color: #fff; background: #171727; border: 1px solid #777; border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 10px;
+  color: #fff;
+  background: #171727;
+  border: 1px solid #777;
+  border-radius: 4px;
 }
-#emulator :deep(.cheats-dialog textarea) { resize: vertical; font-family: monospace; }
-#emulator :deep(.cheats-dialog small) { display: block; font-size: 12px; line-height: 1.5; color: #ccc; }
-#emulator :deep(.cheats-dialog button) { justify-self: start; margin: 8px 0; font-size: 11px; }
-#emulator :deep(.cheats-list) { margin: 12px 0; max-height: 30dvh; overflow-y: auto; }
-#emulator :deep(.cheat-row) { display: flex; align-items: flex-start; gap: 10px; padding: 12px 0; border-top: 1px solid #555; cursor: pointer; }
-#emulator :deep(.cheat-row input) { width: 22px; height: 22px; flex-shrink: 0; accent-color: #faa914; }
-#emulator :deep(.cheat-row span) { min-width: 0; }
-#emulator :deep(.cheat-row code), #emulator :deep(.cheat-row strong) { display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
+#emulator :deep(.cheats-dialog textarea) {
+  resize: vertical;
+  font-family: monospace;
+}
+#emulator :deep(.cheats-dialog small) {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ccc;
+}
+#emulator :deep(.cheats-dialog button) {
+  justify-self: start;
+  margin: 8px 0;
+  font-size: 11px;
+}
+#emulator :deep(.cheats-list) {
+  margin: 12px 0;
+  max-height: 30dvh;
+  overflow-y: auto;
+}
+#emulator :deep(.cheat-row) {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 0;
+  border-top: 1px solid #555;
+  cursor: pointer;
+}
+#emulator :deep(.cheat-row input) {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  accent-color: #faa914;
+}
+#emulator :deep(.cheat-row span) {
+  min-width: 0;
+}
+#emulator :deep(.cheat-row code),
+#emulator :deep(.cheat-row strong) {
+  display: block;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
 #emulator :deep(.game-controls-text) {
   white-space: pre-line;
   text-align: left;
