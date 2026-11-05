@@ -143,3 +143,11 @@ O canvas permanece no layout durante CARREGANDO: visibility:hidden oculta a imag
 ### Identificação do canvas após launch
 
 Nostalgist 0.10 renomeia o elemento fornecido para id="canvas" em getElementOption(). As regras de posicionamento, tamanho CSS e limites usam a classe persistente .emulator-canvas, não #emulator-canvas. Os refs Vue continuam apontando para o mesmo elemento. Um seletor pelo ID original deixa de encontrar o canvas após a inicialização; regras CSS por esse ID também deixam de valer, permitindo que as dimensões intrínsecas do buffer voltem a aumentar o tamanho visual e realimentem o DPR.
+
+### Configuração explícita na inicialização
+
+RetroArchCommands.configureLaunch é chamado por beforeLaunch após Nostalgist escrever os arquivos. Define Module.arguments com o caminho da ROM e -c /home/web_user/retroarch/userdata/retroarch.cfg. O Nostalgist 0.10 não acrescenta -c automaticamente; o núcleo 1.21 pode buscar sua configuração padrão em /home/web_user/.config/retroarch, ignorando as opções do site. Como fornecer arguments também desativa o acréscimo automático da ROM no runner 0.10, o adaptador inclui explicitamente o caminho do conteúdo, preservando nomes com espaços.
+
+savestate_directory fica explícito em /home/web_user/retroarch/userdata/states, criado antes do início; core_options_path e system_directory também apontam para os arquivos/diretórios preparados pelo Nostalgist. Isso mantém os controles, rewind e o helper de saves alinhados à configuração que o núcleo realmente lê.
+
+Uma tela vermelha no Sonic pode ser a rotina de checksum do próprio jogo, não uma falha de desenho do canvas. Códigos que alteram ROM podem provocar isso durante a verificação inicial. Para diagnosticar, desmarcar os cheats do jogo e reiniciar; se funcionar, conferir a compatibilidade dos códigos e eventual código mestre para aquela revisão da ROM. Não aplicar um código mestre universal nem modificar a ROM automaticamente. Referência: [rotina CheckSumError do Sonic](https://github.com/sonicretro/s1disasm/blob/AS/sonic.asm).

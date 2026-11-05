@@ -644,6 +644,7 @@ export default {
           rom: file,
           resolveCoreJs: core => Cheats.coreUrl(core, "js"),
           resolveCoreWasm: core => Cheats.coreUrl(core, "wasm"),
+          beforeLaunch: RetroArchCommands.configureLaunch,
           core: (() => {
             switch (this.console) {
               case "nes":
@@ -663,6 +664,9 @@ export default {
             }
           })(),
           retroarchConfig: {
+            savestate_directory: RetroArchCommands.STATE_DIRECTORY,
+            core_options_path: "/home/web_user/retroarch/userdata/retroarch-core-options.cfg",
+            system_directory: "/home/web_user/retroarch/userdata/system",
             rewind_enable: true,
             rewind_buffer_size: 20,
             rewind_granularity: 1,

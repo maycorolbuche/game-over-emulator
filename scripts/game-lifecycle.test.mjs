@@ -148,6 +148,42 @@ test('sem export direto usa transporte moderno, e módulos legados mantêm stdin
   legacy.instance.sendCommand('RESET'); assert.deepEqual(legacy.stdin, ['RESET']);
 });
 
+test('beforeLaunch informa ROM e configuração explícita ao runner real do Nostalgist', () => {
+  const module = {}; const directories = []; let actualArgs;
+  const fileName = 'Sonic The Hedgehog (USA).zip';
+  const instance = {
+    getEmscriptenModule: () => module,
+    getEmulatorOptions: () => ({ rom: [{ fileName }] }),
+    getEmscriptenFS: () => ({ mkdirTree: path => directories.push(path) }),
+  };
+  RetroArchCommands.configureLaunch(instance);
+  RetroArchCommands.configureLaunch(instance);
+  assert.deepEqual(module.arguments, [
+    '/home/web_user/retroarch/userdata/content/' + fileName,
+    '-c', RetroArchCommands.CONFIG_PATH,
+  ]);
+  assert.ok(directories.includes(RetroArchCommands.STATE_DIRECTORY));
+  // Execute the installed runner unchanged, avoiding BrowserFS initialization.
+  const library = readFileSync(new URL(import.meta.resolve('nostalgist')), 'utf8');
+  const start = library.indexOf('  runMain() {');
+  const end = library.indexOf('\n  async setupEmscripten()', start);
+  assert.ok(start > 0 && end > start);
+  const runMain = new Function('checkIsAborted', `return ({${library.slice(start, end)}}).runMain`)(() => {});
+  module.callMain = args => { actualArgs = [...args]; };
+  runMain.call({ options: { rom: [{ fileName }] }, getEmscripten: () => ({ Module: module }), postRun() {} });
+  assert.deepEqual(actualArgs, module.arguments);
+});
+
+test('configuração explícita substitui caminho antigo sem perder outros argumentos', () => {
+  const module = { arguments: ['--verbose', '-c', '/old.cfg'] };
+  RetroArchCommands.configureLaunch({
+    getEmscriptenModule: () => module,
+    getEmulatorOptions: () => ({ rom: [{ fileName: 'game.zip' }] }),
+    getEmscriptenFS: () => ({ mkdirTree() {} }),
+  });
+  assert.deepEqual(module.arguments, ['--verbose', '/home/web_user/retroarch/userdata/content/game.zip', '-c', RetroArchCommands.CONFIG_PATH]);
+});
+
 function rewind(t) {
   const { vm, commands } = playback(t);
   let sequence = 0;
@@ -318,6 +354,8 @@ test('sucesso usa o canvas próprio e impede inicializações duplicadas', async
     assert.equal(config.retroarchConfig.rewind_buffer_size, 20);
     assert.equal(config.retroarchConfig.rewind_granularity, 1);
     assert.equal(config.retroarchConfig.input_rewind, 'nul');
+    assert.equal(config.beforeLaunch, RetroArchCommands.configureLaunch);
+    assert.equal(config.retroarchConfig.savestate_directory, RetroArchCommands.STATE_DIRECTORY);
     return pending.promise;
   });
   const first = vm.launchGame();
