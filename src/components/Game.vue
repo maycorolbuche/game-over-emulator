@@ -733,7 +733,8 @@ export default {
           rom: file,
           resolveCoreJs: (core) => Cheats.coreUrl(core, "js"),
           resolveCoreWasm: (core) => Cheats.coreUrl(core, "wasm"),
-          beforeLaunch: RetroArchCommands.configureLaunch,
+          beforeLaunch: (instance) =>
+            RetroArchCommands.configureLaunch(instance, this.console),
           core: (() => {
             switch (this.console) {
               case "nes":
@@ -766,11 +767,6 @@ export default {
             input_player2_turbo: "nul",
             savestate_thumbnail_enable: false,
             ...this.retroarch_controls,
-            // Genesis Plus GX: RETRO_DEVICE_SUBCLASS(JOYPAD, 1) = 513.
-            // Bindings alone do not select the controller exposed to the ROM.
-            ...(this.console === "gens"
-              ? { input_libretro_device_p1: 513, input_libretro_device_p2: 513 }
-              : {}),
           },
         };
         const instance = await Nostalgist.launch(config);
