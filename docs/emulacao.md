@@ -139,3 +139,7 @@ Sem esse adaptador, a interface pode mudar o indicador de pausa sem pausar o nú
 ### Canvas durante o carregamento
 
 O canvas permanece no layout durante CARREGANDO: visibility:hidden oculta a imagem sem usar display:none. launchGame aguarda nextTick, calcula o encaixe visual e passa size explícito ao Nostalgist; se ainda não houver medida positiva, usa apenas como tamanho inicial 320×240 (GBA 240×160). O núcleo continua ajustando seu buffer ao tamanho CSS observado. Isso evita canvasInitialSize de 0×0 na inicialização do Nostalgist 0.10. Fechar a sessão enquanto aguarda o layout cancela o início antes de chamar Nostalgist.launch.
+
+### Identificação do canvas após launch
+
+Nostalgist 0.10 renomeia o elemento fornecido para id="canvas" em getElementOption(). As regras de posicionamento, tamanho CSS e limites usam a classe persistente .emulator-canvas, não #emulator-canvas. Os refs Vue continuam apontando para o mesmo elemento. Um seletor pelo ID original deixa de encontrar o canvas após a inicialização; regras CSS por esse ID também deixam de valer, permitindo que as dimensões intrínsecas do buffer voltem a aumentar o tamanho visual e realimentem o DPR.

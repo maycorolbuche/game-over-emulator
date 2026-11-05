@@ -40,7 +40,7 @@ test('canvas mantém tamanho CSS quando núcleo muda buffer e remove width/heigh
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   assert.match(source, /width: var\(--canvas-width, 100%\) !important/);
   assert.match(source, /height: var\(--canvas-height, 100%\) !important/);
-  assert.match(source, /#emulator-canvas\s*\{\s*position: absolute/);
+  assert.match(source, /\.emulator-canvas\s*\{\s*position: absolute/);
   for (const dpr of [1, 1.25, 1.5, 2, 3]) {
     for (let i = 0; i < 30; i++) {
       vm.handleResize();
@@ -60,6 +60,38 @@ test('canvas mantém tamanho CSS quando núcleo muda buffer e remove width/heigh
   assert.equal(parseFloat(properties.get('--canvas-height')), 292.5);
   vm.console = 'gba'; vm.handleResize();
   assert.equal(parseFloat(properties.get('--canvas-height')), 260);
+});
+test('rotina real do Nostalgist troca o ID, mas preserva a classe usada pelo CSS', t => {
+  const previousDocument = globalThis.document;
+  const previousCanvas = globalThis.HTMLCanvasElement;
+  class Canvas {
+    constructor() { this.id = 'emulator-canvas'; this.className = 'emulator-canvas'; }
+  }
+  globalThis.document = {};
+  globalThis.HTMLCanvasElement = Canvas;
+  t.after(() => {
+    if (previousDocument === undefined) delete globalThis.document;
+    else globalThis.document = previousDocument;
+    if (previousCanvas === undefined) delete globalThis.HTMLCanvasElement;
+    else globalThis.HTMLCanvasElement = previousCanvas;
+  });
+  const canvas = new Canvas();
+  // Extract the installed library's unchanged routine: importing its entire
+  // bundle in Node would initialize BrowserFS, which requires browser globals.
+  const library = readFileSync(new URL(import.meta.resolve('nostalgist')), 'utf8');
+  const start = library.indexOf('  getElementOption() {');
+  const end = library.indexOf('\n  getRetroarchCoreOption()', start);
+  assert.ok(start > 0 && end > start);
+  const method = new Function(`return ({${library.slice(start, end)}}).getElementOption`)();
+  const result = method.call({ options: { element: canvas } });
+  assert.equal(result, canvas);
+  assert.equal(canvas.id, 'canvas');
+  assert.equal(canvas.className, 'emulator-canvas');
+  const { descriptor } = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8'));
+  assert.match(descriptor.template.content, /class="emulator-canvas"/);
+  const css = descriptor.styles.map(style => style.content).join('\n');
+  assert.match(css, /\.emulator-canvas\s*\{/);
+  assert.doesNotMatch(css, /#emulator-canvas\s*\{/);
 });
 function game() {
   const source = parse(readFileSync(new URL('../src/components/Game.vue', import.meta.url),'utf8')).descriptor.script.content.replace(/^import .*;\s*$/gm,'').replace('export default','return');
