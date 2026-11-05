@@ -358,7 +358,7 @@ export default {
           restart: "TAB",
           accelerate: "'",
           rewind: "BACKSPACE",
-          turbo: ["SHIFT", "BOTÃO DE AÇÃO"],
+          turbo: ["SHIFT", "BOTÃO"],
         },
         ...Controls.visibleControls(this.console, this.controls),
       };
@@ -399,15 +399,22 @@ export default {
   methods: {
     setupTurbo() {
       const instance = this.nostalgist;
-      this.turbo_input = markRaw(TurboInput.createTurboInput({
-        mapping: TurboInput.bindings(this.console, this.controls),
-        emit: (button, down, player) => instance[down ? "pressDown" : "pressUp"]({ button, player }),
-        active: () => this.canRewind() && !this.cheats_open,
-        target: () => this.$refs.emulatorCanvas,
-      }));
+      this.turbo_input = markRaw(
+        TurboInput.createTurboInput({
+          mapping: TurboInput.bindings(this.console, this.controls),
+          emit: (button, down, player) =>
+            instance[down ? "pressDown" : "pressUp"]({ button, player }),
+          active: () => this.canRewind() && !this.cheats_open,
+          target: () => this.$refs.emulatorCanvas,
+        }),
+      );
     },
-    turboKeyDown(event) { this.turbo_input?.keydown(event); },
-    turboKeyUp(event) { this.turbo_input?.keyup(event); },
+    turboKeyDown(event) {
+      this.turbo_input?.keydown(event);
+    },
+    turboKeyUp(event) {
+      this.turbo_input?.keyup(event);
+    },
     restoreCheats() {
       try {
         const entries = Cheats.read(Storage, this.console, this.id);
@@ -468,7 +475,8 @@ export default {
           entries,
           target: this.$refs.emulator,
           active: () => !this.session_closed && this.nostalgist === instance,
-          onClosed: () => this.$refs.emulatorCanvas?.focus?.({ preventScroll: true }),
+          onClosed: () =>
+            this.$refs.emulatorCanvas?.focus?.({ preventScroll: true }),
           onChange: (next) => {
             const result = Cheats.commit(
               Storage,
@@ -524,8 +532,8 @@ export default {
         fullscreen: "Tela cheia",
         restart: "Reiniciar",
         accelerate: "Acelerar",
-        rewind: "Rebobinar (segurar)",
-        turbo: "Turbo (segurar)",
+        rewind: "Rebobinar",
+        turbo: "Turbo",
       };
       const text = Object.entries(this.game_controls)
         .map(
@@ -567,7 +575,8 @@ export default {
         (pressed && (this.menu_open || this.is_paused || this.save_busy))
       )
         return;
-      if (this.turbo_input && TurboInput.isAction(button)) this.turbo_input.touchInput(input, pressed, 1);
+      if (this.turbo_input && TurboInput.isAction(button))
+        this.turbo_input.touchInput(input, pressed, 1);
       else this.nostalgist[pressed ? "pressDown" : "pressUp"](input, 1);
     },
     releaseTouch() {
@@ -838,7 +847,8 @@ export default {
             this.playback_applied_paused = this.is_paused;
           }
           this.finishPlayback(true);
-          if (!this.is_paused && !Swal.isVisible?.()) this.$refs?.emulatorCanvas?.focus?.({ preventScroll: true });
+          if (!this.is_paused && !Swal.isVisible?.())
+            this.$refs?.emulatorCanvas?.focus?.({ preventScroll: true });
         } catch (error) {
           this.is_paused = this.playback_applied_paused;
           this.finishPlayback(false);
