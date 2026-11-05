@@ -4,14 +4,15 @@ import { readFileSync } from 'node:fs';
 import { parse } from '@vue/compiler-sfc';
 import { markRaw } from 'vue';
 import * as Controls from '../src/helpers/Controls.mjs';
+import * as Cheats from '../src/helpers/Cheats.mjs';
 
 // Execute the real component methods, replacing only browser/emulator services.
 function setup(launch, swal = {}) {
   const source = readFileSync(new URL('../src/components/Game.vue', import.meta.url), 'utf8');
   const { descriptor } = parse(source);
   const script = descriptor.script.content.replace(/^import .*;\s*$/gm, '').replace('TouchControls,', '').replace('export default', 'const EmulatorState = { captureState: instance => instance.saveState(), restoreState: (instance, state) => instance.loadState(state) }; return');
-  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', script)(
-    { launch }, { isVisible: () => false, ...swal }, {}, {}, {}, {}, markRaw, Controls,
+  const options = new Function('Nostalgist', 'Swal', 'Storage', 'Conversions', 'Screen', 'Key', 'markRaw', 'Controls', 'Cheats', script)(
+    { launch }, { isVisible: () => false, ...swal }, { get: () => null }, {}, {}, {}, markRaw, Controls, Cheats,
   );
   const canvas = {};
   const vm = { ...options.data(), filename: 'game.zip', console: 'nes', retroarch_controls: {}, $refs: { emulatorCanvas: canvas } };

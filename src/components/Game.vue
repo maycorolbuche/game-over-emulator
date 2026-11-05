@@ -198,6 +198,13 @@
           <button
             class="link"
             :disabled="!nostalgist || save_busy"
+            @click="runMenuAction(() => openCheats())"
+          >
+            CHEATS
+          </button>
+          <button
+            class="link"
+            :disabled="!nostalgist || save_busy"
             @click="runMenuAction(() => exportSave())"
           >
             EXPORTAR
@@ -258,6 +265,9 @@ import { markRaw } from "vue";
 import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
 import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import * as Controls from "@/helpers/Controls.mjs";
+import * as Cheats from "@/helpers/Cheats.mjs";
+import * as CheatsDialog from "@/helpers/CheatsDialog.mjs";
+import consoles from "@/json/consoles.json";
 import TouchControls from "@/components/TouchControls.vue";
 import { fitScreen } from "@/helpers/TouchInput.mjs";
 import Storage from "@/helpers/Storage.js";
@@ -303,6 +313,8 @@ export default {
       message: null,
       loading: false,
       nostalgist: null,
+      cheats_open: false,
+      cheat_entries: [],
       rewind_sources: new Set(),
       rewind_frame: null,
       interact: true,
@@ -380,6 +392,44 @@ export default {
     },
   },
   methods: {
+    restoreCheats() {
+      try {
+        const entries = Cheats.read(Storage, this.console, this.id);
+        if (entries.some(entry => entry.enabled)) Cheats.apply(this.nostalgist, entries);
+        this.cheat_entries = entries;
+      } catch (error) {
+        console.error("Erro ao restaurar cheats:", error);
+        this.save_error = error.message || "Não foi possível restaurar os cheats deste jogo.";
+      }
+    },
+    async openCheats() {
+      const instance = this.nostalgist;
+      if (!instance || this.cheats_open || this.save_busy || this.session_closed) return;
+      const wasPaused = this.is_paused;
+      this.cheats_open = true;
+      try {
+        const entries = Cheats.read(Storage, this.console, this.id);
+        if (!Cheats.supported(instance)) throw new Error("Este núcleo não permite aplicar cheats. Reabra o jogo após atualizar o site.");
+        await this.pause();
+        if (this.session_closed || this.nostalgist !== instance) return;
+        await CheatsDialog.open(Swal, {
+          profile: consoles.find(console => console.id === this.console)?.cheats,
+          entries,
+          target: this.$refs.emulator,
+          active: () => !this.session_closed && this.nostalgist === instance,
+          onChange: next => {
+            const result = Cheats.commit(Storage, instance, this.console, this.id, this.cheat_entries, next);
+            this.cheat_entries = result;
+            return result;
+          },
+        });
+      } catch (error) {
+        await this.showError(error.message || "Não foi possível abrir os cheats.");
+      } finally {
+        this.cheats_open = false;
+        if (!wasPaused && !this.session_closed && this.nostalgist === instance) this.play();
+      }
+    },
     runMenuAction(action) {
       if (this.mobile_layout && this.menu_open) {
         const resume = this.resume_after_menu;
@@ -582,6 +632,8 @@ export default {
           element: this.$refs.emulatorCanvas,
           signal: this.launch_controller.signal,
           rom: file,
+          resolveCoreJs: core => Cheats.coreUrl(core, "js"),
+          resolveCoreWasm: core => Cheats.coreUrl(core, "wasm"),
           core: (() => {
             switch (this.console) {
               case "nes":
@@ -617,6 +669,7 @@ export default {
         }
         this.nostalgist = markRaw(instance);
         this.playback_applied_paused = false;
+        this.restoreCheats();
         this.$nextTick?.(this.handleResize);
       } catch (error) {
         if (!this.session_closed && attempt === this.launch_id) {
@@ -631,6 +684,7 @@ export default {
       }
     },
     disposeGame() {
+      if (this.cheats_open) Swal.close();
       this.releaseTouch();
       if (this.session_closed) return;
       this.session_closed = true;
@@ -655,6 +709,7 @@ export default {
       return this.requestPlayback(true);
     },
     play() {
+      if (this.cheats_open) return Promise.resolve(false);
       return this.requestPlayback(false);
     },
     finishPlayback(applied) {
@@ -712,6 +767,7 @@ export default {
       }
     },
     restartGame() {
+      if (this.cheats_open) return;
       if (this.nostalgist) {
         if (this.fullscreen) {
           this.toggleFullscreen();
@@ -734,6 +790,7 @@ export default {
       }
     },
     close() {
+      if (this.cheats_open) return;
       this.pause();
       Swal.fire({
         title: "Deseja fechar este jogo?",
@@ -796,7 +853,7 @@ export default {
     },
     async exportSave() {
       const instance = this.nostalgist;
-      if (!instance || this.save_busy || this.session_closed) return;
+      if (!instance || this.save_busy || this.cheats_open || this.session_closed) return;
       this.save_busy = true;
       this.save_error = null;
       const paused = this.is_paused;
@@ -840,7 +897,7 @@ export default {
       const file = event.target.files?.[0];
       event.target.value = "";
       const instance = this.nostalgist;
-      if (!file || !instance || this.save_busy || this.session_closed) return;
+      if (!file || !instance || this.save_busy || this.cheats_open || this.session_closed) return;
       this.save_busy = true;
       this.save_error = null;
       try {
@@ -907,7 +964,7 @@ export default {
     },
     async saveState(slot) {
       const instance = this.nostalgist;
-      if (!instance || this.session_closed || this.save_busy) return;
+      if (!instance || this.session_closed || this.save_busy || this.cheats_open) return;
       this.save_busy = true;
       this.save_error = null;
       try {
@@ -927,7 +984,7 @@ export default {
     },
     async loadState(slot) {
       const instance = this.nostalgist;
-      if (!instance || this.session_closed || this.save_busy) return;
+      if (!instance || this.session_closed || this.save_busy || this.cheats_open) return;
       this.save_busy = true;
       this.save_error = null;
       try {
@@ -1055,6 +1112,22 @@ export default {
 </script>
 
 <style scoped>
+#emulator :deep(.cheats-content) { color: #fff; text-align: left; }
+#emulator :deep(.cheats-dialog form) { display: grid; gap: 8px; }
+#emulator :deep(.cheats-dialog input:not([type="checkbox"])),
+#emulator :deep(.cheats-dialog select),
+#emulator :deep(.cheats-dialog textarea) {
+  box-sizing: border-box; width: 100%; min-width: 0; padding: 10px;
+  color: #fff; background: #171727; border: 1px solid #777; border-radius: 4px;
+}
+#emulator :deep(.cheats-dialog textarea) { resize: vertical; font-family: monospace; }
+#emulator :deep(.cheats-dialog small) { display: block; font-size: 12px; line-height: 1.5; color: #ccc; }
+#emulator :deep(.cheats-dialog button) { justify-self: start; margin: 8px 0; font-size: 11px; }
+#emulator :deep(.cheats-list) { margin: 12px 0; max-height: 30dvh; overflow-y: auto; }
+#emulator :deep(.cheat-row) { display: flex; align-items: flex-start; gap: 10px; padding: 12px 0; border-top: 1px solid #555; cursor: pointer; }
+#emulator :deep(.cheat-row input) { width: 22px; height: 22px; flex-shrink: 0; accent-color: #faa914; }
+#emulator :deep(.cheat-row span) { min-width: 0; }
+#emulator :deep(.cheat-row code), #emulator :deep(.cheat-row strong) { display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
 #emulator :deep(.game-controls-text) {
   white-space: pre-line;
   text-align: left;
