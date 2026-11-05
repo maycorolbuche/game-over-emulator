@@ -111,3 +111,7 @@ Use npm run test:pwa para validar manifesto/ícones, geração e versionamento d
 ## Testes de cheats
 
 npm run test:cheats (também no CI) cobre máscaras reais do consoles.json, códigos livres/compostos, cadastro ativado, persistência isolada por console/jogo, dados corrompidos, quota com restauração da lista anterior, limpeza ao desativar o último código, liberação de memória, núcleo sem exports, formulário/checkbox com DOM simulado, texto sem interpolação HTML e pausa/retomada pelos métodos reais de Game.vue. Não executa ROM nem garante efeito dos códigos no WebAssembly. Após publicar, conferir cada núcleo com uma ROM e código compatíveis, recarregar a página, ativar/desativar, abrir/fechar o modal em pausa e execução, salvar/carregar e usar fullscreen/mobile.
+
+## Regressão no transporte dos comandos
+
+npm run test:emulator cobre também um núcleo 1.21 simulado que ignora stdin: reproduz a falha antiga, verifica a instalação do adaptador pelo launch, pausa/retomada com debounce, captura/restauração pelos métodos reais de EmulatorState.mjs, envio de REWIND/FAST_FORWARD pela API moderna e fallback para módulos legados. A fila antiga precisa permanecer vazia nos cenários modernos. Os testes não executam WASM; após publicar, validar pausa, continuar, salvar/carregar, exportar/importar, Backspace e aceleração com ROM real.

@@ -266,6 +266,7 @@ import * as SaveTransfer from "@/helpers/SaveTransfer.mjs";
 import * as EmulatorState from "@/helpers/EmulatorState.mjs";
 import * as Controls from "@/helpers/Controls.mjs";
 import * as Cheats from "@/helpers/Cheats.mjs";
+import * as RetroArchCommands from "@/helpers/RetroArchCommands.mjs";
 import * as CheatsDialog from "@/helpers/CheatsDialog.mjs";
 import consoles from "@/json/consoles.json";
 import TouchControls from "@/components/TouchControls.vue";
@@ -667,6 +668,7 @@ export default {
           instance.exit({ removeCanvas: false });
           return;
         }
+        RetroArchCommands.connect(instance);
         this.nostalgist = markRaw(instance);
         this.playback_applied_paused = false;
         this.restoreCheats();
