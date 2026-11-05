@@ -9,6 +9,25 @@ const exportsByCommand = {
 };
 const connected = new WeakSet();
 
+export const CONFIG_PATH = '/home/web_user/retroarch/userdata/retroarch.cfg';
+export const STATE_DIRECTORY = '/home/web_user/retroarch/userdata/states';
+
+export function configureLaunch(instance) {
+  const module = instance.getEmscriptenModule();
+  const fileName = instance.getEmulatorOptions().rom[0]?.fileName;
+  if (!fileName) throw new Error('Não foi possível identificar a ROM para iniciar o núcleo.');
+  const romPath = `/home/web_user/retroarch/userdata/content/${fileName}`;
+  const args = [...(module.arguments || [])];
+  // Providing Module.arguments disables 0.10's automatic ROM argument: retain it.
+  if (!args.includes(romPath)) args.push(romPath);
+  for (let index = args.length - 1; index >= 0; index--) {
+    if (args[index] === '-c' || args[index] === '--config') args.splice(index, 2);
+  }
+  args.push('-c', CONFIG_PATH);
+  instance.getEmscriptenFS().mkdirTree(STATE_DIRECTORY);
+  module.arguments = args;
+}
+
 export function connect(instance) {
   const emulator = instance.getEmulator();
   if (connected.has(emulator)) return;
