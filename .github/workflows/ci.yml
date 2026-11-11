@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   validate:
-    name: Catálogo, testes e build
+    name: "CI / Validação"
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
