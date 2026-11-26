@@ -15,6 +15,14 @@ Há configuração de rewrite no vercel.json para servir a SPA em rotas internas
 
 O router usa createWebHistory e não configura base; o Vite também não define base personalizada. Hospedagem em subdiretório exige revisar ambos.
 
+## SEO e indexação
+
+O HTML inicial contém o título, a descrição e as tags Open Graph da página inicial. Após a navegação, o Vue atualiza título e descrição para o catálogo, os consoles ativos, os jogos ativos e a página Sobre. Endereços inválidos recebem `noindex` após a renderização. O fallback da hospedagem ainda pode retornar HTTP 200 para esses endereços.
+
+Configure `VITE_SITE_URL` com a origem HTTPS pública (por exemplo, `https://jogos.example.com`) no ambiente de build e publique novamente. A aplicação usa essa origem para gerar a URL canônica de cada rota válida, sem parâmetros de consulta ou fragmentos. Sem essa configuração, a aplicação omite a tag canônica.
+
+Após publicar, confira a página inicial e links diretos para um console e um jogo na Inspeção de URL do Google Search Console. Verifique também o HTML renderizado de um endereço inválido.
+
 ## Dependências externas
 
 O navegador precisa alcançar as URLs de ROMs, imagens e recursos usados pelo Nostalgist. Falhas de origem, CORS ou bloqueios de rede podem impedir o jogo mesmo com o frontend carregado. Alterações de catálogo precisam de novo build; substituição de arquivos externos também depende da publicação e cache da respectiva origem.

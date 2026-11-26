@@ -5,12 +5,12 @@
       style="z-index: 0"
     >
       <logo size="15vmin" />
+      <h1 class="text-center h4 mt-3">Jogos clássicos online grátis</h1>
       <div class="text-center font-weight-bold p-3">
-        Jogue jogos antigos, gratuitos e online, sem a necessidade de downloads
-        ou cadastros. Nossa missão é preservar a história dos jogos, e
-        possibilitar que as pessoas sejam felizes, jogando os clássicos de
-        sempre.
+        Jogue clássicos de Nintendo, Super Nintendo, Mega Drive, Master System
+        e Game Boy Advance direto no navegador, sem cadastro nem instalação.
       </div>
+      <router-link to="/games">Explorar jogos por console</router-link>
     </div>
 
     <div style="z-index: -10">
