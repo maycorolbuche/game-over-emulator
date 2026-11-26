@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
+import { installSeo } from './router/seo.js';
 
 import GTag from 'vue-gtag';
 import shortkey from 'vue3-shortkey';
@@ -10,6 +11,8 @@ import '@/assets/css/swal.css';
 
 import { initPwa } from '@/helpers/Pwa.mjs';
 if (import.meta.env.PROD) initPwa();
+
+installSeo(router);
 
 createApp(App)
     .use(GTag, {

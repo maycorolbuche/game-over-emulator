@@ -56,8 +56,8 @@
         v-for="(rom, key) in roms"
         :key="key"
         class="rom-card d-flex flex-column align-center"
-        href="javascript:"
-        @click="openGame(rom, consol)"
+        :href="$router.resolve({ name: 'Game', params: { console_id: consol.id, game_id: rom.id } }).href"
+        @click.left.exact.prevent="openGame(rom)"
       >
         <img
           v-if="rom.image"

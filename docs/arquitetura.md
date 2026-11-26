@@ -44,7 +44,7 @@ O catálogo é importado no frontend, não consultado em uma API. A busca no cab
 | /about | About | About.vue |
 | /:pathMatch(.*)* | NotFound | NotFound.vue |
 
-Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game.vue dentro do modal. Abrir e fechar o jogo atualiza a rota. Console inexistente ou inativo mostra “Console não encontrado”. Jogo inexistente, inativo ou pertencente a outro console mostra “Jogo não encontrado”. A URL é preservada, com links para retornar aos jogos do console válido ou aos consoles. A sessão é derivada dos parâmetros reativos, sem watcher que redireciona ao ler a rota; assim voltar/avançar atualiza a sessão sem novos pushes. A rota catch-all mostra “Página não encontrada” para demais caminhos. Como SPA estática, essa tela não configura um status HTTP 404 no servidor.
+Games.vue resolve console e jogo pelos JSONs, monta as URLs externas e abre Game.vue dentro do modal. Os cartões têm links para as rotas dos jogos. Abrir e fechar o jogo atualiza a rota. Console inexistente ou inativo mostra “Console não encontrado”. Jogo inexistente, inativo ou pertencente a outro console mostra “Jogo não encontrado”. A URL é preservada, com links para retornar aos jogos do console válido ou aos consoles. A sessão é derivada dos parâmetros reativos, sem watcher que redireciona ao ler a rota; assim voltar/avançar atualiza a sessão sem novos pushes. A rota catch-all mostra “Página não encontrada” para demais caminhos. Como SPA estática, essa tela não configura um status HTTP 404 no servidor.
 
 ## Integrações e dados
 
